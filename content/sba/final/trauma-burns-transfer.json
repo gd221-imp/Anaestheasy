@@ -1,0 +1,114 @@
+[
+  {
+    "id": "Q174",
+    "ar": "Trauma, burns & transfer",
+    "sb": "Burns fluid",
+    "q": "A 70 kg man has 30% total body surface area partial- and full-thickness burns. Using the Parkland formula, how much crystalloid should he receive in the first 8 hours from the time of the burn?",
+    "o": [
+      "2100 mL",
+      "8400 mL",
+      "12600 mL",
+      "4200 mL",
+      "6300 mL"
+    ],
+    "a": 3,
+    "why": "Parkland: 4 mL × kg × %TBSA over 24 hours = 4 × 70 × 30 = 8400 mL; half in the first 8 hours from the time of injury (4200 mL), the rest over 16 hours. Superficial (erythema) burns are excluded. Titrate to urine output 0.5 mL/kg/h in adults (1 mL/kg/h in children); avoid over-resuscitation ('fluid creep').",
+    "st": "st2-136"
+  },
+  {
+    "id": "Q175",
+    "ar": "Trauma, burns & transfer",
+    "sb": "Inhalational injury",
+    "q": "A man rescued from a house fire has a hoarse voice, stridor, singed nasal hair and carbonaceous sputum. Saturations are 98%. What is the most appropriate airway management?",
+    "o": [
+      "High-flow nasal oxygen and observe",
+      "Delay intubation until SpO2 falls",
+      "Early intubation with an uncut tube by an experienced anaesthetist before transfer",
+      "Observe and give nebulised adrenaline",
+      "Elective tracheostomy under local anaesthesia"
+    ],
+    "a": 2,
+    "why": "Signs of upper airway thermal injury (stridor, hoarseness, facial or oral burns, soot in the mouth) predict progressive oedema, which can make later intubation impossible. Secure the airway early with an uncut (large) tube before oedema develops and before transfer. Pulse oximetry overestimates oxygenation in carbon monoxide poisoning; check COHb and consider cyanide.",
+    "st": "st2-136"
+  },
+  {
+    "id": "Q176",
+    "ar": "Trauma, burns & transfer",
+    "sb": "Carbon monoxide / cyanide",
+    "q": "A fire victim has a profound lactic acidosis (lactate 12 mmol/L) despite adequate oxygenation and fluid resuscitation, with COHb only 8%. What is the most likely additional diagnosis and treatment?",
+    "o": [
+      "Carbon monoxide poisoning; hyperbaric oxygen only",
+      "Septic shock; antibiotics",
+      "Methaemoglobinaemia; methylene blue",
+      "Hypovolaemia; more fluid",
+      "Cyanide poisoning; hydroxocobalamin"
+    ],
+    "a": 4,
+    "why": "Burning plastics release hydrogen cyanide, which blocks cytochrome oxidase and causes severe lactic acidosis despite good oxygen delivery. Hydroxocobalamin (5 g IV) binds cyanide to form cyanocobalamin and is safe to give empirically. Treat CO poisoning with 100% oxygen; hyperbaric oxygen is considered in selected cases.",
+    "st": "st2-136"
+  },
+  {
+    "id": "Q177",
+    "ar": "Trauma, burns & transfer",
+    "sb": "Major haemorrhage",
+    "q": "A trauma patient is bleeding heavily and the major haemorrhage protocol is activated. When should tranexamic acid be given?",
+    "o": [
+      "1 g IV as soon as possible within 3 hours of injury, then 1 g over 8 hours",
+      "After 6 hours if bleeding continues",
+      "4 g as a single bolus at 4 hours",
+      "Only after laboratory evidence of fibrinolysis",
+      "Only in head injury"
+    ],
+    "a": 0,
+    "why": "CRASH-2 showed reduced death from bleeding when TXA was given within 3 hours; benefit is greatest within 1 hour and given after 3 hours it may be harmful. Damage control resuscitation: early balanced blood products (ratio around 1:1 red cells to plasma), permissive hypotension until haemorrhage control (not in TBI), avoid hypothermia and acidosis, and use calcium and viscoelastic testing.",
+    "st": "st2-119"
+  },
+  {
+    "id": "Q178",
+    "ar": "Trauma, burns & transfer",
+    "sb": "Thoracic trauma",
+    "q": "After a high-speed car crash, a patient is hypotensive with distended neck veins, absent breath sounds and a hyper-resonant right chest. What should be done immediately?",
+    "o": [
+      "CT scan",
+      "Chest X-ray",
+      "Finger thoracostomy or needle decompression of the right chest",
+      "Intubate before any other intervention",
+      "Pericardiocentesis"
+    ],
+    "a": 2,
+    "why": "These are signs of tension pneumothorax, a clinical diagnosis requiring immediate decompression (ATLS 10th edition: needle at the 4th/5th intercostal space mid-axillary line in adults, or finger thoracostomy in ventilated patients), followed by a chest drain. Imaging should not delay treatment. Positive pressure ventilation can worsen a tension pneumothorax.",
+    "st": null
+  },
+  {
+    "id": "Q179",
+    "ar": "Trauma, burns & transfer",
+    "sb": "Facial trauma",
+    "q": "A patient with severe midface trauma (suspected Le Fort III fracture) needs a definitive airway for surgery. Which route is most appropriate for intraoperative airway management to allow dental occlusion to be checked?",
+    "o": [
+      "Orotracheal intubation only",
+      "Supraglottic airway",
+      "Nasotracheal intubation in all cases",
+      "Jet ventilation via the nose",
+      "Submental intubation or tracheostomy"
+    ],
+    "a": 4,
+    "why": "Surgeons need to check occlusion (wire the jaws), so an oral tube is in the way, and nasal intubation is relatively contraindicated with a possible base-of-skull fracture (Le Fort II/III). Submental intubation (tube brought out under the chin) or tracheostomy (if long-term ventilation needed) solves both problems.",
+    "st": "st2-128"
+  },
+  {
+    "id": "Q180",
+    "ar": "Trauma, burns & transfer",
+    "sb": "Drowning",
+    "q": "A 15-year-old is pulled from cold water after 20 minutes' submersion. He is in cardiac arrest and his core temperature is 27 °C. What modification to ALS is appropriate?",
+    "o": [
+      "Use only passive rewarming",
+      "Give double doses of adrenaline",
+      "Stop resuscitation immediately",
+      "Withhold adrenaline and limit to 3 shocks until temperature is above 30 °C, and rewarm actively (ideally with ECMO/ECLS)",
+      "Defibrillate repeatedly every minute"
+    ],
+    "a": 3,
+    "why": "Below 30 °C, withhold adrenaline and limit shocks to three; between 30 and 35 °C, double the interval between adrenaline doses. Rewarm actively, preferably with extracorporeal life support in hypothermic arrest. Prolonged resuscitation is justified: 'not dead until warm and dead'. Drowning arrest is hypoxic, so start with 5 rescue breaths and prioritise ventilation.",
+    "st": null
+  }
+]

@@ -1,0 +1,29 @@
+{
+  "t": "tip",
+  "shape": "face",
+  "group": "Pain",
+  "title": "Cancer Pain, WHO Analgesic Ladder & Intrathecal Opioids",
+  "cards": [
+    {
+      "h": "Overview",
+      "b": "file:cards/01-overview.html"
+    },
+    {
+      "h": "Key points",
+      "b": "file:cards/02-key-points.html"
+    },
+    {
+      "h": "Intrathecal opioids",
+      "b": "file:cards/03-intrathecal-opioids.html"
+    },
+    {
+      "h": "Buprenorphine",
+      "b": "file:cards/04-buprenorphine.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/05-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json"
+}

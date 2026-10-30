@@ -1,0 +1,26 @@
+{
+  "t": "tip",
+  "shape": "star",
+  "group": "Miscellaneous",
+  "title": "Parkinson's Disease",
+  "cards": [
+    {
+      "h": "Key points",
+      "b": "file:cards/01-key-points.html"
+    },
+    {
+      "h": "The Drugs",
+      "b": "file:cards/02-the-drugs.html"
+    },
+    {
+      "h": "Key points",
+      "b": "file:cards/03-key-points.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/04-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

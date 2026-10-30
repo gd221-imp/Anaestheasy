@@ -1,0 +1,122 @@
+[
+  {
+    "q": "A patient with UC on prednisolone 20 mg daily needs a panproctocolectomy. What does guidance recommend?",
+    "o": [
+      "Stop steroids",
+      "Continue usual dose and give hydrocortisone cover at induction and post-op",
+      "Double oral dose only",
+      "No cover needed",
+      "Fludrocortisone"
+    ],
+    "a": 1,
+    "why": "Association of Anaesthetists 2020 glucocorticoid guideline."
+  },
+  {
+    "q": "Why is VTE prophylaxis especially important in IBD?",
+    "o": [
+      "IBD causes thrombocytopenia",
+      "IBD carries a high VTE risk",
+      "Steroids cause bleeding",
+      "Low risk",
+      "Only for Crohn’s"
+    ],
+    "a": 1,
+    "why": "Combined with major pelvic surgery."
+  },
+  {
+    "q": "Which antibiotic regimen appears in the recipe (after \"Follow local guidelines\")?",
+    "o": [
+      "Amoxicillin alone",
+      "Cefuroxime and metronidazole",
+      "Vancomycin",
+      "Gentamicin only",
+      "Clarithromycin"
+    ],
+    "a": 1,
+    "why": "Follow local guidelines."
+  },
+  {
+    "q": "What is the cannula convention in the recipe?",
+    "o": [
+      "16G awake then 20G",
+      "20G for induction, 16G once asleep",
+      "14G only",
+      "Central line first",
+      "22G only"
+    ],
+    "a": 1,
+    "why": "20G then 16G."
+  },
+  {
+    "q": "What is a key risk of a high-output stoma?",
+    "o": [
+      "Hypertension",
+      "Dehydration and AKI",
+      "Hypercalcaemia",
+      "Hyperkalaemia",
+      "Polycythaemia"
+    ],
+    "a": 1,
+    "why": "Also hypomagnesaemia."
+  },
+  {
+    "q": "Which nerve is at risk in prolonged lithotomy?",
+    "o": [
+      "Radial",
+      "Common peroneal",
+      "Ulnar only",
+      "Median",
+      "Axillary"
+    ],
+    "a": 1,
+    "why": "Also sciatic, femoral and obturator."
+  },
+  {
+    "q": "When is RSI indicated for panproctocolectomy?",
+    "o": [
+      "Never",
+      "If septic or obstructed",
+      "Always",
+      "Only with epidural",
+      "Only if elective"
+    ],
+    "a": 1,
+    "why": "E.g. toxic megacolon."
+  },
+  {
+    "q": "Which nutritional option is used for malnourished IBD patients pre-op?",
+    "o": [
+      "None",
+      "Dietitian input and TPN if needed",
+      "Fasting",
+      "Protein restriction",
+      "Steroids"
+    ],
+    "a": 1,
+    "why": "Malnutrition impairs healing."
+  },
+  {
+    "q": "Which post-op complication relates to stopping long-term steroids?",
+    "o": [
+      "Hypoglycaemia only",
+      "Adrenal crisis",
+      "Hyperkalaemia",
+      "Seizure",
+      "Thrombocytosis"
+    ],
+    "a": 1,
+    "why": "Give steroid cover."
+  },
+  {
+    "q": "What analgesia is placed at the end if not already in?",
+    "o": [
+      "Femoral catheter",
+      "Rectus sheath catheters or epidural",
+      "Interscalene",
+      "Paravertebral only",
+      "None"
+    ],
+    "a": 1,
+    "why": "Extubate awake with full reversal."
+  }
+]

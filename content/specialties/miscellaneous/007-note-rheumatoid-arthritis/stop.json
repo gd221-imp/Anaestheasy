@@ -1,0 +1,26 @@
+{
+  "t": "tip",
+  "shape": "star",
+  "group": "Miscellaneous",
+  "title": "Rheumatoid Arthritis",
+  "cards": [
+    {
+      "h": "Overview",
+      "b": "file:cards/01-overview.html"
+    },
+    {
+      "h": "A: Airway",
+      "b": "file:cards/02-a-airway.html"
+    },
+    {
+      "h": "Steroid side effects",
+      "b": "file:cards/03-steroid-side-effects.html"
+    },
+    {
+      "h": "Pharmacotherapy",
+      "b": "file:cards/04-pharmacotherapy.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

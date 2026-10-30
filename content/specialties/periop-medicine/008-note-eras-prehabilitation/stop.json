@@ -1,0 +1,26 @@
+{
+  "t": "tip",
+  "shape": "clip",
+  "group": "Periop medicine",
+  "title": "ERAS & Prehabilitation",
+  "cards": [
+    {
+      "h": "Principles",
+      "b": "file:cards/01-principles.html"
+    },
+    {
+      "h": "Benefits",
+      "b": "file:cards/02-benefits.html"
+    },
+    {
+      "h": "Prehabilitation",
+      "b": "file:cards/03-prehabilitation.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/04-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

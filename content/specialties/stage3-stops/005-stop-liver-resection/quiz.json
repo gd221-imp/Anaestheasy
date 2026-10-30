@@ -1,0 +1,122 @@
+[
+  {
+    "q": "Why is a low CVP technique used during parenchymal transection?",
+    "o": [
+      "To improve renal flow",
+      "To reduce hepatic venous bleeding",
+      "To reduce PONV",
+      "To raise MAP",
+      "To prevent air embolism"
+    ],
+    "a": 1,
+    "why": "Restore volume after resection."
+  },
+  {
+    "q": "What is the Pringle manoeuvre?",
+    "o": [
+      "Clamping the IVC",
+      "Clamping the hepatoduodenal ligament (portal triad)",
+      "Clamping the aorta",
+      "Hepatic vein ligation",
+      "Biliary drainage"
+    ],
+    "a": 1,
+    "why": "Reduces inflow bleeding."
+  },
+  {
+    "q": "Which risk is increased with low CVP?",
+    "o": [
+      "Hypertension",
+      "Venous air embolism through hepatic veins",
+      "Fluid overload",
+      "Hypothermia",
+      "Hyperkalaemia"
+    ],
+    "a": 1,
+    "why": "Watch for sudden EtCO2 fall."
+  },
+  {
+    "q": "Which post-op complication is specific?",
+    "o": [
+      "OPSI",
+      "Post-hepatectomy liver failure",
+      "Chylothorax",
+      "Dislocation",
+      "Fistula"
+    ],
+    "a": 1,
+    "why": "Check lactate, glucose and coagulation."
+  },
+  {
+    "q": "Why may epidural removal be delayed?",
+    "o": [
+      "Pain",
+      "Post-op coagulopathy",
+      "Infection",
+      "Hypotension",
+      "Mobilisation"
+    ],
+    "a": 1,
+    "why": "Check clotting before removal."
+  },
+  {
+    "q": "What does a raised R time on TEG indicate?",
+    "o": [
+      "Low platelets",
+      "Clotting factor deficiency (give FFP)",
+      "Hyperfibrinolysis",
+      "Low fibrinogen",
+      "Normal"
+    ],
+    "a": 1,
+    "why": "MA reflects platelets and fibrinogen."
+  },
+  {
+    "q": "Which TEG parameter reflects fibrinolysis?",
+    "o": [
+      "R time",
+      "CL30 / LY30",
+      "MA",
+      "K time",
+      "Angle"
+    ],
+    "a": 1,
+    "why": "Treat with TXA."
+  },
+  {
+    "q": "Which drug lowers portal pressure in variceal bleeding?",
+    "o": [
+      "Octreotide only",
+      "Terlipressin",
+      "Adrenaline",
+      "Propranolol IV",
+      "Furosemide"
+    ],
+    "a": 1,
+    "why": "Splanchnic vasoconstriction."
+  },
+  {
+    "q": "How long can a Sengstaken–Blakemore tube stay in?",
+    "o": [
+      "72 hours",
+      "Under 24 hours",
+      "1 week",
+      "6 hours",
+      "Indefinitely"
+    ],
+    "a": 1,
+    "why": "Mucosal ischaemia risk."
+  },
+  {
+    "q": "Which drug for hepatic encephalopathy acidifies the gut?",
+    "o": [
+      "Rifaximin",
+      "Lactulose",
+      "Metronidazole",
+      "Omeprazole",
+      "Neomycin"
+    ],
+    "a": 1,
+    "why": "Rifaximin reduces ammonia-producing bacteria."
+  }
+]

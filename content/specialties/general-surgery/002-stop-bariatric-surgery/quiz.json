@@ -1,0 +1,122 @@
+[
+  {
+    "q": "Which weight is used for induction doses of propofol in obesity?",
+    "o": [
+      "Total body weight",
+      "Lean body weight",
+      "Ideal body weight + 50%",
+      "Actual weight × 2",
+      "Weight is irrelevant"
+    ],
+    "a": 1,
+    "why": "Suxamethonium is dosed by total body weight."
+  },
+  {
+    "q": "What is the NICE referral threshold for bariatric surgery?",
+    "o": [
+      "BMI over 30",
+      "BMI over 40, or 35–40 with significant disease improved by weight loss",
+      "BMI over 50 only",
+      "Any BMI with diabetes",
+      "BMI over 25"
+    ],
+    "a": 1,
+    "why": "After non-surgical measures fail, with commitment to follow-up."
+  },
+  {
+    "q": "Which procedure is malabsorptive?",
+    "o": [
+      "Sleeve gastrectomy",
+      "Roux-en-Y gastric bypass",
+      "Gastric band",
+      "Gastric balloon",
+      "Fundoplication"
+    ],
+    "a": 1,
+    "why": "Sleeve and band are restrictive."
+  },
+  {
+    "q": "What is the best position for pre-oxygenation and intubation in obesity?",
+    "o": [
+      "Supine flat",
+      "Ramped, head-up (tragus level with sternum)",
+      "Lateral",
+      "Head-down",
+      "Prone"
+    ],
+    "a": 1,
+    "why": "Head-up improves FRC and laryngoscopy."
+  },
+  {
+    "q": "What defines obesity hypoventilation syndrome?",
+    "o": [
+      "BMI over 40 with snoring",
+      "BMI over 30 with daytime PaCO2 over 6 kPa and sleep-disordered breathing",
+      "OSA with AHI over 30",
+      "Low bicarbonate",
+      "Daytime hypoxia only"
+    ],
+    "a": 1,
+    "why": "A raised bicarbonate on routine bloods is a useful clue."
+  },
+  {
+    "q": "What AHI defines severe OSA?",
+    "o": [
+      "Over 5",
+      "Over 30 events/h",
+      "Over 15",
+      "Over 10",
+      "Over 50 only"
+    ],
+    "a": 1,
+    "why": "Mild 5–15, moderate 15–30, severe over 30."
+  },
+  {
+    "q": "What should a patient with OSA on CPAP bring to hospital?",
+    "o": [
+      "Nothing",
+      "Their own CPAP machine for post-op use",
+      "A nebuliser",
+      "An oxygen cylinder",
+      "A peak flow meter"
+    ],
+    "a": 1,
+    "why": "Use it post-operatively."
+  },
+  {
+    "q": "A patient with a gastric band presents with sudden dysphagia and abdominal pain. What is likely?",
+    "o": [
+      "Normal",
+      "Band slippage needing immediate deflation",
+      "Pancreatitis",
+      "MI",
+      "Achalasia"
+    ],
+    "a": 1,
+    "why": "An emergency."
+  },
+  {
+    "q": "Which delayed anaesthetic complication is seen after long bariatric cases?",
+    "o": [
+      "Malignant hyperthermia",
+      "Rhabdomyolysis",
+      "Laryngospasm",
+      "Awareness",
+      "Hypoglycaemia only"
+    ],
+    "a": 1,
+    "why": "Also VTE and post-op respiratory failure."
+  },
+  {
+    "q": "Which STOP-BANG item refers to a physical measurement over 40 cm?",
+    "o": [
+      "BMI",
+      "Neck circumference",
+      "Age",
+      "Blood pressure",
+      "Gender"
+    ],
+    "a": 1,
+    "why": "Neck circumference over 40 cm."
+  }
+]

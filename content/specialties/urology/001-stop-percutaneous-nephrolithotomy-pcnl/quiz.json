@@ -1,0 +1,122 @@
+[
+  {
+    "q": "What position is PCNL usually performed in after stent insertion?",
+    "o": [
+      "Supine",
+      "Prone or prone oblique",
+      "Sitting",
+      "Lateral only",
+      "Lithotomy throughout"
+    ],
+    "a": 1,
+    "why": "Initially lithotomy, then prone for nephrostomy access."
+  },
+  {
+    "q": "Which immediate surgical complication is specific to upper-pole access?",
+    "o": [
+      "Bowel injury",
+      "Pleural injury (pneumothorax or hydrothorax)",
+      "Ureteric injury",
+      "Bladder perforation",
+      "Nerve injury"
+    ],
+    "a": 1,
+    "why": "Watch ventilation pressures and saturation."
+  },
+  {
+    "q": "Which ETT is useful for prone PCNL?",
+    "o": [
+      "Uncuffed",
+      "Reinforced ETT",
+      "LMA",
+      "Double lumen",
+      "Nasal"
+    ],
+    "a": 1,
+    "why": "Keep the abdomen free and protect the eyes."
+  },
+  {
+    "q": "What anaesthetic risk relates to irrigation fluid?",
+    "o": [
+      "Hyperthermia",
+      "Fluid absorption and hypothermia",
+      "Hypercalcaemia",
+      "Seizures from glycine only",
+      "None"
+    ],
+    "a": 1,
+    "why": "Warm the irrigation."
+  },
+  {
+    "q": "Which delayed complication is important after PCNL?",
+    "o": [
+      "Laryngospasm",
+      "Urosepsis",
+      "Diplopia",
+      "PDPH",
+      "Foot drop only"
+    ],
+    "a": 1,
+    "why": "Watch for sepsis."
+  },
+  {
+    "q": "Which analgesic is avoided in CKD?",
+    "o": [
+      "Paracetamol",
+      "NSAIDs",
+      "Fentanyl",
+      "Local anaesthetic",
+      "Oxycodone in reduced doses"
+    ],
+    "a": 1,
+    "why": "Also avoid morphine (M6G accumulates) and tramadol."
+  },
+  {
+    "q": "Why is morphine avoided in renal failure?",
+    "o": [
+      "It is ineffective",
+      "Morphine-6-glucuronide accumulates",
+      "It causes hyperkalaemia",
+      "It causes hypertension",
+      "It is nephrotoxic"
+    ],
+    "a": 1,
+    "why": "Use fentanyl or alfentanil cautiously."
+  },
+  {
+    "q": "What is CKD stage 4 by eGFR?",
+    "o": [
+      "60–90",
+      "15–30",
+      "30–60",
+      "Under 15",
+      "Over 90"
+    ],
+    "a": 1,
+    "why": "Stage 5 is under 15."
+  },
+  {
+    "q": "Which neuromuscular blocker is preferred in renal failure?",
+    "o": [
+      "Pancuronium",
+      "Atracurium (Hofmann elimination)",
+      "Vecuronium",
+      "Rocuronium without sugammadex",
+      "Mivacurium"
+    ],
+    "a": 1,
+    "why": "Cisatracurium is also suitable."
+  },
+  {
+    "q": "Which prone positioning injury is consented for?",
+    "o": [
+      "Hearing loss",
+      "Eye injury and pressure injuries",
+      "Hair loss only",
+      "Dental injury only",
+      "None"
+    ],
+    "a": 1,
+    "why": "Protect eyes and pressure points."
+  }
+]

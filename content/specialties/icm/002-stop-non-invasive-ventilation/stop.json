@@ -1,0 +1,21 @@
+{
+  "t": "tip",
+  "shape": "mon",
+  "group": "ICM",
+  "title": "Non-Invasive Ventilation",
+  "cards": [
+    {
+      "h": "Overview",
+      "b": "file:cards/01-overview.html"
+    },
+    {
+      "h": "Indications and settings",
+      "b": "file:cards/02-indications-and-settings.html"
+    },
+    {
+      "h": "NIPPV contraindications",
+      "b": "file:cards/03-nippv-contraindications.html"
+    }
+  ],
+  "q": "file:quiz.json"
+}

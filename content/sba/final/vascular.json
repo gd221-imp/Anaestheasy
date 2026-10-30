@@ -1,0 +1,66 @@
+[
+  {
+    "id": "Q228",
+    "ar": "Vascular",
+    "sb": "Carotid endarterectomy",
+    "q": "A patient has a TIA with 75% symptomatic stenosis of the ipsilateral internal carotid artery. According to NICE, when should carotid endarterectomy be performed?",
+    "o": [
+      "No surgery; medical therapy only",
+      "After 3 months",
+      "Only if a second event occurs",
+      "Within 7 days of symptom onset",
+      "Within 6 weeks"
+    ],
+    "a": 3,
+    "why": "NICE NG128: carotid endarterectomy for symptomatic stenosis of 50–99% (NASCET) should be performed within 7 days, ideally within 48 hours of assessment, because early recurrence risk is highest. Regional (cervical plexus block) or general anaesthesia gave similar outcomes in the GALA trial; awake techniques allow direct neurological monitoring during clamping.",
+    "st": "st2-13"
+  },
+  {
+    "id": "Q229",
+    "ar": "Vascular",
+    "sb": "Ruptured AAA",
+    "q": "A 75-year-old with a ruptured AAA is conscious with SBP 80 mmHg in the emergency department. What is the most appropriate approach to resuscitation before aortic control?",
+    "o": [
+      "Intubate in the emergency department",
+      "Aggressive crystalloid to normal BP",
+      "Give vasopressors to SBP 140 mmHg",
+      "Wait for CT before any blood products",
+      "Permissive hypotension, aiming for SBP around 70–90 mmHg while conscious, with blood products and urgent transfer for EVAR or open repair"
+    ],
+    "a": 4,
+    "why": "Permissive (hypotensive) haemostasis: give minimal fluid and blood to maintain consciousness and SBP around 70–90 mmHg until the aorta is controlled; raising BP increases bleeding. Induce anaesthesia only when the surgeon is scrubbed and ready, as loss of sympathetic tone and abdominal wall tamponade can cause collapse. EVAR is preferred where anatomy allows (IMPROVE trial, especially in women).",
+    "st": "st2-15"
+  },
+  {
+    "id": "Q230",
+    "ar": "Vascular",
+    "sb": "EVAR",
+    "q": "What is a recognised complication specific to endovascular aneurysm repair compared with open repair?",
+    "o": [
+      "Bowel ischaemia is impossible",
+      "Need for thoracotomy",
+      "Large blood loss in all cases",
+      "Aortic cross-clamp hypotension",
+      "Endoleak requiring lifelong surveillance"
+    ],
+    "a": 4,
+    "why": "EVAR has lower early mortality than open repair but needs lifelong imaging surveillance for endoleaks (type I–V, types I and III needing urgent treatment), graft migration and limb occlusion. Contrast nephropathy is also a risk. It can be done under GA, regional or local anaesthesia.",
+    "st": "st2-14"
+  },
+  {
+    "id": "Q231",
+    "ar": "Vascular",
+    "sb": "Thoracoabdominal aneurysm",
+    "q": "Which measure is most used to reduce spinal cord ischaemia during thoracoabdominal aneurysm repair?",
+    "o": [
+      "Deliberate hypotension",
+      "Avoiding all monitoring",
+      "Hyperventilation",
+      "Lumbar CSF drainage to keep CSF pressure about 10 mmHg, with a high MAP",
+      "Spinal anaesthesia"
+    ],
+    "a": 3,
+    "why": "Spinal cord perfusion pressure = MAP − CSF pressure. CSF drainage via a lumbar drain (CSF pressure about 10 mmHg, volume-limited to avoid intracranial haemorrhage) and keeping MAP high (often &gt; 80–90 mmHg) improve cord perfusion. Other strategies: distal aortic perfusion, motor evoked potential monitoring, reimplantation of intercostal arteries and mild hypothermia.",
+    "st": "st2-18"
+  }
+]

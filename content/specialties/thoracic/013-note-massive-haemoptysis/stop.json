@@ -1,0 +1,26 @@
+{
+  "t": "tip",
+  "shape": "lung",
+  "group": "Thoracic",
+  "title": "Massive Haemoptysis",
+  "cards": [
+    {
+      "h": "Blood supply to the bronchi",
+      "b": "file:cards/01-blood-supply-to-the-bronchi.html"
+    },
+    {
+      "h": "Management",
+      "b": "file:cards/02-management.html"
+    },
+    {
+      "h": "Airway management",
+      "b": "file:cards/03-airway-management.html"
+    },
+    {
+      "h": "Non-surgical options to control bleeding",
+      "b": "file:cards/04-non-surgical-options-to-control-bleeding.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

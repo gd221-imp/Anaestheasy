@@ -1,0 +1,122 @@
+[
+  {
+    "q": "A patient has had a TIA with 75% ipsilateral carotid stenosis. When should carotid endarterectomy ideally take place?",
+    "o": [
+      "Within 2 weeks of the event",
+      "After 3 months",
+      "After 6 months",
+      "Only if a second TIA occurs",
+      "Within 48 hours, always under GA"
+    ],
+    "a": 0,
+    "why": "The risk of stroke is highest soon after a TIA, so referral is within 24 hours and surgery ideally within 2 weeks for symptomatic 50–69% or over 70% stenosis."
+  },
+  {
+    "q": "What did the GALA trial show when comparing GA with local anaesthesia for carotid endarterectomy?",
+    "o": [
+      "GA had lower stroke rates",
+      "LA had lower mortality",
+      "No significant difference in stroke, MI or death at 1 year",
+      "LA had more neck haematomas",
+      "GA had shorter length of stay"
+    ],
+    "a": 2,
+    "why": "GALA found similar outcomes (stroke, MI, death, length of stay) between GA and LA; a later meta-analysis suggested fewer haematomas with regional techniques."
+  },
+  {
+    "q": "What is the main advantage of performing carotid endarterectomy awake under regional anaesthesia?",
+    "o": [
+      "Guaranteed immobility",
+      "Real-time neurological monitoring during clamping",
+      "No need for an arterial line",
+      "Lower rate of phrenic nerve palsy",
+      "Better surgical access"
+    ],
+    "a": 1,
+    "why": "An awake patient is the best neurological monitor during clamping; it also avoids airway instrumentation and may reduce shunt use."
+  },
+  {
+    "q": "Where is a deep cervical plexus block performed?",
+    "o": [
+      "C5–C7 transverse processes",
+      "Along a line from the mastoid to C6, at C2–C4 transverse processes",
+      "At the posterior border of sternocleidomastoid only",
+      "In the interscalene groove",
+      "At the angle of the mandible"
+    ],
+    "a": 1,
+    "why": "C2, C3 and C4 lie about 2, 3 and 4 cm below the mastoid on the line to C6 (cricoid level). The superficial block is along the posterior border of sternocleidomastoid."
+  },
+  {
+    "q": "Which is a recognised complication of a deep cervical plexus block?",
+    "o": [
+      "Recurrent laryngeal nerve palsy only",
+      "Phrenic nerve palsy",
+      "Horner’s syndrome is impossible",
+      "Spinal cord stimulation",
+      "Bradycardia from vagal block only"
+    ],
+    "a": 1,
+    "why": "Complications include phrenic nerve palsy, haematoma, LA toxicity, subarachnoid or intravascular injection, infection and nerve injury."
+  },
+  {
+    "q": "Under GA, which technique can be used to monitor cerebral perfusion during carotid clamping?",
+    "o": [
+      "Pulse oximetry on the finger",
+      "Transcranial Doppler of the middle cerebral artery",
+      "EtCO2",
+      "Bispectral index alone",
+      "Urine output"
+    ],
+    "a": 1,
+    "why": "Options include stump pressure, NIRS, transcranial Doppler of the MCA, and EEG."
+  },
+  {
+    "q": "Ten days after carotid endarterectomy a hypertensive patient presents with a severe ipsilateral headache and seizures. What is the most likely diagnosis?",
+    "o": [
+      "Neck haematoma",
+      "Cerebral hyperperfusion syndrome",
+      "Carotid restenosis",
+      "Migraine",
+      "Cranial nerve injury"
+    ],
+    "a": 1,
+    "why": "Hyperperfusion syndrome (1–3%) follows loss of autoregulation after relief of stenosis; it can occur up to a month after surgery and is treated with tight BP control."
+  },
+  {
+    "q": "An hour after carotid endarterectomy, a patient has a rapidly enlarging neck swelling and stridor. What is the immediate priority?",
+    "o": [
+      "CT neck",
+      "Open the wound to decompress the haematoma and secure the airway",
+      "Give nebulised adrenaline and observe",
+      "Start heparin",
+      "Wait for the surgeon to arrive"
+    ],
+    "a": 1,
+    "why": "A neck haematoma can rapidly obstruct the airway: open the wound to decompress it, call for help and secure the airway."
+  },
+  {
+    "q": "After carotid endarterectomy, a patient’s BP is labile, swinging between hypertension and hypotension. What is the most likely cause?",
+    "o": [
+      "Hypovolaemia",
+      "Baroreceptor dysfunction from carotid sinus manipulation",
+      "Anaphylaxis",
+      "Phaeochromocytoma",
+      "Residual block"
+    ],
+    "a": 1,
+    "why": "Carotid sinus manipulation and baroreceptor damage cause post-op hypertension or hypotension; monitor in HDU."
+  },
+  {
+    "q": "Which cranial nerve injury is a recognised complication of carotid endarterectomy?",
+    "o": [
+      "Oculomotor (III)",
+      "Hypoglossal (XII)",
+      "Trochlear (IV)",
+      "Olfactory (I)",
+      "Abducens (VI)"
+    ],
+    "a": 1,
+    "why": "Cranial nerve injuries include the facial (marginal mandibular branch, VII) and hypoglossal (XII) nerves, as well as recurrent laryngeal injury."
+  }
+]

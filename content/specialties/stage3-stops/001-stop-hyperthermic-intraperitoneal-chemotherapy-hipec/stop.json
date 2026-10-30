@@ -1,0 +1,47 @@
+{
+  "t": "recipe",
+  "shape": "scalpel",
+  "group": "General surgery",
+  "title": "Hyperthermic Intraperitoneal Chemotherapy (HIPEC) & Cytoreductive Surgery",
+  "op": true,
+  "cards": [
+    {
+      "h": "Anaesthetic recipe",
+      "b": "file:cards/01-anaesthetic-recipe.html",
+      "recipe": true
+    },
+    {
+      "h": "Heat Transfer & Temperature",
+      "primaryRef": "phy10"
+    },
+    {
+      "h": "Transfusion Physiology",
+      "primaryRef": "phs46"
+    },
+    {
+      "h": "Hyperthermic Intraperitoneal Chemotherapy (HIPEC) & Cytoreductive Surgery",
+      "noteRef": "Hyperthermic Intraperitoneal Chemotherapy (HIPEC) & Cytoreductive Surgery"
+    },
+    {
+      "h": "ERAS & Prehabilitation",
+      "noteRef": "ERAS & Prehabilitation"
+    },
+    {
+      "h": "Intra-abdominal Pressure & Compartment Syndrome",
+      "noteRef": "Intra-abdominal Pressure & Compartment Syndrome"
+    },
+    {
+      "h": "Sample WPBA",
+      "b": "file:cards/07-sample-wpba.html",
+      "wpba": true
+    },
+    {
+      "h": "Curriculum",
+      "links": [
+        "curric:8",
+        "curric:9"
+      ]
+    }
+  ],
+  "q": "file:quiz.json"
+}

@@ -1,0 +1,122 @@
+[
+  {
+    "q": "Why does testicular torsion go first on the CEPOD list?",
+    "o": [
+      "Easy case",
+      "The testis is at risk within hours",
+      "Surgeon preference",
+      "Short",
+      "Anaesthetist preference"
+    ],
+    "a": 1,
+    "why": "Time-critical."
+  },
+  {
+    "q": "What airway is used if the patient is not fasted?",
+    "o": [
+      "LMA",
+      "RSI with ETT",
+      "Facemask",
+      "Nasal airway",
+      "Spinal only"
+    ],
+    "a": 1,
+    "why": "Otherwise an LMA."
+  },
+  {
+    "q": "Which reflex can cause bradycardia during the procedure?",
+    "o": [
+      "Oculocardiac",
+      "Vagal response to cord traction",
+      "Bezold–Jarisch",
+      "Cushing",
+      "Baroreflex"
+    ],
+    "a": 1,
+    "why": "Atropine or glycopyrronium ready."
+  },
+  {
+    "q": "Which delayed surgical complication can occur?",
+    "o": [
+      "Hernia",
+      "Testicular atrophy or subfertility",
+      "Stricture",
+      "Ileus",
+      "Fistula"
+    ],
+    "a": 1,
+    "why": "Also wound infection."
+  },
+  {
+    "q": "Which delayed anaesthetic complication is listed?",
+    "o": [
+      "MH",
+      "PONV",
+      "PDPH",
+      "Laryngospasm",
+      "Awareness"
+    ],
+    "a": 1,
+    "why": "Give antiemetics."
+  },
+  {
+    "q": "Which factor favours inpatient over day case?",
+    "o": [
+      "Short surgery",
+      "Risk of haemorrhage or need for IV analgesia",
+      "Healthy patient",
+      "Living nearby",
+      "Fasted"
+    ],
+    "a": 1,
+    "why": "Day case factors."
+  },
+  {
+    "q": "What fasting status is typical?",
+    "o": [
+      "Always fasted",
+      "Often unknown or not fasted",
+      "Fasted 12 hours",
+      "Not relevant",
+      "Clear fluids only"
+    ],
+    "a": 1,
+    "why": "Consider RSI."
+  },
+  {
+    "q": "Which analgesia is listed?",
+    "o": [
+      "Epidural",
+      "Simple analgesia with antiemetic",
+      "PCA morphine",
+      "Ketamine infusion",
+      "None"
+    ],
+    "a": 1,
+    "why": "Short case."
+  },
+  {
+    "q": "What is the immediate surgical complication if presentation is late?",
+    "o": [
+      "Hernia",
+      "Non-viable testis needing orchidectomy",
+      "Hydrocele",
+      "Varicocele",
+      "Fistula"
+    ],
+    "a": 1,
+    "why": "Consent for orchidectomy."
+  },
+  {
+    "q": "What is the patient profile usually?",
+    "o": [
+      "Elderly with comorbidities",
+      "Young and fit",
+      "Child under 1",
+      "Pregnant",
+      "Frail"
+    ],
+    "a": 1,
+    "why": "Usually young and fit."
+  }
+]

@@ -1,0 +1,38 @@
+{
+  "t": "tip",
+  "shape": "headn",
+  "group": "Head and neck",
+  "title": "Awake Fibreoptic Intubation, Stridor, Epiglottitis & Croup",
+  "cards": [
+    {
+      "h": "Awake fibreoptic intubation",
+      "b": "file:cards/01-awake-fibreoptic-intubation.html"
+    },
+    {
+      "h": "Difficult airway",
+      "b": "file:cards/02-difficult-airway.html"
+    },
+    {
+      "h": "The larynx",
+      "b": "file:cards/03-the-larynx.html"
+    },
+    {
+      "h": "Stridor",
+      "b": "file:cards/04-stridor.html"
+    },
+    {
+      "h": "Key points",
+      "b": "file:cards/05-key-points.html"
+    },
+    {
+      "h": "Key points",
+      "b": "file:cards/06-key-points.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/07-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

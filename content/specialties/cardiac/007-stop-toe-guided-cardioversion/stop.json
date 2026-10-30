@@ -1,0 +1,48 @@
+{
+  "t": "recipe",
+  "shape": "heart",
+  "group": "Cardiac",
+  "title": "TOE-Guided Cardioversion",
+  "op": true,
+  "cards": [
+    {
+      "h": "Anaesthetic recipe",
+      "b": "file:cards/01-anaesthetic-recipe.html",
+      "recipe": true
+    },
+    {
+      "h": "Cardiac Conduction",
+      "primaryRef": "phs1"
+    },
+    {
+      "h": "Defibrillation",
+      "primaryRef": "phy19"
+    },
+    {
+      "h": "Mitral Valve Disease",
+      "noteRef": "Mitral Valve Disease"
+    },
+    {
+      "h": "Atrial Tachyarrhythmia",
+      "noteRef": "Atrial Tachyarrhythmia"
+    },
+    {
+      "h": "Cardiac Implantable Electronic Devices (CIEDs)",
+      "noteRef": "Cardiac Implantable Electronic Devices (CIEDs)"
+    },
+    {
+      "h": "Sample WPBA",
+      "b": "file:cards/07-sample-wpba.html",
+      "wpba": true
+    },
+    {
+      "h": "Curriculum",
+      "links": [
+        "curric:8",
+        "curric:9",
+        "curric:12"
+      ]
+    }
+  ],
+  "q": "file:quiz.json"
+}

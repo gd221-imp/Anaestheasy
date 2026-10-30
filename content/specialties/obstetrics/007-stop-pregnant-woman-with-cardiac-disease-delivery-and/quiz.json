@@ -1,0 +1,122 @@
+[
+  {
+    "q": "According to MBRRACE-UK 2024, where does cardiac disease rank as a cause of maternal death?",
+    "o": [
+      "First",
+      "Second largest cause",
+      "Fifth",
+      "It is rare",
+      "Tenth"
+    ],
+    "a": 1,
+    "why": "The recipe notes cardiac disease is the second largest cause; ECMO should be available for the highest-risk women."
+  },
+  {
+    "q": "Which lesion is mWHO class IV, where pregnancy is not recommended?",
+    "o": [
+      "Repaired VSD",
+      "Pulmonary arterial hypertension",
+      "Mild pulmonary stenosis",
+      "Repaired coarctation",
+      "Unoperated small ASD"
+    ],
+    "a": 1,
+    "why": "mWHO IV includes PAH, EF under 30%, severe MS, severe symptomatic AS and Fontan with complications."
+  },
+  {
+    "q": "What maternal cardiac event rate is associated with mWHO class III?",
+    "o": [
+      "2.5–5%",
+      "5.7–10.5%",
+      "19–27%",
+      "40–100%",
+      "0%"
+    ],
+    "a": 2,
+    "why": "mWHO III carries 19–27%; care at an expert centre with review every 1–2 months."
+  },
+  {
+    "q": "In the CARPREG II score, which factor scores 3 points?",
+    "o": [
+      "No prior cardiac intervention",
+      "Mechanical valve",
+      "Late pregnancy assessment",
+      "Coronary artery disease",
+      "Pulmonary hypertension"
+    ],
+    "a": 1,
+    "why": "Three points each: prior cardiac events or arrhythmias, NYHA III–IV or cyanosis, mechanical valve."
+  },
+  {
+    "q": "Why is a single-shot spinal avoided in severe mitral stenosis?",
+    "o": [
+      "It causes bradycardia",
+      "The sudden fall in SVR and tachycardia is poorly tolerated in a fixed-output state",
+      "Spinals do not work",
+      "It causes pulmonary oedema directly",
+      "It is too short"
+    ],
+    "a": 1,
+    "why": "A slowly titrated epidural or low-dose CSE avoids sudden haemodynamic changes."
+  },
+  {
+    "q": "How should oxytocin be given to a woman with significant cardiac disease?",
+    "o": [
+      "Rapid 10 unit bolus",
+      "Slow bolus or infusion (e.g. 2 units over 10 minutes)",
+      "Not at all",
+      "IM only",
+      "With ergometrine"
+    ],
+    "a": 1,
+    "why": "A rapid bolus reduces SVR and causes tachycardia; give it slowly."
+  },
+  {
+    "q": "When is the risk of heart failure highest in a woman with cardiac disease?",
+    "o": [
+      "First trimester",
+      "In the first hours to days after delivery (autotransfusion)",
+      "At 20 weeks",
+      "Six months postpartum",
+      "During induction of labour only"
+    ],
+    "a": 1,
+    "why": "Uterine contraction autotransfuses about 500 ml and relief of aortocaval compression increases preload."
+  },
+  {
+    "q": "For idiopathic PAH at caesarean, what neuraxial technique is described in the recipe?",
+    "o": [
+      "Single-shot spinal with 2.5 ml heavy bupivacaine",
+      "CSE with intrathecal diamorphine, then slow epidural ropivacaine top-ups to T4",
+      "GA always",
+      "Pudendal block",
+      "Epidural with 20 ml in one bolus"
+    ],
+    "a": 1,
+    "why": "Low-dose CSE with diamorphine 300 mcg, a 3 ml test dose, then 5 ml 0.75% ropivacaine every 10 minutes to T4."
+  },
+  {
+    "q": "Which uterotonic markedly raises pulmonary vascular resistance and is a concern in pulmonary hypertension?",
+    "o": [
+      "Oxytocin infusion",
+      "Carboprost",
+      "Misoprostol",
+      "Tranexamic acid",
+      "None"
+    ],
+    "a": 1,
+    "why": "Carboprost raises PVR; ergometrine raises SVR and can cause coronary spasm."
+  },
+  {
+    "q": "How long do physiological changes of pregnancy take to return to normal?",
+    "o": [
+      "24 hours",
+      "6–8 weeks",
+      "1 year",
+      "1 week",
+      "2 days"
+    ],
+    "a": 1,
+    "why": "Physiological parameters take 6–8 weeks to return to non-pregnant values."
+  }
+]

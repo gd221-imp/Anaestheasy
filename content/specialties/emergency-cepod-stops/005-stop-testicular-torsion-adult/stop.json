@@ -1,0 +1,35 @@
+{
+  "t": "recipe",
+  "shape": "warn",
+  "group": "CEPOD",
+  "title": "Testicular Torsion (Adult)",
+  "op": true,
+  "cards": [
+    {
+      "h": "Anaesthetic recipe",
+      "b": "file:cards/01-anaesthetic-recipe.html",
+      "recipe": true
+    },
+    {
+      "h": "Hypoxia, Oxygen Delivery & the Oxyhaemoglobin Dissociation Curve",
+      "primaryRef": "phs17"
+    },
+    {
+      "h": "Day Case Surgery",
+      "noteRef": "Day Case Surgery"
+    },
+    {
+      "h": "Sample WPBA",
+      "b": "file:cards/04-sample-wpba.html",
+      "wpba": true
+    },
+    {
+      "h": "Curriculum",
+      "links": [
+        "curric:8",
+        "curric:9"
+      ]
+    }
+  ],
+  "q": "file:quiz.json"
+}

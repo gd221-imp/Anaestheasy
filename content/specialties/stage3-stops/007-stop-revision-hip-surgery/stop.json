@@ -1,0 +1,47 @@
+{
+  "t": "recipe",
+  "shape": "bone",
+  "group": "Orthopaedics and Trauma",
+  "title": "Revision Hip Surgery",
+  "op": true,
+  "cards": [
+    {
+      "h": "Anaesthetic recipe",
+      "b": "file:cards/01-anaesthetic-recipe.html",
+      "recipe": true
+    },
+    {
+      "h": "The Hip Joint & Fascia Iliaca Compartment",
+      "primaryRef": "ana32"
+    },
+    {
+      "h": "Transfusion Physiology",
+      "primaryRef": "phs46"
+    },
+    {
+      "h": "Revision Hip Surgery",
+      "noteRef": "Revision Hip Surgery"
+    },
+    {
+      "h": "Paget's Disease",
+      "noteRef": "Paget's Disease"
+    },
+    {
+      "h": "Bone Cement Implantation Syndrome",
+      "noteRef": "Bone Cement Implantation Syndrome"
+    },
+    {
+      "h": "Sample WPBA",
+      "b": "file:cards/07-sample-wpba.html",
+      "wpba": true
+    },
+    {
+      "h": "Curriculum",
+      "links": [
+        "curric:8",
+        "curric:9"
+      ]
+    }
+  ],
+  "q": "file:quiz.json"
+}

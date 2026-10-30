@@ -1,0 +1,34 @@
+{
+  "t": "tip",
+  "shape": "star",
+  "group": "Miscellaneous",
+  "title": "Chronic Kidney Disease",
+  "cards": [
+    {
+      "h": "B: Breathing",
+      "b": "file:cards/01-b-breathing.html"
+    },
+    {
+      "h": "A: Airway",
+      "b": "file:cards/02-a-airway.html"
+    },
+    {
+      "h": "Post-op analgesia",
+      "b": "file:cards/03-post-op-analgesia.html"
+    },
+    {
+      "h": "ESRF",
+      "b": "file:cards/04-esrf.html"
+    },
+    {
+      "h": "B: Breathing",
+      "b": "file:cards/05-b-breathing.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/06-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

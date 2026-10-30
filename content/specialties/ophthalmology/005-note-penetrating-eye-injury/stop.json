@@ -1,0 +1,22 @@
+{
+  "t": "tip",
+  "shape": "eye",
+  "group": "Ophthalmology",
+  "title": "Penetrating Eye Injury",
+  "cards": [
+    {
+      "h": "Overview",
+      "b": "file:cards/01-overview.html"
+    },
+    {
+      "h": "Pre-op",
+      "b": "file:cards/02-pre-op.html"
+    },
+    {
+      "h": "Intra-op",
+      "b": "file:cards/03-intra-op.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

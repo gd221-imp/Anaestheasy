@@ -1,0 +1,42 @@
+{
+  "t": "tip",
+  "shape": "headn",
+  "group": "Head and neck",
+  "title": "Hemiglossectomy & Free Flap Surgery",
+  "cards": [
+    {
+      "h": "Example",
+      "b": "file:cards/01-example.html"
+    },
+    {
+      "h": "Pre-op",
+      "b": "file:cards/02-pre-op.html"
+    },
+    {
+      "h": "Reconstructive flap options",
+      "b": "file:cards/03-reconstructive-flap-options.html"
+    },
+    {
+      "h": "Minimise primary ischaemia time.",
+      "b": "file:cards/04-minimise-primary-ischaemia-time.html"
+    },
+    {
+      "h": "Causes of flap failure",
+      "b": "file:cards/05-causes-of-flap-failure.html"
+    },
+    {
+      "h": "Contraindications to free flap",
+      "b": "file:cards/06-contraindications-to-free-flap.html"
+    },
+    {
+      "h": "Head and Neck Cancer surgery",
+      "b": "file:cards/07-head-and-neck-cancer-surgery.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/08-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

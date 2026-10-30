@@ -1,0 +1,34 @@
+{
+  "t": "tip",
+  "shape": "lung",
+  "group": "Thoracic",
+  "title": "Thoracic Trauma",
+  "cards": [
+    {
+      "h": "BTS pneumothorax guidelines",
+      "b": "file:cards/01-bts-pneumothorax-guidelines.html"
+    },
+    {
+      "h": "Spontaneous pneumothorax",
+      "b": "file:cards/02-spontaneous-pneumothorax.html"
+    },
+    {
+      "h": "Massive haemothorax",
+      "b": "file:cards/03-massive-haemothorax.html"
+    },
+    {
+      "h": "Flail chest",
+      "b": "file:cards/04-flail-chest.html"
+    },
+    {
+      "h": "Tracheo-innominate fistula",
+      "b": "file:cards/05-tracheo-innominate-fistula.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/06-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

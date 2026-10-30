@@ -1,0 +1,30 @@
+{
+  "t": "tip",
+  "shape": "lung",
+  "group": "Thoracic",
+  "title": "Lung Volume Reduction Surgery",
+  "cards": [
+    {
+      "h": "Pre-op Assessment",
+      "b": "file:cards/01-pre-op-assessment.html"
+    },
+    {
+      "h": "Post-op cardiac event risk",
+      "b": "file:cards/02-post-op-cardiac-event-risk.html"
+    },
+    {
+      "h": "Perioperative death",
+      "b": "file:cards/03-perioperative-death.html"
+    },
+    {
+      "h": "Pneumonectomy",
+      "b": "file:cards/04-pneumonectomy.html"
+    },
+    {
+      "h": "Key points",
+      "b": "file:cards/05-key-points.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

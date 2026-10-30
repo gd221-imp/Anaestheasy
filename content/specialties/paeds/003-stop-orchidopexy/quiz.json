@@ -1,0 +1,122 @@
+[
+  {
+    "q": "At what age is orchidopexy ideally performed?",
+    "o": [
+      "Under 1 month",
+      "6–18 months",
+      "5–7 years",
+      "Puberty",
+      "Adulthood"
+    ],
+    "a": 1,
+    "why": "Ideally between 6 and 18 months."
+  },
+  {
+    "q": "What happens with traction on the spermatic cord under light anaesthesia?",
+    "o": [
+      "Hypertension",
+      "Laryngospasm or bradycardia",
+      "Tachycardia only",
+      "Hyperthermia",
+      "Nothing"
+    ],
+    "a": 1,
+    "why": "A vagal response; deepen anaesthesia before cord traction and have atropine drawn up."
+  },
+  {
+    "q": "Which block is an alternative to a caudal for orchidopexy?",
+    "o": [
+      "Penile block",
+      "Ilioinguinal and iliohypogastric block",
+      "Femoral nerve block",
+      "Paravertebral",
+      "Interscalene"
+    ],
+    "a": 1,
+    "why": "Ilioinguinal/iliohypogastric block covers the groin incision."
+  },
+  {
+    "q": "What is the RCoA lower age limit generally used for paediatric day surgery?",
+    "o": [
+      "Over 44 weeks PCA",
+      "Over 60 weeks post-conceptional age",
+      "Over 1 year",
+      "Over 2 years",
+      "No limit"
+    ],
+    "a": 1,
+    "why": "Ex-premature babies under 60 weeks PCA carry an apnoea risk."
+  },
+  {
+    "q": "Which social factor makes day case less suitable?",
+    "o": [
+      "Living 20 minutes away",
+      "Living more than 1 hour from hospital or no telephone or transport",
+      "Two parents at home",
+      "Older siblings",
+      "Private car available"
+    ],
+    "a": 1,
+    "why": "Also poor housing or a carer unable to cope."
+  },
+  {
+    "q": "What fasting time applies to formula milk in children?",
+    "o": [
+      "2 hours",
+      "6 hours",
+      "4 hours",
+      "1 hour",
+      "8 hours"
+    ],
+    "a": 1,
+    "why": "Solids and formula 6 hours, breast milk 4 hours, clear fluids up to 1 hour."
+  },
+  {
+    "q": "What volume limit is suggested for clear fluids up to 1 hour before induction?",
+    "o": [
+      "1 ml/kg",
+      "3 ml/kg",
+      "10 ml/kg",
+      "Unlimited",
+      "20 ml/kg"
+    ],
+    "a": 1,
+    "why": "Clear fluids up to 1 hour, to a maximum of 3 ml/kg."
+  },
+  {
+    "q": "Which surgical complication is delayed after orchidopexy?",
+    "o": [
+      "Primary haemorrhage",
+      "Testicular atrophy",
+      "Laryngospasm",
+      "Urinary retention",
+      "Bradycardia"
+    ],
+    "a": 1,
+    "why": "Also re-ascent of the testis and wound infection."
+  },
+  {
+    "q": "What does \"D\" in the paediatric BINDS history stand for?",
+    "o": [
+      "Drugs",
+      "Development",
+      "Diet",
+      "Dentition",
+      "Disability"
+    ],
+    "a": 1,
+    "why": "Birth, Immunisations, Nutrition, Development, Social."
+  },
+  {
+    "q": "Delay in gross motor milestones in a boy could indicate which risk at anaesthesia?",
+    "o": [
+      "Malignant hyperthermia from RYR1 only",
+      "Anaesthesia-induced rhabdomyolysis from an undiagnosed myopathy such as Duchenne",
+      "Suxamethonium apnoea",
+      "Latex allergy",
+      "Difficult airway"
+    ],
+    "a": 1,
+    "why": "Use TIVA and avoid suxamethonium where AIR risk is suspected."
+  }
+]

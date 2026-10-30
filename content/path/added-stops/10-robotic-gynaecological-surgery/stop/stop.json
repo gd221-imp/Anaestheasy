@@ -1,0 +1,31 @@
+{
+  "t": "recipe",
+  "shape": "belly",
+  "group": "Gynaecology",
+  "title": "Robotic Gynaecological Surgery",
+  "op": true,
+  "cards": [
+    {
+      "h": "Anaesthetic recipe",
+      "b": "file:cards/01-anaesthetic-recipe.html",
+      "recipe": true
+    },
+    {
+      "h": "Robotic vs Laparoscopic vs Open Surgery",
+      "noteRef": "Robotic vs Laparoscopic vs Open Surgery"
+    },
+    {
+      "h": "Sample WPBA",
+      "b": "file:cards/03-sample-wpba.html",
+      "wpba": true
+    },
+    {
+      "h": "Curriculum",
+      "links": [
+        "curric:8",
+        "curric:9"
+      ]
+    }
+  ],
+  "q": "file:quiz.json"
+}

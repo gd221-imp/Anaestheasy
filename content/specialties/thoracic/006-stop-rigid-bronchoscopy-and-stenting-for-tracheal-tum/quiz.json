@@ -1,0 +1,122 @@
+[
+  {
+    "q": "A patient with a critical tracheal tumour (stridor, orthopnoea) needs stenting. What is the key principle at induction?",
+    "o": [
+      "Rapid sequence induction with suxamethonium",
+      "Maintain spontaneous ventilation until the airway is secured, with ECMO on standby if critical",
+      "Give a long-acting relaxant early",
+      "Awake tracheostomy below the tumour in all cases",
+      "Lie the patient flat"
+    ],
+    "a": 1,
+    "why": "Loss of muscle tone can cause complete obstruction. Gas or careful IV induction keeping spontaneous ventilation, a plan A to D agreed with the surgeon, and ECMO standby if critical."
+  },
+  {
+    "q": "What is the rate used for high-frequency jet ventilation?",
+    "o": [
+      "8–30 breaths/min",
+      "30–60 breaths/min",
+      "120–300 breaths/min",
+      "600–900 breaths/min",
+      "1,000+ breaths/min"
+    ],
+    "a": 2,
+    "why": "High-frequency jet ventilation runs at 120–300 jets/min; low-frequency (conventional, Sanders) jet ventilation at 8–30/min."
+  },
+  {
+    "q": "During jet ventilation, SpO2 falls. Which change will NOT help?",
+    "o": [
+      "Increase the driving pressure",
+      "Increase the respiratory rate",
+      "Increase the inspiratory time",
+      "Check alignment of the jet catheter",
+      "Reduce the driving pressure"
+    ],
+    "a": 4,
+    "why": "Treat hypoxia by realigning the catheter and increasing driving pressure, rate or inspiratory time, or return to conventional ventilation."
+  },
+  {
+    "q": "Which is a disadvantage of subglottic jet ventilation?",
+    "o": [
+      "Vocal cord fluttering",
+      "No EtCO2 monitoring and risk of barotrauma",
+      "Poor surgical access",
+      "It needs a large ETT",
+      "It allows volatile delivery"
+    ],
+    "a": 1,
+    "why": "Subglottic jets reduce cord movement but give no EtCO2 or airway protection, risk barotrauma and gastric distension, and cannot deliver volatile."
+  },
+  {
+    "q": "What is the most serious risk of jet ventilation when outflow is obstructed?",
+    "o": [
+      "Hypocapnia",
+      "Barotrauma and gas trapping",
+      "Hypothermia",
+      "Bradycardia",
+      "Awareness"
+    ],
+    "a": 1,
+    "why": "Without free exhalation, gas trapping (like auto-PEEP) and barotrauma (pneumothorax, surgical emphysema) can occur."
+  },
+  {
+    "q": "What is the classic chest X-ray finding in sarcoidosis?",
+    "o": [
+      "Upper lobe cavitation",
+      "Bilateral hilar lymphadenopathy",
+      "Unilateral pleural effusion",
+      "Kerley B lines",
+      "Hyperinflation"
+    ],
+    "a": 1,
+    "why": "Bilateral hilar lymphadenopathy; reduced lung volumes and pulmonary hypertension can follow."
+  },
+  {
+    "q": "Why should an ECG be checked before anaesthesia in sarcoidosis?",
+    "o": [
+      "Granulomas can involve the conduction system, causing arrhythmias or heart block",
+      "Sarcoid causes long QT",
+      "To screen for Brugada",
+      "Sarcoid causes WPW",
+      "It is not needed"
+    ],
+    "a": 0,
+    "why": "Granulomas in the conduction system cause arrhythmias; also check calcium, renal function and steroid use."
+  },
+  {
+    "q": "Which electrolyte disturbance is typical of sarcoidosis?",
+    "o": [
+      "Hypocalcaemia",
+      "Hypercalcaemia",
+      "Hyponatraemia",
+      "Hyperkalaemia",
+      "Hypomagnesaemia"
+    ],
+    "a": 1,
+    "why": "Hypercalcaemia from granuloma vitamin D activation; also nephrolithiasis and interstitial nephritis."
+  },
+  {
+    "q": "Which cancer most often causes extrinsic compression of the trachea needing a stent?",
+    "o": [
+      "Prostate",
+      "Oesophageal",
+      "Melanoma",
+      "Bladder",
+      "Ovarian"
+    ],
+    "a": 1,
+    "why": "Extrinsic compression comes from oesophageal, thyroid and lymphoma; primary airway tumours include lung cancer, carcinoid and adenoid cystic carcinoma."
+  },
+  {
+    "q": "What is the recommended post-operative care after tracheal stenting?",
+    "o": [
+      "Lie flat with dry oxygen",
+      "Steroids for oedema and recover sitting up with humidified oxygen",
+      "Routine post-op ventilation",
+      "Immediate CPAP",
+      "Diuretics"
+    ],
+    "a": 1,
+    "why": "Give steroids for oedema, recover sitting up with humidified oxygen, and watch for stent migration and bleeding."
+  }
+]

@@ -1,0 +1,30 @@
+{
+  "t": "tip",
+  "shape": "cross",
+  "group": "Orthopaedics and Trauma",
+  "title": "Electrical Injury",
+  "cards": [
+    {
+      "h": "Priorities",
+      "b": "file:cards/01-priorities.html"
+    },
+    {
+      "h": "Pathophysiology",
+      "b": "file:cards/02-pathophysiology.html"
+    },
+    {
+      "h": "Microshock",
+      "b": "file:cards/03-microshock.html"
+    },
+    {
+      "h": "Management",
+      "b": "file:cards/04-management.html"
+    },
+    {
+      "h": "Note",
+      "b": "file:cards/05-note.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

@@ -1,0 +1,14 @@
+{
+  "t": "tip",
+  "shape": "brain",
+  "group": "Neuro",
+  "title": "Extradural Haematoma",
+  "cards": [
+    {
+      "h": "Extradural (epidural) haematoma",
+      "b": "file:cards/01-extradural-epidural-haematoma.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

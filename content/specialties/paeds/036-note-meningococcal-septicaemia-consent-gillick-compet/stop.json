@@ -1,0 +1,22 @@
+{
+  "t": "tip",
+  "shape": "dummy",
+  "group": "Paeds",
+  "title": "Meningococcal Septicaemia & Consent (Gillick Competence)",
+  "cards": [
+    {
+      "h": "Meningococcal septicaemia",
+      "b": "file:cards/01-meningococcal-septicaemia.html"
+    },
+    {
+      "h": "Consent in children and Gillick competence",
+      "b": "file:cards/02-consent-in-children-and-gillick-competence.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/03-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "q": "Why must the patient stay completely still while the robot is docked?",
+    "o": [
+      "To lower BP",
+      "To reduce PONV",
+      "To reduce bleeding",
+      "To save drugs",
+      "Movement can cause injury from the fixed instruments"
+    ],
+    "a": 4,
+    "why": "The robot's instruments are fixed in the abdomen; any movement risks injury."
+  },
+  {
+    "q": "What should the team rehearse for robotic surgery?",
+    "o": [
+      "Fast undocking in an emergency",
+      "Cell salvage set-up",
+      "One-lung ventilation",
+      "Awake fibreoptic intubation",
+      "Epidural top-up"
+    ],
+    "a": 0,
+    "why": "You can't reach the patient for CPR until the robot is undocked."
+  },
+  {
+    "q": "Which effect does steep head-down have?",
+    "o": [
+      "Raised ICP and IOP and facial and airway oedema",
+      "Lower intraocular pressure",
+      "Lower airway pressure",
+      "Less venous return",
+      "Better FRC"
+    ],
+    "a": 0,
+    "why": "Check for airway oedema before extubation."
+  },
+  {
+    "q": "How is rocuronium usually reversed at the end of robotic surgery?",
+    "o": [
+      "Sugammadex",
+      "Dantrolene",
+      "Not reversed",
+      "Neostigmine always",
+      "Naloxone"
+    ],
+    "a": 0,
+    "why": "Deep block is common, so sugammadex is often used."
+  },
+  {
+    "q": "Which drug is often given as an opioid-sparing adjunct in robotic gynaecology?",
+    "o": [
+      "Glucagon",
+      "Ephedrine",
+      "Ketorolac only",
+      "Magnesium sulphate",
+      "Atropine"
+    ],
+    "a": 3,
+    "why": "Magnesium (e.g. 2.5 g) reduces opioid requirements."
+  }
+]

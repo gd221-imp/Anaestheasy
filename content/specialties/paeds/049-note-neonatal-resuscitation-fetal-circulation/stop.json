@@ -1,0 +1,65 @@
+{
+  "t": "tip",
+  "shape": "dummy",
+  "group": "Paeds",
+  "title": "Neonatal Resuscitation & Fetal Circulation",
+  "cards": [
+    {
+      "h": "Neonatal Resuscitation sequence",
+      "b": "file:cards/01-neonatal-resuscitation-sequence.html"
+    },
+    {
+      "h": "Resuscitation drug/equipment doses (\"WETFLAG\")",
+      "b": "file:cards/02-resuscitation-drug-equipment-doses-wetflag.html"
+    },
+    {
+      "h": "Note",
+      "b": "file:cards/03-note.html"
+    },
+    {
+      "h": "Fetal circulation",
+      "b": "file:cards/04-fetal-circulation.html"
+    },
+    {
+      "h": "Bohr and double Bohr effect",
+      "b": "file:cards/05-bohr-and-double-bohr-effect.html"
+    },
+    {
+      "h": "Delivery: the first minutes",
+      "b": "file:cards/06-delivery-the-first-minutes.html"
+    },
+    {
+      "h": "The first days: closing the shunts",
+      "b": "file:cards/07-the-first-days-closing-the-shunts.html"
+    },
+    {
+      "h": "The transitional circulation",
+      "b": "file:cards/08-the-transitional-circulation.html"
+    },
+    {
+      "h": "Up to 6 weeks",
+      "b": "file:cards/09-up-to-6-weeks.html"
+    },
+    {
+      "h": "Anaesthetic implications",
+      "b": "file:cards/10-anaesthetic-implications.html"
+    },
+    {
+      "h": "Key points",
+      "b": "file:cards/11-key-points.html"
+    },
+    {
+      "h": "Revise from your notes",
+      "links": [
+        "phs7|fetal circulation",
+        "phs17|Bohr effect"
+      ]
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/13-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

@@ -1,0 +1,122 @@
+[
+  {
+    "q": "Which airway problem is typical of acromegaly?",
+    "o": [
+      "Small mouth opening only",
+      "Large tongue, thick pharyngeal tissue and laryngeal stenosis making mask ventilation and intubation difficult",
+      "Tracheomalacia",
+      "Micrognathia",
+      "No airway issues"
+    ],
+    "a": 1,
+    "why": "Acromegaly enlarges lips, tongue and jaw, thickens pharyngeal tissue and can narrow the larynx; OSA is common."
+  },
+  {
+    "q": "How is acromegaly diagnosed?",
+    "o": [
+      "Random cortisol",
+      "IGF-1, or GH after a 75 g oral glucose tolerance test",
+      "TSH",
+      "Prolactin only",
+      "Urinary catecholamines"
+    ],
+    "a": 1,
+    "why": "IGF-1 or failure of GH suppression after an OGTT."
+  },
+  {
+    "q": "Which test is used to diagnose Cushing’s syndrome?",
+    "o": [
+      "Short synacthen test",
+      "Overnight dexamethasone suppression test",
+      "Water deprivation test",
+      "OGTT",
+      "TRH test"
+    ],
+    "a": 1,
+    "why": "Late-night salivary cortisol, overnight dexamethasone suppression or 24-hour urinary free cortisol."
+  },
+  {
+    "q": "After pituitary surgery a patient passes over 300 ml/h of dilute urine and the serum sodium is 150 mmol/L. What is the most likely diagnosis?",
+    "o": [
+      "SIADH",
+      "Cranial diabetes insipidus",
+      "Cerebral salt wasting",
+      "Hypovolaemia",
+      "Renal failure"
+    ],
+    "a": 1,
+    "why": "Cranial DI causes large volumes of dilute urine and hypernatraemia; treat with desmopressin (DDAVP) and replace fluid."
+  },
+  {
+    "q": "Which hyponatraemic condition after neurosurgery is treated with fluid restriction?",
+    "o": [
+      "Cerebral salt wasting",
+      "SIADH",
+      "Cranial DI",
+      "Dehydration",
+      "Hyperglycaemia"
+    ],
+    "a": 1,
+    "why": "SIADH is euvolaemic and treated with fluid restriction; cerebral salt wasting is hypovolaemic and treated with sodium and fluid replacement."
+  },
+  {
+    "q": "How can the anaesthetist help the pituitary descend into the surgical field?",
+    "o": [
+      "Hyperventilation to a low PaCO2",
+      "Allowing a raised PaCO2 or injecting saline via a lumbar drain",
+      "Mannitol",
+      "Head-down tilt",
+      "Deepening anaesthesia"
+    ],
+    "a": 1,
+    "why": "Raising PaCO2 (or ICP via a lumbar drain) brings the gland down; Valsalva tests for a CSF leak."
+  },
+  {
+    "q": "Why is extubation done awake after transsphenoidal surgery?",
+    "o": [
+      "To check vision",
+      "Nasal packs mean the patient must mouth-breathe and protect their airway",
+      "To test for DI",
+      "To reduce bleeding",
+      "It is not: deep extubation is standard"
+    ],
+    "a": 1,
+    "why": "Nasal packs block the nose; an awake, smooth extubation reduces the risk of obstruction."
+  },
+  {
+    "q": "Which drug used on the nasal mucosa can cause hypertension and arrhythmias during transsphenoidal surgery?",
+    "o": [
+      "Lidocaine",
+      "Cocaine (or adrenaline preparations)",
+      "Saline",
+      "Xylometazoline only in children",
+      "Hyaluronidase"
+    ],
+    "a": 1,
+    "why": "Cocaine and adrenaline-containing nasal preparations cause hypertension and tachyarrhythmias."
+  },
+  {
+    "q": "Which visual field defect is classic for a pituitary tumour compressing the chiasm?",
+    "o": [
+      "Homonymous hemianopia",
+      "Bitemporal hemianopia",
+      "Central scotoma",
+      "Tunnel vision",
+      "Quadrantanopia"
+    ],
+    "a": 1,
+    "why": "Compression of the optic chiasm causes bitemporal hemianopia."
+  },
+  {
+    "q": "Which hormone is produced by the posterior pituitary?",
+    "o": [
+      "ACTH",
+      "ADH (vasopressin)",
+      "TSH",
+      "GH",
+      "Prolactin"
+    ],
+    "a": 1,
+    "why": "The posterior pituitary releases ADH and oxytocin; the anterior lobe releases ACTH, GH, FSH, LH, TSH and prolactin."
+  }
+]

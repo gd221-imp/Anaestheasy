@@ -1,0 +1,122 @@
+[
+  {
+    "q": "What is the upper lidocaine dose for tumescent anaesthesia?",
+    "o": [
+      "3 mg/kg",
+      "35–55 mg/kg",
+      "7 mg/kg",
+      "100 mg/kg",
+      "1 mg/kg"
+    ],
+    "a": 1,
+    "why": "It is absorbed slowly from fat."
+  },
+  {
+    "q": "When does peak lidocaine toxicity risk occur after tumescent infiltration?",
+    "o": [
+      "Immediately",
+      "About 12 hours later",
+      "After 1 week",
+      "At 30 minutes",
+      "Never"
+    ],
+    "a": 1,
+    "why": "Monitor post-op."
+  },
+  {
+    "q": "Which delayed anaesthetic complication is specific?",
+    "o": [
+      "Laryngospasm",
+      "Fat embolism",
+      "Hypocalcaemia",
+      "PDPH",
+      "Ptosis"
+    ],
+    "a": 1,
+    "why": "Also VTE."
+  },
+  {
+    "q": "What fluid issue arises with large-volume liposuction?",
+    "o": [
+      "Dehydration only",
+      "Fluid shifts requiring replacement and risk of overload",
+      "Hyponatraemia only",
+      "None",
+      "Polyuria"
+    ],
+    "a": 1,
+    "why": "Balance infiltrate and aspirate."
+  },
+  {
+    "q": "What is the HIV transmission risk after a percutaneous needlestick?",
+    "o": [
+      "30%",
+      "About 0.3%",
+      "3%",
+      "10%",
+      "0.003%"
+    ],
+    "a": 1,
+    "why": "HCV about 3%, HBV about 30%."
+  },
+  {
+    "q": "After a needlestick, when should HIV PEP ideally be started?",
+    "o": [
+      "Within 1 week",
+      "Within 1–2 hours",
+      "After serology",
+      "At 72 hours only",
+      "Not needed"
+    ],
+    "a": 1,
+    "why": "Wash, encourage bleeding, report."
+  },
+  {
+    "q": "Which immediate first aid is correct after needlestick?",
+    "o": [
+      "Suck the wound",
+      "Wash and encourage bleeding",
+      "Apply bleach",
+      "Squeeze and cover only",
+      "Ignore"
+    ],
+    "a": 1,
+    "why": "Do not suck."
+  },
+  {
+    "q": "Which immediate surgical complication is serious?",
+    "o": [
+      "Seroma",
+      "Visceral perforation",
+      "Contour irregularity",
+      "Skin necrosis",
+      "Bruising"
+    ],
+    "a": 1,
+    "why": "Rare but life-threatening."
+  },
+  {
+    "q": "Which immediate anaesthetic complication relates to large areas exposed?",
+    "o": [
+      "Hyperthermia",
+      "Hypothermia",
+      "Hyperkalaemia",
+      "Hypoglycaemia",
+      "Bradycardia"
+    ],
+    "a": 1,
+    "why": "Warm the patient."
+  },
+  {
+    "q": "What prophylaxis is needed post-op?",
+    "o": [
+      "Antibiotic always",
+      "VTE prophylaxis",
+      "Steroids",
+      "PPI",
+      "None"
+    ],
+    "a": 1,
+    "why": "VTE risk is significant."
+  }
+]

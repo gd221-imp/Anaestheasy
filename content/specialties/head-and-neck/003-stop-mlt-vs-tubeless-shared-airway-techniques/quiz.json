@@ -1,0 +1,122 @@
+[
+  {
+    "q": "What is a disadvantage of a tubeless technique?",
+    "o": [
+      "Poor surgical access",
+      "No airway protection and no end-tidal CO2",
+      "Requires volatile",
+      "Large tube",
+      "Cuff damage"
+    ],
+    "a": 1,
+    "why": "It needs TIVA."
+  },
+  {
+    "q": "What is a disadvantage of a microlaryngoscopy tube?",
+    "o": [
+      "No airway protection",
+      "Reduced access to the posterior third of the larynx",
+      "Cannot monitor CO2",
+      "Needs jet ventilation",
+      "Requires HFNO"
+    ],
+    "a": 1,
+    "why": "Tube diameter limits surgical access."
+  },
+  {
+    "q": "What three elements form the fire triad?",
+    "o": [
+      "Heat, water, oxygen",
+      "Ignition source, fuel and oxidiser",
+      "Laser, nitrogen, tube",
+      "Spark, CO2, alcohol",
+      "Fuel, air, saline"
+    ],
+    "a": 1,
+    "why": "Oxygen and N2O are oxidisers."
+  },
+  {
+    "q": "An airway fire occurs during laser surgery. What is done first?",
+    "o": [
+      "Continue ventilation",
+      "Stop the laser and gas flow, remove the ETT and flood with saline",
+      "Increase FiO2",
+      "Call the fire brigade first",
+      "Leave the tube"
+    ],
+    "a": 1,
+    "why": "Then inspect with a bronchoscope and ventilate by mask."
+  },
+  {
+    "q": "How can airway fire risk be reduced?",
+    "o": [
+      "Increase FiO2",
+      "Reduce FiO2 and avoid nitrous oxide",
+      "Use alcohol prep wet",
+      "Use PVC tubes for laser",
+      "High flows of N2O"
+    ],
+    "a": 1,
+    "why": "Allow alcohol prep to dry and use laser-safe tubes."
+  },
+  {
+    "q": "Why is panendoscopy challenging?",
+    "o": [
+      "Long and low stimulation",
+      "Short but highly stimulating, needing rapid emergence",
+      "Requires paralysis for hours",
+      "Low risk",
+      "No shared airway"
+    ],
+    "a": 1,
+    "why": "Remifentanil TIVA suits it."
+  },
+  {
+    "q": "Which ventilation technique is used in tubeless surgery?",
+    "o": [
+      "IPPV via ETT",
+      "High-flow nasal oxygen or jet ventilation",
+      "CPAP mask",
+      "One-lung ventilation",
+      "LMA"
+    ],
+    "a": 1,
+    "why": "HFNO gives the best surgical access."
+  },
+  {
+    "q": "What should be done after laryngeal surgery to reduce stridor?",
+    "o": [
+      "Lie flat",
+      "Recover sitting up and consider dexamethasone",
+      "Give furosemide",
+      "Leave intubated always",
+      "Give NSAID"
+    ],
+    "a": 1,
+    "why": "Watch for airway oedema."
+  },
+  {
+    "q": "What is the main immediate anaesthetic risk in tubeless techniques?",
+    "o": [
+      "Hypertension",
+      "Hypoxia and hypercapnia",
+      "Hyperkalaemia",
+      "Hypothermia",
+      "Awareness only"
+    ],
+    "a": 1,
+    "why": "CO2 cannot be monitored."
+  },
+  {
+    "q": "In the RACE fire approach, what does C stand for?",
+    "o": [
+      "Call",
+      "Contain",
+      "Cool",
+      "Check",
+      "Clear"
+    ],
+    "a": 1,
+    "why": "Rescue, Alert, Contain, Extinguish, Relocate."
+  }
+]

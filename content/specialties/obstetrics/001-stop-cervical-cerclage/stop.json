@@ -1,0 +1,48 @@
+{
+  "t": "recipe",
+  "shape": "belly",
+  "group": "Obstetrics",
+  "title": "Cervical Cerclage",
+  "op": true,
+  "cards": [
+    {
+      "h": "Anaesthetic recipe",
+      "b": "file:cards/01-anaesthetic-recipe.html",
+      "recipe": true
+    },
+    {
+      "h": "The Epidural Space",
+      "primaryRef": "ana18"
+    },
+    {
+      "h": "Local Anaesthetics",
+      "primaryRef": "pha20"
+    },
+    {
+      "h": "Twin Pregnancy",
+      "noteRef": "Twin Pregnancy"
+    },
+    {
+      "h": "Post Dural Puncture Headache & Nerve Injury",
+      "noteRef": "Post Dural Puncture Headache & Nerve Injury"
+    },
+    {
+      "h": "Maternal Physiology",
+      "noteRef": "Maternal Physiology"
+    },
+    {
+      "h": "Sample WPBA",
+      "b": "file:cards/07-sample-wpba.html",
+      "wpba": true
+    },
+    {
+      "h": "Curriculum",
+      "links": [
+        "curric:8",
+        "curric:9",
+        "curric:10"
+      ]
+    }
+  ],
+  "q": "file:quiz.json"
+}

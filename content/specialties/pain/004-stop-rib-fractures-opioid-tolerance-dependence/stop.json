@@ -1,0 +1,29 @@
+{
+  "t": "tip",
+  "shape": "face",
+  "group": "Pain",
+  "title": "Rib Fractures & Opioid Tolerance/Dependence",
+  "cards": [
+    {
+      "h": "Overview",
+      "b": "file:cards/01-overview.html"
+    },
+    {
+      "h": "Key points",
+      "b": "file:cards/02-key-points.html"
+    },
+    {
+      "h": "Key points",
+      "b": "file:cards/03-key-points.html"
+    },
+    {
+      "h": "Methadone",
+      "b": "file:cards/04-methadone.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/05-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json"
+}

@@ -1,0 +1,45 @@
+{
+  "t": "tip",
+  "shape": "mon",
+  "group": "ICM",
+  "title": "Organ Donation",
+  "cards": [
+    {
+      "h": "Death",
+      "b": "file:cards/01-death.html"
+    },
+    {
+      "h": "Death by neurological criteria",
+      "b": "file:cards/02-death-by-neurological-criteria.html"
+    },
+    {
+      "h": "Pathophysiology of brainstem death",
+      "b": "file:cards/03-pathophysiology-of-brainstem-death.html"
+    },
+    {
+      "h": "Key points",
+      "b": "file:cards/04-key-points.html"
+    },
+    {
+      "h": "Other contraindications to donation",
+      "b": "file:cards/05-other-contraindications-to-donation.html"
+    },
+    {
+      "h": "DCD vs DBD",
+      "b": "file:cards/06-dcd-vs-dbd.html"
+    },
+    {
+      "h": "Key points",
+      "b": "file:cards/07-key-points.html"
+    },
+    {
+      "h": "Cranial nerve testing for brainstem reflexes",
+      "b": "file:cards/08-cranial-nerve-testing-for-brainstem-reflexes.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/09-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json"
+}

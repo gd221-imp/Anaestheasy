@@ -1,0 +1,50 @@
+{
+  "t": "tip",
+  "shape": "dummy",
+  "group": "Paeds",
+  "title": "The Paediatric Airway",
+  "cards": [
+    {
+      "h": "Anatomy: differences from adults",
+      "b": "file:cards/01-anatomy-differences-from-adults.html"
+    },
+    {
+      "h": "Physiology",
+      "b": "file:cards/02-physiology.html"
+    },
+    {
+      "h": "Assessing the paediatric airway",
+      "b": "file:cards/03-assessing-the-paediatric-airway.html"
+    },
+    {
+      "h": "Equipment and sizing",
+      "b": "file:cards/04-equipment-and-sizing.html"
+    },
+    {
+      "h": "Down's Syndrome (Trisomy 21)",
+      "b": "file:cards/05-down-s-syndrome-trisomy-21.html"
+    },
+    {
+      "h": "Other difficult airway syndromes",
+      "b": "file:cards/06-other-difficult-airway-syndromes.html"
+    },
+    {
+      "h": "The difficult paediatric airway",
+      "b": "file:cards/07-the-difficult-paediatric-airway.html"
+    },
+    {
+      "h": "Managing the airway",
+      "b": "file:cards/08-managing-the-airway.html"
+    },
+    {
+      "h": "Laryngospasm",
+      "b": "file:cards/09-laryngospasm.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/10-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

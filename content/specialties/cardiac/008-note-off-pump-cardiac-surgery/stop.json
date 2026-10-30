@@ -1,0 +1,42 @@
+{
+  "t": "tip",
+  "shape": "heart",
+  "group": "Cardiac",
+  "title": "Off-Pump Cardiac Surgery",
+  "cards": [
+    {
+      "h": "Definition",
+      "b": "file:cards/01-definition.html"
+    },
+    {
+      "h": "Advantages (Anaes)",
+      "b": "file:cards/02-advantages-anaes.html"
+    },
+    {
+      "h": "Disadvantages (Surg)",
+      "b": "file:cards/03-disadvantages-surg.html"
+    },
+    {
+      "h": "Anaesthetic goals",
+      "b": "file:cards/04-anaesthetic-goals.html"
+    },
+    {
+      "h": "Minimally Invasive Cardiac Surgery",
+      "b": "file:cards/05-minimally-invasive-cardiac-surgery.html"
+    },
+    {
+      "h": "Mimvs",
+      "b": "file:cards/06-mimvs.html"
+    },
+    {
+      "h": "NIRS (cerebral oximetry)",
+      "b": "file:cards/07-nirs-cerebral-oximetry.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/08-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

@@ -1,0 +1,43 @@
+{
+  "t": "recipe",
+  "shape": "brain",
+  "group": "Neuro",
+  "title": "Transphenoidal Surgery (Pituitary)",
+  "op": true,
+  "cards": [
+    {
+      "h": "Anaesthetic recipe",
+      "b": "file:cards/01-anaesthetic-recipe.html",
+      "recipe": true
+    },
+    {
+      "h": "Pituitary Gland Anatomy",
+      "primaryRef": "ana48"
+    },
+    {
+      "h": "Pituitary, Thyroid & Calcium Homeostasis",
+      "primaryRef": "phs51"
+    },
+    {
+      "h": "Transphenoidal Surgery (Pituitary)",
+      "noteRef": "Transphenoidal Surgery (Pituitary)"
+    },
+    {
+      "h": "Sodium Disorders in Neurosurgery",
+      "noteRef": "Sodium Disorders in Neurosurgery"
+    },
+    {
+      "h": "Sample WPBA",
+      "b": "file:cards/06-sample-wpba.html",
+      "wpba": true
+    },
+    {
+      "h": "Curriculum",
+      "links": [
+        "curric:8",
+        "curric:9"
+      ]
+    }
+  ],
+  "q": "file:quiz.json"
+}

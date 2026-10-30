@@ -1,0 +1,122 @@
+[
+  {
+    "q": "Is CDH a surgical emergency?",
+    "o": [
+      "Yes, operate within 1 hour",
+      "No: stabilise first; surgery is not urgent",
+      "Only if left-sided",
+      "Only if right-sided",
+      "Only antenatally"
+    ],
+    "a": 1,
+    "why": "Mortality around 30% is from lung hypoplasia and pulmonary hypertension."
+  },
+  {
+    "q": "Which side is CDH more common?",
+    "o": [
+      "Right",
+      "Left",
+      "Bilateral",
+      "Equal",
+      "Central"
+    ],
+    "a": 1,
+    "why": "Bowel loops are seen in the chest in over 85%."
+  },
+  {
+    "q": "What is the main cause of mortality?",
+    "o": [
+      "Sepsis",
+      "Lung hypoplasia and pulmonary hypertension",
+      "Bowel ischaemia",
+      "Bleeding",
+      "Cardiac failure from VSD"
+    ],
+    "a": 1,
+    "why": "Ventilation is gentle and lung-protective."
+  },
+  {
+    "q": "What is the risk with high ventilatory pressures?",
+    "o": [
+      "Atelectasis",
+      "Contralateral pneumothorax from barotrauma",
+      "Bradycardia",
+      "Hyperthermia",
+      "Hypoglycaemia"
+    ],
+    "a": 1,
+    "why": "Avoid high pressures."
+  },
+  {
+    "q": "How is a pulmonary hypertensive crisis treated?",
+    "o": [
+      "Hypoventilation",
+      "FiO2 1.0, correct acidosis, nitric oxide, sildenafil or prostacyclin, ECMO",
+      "Fluid restriction only",
+      "Beta-blockers",
+      "Stop sedation"
+    ],
+    "a": 1,
+    "why": "PGE may keep the duct open to support the RV."
+  },
+  {
+    "q": "Why may prostaglandin E be used in CDH?",
+    "o": [
+      "To close the duct",
+      "To keep the duct open so the RV can offload right-to-left",
+      "For analgesia",
+      "For bronchodilation",
+      "To raise PVR"
+    ],
+    "a": 1,
+    "why": "Supports the failing right ventricle."
+  },
+  {
+    "q": "Which is a feature of thoracoscopic repair?",
+    "o": [
+      "Less instability",
+      "More cardiovascular instability and desaturation",
+      "No CO2 insufflation",
+      "Always quicker",
+      "No ventilation needed"
+    ],
+    "a": 1,
+    "why": "Hypercapnia from CO2 insufflation."
+  },
+  {
+    "q": "How is persistent pulmonary hypertension detected at the bedside?",
+    "o": [
+      "Equal saturations",
+      "Pre-ductal (right hand) SpO2 higher than post-ductal (foot)",
+      "Post-ductal higher",
+      "Bradycardia",
+      "High BP"
+    ],
+    "a": 1,
+    "why": "Right-to-left shunting through the duct."
+  },
+  {
+    "q": "Which delayed complication occurs after CDH repair?",
+    "o": [
+      "Hypospadias",
+      "Chylothorax and chronic lung disease",
+      "Squint",
+      "Hernia of the groin",
+      "Otitis"
+    ],
+    "a": 1,
+    "why": "Also adhesive obstruction and chest wall deformity."
+  },
+  {
+    "q": "By what age does PVR approach adult values in term babies?",
+    "o": [
+      "1 day",
+      "Around 6–8 weeks",
+      "1 year",
+      "10 years",
+      "Birth"
+    ],
+    "a": 1,
+    "why": "Left-to-right shunt failure often appears at 4–6 weeks."
+  }
+]

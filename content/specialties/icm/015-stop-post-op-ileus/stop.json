@@ -1,0 +1,33 @@
+{
+  "t": "tip",
+  "shape": "mon",
+  "group": "ICM",
+  "title": "Post-op Ileus",
+  "cards": [
+    {
+      "h": "Overview",
+      "b": "file:cards/01-overview.html"
+    },
+    {
+      "h": "Clinical picture",
+      "b": "file:cards/02-clinical-picture.html"
+    },
+    {
+      "h": "Differential",
+      "b": "file:cards/03-differential.html"
+    },
+    {
+      "h": "Risk factors",
+      "b": "file:cards/04-risk-factors.html"
+    },
+    {
+      "h": "Prevention",
+      "b": "file:cards/05-prevention.html"
+    },
+    {
+      "h": "Management",
+      "b": "file:cards/06-management.html"
+    }
+  ],
+  "q": "file:quiz.json"
+}

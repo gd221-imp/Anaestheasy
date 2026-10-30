@@ -1,0 +1,122 @@
+[
+  {
+    "q": "What is the underlying mechanism of myasthenia gravis?",
+    "o": [
+      "Antibodies to presynaptic voltage-gated calcium channels",
+      "Antibodies to post-synaptic nicotinic acetylcholine receptors",
+      "Demyelination of peripheral nerves",
+      "Loss of anterior horn cells",
+      "Deficiency of acetylcholinesterase"
+    ],
+    "a": 1,
+    "why": "IgG against the nicotinic AChR activates complement, reducing receptor numbers and post-synaptic folds. Antibodies to presynaptic calcium channels cause Lambert–Eaton syndrome."
+  },
+  {
+    "q": "How do patients with myasthenia gravis respond to neuromuscular blocking drugs?",
+    "o": [
+      "Sensitive to suxamethonium, resistant to non-depolarisers",
+      "Relatively resistant to suxamethonium, very sensitive to non-depolarisers",
+      "Normal response to both",
+      "Resistant to both",
+      "Sensitive to both, equally"
+    ],
+    "a": 1,
+    "why": "Fewer functioning receptors mean resistance to suxamethonium (higher dose, possibly prolonged) and marked sensitivity to non-depolarisers: use reduced doses titrated against train-of-four."
+  },
+  {
+    "q": "After thymectomy, a patient on high-dose pyridostigmine develops weakness with salivation, lacrimation, diarrhoea and vomiting. What is the most likely diagnosis?",
+    "o": [
+      "Myasthenic crisis",
+      "Cholinergic crisis",
+      "Residual neuromuscular block",
+      "Guillain–Barré syndrome",
+      "Hypokalaemia"
+    ],
+    "a": 1,
+    "why": "Excess ACh from over-treatment causes a cholinergic crisis with a SLUDGE picture. Atropine treats the muscarinic features but not the nicotinic weakness."
+  },
+  {
+    "q": "Which is a risk factor for needing post-operative ventilation after thymectomy?",
+    "o": [
+      "Disease duration under 6 months",
+      "Purely ocular symptoms",
+      "Bulbar symptoms and reduced vital capacity",
+      "Low pyridostigmine dose",
+      "Female sex"
+    ],
+    "a": 2,
+    "why": "Risk factors include disease over 6 years, bulbar or respiratory symptoms, vital capacity under 2–2.9 L, previous myasthenic crisis, pyridostigmine over 750 mg/day, chronic lung disease, blood loss over 1 L and high antibody titres."
+  },
+  {
+    "q": "In what proportion of patients with myasthenia gravis is the thymus abnormal?",
+    "o": [
+      "About 10%",
+      "About 25%",
+      "About 50%",
+      "About 75%",
+      "About 100%"
+    ],
+    "a": 3,
+    "why": "The thymus is abnormal in around 75% (mostly hyperplasia, with thymoma in around 15%)."
+  },
+  {
+    "q": "How can intubating conditions be achieved for thymectomy while avoiding neuromuscular blockers?",
+    "o": [
+      "Ketamine alone",
+      "Propofol induction then deepening with a volatile agent",
+      "Suxamethonium at normal dose",
+      "Awake fibreoptic intubation is mandatory",
+      "High-dose rocuronium and sugammadex"
+    ],
+    "a": 1,
+    "why": "Propofol induction and deepening with a volatile often gives adequate conditions. If a non-depolariser is needed, use small titrated doses with quantitative monitoring and have sugammadex available."
+  },
+  {
+    "q": "A patient with suspected Guillain–Barré syndrome has a lumbar puncture. What is the typical finding?",
+    "o": [
+      "Raised white cell count with normal protein",
+      "Raised protein",
+      "Low glucose",
+      "Xanthochromia",
+      "Oligoclonal bands only"
+    ],
+    "a": 1,
+    "why": "CSF protein is raised. Nerve conduction studies show a demyelinating or axonal pattern; MRI can show anterior nerve root enhancement."
+  },
+  {
+    "q": "Which feature most strongly indicates that a patient with Guillain–Barré syndrome needs ventilatory support?",
+    "o": [
+      "Mild facial weakness",
+      "Bulbar weakness with inability to cough or protect the airway",
+      "Paraesthesia in the feet",
+      "Absent ankle reflexes",
+      "Back pain"
+    ],
+    "a": 1,
+    "why": "Indications include bulbar involvement, autonomic instability, rising CO2 and rising fatigue with a falling FVC. EGRIS estimates the risk of needing ventilation."
+  },
+  {
+    "q": "Which antibody is associated with the Miller Fisher variant of Guillain–Barré syndrome?",
+    "o": [
+      "Anti-GM1",
+      "Anti-GQ1b",
+      "Anti-MuSK",
+      "Anti-AChR",
+      "Anti-VGCC"
+    ],
+    "a": 1,
+    "why": "Anti-GQ1b is associated with Miller Fisher syndrome (ataxia, areflexia, ophthalmoplegia); anti-GM1 with classic GBS."
+  },
+  {
+    "q": "Why should suxamethonium be avoided in a patient with motor neurone disease?",
+    "o": [
+      "Prolonged apnoea from pseudocholinesterase deficiency",
+      "Risk of hyperkalaemia from extrajunctional receptors",
+      "Malignant hyperthermia",
+      "Bradycardia only",
+      "It is ineffective"
+    ],
+    "a": 1,
+    "why": "Denervation causes extrajunctional nicotinic receptors (fetal gamma subunit) that stay open longer, so suxamethonium can cause severe hyperkalaemia. Patients are also sensitive to non-depolarisers."
+  }
+]

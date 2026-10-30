@@ -1,0 +1,43 @@
+{
+  "t": "recipe",
+  "shape": "kidney",
+  "group": "Urology",
+  "title": "Nephrectomy (Including IVC Extension)",
+  "op": true,
+  "cards": [
+    {
+      "h": "Anaesthetic recipe",
+      "b": "file:cards/01-anaesthetic-recipe.html",
+      "recipe": true
+    },
+    {
+      "h": "Renal Tubular Transport & Reabsorption",
+      "primaryRef": "phs31"
+    },
+    {
+      "h": "Great Vessels",
+      "primaryRef": "ana10"
+    },
+    {
+      "h": "Chronic Kidney Disease",
+      "noteRef": "Chronic Kidney Disease"
+    },
+    {
+      "h": "Renal Replacement Therapy & AKI",
+      "noteRef": "Renal Replacement Therapy & AKI"
+    },
+    {
+      "h": "Sample WPBA",
+      "b": "file:cards/06-sample-wpba.html",
+      "wpba": true
+    },
+    {
+      "h": "Curriculum",
+      "links": [
+        "curric:8",
+        "curric:9"
+      ]
+    }
+  ],
+  "q": "file:quiz.json"
+}

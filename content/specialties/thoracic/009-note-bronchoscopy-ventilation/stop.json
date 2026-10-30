@@ -1,0 +1,34 @@
+{
+  "t": "tip",
+  "shape": "lung",
+  "group": "Thoracic",
+  "title": "Bronchoscopy & Ventilation",
+  "cards": [
+    {
+      "h": "Overview",
+      "b": "file:cards/01-overview.html"
+    },
+    {
+      "h": "Anaesthetic considerations (ABCDE)",
+      "b": "file:cards/02-anaesthetic-considerations-abcde.html"
+    },
+    {
+      "h": "Ventilation techniques",
+      "b": "file:cards/03-ventilation-techniques.html"
+    },
+    {
+      "h": "Key points",
+      "b": "file:cards/04-key-points.html"
+    },
+    {
+      "h": "Anaesthesia for airway stenting",
+      "b": "file:cards/05-anaesthesia-for-airway-stenting.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/06-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

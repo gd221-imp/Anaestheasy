@@ -1,0 +1,54 @@
+{
+  "t": "tip",
+  "shape": "belly",
+  "group": "Obstetrics",
+  "title": "Pre-Eclampsia & Eclampsia",
+  "cards": [
+    {
+      "h": "Gestational hypertension",
+      "b": "file:cards/01-gestational-hypertension.html"
+    },
+    {
+      "h": "Diagnosis",
+      "b": "file:cards/02-diagnosis.html"
+    },
+    {
+      "h": "Severe features",
+      "b": "file:cards/03-severe-features.html"
+    },
+    {
+      "h": "Aetiology",
+      "b": "file:cards/04-aetiology.html"
+    },
+    {
+      "h": "Risk factors",
+      "b": "file:cards/05-risk-factors.html"
+    },
+    {
+      "h": "Management",
+      "b": "file:cards/06-management.html"
+    },
+    {
+      "h": "Severe pre-eclampsia management",
+      "b": "file:cards/07-severe-pre-eclampsia-management.html"
+    },
+    {
+      "h": "Anaesthetic implications",
+      "b": "file:cards/08-anaesthetic-implications.html"
+    },
+    {
+      "h": "Managing severe pre-eclampsia complications",
+      "b": "file:cards/09-managing-severe-pre-eclampsia-complications.html"
+    },
+    {
+      "h": "Key points",
+      "b": "file:cards/10-key-points.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/11-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

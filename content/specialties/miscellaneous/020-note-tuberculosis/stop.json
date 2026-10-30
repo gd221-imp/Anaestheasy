@@ -1,0 +1,18 @@
+{
+  "t": "tip",
+  "shape": "star",
+  "group": "Miscellaneous",
+  "title": "Tuberculosis",
+  "cards": [
+    {
+      "h": "Overview",
+      "b": "file:cards/01-overview.html"
+    },
+    {
+      "h": "Key points",
+      "b": "file:cards/02-key-points.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

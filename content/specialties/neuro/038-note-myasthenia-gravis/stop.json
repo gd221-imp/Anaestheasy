@@ -1,0 +1,46 @@
+{
+  "t": "tip",
+  "shape": "brain",
+  "group": "Neuro",
+  "title": "Myasthenia Gravis",
+  "cards": [
+    {
+      "h": "Myasthenia Gravis (acquired)",
+      "b": "file:cards/01-myasthenia-gravis-acquired.html"
+    },
+    {
+      "h": "Clinical presentation",
+      "b": "file:cards/02-clinical-presentation.html"
+    },
+    {
+      "h": "Management",
+      "b": "file:cards/03-management.html"
+    },
+    {
+      "h": "Pre-op",
+      "b": "file:cards/04-pre-op.html"
+    },
+    {
+      "h": "Intra-op",
+      "b": "file:cards/05-intra-op.html"
+    },
+    {
+      "h": "Post-op",
+      "b": "file:cards/06-post-op.html"
+    },
+    {
+      "h": "Myasthenic crisis",
+      "b": "file:cards/07-myasthenic-crisis.html"
+    },
+    {
+      "h": "The thymus and myasthenia gravis",
+      "b": "file:cards/08-the-thymus-and-myasthenia-gravis.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/09-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

@@ -1,0 +1,122 @@
+[
+  {
+    "q": "In the NTSP algorithm, what is the first action after calling for help and applying oxygen to face and stoma?",
+    "o": [
+      "Remove the tube",
+      "Remove the speaking valve, inner tube and cap",
+      "Intubate orally",
+      "Give suxamethonium",
+      "Bag through the tracheostomy"
+    ],
+    "a": 1,
+    "why": "Then pass a suction catheter, deflate the cuff and remove the tube if needed."
+  },
+  {
+    "q": "Which circuit is recommended to assess breathing at the face and stoma?",
+    "o": [
+      "Bain",
+      "Mapleson C with capnography",
+      "T-piece without capnography",
+      "Circle",
+      "Self-inflating bag only"
+    ],
+    "a": 1,
+    "why": "Capnography is essential."
+  },
+  {
+    "q": "How long does a percutaneous tracheostomy tract take to mature?",
+    "o": [
+      "24 hours",
+      "About 7 days",
+      "6 weeks",
+      "3 days",
+      "1 month"
+    ],
+    "a": 1,
+    "why": "Before then the tissue planes collapse if decannulated."
+  },
+  {
+    "q": "What did the TracMan study find?",
+    "o": [
+      "Early tracheostomy reduced mortality",
+      "No significant difference in mortality between early and late tracheostomy",
+      "Late was harmful",
+      "Percutaneous better than surgical",
+      "More infection with early"
+    ],
+    "a": 1,
+    "why": "Early vs late timing made no mortality difference."
+  },
+  {
+    "q": "Which delayed complication causes massive haemorrhage?",
+    "o": [
+      "Granuloma",
+      "Tracheo-innominate fistula",
+      "Stenosis",
+      "Tracheomalacia",
+      "Dysphonia"
+    ],
+    "a": 1,
+    "why": "Hyperinflate the cuff for tamponade, then surgical control."
+  },
+  {
+    "q": "Which tracheal ring is the tracheostomy usually placed through?",
+    "o": [
+      "1st",
+      "2nd or 3rd",
+      "6th",
+      "Cricoid",
+      "Thyroid cartilage"
+    ],
+    "a": 1,
+    "why": "Stay sutures help reinsertion if displaced."
+  },
+  {
+    "q": "Which patient has no upper airway route for oxygenation?",
+    "o": [
+      "Percutaneous tracheostomy",
+      "Laryngectomy",
+      "Surgical tracheostomy",
+      "Mini-trach",
+      "Cricothyroidotomy"
+    ],
+    "a": 1,
+    "why": "Do not attempt oral oxygenation in a laryngectomy."
+  },
+  {
+    "q": "Which is a relative contraindication to percutaneous tracheostomy?",
+    "o": [
+      "PEEP 5",
+      "PEEP over 10 cmH2O or FiO2 over 0.6",
+      "Age over 60",
+      "Diabetes",
+      "Long-term ventilation"
+    ],
+    "a": 1,
+    "why": "Also coagulopathy and abnormal anatomy."
+  },
+  {
+    "q": "What FiO2 is used during tracheostomy insertion?",
+    "o": [
+      "0.3",
+      "1.0",
+      "0.5",
+      "0.21",
+      "Variable"
+    ],
+    "a": 1,
+    "why": "Withdraw the ETT as the tracheostomy is placed."
+  },
+  {
+    "q": "If the stoma must be intubated directly, what size tube is suggested?",
+    "o": [
+      "8.0 ETT",
+      "Size 6.0 ETT or small tracheostomy tube",
+      "4.0",
+      "LMA",
+      "10.0"
+    ],
+    "a": 1,
+    "why": "Advance with fibreoptic guidance where possible."
+  }
+]

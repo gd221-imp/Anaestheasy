@@ -1,0 +1,30 @@
+{
+  "t": "tip",
+  "shape": "belly",
+  "group": "Obstetrics",
+  "title": "Breastfeeding",
+  "cards": [
+    {
+      "h": "WHO recommendations",
+      "b": "file:cards/01-who-recommendations.html"
+    },
+    {
+      "h": "Anaesthesia",
+      "b": "file:cards/02-anaesthesia.html"
+    },
+    {
+      "h": "Reasons breastfeeding might need to pause",
+      "b": "file:cards/03-reasons-breastfeeding-might-need-to-pause.html"
+    },
+    {
+      "h": "Key points",
+      "b": "file:cards/04-key-points.html"
+    },
+    {
+      "h": "Milk donation",
+      "b": "file:cards/05-milk-donation.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

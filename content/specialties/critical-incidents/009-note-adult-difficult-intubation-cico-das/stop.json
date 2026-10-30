@@ -1,0 +1,21 @@
+{
+  "t": "tip",
+  "shape": "warn",
+  "group": "Critical incidents",
+  "title": "Adult Difficult Intubation & CICO (DAS)",
+  "note": true,
+  "cards": [
+    {
+      "h": "DAS 2015 unanticipated difficult intubation",
+      "b": "file:cards/01-das-2015-unanticipated-difficult-intubation.html"
+    },
+    {
+      "h": "Front-of-neck access (scalpel-bougie-tube)",
+      "b": "file:cards/02-front-of-neck-access-scalpel-bougie-tube.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/03-further-reading.html"
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+[
+  {
+    "q": "A patient had a drug-eluting stent for an acute coronary syndrome 4 months ago. When should elective (not time-sensitive) non-cardiac surgery ideally take place?",
+    "o": [
+      "Now",
+      "After 6 weeks",
+      "After 6 months",
+      "After 12 months",
+      "Never while on aspirin"
+    ],
+    "a": 3,
+    "why": "2022 ESC: delay elective surgery 12 months after ACS and 6 months after elective PCI. Time-sensitive surgery needs at least 1 month of DAPT after elective PCI (3 months after PCI for high-risk ACS)."
+  },
+  {
+    "q": "A patient on prasugrel needs elective surgery with significant bleeding risk. How long before should prasugrel be stopped?",
+    "o": [
+      "24 hours",
+      "3 days",
+      "5 days",
+      "7 days",
+      "14 days"
+    ],
+    "a": 3,
+    "why": "Stop prasugrel 7 days, clopidogrel 5 days and ticagrelor 3–5 days before. Continue aspirin after PCI if bleeding risk allows."
+  },
+  {
+    "q": "A patient on dapagliflozin is listed for an elective laparotomy. What is the advice?",
+    "o": [
+      "Continue throughout",
+      "Omit on the morning of surgery only",
+      "Stop at least 3 days before",
+      "Stop 2 weeks before",
+      "Switch to insulin 1 day before"
+    ],
+    "a": 2,
+    "why": "SGLT2 inhibitors should stop at least 3 days before intermediate- or high-risk surgery because of the risk of euglycaemic ketoacidosis."
+  },
+  {
+    "q": "A 72-year-old with ischaemic heart disease has major abdominal surgery. Which post-operative test detects myocardial injury after non-cardiac surgery (MINS)?",
+    "o": [
+      "Daily ECG only",
+      "High-sensitivity troponin at 24 and 48 hours",
+      "Echo on day 1",
+      "BNP on day 5",
+      "CK-MB at 6 hours"
+    ],
+    "a": 1,
+    "why": "Measure hs-troponin before and at 24 and 48 hours after intermediate- or high-risk surgery in patients aged 65 or over or with cardiovascular disease or risk factors; most MINS is silent."
+  },
+  {
+    "q": "A pacing-dependent patient with a permanent pacemaker needs monopolar diathermy above the umbilicus. What is the safest plan?",
+    "o": [
+      "Proceed with no changes",
+      "Reprogramme to an asynchronous (fixed-rate) mode or apply a magnet",
+      "Use maximum diathermy power to finish quickly",
+      "Give atropine prophylactically",
+      "Remove the pacemaker"
+    ],
+    "a": 1,
+    "why": "Diathermy interference can inhibit pacing. For a pacing-dependent patient, switch to an asynchronous mode (magnet or reprogramming); prefer bipolar diathermy, with the return plate away from the device."
+  },
+  {
+    "q": "A patient has a pacing ICD. A magnet is placed over the device. What effect will it have?",
+    "o": [
+      "Switches pacing to a fixed rate",
+      "Suspends anti-tachycardia therapies only",
+      "Turns the whole device off",
+      "Increases the pacing rate to 100/min",
+      "Delivers a test shock"
+    ],
+    "a": 1,
+    "why": "In an ICD the magnet only suspends the defibrillator function; it does not switch pacing to a fixed rate. Pacing-dependent ICD patients need reprogramming. Apply external pads."
+  },
+  {
+    "q": "In ischaemic heart disease, what determines coronary perfusion pressure to the left ventricle?",
+    "o": [
+      "Mean arterial pressure minus CVP",
+      "Aortic diastolic pressure minus LVEDP",
+      "Systolic pressure minus diastolic pressure",
+      "Heart rate × stroke volume",
+      "Pulmonary artery pressure minus LAP"
+    ],
+    "a": 1,
+    "why": "CPP = aortic diastolic pressure − LVEDP. Defend diastolic pressure first (metaraminol) and avoid raising LVEDP with unnecessary fluid."
+  },
+  {
+    "q": "In severe aortic stenosis, which echo change suggests the left ventricle is starting to fail?",
+    "o": [
+      "Concentric hypertrophy with a thick wall",
+      "A dilating ventricle with a thinning wall",
+      "A small hyperdynamic cavity",
+      "Mild mitral regurgitation",
+      "A normal ejection fraction"
+    ],
+    "a": 1,
+    "why": "LVH is compensatory (Laplace’s law: wall tension falls as thickness rises). Dilatation with wall thinning means decompensation. Functional status is the key question in AS."
+  },
+  {
+    "q": "By the 2022 ESC/ERS definition, what mean pulmonary artery pressure at rest defines pulmonary hypertension?",
+    "o": [
+      "Above 15 mmHg",
+      "Above 20 mmHg",
+      "At least 25 mmHg",
+      "Above 30 mmHg",
+      "Above 40 mmHg"
+    ],
+    "a": 1,
+    "why": "Pulmonary hypertension is a mean PAP above 20 mmHg at rest on right heart catheterisation; pre-capillary if PVR is above 2 Wood units. (Older definitions used 25 mmHg.)"
+  },
+  {
+    "q": "During laparoscopy, a patient with pulmonary arterial hypertension becomes acutely hypotensive with a dilated RV on TOE. Which is the most appropriate management?",
+    "o": [
+      "A 1 L fluid bolus",
+      "100% oxygen, hyperventilation, inhaled nitric oxide, and noradrenaline or vasopressin to keep SVR up",
+      "GTN infusion to offload the heart",
+      "Increase PEEP to 15 cmH2O",
+      "Deepen anaesthesia with propofol"
+    ],
+    "a": 1,
+    "why": "A PH crisis presents with hypotension. Offload the RV (100% O2, correct hypercarbia and acidosis, inhaled NO or iloprost), support it (inotrope, noradrenaline or vasopressin, sinus rhythm), give no more fluid, and consider VA ECMO."
+  }
+]

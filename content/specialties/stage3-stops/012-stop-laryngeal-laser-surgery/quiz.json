@@ -1,0 +1,122 @@
+[
+  {
+    "q": "What FiO2 is targeted during laser surgery?",
+    "o": [
+      "1.0",
+      "Below 0.3",
+      "0.5",
+      "0.8",
+      "0.21 only"
+    ],
+    "a": 1,
+    "why": "Lowest tolerated."
+  },
+  {
+    "q": "Why is the ETT cuff filled with saline?",
+    "o": [
+      "Better seal",
+      "To absorb heat and signal rupture (with dye)",
+      "Reduce pressure",
+      "Lubrication",
+      "Cost"
+    ],
+    "a": 1,
+    "why": "Laser-safe double-cuffed tubes."
+  },
+  {
+    "q": "Who must wear eye protection?",
+    "o": [
+      "Surgeon only",
+      "Patient and all staff, specific to the wavelength",
+      "Nobody",
+      "Anaesthetist only",
+      "Patient only"
+    ],
+    "a": 1,
+    "why": "Laser eye injury."
+  },
+  {
+    "q": "What should be placed around the surgical field?",
+    "o": [
+      "Dry gauze",
+      "Damp swabs",
+      "Alcohol",
+      "Plastic drape",
+      "Nothing"
+    ],
+    "a": 1,
+    "why": "Reduce flammable material."
+  },
+  {
+    "q": "An airway fire occurs. What is done?",
+    "o": [
+      "Increase FiO2",
+      "Stop the laser, stop gas flow, remove ETT, flood with saline",
+      "Continue",
+      "Give steroids first",
+      "Call surgeons only"
+    ],
+    "a": 1,
+    "why": "Then bronchoscopy and steroids."
+  },
+  {
+    "q": "Which alternative removes the ETT from the field?",
+    "o": [
+      "LMA",
+      "Tubeless jet ventilation or apnoeic oxygenation",
+      "Nasal tube",
+      "Tracheostomy always",
+      "Double lumen"
+    ],
+    "a": 1,
+    "why": "For short procedures."
+  },
+  {
+    "q": "Which lesion is commonly lasered?",
+    "o": [
+      "Thyroid nodule",
+      "Laryngeal papillomas",
+      "Tonsils",
+      "Polyps of nose",
+      "Parotid"
+    ],
+    "a": 1,
+    "why": "Also early glottic cancer."
+  },
+  {
+    "q": "Which delayed complication may follow?",
+    "o": [
+      "Hernia",
+      "Laryngeal web or stenosis",
+      "Ileus",
+      "PDPH",
+      "Hypocalcaemia"
+    ],
+    "a": 1,
+    "why": "Also airway oedema."
+  },
+  {
+    "q": "Which ETT size is usual?",
+    "o": [
+      "Large to protect",
+      "Small diameter for surgical access",
+      "Double lumen",
+      "Uncuffed size 8",
+      "LMA"
+    ],
+    "a": 1,
+    "why": "Shared airway."
+  },
+  {
+    "q": "Which gas should be avoided?",
+    "o": [
+      "Air",
+      "Nitrous oxide",
+      "Helium",
+      "Nitrogen",
+      "Xenon"
+    ],
+    "a": 1,
+    "why": "N2O supports combustion."
+  }
+]

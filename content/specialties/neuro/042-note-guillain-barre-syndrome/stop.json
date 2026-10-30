@@ -1,0 +1,50 @@
+{
+  "t": "tip",
+  "shape": "brain",
+  "group": "Neuro",
+  "title": "Guillain-Barre Syndrome",
+  "cards": [
+    {
+      "h": "Overview",
+      "b": "file:cards/01-overview.html"
+    },
+    {
+      "h": "Definition",
+      "b": "file:cards/02-definition.html"
+    },
+    {
+      "h": "Subtypes",
+      "b": "file:cards/03-subtypes.html"
+    },
+    {
+      "h": "Features",
+      "b": "file:cards/04-features.html"
+    },
+    {
+      "h": "Investigations",
+      "b": "file:cards/05-investigations.html"
+    },
+    {
+      "h": "Scoring tools",
+      "b": "file:cards/06-scoring-tools.html"
+    },
+    {
+      "h": "Indications for ventilatory support",
+      "b": "file:cards/07-indications-for-ventilatory-support.html"
+    },
+    {
+      "h": "Management",
+      "b": "file:cards/08-management.html"
+    },
+    {
+      "h": "Differential diagnosis",
+      "b": "file:cards/09-differential-diagnosis.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/10-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

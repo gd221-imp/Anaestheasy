@@ -1,0 +1,33 @@
+{
+  "t": "tip",
+  "shape": "mon",
+  "group": "ICM",
+  "title": "Intra-abdominal Pressure & Compartment Syndrome",
+  "cards": [
+    {
+      "h": "Overview",
+      "b": "file:cards/01-overview.html"
+    },
+    {
+      "h": "Intra-abdominal hypertension",
+      "b": "file:cards/02-intra-abdominal-hypertension.html"
+    },
+    {
+      "h": "Risk factors for raised IAP",
+      "b": "file:cards/03-risk-factors-for-raised-iap.html"
+    },
+    {
+      "h": "Effects of raised IAP on other systems",
+      "b": "file:cards/04-effects-of-raised-iap-on-other-systems.html"
+    },
+    {
+      "h": "Management of IAP >=18mmHg",
+      "b": "file:cards/05-management-of-iap-18mmhg.html"
+    },
+    {
+      "h": "Open abdomen complications",
+      "b": "file:cards/06-open-abdomen-complications.html"
+    }
+  ],
+  "q": "file:quiz.json"
+}

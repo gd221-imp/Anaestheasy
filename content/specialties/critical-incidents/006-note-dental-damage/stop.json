@@ -1,0 +1,14 @@
+{
+  "t": "tip",
+  "shape": "warn",
+  "group": "Critical incidents",
+  "title": "Dental Damage",
+  "cards": [
+    {
+      "h": "Treatment",
+      "b": "file:cards/01-treatment.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

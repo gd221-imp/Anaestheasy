@@ -1,0 +1,82 @@
+[
+  {
+    "id": "Q169",
+    "ar": "Orthopaedics",
+    "sb": "Bone cement implantation syndrome",
+    "q": "During a cemented hemiarthroplasty, the patient's SpO2 falls to 88% and systolic BP falls by 45% without loss of consciousness. What grade of bone cement implantation syndrome is this?",
+    "o": [
+      "Grade 4",
+      "It does not meet BCIS criteria",
+      "Grade 2",
+      "Grade 3",
+      "Grade 1"
+    ],
+    "a": 2,
+    "why": "Donaldson grading: grade 1 = SpO2 &lt; 94% or systolic fall &gt; 20%; grade 2 = SpO2 &lt; 88% or systolic fall &gt; 40% or unexpected loss of consciousness; grade 3 = cardiovascular collapse needing CPR. A fall to 88% with a 45% systolic drop is grade 2. Joint AAGBI/BOA/BGS guidance: identify high-risk patients, the surgeon washes and dries the canal and uses a retrograde cementing gun, the anaesthetist maintains vigilance and BP, and roles are briefed.",
+    "st": "st3-7"
+  },
+  {
+    "id": "Q170",
+    "ar": "Orthopaedics",
+    "sb": "Hip fracture",
+    "q": "An 85-year-old on warfarin for AF (INR 2.8) has a hip fracture. What is the most appropriate plan for surgery?",
+    "o": [
+      "Wait for the INR to fall naturally to below 1.5",
+      "Proceed with spinal at INR 2.8",
+      "Give prothrombin complex concentrate routinely to everyone",
+      "Give FFP 15 mL/kg routinely",
+      "Give IV vitamin K (e.g. 5 mg) and plan surgery within 36 hours, using GA or spinal according to the INR on the day"
+    ],
+    "a": 4,
+    "why": "Hip fracture surgery should happen within 36 hours of admission (NICE/BOAST). Warfarin should be reversed with IV vitamin K, rechecking INR in 4–6 hours; spinal anaesthesia is acceptable at INR ≤ 1.5 (some accept slightly higher with senior input). PCC is reserved for urgent reversal for bleeding or emergency surgery. Delaying surgery while waiting for spontaneous reversal increases mortality.",
+    "st": "core-4"
+  },
+  {
+    "id": "Q171",
+    "ar": "Orthopaedics",
+    "sb": "Fat embolism syndrome",
+    "q": "Thirty-six hours after a femoral shaft fracture, a young man becomes confused and hypoxic with a petechial rash on the axillae and conjunctivae. What is the most appropriate treatment?",
+    "o": [
+      "Urgent IVC filter",
+      "High-dose methylprednisolone",
+      "Therapeutic heparin",
+      "Thrombolysis",
+      "Supportive care with oxygen and ventilatory support as needed"
+    ],
+    "a": 4,
+    "why": "Fat embolism syndrome (Gurd's major criteria: respiratory insufficiency, cerebral signs, petechial rash) appears 24–72 hours after long-bone or pelvic fractures. Treatment is supportive. Early fixation of long-bone fractures reduces incidence. Steroid prophylaxis is not routinely recommended; heparin and thrombolysis have no role.",
+    "st": null
+  },
+  {
+    "id": "Q172",
+    "ar": "Orthopaedics",
+    "sb": "Scoliosis surgery",
+    "q": "Which strategy most reduces blood transfusion during posterior spinal fusion for adolescent idiopathic scoliosis?",
+    "o": [
+      "Liberal crystalloid",
+      "Deliberate tachycardia",
+      "High PEEP",
+      "Tranexamic acid with cell salvage, and prone positioning with a free abdomen",
+      "Hypothermia to 34 °C"
+    ],
+    "a": 3,
+    "why": "Blood conservation in spinal fusion uses tranexamic acid (strong evidence), cell salvage, preoperative optimisation of haemoglobin, a free abdomen in the prone position to reduce venous congestion of epidural veins, normothermia and judicious controlled hypotension. Monitoring of spinal cord function (SSEPs/MEPs with TIVA) guides safety.",
+    "st": "st2-31"
+  },
+  {
+    "id": "Q173",
+    "ar": "Orthopaedics",
+    "sb": "Ankylosing spondylitis",
+    "q": "A 60-year-old with long-standing ankylosing spondylitis falls and has neck pain. He has a fixed flexed neck. Which statement is most important for his airway management?",
+    "o": [
+      "Treat as an unstable cervical fracture until proven otherwise, keep his usual flexed posture, and plan awake or fibreoptic intubation",
+      "His spine is rigid so it cannot be injured",
+      "Place in a standard collar in neutral position",
+      "Avoid any imaging until intubated",
+      "Neuraxial techniques are easy in AS"
+    ],
+    "a": 0,
+    "why": "Ankylosed spines fracture with minor trauma and fractures are often unstable and missed on plain films (CT/MRI needed). Forcing the neck into a neutral collar can cause cord injury; immobilise in the patient's normal position. Airway management is often difficult (fixed flexion, limited mouth opening from TMJ involvement), so awake fibreoptic techniques are favoured. Also consider restrictive lung disease, aortic regurgitation and heart block.",
+    "st": null
+  }
+]

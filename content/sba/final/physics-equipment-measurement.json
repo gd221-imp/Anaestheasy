@@ -1,0 +1,98 @@
+[
+  {
+    "id": "Q252",
+    "ar": "Physics, equipment & measurement",
+    "sb": "Capnography",
+    "q": "A capnograph trace shows a 'shark fin' shape with an upsloping phase III and no plateau. What is the most likely cause?",
+    "o": [
+      "Oesophageal intubation",
+      "Disconnection",
+      "Bronchospasm or obstructive airways disease",
+      "Cardiac arrest",
+      "Rebreathing from exhausted soda lime"
+    ],
+    "a": 2,
+    "why": "Airflow obstruction (bronchospasm, COPD, kinked tube) causes uneven emptying of alveoli with different time constants, so phase III slopes upward. A raised baseline indicates rebreathing (exhausted soda lime, faulty valves). Loss of trace indicates disconnection, oesophageal intubation or circulatory arrest. A cleft in the plateau (curare cleft) suggests spontaneous effort under partial block.",
+    "st": null
+  },
+  {
+    "id": "Q253",
+    "ar": "Physics, equipment & measurement",
+    "sb": "Circle system",
+    "q": "Which statement about the circle breathing system is correct?",
+    "o": [
+      "Soda lime absorbs CO2 by an endothermic reaction",
+      "Sevoflurane can react with dry soda lime to produce compound A, and desflurane with dry absorbent can produce carbon monoxide",
+      "Inspired oxygen equals the fresh gas oxygen concentration at low flow",
+      "Unidirectional valves are not required",
+      "Low fresh gas flows increase volatile consumption"
+    ],
+    "a": 1,
+    "why": "CO2 absorption by soda lime is exothermic and produces water. Sevoflurane degrades to compound A (nephrotoxic in rats) at low flows; desiccated absorbents (especially with strong bases) produce CO with desflurane. Low flows reduce waste and cost but the inspired oxygen falls below the fresh gas concentration, so gas monitoring is essential. Unidirectional valves prevent rebreathing.",
+    "st": null
+  },
+  {
+    "id": "Q254",
+    "ar": "Physics, equipment & measurement",
+    "sb": "Invasive arterial monitoring",
+    "q": "An arterial trace shows exaggerated systolic peaks and a low dicrotic notch, with ringing after the upstroke on a fast-flush test. What does this indicate and what is the effect?",
+    "o": [
+      "Transducer placed too low",
+      "Overdamping; systolic underestimated",
+      "Underdamping (resonance); systolic overestimated and diastolic underestimated, MAP relatively accurate",
+      "Correct damping",
+      "Air in the system causing underdamping"
+    ],
+    "a": 2,
+    "why": "A fast-flush test with several oscillations indicates underdamping (low damping coefficient), from stiff short tubing or a system whose natural frequency is close to the arterial waveform harmonics. It overestimates systolic and underestimates diastolic pressure. Overdamping (air bubbles, clots, kinks, compliant tubing) gives a flattened trace and underestimates systolic. MAP is least affected. Transducer height errors shift all values (about 0.74 mmHg per cm).",
+    "st": null
+  },
+  {
+    "id": "Q255",
+    "ar": "Physics, equipment & measurement",
+    "sb": "Pacemaker codes",
+    "q": "A patient has a pacemaker coded DDD. What does the third letter represent?",
+    "o": [
+      "Chamber sensed",
+      "Response to sensing (inhibit and/or trigger)",
+      "Rate modulation",
+      "Multisite pacing",
+      "Chamber paced"
+    ],
+    "a": 1,
+    "why": "NBG code: first letter = chamber paced, second = chamber sensed, third = response to sensing (I = inhibited, T = triggered, D = both), fourth = rate modulation (R), fifth = multisite pacing. DDD paces and senses both chambers and either inhibits or triggers in response. A magnet usually converts a pacemaker to asynchronous mode (e.g. DOO), but responses vary by device.",
+    "st": null
+  },
+  {
+    "id": "Q256",
+    "ar": "Physics, equipment & measurement",
+    "sb": "Ultrasound physics",
+    "q": "Which ultrasound artefact appears as multiple equally spaced horizontal lines deep to the pleura in a normally aerated lung?",
+    "o": [
+      "Mirror image of the liver",
+      "A-lines (reverberation)",
+      "B-lines",
+      "Posterior acoustic enhancement",
+      "Acoustic shadowing"
+    ],
+    "a": 1,
+    "why": "A-lines are reverberation artefacts between the probe and the highly reflective pleura, seen in normal aerated lung (and in pneumothorax). B-lines are vertical comet-tail artefacts from thickened interlobular septa (interstitial fluid); three or more per space is abnormal. Lung sliding excludes pneumothorax at that point; a lung point confirms it.",
+    "st": null
+  },
+  {
+    "id": "Q257",
+    "ar": "Physics, equipment & measurement",
+    "sb": "Oesophageal Doppler",
+    "q": "An oesophageal Doppler shows a corrected flow time (FTc) of 280 ms and a stroke volume that rises by 15% after a 250 mL fluid bolus. What does this suggest?",
+    "o": [
+      "Vasodilatation requiring vasopressor",
+      "Probe malposition",
+      "Left ventricular failure",
+      "Fluid overload",
+      "Fluid responsiveness; consider further boluses until stroke volume no longer rises by 10%"
+    ],
+    "a": 4,
+    "why": "FTc (systolic flow time corrected to heart rate, normal about 330–360 ms) is shortened by hypovolaemia and raised afterload. A stroke volume increase of more than 10% after a fluid challenge indicates fluid responsiveness; repeat boluses until the rise is below 10%. A long FTc suggests vasodilatation. Peak velocity reflects contractility.",
+    "st": null
+  }
+]

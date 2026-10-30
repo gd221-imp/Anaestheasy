@@ -1,0 +1,47 @@
+{
+  "t": "recipe",
+  "shape": "heart",
+  "group": "Cardiac",
+  "title": "Off-Pump Cardiac Surgery",
+  "op": true,
+  "cards": [
+    {
+      "h": "Anaesthetic recipe",
+      "b": "file:cards/01-anaesthetic-recipe.html",
+      "recipe": true
+    },
+    {
+      "h": "Coronary Circulation",
+      "primaryRef": "ana8"
+    },
+    {
+      "h": "Coronary Circulation",
+      "primaryRef": "phs12"
+    },
+    {
+      "h": "Off-Pump Cardiac Surgery",
+      "noteRef": "Off-Pump Cardiac Surgery"
+    },
+    {
+      "h": "Ischaemic Heart Disease",
+      "noteRef": "Ischaemic Heart Disease"
+    },
+    {
+      "h": "Post-Cardiac Surgery Complications",
+      "noteRef": "Post-Cardiac Surgery Complications"
+    },
+    {
+      "h": "Sample WPBA",
+      "b": "file:cards/07-sample-wpba.html",
+      "wpba": true
+    },
+    {
+      "h": "Curriculum",
+      "links": [
+        "curric:8",
+        "curric:9"
+      ]
+    }
+  ],
+  "q": "file:quiz.json"
+}

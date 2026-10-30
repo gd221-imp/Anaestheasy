@@ -1,0 +1,122 @@
+[
+  {
+    "q": "To what temperature is chemotherapy heated in HIPEC?",
+    "o": [
+      "37°C",
+      "About 42°C",
+      "50°C",
+      "39°C",
+      "45°C"
+    ],
+    "a": 1,
+    "why": "Heat increases tumour permeability."
+  },
+  {
+    "q": "Which is an indication for HIPEC?",
+    "o": [
+      "Colon cancer with liver metastases only",
+      "Pseudomyxoma peritonei",
+      "Pancreatitis",
+      "Gallstones",
+      "Appendicitis"
+    ],
+    "a": 1,
+    "why": "Also ovarian, gastric and peritoneal mesothelioma."
+  },
+  {
+    "q": "What happens to the patient during the heated phase?",
+    "o": [
+      "Hypothermia",
+      "Hyperthermia with a hyperdynamic circulation and raised EtCO2",
+      "Bradycardia",
+      "Hypocapnia",
+      "Hypertension only"
+    ],
+    "a": 1,
+    "why": "Active cooling may be needed."
+  },
+  {
+    "q": "What type of coagulopathy is seen?",
+    "o": [
+      "Only heparin-induced",
+      "Consumptive and dilutional",
+      "None",
+      "Platelet excess",
+      "Hypercoagulable only"
+    ],
+    "a": 1,
+    "why": "Monitor coagulation."
+  },
+  {
+    "q": "What staff hazard exists during HIPEC?",
+    "o": [
+      "Radiation",
+      "Exposure to cytotoxic aerosol",
+      "Noise",
+      "Laser",
+      "Magnet"
+    ],
+    "a": 1,
+    "why": "Ensure scavenging and PPE."
+  },
+  {
+    "q": "What is normal intra-abdominal pressure?",
+    "o": [
+      "0 mmHg",
+      "5–7 mmHg",
+      "15 mmHg",
+      "20 mmHg",
+      "25 mmHg"
+    ],
+    "a": 1,
+    "why": "IAH is over 12 mmHg."
+  },
+  {
+    "q": "What defines abdominal compartment syndrome?",
+    "o": [
+      "IAP over 12",
+      "Grade III/IV IAH with new organ dysfunction",
+      "Any distension",
+      "IAP 8 mmHg",
+      "Ileus"
+    ],
+    "a": 1,
+    "why": "Grade III 21–25, IV 26 or above."
+  },
+  {
+    "q": "How is abdominal perfusion pressure calculated?",
+    "o": [
+      "MAP − CVP",
+      "MAP − IAP",
+      "IAP − CVP",
+      "SBP − IAP",
+      "DBP − IAP"
+    ],
+    "a": 1,
+    "why": "Analogous to CPP."
+  },
+  {
+    "q": "How is IAP measured?",
+    "o": [
+      "Rectal probe",
+      "Bladder pressure via catheter with about 25 ml instilled, at end-expiration",
+      "Gastric tube only",
+      "CT",
+      "Clinical exam"
+    ],
+    "a": 1,
+    "why": "Zeroed at the mid-axillary line."
+  },
+  {
+    "q": "Which delayed anaesthetic complication follows HIPEC?",
+    "o": [
+      "MH",
+      "Chemotherapy toxicity (renal, bone marrow)",
+      "Laryngospasm",
+      "PDPH",
+      "Awareness"
+    ],
+    "a": 1,
+    "why": "Also prolonged ileus."
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "q": "A patient 6 years after heart transplant becomes bradycardic (HR 40) under anaesthesia for a laparoscopic cholecystectomy. Which drug is most likely to work?",
+    "o": [
+      "Atropine",
+      "Glycopyrronium",
+      "Isoprenaline",
+      "Neostigmine",
+      "Digoxin"
+    ],
+    "a": 2,
+    "why": "The transplanted heart is denervated, so atropine and glycopyrronium have no vagolytic effect. Direct-acting drugs such as isoprenaline (or adrenaline, or pacing) work."
+  },
+  {
+    "q": "Why is the resting heart rate of a heart transplant recipient typically 90–110/min?",
+    "o": [
+      "High circulating catecholamines",
+      "Loss of vagal tone to the donor sinus node",
+      "Ciclosporin side effect",
+      "Chronic rejection",
+      "Persistent pain"
+    ],
+    "a": 1,
+    "why": "With no autonomic innervation the donor SA node runs at its intrinsic rate with no vagal brake. There is also no reflex tachycardia to laryngoscopy, fluid shifts or low BP."
+  },
+  {
+    "q": "A heart transplant recipient becomes hypotensive and needs adrenaline. How should it be dosed?",
+    "o": [
+      "As normal: 1 mg bolus",
+      "Larger doses, because receptors are downregulated",
+      "Smaller doses (e.g. 0.5 mcg increments), because receptors are upregulated",
+      "Avoid adrenaline completely",
+      "Only via the IM route"
+    ],
+    "a": 2,
+    "why": "Receptor upregulation makes adrenaline and isoprenaline more potent, so start low. Indirect-acting sympathomimetics such as ephedrine have unpredictable effects."
+  },
+  {
+    "q": "Why might cardiac allograft vasculopathy present without chest pain?",
+    "o": [
+      "Ciclosporin is analgesic",
+      "The denervated heart cannot signal ischaemic pain",
+      "Vasculopathy only affects veins",
+      "Steroids mask pain",
+      "Ischaemia does not occur in a transplanted heart"
+    ],
+    "a": 1,
+    "why": "The myocardium is denervated, so ischaemia can be “silent”. Consider a cardiac catheter if vasculopathy is suspected."
+  },
+  {
+    "q": "Which analgesic should be avoided after surgery in a heart transplant patient taking ciclosporin?",
+    "o": [
+      "Paracetamol",
+      "Morphine",
+      "Ibuprofen",
+      "Oxycodone",
+      "Local anaesthetic wound infiltration"
+    ],
+    "a": 2,
+    "why": "NSAIDs add to the renal toxicity of calcineurin inhibitors (ciclosporin, tacrolimus). Ciclosporin also causes hypertension and gingival hypertrophy, which can affect laryngoscopy."
+  },
+  {
+    "q": "A heart transplant recipient is planning pregnancy. Which immunosuppressant should be avoided?",
+    "o": [
+      "Tacrolimus",
+      "Ciclosporin",
+      "Prednisolone",
+      "Mycophenolate mofetil",
+      "None: all are safe"
+    ],
+    "a": 3,
+    "why": "Mycophenolate carries risks of miscarriage and congenital defects and is stopped before conception. Care is in a tertiary centre with immunosuppression continued."
+  },
+  {
+    "q": "After implantation of a donor heart, which is the commonest cause of difficult separation from bypass?",
+    "o": [
+      "Left ventricular outflow obstruction",
+      "Right ventricular failure from raised PVR",
+      "Mitral stenosis",
+      "Hyperkalaemia from cardioplegia",
+      "Vasovagal bradycardia"
+    ],
+    "a": 1,
+    "why": "The donor RV is not adapted to the recipient’s often raised PVR. Avoid hypoxia, hypercapnia and acidosis, and use milrinone, adrenaline and inhaled nitric oxide."
+  },
+  {
+    "q": "A patient with a continuous-flow LVAD is under GA. NIBP and pulse oximetry readings are unreliable. Which monitoring is most useful?",
+    "o": [
+      "Capnography alone",
+      "Heart rate trend",
+      "Arterial line and TOE",
+      "Peripheral nerve stimulator",
+      "Bispectral index"
+    ],
+    "a": 2,
+    "why": "Continuous flow means no palpable pulse on some devices, so NIBP and SpO2 can fail. Readings are independent of HR and EtCO2; TOE is the most useful, with invasive arterial monitoring."
+  },
+  {
+    "q": "An LVAD patient becomes hypotensive after induction and the console shows low flows. What is the most likely cause and treatment?",
+    "o": [
+      "Pump thrombosis; give alteplase",
+      "Reduced preload; give fluid",
+      "High preload; give furosemide",
+      "Bradycardia; give atropine",
+      "Device failure; switch the pump off"
+    ],
+    "a": 1,
+    "why": "LVADs are preload-dependent, RV-dependent and afterload-sensitive. Vasodilatation at induction drops filling; restore preload and SVR, and call the LVAD team."
+  },
+  {
+    "q": "What is the mechanism of action of levosimendan?",
+    "o": [
+      "PDE-III inhibition",
+      "Beta-1 agonism",
+      "Sensitising troponin C to calcium and opening ATP-sensitive K+ channels",
+      "Alpha-1 agonism",
+      "Na+/K+ ATPase inhibition"
+    ],
+    "a": 2,
+    "why": "Levosimendan is a calcium sensitiser and opens K-ATP channels (vasodilatation, reduced preload and afterload, better coronary perfusion). Milrinone and enoximone are PDE-III inhibitors; dobutamine is a beta-1 agonist."
+  }
+]

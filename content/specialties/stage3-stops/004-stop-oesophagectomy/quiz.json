@@ -1,0 +1,122 @@
+[
+  {
+    "q": "What airway device is used for the thoracic phase?",
+    "o": [
+      "LMA",
+      "Double-lumen tube for one-lung ventilation",
+      "Single lumen only",
+      "Tracheostomy",
+      "MLT"
+    ],
+    "a": 1,
+    "why": "Change to single-lumen at the end if ventilated."
+  },
+  {
+    "q": "Why is fluid overload avoided?",
+    "o": [
+      "Hypertension",
+      "Risk of pulmonary complications and anastomotic oedema",
+      "Diuresis",
+      "Cost",
+      "PONV"
+    ],
+    "a": 1,
+    "why": "Goal-directed fluids with vasopressors."
+  },
+  {
+    "q": "Which arrhythmia is common after oesophagectomy?",
+    "o": [
+      "VT",
+      "Atrial fibrillation",
+      "Heart block",
+      "Torsades",
+      "Brugada"
+    ],
+    "a": 1,
+    "why": "May herald an anastomotic leak."
+  },
+  {
+    "q": "What analgesia is used?",
+    "o": [
+      "PCA only",
+      "Thoracic epidural",
+      "Interscalene",
+      "Femoral",
+      "None"
+    ],
+    "a": 1,
+    "why": "Very painful surgery."
+  },
+  {
+    "q": "Which delayed surgical complication involves the thoracic duct?",
+    "o": [
+      "Pneumothorax",
+      "Chylothorax",
+      "Empyema",
+      "Haemothorax",
+      "Hernia"
+    ],
+    "a": 1,
+    "why": "Also conduit necrosis and leak."
+  },
+  {
+    "q": "Which approach involves 3 stages?",
+    "o": [
+      "Ivor Lewis",
+      "McKeown",
+      "Transhiatal",
+      "Thoracoabdominal",
+      "Minimally invasive only"
+    ],
+    "a": 1,
+    "why": "Abdominal, thoracic and cervical."
+  },
+  {
+    "q": "What position is used for the thoracic phase?",
+    "o": [
+      "Supine",
+      "Left lateral (right thoracotomy)",
+      "Prone",
+      "Sitting",
+      "Lithotomy"
+    ],
+    "a": 1,
+    "why": "Per the note."
+  },
+  {
+    "q": "How should an NG tube be placed?",
+    "o": [
+      "Blindly at any time",
+      "With surgical guidance, not disturbed after",
+      "Not used",
+      "Before induction",
+      "By the patient"
+    ],
+    "a": 1,
+    "why": "Protect the anastomosis."
+  },
+  {
+    "q": "What is the usual post-op destination?",
+    "o": [
+      "Ward",
+      "ICU",
+      "Day unit",
+      "Home",
+      "Rehab"
+    ],
+    "a": 1,
+    "why": "Or specialist HDU."
+  },
+  {
+    "q": "Which nerve injury causes hoarseness after oesophagectomy?",
+    "o": [
+      "Phrenic",
+      "Recurrent laryngeal",
+      "Vagus trunk",
+      "Hypoglossal",
+      "Accessory"
+    ],
+    "a": 1,
+    "why": "Especially with cervical anastomosis."
+  }
+]

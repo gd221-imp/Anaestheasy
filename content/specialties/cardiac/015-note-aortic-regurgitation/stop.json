@@ -1,0 +1,22 @@
+{
+  "t": "tip",
+  "shape": "heart",
+  "group": "Cardiac",
+  "title": "Aortic Regurgitation",
+  "cards": [
+    {
+      "h": "Symptoms",
+      "b": "file:cards/01-symptoms.html"
+    },
+    {
+      "h": "Causes",
+      "b": "file:cards/02-causes.html"
+    },
+    {
+      "h": "Assessment",
+      "b": "file:cards/03-assessment.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

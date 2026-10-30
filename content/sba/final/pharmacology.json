@@ -1,0 +1,114 @@
+[
+  {
+    "id": "Q245",
+    "ar": "Pharmacology",
+    "sb": "TIVA / TCI",
+    "q": "Which statement about TCI propofol models is correct?",
+    "o": [
+      "The Eleveld model cannot be used in children",
+      "The Marsh model is the only model licensed for effect-site targeting",
+      "The Marsh model uses age and lean body mass",
+      "Context-sensitive half-time of propofol is longer than that of fentanyl after prolonged infusion",
+      "The Schnider model uses age, weight, height and sex, and can target effect-site concentration"
+    ],
+    "a": 4,
+    "why": "Marsh is weight-only (central compartment proportional to weight) and was designed for plasma targeting. Schnider incorporates age, weight, height and sex (via lean body mass) and is commonly used for effect-site targeting; it can underdose in obesity. Eleveld is a general-purpose model covering children to the elderly and obese patients. Propofol's context-sensitive half-time is shorter than fentanyl's after long infusions.",
+    "st": null
+  },
+  {
+    "id": "Q246",
+    "ar": "Pharmacology",
+    "sb": "Sugammadex",
+    "q": "After an RSI with rocuronium 1.2 mg/kg, a 'can't intubate, can't oxygenate' situation develops 3 minutes later. What dose of sugammadex is needed for immediate reversal?",
+    "o": [
+      "4 mg/kg",
+      "8 mg/kg",
+      "16 mg/kg",
+      "32 mg/kg",
+      "2 mg/kg"
+    ],
+    "a": 2,
+    "why": "Sugammadex encapsulates rocuronium (and vecuronium) 1:1. Doses: 2 mg/kg for moderate block (reappearance of T2), 4 mg/kg for deep block (post-tetanic count 1–2), 16 mg/kg for immediate reversal after 1.2 mg/kg rocuronium. Reversal of block alone will not rescue the airway if obstruction is anatomical, and CICO management (front-of-neck access) must not be delayed.",
+    "st": null
+  },
+  {
+    "id": "Q247",
+    "ar": "Pharmacology",
+    "sb": "Neuromuscular monitoring",
+    "q": "According to the 2021 AAGBI recommendations for standards of monitoring, which is required whenever neuromuscular blocking drugs are used?",
+    "o": [
+      "Monitoring only if neostigmine is used",
+      "Quantitative neuromuscular monitoring from before the first dose until recovery, aiming for TOF ratio ≥ 0.9 before extubation",
+      "Qualitative peripheral nerve stimulator only at the end",
+      "Clinical tests such as head lift are sufficient",
+      "Monitoring only for long cases"
+    ],
+    "a": 1,
+    "why": "AAGBI (2021) recommends quantitative monitoring (acceleromyography or electromyography) whenever neuromuscular blockers are used, from induction until recovery, confirming a TOF ratio ≥ 0.9 before extubation. Residual block is common and associated with hypoxaemia, aspiration and pulmonary complications. Clinical signs are unreliable.",
+    "st": null
+  },
+  {
+    "id": "Q248",
+    "ar": "Pharmacology",
+    "sb": "Antiplatelet drugs",
+    "q": "Which antiplatelet drug acts by reversible antagonism of the P2Y12 receptor?",
+    "o": [
+      "Aspirin",
+      "Dipyridamole",
+      "Prasugrel",
+      "Clopidogrel",
+      "Ticagrelor"
+    ],
+    "a": 4,
+    "why": "Ticagrelor binds reversibly and is not a prodrug (stop about 5 days before neuraxial block). Clopidogrel (prodrug, needs CYP2C19) and prasugrel bind irreversibly (stop 7 days before neuraxial blocks). Aspirin irreversibly inhibits COX-1. Dipyridamole inhibits phosphodiesterase and adenosine reuptake.",
+    "st": null
+  },
+  {
+    "id": "Q249",
+    "ar": "Pharmacology",
+    "sb": "Serotonin syndrome",
+    "q": "A patient on fluoxetine develops agitation, hyperthermia, clonus and hyperreflexia after receiving tramadol for postoperative pain. What is the most appropriate specific treatment if supportive measures fail?",
+    "o": [
+      "Physostigmine",
+      "Dantrolene",
+      "Bromocriptine",
+      "Haloperidol",
+      "Cyproheptadine"
+    ],
+    "a": 4,
+    "why": "Serotonin syndrome (Hunter criteria: clonus, especially inducible or ocular, with agitation, sweating, tremor, hyperreflexia, hypertonia and fever) follows serotonergic combinations such as SSRIs with tramadol, pethidine, fentanyl, ondansetron or methylene blue. Stop the drugs, give benzodiazepines, cool, and consider cyproheptadine (a 5-HT2A antagonist). Severe hyperthermia needs sedation, paralysis and ventilation. Dantrolene and bromocriptine are not indicated.",
+    "st": null
+  },
+  {
+    "id": "Q250",
+    "ar": "Pharmacology",
+    "sb": "Nitrous oxide",
+    "q": "Prolonged or repeated exposure to nitrous oxide can cause subacute combined degeneration of the cord by which mechanism?",
+    "o": [
+      "Oxidation of vitamin B12 cobalt, inactivating methionine synthase",
+      "Inhibition of cytochrome P450",
+      "Blockade of GABA-A receptors",
+      "Inhibition of NMDA receptors",
+      "Direct demyelination by fluoride ions"
+    ],
+    "a": 0,
+    "why": "N2O irreversibly oxidises the cobalt in vitamin B12, inactivating methionine synthase, impairing methionine and folate metabolism and DNA synthesis. Effects: megaloblastic anaemia and neurological damage, especially in B12-deficient or recreational users. It also expands air-filled spaces, increases PONV, and has environmental impact (greenhouse gas).",
+    "st": null
+  },
+  {
+    "id": "Q251",
+    "ar": "Pharmacology",
+    "sb": "Diuretics",
+    "q": "Where in the nephron do loop diuretics such as furosemide act?",
+    "o": [
+      "Glomerulus, increasing filtration",
+      "Thick ascending limb of the loop of Henle, inhibiting the Na-K-2Cl cotransporter",
+      "Proximal convoluted tubule, inhibiting carbonic anhydrase",
+      "Collecting duct, antagonising aldosterone",
+      "Distal convoluted tubule, inhibiting the Na-Cl cotransporter"
+    ],
+    "a": 1,
+    "why": "Furosemide inhibits NKCC2 in the thick ascending limb, the most potent site. Thiazides inhibit NCC in the distal tubule; spironolactone antagonises aldosterone and amiloride blocks ENaC in the collecting duct; acetazolamide inhibits carbonic anhydrase in the proximal tubule; mannitol is an osmotic diuretic acting mainly at the proximal tubule and loop.",
+    "st": null
+  }
+]

@@ -1,0 +1,44 @@
+{
+  "t": "recipe",
+  "shape": "scalpel",
+  "group": "General surgery",
+  "title": "Inguinal Hernia Repair",
+  "op": true,
+  "cards": [
+    {
+      "h": "Anaesthetic recipe",
+      "b": "file:cards/01-anaesthetic-recipe.html",
+      "recipe": true
+    },
+    {
+      "h": "Simple Analgesics & NSAIDs",
+      "primaryRef": "pha21"
+    },
+    {
+      "h": "Gas and Vapour, Vaporisers & Humidity",
+      "primaryRef": "phy7"
+    },
+    {
+      "h": "Pollution & Scavenging",
+      "primaryRef": "phy37"
+    },
+    {
+      "h": "Day Case Surgery",
+      "noteRef": "Day Case Surgery"
+    },
+    {
+      "h": "Sample WPBA",
+      "b": "file:cards/06-sample-wpba.html",
+      "wpba": true
+    },
+    {
+      "h": "Curriculum",
+      "links": [
+        "curric:8",
+        "curric:9",
+        "curric:10"
+      ]
+    }
+  ],
+  "q": "file:quiz.json"
+}

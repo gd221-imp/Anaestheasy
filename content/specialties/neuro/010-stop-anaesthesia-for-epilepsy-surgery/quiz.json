@@ -1,0 +1,122 @@
+[
+  {
+    "q": "Which is the commonest epilepsy surgery procedure?",
+    "o": [
+      "Corpus callosotomy",
+      "Anterior temporal lobectomy",
+      "Hemispherectomy",
+      "Vagal nerve stimulator",
+      "Frontal lobectomy"
+    ],
+    "a": 1,
+    "why": "Anterior temporal lobectomy is the commonest."
+  },
+  {
+    "q": "During electrocorticography, which drug should be avoided because it suppresses epileptiform activity?",
+    "o": [
+      "Alfentanil",
+      "Benzodiazepines",
+      "Remifentanil",
+      "Paracetamol",
+      "Ondansetron"
+    ],
+    "a": 1,
+    "why": "Avoid benzodiazepines and minimise volatile; alfentanil can activate epileptogenic foci to aid mapping."
+  },
+  {
+    "q": "How does long-term antiepileptic therapy affect non-depolarising neuromuscular blockers?",
+    "o": [
+      "Increased sensitivity",
+      "Relative resistance (shorter duration)",
+      "No effect",
+      "Prolonged block",
+      "Malignant hyperthermia"
+    ],
+    "a": 1,
+    "why": "Enzyme induction causes relative resistance; monitor with train-of-four."
+  },
+  {
+    "q": "Which test is used to lateralise language and memory before epilepsy surgery?",
+    "o": [
+      "Tensilon test",
+      "Wada test",
+      "Allen test",
+      "Romberg test",
+      "Schober test"
+    ],
+    "a": 1,
+    "why": "The Wada (intracarotid amobarbital) test lateralises language and memory."
+  },
+  {
+    "q": "Why is delayed emergence common after epilepsy surgery?",
+    "o": [
+      "Low volatile use",
+      "Antiepileptic drugs, intra-op seizures, or complications such as haemorrhage",
+      "Hyperventilation",
+      "Short surgery",
+      "Use of TIVA"
+    ],
+    "a": 1,
+    "why": "Consider continued AEDs, post-ictal state, haemorrhage and other causes of delayed emergence."
+  },
+  {
+    "q": "Which drug lowers seizure threshold and should be used with caution in epilepsy?",
+    "o": [
+      "Propofol",
+      "Some dopamine antagonists, xanthines and certain opioids",
+      "Thiopental",
+      "Midazolam",
+      "Levetiracetam"
+    ],
+    "a": 1,
+    "why": "Be careful with drugs that lower the seizure threshold at emergence."
+  },
+  {
+    "q": "Which EEG pattern is typical of propofol anaesthesia on a spectrogram?",
+    "o": [
+      "Theta and gamma",
+      "Slow-delta with coherent frontal alpha",
+      "Pure beta",
+      "Spindles only",
+      "Isoelectric"
+    ],
+    "a": 1,
+    "why": "Propofol shows slow-delta plus coherent frontal alpha (8–12 Hz); ketamine shows high beta/low gamma (with theta); dexmedetomidine shows spindles (9–15 Hz) with slow/delta waves."
+  },
+  {
+    "q": "Which pattern on the spectrogram is typical of ketamine?",
+    "o": [
+      "Delta with spindles",
+      "Theta with gamma bursts",
+      "Alpha only",
+      "Burst suppression",
+      "Pure delta"
+    ],
+    "a": 1,
+    "why": "Ketamine produces high beta/low gamma activity with theta and gamma bursts."
+  },
+  {
+    "q": "A patient with epilepsy is on carbamazepine. What does this mean for other drugs?",
+    "o": [
+      "It inhibits liver enzymes",
+      "It induces liver enzymes, speeding metabolism of many drugs",
+      "No interactions",
+      "It prolongs suxamethonium",
+      "It causes hyperkalaemia"
+    ],
+    "a": 1,
+    "why": "Carbamazepine and phenytoin are enzyme inducers."
+  },
+  {
+    "q": "After epilepsy surgery, what must be continued without interruption?",
+    "o": [
+      "Dexamethasone only",
+      "Antiepileptic drugs",
+      "Nimodipine",
+      "Mannitol",
+      "Insulin"
+    ],
+    "a": 1,
+    "why": "Continue antiepileptics and manage in neuro HDU."
+  }
+]

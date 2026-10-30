@@ -1,0 +1,22 @@
+{
+  "t": "tip",
+  "shape": "dummy",
+  "group": "Paeds",
+  "title": "Circumcision",
+  "cards": [
+    {
+      "h": "Overview",
+      "b": "file:cards/01-overview.html"
+    },
+    {
+      "h": "Analgesia and the penile block",
+      "b": "file:cards/02-analgesia-and-the-penile-block.html"
+    },
+    {
+      "h": "Complications",
+      "b": "file:cards/03-complications.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

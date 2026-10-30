@@ -1,0 +1,39 @@
+{
+  "t": "recipe",
+  "shape": "kidney",
+  "group": "Urology",
+  "title": "Robotic Prostatectomy",
+  "op": true,
+  "cards": [
+    {
+      "h": "Anaesthetic recipe",
+      "b": "file:cards/01-anaesthetic-recipe.html",
+      "recipe": true
+    },
+    {
+      "h": "Lung Compliance, Laplace's Law & Work of Breathing",
+      "primaryRef": "phs16"
+    },
+    {
+      "h": "CO2 Carriage in the Blood",
+      "primaryRef": "phs22"
+    },
+    {
+      "h": "Robotic vs Laparoscopic vs Open Surgery",
+      "noteRef": "Robotic vs Laparoscopic vs Open Surgery"
+    },
+    {
+      "h": "Sample WPBA",
+      "b": "file:cards/05-sample-wpba.html",
+      "wpba": true
+    },
+    {
+      "h": "Curriculum",
+      "links": [
+        "curric:8",
+        "curric:9"
+      ]
+    }
+  ],
+  "q": "file:quiz.json"
+}

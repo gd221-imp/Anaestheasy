@@ -1,0 +1,122 @@
+[
+  {
+    "q": "How is a laryngectomy patient oxygenated after surgery?",
+    "o": [
+      "Via facemask",
+      "Via the stoma only (neck breather)",
+      "Via nasal cannulae",
+      "Via LMA",
+      "Via mouth"
+    ],
+    "a": 1,
+    "why": "No connection between upper airway and trachea."
+  },
+  {
+    "q": "What is the airway plan for a patient with stridor from a large tumour?",
+    "o": [
+      "IV RSI",
+      "Awake tracheostomy under local or careful induction with expert plans",
+      "LMA",
+      "Gas induction always",
+      "Sedation"
+    ],
+    "a": 1,
+    "why": "Often awake tracheostomy."
+  },
+  {
+    "q": "Which delayed surgical complication is specific?",
+    "o": [
+      "Chylothorax",
+      "Pharyngocutaneous fistula",
+      "Dislocation",
+      "Hernia",
+      "OPSI"
+    ],
+    "a": 1,
+    "why": "Also infection."
+  },
+  {
+    "q": "Why can hypocalcaemia occur?",
+    "o": [
+      "Diet",
+      "Parathyroid removal or injury",
+      "Diuretics",
+      "Steroids",
+      "Transfusion only"
+    ],
+    "a": 1,
+    "why": "Thyroid and parathyroids may be removed."
+  },
+  {
+    "q": "Which vascular injury is a risk?",
+    "o": [
+      "Femoral",
+      "Carotid",
+      "Renal",
+      "Splenic",
+      "Aorta"
+    ],
+    "a": 1,
+    "why": "Neck dissection."
+  },
+  {
+    "q": "Which withdrawal prophylaxis is in the recipe?",
+    "o": [
+      "Opioid",
+      "Alcohol",
+      "Nicotine only",
+      "Benzodiazepine",
+      "None"
+    ],
+    "a": 1,
+    "why": "Many patients drink heavily."
+  },
+  {
+    "q": "How is nutrition given post-op?",
+    "o": [
+      "Oral immediately",
+      "Via NGT",
+      "TPN only",
+      "None",
+      "Gastrostomy only"
+    ],
+    "a": 1,
+    "why": "Protect the pharyngeal repair."
+  },
+  {
+    "q": "Which immediate anaesthetic complication is specific to neck surgery?",
+    "o": [
+      "Hypotension",
+      "Air embolism",
+      "Bronchospasm",
+      "MH",
+      "Hypoglycaemia"
+    ],
+    "a": 1,
+    "why": "Open neck veins."
+  },
+  {
+    "q": "What is needed for the stoma?",
+    "o": [
+      "Dry gas",
+      "Humidification and a laryngectomy tube",
+      "Nothing",
+      "Cuffed tracheostomy only",
+      "Suction only"
+    ],
+    "a": 1,
+    "why": "Upper airway humidification is bypassed."
+  },
+  {
+    "q": "Which comorbidities are common?",
+    "o": [
+      "Asthma",
+      "COPD and IHD",
+      "Epilepsy",
+      "Hypothyroidism",
+      "None"
+    ],
+    "a": 1,
+    "why": "Smoking and alcohol."
+  }
+]

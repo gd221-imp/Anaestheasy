@@ -1,0 +1,122 @@
+[
+  {
+    "q": "What is the maximum recommended duration of a temporary clip?",
+    "o": [
+      "About 1 minute",
+      "About 7 minutes",
+      "About 30 minutes",
+      "About 60 minutes",
+      "Unlimited"
+    ],
+    "a": 1,
+    "why": "Keep temporary clipping to around 7 minutes; augment BP during it."
+  },
+  {
+    "q": "Why might adenosine be given during aneurysm clipping?",
+    "o": [
+      "To treat SVT",
+      "To briefly arrest the circulation and soften the aneurysm for clip placement",
+      "To treat vasospasm",
+      "To lower ICP",
+      "For analgesia"
+    ],
+    "a": 1,
+    "why": "An adenosine bolus (around 0.3–0.6 mg/kg) causes brief asystole; avoid in asthma, coronary disease or conduction problems."
+  },
+  {
+    "q": "The aneurysm ruptures during clipping. What is an appropriate anaesthetic response?",
+    "o": [
+      "Raise BP to 200 systolic",
+      "Propofol bolus to reduce MAP by 10–20% and CMRO2, while maintaining CPP",
+      "Stop the anaesthetic",
+      "Hyperventilate to PaCO2 2.5",
+      "Give protamine"
+    ],
+    "a": 1,
+    "why": "Reduce MAP modestly and CMRO2 with propofol, communicate with the surgeon, and maintain CPP."
+  },
+  {
+    "q": "What is the transmural pressure across the aneurysm wall?",
+    "o": [
+      "MAP − ICP",
+      "ICP − CVP",
+      "MAP + ICP",
+      "Systolic − diastolic",
+      "CVP − MAP"
+    ],
+    "a": 0,
+    "why": "Transmural pressure (and CPP) = MAP − ICP; a sudden fall in ICP (e.g. dural opening, EVD drainage) increases rupture risk."
+  },
+  {
+    "q": "Which grading scale uses CT findings in SAH?",
+    "o": [
+      "WFNS",
+      "Fisher grade",
+      "Hunt and Hess",
+      "GCS",
+      "NIHSS"
+    ],
+    "a": 1,
+    "why": "Fisher grade uses the amount and pattern of blood on CT; WFNS and Hunt and Hess use clinical state."
+  },
+  {
+    "q": "Which aneurysm size increases rupture risk?",
+    "o": [
+      "Under 3 mm",
+      "Over 7 mm",
+      "All sizes equal",
+      "Under 5 mm",
+      "Size is irrelevant"
+    ],
+    "a": 1,
+    "why": "Risk factors include size over 7 mm, hypertension, smoking and seizures."
+  },
+  {
+    "q": "What is the mortality of aneurysmal SAH?",
+    "o": [
+      "About 5%",
+      "About 50%",
+      "About 90%",
+      "About 20%",
+      "About 1%"
+    ],
+    "a": 1,
+    "why": "About 50%; only about 20% return to their previous quality of life."
+  },
+  {
+    "q": "Which post-op complication of SAH is treated with euvolaemia, nimodipine and possibly angioplasty?",
+    "o": [
+      "Hydrocephalus",
+      "Vasospasm and delayed cerebral ischaemia",
+      "Rebleeding",
+      "Seizures",
+      "Meningitis"
+    ],
+    "a": 1,
+    "why": "Vasospasm (from day 3, peak days 5–7) is treated with nimodipine, euvolaemia and interventional options."
+  },
+  {
+    "q": "What is the NICE target for securing a ruptured aneurysm?",
+    "o": [
+      "Within 6 hours",
+      "Within 48 hours",
+      "Within 1 week",
+      "Within 2 weeks",
+      "No target"
+    ],
+    "a": 1,
+    "why": "Secure within 24–48 hours (NICE target under 48 hours) to reduce rebleeding."
+  },
+  {
+    "q": "Which hyponatraemic condition after SAH is hypovolaemic and must NOT be fluid restricted?",
+    "o": [
+      "SIADH",
+      "Cerebral salt wasting",
+      "Cranial DI",
+      "Psychogenic polydipsia",
+      "Hypothyroidism"
+    ],
+    "a": 1,
+    "why": "Cerebral salt wasting causes sodium and water loss; fluid restriction would worsen vasospasm. Treat with sodium and fluid."
+  }
+]

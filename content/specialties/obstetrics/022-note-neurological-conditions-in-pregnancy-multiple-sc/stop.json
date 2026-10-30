@@ -1,0 +1,34 @@
+{
+  "t": "tip",
+  "shape": "belly",
+  "group": "Obstetrics",
+  "title": "Neurological Conditions in Pregnancy (Multiple Sclerosis)",
+  "cards": [
+    {
+      "h": "Overview",
+      "b": "file:cards/01-overview.html"
+    },
+    {
+      "h": "Clinical features",
+      "b": "file:cards/02-clinical-features.html"
+    },
+    {
+      "h": "Treatment",
+      "b": "file:cards/03-treatment.html"
+    },
+    {
+      "h": "Anaesthetic considerations",
+      "b": "file:cards/04-anaesthetic-considerations.html"
+    },
+    {
+      "h": "Severe MS",
+      "b": "file:cards/05-severe-ms.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/06-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

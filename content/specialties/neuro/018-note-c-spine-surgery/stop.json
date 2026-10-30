@@ -1,0 +1,38 @@
+{
+  "t": "tip",
+  "shape": "brain",
+  "group": "Neuro",
+  "title": "C-Spine Surgery",
+  "cards": [
+    {
+      "h": "Overview",
+      "b": "file:cards/01-overview.html"
+    },
+    {
+      "h": "Complications",
+      "b": "file:cards/02-complications.html"
+    },
+    {
+      "h": "Blood supply",
+      "b": "file:cards/03-blood-supply.html"
+    },
+    {
+      "h": "Cervical Discectomy",
+      "b": "file:cards/04-cervical-discectomy.html"
+    },
+    {
+      "h": "Anterior cervical discectomy and fusion",
+      "b": "file:cards/05-anterior-cervical-discectomy-and-fusion.html"
+    },
+    {
+      "h": "Pre-op",
+      "b": "file:cards/06-pre-op.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/07-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

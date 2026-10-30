@@ -1,0 +1,47 @@
+{
+  "t": "recipe",
+  "shape": "brain",
+  "group": "Neuro",
+  "title": "Endovascular Coiling of Intracranial Aneurysm",
+  "op": true,
+  "cards": [
+    {
+      "h": "Anaesthetic recipe",
+      "b": "file:cards/01-anaesthetic-recipe.html",
+      "recipe": true
+    },
+    {
+      "h": "Circle of Willis",
+      "primaryRef": "ana22"
+    },
+    {
+      "h": "The Brain: Anatomy, Blood Flow & Intracranial Pressure",
+      "primaryRef": "phs42"
+    },
+    {
+      "h": "Raised ICP & Subarachnoid Haemorrhage",
+      "noteRef": "Raised ICP & Subarachnoid Haemorrhage"
+    },
+    {
+      "h": "Neuroprotection & Neuroradiology Anaesthesia",
+      "noteRef": "Neuroprotection & Neuroradiology Anaesthesia"
+    },
+    {
+      "h": "Sodium Disorders in Neurosurgery",
+      "noteRef": "Sodium Disorders in Neurosurgery"
+    },
+    {
+      "h": "Sample WPBA",
+      "b": "file:cards/07-sample-wpba.html",
+      "wpba": true
+    },
+    {
+      "h": "Curriculum",
+      "links": [
+        "curric:9",
+        "curric:14"
+      ]
+    }
+  ],
+  "q": "file:quiz.json"
+}

@@ -1,0 +1,47 @@
+{
+  "t": "recipe",
+  "shape": "headn",
+  "group": "Head and neck",
+  "title": "Awake Fibreoptic Intubation, Stridor, Epiglottitis & Croup",
+  "op": true,
+  "cards": [
+    {
+      "h": "Anaesthetic recipe",
+      "b": "file:cards/01-anaesthetic-recipe.html",
+      "recipe": true
+    },
+    {
+      "h": "The Larynx",
+      "primaryRef": "ana15"
+    },
+    {
+      "h": "Anatomical Basis of Airway Management",
+      "primaryRef": "ana6"
+    },
+    {
+      "h": "Awake Fibreoptic Intubation, Stridor, Epiglottitis & Croup",
+      "noteRef": "Awake Fibreoptic Intubation, Stridor, Epiglottitis & Croup"
+    },
+    {
+      "h": "Ankylosing Spondylitis",
+      "noteRef": "Ankylosing Spondylitis"
+    },
+    {
+      "h": "Dental Damage",
+      "noteRef": "Dental Damage"
+    },
+    {
+      "h": "Sample WPBA",
+      "b": "file:cards/07-sample-wpba.html",
+      "wpba": true
+    },
+    {
+      "h": "Curriculum",
+      "links": [
+        "curric:9",
+        "curric:12"
+      ]
+    }
+  ],
+  "q": "file:quiz.json"
+}

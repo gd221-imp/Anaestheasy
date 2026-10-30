@@ -1,0 +1,122 @@
+[
+  {
+    "q": "A patient with a penetrating eye injury has a full stomach. What is the usual approach?",
+    "o": [
+      "Wait 6 hours then LMA",
+      "RSI, accepting a small IOP rise, as aspiration and sight loss both matter",
+      "Peribulbar block",
+      "Awake fibreoptic",
+      "Gas induction"
+    ],
+    "a": 1,
+    "why": "GA is preferred over a block, which could raise IOP and extrude contents."
+  },
+  {
+    "q": "Why is a peribulbar or retrobulbar block avoided in an open globe?",
+    "o": [
+      "It is ineffective",
+      "It raises intraocular pressure and risks extrusion of contents",
+      "It causes bradycardia",
+      "It is slow",
+      "It needs fasting"
+    ],
+    "a": 1,
+    "why": "GA is preferred."
+  },
+  {
+    "q": "Which drug lowers IOP and is given as 500 mg IV?",
+    "o": [
+      "Mannitol",
+      "Acetazolamide",
+      "Furosemide",
+      "Timolol",
+      "Dexamethasone"
+    ],
+    "a": 1,
+    "why": "Mannitol 0.5 g/kg IV is another option."
+  },
+  {
+    "q": "What PaCO2 target helps control IOP?",
+    "o": [
+      "6.5–7 kPa",
+      "4.5–5 kPa",
+      "3 kPa",
+      "8 kPa",
+      "Any"
+    ],
+    "a": 1,
+    "why": "Avoid hypercapnia; keep SpO2 over 94%."
+  },
+  {
+    "q": "Which delayed complication can affect the other eye?",
+    "o": [
+      "Retinal detachment",
+      "Sympathetic ophthalmia",
+      "Cataract",
+      "Glaucoma",
+      "Diplopia"
+    ],
+    "a": 1,
+    "why": "An autoimmune response to uveal antigens."
+  },
+  {
+    "q": "Which factor raises IOP at emergence?",
+    "o": [
+      "Deep extubation",
+      "Coughing, straining or vomiting",
+      "Head-up",
+      "Antiemetics",
+      "Remifentanil"
+    ],
+    "a": 1,
+    "why": "Aim for a smooth extubation with antiemetics."
+  },
+  {
+    "q": "Why is N2O avoided in eye surgery?",
+    "o": [
+      "PONV only",
+      "It expands intraocular gas bubbles",
+      "It raises ICP",
+      "Allergy",
+      "It is slow"
+    ],
+    "a": 1,
+    "why": "Also PONV."
+  },
+  {
+    "q": "Which infection is a delayed risk?",
+    "o": [
+      "Meningitis",
+      "Endophthalmitis",
+      "Otitis",
+      "Sinusitis",
+      "Cellulitis only"
+    ],
+    "a": 1,
+    "why": "Sight-threatening."
+  },
+  {
+    "q": "Why does a gunshot wound cause more damage than the visible track?",
+    "o": [
+      "Bullet fragments",
+      "Temporary cavitation from the kinetic energy pressure wave",
+      "Burns only",
+      "Infection",
+      "Bleeding"
+    ],
+    "a": 1,
+    "why": "Cavity size exceeds bullet size."
+  },
+  {
+    "q": "Which anaesthetic event can cause bradycardia during eye surgery?",
+    "o": [
+      "Bezold–Jarisch",
+      "Oculocardiac reflex",
+      "Cushing reflex",
+      "Bainbridge reflex",
+      "Baroreflex only"
+    ],
+    "a": 1,
+    "why": "Stop the stimulus, then atropine."
+  }
+]

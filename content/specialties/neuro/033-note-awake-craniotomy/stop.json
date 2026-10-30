@@ -1,0 +1,38 @@
+{
+  "t": "tip",
+  "shape": "brain",
+  "group": "Neuro",
+  "title": "Awake Craniotomy",
+  "cards": [
+    {
+      "h": "Indications",
+      "b": "file:cards/01-indications.html"
+    },
+    {
+      "h": "Contraindications",
+      "b": "file:cards/02-contraindications.html"
+    },
+    {
+      "h": "Anaesthetic technique",
+      "b": "file:cards/03-anaesthetic-technique.html"
+    },
+    {
+      "h": "Fully awake with sedation",
+      "b": "file:cards/04-fully-awake-with-sedation.html"
+    },
+    {
+      "h": "Key points",
+      "b": "file:cards/05-key-points.html"
+    },
+    {
+      "h": "Intra-op problems (ABCDE)",
+      "b": "file:cards/06-intra-op-problems-abcde.html"
+    },
+    {
+      "h": "Management of intraoperative seizures",
+      "b": "file:cards/07-management-of-intraoperative-seizures.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

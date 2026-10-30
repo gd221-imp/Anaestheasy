@@ -1,0 +1,122 @@
+[
+  {
+    "q": "Under ERAS, until when can a carbohydrate drink be given?",
+    "o": [
+      "6 hours before",
+      "Up to 2 hours before surgery",
+      "Midnight",
+      "30 minutes before",
+      "Not given"
+    ],
+    "a": 1,
+    "why": "Carbohydrate loading reduces insulin resistance and catabolism."
+  },
+  {
+    "q": "How long before surgery should smoking stop for benefit (per the note)?",
+    "o": [
+      "24 hours",
+      "More than 4 weeks",
+      "1 week",
+      "2 hours",
+      "No benefit"
+    ],
+    "a": 1,
+    "why": "Smoking cessation over 4 weeks."
+  },
+  {
+    "q": "Which analgesic option is in the recipe for laparoscopic anterior resection?",
+    "o": [
+      "Femoral block",
+      "Spinal with intrathecal diamorphine, or TAP / rectus sheath blocks",
+      "Interscalene",
+      "Paravertebral only",
+      "Caudal"
+    ],
+    "a": 1,
+    "why": "Multimodal and opioid-sparing."
+  },
+  {
+    "q": "What is the commonest risk factor for post-op ileus?",
+    "o": [
+      "Spinal anaesthesia",
+      "Bowel handling",
+      "Young age",
+      "Early feeding",
+      "Mobilisation"
+    ],
+    "a": 1,
+    "why": "Also systemic opioids, fluid overload and electrolyte disturbance."
+  },
+  {
+    "q": "Which prokinetic is used for ileus?",
+    "o": [
+      "Hyoscine",
+      "Erythromycin or metoclopramide",
+      "Loperamide",
+      "Codeine",
+      "Ondansetron"
+    ],
+    "a": 1,
+    "why": "Neostigmine is also an option."
+  },
+  {
+    "q": "What differentiates pseudo-obstruction from mechanical obstruction?",
+    "o": [
+      "Small bowel only",
+      "Marked large bowel dilatation without a mechanical cause",
+      "Always volvulus",
+      "Gas in the biliary tree",
+      "Free air"
+    ],
+    "a": 1,
+    "why": "Often right-sided colonic dilatation."
+  },
+  {
+    "q": "What anaesthetic issue arises in steep head-down laparoscopy?",
+    "o": [
+      "Low airway pressure",
+      "Raised airway pressures",
+      "Bradypnoea",
+      "Hypocapnia",
+      "Hypertension only"
+    ],
+    "a": 1,
+    "why": "Also hypotension with spinal and pneumoperitoneum."
+  },
+  {
+    "q": "Which test may be used to risk-stratify high-risk patients?",
+    "o": [
+      "Spirometry",
+      "CPET",
+      "CXR",
+      "Echo always",
+      "Holter"
+    ],
+    "a": 1,
+    "why": "Cardiopulmonary exercise testing."
+  },
+  {
+    "q": "What is the purpose of prehabilitation?",
+    "o": [
+      "To delay surgery",
+      "To improve functional status before surgery to withstand the stress",
+      "To replace ERAS",
+      "For cosmetic reasons",
+      "To reduce cost only"
+    ],
+    "a": 1,
+    "why": "Exercise, nutrition and psychological support; it must not delay surgery."
+  },
+  {
+    "q": "Which delayed anaesthetic complication follows colorectal surgery?",
+    "o": [
+      "Laryngospasm",
+      "Acute kidney injury",
+      "MH",
+      "Awareness",
+      "Corneal abrasion only"
+    ],
+    "a": 1,
+    "why": "Also VTE."
+  }
+]

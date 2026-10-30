@@ -1,0 +1,62 @@
+[
+  {
+    "q": "Where should the cannula go for breast surgery?",
+    "o": [
+      "Either foot",
+      "Internal jugular vein",
+      "Same-side hand",
+      "Opposite arm to the surgery",
+      "Same arm as the surgery"
+    ],
+    "a": 3,
+    "why": "Keep the operative side free for the surgeon and avoid lymphatic damage."
+  },
+  {
+    "q": "Which block suits breast surgery with axillary involvement?",
+    "o": [
+      "Femoral nerve block",
+      "Superficial cervical plexus block",
+      "PECS II block",
+      "TAP block",
+      "Interscalene block"
+    ],
+    "a": 2,
+    "why": "PECS II covers the pectoral nerves and the axilla; a paravertebral is an alternative."
+  },
+  {
+    "q": "Why give antiemetics early for breast surgery?",
+    "o": [
+      "They lower blood pressure",
+      "They prevent laryngospasm",
+      "They speed emergence",
+      "They reduce bleeding",
+      "Young women having breast surgery are at high PONV risk"
+    ],
+    "a": 4,
+    "why": "Female sex and opioid use put many of these patients at high Apfel risk."
+  },
+  {
+    "q": "What provides most of the analgesia for a simple wide local excision?",
+    "o": [
+      "Intrathecal diamorphine",
+      "Epidural infusion",
+      "Long-acting IV morphine",
+      "Surgeon local anaesthetic infiltration",
+      "Ketamine infusion"
+    ],
+    "a": 3,
+    "why": "Superficial surgery is well covered by infiltration plus simple analgesia."
+  },
+  {
+    "q": "How can intraoperative fentanyl be titrated under spontaneous ventilation?",
+    "o": [
+      "To respiratory rate",
+      "To pupil size",
+      "To urine output",
+      "To heart rate alone",
+      "To temperature"
+    ],
+    "a": 0,
+    "why": "A rising respiratory rate under spontaneous ventilation suggests more analgesia is needed."
+  }
+]

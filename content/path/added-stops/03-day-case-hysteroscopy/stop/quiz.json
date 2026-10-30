@@ -1,0 +1,62 @@
+[
+  {
+    "q": "What complication of hysteroscopy is linked to distension fluid?",
+    "o": [
+      "Malignant hyperthermia",
+      "Hypercalcaemia",
+      "Hypoglycaemia",
+      "Fluid overload and hyponatraemia",
+      "Hyperkalaemia"
+    ],
+    "a": 3,
+    "why": "Absorbed hypotonic distension media can cause overload and hyponatraemia, as in TURP syndrome."
+  },
+  {
+    "q": "Which airway is usually used for day-case hysteroscopy?",
+    "o": [
+      "Tracheostomy",
+      "Nasal ETT",
+      "Face mask only",
+      "Cuffed ETT with relaxant",
+      "LMA"
+    ],
+    "a": 4,
+    "why": "Short, minimally stimulating case suits an LMA with spontaneous ventilation."
+  },
+  {
+    "q": "Which opioid is commonly added to propofol syringes for TIVA?",
+    "o": [
+      "Pethidine",
+      "Morphine",
+      "Remifentanil",
+      "Alfentanil",
+      "Oxycodone"
+    ],
+    "a": 3,
+    "why": "Alfentanil mixes well; remifentanil can separate in propofol and is better given separately."
+  },
+  {
+    "q": "Which surgical complication of hysteroscopy should you watch for?",
+    "o": [
+      "Pneumothorax",
+      "Compartment syndrome",
+      "Retinal detachment",
+      "Cord prolapse",
+      "Uterine perforation"
+    ],
+    "a": 4,
+    "why": "Perforation can injure bowel or vessels and may need laparoscopy."
+  },
+  {
+    "q": "What position is hysteroscopy done in?",
+    "o": [
+      "Sitting",
+      "Prone",
+      "Reverse Trendelenburg",
+      "Lateral",
+      "Lithotomy"
+    ],
+    "a": 4,
+    "why": "Lower the legs together at the end to avoid nerve and back injury."
+  }
+]

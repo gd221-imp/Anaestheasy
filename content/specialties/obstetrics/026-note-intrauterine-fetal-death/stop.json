@@ -1,0 +1,34 @@
+{
+  "t": "tip",
+  "shape": "belly",
+  "group": "Obstetrics",
+  "title": "Intrauterine Fetal Death",
+  "cards": [
+    {
+      "h": "Overview",
+      "b": "file:cards/01-overview.html"
+    },
+    {
+      "h": "Causes",
+      "b": "file:cards/02-causes.html"
+    },
+    {
+      "h": "Maternal risk factors",
+      "b": "file:cards/03-maternal-risk-factors.html"
+    },
+    {
+      "h": "Management approach",
+      "b": "file:cards/04-management-approach.html"
+    },
+    {
+      "h": "Key points",
+      "b": "file:cards/05-key-points.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/06-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

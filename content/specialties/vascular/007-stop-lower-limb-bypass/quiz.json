@@ -1,0 +1,122 @@
+[
+  {
+    "q": "A patient on clopidogrel needs femoral–popliteal bypass. What determines whether a spinal can be performed?",
+    "o": [
+      "Platelet count only",
+      "Timing of the last antiplatelet and anticoagulant doses against neuraxial guidelines",
+      "Patient preference",
+      "Surgeon preference",
+      "BMI"
+    ],
+    "a": 1,
+    "why": "Plan antiplatelets and anticoagulants around neuraxial timing; otherwise use GA with peripheral blocks."
+  },
+  {
+    "q": "Why is heparin given before clamping during lower limb bypass?",
+    "o": [
+      "To reduce blood loss",
+      "To prevent thrombosis in the clamped vessels and graft",
+      "To treat infection",
+      "To reduce pain",
+      "It is not needed"
+    ],
+    "a": 1,
+    "why": "Heparin prevents thrombosis while vessels are clamped; agree the plan and any protamine with the surgeon."
+  },
+  {
+    "q": "What BP should be maintained after lower limb bypass?",
+    "o": [
+      "As low as possible to protect the graft",
+      "Adequate BP to maintain graft flow",
+      "Systolic below 90",
+      "BP is irrelevant",
+      "Diastolic below 40"
+    ],
+    "a": 1,
+    "why": "Hypotension risks graft thrombosis; maintain BP and continue antiplatelets."
+  },
+  {
+    "q": "After lower limb revascularisation, a patient develops severe calf pain on passive stretch. What is the likely diagnosis?",
+    "o": [
+      "DVT",
+      "Compartment syndrome",
+      "Graft infection",
+      "Lymphocele",
+      "Cellulitis"
+    ],
+    "a": 1,
+    "why": "Reperfusion can cause compartment syndrome; pain on passive stretch is an early sign. Fasciotomy is needed."
+  },
+  {
+    "q": "Which electrolyte rises in rhabdomyolysis and is the immediate threat to life?",
+    "o": [
+      "Sodium",
+      "Potassium",
+      "Calcium",
+      "Magnesium",
+      "Chloride"
+    ],
+    "a": 1,
+    "why": "Muscle necrosis releases potassium, phosphate, CK, myoglobin and urate; hyperkalaemia can cause arrhythmias."
+  },
+  {
+    "q": "What CK level is consistent with rhabdomyolysis?",
+    "o": [
+      "Over 100 IU/L",
+      "Over 1,000 IU/L",
+      "Over 50 IU/L",
+      "Under 200 IU/L",
+      "CK is normal"
+    ],
+    "a": 1,
+    "why": "CK over 1,000 IU/L or urinary myoglobin positive; treat with IV fluids and treat the cause."
+  },
+  {
+    "q": "Which CKD stage corresponds to an eGFR of 15–30?",
+    "o": [
+      "Stage 2",
+      "Stage 3",
+      "Stage 4",
+      "Stage 5",
+      "Stage 1"
+    ],
+    "a": 2,
+    "why": "Stages: I over 90, II 60–90, III 30–60, IV 15–30, V under 15."
+  },
+  {
+    "q": "Which opioid should be avoided in a patient with end-stage renal failure?",
+    "o": [
+      "Fentanyl",
+      "Morphine",
+      "Alfentanil",
+      "Remifentanil",
+      "Buprenorphine (low dose)"
+    ],
+    "a": 1,
+    "why": "Morphine-6-glucuronide accumulates in renal failure; avoid tramadol too (largely renally excreted). Fentanyl and alfentanil are safer."
+  },
+  {
+    "q": "A patient with CKD on haemodialysis is listed for bypass. What should be checked before surgery?",
+    "o": [
+      "Only Hb",
+      "Date of last dialysis, dry weight, potassium and fistula arm",
+      "Urine output only",
+      "Liver function only",
+      "Nothing extra"
+    ],
+    "a": 1,
+    "why": "Check timing of last dialysis, dry weight, electrolytes (especially K+), residual urine output and protect the fistula arm."
+  },
+  {
+    "q": "After bypass, which complication indicates graft failure requiring urgent return to theatre?",
+    "o": [
+      "Mild wound pain",
+      "Loss of distal pulses with a cold limb",
+      "Lymphocele",
+      "Low-grade fever",
+      "Mild oedema"
+    ],
+    "a": 1,
+    "why": "Loss of pulses and a cold limb suggests graft thrombosis; urgent re-exploration is needed."
+  }
+]

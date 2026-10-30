@@ -1,0 +1,47 @@
+{
+  "t": "recipe",
+  "shape": "scalpel",
+  "group": "General surgery",
+  "title": "Laparoscopic Cholecystectomy",
+  "op": true,
+  "cards": [
+    {
+      "h": "Anaesthetic recipe",
+      "b": "file:cards/01-anaesthetic-recipe.html",
+      "recipe": true
+    },
+    {
+      "h": "Nausea & Vomiting",
+      "primaryRef": "phs38"
+    },
+    {
+      "h": "CO2 Carriage in the Blood",
+      "primaryRef": "phs22"
+    },
+    {
+      "h": "Effect of IPPV on the Lungs",
+      "primaryRef": "phs25"
+    },
+    {
+      "h": "Robotic vs Laparoscopic vs Open Surgery",
+      "noteRef": "Robotic vs Laparoscopic vs Open Surgery"
+    },
+    {
+      "h": "Acute Pancreatitis",
+      "noteRef": "Acute Pancreatitis"
+    },
+    {
+      "h": "Sample WPBA",
+      "b": "file:cards/07-sample-wpba.html",
+      "wpba": true
+    },
+    {
+      "h": "Curriculum",
+      "links": [
+        "curric:8",
+        "curric:9"
+      ]
+    }
+  ],
+  "q": "file:quiz.json"
+}

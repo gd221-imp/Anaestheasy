@@ -1,0 +1,122 @@
+[
+  {
+    "q": "Which analgesic technique is usually used for open AAA repair?",
+    "o": [
+      "Interscalene block",
+      "Thoracic epidural",
+      "Spinal diamorphine alone",
+      "TAP block alone",
+      "IV paracetamol only"
+    ],
+    "a": 1,
+    "why": "GA with a thoracic epidural is standard; epidural analgesia continues after surgery."
+  },
+  {
+    "q": "During open AAA repair the aorta is clamped and BP rises to 190/100. What is appropriate?",
+    "o": [
+      "Ask the surgeon to unclamp",
+      "Deepen anaesthesia or start GTN",
+      "Give a fluid bolus",
+      "Give metaraminol",
+      "Nothing"
+    ],
+    "a": 1,
+    "why": "Clamp hypertension increases afterload and myocardial ischaemia risk; treat by deepening anaesthesia or with a vasodilator (GTN)."
+  },
+  {
+    "q": "How should clamp release be managed?",
+    "o": [
+      "Release both limbs at once",
+      "Optimise fluids, have vasopressors ready, and release slowly one limb at a time",
+      "Give GTN",
+      "Stop ventilation",
+      "Increase volatile"
+    ],
+    "a": 1,
+    "why": "Unclamping causes hypotension and acidosis; prepare with volume and vasopressors and release gradually."
+  },
+  {
+    "q": "What is the inheritance and gene defect in Marfan’s syndrome?",
+    "o": [
+      "Autosomal recessive; collagen type III",
+      "Autosomal dominant; fibrillin-1 on chromosome 15",
+      "X-linked; dystrophin",
+      "Autosomal dominant; collagen type I",
+      "Mitochondrial"
+    ],
+    "a": 1,
+    "why": "Autosomal dominant fibrillin-1 (chromosome 15): aortic root dilatation, dissection, lens dislocation, tall stature, joint hypermobility."
+  },
+  {
+    "q": "Which cardiovascular feature of Marfan’s syndrome is most relevant to anaesthesia?",
+    "o": [
+      "Aortic root dilatation with risk of dissection",
+      "Mitral stenosis",
+      "Coarctation",
+      "Tetralogy of Fallot",
+      "Pulmonary stenosis"
+    ],
+    "a": 0,
+    "why": "Aortic root dilatation, aortic regurgitation and dissection risk; avoid hypertension and tachycardia."
+  },
+  {
+    "q": "What is the normal anaerobic threshold on CPET?",
+    "o": [
+      "Over 5 ml/kg/min",
+      "Over 11 ml/kg/min",
+      "Over 20 ml/kg/min",
+      "Over 35 ml/kg/min",
+      "Over 3.5 ml/kg/min"
+    ],
+    "a": 1,
+    "why": "An anaerobic threshold over 11 ml/kg/min is normal; lower values indicate higher peri-operative risk."
+  },
+  {
+    "q": "Which is an absolute contraindication to CPET?",
+    "o": [
+      "Controlled hypertension",
+      "Severe aortic stenosis",
+      "Well-controlled diabetes",
+      "Previous CABG",
+      "Age over 80"
+    ],
+    "a": 1,
+    "why": "Absolute contraindications include acute MI or unstable angina, uncontrolled arrhythmia, severe AS, acute myocarditis or endocarditis and uncontrolled heart failure or asthma."
+  },
+  {
+    "q": "Which scoring system predicts mortality specifically in AAA repair?",
+    "o": [
+      "Glasgow Aneurysm Score",
+      "APACHE II",
+      "Wells score",
+      "CURB-65",
+      "Child–Pugh"
+    ],
+    "a": 0,
+    "why": "The Glasgow Aneurysm Score and Hardman Index predict mortality after AAA repair."
+  },
+  {
+    "q": "Which post-operative complication of AAA repair presents with bloody diarrhoea and a rising lactate?",
+    "o": [
+      "Graft infection",
+      "Colonic ischaemia",
+      "Incisional hernia",
+      "Pancreatitis",
+      "Anastomotic leak"
+    ],
+    "a": 1,
+    "why": "Colonic ischaemia (often from inferior mesenteric artery loss) presents with bloody diarrhoea and acidosis."
+  },
+  {
+    "q": "How is ASA III defined?",
+    "o": [
+      "Normal healthy patient",
+      "Mild systemic disease",
+      "Severe systemic disease",
+      "Severe disease that is a constant threat to life",
+      "Moribund"
+    ],
+    "a": 2,
+    "why": "ASA III is severe systemic disease; ASA IV is a constant threat to life."
+  }
+]

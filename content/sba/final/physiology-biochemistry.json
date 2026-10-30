@@ -1,0 +1,82 @@
+[
+  {
+    "id": "Q258",
+    "ar": "Physiology & biochemistry",
+    "sb": "Oxygen-haemoglobin dissociation",
+    "q": "Which change shifts the oxygen–haemoglobin dissociation curve to the right?",
+    "o": [
+      "Hypothermia",
+      "Fetal haemoglobin",
+      "Carbon monoxide",
+      "Increased 2,3-DPG",
+      "Alkalosis"
+    ],
+    "a": 3,
+    "why": "Rightward shift (reduced affinity, increased P50, more unloading in tissues): raised CO2, acidosis (Bohr effect), raised temperature, increased 2,3-DPG (chronic anaemia, altitude), exercise. Leftward shift: alkalosis, hypothermia, low 2,3-DPG (stored blood), carbon monoxide, methaemoglobin and HbF. Normal P50 is about 3.5 kPa.",
+    "st": null
+  },
+  {
+    "id": "Q259",
+    "ar": "Physiology & biochemistry",
+    "sb": "Preoxygenation",
+    "q": "Why does preoxygenation prolong the time to desaturation during apnoea?",
+    "o": [
+      "It increases oxygen bound to haemoglobin significantly",
+      "It increases dissolved oxygen in plasma to a large extent",
+      "It reduces oxygen consumption",
+      "It increases cardiac output",
+      "It replaces nitrogen in the functional residual capacity with oxygen, creating an oxygen reservoir"
+    ],
+    "a": 4,
+    "why": "Denitrogenation of the FRC (about 2.5 L in an adult, with an FeO2 target of ≥ 0.9) stores about 2 L of oxygen, compared with about 0.5 L breathing air, extending safe apnoea time to several minutes in healthy adults. Obesity, pregnancy and children have reduced FRC and/or higher oxygen consumption, so they desaturate faster. Head-up positioning, CPAP and high-flow nasal oxygen improve it.",
+    "st": null
+  },
+  {
+    "id": "Q260",
+    "ar": "Physiology & biochemistry",
+    "sb": "Surgical stress response",
+    "q": "Which is a characteristic endocrine change in the stress response to major surgery?",
+    "o": [
+      "Reduced ADH",
+      "Reduced cortisol",
+      "Increased cortisol, catecholamines, ADH and glucagon, with relative insulin resistance",
+      "Increased thyroxine (T4 and T3)",
+      "Increased insulin sensitivity"
+    ],
+    "a": 2,
+    "why": "Surgery triggers hypothalamic–pituitary activation (raised ACTH, cortisol, growth hormone, ADH, prolactin), sympathetic activation, glucagon release and insulin resistance, causing hyperglycaemia, protein catabolism and salt and water retention. T3 falls (sick euthyroid). Cytokines (IL-6) drive the acute phase response. Neuraxial blockade and minimally invasive surgery reduce it.",
+    "st": null
+  },
+  {
+    "id": "Q261",
+    "ar": "Physiology & biochemistry",
+    "sb": "Hyperoxia",
+    "q": "Which is a recognised harmful effect of prolonged high inspired oxygen concentration?",
+    "o": [
+      "Vasodilatation of coronary arteries",
+      "Increased surfactant production",
+      "Increased hypoxic pulmonary vasoconstriction",
+      "Reduced oxygen content",
+      "Absorption atelectasis and production of reactive oxygen species"
+    ],
+    "a": 4,
+    "why": "High FiO2 causes absorption atelectasis (nitrogen washout), oxidative injury (free radicals), coronary and cerebral vasoconstriction, retinopathy of prematurity, worsening of bleomycin lung, and hypercapnia in some COPD patients. Trials in critical care and after cardiac arrest favour avoiding hyperoxaemia (targets around SpO2 92–96%).",
+    "st": null
+  },
+  {
+    "id": "Q262",
+    "ar": "Physiology & biochemistry",
+    "sb": "Ageing",
+    "q": "Which physiological change is typical of ageing?",
+    "o": [
+      "Increased muscle mass",
+      "Increased FRC relative to closing capacity",
+      "Increased MAC requirements",
+      "Closing capacity rises and exceeds FRC in the supine position by about 44 years",
+      "Increased baroreceptor sensitivity"
+    ],
+    "a": 3,
+    "why": "With age, closing capacity rises and exceeds FRC when supine from about 44 years (when standing at about 66), increasing V/Q mismatch. Other changes: stiffer arteries and reduced baroreceptor responsiveness, reduced renal and hepatic function, reduced MAC (about 6% per decade after 40), reduced lean mass and increased fat, and reduced thermoregulation.",
+    "st": null
+  }
+]

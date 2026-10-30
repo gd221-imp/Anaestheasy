@@ -1,0 +1,37 @@
+{
+  "t": "tip",
+  "shape": "mon",
+  "group": "ICM",
+  "title": "CNS Infections: Encephalitis & Meningitis",
+  "cards": [
+    {
+      "h": "Encephalitis",
+      "b": "file:cards/01-encephalitis.html"
+    },
+    {
+      "h": "Key points",
+      "b": "file:cards/02-key-points.html"
+    },
+    {
+      "h": "Key points",
+      "b": "file:cards/03-key-points.html"
+    },
+    {
+      "h": "Meningitis",
+      "b": "file:cards/04-meningitis.html"
+    },
+    {
+      "h": "Clinical picture",
+      "b": "file:cards/05-clinical-picture.html"
+    },
+    {
+      "h": "Key points",
+      "b": "file:cards/06-key-points.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/07-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json"
+}

@@ -1,0 +1,49 @@
+{
+  "t": "recipe",
+  "shape": "belly",
+  "group": "Obstetrics",
+  "title": "Manual Removal of Placenta",
+  "op": true,
+  "cards": [
+    {
+      "h": "Anaesthetic recipe",
+      "b": "file:cards/01-anaesthetic-recipe.html",
+      "recipe": true
+    },
+    {
+      "h": "Transfusion Physiology",
+      "primaryRef": "phs46"
+    },
+    {
+      "h": "Coagulation Cascade & Clotting Factors",
+      "primaryRef": "phs47"
+    },
+    {
+      "h": "Jehovah's Witness & Cell Salvage",
+      "noteRef": "Jehovah's Witness & Cell Salvage"
+    },
+    {
+      "h": "Postpartum Haemorrhage",
+      "noteRef": "Postpartum Haemorrhage"
+    },
+    {
+      "h": "Labour Analgesia",
+      "noteRef": "Labour Analgesia"
+    },
+    {
+      "h": "Sample WPBA",
+      "b": "file:cards/07-sample-wpba.html",
+      "wpba": true
+    },
+    {
+      "h": "Curriculum",
+      "links": [
+        "curric:8",
+        "curric:9",
+        "curric:10",
+        "curric:11"
+      ]
+    }
+  ],
+  "q": "file:quiz.json"
+}

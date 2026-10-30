@@ -1,0 +1,26 @@
+{
+  "t": "tip",
+  "shape": "brain",
+  "group": "Neuro",
+  "title": "Myotonic Dystrophy",
+  "cards": [
+    {
+      "h": "Overview",
+      "b": "file:cards/01-overview.html"
+    },
+    {
+      "h": "Clinical presentation",
+      "b": "file:cards/02-clinical-presentation.html"
+    },
+    {
+      "h": "Pre-op",
+      "b": "file:cards/03-pre-op.html"
+    },
+    {
+      "h": "Eaton-Lambert Myasthenic Syndrome",
+      "b": "file:cards/04-eaton-lambert-myasthenic-syndrome.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

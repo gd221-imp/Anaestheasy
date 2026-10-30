@@ -1,0 +1,43 @@
+{
+  "t": "recipe",
+  "shape": "warn",
+  "group": "CEPOD",
+  "title": "Appendicectomy",
+  "op": true,
+  "cards": [
+    {
+      "h": "Anaesthetic recipe",
+      "b": "file:cards/01-anaesthetic-recipe.html",
+      "recipe": true
+    },
+    {
+      "h": "Baroreceptor Reflex & Haemorrhagic Shock",
+      "primaryRef": "phs5"
+    },
+    {
+      "h": "Antimicrobials - Antibacterial Agents",
+      "primaryRef": "pha32"
+    },
+    {
+      "h": "Sepsis",
+      "noteRef": "Sepsis"
+    },
+    {
+      "h": "Pregnancy & Incidental Surgery",
+      "noteRef": "Pregnancy & Incidental Surgery"
+    },
+    {
+      "h": "Sample WPBA",
+      "b": "file:cards/06-sample-wpba.html",
+      "wpba": true
+    },
+    {
+      "h": "Curriculum",
+      "links": [
+        "curric:8",
+        "curric:9"
+      ]
+    }
+  ],
+  "q": "file:quiz.json"
+}

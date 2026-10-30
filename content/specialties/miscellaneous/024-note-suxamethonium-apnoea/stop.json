@@ -1,0 +1,14 @@
+{
+  "t": "tip",
+  "shape": "star",
+  "group": "Miscellaneous",
+  "title": "Suxamethonium Apnoea",
+  "cards": [
+    {
+      "h": "Autosomal recessive",
+      "b": "file:cards/01-autosomal-recessive.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

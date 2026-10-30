@@ -1,0 +1,46 @@
+{
+  "t": "tip",
+  "shape": "heart",
+  "group": "Cardiac",
+  "title": "Heart Transplant (Post-Transplant Patient)",
+  "cards": [
+    {
+      "h": "Overview",
+      "b": "file:cards/01-overview.html"
+    },
+    {
+      "h": "Usual medications",
+      "b": "file:cards/02-usual-medications.html"
+    },
+    {
+      "h": "Pre-op (in addition to usual anaesthetic assessment)",
+      "b": "file:cards/03-pre-op-in-addition-to-usual-anaesthetic-assessme.html"
+    },
+    {
+      "h": "Physiological changes",
+      "b": "file:cards/04-physiological-changes.html"
+    },
+    {
+      "h": "Pharmacological changes",
+      "b": "file:cards/05-pharmacological-changes.html"
+    },
+    {
+      "h": "Intra-op",
+      "b": "file:cards/06-intra-op.html"
+    },
+    {
+      "h": "Post-op",
+      "b": "file:cards/07-post-op.html"
+    },
+    {
+      "h": "Steroid side effects",
+      "b": "file:cards/08-steroid-side-effects.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/09-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

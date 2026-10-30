@@ -1,0 +1,122 @@
+[
+  {
+    "q": "Through which weakness does a pharyngeal pouch herniate?",
+    "o": [
+      "Laimer’s triangle",
+      "Killian’s dehiscence",
+      "Hiatus",
+      "Morgagni",
+      "Bochdalek"
+    ],
+    "a": 1,
+    "why": "Between thyropharyngeus and cricopharyngeus."
+  },
+  {
+    "q": "What is the main anaesthetic risk?",
+    "o": [
+      "Bleeding",
+      "Aspiration of pouch contents",
+      "Bronchospasm",
+      "Hypertension",
+      "MH"
+    ],
+    "a": 1,
+    "why": "Use RSI; empty the pouch if possible."
+  },
+  {
+    "q": "Which symptom is typical?",
+    "o": [
+      "Haematemesis",
+      "Regurgitation of undigested food and halitosis",
+      "Melaena",
+      "Stridor",
+      "Hoarseness"
+    ],
+    "a": 1,
+    "why": "Also dysphagia."
+  },
+  {
+    "q": "Why is gentle instrumentation needed?",
+    "o": [
+      "To prevent bleeding",
+      "To avoid perforation of the pouch",
+      "To avoid laryngospasm",
+      "Patient comfort",
+      "Teeth"
+    ],
+    "a": 1,
+    "why": "Perforation leads to mediastinitis."
+  },
+  {
+    "q": "Which delayed complication follows perforation?",
+    "o": [
+      "Ileus",
+      "Mediastinitis",
+      "Hernia",
+      "PDPH",
+      "Hypocalcaemia"
+    ],
+    "a": 1,
+    "why": "Also fistula."
+  },
+  {
+    "q": "Which nerve may be injured in pouch surgery?",
+    "o": [
+      "Facial",
+      "Recurrent laryngeal",
+      "Phrenic",
+      "Accessory",
+      "Lingual"
+    ],
+    "a": 1,
+    "why": "Causing hoarseness."
+  },
+  {
+    "q": "Food can remain in a pouch for how long?",
+    "o": [
+      "Minutes",
+      "A prolonged period despite fasting",
+      "Never",
+      "Exactly 6 hours",
+      "30 minutes"
+    ],
+    "a": 1,
+    "why": "Standard fasting does not guarantee an empty pouch."
+  },
+  {
+    "q": "Which position helps reduce aspiration risk at induction?",
+    "o": [
+      "Head-down",
+      "Head-up",
+      "Prone",
+      "Lithotomy",
+      "Lateral head-down"
+    ],
+    "a": 1,
+    "why": "Head-up with RSI."
+  },
+  {
+    "q": "What is Boerhaave’s syndrome?",
+    "o": [
+      "Pharyngeal pouch",
+      "Spontaneous oesophageal rupture after vomiting",
+      "Achalasia",
+      "Oesophageal web",
+      "Hiatus hernia"
+    ],
+    "a": 1,
+    "why": "Usually left posterolateral distal oesophagus."
+  },
+  {
+    "q": "Mackler’s triad includes:",
+    "o": [
+      "Fever, rash, jaundice",
+      "Vomiting, chest pain and subcutaneous emphysema",
+      "Hypotension, JVP, muffled heart sounds",
+      "Stridor, drooling, fever",
+      "Dysphagia, weight loss, anaemia"
+    ],
+    "a": 1,
+    "why": "Boerhaave’s presentation."
+  }
+]

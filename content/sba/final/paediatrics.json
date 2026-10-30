@@ -1,0 +1,370 @@
+[
+  {
+    "id": "Q100",
+    "ar": "Paediatrics",
+    "sb": "Pyloric stenosis",
+    "q": "A 5-week-old boy with pyloric stenosis has a capillary gas: pH 7.52, bicarbonate 34 mmol/L, chloride 88 mmol/L, potassium 3.0 mmol/L. When is he ready for surgery?",
+    "o": [
+      "When pH is below 7.30",
+      "Immediately, as this is a surgical emergency",
+      "Once the urine is acidic",
+      "When chloride is above about 100 mmol/L, bicarbonate below about 28 mmol/L and potassium normal",
+      "After 48 hours of fasting regardless of electrolytes"
+    ],
+    "a": 3,
+    "why": "Pyloric stenosis is a medical, not surgical, emergency. Vomiting causes hypochloraemic, hypokalaemic metabolic alkalosis; correct with 0.9% saline plus glucose and potassium until chloride &gt; 100 mmol/L and bicarbonate &lt; 28 mmol/L, because alkalosis risks postoperative apnoea. Paradoxical aciduria reflects severe depletion. Empty the stomach with a nasogastric tube before induction.",
+    "st": "st2-102"
+  },
+  {
+    "id": "Q101",
+    "ar": "Paediatrics",
+    "sb": "Ex-preterm infant",
+    "q": "A baby born at 30 weeks is now 41 weeks post-menstrual age and needs bilateral inguinal hernia repair. What is the most appropriate postoperative plan?",
+    "o": [
+      "Admit for at least 12 hours of apnoea monitoring",
+      "Admit only if a GA rather than a spinal was used",
+      "Discharge home the same day if well",
+      "Discharge after 2 hours in recovery",
+      "No monitoring is needed if caffeine is given"
+    ],
+    "a": 0,
+    "why": "Ex-preterm infants below about 60 weeks post-menstrual age (and term infants below 44 weeks) are at risk of postoperative apnoea, especially with anaemia, previous apnoea or hypothermia. Most units admit for at least 12 hours of apnoea-free monitoring. Awake spinal reduces early apnoea (GAS trial) but does not remove the need for monitoring. Caffeine reduces risk.",
+    "st": "st2-101"
+  },
+  {
+    "id": "Q102",
+    "ar": "Paediatrics",
+    "sb": "Caudal block",
+    "q": "A 15 kg 3-year-old is having an inguinal herniotomy. Using the Armitage regimen, what volume of 0.25% levobupivacaine is needed for a caudal block covering the lumbosacral dermatomes?",
+    "o": [
+      "30 mL",
+      "19 mL",
+      "7.5 mL",
+      "15 mL",
+      "5 mL"
+    ],
+    "a": 3,
+    "why": "Armitage: 0.5 mL/kg for sacral (lumbosacral) dermatomes, 1 mL/kg for upper lumbar (thoracolumbar), 1.25 mL/kg for mid-thoracic. Inguinal surgery needs a lumbosacral block: 1 mL/kg × 15 kg = 15 mL (37.5 mg, at the 2.5 mg/kg maximum). Circumcision needs only a sacral block (0.5 mL/kg, 7.5 mL). The dural sac ends lower in infants (S3–S4) than adults (S1–S2). Clonidine 1–2 micrograms/kg prolongs the block.",
+    "st": "st2-101"
+  },
+  {
+    "id": "Q103",
+    "ar": "Paediatrics",
+    "sb": "Tonsillectomy",
+    "q": "A 6-year-old has a tonsillectomy for obstructive sleep disordered breathing. Which analgesic should be avoided?",
+    "o": [
+      "Dexamethasone (as an antiemetic and anti-inflammatory)",
+      "Codeine",
+      "Morphine in titrated doses",
+      "Paracetamol",
+      "Ibuprofen"
+    ],
+    "a": 1,
+    "why": "The MHRA contraindicates codeine in children under 12 and in all under-18s having tonsillectomy or adenoidectomy for OSA, because ultra-rapid CYP2D6 metabolisers form excessive morphine, causing fatal respiratory depression. NSAIDs do not significantly increase reoperation for bleeding and are recommended. Dexamethasone reduces PONV and pain.",
+    "st": "st2-98"
+  },
+  {
+    "id": "Q104",
+    "ar": "Paediatrics",
+    "sb": "Post-tonsillectomy bleed",
+    "q": "A 5-year-old returns to theatre 4 hours after tonsillectomy with a bleeding tonsillar bed. He is tachycardic and pale. Which anaesthetic induction approach is most appropriate?",
+    "o": [
+      "Resuscitate, then rapid sequence induction with a smaller tube available and suction ready",
+      "Inhalational induction in the sitting position",
+      "Deep extubation planned",
+      "Awake fibreoptic intubation",
+      "Delay until haemoglobin is checked"
+    ],
+    "a": 0,
+    "why": "Primary bleeding (within 24 hours) carries risks of hypovolaemia, a stomach full of blood and a difficult view. Resuscitate with fluid or blood before induction, have two suction units and a smaller tube ready, and use a rapid sequence (or carefully titrated) induction, often head-down left lateral if preferred. Empty the stomach with an orogastric tube before waking and extubate awake.",
+    "st": "st2-98"
+  },
+  {
+    "id": "Q105",
+    "ar": "Paediatrics",
+    "sb": "Laryngospasm",
+    "q": "During emergence after adenotonsillectomy, a 4-year-old develops complete laryngospasm with SpO2 falling to 75% despite CPAP with 100% oxygen and jaw thrust. The cannula has tissued. What is the next step?",
+    "o": [
+      "Intramuscular suxamethonium 4 mg/kg with atropine",
+      "Propofol 1 mg/kg IV",
+      "Remove the tube and reintubate",
+      "Doxapram",
+      "Nebulised adrenaline"
+    ],
+    "a": 0,
+    "why": "If CPAP and airway manoeuvres fail and there is no IV access, give suxamethonium 4 mg/kg IM (or intraosseous 1–2 mg/kg via IO access) with atropine 20 micrograms/kg to prevent bradycardia, then ventilate. With IV access, propofol 1–2 mg/kg is tried first, then IV suxamethonium 1–2 mg/kg.",
+    "st": null
+  },
+  {
+    "id": "Q106",
+    "ar": "Paediatrics",
+    "sb": "URTI",
+    "q": "A 3-year-old with a runny nose for 2 days and a dry cough is listed for elective grommets. Which feature most supports postponing surgery?",
+    "o": [
+      "Temperature 38.5 °C, productive cough and wheeze",
+      "Parental smoking",
+      "Recent URTI 6 weeks ago",
+      "Clear rhinorrhoea",
+      "Age under 5"
+    ],
+    "a": 0,
+    "why": "Children with a recent or current URTI have more perioperative respiratory adverse events, especially with airway instrumentation, history of asthma/wheeze, passive smoking and age under 1. Postpone if there is fever, lower respiratory signs (wheeze, productive cough), malaise or purulent discharge. Mild clear rhinorrhoea in an otherwise well child for short surgery with an LMA usually proceeds.",
+    "st": null
+  },
+  {
+    "id": "Q107",
+    "ar": "Paediatrics",
+    "sb": "Epiglottitis",
+    "q": "A 4-year-old unvaccinated child presents with high fever, drooling and stridor, sitting forward. What is the most appropriate initial management?",
+    "o": [
+      "Examine the throat with a tongue depressor to confirm the diagnosis",
+      "Keep the child calm with a parent, call senior anaesthetic and ENT help, and plan inhalational induction in theatre",
+      "Lie the child flat for a lateral neck X-ray",
+      "Insert an IV cannula immediately",
+      "Give nebulised salbutamol"
+    ],
+    "a": 1,
+    "why": "Suspected epiglottitis: avoid upsetting the child (no cannulation, examination or lying flat), give oxygen as tolerated, and move to theatre with the most experienced anaesthetist and ENT surgeon ready for a surgical airway. Inhalational induction in the sitting position maintaining spontaneous ventilation, then intubate with a smaller tube. Antibiotics after the airway is secured.",
+    "st": "st2-125"
+  },
+  {
+    "id": "Q108",
+    "ar": "Paediatrics",
+    "sb": "Croup",
+    "q": "A 2-year-old with croup has stridor at rest, chest recession and SpO2 95%. What is the first-line treatment?",
+    "o": [
+      "Nebulised adrenaline 400 micrograms/kg (max 5 mL of 1:1000), plus oral dexamethasone",
+      "IV antibiotics",
+      "Heliox as first line",
+      "Oral dexamethasone 0.15 mg/kg",
+      "Intubation with a size 4.5 tube"
+    ],
+    "a": 0,
+    "why": "Moderate-to-severe croup (stridor at rest, recession, agitation) is treated with nebulised adrenaline for short-term relief plus dexamethasone 0.15–0.6 mg/kg (or budesonide). Mild croup needs oral dexamethasone alone. Exhaustion, hypoxia or rising PaCO2 indicates impending failure: intubate in theatre with a tube 0.5–1 size smaller than predicted.",
+    "st": "st2-125"
+  },
+  {
+    "id": "Q109",
+    "ar": "Paediatrics",
+    "sb": "Inhaled foreign body",
+    "q": "A 2-year-old has a peanut lodged in the right main bronchus and is stable. Which anaesthetic approach is most commonly used for rigid bronchoscopy?",
+    "o": [
+      "Positive-pressure ventilation via a tracheal tube before bronchoscopy",
+      "Jet ventilation through a cricothyroid cannula",
+      "Rapid sequence induction with suxamethonium",
+      "Awake bronchoscopy",
+      "Inhalational induction maintaining spontaneous ventilation, topical lidocaine to the larynx, then ventilation through the bronchoscope"
+    ],
+    "a": 4,
+    "why": "Many anaesthetists keep spontaneous ventilation (inhalational induction or TIVA) to avoid pushing the object distally, then share the airway via the ventilating bronchoscope. Controlled ventilation with relaxant is an accepted alternative and evidence does not clearly favour either. Prepare for complete obstruction (push the object into one bronchus to ventilate the other), and give dexamethasone for oedema.",
+    "st": "st2-104"
+  },
+  {
+    "id": "Q110",
+    "ar": "Paediatrics",
+    "sb": "Meningococcal sepsis",
+    "q": "A 2-year-old (12 kg) with meningococcal septicaemia remains shocked after 40 mL/kg of fluid. What is the most appropriate next step?",
+    "o": [
+      "Wait for blood cultures",
+      "Further 40 mL/kg crystalloid boluses",
+      "Lumbar puncture to confirm the diagnosis",
+      "Start adrenaline or noradrenaline (peripherally if needed), and prepare for intubation",
+      "Give IV hydrocortisone only"
+    ],
+    "a": 3,
+    "why": "Fluid-refractory shock (after 40–60 mL/kg in 10 mL/kg boluses, reassessing each time) needs inotropes. Adrenaline or noradrenaline can be started peripherally or intraosseously while central access is arranged. Intubate with cardiovascular-stable drugs (e.g. ketamine) as ventilation reduces oxygen demand. Lumbar puncture is contraindicated in shock or coagulopathy. Give antibiotics (ceftriaxone) without delay.",
+    "st": null
+  },
+  {
+    "id": "Q111",
+    "ar": "Paediatrics",
+    "sb": "Down syndrome",
+    "q": "A 6-year-old with Down syndrome is listed for dental extractions under GA. Which anaesthetic concern is most specific to Down syndrome?",
+    "o": [
+      "Reduced risk of OSA",
+      "Increased resistance to volatile agents",
+      "Atlantoaxial instability and subglottic narrowing",
+      "Hyperthyroidism",
+      "Malignant hyperthermia susceptibility"
+    ],
+    "a": 2,
+    "why": "Down syndrome is associated with atlantoaxial instability (avoid extreme neck movement; screening X-rays are not routinely recommended), macroglossia, OSA, subglottic stenosis (smaller tube may be needed), congenital heart disease (AVSD, VSD), hypothyroidism and bradycardia on sevoflurane induction. Learning disability may complicate cooperation and consent.",
+    "st": null
+  },
+  {
+    "id": "Q112",
+    "ar": "Paediatrics",
+    "sb": "Congenital heart disease",
+    "q": "A child with uncorrected tetralogy of Fallot becomes deeply cyanosed after inhalational induction (a 'tet spell'). Which manoeuvre or drug is most appropriate?",
+    "o": [
+      "Give a beta-agonist to dilate the outflow tract",
+      "Isoprenaline infusion",
+      "Increase FiO2 only and hyperventilate to a low PaCO2 as the sole measure",
+      "Increase SVR with phenylephrine and give fluid, while deepening anaesthesia",
+      "Reduce the depth of anaesthesia to raise catecholamines"
+    ],
+    "a": 3,
+    "why": "A hypercyanotic spell is due to infundibular spasm and right-to-left shunting. Treatment raises SVR relative to PVR (phenylephrine, knee–chest position, abdominal compression), restores preload with fluid, deepens anaesthesia or gives opioid to reduce catecholamine-driven spasm, and uses beta-blockers (esmolol) to relax the infundibulum. Inotropes and beta-agonists worsen it.",
+    "st": null
+  },
+  {
+    "id": "Q113",
+    "ar": "Paediatrics",
+    "sb": "Strabismus surgery",
+    "q": "During squint surgery in a 5-year-old the heart rate suddenly falls from 110 to 50 bpm as the surgeon pulls on the medial rectus. What is the first action?",
+    "o": [
+      "Give adrenaline 10 micrograms/kg",
+      "Give atropine 20 micrograms/kg",
+      "Deepen anaesthesia",
+      "Start chest compressions",
+      "Ask the surgeon to stop traction"
+    ],
+    "a": 4,
+    "why": "The oculocardiac reflex (afferent: ophthalmic division of trigeminal; efferent: vagus) is most often triggered by traction on the medial rectus. Stop the stimulus first; heart rate usually recovers. If bradycardia persists or recurs, give atropine 20 micrograms/kg or glycopyrrolate. Hypercapnia and light anaesthesia increase the risk. Strabismus surgery also carries a high risk of PONV.",
+    "st": "st2-99"
+  },
+  {
+    "id": "Q114",
+    "ar": "Paediatrics",
+    "sb": "Congenital diaphragmatic hernia",
+    "q": "A newborn with an antenatally diagnosed left congenital diaphragmatic hernia is delivered. What is the correct immediate airway management?",
+    "o": [
+      "CPAP by facemask only",
+      "High-pressure ventilation to recruit the hypoplastic lung",
+      "Emergency surgical repair within the first hour",
+      "Bag-mask ventilation to inflate the lungs",
+      "Immediate intubation and gentle ventilation, with a nasogastric tube to decompress the stomach"
+    ],
+    "a": 4,
+    "why": "Avoid bag-mask ventilation, which inflates the herniated bowel and compresses the lungs further. Intubate early, decompress the stomach, and use gentle ventilation with permissive hypercapnia and limited peak pressures to avoid barotrauma to the hypoplastic lungs. Pulmonary hypertension dominates; surgery is delayed until the infant is physiologically stable.",
+    "st": "st2-110"
+  },
+  {
+    "id": "Q115",
+    "ar": "Paediatrics",
+    "sb": "Tracheo-oesophageal fistula",
+    "q": "What is the most common type of oesophageal atresia with tracheo-oesophageal fistula?",
+    "o": [
+      "Proximal fistula with distal atresia",
+      "Atresia with both proximal and distal fistulae",
+      "Proximal atresia with a distal tracheo-oesophageal fistula",
+      "Isolated oesophageal atresia without fistula",
+      "H-type fistula without atresia"
+    ],
+    "a": 2,
+    "why": "Gross type C (about 85%): blind upper pouch with a distal fistula from the lower oesophagus to the trachea, usually near the carina. Associations include VACTERL anomalies, so echo is needed preoperatively. Anaesthetic goals are to avoid gastric distension through the fistula: keep spontaneous or gentle ventilation and position the tube tip beyond the fistula.",
+    "st": "st2-109"
+  },
+  {
+    "id": "Q116",
+    "ar": "Paediatrics",
+    "sb": "Anterior mediastinal mass",
+    "q": "A 10-year-old with a large anterior mediastinal mass (suspected lymphoma) needs a tissue diagnosis. He is orthopnoeic. What is the safest approach?",
+    "o": [
+      "Inhalational induction supine with controlled ventilation",
+      "General anaesthesia with muscle relaxation for biopsy",
+      "Rapid sequence induction in the supine position",
+      "Proceed with GA as long as a rigid bronchoscope is available",
+      "Biopsy of a peripheral node under local anaesthesia (or pleural tap/marrow sampling) and consider steroids before any GA"
+    ],
+    "a": 4,
+    "why": "Anterior mediastinal masses can cause complete airway or cardiovascular collapse on induction, especially when supine and with loss of muscle tone. Orthopnoea, stridor, SVC obstruction and tracheal compression &gt; 50% are high-risk features. Obtain a diagnosis by the least invasive route under local anaesthesia, and if GA is unavoidable, keep spontaneous ventilation, position sitting or lateral, and have rigid bronchoscopy and ECMO back-up available.",
+    "st": "st2-106"
+  },
+  {
+    "id": "Q117",
+    "ar": "Paediatrics",
+    "sb": "Non-accidental injury",
+    "q": "While anaesthetising a 2-year-old for a forearm fracture, you notice several bruises of different ages on the back and buttocks. What should you do?",
+    "o": [
+      "Wait for the next outpatient appointment to raise it",
+      "Confront the parents in recovery",
+      "Photograph the bruises and post them to the GP",
+      "Document only, as bruising is common in toddlers",
+      "Complete the case, document the findings and refer the same day under local safeguarding procedures, informing the responsible consultant"
+    ],
+    "a": 4,
+    "why": "Concerns about non-accidental injury must be acted on: document accurately, discuss with the named or on-call consultant paediatrician (and safeguarding team), and follow local child protection procedures the same day. Bruising on the back, buttocks, ears or in non-mobile infants is particularly concerning. Do not delay the clinical care the child needs.",
+    "st": null
+  },
+  {
+    "id": "Q118",
+    "ar": "Paediatrics",
+    "sb": "Premedication",
+    "q": "A 5-year-old with autism is very anxious before a dental GA and will not allow a cannula or a mask. Which premedication is most suitable?",
+    "o": [
+      "No premedication; restrain and proceed",
+      "Oral temazepam 1 mg/kg",
+      "IM ketamine 10 mg/kg as routine",
+      "IV propofol",
+      "Oral midazolam 0.5 mg/kg (max 20 mg)"
+    ],
+    "a": 4,
+    "why": "Oral midazolam 0.5 mg/kg (up to 15–20 mg) acts in 20–30 minutes; intranasal or buccal routes and oral or intranasal dexmedetomidine or clonidine are alternatives. Use a planned, individualised approach with the family (reasonable adjustments, quiet environment, first on the list). Restraint should be a last resort under a documented best-interests plan.",
+    "st": null
+  },
+  {
+    "id": "Q119",
+    "ar": "Paediatrics",
+    "sb": "Status epilepticus",
+    "q": "A 20 kg child has been fitting for 10 minutes. Buccal midazolam was given by paramedics 5 minutes ago. IV access is now available. What is the next drug?",
+    "o": [
+      "IV phenytoin 20 mg/kg",
+      "IV lorazepam 0.1 mg/kg (2 mg)",
+      "IV levetiracetam as the very next step without benzodiazepine",
+      "IV thiopentone",
+      "Rectal paracetamol"
+    ],
+    "a": 1,
+    "why": "APLS: give a second benzodiazepine dose (IV lorazepam 0.1 mg/kg, max 4 mg) if seizures continue 5 minutes after the first dose. If seizures persist after two benzodiazepine doses, give a second-line drug (levetiracetam 40 mg/kg, or phenytoin 20 mg/kg) and call for anaesthetic help. Rapid sequence induction is used if seizures continue after second-line therapy.",
+    "st": null
+  },
+  {
+    "id": "Q120",
+    "ar": "Paediatrics",
+    "sb": "Duodenal atresia / neonatal surgery",
+    "q": "Which physiological feature of a premature neonate is most relevant to anaesthesia?",
+    "o": [
+      "Low risk of retinopathy with high FiO2",
+      "Mature hepatic glucuronidation",
+      "High risk of hypoglycaemia and hypothermia from limited glycogen stores and a large surface area",
+      "Reduced oxygen consumption per kg compared with adults",
+      "Higher functional residual capacity than adults per kg"
+    ],
+    "a": 2,
+    "why": "Premature neonates have limited glycogen and fat, a large surface-area-to-volume ratio and immature thermoregulation, so they become hypoglycaemic and hypothermic easily. They also have high oxygen consumption, small FRC (desaturate quickly), immature hepatic and renal function, risk of retinopathy of prematurity with hyperoxia (target SpO2 about 91–95%) and postoperative apnoea.",
+    "st": "st2-107"
+  },
+  {
+    "id": "Q121",
+    "ar": "Paediatrics",
+    "sb": "Paediatric day surgery",
+    "q": "Which child is least suitable for day-case surgery?",
+    "o": [
+      "A 3-year-old for orchidopexy with mild asthma",
+      "A 7-year-old for adenotonsillectomy with mild OSA",
+      "A 2-year-old for grommets with a recent mild cold",
+      "A term infant aged 6 weeks for inguinal hernia repair",
+      "A 10-year-old for MRI under GA"
+    ],
+    "a": 3,
+    "why": "Term infants under 44 weeks post-menstrual age (and ex-preterm under about 60 weeks) are at risk of postoperative apnoea and are usually admitted. Children with well-controlled asthma or mild OSA undergoing short procedures are usually suitable. Severe OSA, significant comorbidity, younger than 3 years for tonsillectomy, and social factors are reasons for admission.",
+    "st": null
+  },
+  {
+    "id": "Q274",
+    "ar": "Paediatrics",
+    "sb": "Cerebral palsy",
+    "q": "A 10-year-old with spastic quadriplegic cerebral palsy is having hip surgery. Which perioperative problem is most typical?",
+    "o": [
+      "Hypothermia, gastro-oesophageal reflux with aspiration risk, and difficult pain assessment",
+      "Resistance to volatile agents",
+      "Hyperkalaemia with suxamethonium",
+      "Malignant hyperthermia susceptibility",
+      "Increased requirement for sedatives"
+    ],
+    "a": 0,
+    "why": "Children with severe CP often have reflux and aspiration, chronic lung disease, poor nutrition, epilepsy (enzyme-inducing drugs causing relative resistance to non-depolarising relaxants), scoliosis and contractures (positioning), and lose heat easily. Communication may be difficult, so use behavioural pain tools (e.g. r-FLACC) and the family's knowledge. CP is not associated with MH, and suxamethonium does not cause significant hyperkalaemia.",
+    "st": null
+  }
+]

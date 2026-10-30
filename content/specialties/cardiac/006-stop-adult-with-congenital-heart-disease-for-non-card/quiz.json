@@ -1,0 +1,122 @@
+[
+  {
+    "q": "A 28-year-old with a Fontan circulation needs a laparoscopic appendicectomy. Which feature of the circulation matters most for ventilation?",
+    "o": [
+      "Pulmonary blood flow is pumped by a single ventricle",
+      "Pulmonary blood flow is passive, so raised intrathoracic pressure reduces it",
+      "There is a left-to-right shunt",
+      "The pulmonary vascular resistance is irrelevant",
+      "High PEEP improves cardiac output"
+    ],
+    "a": 1,
+    "why": "In a Fontan, systemic venous blood flows passively to the lungs. Positive pressure, high PEEP and pneumoperitoneum reduce pulmonary blood flow; keep intrathoracic pressure low and stay well filled."
+  },
+  {
+    "q": "A patient with Eisenmenger syndrome needs GA. Which change at induction is most dangerous?",
+    "o": [
+      "A rise in SVR",
+      "A fall in SVR",
+      "A fall in heart rate to 70",
+      "A rise in FiO2",
+      "Mild hypothermia"
+    ],
+    "a": 1,
+    "why": "With a fixed high PVR, a fall in SVR increases right-to-left shunting and causes profound desaturation. Maintain SVR and avoid rises in PVR."
+  },
+  {
+    "q": "Why are air filters placed on IV lines in adults with intracardiac shunts?",
+    "o": [
+      "To prevent line infection",
+      "To prevent paradoxical air embolism",
+      "To reduce drug adsorption",
+      "To warm fluids",
+      "To detect occlusion"
+    ],
+    "a": 1,
+    "why": "Air entering the venous side can cross a shunt to the systemic circulation (paradoxical embolism), causing stroke or coronary embolism."
+  },
+  {
+    "q": "A 35-year-old had a Mustard (atrial switch) operation for transposition. What is the main long-term concern?",
+    "o": [
+      "Failure of the systemic right ventricle",
+      "Pulmonary stenosis only",
+      "Aortic coarctation",
+      "Hypertrophic cardiomyopathy",
+      "There is no long-term concern"
+    ],
+    "a": 0,
+    "why": "After atrial switch (Mustard or Senning) the RV is the systemic ventricle and tends to fail over time. Congenitally corrected TGA has the same problem."
+  },
+  {
+    "q": "In cyanotic congenital heart disease, which induction approach helps avoid increasing right-to-left shunting?",
+    "o": [
+      "High-dose propofol alone",
+      "Ketamine with a GABA-A agonist",
+      "Inhalational induction with high-concentration volatile",
+      "Thiopental alone",
+      "Spinal anaesthesia"
+    ],
+    "a": 1,
+    "why": "Ketamine maintains SVR, so combined with etomidate, midazolam or propofol it limits a fall in SVR and the resulting increase in right-to-left shunt."
+  },
+  {
+    "q": "Which adult congenital lesion is classed as severe complexity, needing specialist-centre care?",
+    "o": [
+      "Small unrepaired ASD",
+      "Repaired VSD",
+      "Single ventricle (Fontan) circulation",
+      "Mild pulmonary stenosis",
+      "Repaired PDA"
+    ],
+    "a": 2,
+    "why": "Severe complexity includes cyanotic disease, single ventricle, corrected TGA, Ebstein’s and double outlet ventricle. Simple lesions can be managed in a non-specialist centre."
+  },
+  {
+    "q": "For a woman with pulmonary hypertension and congenital heart disease who becomes pregnant, what is the approximate maternal mortality?",
+    "o": [
+      "Under 1%",
+      "5%",
+      "10%",
+      "30–50%",
+      "Over 80%"
+    ],
+    "a": 3,
+    "why": "Pulmonary hypertension carries a classically quoted maternal mortality of 30–50% (older series; more recent figures are lower but still high); it is mWHO class IV and pregnancy is not recommended."
+  },
+  {
+    "q": "A cyanotic adult with a haematocrit of 0.65 is listed for surgery. What does the 2026 ESC consensus advise about pre-operative phlebotomy?",
+    "o": [
+      "Venesect to a target haematocrit of 0.45",
+      "Prophylactic phlebotomy to a target haematocrit is not advised",
+      "Venesect 1 unit for every 0.05 above 0.55",
+      "Transfuse to dilute the haematocrit",
+      "Give iron to increase the haematocrit further"
+    ],
+    "a": 1,
+    "why": "Prophylactic phlebotomy to a target haematocrit is not advised. Secondary erythrocytosis is compensatory."
+  },
+  {
+    "q": "Why should high-risk adult congenital heart disease patients be placed first on the operating list?",
+    "o": [
+      "To allow a longer post-op recovery stay",
+      "To limit dehydration from fasting in preload-dependent circulations and ensure expert staff",
+      "Because their surgery is always the longest",
+      "To reduce the risk of infection",
+      "To allow pre-op phlebotomy"
+    ],
+    "a": 1,
+    "why": "Being first limits fasting-related dehydration in preload-dependent circulations (such as Fontan) and makes sure experienced staff are available."
+  },
+  {
+    "q": "A patient with a large unrepaired VSD (left-to-right shunt) is anaesthetised. Which change will increase the shunt?",
+    "o": [
+      "Hypercarbia",
+      "Hypoxia",
+      "High FiO2 and hyperventilation",
+      "Acidosis",
+      "Hypothermia"
+    ],
+    "a": 2,
+    "why": "A fall in PVR (hyperoxia, hypocarbia, alkalosis) or a rise in SVR increases left-to-right flow and can cause pulmonary over-circulation."
+  }
+]

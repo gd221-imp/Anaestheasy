@@ -1,0 +1,54 @@
+{
+  "t": "tip",
+  "shape": "drop",
+  "group": "Vascular",
+  "title": "Carotid Endarterectomy",
+  "cards": [
+    {
+      "h": "Overview",
+      "b": "file:cards/01-overview.html"
+    },
+    {
+      "h": "Complications",
+      "b": "file:cards/02-complications.html"
+    },
+    {
+      "h": "Anaesthetic options",
+      "b": "file:cards/03-anaesthetic-options.html"
+    },
+    {
+      "h": "GALA trial",
+      "b": "file:cards/04-gala-trial.html"
+    },
+    {
+      "h": "Deep cervical plexus block",
+      "b": "file:cards/05-deep-cervical-plexus-block.html"
+    },
+    {
+      "h": "Superficial cervical plexus block",
+      "b": "file:cards/06-superficial-cervical-plexus-block.html"
+    },
+    {
+      "h": "Complications of these blocks",
+      "b": "file:cards/07-complications-of-these-blocks.html"
+    },
+    {
+      "h": "Monitoring cerebral perfusion under GA",
+      "b": "file:cards/08-monitoring-cerebral-perfusion-under-ga.html"
+    },
+    {
+      "h": "The procedure",
+      "b": "file:cards/09-the-procedure.html"
+    },
+    {
+      "h": "Cardiovascular instability during the procedure can arise from",
+      "b": "file:cards/10-cardiovascular-instability-during-the-procedure.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/11-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

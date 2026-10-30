@@ -1,0 +1,26 @@
+{
+  "t": "tip",
+  "shape": "warn",
+  "group": "Critical incidents",
+  "title": "Interhospital Transfer",
+  "cards": [
+    {
+      "h": "Risks",
+      "b": "file:cards/01-risks.html"
+    },
+    {
+      "h": "Level of care during transfer",
+      "b": "file:cards/02-level-of-care-during-transfer.html"
+    },
+    {
+      "h": "Increased altitude of transfer effects",
+      "b": "file:cards/03-increased-altitude-of-transfer-effects.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/04-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

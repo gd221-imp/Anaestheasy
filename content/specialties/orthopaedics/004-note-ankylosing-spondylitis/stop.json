@@ -1,0 +1,26 @@
+{
+  "t": "tip",
+  "shape": "bone",
+  "group": "Orthopaedics and Trauma",
+  "title": "Ankylosing Spondylitis",
+  "cards": [
+    {
+      "h": "Overview",
+      "b": "file:cards/01-overview.html"
+    },
+    {
+      "h": "A: Airway",
+      "b": "file:cards/02-a-airway.html"
+    },
+    {
+      "h": "Pharmacotherapy commonly used",
+      "b": "file:cards/03-pharmacotherapy-commonly-used.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/04-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

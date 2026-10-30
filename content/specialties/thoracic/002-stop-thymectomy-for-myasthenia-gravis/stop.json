@@ -1,0 +1,47 @@
+{
+  "t": "recipe",
+  "shape": "lung",
+  "group": "Thoracic",
+  "title": "Thymectomy for Myasthenia Gravis",
+  "op": true,
+  "cards": [
+    {
+      "h": "Anaesthetic recipe",
+      "b": "file:cards/01-anaesthetic-recipe.html",
+      "recipe": true
+    },
+    {
+      "h": "The Mediastinum (Summary)",
+      "primaryRef": "ana37"
+    },
+    {
+      "h": "CNS Physiology: Motor End Plate & Nerve Fibres",
+      "primaryRef": "phs39"
+    },
+    {
+      "h": "Myasthenia Gravis",
+      "noteRef": "Myasthenia Gravis"
+    },
+    {
+      "h": "Guillain-Barre Syndrome",
+      "noteRef": "Guillain-Barre Syndrome"
+    },
+    {
+      "h": "Motor Neuron Disease",
+      "noteRef": "Motor Neuron Disease"
+    },
+    {
+      "h": "Sample WPBA",
+      "b": "file:cards/07-sample-wpba.html",
+      "wpba": true
+    },
+    {
+      "h": "Curriculum",
+      "links": [
+        "curric:8",
+        "curric:9"
+      ]
+    }
+  ],
+  "q": "file:quiz.json"
+}

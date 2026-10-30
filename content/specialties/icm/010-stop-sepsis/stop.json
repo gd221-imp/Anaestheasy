@@ -1,0 +1,33 @@
+{
+  "t": "tip",
+  "shape": "mon",
+  "group": "ICM",
+  "title": "Sepsis",
+  "cards": [
+    {
+      "h": "Overview",
+      "b": "file:cards/01-overview.html"
+    },
+    {
+      "h": "Key points",
+      "b": "file:cards/02-key-points.html"
+    },
+    {
+      "h": "qSOFA (bedside screening)",
+      "b": "file:cards/03-qsofa-bedside-screening.html"
+    },
+    {
+      "h": "Cardiovascular dysfunction in sepsis",
+      "b": "file:cards/04-cardiovascular-dysfunction-in-sepsis.html"
+    },
+    {
+      "h": "Pharmacokinetics of sepsis",
+      "b": "file:cards/05-pharmacokinetics-of-sepsis.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/06-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json"
+}

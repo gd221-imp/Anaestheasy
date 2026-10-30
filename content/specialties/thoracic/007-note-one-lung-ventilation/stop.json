@@ -1,0 +1,38 @@
+{
+  "t": "tip",
+  "shape": "lung",
+  "group": "Thoracic",
+  "title": "One Lung Ventilation",
+  "cards": [
+    {
+      "h": "Indications",
+      "b": "file:cards/01-indications.html"
+    },
+    {
+      "h": "Technique",
+      "b": "file:cards/02-technique.html"
+    },
+    {
+      "h": "Bronchial Blocker",
+      "b": "file:cards/03-bronchial-blocker.html"
+    },
+    {
+      "h": "Hypoxaemia with DLT & OLV - approach",
+      "b": "file:cards/04-hypoxaemia-with-dlt-olv-approach.html"
+    },
+    {
+      "h": "Complications of the lateral position",
+      "b": "file:cards/05-complications-of-the-lateral-position.html"
+    },
+    {
+      "h": "Causes of increased peak airway pressure",
+      "b": "file:cards/06-causes-of-increased-peak-airway-pressure.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/07-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

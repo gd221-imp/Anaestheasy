@@ -1,0 +1,38 @@
+{
+  "t": "tip",
+  "shape": "drop",
+  "group": "Vascular",
+  "title": "Thrombectomy (Ischaemic Stroke)",
+  "cards": [
+    {
+      "h": "Ischaemic stroke accounts for around 85% of all strokes",
+      "b": "file:cards/01-ischaemic-stroke-accounts-for-around-85-of-all-s.html"
+    },
+    {
+      "h": "Inclusion criteria for thrombectomy",
+      "b": "file:cards/02-inclusion-criteria-for-thrombectomy.html"
+    },
+    {
+      "h": "Extended window",
+      "b": "file:cards/03-extended-window.html"
+    },
+    {
+      "h": "Key points",
+      "b": "file:cards/04-key-points.html"
+    },
+    {
+      "h": "Physiological targets during the procedure",
+      "b": "file:cards/05-physiological-targets-during-the-procedure.html"
+    },
+    {
+      "h": "Complications",
+      "b": "file:cards/06-complications.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/07-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

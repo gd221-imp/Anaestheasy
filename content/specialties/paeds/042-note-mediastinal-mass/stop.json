@@ -1,0 +1,38 @@
+{
+  "t": "tip",
+  "shape": "dummy",
+  "group": "Paeds",
+  "title": "Mediastinal Mass",
+  "cards": [
+    {
+      "h": "Example",
+      "b": "file:cards/01-example.html"
+    },
+    {
+      "h": "Anatomy of the mediastinum",
+      "b": "file:cards/02-anatomy-of-the-mediastinum.html"
+    },
+    {
+      "h": "Clinical features",
+      "b": "file:cards/03-clinical-features.html"
+    },
+    {
+      "h": "Imaging",
+      "b": "file:cards/04-imaging.html"
+    },
+    {
+      "h": "Anaesthetic principles",
+      "b": "file:cards/05-anaesthetic-principles.html"
+    },
+    {
+      "h": "Tumour lysis syndrome",
+      "b": "file:cards/06-tumour-lysis-syndrome.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/07-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

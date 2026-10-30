@@ -1,0 +1,22 @@
+{
+  "t": "tip",
+  "shape": "brain",
+  "group": "Neuro",
+  "title": "EEG & Spectrogram in Neuroanaesthesia",
+  "cards": [
+    {
+      "h": "EEG spectrogram",
+      "b": "file:cards/01-eeg-spectrogram.html"
+    },
+    {
+      "h": "Typical spectrogram patterns by agent (approximate, and can vary)",
+      "b": "file:cards/02-typical-spectrogram-patterns-by-agent-approximat.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/03-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

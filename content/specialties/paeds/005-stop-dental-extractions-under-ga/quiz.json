@@ -1,0 +1,122 @@
+[
+  {
+    "q": "Which group of children is common on paediatric dental GA lists?",
+    "o": [
+      "Elite athletes",
+      "Children with learning disability, autism, ADHD or cerebral palsy",
+      "Neonates",
+      "Adolescents with asthma only",
+      "Ex-premature babies"
+    ],
+    "a": 1,
+    "why": "Plan reasonable adjustments with carers."
+  },
+  {
+    "q": "What must be documented and removed at the end of a dental GA with a throat pack?",
+    "o": [
+      "The ETT",
+      "The throat pack",
+      "The cannula",
+      "The NG tube",
+      "The mouth gag only"
+    ],
+    "a": 1,
+    "why": "A retained throat pack is a serious airway risk."
+  },
+  {
+    "q": "According to SPACE, what does \"P\" stand for?",
+    "o": [
+      "Pain",
+      "Predictability",
+      "Premedication",
+      "Parents",
+      "Positioning"
+    ],
+    "a": 1,
+    "why": "Sensory needs, Predictability, Acceptance, Communication, Empathy."
+  },
+  {
+    "q": "What should be done about ADHD stimulant medication on the day of surgery?",
+    "o": [
+      "Stop for 1 week",
+      "Usually continue it",
+      "Double the dose",
+      "Replace with a benzodiazepine",
+      "Stop 48 hours before"
+    ],
+    "a": 1,
+    "why": "Abrupt cessation can worsen behaviour and cause rebound."
+  },
+  {
+    "q": "What is the dose of oral midazolam premedication in children?",
+    "o": [
+      "0.05 mg/kg",
+      "0.5 mg/kg (max 20 mg)",
+      "2 mg/kg",
+      "0.1 mg/kg IM",
+      "5 mg/kg"
+    ],
+    "a": 1,
+    "why": "Onset around 20–30 minutes."
+  },
+  {
+    "q": "Which intranasal premedication has no taste and is well tolerated?",
+    "o": [
+      "Midazolam",
+      "Dexmedetomidine 1–2 mcg/kg",
+      "Ketamine 10 mg/kg",
+      "Morphine",
+      "Clonidine IV"
+    ],
+    "a": 1,
+    "why": "Onset 30–45 minutes; intranasal midazolam stings."
+  },
+  {
+    "q": "What dose of oral ketamine is used for premedication?",
+    "o": [
+      "0.5 mg/kg",
+      "5–10 mg/kg",
+      "20 mg/kg",
+      "1 mg/kg",
+      "50 mg"
+    ],
+    "a": 1,
+    "why": "Useful if IV access is difficult or the child is uncooperative."
+  },
+  {
+    "q": "If repeated IV access attempts fail in an emergency, what is the next step?",
+    "o": [
+      "Keep trying",
+      "Intraosseous access",
+      "Cancel",
+      "Central line awake",
+      "Subcutaneous fluids"
+    ],
+    "a": 1,
+    "why": "Also consider inhalational induction, ultrasound guidance and early senior help."
+  },
+  {
+    "q": "How is the paediatric endocarditis prophylaxis question handled in the UK for dental procedures?",
+    "o": [
+      "Amoxicillin for all with murmurs",
+      "NICE does not recommend routine prophylaxis; some cardiologists advise it in high-risk lesions",
+      "Vancomycin always",
+      "Never consider it",
+      "Only for ASD"
+    ],
+    "a": 1,
+    "why": "Good oral hygiene is emphasised; follow local guidelines."
+  },
+  {
+    "q": "How is a child recovered after dental extractions?",
+    "o": [
+      "Supine and flat",
+      "Lateral position, watching for bleeding into the airway",
+      "Prone",
+      "Sitting upright immediately",
+      "Trendelenburg"
+    ],
+    "a": 1,
+    "why": "Laryngospasm with blood in the airway is a key risk."
+  }
+]

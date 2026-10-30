@@ -1,0 +1,122 @@
+[
+  {
+    "q": "Which score assesses need for intervention in UGI bleed?",
+    "o": [
+      "CURB-65",
+      "Glasgow–Blatchford",
+      "Wells",
+      "GRACE",
+      "Ranson"
+    ],
+    "a": 1,
+    "why": "Rockall is used after endoscopy."
+  },
+  {
+    "q": "When is intubation indicated for endoscopy in UGI bleed?",
+    "o": [
+      "Always",
+      "Active major bleeding or reduced GCS",
+      "Never",
+      "Only for varices",
+      "Patient choice"
+    ],
+    "a": 1,
+    "why": "Protect the airway."
+  },
+  {
+    "q": "Which drug is given in suspected variceal bleeding?",
+    "o": [
+      "Omeprazole only",
+      "Terlipressin and antibiotics",
+      "Heparin",
+      "Tranexamic acid alone",
+      "Octreotide only"
+    ],
+    "a": 1,
+    "why": "Plus endoscopic banding."
+  },
+  {
+    "q": "What is TIPSS?",
+    "o": [
+      "Endoscopic banding",
+      "A stent between portal and hepatic veins via the IJV",
+      "Surgical shunt",
+      "Balloon tamponade",
+      "Liver resection"
+    ],
+    "a": 1,
+    "why": "May precipitate encephalopathy."
+  },
+  {
+    "q": "Which non-variceal bleed treatment is used?",
+    "o": [
+      "Banding",
+      "PPI and endoscopic adrenaline, clips or cautery",
+      "Terlipressin",
+      "TIPSS",
+      "Sengstaken tube"
+    ],
+    "a": 1,
+    "why": "Plus H. pylori eradication."
+  },
+  {
+    "q": "What is a risk of balloon tamponade?",
+    "o": [
+      "Hypertension",
+      "Aspiration and oesophageal ischaemia or rupture",
+      "Hypoglycaemia",
+      "Seizure",
+      "None"
+    ],
+    "a": 1,
+    "why": "Limit to under 24 hours."
+  },
+  {
+    "q": "Which delayed anaesthetic complication occurs in liver disease?",
+    "o": [
+      "MH",
+      "Hepatic encephalopathy",
+      "PDPH",
+      "Diplopia",
+      "Laryngospasm"
+    ],
+    "a": 1,
+    "why": "Precipitated by GI bleeding."
+  },
+  {
+    "q": "What induction approach is suitable?",
+    "o": [
+      "Full-dose propofol",
+      "RSI with vasopressor, reduced dose or ketamine, after resuscitation",
+      "Gas induction",
+      "LMA",
+      "Sedation"
+    ],
+    "a": 1,
+    "why": "Risk of collapse at induction."
+  },
+  {
+    "q": "Which clotting factors are made in the liver?",
+    "o": [
+      "Factor VIII only",
+      "II, VII, IX and X",
+      "von Willebrand only",
+      "XIII only",
+      "None"
+    ],
+    "a": 1,
+    "why": "Factors II, VII, IX and X are all made in the liver (as are most others); the PT reflects II, V, VII and X."
+  },
+  {
+    "q": "What defines a pathological portal pressure?",
+    "o": [
+      "Over 2 mmHg",
+      "Over 10 mmHg",
+      "Over 30 mmHg",
+      "Over 5 mmHg",
+      "Over 50 mmHg"
+    ],
+    "a": 1,
+    "why": "Causes varices, ascites and splenomegaly."
+  }
+]

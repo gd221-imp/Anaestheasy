@@ -1,0 +1,30 @@
+{
+  "t": "tip",
+  "shape": "heart",
+  "group": "Cardiac",
+  "title": "Other Cardiac Procedures",
+  "cards": [
+    {
+      "h": "Anaesthesia for extraction of long-term cardiac device leads",
+      "b": "file:cards/01-anaesthesia-for-extraction-of-long-term-cardiac.html"
+    },
+    {
+      "h": "Anaesthesia for electrophysiological procedures",
+      "b": "file:cards/02-anaesthesia-for-electrophysiological-procedures.html"
+    },
+    {
+      "h": "Cardioversion",
+      "b": "file:cards/03-cardioversion.html"
+    },
+    {
+      "h": "Management of AF",
+      "b": "file:cards/04-management-of-af.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/05-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

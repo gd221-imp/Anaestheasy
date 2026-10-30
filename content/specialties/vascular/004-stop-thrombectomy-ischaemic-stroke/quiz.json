@@ -1,0 +1,122 @@
+[
+  {
+    "q": "What is the standard time window for mechanical thrombectomy in anterior circulation stroke?",
+    "o": [
+      "Within 1 hour",
+      "Within 4.5 hours",
+      "Within 6 hours (up to 24 hours in selected patients)",
+      "Within 48 hours",
+      "Any time"
+    ],
+    "a": 2,
+    "why": "Thrombectomy is within 6 hours, extended to 24 hours if imaging shows a small core with a large salvageable area (DAWN). Thrombolysis is within 4.5 hours."
+  },
+  {
+    "q": "What systolic BP target is used during thrombectomy before reperfusion?",
+    "o": [
+      "90–110 mmHg",
+      "110–130 mmHg",
+      "140–180 mmHg",
+      "Above 200 mmHg",
+      "No target"
+    ],
+    "a": 2,
+    "why": "Systolic 140–180 mmHg (within about 10% of baseline) protects the penumbra; also normoxia, normocapnia, normothermia and glucose 7.8–10 mmol/L."
+  },
+  {
+    "q": "Which factor favours GA over conscious sedation for thrombectomy?",
+    "o": [
+      "A cooperative patient",
+      "Agitation or vomiting",
+      "Anterior circulation stroke in a calm patient",
+      "Short anticipated procedure",
+      "Non-dominant hemisphere stroke"
+    ],
+    "a": 1,
+    "why": "GA is favoured for agitation, hiccups, vomiting, posterior circulation strokes, complex anatomy or dominant hemisphere involvement."
+  },
+  {
+    "q": "During thrombectomy under GA, the EtCO2 is 3.2 kPa. Why is this a problem?",
+    "o": [
+      "Hypocapnia causes cerebral vasoconstriction, reducing perfusion to the penumbra",
+      "It causes hypertension",
+      "It increases ICP",
+      "It causes hyperkalaemia",
+      "It is not a problem"
+    ],
+    "a": 0,
+    "why": "Avoid hyperventilation: hypocapnia constricts cerebral vessels and worsens ischaemia. Aim for normocapnia."
+  },
+  {
+    "q": "What proportion of strokes are ischaemic?",
+    "o": [
+      "About 15%",
+      "About 50%",
+      "About 85%",
+      "About 95%",
+      "About 30%"
+    ],
+    "a": 2,
+    "why": "Around 85% are ischaemic and 15% haemorrhagic."
+  },
+  {
+    "q": "What is the ischaemic penumbra?",
+    "o": [
+      "The dead core of the infarct",
+      "Potentially salvageable tissue around the infarct core",
+      "The area of haemorrhage",
+      "Normal brain",
+      "The site of the clot"
+    ],
+    "a": 1,
+    "why": "The penumbra can recover if perfusion is restored quickly (\"time is brain\")."
+  },
+  {
+    "q": "Which trial supported thrombectomy as first-line treatment for anterior circulation large vessel occlusion?",
+    "o": [
+      "GALA",
+      "MR CLEAN",
+      "NASCET",
+      "CRASH-2",
+      "IMPROVE"
+    ],
+    "a": 1,
+    "why": "MR CLEAN supported endovascular thrombectomy for large vessel occlusion."
+  },
+  {
+    "q": "A patient becomes hypotensive and hypoxic after a groin puncture for thrombectomy with a rising heart rate. Which procedural complication should be considered?",
+    "o": [
+      "Retroperitoneal haemorrhage",
+      "Contrast nephropathy",
+      "Hyperperfusion syndrome",
+      "Malignant hyperthermia",
+      "Angioedema"
+    ],
+    "a": 0,
+    "why": "Femoral access can cause retroperitoneal haemorrhage; other complications include vessel dissection and subarachnoid haemorrhage."
+  },
+  {
+    "q": "In the neurointerventional suite, what heparin dose is typically given?",
+    "o": [
+      "300 u/kg for ACT above 480 s",
+      "70–100 u/kg for ACT 2–3× baseline",
+      "5,000 units fixed, ACT not checked",
+      "None",
+      "1,000 units only"
+    ],
+    "a": 1,
+    "why": "Neurointerventional procedures use 70–100 u/kg heparin targeting ACT 2–3× baseline."
+  },
+  {
+    "q": "What does the NIHSS assess?",
+    "o": [
+      "Conscious level, language, weakness, visual fields and other neurological domains",
+      "Only motor function",
+      "Cognitive function only",
+      "Risk of haemorrhage",
+      "Functional status before the stroke"
+    ],
+    "a": 0,
+    "why": "NIHSS is a 15-item scale of stroke severity; prior function is measured by the modified Rankin scale."
+  }
+]

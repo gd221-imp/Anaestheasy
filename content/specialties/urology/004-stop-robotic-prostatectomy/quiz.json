@@ -1,0 +1,122 @@
+[
+  {
+    "q": "Why are fluids restricted until the urethral anastomosis?",
+    "o": [
+      "To reduce bleeding",
+      "To reduce facial and airway oedema in steep head-down and limit urine in the field",
+      "To prevent AKI",
+      "To avoid hyponatraemia",
+      "Cost"
+    ],
+    "a": 1,
+    "why": "Check for facial and airway oedema before extubation."
+  },
+  {
+    "q": "Which is a contraindication to steep head-down laparoscopy?",
+    "o": [
+      "Hypertension",
+      "Raised ICP or retinal detachment",
+      "Diabetes",
+      "Obesity only",
+      "Asthma"
+    ],
+    "a": 1,
+    "why": "Also severe heart failure and right-to-left shunt."
+  },
+  {
+    "q": "What is a cardiovascular effect of pneumoperitoneum?",
+    "o": [
+      "Reduced SVR",
+      "Raised SVR and reduced venous return",
+      "Increased cardiac output always",
+      "Bradycardia never occurs",
+      "No effect"
+    ],
+    "a": 1,
+    "why": "Bradycardia can occur with insufflation."
+  },
+  {
+    "q": "Why must the patient not move while the robot is docked?",
+    "o": [
+      "To prevent awareness",
+      "Instruments are fixed in the patient and movement causes injury",
+      "To save time",
+      "For imaging",
+      "No reason"
+    ],
+    "a": 1,
+    "why": "Maintain deep neuromuscular block."
+  },
+  {
+    "q": "Which eye complication can occur after robotic prostatectomy?",
+    "o": [
+      "Retinal detachment",
+      "Corneal abrasion",
+      "Cataract",
+      "Squint",
+      "Glaucoma always"
+    ],
+    "a": 1,
+    "why": "Protect eyes; IOP also rises."
+  },
+  {
+    "q": "What is a disadvantage of robotic over laparoscopic surgery?",
+    "o": [
+      "3D vision",
+      "No tactile feedback, cost and robot bulk",
+      "Tremor filtering",
+      "More freedom of movement",
+      "Smaller scars"
+    ],
+    "a": 1,
+    "why": "The robot also limits access to the patient."
+  },
+  {
+    "q": "Which issue causes hypercapnia and surgical emphysema?",
+    "o": [
+      "Spinal anaesthesia",
+      "CO2 insufflation",
+      "Prone position",
+      "Hypothermia",
+      "Opioids"
+    ],
+    "a": 1,
+    "why": "Manage with ventilation changes."
+  },
+  {
+    "q": "Why use an anti-slip mattress?",
+    "o": [
+      "Pressure care",
+      "To prevent sliding in steep head-down",
+      "Warming",
+      "Comfort",
+      "Infection"
+    ],
+    "a": 1,
+    "why": "Padded shoulder supports also help."
+  },
+  {
+    "q": "Which delayed surgical complication follows prostatectomy?",
+    "o": [
+      "Hypospadias",
+      "Incontinence and erectile dysfunction",
+      "Squint",
+      "Fistula in ano",
+      "Hernia only"
+    ],
+    "a": 1,
+    "why": "Also lymphocele."
+  },
+  {
+    "q": "Which line consideration matters with arms tucked?",
+    "o": [
+      "None",
+      "Long lines and extensions placed before draping",
+      "Central line mandatory",
+      "Foot cannula always",
+      "IO access"
+    ],
+    "a": 1,
+    "why": "Access is limited during the case."
+  }
+]

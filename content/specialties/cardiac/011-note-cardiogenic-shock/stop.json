@@ -1,0 +1,38 @@
+{
+  "t": "tip",
+  "shape": "heart",
+  "group": "Cardiac",
+  "title": "Cardiogenic Shock",
+  "cards": [
+    {
+      "h": "Overview",
+      "b": "file:cards/01-overview.html"
+    },
+    {
+      "h": "Key points",
+      "b": "file:cards/02-key-points.html"
+    },
+    {
+      "h": "Aetiology",
+      "b": "file:cards/03-aetiology.html"
+    },
+    {
+      "h": "Management",
+      "b": "file:cards/04-management.html"
+    },
+    {
+      "h": "IABP waveform timing errors",
+      "b": "file:cards/05-iabp-waveform-timing-errors.html"
+    },
+    {
+      "h": "LVAD",
+      "b": "file:cards/06-lvad.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/07-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

@@ -1,0 +1,82 @@
+[
+  {
+    "id": "Q237",
+    "ar": "Non-theatre",
+    "sb": "MRI",
+    "q": "Which item is the greatest immediate hazard when taking an anaesthetised patient into a 3-tesla MRI scanner?",
+    "o": [
+      "A fibreoptic pulse oximeter",
+      "MR-conditional infusion pump positioned beyond its gauss line",
+      "Ear protection",
+      "A ferromagnetic oxygen cylinder brought into the scanner room",
+      "An ECG with MR-conditional electrodes"
+    ],
+    "a": 3,
+    "why": "Ferromagnetic objects become projectiles in the static field, causing fatal injuries. Use MR-safe or MR-conditional equipment within its stated limits (conditional items have field strength and position limits shown by the fringe-field gauss lines). Other hazards: burns from looped cables (RF heating), acoustic noise, quench (oxygen displacement by helium), limited access to the patient, and implant interactions.",
+    "st": "st2-100"
+  },
+  {
+    "id": "Q238",
+    "ar": "Non-theatre",
+    "sb": "ECT",
+    "q": "Which induction agent is associated with the longest seizure duration during ECT?",
+    "o": [
+      "Thiopental",
+      "Midazolam",
+      "Methohexital is shorter than propofol",
+      "Propofol",
+      "Etomidate"
+    ],
+    "a": 4,
+    "why": "Etomidate (and ketamine) preserve or prolong seizure duration; propofol shortens seizures most but gives smoother haemodynamics. Methohexital is traditionally the reference agent. Seizure duration of about 25 seconds or more on EEG is usually wanted. Suxamethonium (0.5–1 mg/kg) modifies the convulsion. ECT causes an initial parasympathetic surge (bradycardia, asystole) then a sympathetic surge.",
+    "st": "st2-142"
+  },
+  {
+    "id": "Q239",
+    "ar": "Non-theatre",
+    "sb": "Remote site anaesthesia",
+    "q": "According to AAGBI/RCoA standards, which is required for anaesthesia in a remote location such as an endoscopy suite?",
+    "o": [
+      "The same standards of monitoring, equipment, assistance and recovery as in main theatres",
+      "Monitoring can be reduced because procedures are short",
+      "Only pulse oximetry is required for sedation and GA",
+      "Capnography is optional for deep sedation",
+      "A trained assistant is optional"
+    ],
+    "a": 0,
+    "why": "Standards for remote sites are the same as in theatre: trained assistance, full monitoring including capnography (also for moderate and deep sedation), suction, airway and emergency equipment, a means of summoning help, and appropriate recovery. Remote sites have unfamiliar layout, distance from help and limited access to the patient, so check equipment beforehand.",
+    "st": null
+  },
+  {
+    "id": "Q240",
+    "ar": "Non-theatre",
+    "sb": "Sedation",
+    "q": "A dentist plans conscious sedation for an anxious 30-year-old. Which technique is the standard first-line IV sedation in UK dental practice?",
+    "o": [
+      "Single-agent IV midazolam titrated to maintain verbal contact",
+      "Remifentanil infusion",
+      "Propofol TCI to unconsciousness",
+      "Ketamine bolus",
+      "Combination of midazolam, fentanyl and propofol for all patients"
+    ],
+    "a": 0,
+    "why": "In UK dental practice, conscious sedation (verbal contact maintained throughout) is usually achieved with titrated IV midazolam, or inhalational nitrous oxide for children. Advanced techniques (multiple drugs, propofol, opioids) need additional training (IACSD standards). General anaesthesia for dentistry must be in a hospital setting with critical care facilities.",
+    "st": null
+  },
+  {
+    "id": "Q241",
+    "ar": "Non-theatre",
+    "sb": "Cardioversion",
+    "q": "A patient with AF for 5 days who has not been anticoagulated is listed for elective DC cardioversion. What is required first?",
+    "o": [
+      "A CT pulmonary angiogram",
+      "Rate control only",
+      "Nothing; proceed today",
+      "Either 3 weeks of therapeutic anticoagulation or a transoesophageal echo excluding left atrial thrombus, then anticoagulation for at least 4 weeks after",
+      "Aspirin for 24 hours"
+    ],
+    "a": 3,
+    "why": "AF lasting more than 48 hours (or unknown duration) carries a risk of left atrial appendage thrombus. Before elective cardioversion, give at least 3 weeks of therapeutic anticoagulation or exclude thrombus with TOE, and continue anticoagulation for at least 4 weeks afterwards. Brief propofol sedation in a monitored setting with airway equipment is standard.",
+    "st": "st2-6"
+  }
+]

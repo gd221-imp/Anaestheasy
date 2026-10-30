@@ -1,0 +1,18 @@
+{
+  "t": "tip",
+  "shape": "scalpel",
+  "group": "General surgery",
+  "title": "UGI Bleed",
+  "cards": [
+    {
+      "h": "Pre-op",
+      "b": "file:cards/01-pre-op.html"
+    },
+    {
+      "h": "Key points",
+      "b": "file:cards/02-key-points.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

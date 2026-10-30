@@ -1,0 +1,18 @@
+{
+  "t": "tip",
+  "shape": "brain",
+  "group": "Neuro",
+  "title": "Neurofibromatosis",
+  "cards": [
+    {
+      "h": "Overview",
+      "b": "file:cards/01-overview.html"
+    },
+    {
+      "h": "Anaesthetic considerations by system",
+      "b": "file:cards/02-anaesthetic-considerations-by-system.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

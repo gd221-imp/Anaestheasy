@@ -1,0 +1,26 @@
+{
+  "t": "tip",
+  "shape": "lung",
+  "group": "Thoracic",
+  "title": "Thoracotomy: Pain & Postoperative Pulmonary Complications",
+  "cards": [
+    {
+      "h": "Pain management after thoracotomy",
+      "b": "file:cards/01-pain-management-after-thoracotomy.html"
+    },
+    {
+      "h": "Postoperative Pulmonary Complications",
+      "b": "file:cards/02-postoperative-pulmonary-complications.html"
+    },
+    {
+      "h": "Risk factors",
+      "b": "file:cards/03-risk-factors.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/04-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

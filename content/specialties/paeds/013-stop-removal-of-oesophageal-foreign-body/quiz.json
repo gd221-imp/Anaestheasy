@@ -1,0 +1,122 @@
+[
+  {
+    "q": "Which ingested object is most dangerous?",
+    "o": [
+      "Coin",
+      "Button battery",
+      "Marble",
+      "Plastic bead",
+      "Fish bone"
+    ],
+    "a": 1,
+    "why": "Coins are commonest; batteries cause burns and erosion into the aorta or trachea."
+  },
+  {
+    "q": "How does an oesophageal coin appear on a PA chest X-ray?",
+    "o": [
+      "Side-on (as a line)",
+      "En face (as a round disc)",
+      "Not visible",
+      "As a ring",
+      "Only on lateral view"
+    ],
+    "a": 1,
+    "why": "Oesophageal coins lie in the coronal plane and appear en face on PA."
+  },
+  {
+    "q": "Which is classified as an emergency?",
+    "o": [
+      "Coin in the stomach",
+      "Button battery in the oesophagus",
+      "Smooth object in the colon",
+      "Coin passed in stool",
+      "Small bead in stomach"
+    ],
+    "a": 1,
+    "why": "Also airway compromise, complete obstruction and sharp objects."
+  },
+  {
+    "q": "What airway technique is used for removal of an oesophageal foreign body?",
+    "o": [
+      "LMA",
+      "RSI with ETT",
+      "Facemask",
+      "Spontaneous ventilation with nasal cannulae",
+      "Jet ventilation"
+    ],
+    "a": 1,
+    "why": "The oesophagus is obstructed so aspiration risk is high."
+  },
+  {
+    "q": "What is the suxamethonium dose in children?",
+    "o": [
+      "0.5 mg/kg",
+      "2 mg/kg",
+      "5 mg/kg",
+      "1 mg fixed",
+      "0.1 mg/kg"
+    ],
+    "a": 1,
+    "why": "Neonates and infants need higher doses (2 mg/kg)."
+  },
+  {
+    "q": "What is the uncuffed ETT size formula?",
+    "o": [
+      "Age/2 + 12",
+      "Age/4 + 4",
+      "Age/4 + 3.5",
+      "Age + 4",
+      "Age/2 + 15"
+    ],
+    "a": 1,
+    "why": "Cuffed is age/4 + 3.5."
+  },
+  {
+    "q": "What is the oral ETT length formula?",
+    "o": [
+      "Age/4 + 4",
+      "Age/2 + 12 cm",
+      "Age/2 + 15 cm",
+      "Age + 10 cm",
+      "Age × 2 cm"
+    ],
+    "a": 1,
+    "why": "Nasal is age/2 + 15 cm."
+  },
+  {
+    "q": "Which delayed complication follows a button battery injury?",
+    "o": [
+      "Hernia",
+      "Tracheo-oesophageal fistula",
+      "Testicular atrophy",
+      "Hearing loss",
+      "Squint"
+    ],
+    "a": 1,
+    "why": "Also strictures and mediastinitis."
+  },
+  {
+    "q": "A coin sits at the level of the larynx. What may avoid a full rigid oesophagoscopy?",
+    "o": [
+      "Waiting",
+      "Laryngoscopy with Magill forceps",
+      "Abdominal thrusts",
+      "Glucagon",
+      "Emetics"
+    ],
+    "a": 1,
+    "why": "Retrieve under direct vision if accessible."
+  },
+  {
+    "q": "Which symptom suggests tracheal compression from an oesophageal FB?",
+    "o": [
+      "Abdominal pain",
+      "Stridor, cough or wheeze",
+      "Diarrhoea",
+      "Fever only",
+      "Rash"
+    ],
+    "a": 1,
+    "why": "Leading to raised respiratory rate."
+  }
+]

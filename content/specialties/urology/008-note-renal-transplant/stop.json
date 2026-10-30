@@ -1,0 +1,22 @@
+{
+  "t": "tip",
+  "shape": "kidney",
+  "group": "Urology",
+  "title": "Renal Transplant",
+  "cards": [
+    {
+      "h": "Considerations",
+      "b": "file:cards/01-considerations.html"
+    },
+    {
+      "h": "Complications",
+      "b": "file:cards/02-complications.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/03-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

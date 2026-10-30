@@ -1,0 +1,122 @@
+[
+  {
+    "q": "A haemodynamically stable woman needs manual removal of placenta with no epidural. What is appropriate?",
+    "o": [
+      "GA with RSI always",
+      "Spinal anaesthesia (T10 is enough; some aim for T6)",
+      "No anaesthesia",
+      "Pudendal block",
+      "Sedation only"
+    ],
+    "a": 1,
+    "why": "If normovolaemic a spinal is suitable; if unstable or bleeding heavily, RSI and GA."
+  },
+  {
+    "q": "What proportion of PPH is due to uterine atony (tone)?",
+    "o": [
+      "About 20%",
+      "About 50%",
+      "About 80%",
+      "About 5%",
+      "100%"
+    ],
+    "a": 2,
+    "why": "Tone causes about 80%; then trauma, tissue and thrombin."
+  },
+  {
+    "q": "How is primary PPH defined after vaginal delivery?",
+    "o": [
+      "Over 200 ml",
+      "Over 500 ml within 24 hours",
+      "Over 2 L",
+      "Any bleeding after 24 hours",
+      "Over 1 L within 6 weeks"
+    ],
+    "a": 1,
+    "why": "Primary PPH is over 500 ml within 24 hours (over 1 L after caesarean); secondary PPH is from 24 hours to 6 weeks."
+  },
+  {
+    "q": "Which uterotonic is contraindicated in pre-eclampsia?",
+    "o": [
+      "Oxytocin",
+      "Ergometrine",
+      "Misoprostol",
+      "Carboprost",
+      "Tranexamic acid"
+    ],
+    "a": 1,
+    "why": "Ergometrine causes hypertension; carboprost can cause bronchospasm (caution in asthma)."
+  },
+  {
+    "q": "What is the dose of carboprost?",
+    "o": [
+      "250 mcg IM, up to 8 doses every 15 minutes",
+      "5 units IV",
+      "500 mcg IV bolus",
+      "800 mcg PR",
+      "1 g IV"
+    ],
+    "a": 0,
+    "why": "Carboprost 250 mcg IM repeated up to 8 times at 15-minute intervals."
+  },
+  {
+    "q": "If the uterus needs relaxing to remove the placenta, which drug can be used?",
+    "o": [
+      "Oxytocin",
+      "GTN (or a volatile agent)",
+      "Ergometrine",
+      "Carboprost",
+      "Adrenaline"
+    ],
+    "a": 1,
+    "why": "GTN or volatile relaxes the uterus; watch for hypotension and increased bleeding."
+  },
+  {
+    "q": "What is the first priority in uterine inversion?",
+    "o": [
+      "Remove the placenta immediately",
+      "Resuscitate and do not remove the placenta until the uterus is replaced",
+      "Give carboprost",
+      "Hysterectomy",
+      "Wait for spontaneous correction"
+    ],
+    "a": 1,
+    "why": "Resuscitate, then reposition manually or under GA with uterine relaxants, followed by uterotonics."
+  },
+  {
+    "q": "Which trial supported tranexamic acid in PPH?",
+    "o": [
+      "CRASH-2",
+      "WOMAN",
+      "GALA",
+      "MAGPIE",
+      "CORONIS"
+    ],
+    "a": 1,
+    "why": "The WOMAN trial supported TXA for PPH."
+  },
+  {
+    "q": "What is a disadvantage of cell salvage in obstetrics?",
+    "o": [
+      "Cold blood",
+      "Risk of maternal Rh alloimmunisation from fetal cells",
+      "Need for crossmatch",
+      "Low 2,3-DPG",
+      "Infection is impossible"
+    ],
+    "a": 1,
+    "why": "Fetal red cells may be reinfused; give anti-D and check with Kleihauer if Rh-negative."
+  },
+  {
+    "q": "An advance decision refusing blood is valid if:",
+    "o": [
+      "It is verbal",
+      "Written, signed and witnessed, made with capacity by an adult, and specific about products",
+      "Signed by a relative",
+      "Made under 16",
+      "It does not mention risk of death"
+    ],
+    "a": 1,
+    "why": "It must be written, signed and witnessed, made with capacity, specify products and acknowledge the risk of death."
+  }
+]

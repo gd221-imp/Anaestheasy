@@ -1,0 +1,33 @@
+{
+  "t": "tip",
+  "shape": "mon",
+  "group": "ICM",
+  "title": "Tetanus & Toxin-Mediated Disease",
+  "cards": [
+    {
+      "h": "Overview",
+      "b": "file:cards/01-overview.html"
+    },
+    {
+      "h": "Clinical picture",
+      "b": "file:cards/02-clinical-picture.html"
+    },
+    {
+      "h": "Management",
+      "b": "file:cards/03-management.html"
+    },
+    {
+      "h": "Other toxin-mediated conditions",
+      "b": "file:cards/04-other-toxin-mediated-conditions.html"
+    },
+    {
+      "h": "Toxic shock syndrome",
+      "b": "file:cards/05-toxic-shock-syndrome.html"
+    },
+    {
+      "h": "Clostridium perfringens",
+      "b": "file:cards/06-clostridium-perfringens.html"
+    }
+  ],
+  "q": "file:quiz.json"
+}

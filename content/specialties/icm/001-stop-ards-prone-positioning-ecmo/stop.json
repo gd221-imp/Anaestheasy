@@ -1,0 +1,49 @@
+{
+  "t": "tip",
+  "shape": "mon",
+  "group": "ICM",
+  "title": "ARDS, Prone Positioning & ECMO",
+  "cards": [
+    {
+      "h": "Respiratory failure",
+      "b": "file:cards/01-respiratory-failure.html"
+    },
+    {
+      "h": "ARDS (Berlin definition)",
+      "b": "file:cards/02-ards-berlin-definition.html"
+    },
+    {
+      "h": "Causes",
+      "b": "file:cards/03-causes.html"
+    },
+    {
+      "h": "Pathophysiology",
+      "b": "file:cards/04-pathophysiology.html"
+    },
+    {
+      "h": "Ventilation strategy",
+      "b": "file:cards/05-ventilation-strategy.html"
+    },
+    {
+      "h": "Prone positioning",
+      "b": "file:cards/06-prone-positioning.html"
+    },
+    {
+      "h": "ECMO (post-cardiac-arrest ECPR)",
+      "b": "file:cards/07-ecmo-post-cardiac-arrest-ecpr.html"
+    },
+    {
+      "h": "ECMO modes",
+      "b": "file:cards/08-ecmo-modes.html"
+    },
+    {
+      "h": "V-V ECMO circuit components",
+      "b": "file:cards/09-v-v-ecmo-circuit-components.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/10-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json"
+}

@@ -1,0 +1,122 @@
+[
+  {
+    "q": "When is the safest time for urgent non-obstetric surgery during pregnancy?",
+    "o": [
+      "First trimester",
+      "Second trimester",
+      "Third trimester",
+      "At term",
+      "Any time equally"
+    ],
+    "a": 1,
+    "why": "The first trimester carries teratogenic and miscarriage risk; the third carries preterm labour risk."
+  },
+  {
+    "q": "Why should NSAIDs be avoided after surgery in pregnancy?",
+    "o": [
+      "They cause neonatal jaundice",
+      "Risk of premature closure of the ductus arteriosus",
+      "They cause hypertension",
+      "They cross minimally",
+      "They cause seizures"
+    ],
+    "a": 1,
+    "why": "NSAIDs can close the fetal ductus arteriosus prematurely."
+  },
+  {
+    "q": "What intra-abdominal pressure is recommended for laparoscopy in pregnancy?",
+    "o": [
+      "Under about 12 mmHg",
+      "20 mmHg",
+      "25 mmHg",
+      "30 mmHg",
+      "Any pressure"
+    ],
+    "a": 0,
+    "why": "Keep pressure under about 12 mmHg, control EtCO2 and use an open entry technique."
+  },
+  {
+    "q": "Why might neostigmine with glycopyrronium cause fetal bradycardia?",
+    "o": [
+      "Both cross the placenta",
+      "Neostigmine crosses but glycopyrronium does not",
+      "Glycopyrronium causes bradycardia",
+      "Neither crosses",
+      "It does not"
+    ],
+    "a": 1,
+    "why": "Some neostigmine crosses while glycopyrronium does not, so atropine is sometimes preferred."
+  },
+  {
+    "q": "Which drug barely crosses the placenta because of its large molecular size?",
+    "o": [
+      "Propofol",
+      "Heparin",
+      "Fentanyl",
+      "Lidocaine",
+      "Labetalol"
+    ],
+    "a": 1,
+    "why": "Drugs over about 1,000 Da (heparin, insulin) barely cross; muscle relaxants cross minimally."
+  },
+  {
+    "q": "What is ion trapping of local anaesthetics in the fetus?",
+    "o": [
+      "Acids trapped in the mother",
+      "Weak bases become more ionised in the more acidic fetus and are trapped",
+      "Protein binding increases",
+      "Drugs are metabolised by the placenta",
+      "It does not occur"
+    ],
+    "a": 1,
+    "why": "Fetal pH is lower; a fetal acidosis worsens trapping."
+  },
+  {
+    "q": "Which tocolytic is a competitive oxytocin receptor antagonist?",
+    "o": [
+      "Nifedipine",
+      "Atosiban",
+      "Terbutaline",
+      "Magnesium",
+      "GTN"
+    ],
+    "a": 1,
+    "why": "Atosiban; beta-2 agonists, nifedipine, GTN and volatiles also relax the uterus."
+  },
+  {
+    "q": "In multiple sclerosis, what happens to relapse rates in pregnancy?",
+    "o": [
+      "They rise in the third trimester",
+      "They fall in pregnancy and rise postpartum",
+      "No change",
+      "They rise in all trimesters",
+      "MS stops permanently"
+    ],
+    "a": 1,
+    "why": "Relapses fall during pregnancy and rise after delivery; a standard spinal is now considered reasonable."
+  },
+  {
+    "q": "Which analgesic should breastfeeding mothers avoid?",
+    "o": [
+      "Paracetamol",
+      "Codeine",
+      "Ibuprofen",
+      "Morphine in small doses",
+      "Local anaesthetic"
+    ],
+    "a": 1,
+    "why": "Avoid codeine, tramadol and aspirin; most anaesthetic drugs transfer minimally."
+  },
+  {
+    "q": "How should fetal wellbeing be managed around non-obstetric surgery after viability?",
+    "o": [
+      "No monitoring is ever needed",
+      "Fetal heart monitoring before and after (or continuous CTG where appropriate), with obstetric input",
+      "Delivery before surgery always",
+      "Ultrasound only",
+      "Monitoring only after 37 weeks"
+    ],
+    "a": 1,
+    "why": "Liaise with obstetrics about fetal monitoring, tocolysis and steroids."
+  }
+]

@@ -1,0 +1,39 @@
+{
+  "t": "recipe",
+  "shape": "lung",
+  "group": "Thoracic",
+  "title": "Endoscopic Thoracic Sympathectomy",
+  "op": true,
+  "cards": [
+    {
+      "h": "Anaesthetic recipe",
+      "b": "file:cards/01-anaesthetic-recipe.html",
+      "recipe": true
+    },
+    {
+      "h": "The Reflex Arc & Autonomic Nervous System",
+      "primaryRef": "phs40"
+    },
+    {
+      "h": "Endoscopic Thoracic Sympathectomy",
+      "noteRef": "Endoscopic Thoracic Sympathectomy"
+    },
+    {
+      "h": "One Lung Ventilation",
+      "noteRef": "One Lung Ventilation"
+    },
+    {
+      "h": "Sample WPBA",
+      "b": "file:cards/05-sample-wpba.html",
+      "wpba": true
+    },
+    {
+      "h": "Curriculum",
+      "links": [
+        "curric:8",
+        "curric:9"
+      ]
+    }
+  ],
+  "q": "file:quiz.json"
+}

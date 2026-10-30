@@ -1,0 +1,33 @@
+{
+  "t": "tip",
+  "shape": "mon",
+  "group": "ICM",
+  "title": "Ventilator-Associated Pneumonia",
+  "cards": [
+    {
+      "h": "Definition/timing",
+      "b": "file:cards/01-definition-timing.html"
+    },
+    {
+      "h": "Key points",
+      "b": "file:cards/02-key-points.html"
+    },
+    {
+      "h": "Pathophysiology",
+      "b": "file:cards/03-pathophysiology.html"
+    },
+    {
+      "h": "Early VAP (within 4 days of ventilation)",
+      "b": "file:cards/04-early-vap-within-4-days-of-ventilation.html"
+    },
+    {
+      "h": "Risk factors",
+      "b": "file:cards/05-risk-factors.html"
+    },
+    {
+      "h": "Care bundles",
+      "b": "file:cards/06-care-bundles.html"
+    }
+  ],
+  "q": "file:quiz.json"
+}

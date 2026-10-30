@@ -1,0 +1,122 @@
+[
+  {
+    "q": "What MAP target is used to perfuse a new kidney?",
+    "o": [
+      "Over 50 mmHg",
+      "Over 90 mmHg (especially if diabetic)",
+      "Under 60 mmHg",
+      "70 mmHg",
+      "No target"
+    ],
+    "a": 1,
+    "why": "Maintain perfusion pressure for the graft."
+  },
+  {
+    "q": "Which arm is avoided for cannulation and BP cuff?",
+    "o": [
+      "Dominant arm",
+      "The arm with the AV fistula",
+      "Left arm always",
+      "Right arm always",
+      "None"
+    ],
+    "a": 1,
+    "why": "Protect the fistula when positioning."
+  },
+  {
+    "q": "Which muscle relaxant is used?",
+    "o": [
+      "Pancuronium",
+      "Atracurium",
+      "Suxamethonium routinely",
+      "Vecuronium infusion",
+      "Gallamine"
+    ],
+    "a": 1,
+    "why": "Independent of renal function."
+  },
+  {
+    "q": "Which electrolyte disturbance is a key immediate anaesthetic risk?",
+    "o": [
+      "Hypokalaemia",
+      "Hyperkalaemia",
+      "Hypernatraemia",
+      "Hypercalcaemia",
+      "Hypophosphataemia"
+    ],
+    "a": 1,
+    "why": "Check potassium and dialysis timing."
+  },
+  {
+    "q": "What Hb target is in the note?",
+    "o": [
+      "Over 50 g/L",
+      "Over 70 g/L",
+      "Over 120 g/L",
+      "Over 100 g/L",
+      "No target"
+    ],
+    "a": 1,
+    "why": "Hb over 70 g/L."
+  },
+  {
+    "q": "Which drug class is avoided after renal transplant?",
+    "o": [
+      "Paracetamol",
+      "NSAIDs",
+      "Fentanyl",
+      "Local anaesthetic",
+      "Ondansetron"
+    ],
+    "a": 1,
+    "why": "Avoid hypotension and NSAIDs."
+  },
+  {
+    "q": "Why is care needed positioning a renal transplant patient for later surgery?",
+    "o": [
+      "The kidney is deep",
+      "The transplanted kidney is superficial in the iliac fossa",
+      "They have no kidneys",
+      "Spinal fusion",
+      "Fragile skin only"
+    ],
+    "a": 1,
+    "why": "It lies superficially in the abdomen."
+  },
+  {
+    "q": "Which delayed complication is surgical?",
+    "o": [
+      "Hyperkalaemia",
+      "Lymphocele",
+      "Laryngospasm",
+      "PONV",
+      "Awareness"
+    ],
+    "a": 1,
+    "why": "Also ureteric stenosis, rejection and recurrence."
+  },
+  {
+    "q": "What is dialysis disequilibrium syndrome?",
+    "o": [
+      "Hyperkalaemia",
+      "Cerebral oedema from rapid solute removal during dialysis",
+      "Hypoglycaemia",
+      "Air embolism",
+      "Bleeding"
+    ],
+    "a": 1,
+    "why": "Listed under exposure in the CKD note."
+  },
+  {
+    "q": "Why is anaemia common in CKD?",
+    "o": [
+      "Bleeding",
+      "Reduced erythropoietin",
+      "Iron overload",
+      "B12 deficiency always",
+      "Haemolysis"
+    ],
+    "a": 1,
+    "why": "Reduced EPO."
+  }
+]

@@ -1,0 +1,43 @@
+{
+  "t": "recipe",
+  "shape": "headn",
+  "group": "Head and neck",
+  "title": "Rhinological Surgery & Valsalva Manoeuvre",
+  "op": true,
+  "cards": [
+    {
+      "h": "Anaesthetic recipe",
+      "b": "file:cards/01-anaesthetic-recipe.html",
+      "recipe": true
+    },
+    {
+      "h": "Nasal Anatomy",
+      "primaryRef": "ana0"
+    },
+    {
+      "h": "The Nose (Blood Supply)",
+      "primaryRef": "ana13"
+    },
+    {
+      "h": "Rhinological Surgery & Valsalva Manoeuvre",
+      "noteRef": "Rhinological Surgery & Valsalva Manoeuvre"
+    },
+    {
+      "h": "Obstructive Sleep Apnoea & Obesity Hypoventilation Syndrome",
+      "noteRef": "Obstructive Sleep Apnoea & Obesity Hypoventilation Syndrome"
+    },
+    {
+      "h": "Sample WPBA",
+      "b": "file:cards/06-sample-wpba.html",
+      "wpba": true
+    },
+    {
+      "h": "Curriculum",
+      "links": [
+        "curric:8",
+        "curric:9"
+      ]
+    }
+  ],
+  "q": "file:quiz.json"
+}

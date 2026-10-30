@@ -1,0 +1,122 @@
+[
+  {
+    "q": "How much CSF is produced each day?",
+    "o": [
+      "50 ml",
+      "150 ml",
+      "500 ml",
+      "1,500 ml",
+      "5 L"
+    ],
+    "a": 2,
+    "why": "About 500 ml/day is produced by the choroid plexus; total volume is about 150 ml."
+  },
+  {
+    "q": "Hydrocephalus from aqueduct stenosis is classified as what?",
+    "o": [
+      "Communicating",
+      "Non-communicating (obstructive)",
+      "Normal pressure",
+      "Ex vacuo",
+      "Benign intracranial hypertension"
+    ],
+    "a": 1,
+    "why": "Obstruction within the ventricular system is non-communicating; blocked arachnoid villi (e.g. after SAH) cause communicating hydrocephalus."
+  },
+  {
+    "q": "What is Hakim’s triad?",
+    "o": [
+      "Headache, vomiting, papilloedema",
+      "Cognitive decline, gait disturbance and urinary incontinence (normal pressure hydrocephalus)",
+      "Bradycardia, hypertension, irregular breathing",
+      "Ataxia, nystagmus, tremor",
+      "Fever, rash, neck stiffness"
+    ],
+    "a": 1,
+    "why": "Hakim’s triad describes normal pressure hydrocephalus."
+  },
+  {
+    "q": "What is Cushing’s triad?",
+    "o": [
+      "Hypotension, tachycardia, tachypnoea",
+      "Hypertension, bradycardia and irregular respiration",
+      "Fever, rigors, hypotension",
+      "Hypertension, tachycardia, sweating",
+      "Ataxia, nystagmus, dysarthria"
+    ],
+    "a": 1,
+    "why": "A late sign of raised ICP from medullary compression."
+  },
+  {
+    "q": "At what level is an external ventricular drain zeroed?",
+    "o": [
+      "The sternal angle",
+      "The foramen of Monro (roughly the external auditory meatus when supine)",
+      "The phlebostatic axis",
+      "The vertex",
+      "The heart"
+    ],
+    "a": 1,
+    "why": "EVDs are zeroed at the foramen of Monro; drainage is level-dependent."
+  },
+  {
+    "q": "Which step of VP shunt insertion is most stimulating?",
+    "o": [
+      "Skin incision on the scalp",
+      "Subcutaneous tunnelling of the catheter",
+      "Closure",
+      "Positioning",
+      "Ventricular puncture"
+    ],
+    "a": 1,
+    "why": "Tunnelling is very stimulating; deepen anaesthesia or boost remifentanil beforehand."
+  },
+  {
+    "q": "A child with a blocked shunt is vomiting and drowsy. How should anaesthesia be induced?",
+    "o": [
+      "Gas induction without airway protection",
+      "RSI, avoiding rises in ICP",
+      "Awake fibreoptic",
+      "Spinal anaesthesia",
+      "Delay until fasted for 6 hours"
+    ],
+    "a": 1,
+    "why": "Vomiting means full stomach; plan an RSI and avoid hypercapnia and hypertension."
+  },
+  {
+    "q": "When is a VP shunt usually considered instead of continuing an external ventricular drain?",
+    "o": [
+      "After 24 hours",
+      "If an EVD is needed for more than about 10 days",
+      "Never",
+      "Only after infection",
+      "Before any EVD"
+    ],
+    "a": 1,
+    "why": "A VP shunt is considered if drainage is needed beyond about 10 days; the distal end usually lies in the peritoneum."
+  },
+  {
+    "q": "What LP opening pressure is consistent with idiopathic intracranial hypertension?",
+    "o": [
+      "Over 10 cmH2O",
+      "Over 25 cmH2O",
+      "Over 50 cmH2O",
+      "Under 5 cmH2O",
+      "LP is contraindicated"
+    ],
+    "a": 1,
+    "why": "An opening pressure over 25 cmH2O is diagnostic and draining CSF can be therapeutic; treatment includes acetazolamide and weight loss."
+  },
+  {
+    "q": "Which organism causes most spinal epidural abscesses?",
+    "o": [
+      "E. coli",
+      "Staphylococcus aureus",
+      "Streptococcus pneumoniae",
+      "Pseudomonas",
+      "Candida"
+    ],
+    "a": 1,
+    "why": "About 80–90% are Staph aureus; urgent MRI and decompression are needed before deficits become irreversible."
+  }
+]

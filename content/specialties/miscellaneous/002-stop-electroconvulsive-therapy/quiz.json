@@ -1,0 +1,122 @@
+[
+  {
+    "q": "Which muscle relaxant is commonly used in ECT?",
+    "o": [
+      "Rocuronium high dose",
+      "Suxamethonium",
+      "Atracurium",
+      "Pancuronium",
+      "None ever"
+    ],
+    "a": 1,
+    "why": "Modifies the convulsion to prevent injury."
+  },
+  {
+    "q": "What is the initial cardiovascular response to the ECT stimulus?",
+    "o": [
+      "Tachycardia",
+      "Parasympathetic bradycardia, then sympathetic tachycardia and hypertension",
+      "Hypotension only",
+      "No change",
+      "VF"
+    ],
+    "a": 1,
+    "why": "Anticholinergic may be given."
+  },
+  {
+    "q": "What is done if the seizure lasts longer than 2 minutes?",
+    "o": [
+      "Wait",
+      "Give a benzodiazepine",
+      "Give more stimulus",
+      "Give suxamethonium",
+      "Give caffeine"
+    ],
+    "a": 1,
+    "why": "Or propofol."
+  },
+  {
+    "q": "Which psychiatric drug prolongs neuromuscular block?",
+    "o": [
+      "Sertraline",
+      "Lithium",
+      "Olanzapine",
+      "Mirtazapine",
+      "Haloperidol"
+    ],
+    "a": 1,
+    "why": "Also consider MAOI interactions."
+  },
+  {
+    "q": "What duration of seizure is typically aimed for?",
+    "o": [
+      "5 seconds",
+      "20–50 seconds",
+      "5 minutes",
+      "2 minutes exactly",
+      "10 minutes"
+    ],
+    "a": 1,
+    "why": "Induction agents with anticonvulsant effects shorten it."
+  },
+  {
+    "q": "Which is a cognitive side effect of ECT?",
+    "o": [
+      "Seizure disorder",
+      "Memory loss and confusion",
+      "Psychosis",
+      "Stroke",
+      "Aphasia"
+    ],
+    "a": 1,
+    "why": "Unilateral ECT reduces cognitive effects."
+  },
+  {
+    "q": "What protects the teeth and tongue?",
+    "o": [
+      "Guedel",
+      "Bite block",
+      "LMA",
+      "ETT",
+      "Nothing"
+    ],
+    "a": 1,
+    "why": "Inserted before the stimulus."
+  },
+  {
+    "q": "Why is ECT myalgia seen?",
+    "o": [
+      "Seizure only",
+      "Suxamethonium fasciculations",
+      "Electrode burns",
+      "Positioning",
+      "Infection"
+    ],
+    "a": 1,
+    "why": "Also anaesthetic myalgia."
+  },
+  {
+    "q": "How often is ECT typically given?",
+    "o": [
+      "Daily",
+      "Twice weekly for up to 12 treatments",
+      "Monthly",
+      "Once",
+      "Weekly for a year"
+    ],
+    "a": 1,
+    "why": "Per the note."
+  },
+  {
+    "q": "Which induction agent is favoured for seizure quality?",
+    "o": [
+      "Propofol always",
+      "Etomidate (fewer anticonvulsant effects) or propofol",
+      "Thiopentone only",
+      "Midazolam",
+      "Ketamine always"
+    ],
+    "a": 1,
+    "why": "Propofol shortens seizures."
+  }
+]

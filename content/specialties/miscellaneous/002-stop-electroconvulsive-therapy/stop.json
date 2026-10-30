@@ -1,0 +1,47 @@
+{
+  "t": "recipe",
+  "shape": "star",
+  "group": "Miscellaneous",
+  "title": "Electroconvulsive Therapy",
+  "op": true,
+  "cards": [
+    {
+      "h": "Anaesthetic recipe",
+      "b": "file:cards/01-anaesthetic-recipe.html",
+      "recipe": true
+    },
+    {
+      "h": "Muscle Relaxants",
+      "primaryRef": "pha19"
+    },
+    {
+      "h": "CNS Pharmacology",
+      "primaryRef": "pha28"
+    },
+    {
+      "h": "Electroconvulsive Therapy",
+      "noteRef": "Electroconvulsive Therapy"
+    },
+    {
+      "h": "Anorexia & Refeeding Syndrome",
+      "noteRef": "Anorexia & Refeeding Syndrome"
+    },
+    {
+      "h": "Suxamethonium Apnoea",
+      "noteRef": "Suxamethonium Apnoea"
+    },
+    {
+      "h": "Sample WPBA",
+      "b": "file:cards/07-sample-wpba.html",
+      "wpba": true
+    },
+    {
+      "h": "Curriculum",
+      "links": [
+        "curric:9",
+        "curric:12"
+      ]
+    }
+  ],
+  "q": "file:quiz.json"
+}

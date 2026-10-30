@@ -1,0 +1,26 @@
+{
+  "t": "tip",
+  "shape": "dummy",
+  "group": "Paeds",
+  "title": "Sickle Cell Disease in Children",
+  "note": true,
+  "cards": [
+    {
+      "h": "Sickle Cell Disease",
+      "b": "file:cards/01-sickle-cell-disease.html"
+    },
+    {
+      "h": "Clinical features",
+      "b": "file:cards/02-clinical-features.html"
+    },
+    {
+      "h": "Perioperative management",
+      "b": "file:cards/03-perioperative-management.html"
+    },
+    {
+      "h": "Note",
+      "b": "file:cards/04-note.html"
+    }
+  ],
+  "q": "file:quiz.json"
+}

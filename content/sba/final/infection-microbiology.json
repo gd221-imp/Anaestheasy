@@ -1,0 +1,50 @@
+[
+  {
+    "id": "Q271",
+    "ar": "Infection & microbiology",
+    "sb": "Needlestick injury",
+    "q": "An anaesthetist sustains a deep needlestick injury from a patient known to be HIV-positive with an unknown viral load. After encouraging bleeding and washing, what is the next step?",
+    "o": [
+      "Take no action if the patient is on antiretrovirals",
+      "Start PEP only after 72 hours",
+      "Arrange a hepatitis B booster only",
+      "Report immediately to occupational health or the emergency department so that HIV post-exposure prophylaxis can be started as soon as possible, ideally within an hour",
+      "Wait for the patient's viral load before deciding"
+    ],
+    "a": 3,
+    "why": "PEP should be started as soon as possible, ideally within an hour and no later than 72 hours, continued for 28 days. If the source has a confirmed undetectable viral load on treatment, PEP may not be needed (decided by the specialist). Approximate transmission risks after percutaneous exposure: HBV (HBeAg-positive) up to 30%, HCV about 1.8% (lower in recent data), HIV about 0.3%. Test the source (with consent) and follow up.",
+    "st": null
+  },
+  {
+    "id": "Q272",
+    "ar": "Infection & microbiology",
+    "sb": "HIV",
+    "q": "A patient on antiretroviral therapy including ritonavir is having surgery. Which interaction is most important?",
+    "o": [
+      "Ritonavir has no interactions with anaesthetic drugs",
+      "Ritonavir induces CYP3A4, reducing midazolam effect",
+      "Ritonavir strongly inhibits CYP3A4, increasing the effect of midazolam, fentanyl and other CYP3A4 substrates",
+      "Ritonavir antagonises rocuronium",
+      "Ritonavir prolongs suxamethonium"
+    ],
+    "a": 2,
+    "why": "Protease inhibitor boosters (ritonavir, cobicistat) are potent CYP3A4 inhibitors, raising levels of midazolam (prolonged sedation; avoid or reduce), fentanyl and alfentanil, and some local anaesthetics. Efavirenz induces enzymes. Check interactions (Liverpool HIV drug interactions database) and do not interrupt therapy.",
+    "st": null
+  },
+  {
+    "id": "Q273",
+    "ar": "Infection & microbiology",
+    "sb": "Aerosol-generating procedures",
+    "q": "Which protection is required for staff during an aerosol-generating procedure on a patient with a confirmed airborne respiratory infection?",
+    "o": [
+      "Cloth mask",
+      "Surgical mask and gloves only",
+      "Surgical mask and visor without gown",
+      "FFP3 respirator (fit-tested), eye protection, long-sleeved gown and gloves",
+      "No PPE if the procedure is short"
+    ],
+    "a": 3,
+    "why": "For AGPs (e.g. intubation, extubation, NIV, high-flow nasal oxygen, bronchoscopy, tracheostomy) in patients with infections spread by aerosol, staff need airborne precautions: a fit-tested FFP3 respirator, eye protection, fluid-resistant gown and gloves, a minimum number of staff, and adequate air changes. Droplet precautions use a fluid-resistant surgical mask.",
+    "st": null
+  }
+]

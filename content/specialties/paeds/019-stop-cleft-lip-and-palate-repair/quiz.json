@@ -1,0 +1,122 @@
+[
+  {
+    "q": "Which syndrome with micrognathia is associated with cleft palate?",
+    "o": [
+      "Down",
+      "Pierre Robin sequence",
+      "Turner",
+      "Marfan",
+      "Noonan"
+    ],
+    "a": 1,
+    "why": "Micrognathia, glossoptosis and cleft palate cause difficult mask ventilation and laryngoscopy."
+  },
+  {
+    "q": "Which nerve block is used for cleft lip repair?",
+    "o": [
+      "Mental",
+      "Infraorbital",
+      "Supraorbital",
+      "Greater palatine only",
+      "Mandibular"
+    ],
+    "a": 1,
+    "why": "Bilateral infraorbital blocks cover the upper lip."
+  },
+  {
+    "q": "Which ETT is used?",
+    "o": [
+      "Nasal RAE",
+      "Oral RAE",
+      "Double lumen",
+      "Microlaryngeal tube",
+      "LMA"
+    ],
+    "a": 1,
+    "why": "Oral RAE with a throat pack."
+  },
+  {
+    "q": "What is placed after palate repair to protect the airway?",
+    "o": [
+      "Tracheostomy",
+      "Nasopharyngeal airway or tongue stitch",
+      "LMA",
+      "Guedel",
+      "NG tube"
+    ],
+    "a": 1,
+    "why": "Post-op airway obstruction is a key risk."
+  },
+  {
+    "q": "Which syndrome causes progressively harder airway with age?",
+    "o": [
+      "Pierre Robin",
+      "Treacher Collins",
+      "Down",
+      "Beckwith–Wiedemann",
+      "Apert"
+    ],
+    "a": 1,
+    "why": "Pierre Robin often improves as the mandible grows."
+  },
+  {
+    "q": "What instrument can compress the ETT during palate surgery?",
+    "o": [
+      "Magill forceps",
+      "Boyle–Davis gag",
+      "Retractor",
+      "Mouth prop",
+      "Bite block"
+    ],
+    "a": 1,
+    "why": "Check ventilation when it is placed."
+  },
+  {
+    "q": "What post-op care level is recommended?",
+    "o": [
+      "Ward only",
+      "HDU-level monitoring for airway obstruction",
+      "Day case",
+      "Recovery 30 min then home",
+      "PICU ventilated always"
+    ],
+    "a": 1,
+    "why": "Children are at risk of desaturation and OSA."
+  },
+  {
+    "q": "Which delayed surgical complication may follow palate repair?",
+    "o": [
+      "Hypospadias",
+      "Velopharyngeal insufficiency",
+      "Squint",
+      "Meatal stenosis",
+      "Hernia"
+    ],
+    "a": 1,
+    "why": "Also fistula and speech problems."
+  },
+  {
+    "q": "Which syndrome causes difficult mask ventilation from midface hypoplasia?",
+    "o": [
+      "Pierre Robin",
+      "Apert or Crouzon",
+      "Goldenhar",
+      "Beckwith–Wiedemann",
+      "Turner"
+    ],
+    "a": 1,
+    "why": "Poor mask fit and nasal obstruction."
+  },
+  {
+    "q": "Which genetic deletion is associated with cleft palate and cardiac lesions?",
+    "o": [
+      "Trisomy 13",
+      "22q11",
+      "5p",
+      "7q11",
+      "Xq"
+    ],
+    "a": 1,
+    "why": "22q11 deletion (DiGeorge)."
+  }
+]

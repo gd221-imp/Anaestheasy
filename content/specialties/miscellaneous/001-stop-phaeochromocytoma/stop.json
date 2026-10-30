@@ -1,0 +1,43 @@
+{
+  "t": "recipe",
+  "shape": "star",
+  "group": "Miscellaneous",
+  "title": "Phaeochromocytoma",
+  "op": true,
+  "cards": [
+    {
+      "h": "Anaesthetic recipe",
+      "b": "file:cards/01-anaesthetic-recipe.html",
+      "recipe": true
+    },
+    {
+      "h": "Adrenal Hormones & Catecholamines",
+      "primaryRef": "phs52"
+    },
+    {
+      "h": "Cardiovascular Pharmacology",
+      "primaryRef": "pha23"
+    },
+    {
+      "h": "Phaeochromocytoma",
+      "noteRef": "Phaeochromocytoma"
+    },
+    {
+      "h": "Carcinoid Syndrome",
+      "noteRef": "Carcinoid Syndrome"
+    },
+    {
+      "h": "Sample WPBA",
+      "b": "file:cards/06-sample-wpba.html",
+      "wpba": true
+    },
+    {
+      "h": "Curriculum",
+      "links": [
+        "curric:8",
+        "curric:9"
+      ]
+    }
+  ],
+  "q": "file:quiz.json"
+}

@@ -1,0 +1,34 @@
+{
+  "t": "tip",
+  "shape": "dummy",
+  "group": "Paeds",
+  "title": "Oesophageal Foreign Body",
+  "cards": [
+    {
+      "h": "Example",
+      "b": "file:cards/01-example.html"
+    },
+    {
+      "h": "History clues",
+      "b": "file:cards/02-history-clues.html"
+    },
+    {
+      "h": "Pre-op",
+      "b": "file:cards/03-pre-op.html"
+    },
+    {
+      "h": "Urgency",
+      "b": "file:cards/04-urgency.html"
+    },
+    {
+      "h": "Intra-op",
+      "b": "file:cards/05-intra-op.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/06-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

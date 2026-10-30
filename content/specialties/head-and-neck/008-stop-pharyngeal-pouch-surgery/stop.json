@@ -1,0 +1,39 @@
+{
+  "t": "recipe",
+  "shape": "headn",
+  "group": "Head and neck",
+  "title": "Pharyngeal Pouch Surgery",
+  "op": true,
+  "cards": [
+    {
+      "h": "Anaesthetic recipe",
+      "b": "file:cards/01-anaesthetic-recipe.html",
+      "recipe": true
+    },
+    {
+      "h": "The Pharynx",
+      "primaryRef": "ana14"
+    },
+    {
+      "h": "The Oesophagus",
+      "primaryRef": "ana41"
+    },
+    {
+      "h": "Bimaxillary Osteotomy, Pharyngeal Pouch & Fractured Mandible",
+      "noteRef": "Bimaxillary Osteotomy, Pharyngeal Pouch & Fractured Mandible"
+    },
+    {
+      "h": "Sample WPBA",
+      "b": "file:cards/05-sample-wpba.html",
+      "wpba": true
+    },
+    {
+      "h": "Curriculum",
+      "links": [
+        "curric:8",
+        "curric:9"
+      ]
+    }
+  ],
+  "q": "file:quiz.json"
+}

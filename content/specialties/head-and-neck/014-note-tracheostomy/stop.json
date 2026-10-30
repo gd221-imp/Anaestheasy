@@ -1,0 +1,42 @@
+{
+  "t": "tip",
+  "shape": "headn",
+  "group": "Head and neck",
+  "title": "Tracheostomy",
+  "cards": [
+    {
+      "h": "Indications",
+      "b": "file:cards/01-indications.html"
+    },
+    {
+      "h": "Complications",
+      "b": "file:cards/02-complications.html"
+    },
+    {
+      "h": "Causes of hypoxia within 48hrs of tracheostomy",
+      "b": "file:cards/03-causes-of-hypoxia-within-48hrs-of-tracheostomy.html"
+    },
+    {
+      "h": "Management",
+      "b": "file:cards/04-management.html"
+    },
+    {
+      "h": "National Tracheostomy Safety Project algorithm",
+      "b": "file:cards/05-national-tracheostomy-safety-project-algorithm.html"
+    },
+    {
+      "h": "Note",
+      "b": "file:cards/06-note.html"
+    },
+    {
+      "h": "Note",
+      "b": "file:cards/07-note.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/08-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

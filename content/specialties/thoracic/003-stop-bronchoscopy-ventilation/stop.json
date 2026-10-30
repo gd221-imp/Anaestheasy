@@ -1,0 +1,47 @@
+{
+  "t": "recipe",
+  "shape": "lung",
+  "group": "Thoracic",
+  "title": "Bronchoscopy & Ventilation",
+  "op": true,
+  "cards": [
+    {
+      "h": "Anaesthetic recipe",
+      "b": "file:cards/01-anaesthetic-recipe.html",
+      "recipe": true
+    },
+    {
+      "h": "Trachea, Main Bronchi & Bronchopulmonary Segments",
+      "primaryRef": "ana2"
+    },
+    {
+      "h": "Apnoeic Oxygenation",
+      "primaryRef": "phy13"
+    },
+    {
+      "h": "Bronchoscopy & Ventilation",
+      "noteRef": "Bronchoscopy & Ventilation"
+    },
+    {
+      "h": "Tuberculosis",
+      "noteRef": "Tuberculosis"
+    },
+    {
+      "h": "Massive Haemoptysis",
+      "noteRef": "Massive Haemoptysis"
+    },
+    {
+      "h": "Sample WPBA",
+      "b": "file:cards/07-sample-wpba.html",
+      "wpba": true
+    },
+    {
+      "h": "Curriculum",
+      "links": [
+        "curric:8",
+        "curric:9"
+      ]
+    }
+  ],
+  "q": "file:quiz.json"
+}

@@ -1,0 +1,122 @@
+[
+  {
+    "q": "What should be checked before a repeat washout?",
+    "o": [
+      "Nothing",
+      "Previous anaesthetic charts for what worked",
+      "Only bloods",
+      "Surgeon’s notes only",
+      "BMI"
+    ],
+    "a": 1,
+    "why": "Repeat GA."
+  },
+  {
+    "q": "Which drug may help analgesia for repeated painful procedures?",
+    "o": [
+      "Midazolam",
+      "Ketamine",
+      "Ondansetron",
+      "Atropine",
+      "Neostigmine"
+    ],
+    "a": 1,
+    "why": "Opioid-sparing."
+  },
+  {
+    "q": "Which delayed anaesthetic problem arises with repeated procedures?",
+    "o": [
+      "MH",
+      "Opioid tolerance",
+      "PDPH",
+      "Laryngospasm",
+      "Diplopia"
+    ],
+    "a": 1,
+    "why": "Plan analgesia beyond theatre."
+  },
+  {
+    "q": "What defines a surgical site or nosocomial infection timeframe?",
+    "o": [
+      "Within 24 hours",
+      "After 48 hours, or within 30 days of surgery or discharge",
+      "1 year",
+      "Any time",
+      "Within 7 days only"
+    ],
+    "a": 1,
+    "why": "Per the note."
+  },
+  {
+    "q": "Why does hypothermia increase wound infection?",
+    "o": [
+      "Increased flow",
+      "Vasoconstriction and reduced immune function",
+      "Bacterial growth",
+      "Dry skin",
+      "More bleeding"
+    ],
+    "a": 1,
+    "why": "Keep normothermic."
+  },
+  {
+    "q": "Which skin preparation is recommended?",
+    "o": [
+      "Iodine only",
+      "Chlorhexidine",
+      "Alcohol only",
+      "Soap",
+      "None"
+    ],
+    "a": 1,
+    "why": "ERAS infection measures."
+  },
+  {
+    "q": "How can PRBC transfusion affect infection risk?",
+    "o": [
+      "No effect",
+      "Causes immunosuppression",
+      "Protects",
+      "Causes fever only",
+      "Increases WCC"
+    ],
+    "a": 1,
+    "why": "Per the note."
+  },
+  {
+    "q": "Which is the most common nosocomial infection site per the note?",
+    "o": [
+      "Brain",
+      "Surgical site",
+      "Eye",
+      "Joint",
+      "Heart"
+    ],
+    "a": 1,
+    "why": "Then UTI and pneumonia."
+  },
+  {
+    "q": "What is the destination after washout?",
+    "o": [
+      "Always home",
+      "Ward or ICU depending on sepsis",
+      "Day unit",
+      "Rehab",
+      "Always ICU"
+    ],
+    "a": 1,
+    "why": "Per recipe."
+  },
+  {
+    "q": "Which immediate anaesthetic risk is listed?",
+    "o": [
+      "MH",
+      "Awareness or inadequate analgesia with repeated short anaesthetics",
+      "Laryngospasm only",
+      "PDPH",
+      "Air embolism"
+    ],
+    "a": 1,
+    "why": "Also haemodynamic instability in sepsis."
+  }
+]

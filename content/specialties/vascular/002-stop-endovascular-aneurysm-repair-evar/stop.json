@@ -1,0 +1,43 @@
+{
+  "t": "recipe",
+  "shape": "drop",
+  "group": "Vascular",
+  "title": "Endovascular Aneurysm Repair (EVAR)",
+  "op": true,
+  "cards": [
+    {
+      "h": "Anaesthetic recipe",
+      "b": "file:cards/01-anaesthetic-recipe.html",
+      "recipe": true
+    },
+    {
+      "h": "Great Vessels",
+      "primaryRef": "ana10"
+    },
+    {
+      "h": "Endovascular Aneurysm Repair (EVAR)",
+      "noteRef": "Endovascular Aneurysm Repair (EVAR)"
+    },
+    {
+      "h": "Aneurysm Classification & Screening",
+      "noteRef": "Aneurysm Classification & Screening"
+    },
+    {
+      "h": "Chronic Kidney Disease",
+      "noteRef": "Chronic Kidney Disease"
+    },
+    {
+      "h": "Sample WPBA",
+      "b": "file:cards/06-sample-wpba.html",
+      "wpba": true
+    },
+    {
+      "h": "Curriculum",
+      "links": [
+        "curric:8",
+        "curric:9"
+      ]
+    }
+  ],
+  "q": "file:quiz.json"
+}

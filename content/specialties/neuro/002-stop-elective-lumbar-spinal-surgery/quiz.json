@@ -1,0 +1,122 @@
+[
+  {
+    "q": "Why is a free abdomen (Jackson table or Montreal mattress) important during prone spinal surgery?",
+    "o": [
+      "To improve surgical access to the skin",
+      "To reduce IVC compression and epidural venous bleeding",
+      "To prevent pressure sores on the face",
+      "To allow abdominal surgery at the same time",
+      "To reduce ventilation pressures only"
+    ],
+    "a": 1,
+    "why": "A compressed abdomen raises IVC and epidural venous pressure, increasing bleeding; freeing it also improves ventilation."
+  },
+  {
+    "q": "How should the arms be positioned when prone?",
+    "o": [
+      "Abducted more than 90° at the shoulder",
+      "Abducted less than 90° and directed forward, with elbows padded",
+      "Tucked by the sides always",
+      "Hanging off the table",
+      "Above the head"
+    ],
+    "a": 1,
+    "why": "Keep shoulders below 90° and forward to protect the brachial plexus; pad elbows (ulnar nerve)."
+  },
+  {
+    "q": "Which complication of long prone spinal surgery is linked to prolonged hypotension and anaemia?",
+    "o": [
+      "Post-operative visual loss (ischaemic optic neuropathy)",
+      "Corneal abrasion only",
+      "Hearing loss",
+      "Phantom limb pain",
+      "Pneumothorax"
+    ],
+    "a": 0,
+    "why": "Avoid prolonged hypotension, particularly in long cases, to reduce the risk of visual loss."
+  },
+  {
+    "q": "After lumbar decompression, a patient develops new bilateral leg weakness and urinary retention in recovery. What is the priority?",
+    "o": [
+      "Reassure: it is the spinal anaesthetic wearing off",
+      "Urgent surgical review and MRI for epidural haematoma",
+      "Start physiotherapy",
+      "Catheterise and review tomorrow",
+      "Give more analgesia"
+    ],
+    "a": 1,
+    "why": "New or worsening weakness or cauda equina symptoms suggest epidural haematoma, a surgical emergency."
+  },
+  {
+    "q": "Which approach to lumbar fusion carries a risk of major vessel injury and often involves a vascular surgeon?",
+    "o": [
+      "TLIF",
+      "PLIF",
+      "ALIF (anterior lumbar interbody fusion)",
+      "Microdiscectomy",
+      "Laminectomy"
+    ],
+    "a": 2,
+    "why": "ALIF is done supine through the abdomen, close to the great vessels."
+  },
+  {
+    "q": "Which spinal metastases are very vascular and may need pre-operative embolisation?",
+    "o": [
+      "Prostate and breast",
+      "Renal and thyroid",
+      "Lung and colon",
+      "Melanoma and bladder",
+      "Myeloma only"
+    ],
+    "a": 1,
+    "why": "Renal and thyroid metastases are very vascular; consider embolisation before surgery."
+  },
+  {
+    "q": "Which antibiotic is typically given at induction for spinal surgery (subject to local policy)?",
+    "o": [
+      "Gentamicin 5 mg/kg",
+      "Cefuroxime 1.5 g IV",
+      "Metronidazole only",
+      "Vancomycin always",
+      "None"
+    ],
+    "a": 1,
+    "why": "Follow local guidelines: cefuroxime 1.5 g IV at induction, checking allergies."
+  },
+  {
+    "q": "What is magnesium’s role in analgesia for spinal surgery?",
+    "o": [
+      "It is a potent analgesic alone",
+      "An opioid-sparing adjunct (NMDA antagonism), not an analgesic in itself",
+      "A local anaesthetic",
+      "An antiemetic",
+      "It reverses opioids"
+    ],
+    "a": 1,
+    "why": "Magnesium is an opioid-sparing adjunct; ketamine or clonidine help in opioid-tolerant patients."
+  },
+  {
+    "q": "During spinal surgery with MEP monitoring, signals fall globally across all limbs at the same time. What is the most likely cause?",
+    "o": [
+      "Surgical injury at one level",
+      "An anaesthetic or physiological cause (e.g. hypotension, volatile, hypothermia)",
+      "A misplaced pedicle screw",
+      "Nerve root traction",
+      "Electrode failure on one limb"
+    ],
+    "a": 1,
+    "why": "Anaesthetic and physiological causes tend to be global; surgical causes tend to be focal. A fall of more than about 50% in amplitude is significant."
+  },
+  {
+    "q": "Which drug increases evoked potential signals?",
+    "o": [
+      "Sevoflurane",
+      "Ketamine",
+      "Nitrous oxide",
+      "Dexmedetomidine",
+      "Rocuronium"
+    ],
+    "a": 1,
+    "why": "Ketamine and raised temperature increase signals; volatiles, N2O, opioids, dexmedetomidine, hypothermia and hypocapnia reduce them."
+  }
+]

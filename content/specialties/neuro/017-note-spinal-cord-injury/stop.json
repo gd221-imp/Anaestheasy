@@ -1,0 +1,30 @@
+{
+  "t": "tip",
+  "shape": "brain",
+  "group": "Neuro",
+  "title": "Spinal Cord Injury",
+  "cards": [
+    {
+      "h": "Classification",
+      "b": "file:cards/01-classification.html"
+    },
+    {
+      "h": "Key points",
+      "b": "file:cards/02-key-points.html"
+    },
+    {
+      "h": "Autonomic Dysreflexia",
+      "b": "file:cards/03-autonomic-dysreflexia.html"
+    },
+    {
+      "h": "Anaesthesia",
+      "b": "file:cards/04-anaesthesia.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/05-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

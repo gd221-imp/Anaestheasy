@@ -1,0 +1,30 @@
+{
+  "t": "tip",
+  "shape": "dummy",
+  "group": "Paeds",
+  "title": "Congenital Heart Disease",
+  "cards": [
+    {
+      "h": "Classification",
+      "b": "file:cards/01-classification.html"
+    },
+    {
+      "h": "Features suggestive of undiagnosed CHD",
+      "b": "file:cards/02-features-suggestive-of-undiagnosed-chd.html"
+    },
+    {
+      "h": "Risk stratification for non-cardiac surgery",
+      "b": "file:cards/03-risk-stratification-for-non-cardiac-surgery.html"
+    },
+    {
+      "h": "Infective endocarditis prophylaxis",
+      "b": "file:cards/04-infective-endocarditis-prophylaxis.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/05-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

@@ -1,0 +1,47 @@
+{
+  "t": "recipe",
+  "shape": "scalpel",
+  "group": "General surgery",
+  "title": "Bariatric Surgery",
+  "op": true,
+  "cards": [
+    {
+      "h": "Anaesthetic recipe",
+      "b": "file:cards/01-anaesthetic-recipe.html",
+      "recipe": true
+    },
+    {
+      "h": "Pharmacokinetics in Special Patient Groups",
+      "primaryRef": "pha16"
+    },
+    {
+      "h": "Lung Volumes & Their Measurement",
+      "primaryRef": "phs15"
+    },
+    {
+      "h": "Bariatric Surgery",
+      "noteRef": "Bariatric Surgery"
+    },
+    {
+      "h": "Obstructive Sleep Apnoea & Obesity Hypoventilation Syndrome",
+      "noteRef": "Obstructive Sleep Apnoea & Obesity Hypoventilation Syndrome"
+    },
+    {
+      "h": "Robotic vs Laparoscopic vs Open Surgery",
+      "noteRef": "Robotic vs Laparoscopic vs Open Surgery"
+    },
+    {
+      "h": "Sample WPBA",
+      "b": "file:cards/07-sample-wpba.html",
+      "wpba": true
+    },
+    {
+      "h": "Curriculum",
+      "links": [
+        "curric:8",
+        "curric:9"
+      ]
+    }
+  ],
+  "q": "file:quiz.json"
+}

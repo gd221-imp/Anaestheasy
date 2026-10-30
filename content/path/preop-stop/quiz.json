@@ -1,0 +1,35 @@
+[
+  {
+    "q": "Roughly what does climbing two flights of stairs without stopping represent?",
+    "o": [
+      "1 MET",
+      "2 METs",
+      "At least 4 METs",
+      "10 METs"
+    ],
+    "a": 2,
+    "why": "Two flights without stopping is the usual practical marker of at least 4 METs; under 4 METs suggests higher perioperative risk."
+  },
+  {
+    "q": "When should an SGLT2 inhibitor usually be stopped before elective surgery?",
+    "o": [
+      "Not at all",
+      "The morning of surgery only",
+      "The day before and the day of surgery",
+      "One week before"
+    ],
+    "a": 2,
+    "why": "Current UK guidance is to omit SGLT2 inhibitors the day before and the day of surgery, because of the risk of euglycaemic DKA, and check ketones."
+  },
+  {
+    "q": "Above what HbA1c is elective surgery usually deferred?",
+    "o": [
+      "48 mmol/mol",
+      "58 mmol/mol",
+      "69 mmol/mol",
+      "86 mmol/mol"
+    ],
+    "a": 2,
+    "why": "Elective surgery is usually deferred if HbA1c is above 69 mmol/mol (8.5%), unless the benefit of surgery outweighs the risk."
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "q": "What did the GAS trial show at 5 years?",
+    "o": [
+      "No difference in IQ between awake regional and under 1 hour of sevoflurane GA",
+      "Lower IQ after GA",
+      "Higher IQ after GA"
+    ],
+    "a": 0,
+    "why": "The GAS trial found no difference in full-scale IQ at 5 years after a single sevoflurane anaesthetic of under 1 hour in infancy."
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "q": "When should tranexamic acid be given in trauma?",
+    "o": [
+      "After 6 hours",
+      "Within 3 hours of injury",
+      "Only with head injury",
+      "Only if fibrinogen low",
+      "Never"
+    ],
+    "a": 1,
+    "why": "CRASH-2 showed benefit when given early."
+  },
+  {
+    "q": "In which patients is permissive hypotension avoided?",
+    "o": [
+      "Penetrating trauma",
+      "Head injury",
+      "Young patients",
+      "Pelvic fractures",
+      "Elderly"
+    ],
+    "a": 1,
+    "why": "Cerebral perfusion must be maintained."
+  },
+  {
+    "q": "What plasma-to-red cell ratio is used in damage control resuscitation?",
+    "o": [
+      "1:4",
+      "1:1",
+      "1:10",
+      "No plasma",
+      "4:1"
+    ],
+    "a": 1,
+    "why": "Guided by viscoelastic testing."
+  },
+  {
+    "q": "What is the lethal triad?",
+    "o": [
+      "Hypoxia, hypotension, hyperthermia",
+      "Hypothermia, acidosis and coagulopathy",
+      "Sepsis, AKI, ARDS",
+      "Hyperkalaemia, hypocalcaemia, hypoxia",
+      "Bradycardia, hypertension, apnoea"
+    ],
+    "a": 1,
+    "why": "Corrected on ICU after abbreviated surgery."
+  },
+  {
+    "q": "Why is the patient prepped and draped before induction?",
+    "o": [
+      "Infection control",
+      "Induction may cause cardiovascular collapse, so surgery can start immediately",
+      "Surgeon preference",
+      "To save time later",
+      "To keep warm"
+    ],
+    "a": 1,
+    "why": "Use reduced-dose induction such as ketamine."
+  },
+  {
+    "q": "Which electrolyte disturbance follows massive transfusion?",
+    "o": [
+      "Hypercalcaemia",
+      "Hypocalcaemia and hyperkalaemia",
+      "Hypernatraemia",
+      "Hypokalaemia always",
+      "Hypermagnesaemia"
+    ],
+    "a": 1,
+    "why": "Citrate binds calcium; give calcium."
+  },
+  {
+    "q": "When is a relook laparotomy usually planned?",
+    "o": [
+      "1 week",
+      "24–48 hours",
+      "2 hours",
+      "Never",
+      "6 weeks"
+    ],
+    "a": 1,
+    "why": "After physiological correction on ICU."
+  },
+  {
+    "q": "What volume drained immediately from a chest drain indicates thoracotomy?",
+    "o": [
+      "500 ml",
+      "Over 1.5 L, or over 200 ml/h for 2–4 hours",
+      "100 ml",
+      "3 L only",
+      "Any blood"
+    ],
+    "a": 1,
+    "why": "Massive haemothorax criteria."
+  },
+  {
+    "q": "What defines a flail chest?",
+    "o": [
+      "One rib fractured",
+      "3 or more ribs fractured in 2 or more places",
+      "Sternal fracture",
+      "Two ribs in one place",
+      "Any pneumothorax"
+    ],
+    "a": 1,
+    "why": "Paradoxical segment movement."
+  },
+  {
+    "q": "What is the survival after resuscitative thoracotomy for blunt trauma?",
+    "o": [
+      "About 35%",
+      "0–2%",
+      "15%",
+      "50%",
+      "80%"
+    ],
+    "a": 1,
+    "why": "Penetrating trauma about 15% (cardiac injury about 35%)."
+  }
+]

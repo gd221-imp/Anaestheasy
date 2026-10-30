@@ -1,0 +1,114 @@
+[
+  {
+    "id": "Q204",
+    "ar": "Haematology & transfusion",
+    "sb": "Sickle cell disease",
+    "q": "A child with HbSS sickle cell disease needs an elective tonsillectomy. Which preoperative measure is recommended?",
+    "o": [
+      "Hydroxycarbamide started the day before",
+      "No special preparation",
+      "Routine iron infusion",
+      "Exchange transfusion to HbS &lt; 10% for all",
+      "Preoperative transfusion to Hb about 100 g/L (as in the TAPS trial), with hydration, oxygen and warmth"
+    ],
+    "a": 4,
+    "why": "The TAPS trial showed preoperative transfusion to about 100 g/L reduced complications (mainly acute chest syndrome) for low- and medium-risk surgery in HbSS and HbSβ0. Plan with haematology; avoid hypoxia, hypothermia, dehydration, acidosis and venous stasis; give good analgesia and incentive spirometry.",
+    "st": null
+  },
+  {
+    "id": "Q205",
+    "ar": "Haematology & transfusion",
+    "sb": "Viscoelastic testing",
+    "q": "During bleeding after cardiac surgery, a ROTEM shows a normal EXTEM clotting time but a FIBTEM A10 of 5 mm and a reduced EXTEM A10. What is the most appropriate treatment?",
+    "o": [
+      "Fibrinogen concentrate or cryoprecipitate",
+      "Platelets",
+      "Tranexamic acid only",
+      "FFP",
+      "Protamine"
+    ],
+    "a": 0,
+    "why": "Low FIBTEM amplitude (platelet contribution removed by cytochalasin D) indicates low fibrinogen. Reduced EXTEM amplitude with normal FIBTEM would suggest a platelet problem. Prolonged INTEM CT corrected by HEPTEM indicates residual heparin (give protamine). Prolonged EXTEM CT suggests clotting factor deficiency (FFP or PCC). Hyperfibrinolysis shows as increased maximum lysis.",
+    "st": null
+  },
+  {
+    "id": "Q206",
+    "ar": "Haematology & transfusion",
+    "sb": "DOACs",
+    "q": "A patient with normal renal function takes apixaban 5 mg twice daily for AF and is having a total hip replacement under spinal anaesthesia. When should the last dose be taken?",
+    "o": [
+      "The night before surgery",
+      "The morning of surgery",
+      "Two weeks before",
+      "At least 72 hours before (last dose 3 days before), because a neuraxial block is planned",
+      "Continue it throughout"
+    ],
+    "a": 3,
+    "why": "For neuraxial anaesthesia, ESAIC (2022) and ASRA guidance recommend stopping treatment-dose apixaban or rivaroxaban about 72 hours before (longer with renal impairment); the older 2013 AAGBI guidance suggested 48 hours; dabigatran timing depends on creatinine clearance. Bridging is not needed for DOACs. Restart at prophylactic dose after haemostasis and catheter removal.",
+    "st": null
+  },
+  {
+    "id": "Q207",
+    "ar": "Haematology & transfusion",
+    "sb": "von Willebrand disease",
+    "q": "A man with type 1 von Willebrand disease is having a dental extraction. Which treatment is most appropriate after haematology review and a positive trial response?",
+    "o": [
+      "FFP 15 mL/kg",
+      "Recombinant factor VIIa",
+      "Platelet transfusion",
+      "Desmopressin 0.3 micrograms/kg IV with tranexamic acid",
+      "Vitamin K"
+    ],
+    "a": 3,
+    "why": "Type 1 vWD (partial quantitative deficiency) usually responds to desmopressin (DDAVP), which releases stored vWF and factor VIII from endothelium, plus tranexamic acid for mucosal bleeding. Watch for hyponatraemia and tachyphylaxis. Type 2B can worsen (thrombocytopenia) and type 3 needs vWF-containing concentrate.",
+    "st": null
+  },
+  {
+    "id": "Q208",
+    "ar": "Haematology & transfusion",
+    "sb": "Patient blood management",
+    "q": "Which statement about red cell transfusion thresholds is correct for a stable postoperative patient without cardiovascular disease (NICE NG24)?",
+    "o": [
+      "Always transfuse two units at a time",
+      "Transfuse if Hb &lt; 100 g/L",
+      "Transfuse if Hb &lt; 90 g/L",
+      "Transfuse if Hb &lt; 70 g/L, aiming for 70–90 g/L after transfusion, giving single units and reassessing",
+      "Never transfuse after surgery"
+    ],
+    "a": 3,
+    "why": "NICE NG24: restrictive threshold of 70 g/L (target 70–90 g/L) for patients without acute coronary syndrome; 80 g/L (target 80–100 g/L) with ACS. Give single units and reassess Hb and symptoms between them. Patient blood management also includes treating anaemia preoperatively, tranexamic acid and cell salvage.",
+    "st": null
+  },
+  {
+    "id": "Q209",
+    "ar": "Haematology & transfusion",
+    "sb": "Platelet disorders",
+    "q": "A woman at 38 weeks requests a labour epidural. Her platelet count is 82 × 10^9/L and has been stable for weeks; clotting is normal and she has no bleeding history. What is the most appropriate approach?",
+    "o": [
+      "Check a bleeding time",
+      "Neuraxial block is generally acceptable at 75 × 10^9/L or above with a stable count and no other coagulopathy",
+      "Transfuse platelets before the epidural",
+      "Use remifentanil only",
+      "Epidural is contraindicated below 100 × 10^9/L"
+    ],
+    "a": 1,
+    "why": "The 2021 SOAP/ASRA consensus and UK practice suggest neuraxial techniques are reasonable at platelets ≥ 70–75 × 10^9/L in the absence of other risk factors (stable count, no anticoagulants, normal clotting, not pre-eclampsia with falling count). In gestational thrombocytopenia the count is usually stable; in HELLP or pre-eclampsia check the trend over the last few hours.",
+    "st": null
+  },
+  {
+    "id": "Q210",
+    "ar": "Haematology & transfusion",
+    "sb": "Heparin-induced thrombocytopenia",
+    "q": "Seven days after starting LMWH, a patient's platelet count falls from 250 to 90 × 10^9/L and she develops a DVT. What is the most appropriate step?",
+    "o": [
+      "Switch to unfractionated heparin",
+      "Stop anticoagulation altogether",
+      "Stop all heparin and start a non-heparin anticoagulant such as argatroban or fondaparinux, and send HIT antibody testing",
+      "Continue LMWH and give platelets",
+      "Start warfarin immediately alone"
+    ],
+    "a": 2,
+    "why": "The 4Ts score (thrombocytopenia &gt; 50% fall, timing day 5–10, thrombosis, no other cause) gives a high probability. Stop all heparin including flushes, start a non-heparin anticoagulant (argatroban, fondaparinux, danaparoid or a DOAC in some cases), test for anti-PF4/heparin antibodies, and do not start warfarin until platelets recover (risk of venous limb gangrene). Avoid platelet transfusion unless bleeding.",
+    "st": "st2-65"
+  }
+]

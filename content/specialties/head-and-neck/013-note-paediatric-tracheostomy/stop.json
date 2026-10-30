@@ -1,0 +1,22 @@
+{
+  "t": "tip",
+  "shape": "headn",
+  "group": "Head and neck",
+  "title": "Paediatric Tracheostomy",
+  "cards": [
+    {
+      "h": "Indications",
+      "b": "file:cards/01-indications.html"
+    },
+    {
+      "h": "Complications",
+      "b": "file:cards/02-complications.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/03-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

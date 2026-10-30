@@ -1,0 +1,21 @@
+{
+  "t": "tip",
+  "shape": "face",
+  "group": "Pain",
+  "title": "Trigeminal Neuralgia & Post-Herpetic Neuralgia",
+  "cards": [
+    {
+      "h": "Overview",
+      "b": "file:cards/01-overview.html"
+    },
+    {
+      "h": "Post-herpetic neuralgia",
+      "b": "file:cards/02-post-herpetic-neuralgia.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/03-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json"
+}

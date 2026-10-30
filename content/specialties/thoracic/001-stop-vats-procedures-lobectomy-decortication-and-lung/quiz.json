@@ -1,0 +1,122 @@
+[
+  {
+    "q": "A patient with an FEV1 of 70% predicted is listed for right lower lobectomy (5 of 19 segments). What is the predicted post-operative (ppo) FEV1?",
+    "o": [
+      "About 35%",
+      "About 45%",
+      "About 52%",
+      "About 60%",
+      "About 65%"
+    ],
+    "a": 2,
+    "why": "ppo value = pre-op value × (19 − segments resected) / 19 = 70 × 14/19 ≈ 52%."
+  },
+  {
+    "q": "Under BTS guidance, which ppoFEV1 or ppoDLCO is acceptable for lobectomy without further testing?",
+    "o": [
+      "Above 20%",
+      "Above 30%",
+      "Above 40%",
+      "Above 60%",
+      "Above 80%"
+    ],
+    "a": 2,
+    "why": "A ppoFEV1 or ppoDLCO above 40% is acceptable (there is no separate higher threshold for pneumonectomy). Lower values need exercise testing (shuttle walk, stair climb, CPET) and MDT discussion."
+  },
+  {
+    "q": "Which pneumonectomy carries the higher risk of post-pneumonectomy pulmonary oedema, and what is its mortality?",
+    "o": [
+      "Left; under 10%",
+      "Right; over 50%",
+      "Left; over 50%",
+      "Right; under 10%",
+      "No difference between sides; 20%"
+    ],
+    "a": 1,
+    "why": "Post-pneumonectomy pulmonary oedema is more common after right pneumonectomy and carries a mortality of over 50%. Restrictive fluids are part of prevention."
+  },
+  {
+    "q": "A patient with a large bronchopleural fistula needs ventilation. Which strategy is most appropriate?",
+    "o": [
+      "Volume control with high tidal volumes",
+      "High PEEP to splint the fistula",
+      "Spontaneous ventilation where possible; otherwise pressure control, low tidal volume and low PEEP",
+      "Long inspiratory time",
+      "Target SpO2 above 98%"
+    ],
+    "a": 2,
+    "why": "Favour spontaneous ventilation; if PPV is needed use pressure control, low tidal volume, low PEEP, permissive hypercapnia, a lower SpO2 target and a short inspiratory time to reduce leak."
+  },
+  {
+    "q": "During one-lung ventilation for lobectomy, SpO2 falls to 85%. What should you do first?",
+    "o": [
+      "Apply CPAP to the non-ventilated lung",
+      "Increase FiO2 to 1.0, tell the team and call for help",
+      "Clamp the pulmonary artery",
+      "Start two-lung ventilation for the rest of the case",
+      "Give a fluid bolus"
+    ],
+    "a": 1,
+    "why": "Step 1 is FiO2 1.0, alert the team and get help. Then confirm tube position with the bronchoscope, recruit and add PEEP to the ventilated lung, CPAP to the non-ventilated lung, then intermittent two-lung ventilation."
+  },
+  {
+    "q": "Which technique is generally the first choice for analgesia after VATS lobectomy?",
+    "o": [
+      "Intrathecal diamorphine",
+      "Paravertebral block (or catheter)",
+      "Interscalene block",
+      "IV opioid PCA alone",
+      "Intercostal blocks at a single level"
+    ],
+    "a": 1,
+    "why": "A paravertebral block is generally first choice for thoracic surgery; it needs an intact pleura. An erector spinae catheter is an alternative, and epidural is used for open surgery."
+  },
+  {
+    "q": "After thoracotomy with a working paravertebral catheter, the patient complains of ipsilateral shoulder pain. What is the likely cause?",
+    "o": [
+      "Brachial plexus injury",
+      "Pleural and phrenic nerve irritation",
+      "Myocardial ischaemia",
+      "Failure of the paravertebral catheter",
+      "Pneumothorax"
+    ],
+    "a": 1,
+    "why": "Shoulder pain is referred via the phrenic nerve from pleural or diaphragmatic irritation, which a paravertebral block does not cover. Treat with NSAIDs and paracetamol, withdraw the drain slightly, or consider a phrenic nerve block."
+  },
+  {
+    "q": "Which arrhythmia accounts for most of the arrhythmias seen after pneumonectomy?",
+    "o": [
+      "Complete heart block",
+      "Ventricular tachycardia",
+      "Atrial fibrillation",
+      "Sinus bradycardia",
+      "Torsades de pointes"
+    ],
+    "a": 2,
+    "why": "Arrhythmias occur in about 60% after pneumonectomy (30–50% after lung resection overall), and 60–70% of them are AF."
+  },
+  {
+    "q": "For a patient with severe COPD, endobronchial valves are being considered instead of lung volume reduction surgery. Which finding makes valves ineffective?",
+    "o": [
+      "Heterogeneous emphysema",
+      "Collateral ventilation between lobes",
+      "Raised CO2",
+      "A previous pneumothorax",
+      "Low BMI"
+    ],
+    "a": 1,
+    "why": "Endobronchial valves let air out but not in; they fail if collateral ventilation refills the target lobe."
+  },
+  {
+    "q": "By what main mechanism does lung volume reduction surgery improve symptoms in severe COPD?",
+    "o": [
+      "It increases surface area for gas exchange",
+      "It reduces dynamic hyperinflation and increases elastic recoil of the remaining lung",
+      "It cures emphysema",
+      "It reduces pulmonary artery pressure",
+      "It removes infected tissue"
+    ],
+    "a": 1,
+    "why": "LVRS is palliative: it reduces dynamic hyperinflation and improves the elastic recoil of the remaining lung."
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "q": "Why must nitrous oxide be avoided for weeks after intraocular gas injection?",
+    "o": [
+      "It causes PONV",
+      "It diffuses into the bubble, raising IOP and risking central retinal artery occlusion",
+      "It is a trigger for MH",
+      "It interacts with SF6",
+      "It causes hypoxia"
+    ],
+    "a": 1,
+    "why": "A warning bracelet is given."
+  },
+  {
+    "q": "Which gas is commonly used for tamponade?",
+    "o": [
+      "Nitrogen",
+      "SF6 or C3F8",
+      "Helium",
+      "Xenon",
+      "CO2"
+    ],
+    "a": 1,
+    "why": "C3F8 lasts longest."
+  },
+  {
+    "q": "What posturing is often required after vitreoretinal surgery?",
+    "o": [
+      "Supine",
+      "Face down as instructed",
+      "Sitting",
+      "Lateral",
+      "Head-down"
+    ],
+    "a": 1,
+    "why": "To position the bubble."
+  },
+  {
+    "q": "Why can’t patients fly with an intraocular gas bubble?",
+    "o": [
+      "Pressure changes cause the bubble to expand",
+      "Infection",
+      "Hypoxia",
+      "Noise",
+      "Radiation"
+    ],
+    "a": 0,
+    "why": "Expansion raises IOP."
+  },
+  {
+    "q": "Which comorbidity is common in vitreoretinal patients?",
+    "o": [
+      "Asthma",
+      "Diabetes",
+      "Epilepsy",
+      "Hypothyroidism",
+      "Sickle cell"
+    ],
+    "a": 1,
+    "why": "Often with other comorbidities."
+  },
+  {
+    "q": "Which block is first choice for vitrectomy per the note?",
+    "o": [
+      "Topical",
+      "Retrobulbar",
+      "Sub-Tenon’s",
+      "Facial",
+      "Peribulbar"
+    ],
+    "a": 1,
+    "why": "Peribulbar or sub-Tenon also used."
+  },
+  {
+    "q": "Which delayed surgical complication may follow vitrectomy?",
+    "o": [
+      "Ptosis",
+      "Cataract",
+      "Hearing loss",
+      "Facial palsy",
+      "Stroke"
+    ],
+    "a": 1,
+    "why": "Also raised IOP and endophthalmitis."
+  },
+  {
+    "q": "What should be ready for the oculocardiac reflex?",
+    "o": [
+      "Adrenaline",
+      "Atropine",
+      "Ephedrine",
+      "Glucagon",
+      "Calcium"
+    ],
+    "a": 1,
+    "why": "Stop the stimulus first."
+  },
+  {
+    "q": "Which eye feature raises the risk of globe perforation with a needle block (a reason to prefer sub-Tenon’s)?",
+    "o": [
+      "Short eye",
+      "Long axial length globe or staphyloma",
+      "Diabetes",
+      "Cataract",
+      "Young age"
+    ],
+    "a": 1,
+    "why": "An axial length over 26 mm or a staphyloma (common in high myopia and retinal detachment) raises perforation risk with needle blocks."
+  },
+  {
+    "q": "Which is the main anaesthetic delayed risk?",
+    "o": [
+      "Hypothermia",
+      "Loss of vision with later N2O exposure",
+      "Laryngospasm",
+      "PDPH",
+      "Urinary retention"
+    ],
+    "a": 1,
+    "why": "Also PONV."
+  }
+]

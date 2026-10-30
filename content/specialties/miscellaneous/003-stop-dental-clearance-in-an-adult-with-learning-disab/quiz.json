@@ -1,0 +1,122 @@
+[
+  {
+    "q": "An adult with learning disability lacks capacity for dental clearance. How is treatment authorised?",
+    "o": [
+      "Carer signs consent",
+      "A best interests decision under the Mental Capacity Act",
+      "Court order always",
+      "No treatment possible",
+      "Next of kin consent"
+    ],
+    "a": 1,
+    "why": "Carers are consulted but cannot consent for an adult."
+  },
+  {
+    "q": "Which is a reasonable adjustment?",
+    "o": [
+      "Last on the list",
+      "First on the list with carers present and a quiet area",
+      "Separate from carers",
+      "Long waits",
+      "Standard pathway"
+    ],
+    "a": 1,
+    "why": "Reduce distress."
+  },
+  {
+    "q": "What opportunity is often taken during the GA?",
+    "o": [
+      "Elective surgery",
+      "Bloods or other procedures (combined care)",
+      "Nothing",
+      "Trial of drugs",
+      "Research"
+    ],
+    "a": 1,
+    "why": "Minimises repeated anaesthetics."
+  },
+  {
+    "q": "Which premedication is listed?",
+    "o": [
+      "IM ketamine first line",
+      "Oral midazolam",
+      "IV propofol",
+      "Oral morphine",
+      "Clonidine IV"
+    ],
+    "a": 1,
+    "why": "If needed."
+  },
+  {
+    "q": "What are DoLS criteria?",
+    "o": [
+      "Patient has capacity",
+      "Lacks capacity, under continuous supervision and not free to leave",
+      "Detained under MHA",
+      "Under 18",
+      "Any hospital patient"
+    ],
+    "a": 1,
+    "why": "Deprivation of Liberty Safeguards."
+  },
+  {
+    "q": "Which comorbidity is common in this group?",
+    "o": [
+      "Hyperthyroidism",
+      "Epilepsy",
+      "Asthma only",
+      "Gout",
+      "Glaucoma"
+    ],
+    "a": 1,
+    "why": "Also cardiac disease and reflux."
+  },
+  {
+    "q": "Which airway is used for dental clearance?",
+    "o": [
+      "LMA",
+      "Nasal ETT with a throat pack",
+      "Oral ETT",
+      "Facemask",
+      "Tracheostomy"
+    ],
+    "a": 1,
+    "why": "Allows surgical access."
+  },
+  {
+    "q": "Who should be present in recovery?",
+    "o": [
+      "Nobody",
+      "Carers",
+      "Police",
+      "Social worker",
+      "Surgeon only"
+    ],
+    "a": 1,
+    "why": "Reduces distress."
+  },
+  {
+    "q": "Which delayed surgical complication occurs?",
+    "o": [
+      "Hypocalcaemia",
+      "Dry socket",
+      "Ptosis",
+      "Hernia",
+      "PDPH"
+    ],
+    "a": 1,
+    "why": "Also infection."
+  },
+  {
+    "q": "Which delayed anaesthetic issue is particularly relevant?",
+    "o": [
+      "MH",
+      "Distress and challenging behaviour",
+      "Hypothermia",
+      "PDPH",
+      "Awareness"
+    ],
+    "a": 1,
+    "why": "Plan recovery carefully."
+  }
+]

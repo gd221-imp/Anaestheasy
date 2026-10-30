@@ -1,0 +1,62 @@
+{
+  "t": "tip",
+  "shape": "drop",
+  "group": "Vascular",
+  "title": "Endovascular Aneurysm Repair (EVAR)",
+  "cards": [
+    {
+      "h": "AAA",
+      "b": "file:cards/01-aaa.html"
+    },
+    {
+      "h": "Risk factors for rupture",
+      "b": "file:cards/02-risk-factors-for-rupture.html"
+    },
+    {
+      "h": "The environment for EVAR can be challenging",
+      "b": "file:cards/03-the-environment-for-evar-can-be-challenging.html"
+    },
+    {
+      "h": "EVAR procedure",
+      "b": "file:cards/04-evar-procedure.html"
+    },
+    {
+      "h": "Pre-op",
+      "b": "file:cards/05-pre-op.html"
+    },
+    {
+      "h": "Complications",
+      "b": "file:cards/06-complications.html"
+    },
+    {
+      "h": "Endoleak types",
+      "b": "file:cards/07-endoleak-types.html"
+    },
+    {
+      "h": "Risk factors for complications",
+      "b": "file:cards/08-risk-factors-for-complications.html"
+    },
+    {
+      "h": "Vs open repair",
+      "b": "file:cards/09-vs-open-repair.html"
+    },
+    {
+      "h": "EVAR-2 trial",
+      "b": "file:cards/10-evar-2-trial.html"
+    },
+    {
+      "h": "IMPROVE trial",
+      "b": "file:cards/11-improve-trial.html"
+    },
+    {
+      "h": "'Complex' EVAR",
+      "b": "file:cards/12-complex-evar.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/13-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

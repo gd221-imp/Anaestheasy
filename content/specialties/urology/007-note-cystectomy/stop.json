@@ -1,0 +1,26 @@
+{
+  "t": "tip",
+  "shape": "kidney",
+  "group": "Urology",
+  "title": "Cystectomy",
+  "cards": [
+    {
+      "h": "Overview",
+      "b": "file:cards/01-overview.html"
+    },
+    {
+      "h": "Specialist MDT",
+      "b": "file:cards/02-specialist-mdt.html"
+    },
+    {
+      "h": "Anaesthetic considerations",
+      "b": "file:cards/03-anaesthetic-considerations.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/04-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

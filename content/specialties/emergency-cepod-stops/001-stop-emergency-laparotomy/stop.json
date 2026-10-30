@@ -1,0 +1,52 @@
+{
+  "t": "recipe",
+  "shape": "warn",
+  "group": "CEPOD",
+  "title": "Emergency Laparotomy",
+  "op": true,
+  "cards": [
+    {
+      "h": "Anaesthetic recipe",
+      "b": "file:cards/01-anaesthetic-recipe.html",
+      "recipe": true
+    },
+    {
+      "h": "Baroreceptor Reflex & Haemorrhagic Shock",
+      "primaryRef": "phs5"
+    },
+    {
+      "h": "Endocrine Stress Response",
+      "primaryRef": "phs50"
+    },
+    {
+      "h": "Transfusion Physiology",
+      "primaryRef": "phs46"
+    },
+    {
+      "h": "Sepsis",
+      "noteRef": "Sepsis"
+    },
+    {
+      "h": "Intra-abdominal Pressure & Compartment Syndrome",
+      "noteRef": "Intra-abdominal Pressure & Compartment Syndrome"
+    },
+    {
+      "h": "Post-op Ileus",
+      "noteRef": "Post-op Ileus"
+    },
+    {
+      "h": "Sample WPBA",
+      "b": "file:cards/08-sample-wpba.html",
+      "wpba": true
+    },
+    {
+      "h": "Curriculum",
+      "links": [
+        "curric:8",
+        "curric:9",
+        "curric:11"
+      ]
+    }
+  ],
+  "q": "file:quiz.json"
+}

@@ -1,0 +1,122 @@
+[
+  {
+    "q": "Which airway is usually used to allow occlusion checks?",
+    "o": [
+      "Oral ETT",
+      "Nasal ETT",
+      "LMA",
+      "Facemask",
+      "Tracheostomy always"
+    ],
+    "a": 1,
+    "why": "Unless base of skull fracture."
+  },
+  {
+    "q": "If trismus is mechanical, which induction approach is safest?",
+    "o": [
+      "IV induction and paralysis",
+      "Awake fibreoptic or gas induction",
+      "Blind nasal",
+      "RSI with DL",
+      "LMA"
+    ],
+    "a": 1,
+    "why": "Trismus may not resolve with relaxant."
+  },
+  {
+    "q": "Which aspiration risk is specific?",
+    "o": [
+      "Gastric contents only",
+      "Blood or loose teeth",
+      "Saliva only",
+      "Pus",
+      "Bile"
+    ],
+    "a": 1,
+    "why": "Check for missing teeth."
+  },
+  {
+    "q": "Which nerve injury is common?",
+    "o": [
+      "Facial",
+      "Inferior alveolar",
+      "Phrenic",
+      "Optic",
+      "Vagus"
+    ],
+    "a": 1,
+    "why": "Lip and chin numbness."
+  },
+  {
+    "q": "What is the delayed airway risk with intermaxillary fixation?",
+    "o": [
+      "Hypoxia from atelectasis",
+      "Airway obstruction or aspiration of vomit, needing wire cutters",
+      "Bronchospasm",
+      "Laryngospasm",
+      "None"
+    ],
+    "a": 1,
+    "why": "Keep wire cutters at the bedside."
+  },
+  {
+    "q": "Which delayed surgical complication occurs?",
+    "o": [
+      "Hypocalcaemia",
+      "Non-union or malocclusion",
+      "Pneumothorax",
+      "Stroke",
+      "Hearing loss"
+    ],
+    "a": 1,
+    "why": "Also infection."
+  },
+  {
+    "q": "Which test indicates the patient can protect the airway?",
+    "o": [
+      "Peak flow",
+      "Ability to swallow and manage secretions",
+      "Mallampati",
+      "Spirometry",
+      "ABG"
+    ],
+    "a": 1,
+    "why": "Assess before anaesthesia."
+  },
+  {
+    "q": "What associated injury must be assessed?",
+    "o": [
+      "Ankle fracture",
+      "Other facial fractures and C-spine",
+      "Liver injury only",
+      "Hand injury",
+      "Hip fracture"
+    ],
+    "a": 1,
+    "why": "Mandible fractures often accompany other facial injuries."
+  },
+  {
+    "q": "What should be done with a dislodged tooth that cannot be found?",
+    "o": [
+      "Nothing",
+      "Search carefully and consider imaging to exclude aspiration",
+      "Assume swallowed",
+      "Discharge",
+      "Give antibiotics"
+    ],
+    "a": 1,
+    "why": "Document and complete an incident form."
+  },
+  {
+    "q": "What is the extubation priority?",
+    "o": [
+      "Speed",
+      "An agreed extubation plan considering swelling and fixation",
+      "Deep extubation always",
+      "Extubate supine",
+      "Leave intubated always"
+    ],
+    "a": 1,
+    "why": "Extubation plan."
+  }
+]

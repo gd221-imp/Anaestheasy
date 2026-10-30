@@ -1,0 +1,33 @@
+{
+  "t": "tip",
+  "shape": "face",
+  "group": "Pain",
+  "title": "Acute Pain Service: PCA, Epidurals & Infusions",
+  "cards": [
+    {
+      "h": "Overview",
+      "b": "file:cards/01-overview.html"
+    },
+    {
+      "h": "PCA",
+      "b": "file:cards/02-pca.html"
+    },
+    {
+      "h": "Epidural and nerve catheter infusions",
+      "b": "file:cards/03-epidural-and-nerve-catheter-infusions.html"
+    },
+    {
+      "h": "Opioid-induced ventilatory impairment",
+      "b": "file:cards/04-opioid-induced-ventilatory-impairment.html"
+    },
+    {
+      "h": "IV lidocaine and ketamine infusions",
+      "b": "file:cards/05-iv-lidocaine-and-ketamine-infusions.html"
+    },
+    {
+      "h": "Persistent post-operative opioid use",
+      "b": "file:cards/06-persistent-post-operative-opioid-use.html"
+    }
+  ],
+  "q": "file:quiz.json"
+}

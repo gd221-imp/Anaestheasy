@@ -1,0 +1,122 @@
+[
+  {
+    "q": "Which nerves are blocked for ankle surgery under GA in the recipe?",
+    "o": [
+      "Femoral and obturator",
+      "Popliteal sciatic and saphenous",
+      "Tibial only",
+      "Ilioinguinal",
+      "Lumbar plexus"
+    ],
+    "a": 1,
+    "why": "Covers foot and ankle."
+  },
+  {
+    "q": "How many nerves are blocked in an ankle block?",
+    "o": [
+      "3",
+      "5",
+      "4",
+      "6",
+      "2"
+    ],
+    "a": 1,
+    "why": "Tibial, saphenous, deep peroneal, superficial peroneal and sural."
+  },
+  {
+    "q": "Where is the deep peroneal nerve blocked?",
+    "o": [
+      "Behind the medial malleolus",
+      "Lateral to extensor hallucis longus",
+      "Between lateral malleolus and Achilles",
+      "Anterior to medial malleolus",
+      "At the fibular head"
+    ],
+    "a": 1,
+    "why": "On the dorsum of the foot."
+  },
+  {
+    "q": "Where is the sural nerve blocked?",
+    "o": [
+      "Medial malleolus",
+      "Between the lateral malleolus and Achilles tendon",
+      "Dorsum of foot",
+      "Popliteal fossa only",
+      "Plantar surface"
+    ],
+    "a": 1,
+    "why": "Lateral foot."
+  },
+  {
+    "q": "Which nerve runs anterior to the medial malleolus?",
+    "o": [
+      "Tibial",
+      "Saphenous",
+      "Sural",
+      "Deep peroneal",
+      "Superficial peroneal"
+    ],
+    "a": 1,
+    "why": "The only branch from the femoral nerve."
+  },
+  {
+    "q": "Which delayed risk may be masked by a dense block?",
+    "o": [
+      "VTE",
+      "Compartment syndrome (rare)",
+      "Infection",
+      "Malunion",
+      "PONV"
+    ],
+    "a": 1,
+    "why": "Awareness needed."
+  },
+  {
+    "q": "What is rebound pain?",
+    "o": [
+      "Pain during surgery",
+      "Severe pain when a peripheral block wears off",
+      "Pain from injection",
+      "Tourniquet pain",
+      "Chronic pain"
+    ],
+    "a": 1,
+    "why": "Plan oral analgesia in advance."
+  },
+  {
+    "q": "What is the rationale for \"Plan A\" blocks?",
+    "o": [
+      "Specialist only",
+      "Simple, safe blocks that non-specialists can use first-line",
+      "Replace GA always",
+      "Research tools",
+      "Only for paeds"
+    ],
+    "a": 1,
+    "why": "Widens access to regional anaesthesia."
+  },
+  {
+    "q": "Which is a Plan A block for foot and ankle surgery?",
+    "o": [
+      "Interscalene",
+      "Popliteal sciatic block",
+      "Rectus sheath",
+      "ESP",
+      "Axillary"
+    ],
+    "a": 1,
+    "why": "Listed among Plan A blocks."
+  },
+  {
+    "q": "Which post-op care is needed?",
+    "o": [
+      "Lower the leg",
+      "Elevation and VTE assessment",
+      "Bed rest",
+      "Hot packs",
+      "None"
+    ],
+    "a": 1,
+    "why": "Watch for compartment syndrome."
+  }
+]

@@ -1,0 +1,47 @@
+{
+  "t": "recipe",
+  "shape": "brain",
+  "group": "Neuro",
+  "title": "Craniotomy for Supratentorial Tumour",
+  "op": true,
+  "cards": [
+    {
+      "h": "Anaesthetic recipe",
+      "b": "file:cards/01-anaesthetic-recipe.html",
+      "recipe": true
+    },
+    {
+      "h": "The Brain: Anatomy, Blood Flow & Intracranial Pressure",
+      "primaryRef": "phs42"
+    },
+    {
+      "h": "Scalp Innervation (Scalp Block)",
+      "primaryRef": "ana44"
+    },
+    {
+      "h": "Delayed Recovery After GA",
+      "noteRef": "Delayed Recovery After GA"
+    },
+    {
+      "h": "Raised ICP & Subarachnoid Haemorrhage",
+      "noteRef": "Raised ICP & Subarachnoid Haemorrhage"
+    },
+    {
+      "h": "Delayed Emergence Following Neurosurgery",
+      "noteRef": "Delayed Emergence Following Neurosurgery"
+    },
+    {
+      "h": "Sample WPBA",
+      "b": "file:cards/07-sample-wpba.html",
+      "wpba": true
+    },
+    {
+      "h": "Curriculum",
+      "links": [
+        "curric:8",
+        "curric:9"
+      ]
+    }
+  ],
+  "q": "file:quiz.json"
+}

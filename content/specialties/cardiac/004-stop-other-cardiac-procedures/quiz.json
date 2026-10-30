@@ -1,0 +1,122 @@
+[
+  {
+    "q": "You are planning anaesthesia for extraction of long-standing ICD leads. What is the most common major complication you must prepare for?",
+    "o": [
+      "Pneumothorax",
+      "SVC injury with haemorrhage or tamponade",
+      "Complete heart block",
+      "Air embolism",
+      "Stroke"
+    ],
+    "a": 1,
+    "why": "Major complications occur in 2–4%, usually SVC injury. Prepare a hybrid theatre, surgical bailout plan, cell salvage, arterial line, CVC, TOE, defib pads and femoral access for emergency bypass."
+  },
+  {
+    "q": "What is the most common indication for transvenous lead extraction?",
+    "o": [
+      "Lead fracture",
+      "Device upgrade",
+      "Infection",
+      "Venous occlusion",
+      "Patient request"
+    ],
+    "a": 2,
+    "why": "More than half of extractions are for infection; these need prolonged antibiotics and delayed reimplantation."
+  },
+  {
+    "q": "A patient has had AF for 5 days and is not anticoagulated. Elective DC cardioversion is planned. What is needed first?",
+    "o": [
+      "Nothing: proceed",
+      "TOE to exclude left atrial thrombus",
+      "Chest X-ray",
+      "Exercise tolerance test",
+      "Digoxin loading"
+    ],
+    "a": 1,
+    "why": "After more than 48 hours of AF there is a risk of atrial thrombus, which must be excluded on TOE (or by adequate anticoagulation) before cardioversion."
+  },
+  {
+    "q": "Using the modified Duke criteria, which combination makes a definite diagnosis of infective endocarditis?",
+    "o": [
+      "1 major criterion",
+      "1 major + 1 minor",
+      "3 minor",
+      "1 major + 3 minor",
+      "2 minor + fever"
+    ],
+    "a": 3,
+    "why": "Definite IE needs 2 major, 1 major + 3 minor, or 5 minor criteria. Major: positive blood cultures or echo evidence."
+  },
+  {
+    "q": "A patient with mitral valve endocarditis has a 12 mm vegetation and has just had a splenic embolus. What is the best management?",
+    "o": [
+      "Antibiotics alone for 2 weeks",
+      "Antibiotics and early surgery",
+      "Anticoagulation",
+      "Repeat echo in 3 months",
+      "Thrombolysis"
+    ],
+    "a": 1,
+    "why": "Surgery is indicated with an embolic event and a vegetation over 10 mm, a vegetation over 15 mm, or ongoing severe valve dysfunction. Antibiotics run for 4–6 weeks with MDT input."
+  },
+  {
+    "q": "A 74-year-old in recovery has AF at 180/min with SBP 70 mmHg. Synchronised DC shocks are planned under sedation. What should happen to the oxygen at the moment of the shock?",
+    "o": [
+      "Increase to 15 L/min",
+      "Remove it just before the shock",
+      "Keep it on a non-rebreathe mask",
+      "Switch to high-flow nasal oxygen",
+      "It makes no difference"
+    ],
+    "a": 1,
+    "why": "Remove oxygen just before the shock (fire risk), then reapply. Apply pads before sedation, use up to three 80–200 J biphasic shocks, then amiodarone 300 mg IV if unsuccessful."
+  },
+  {
+    "q": "A patient with Wolff–Parkinson–White syndrome needs anaesthesia for cardioversion. Which agent is best avoided?",
+    "o": [
+      "Propofol",
+      "Ketamine",
+      "Remifentanil",
+      "Sevoflurane",
+      "Midazolam"
+    ],
+    "a": 1,
+    "why": "In WPW avoid sympathetic stimulation (ketamine), anticholinergics and neostigmine, which can increase conduction down the accessory pathway."
+  },
+  {
+    "q": "Where is the ablation line placed for typical atrial flutter?",
+    "o": [
+      "Around the pulmonary veins",
+      "Between the IVC and the tricuspid valve",
+      "Across the slow AV nodal pathway",
+      "In the right ventricular outflow tract",
+      "Along the mitral annulus"
+    ],
+    "a": 1,
+    "why": "Typical flutter is a right atrial circuit through the cavotricuspid isthmus (between IVC and TV). AF ablation isolates the pulmonary veins in the left atrium; AVNRT ablation targets the slow pathway."
+  },
+  {
+    "q": "Which is the main reason GA may be preferred to sedation for AF ablation?",
+    "o": [
+      "It reduces the risk of tamponade",
+      "It is needed to induce the arrhythmia",
+      "Long procedures, less patient movement and easier TOE",
+      "It removes the need for heparin",
+      "It prevents phrenic nerve injury"
+    ],
+    "a": 2,
+    "why": "GA suits prolonged procedures, reduces movement, aids TOE and may be the patient’s preference. Avoid suppressing arrhythmias when mapping inducible SVT/AVNRT."
+  },
+  {
+    "q": "Which tool estimates stroke risk to guide anticoagulation in AF?",
+    "o": [
+      "HAS-BLED",
+      "ORBIT",
+      "CHA2DS2-VASc",
+      "Wells score",
+      "GRACE score"
+    ],
+    "a": 2,
+    "why": "CHA2DS2-VASc estimates stroke risk; HAS-BLED and ORBIT assess bleeding risk. Left atrial appendage closure is an option if anticoagulation is not possible."
+  }
+]

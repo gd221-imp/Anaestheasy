@@ -1,0 +1,25 @@
+{
+  "t": "tip",
+  "shape": "clip",
+  "group": "Periop medicine",
+  "title": "Steroid Cover & Adrenal Insufficiency",
+  "note": true,
+  "cards": [
+    {
+      "h": "Who needs cover",
+      "b": "file:cards/01-who-needs-cover.html"
+    },
+    {
+      "h": "Regimen (AAGBI/RCP/Society for Endocrinology 2020)",
+      "b": "file:cards/02-regimen-aagbi-rcp-society-for-endocrinology-2020.html"
+    },
+    {
+      "h": "Adrenal crisis",
+      "b": "file:cards/03-adrenal-crisis.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/04-further-reading.html"
+    }
+  ]
+}

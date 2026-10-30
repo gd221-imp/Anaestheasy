@@ -1,0 +1,34 @@
+{
+  "t": "tip",
+  "shape": "heart",
+  "group": "Cardiac",
+  "title": "Aortic Stenosis",
+  "cards": [
+    {
+      "h": "Valvular disease",
+      "b": "file:cards/01-valvular-disease.html"
+    },
+    {
+      "h": "Aortic Stenosis",
+      "b": "file:cards/02-aortic-stenosis.html"
+    },
+    {
+      "h": "Investigations - transthoracic echo is first line",
+      "b": "file:cards/03-investigations-transthoracic-echo-is-first-line.html"
+    },
+    {
+      "h": "Anaesthetic management",
+      "b": "file:cards/04-anaesthetic-management.html"
+    },
+    {
+      "h": "Treatment (no effective medical therapy)",
+      "b": "file:cards/05-treatment-no-effective-medical-therapy.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/06-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

@@ -1,0 +1,38 @@
+{
+  "t": "tip",
+  "shape": "heart",
+  "group": "Cardiac",
+  "title": "Heart Failure & Cardiomyopathy",
+  "cards": [
+    {
+      "h": "Overview",
+      "b": "file:cards/01-overview.html"
+    },
+    {
+      "h": "Dilated Cardiomyopathy",
+      "b": "file:cards/02-dilated-cardiomyopathy.html"
+    },
+    {
+      "h": "Hypertrophic Cardiomyopathy",
+      "b": "file:cards/03-hypertrophic-cardiomyopathy.html"
+    },
+    {
+      "h": "Restrictive Cardiomyopathy",
+      "b": "file:cards/04-restrictive-cardiomyopathy.html"
+    },
+    {
+      "h": "LV Failure",
+      "b": "file:cards/05-lv-failure.html"
+    },
+    {
+      "h": "RV Failure",
+      "b": "file:cards/06-rv-failure.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/07-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

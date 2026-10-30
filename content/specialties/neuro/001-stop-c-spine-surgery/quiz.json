@@ -1,0 +1,122 @@
+[
+  {
+    "q": "Which artery supplies the anterior two-thirds of the spinal cord?",
+    "o": [
+      "Posterior spinal arteries",
+      "The anterior spinal artery (from the vertebral arteries)",
+      "The basilar artery",
+      "The internal carotid artery",
+      "The external carotid artery"
+    ],
+    "a": 1,
+    "why": "The single anterior spinal artery (from the vertebrals) supplies the anterior two-thirds; two posterior spinal arteries supply the posterior third. The artery of Adamkiewicz is an important radicular feeder (T9–L2)."
+  },
+  {
+    "q": "After anterior cervical discectomy the patient has a hoarse voice. What is the most likely cause?",
+    "o": [
+      "Hypoglossal nerve injury",
+      "Recurrent laryngeal nerve injury from retraction against the ETT cuff",
+      "Vocal cord granuloma from the tube",
+      "Laryngeal oedema from steroids",
+      "Superior laryngeal nerve block"
+    ],
+    "a": 1,
+    "why": "Retraction compresses the recurrent laryngeal nerve against the ETT cuff, causing vocal cord palsy."
+  },
+  {
+    "q": "Two hours after anterior cervical fusion, a patient develops neck swelling, stridor and agitation. What is the immediate action?",
+    "o": [
+      "Nebulised adrenaline and observe",
+      "Open the wound to evacuate the haematoma and secure the airway",
+      "CT neck",
+      "Give IV dexamethasone and wait",
+      "Sit up and give oxygen only"
+    ],
+    "a": 1,
+    "why": "A neck haematoma can cause rapid airway obstruction; decompress immediately and secure the airway."
+  },
+  {
+    "q": "Which laryngoscopy approach minimises neck movement in a patient with cervical myelopathy?",
+    "o": [
+      "Direct laryngoscopy with full extension",
+      "Videolaryngoscope and bougie, with manual in-line stabilisation",
+      "Blind nasal intubation",
+      "LMA only for the whole case",
+      "Head tilt chin lift"
+    ],
+    "a": 1,
+    "why": "Use a videolaryngoscope and bougie with manual in-line stabilisation; consider awake fibreoptic intubation for an unstable spine."
+  },
+  {
+    "q": "Why is TIVA preferred when neuromonitoring (MEPs) is used during spinal surgery?",
+    "o": [
+      "Volatiles increase MEP amplitude",
+      "Volatiles suppress evoked potentials more than propofol",
+      "TIVA is cheaper",
+      "Volatiles cause bronchospasm",
+      "TIVA allows neuromuscular block"
+    ],
+    "a": 1,
+    "why": "Volatile agents, N2O, hypothermia and hypocapnia reduce signals; TIVA minimises interference. Avoid relaxant after intubation for MEPs."
+  },
+  {
+    "q": "In rheumatoid arthritis, what gap on a lateral C-spine X-ray indicates atlanto-axial subluxation?",
+    "o": [
+      "Over 1 mm",
+      "Over 3 mm between the odontoid peg and the anterior arch of the atlas",
+      "Over 10 mm",
+      "Any gap",
+      "Under 3 mm"
+    ],
+    "a": 1,
+    "why": "A gap over 3 mm between the peg and the anterior arch of C1 suggests atlanto-axial subluxation and risk of cord compression."
+  },
+  {
+    "q": "Which airway feature of rheumatoid arthritis can cause stridor after extubation?",
+    "o": [
+      "Macroglossia",
+      "Cricoarytenoid joint fixation",
+      "Tracheomalacia",
+      "Laryngomalacia",
+      "Subglottic stenosis from intubation alone"
+    ],
+    "a": 1,
+    "why": "Cricoarytenoid arthritis can fix the cords; TMJ disease and cervical ankylosis also make the airway difficult."
+  },
+  {
+    "q": "From when after acute spinal cord injury is suxamethonium avoided because of hyperkalaemia?",
+    "o": [
+      "Immediately at the time of injury",
+      "From around 72 hours to 6–18 months after injury",
+      "Only after 2 years",
+      "Only in incomplete injuries",
+      "It is never a problem"
+    ],
+    "a": 1,
+    "why": "Extrajunctional receptors proliferate from about 72 hours, so avoid suxamethonium from then until 6–18 months."
+  },
+  {
+    "q": "A patient with a T4 complete spinal injury (injured 2 years ago) develops severe hypertension and flushing above the level during cystoscopy. What is happening?",
+    "o": [
+      "Spinal shock",
+      "Autonomic dysreflexia",
+      "Neurogenic shock",
+      "Phaeochromocytoma",
+      "Light anaesthesia only"
+    ],
+    "a": 1,
+    "why": "Autonomic dysreflexia (injuries at or above T6) is an exaggerated sympathetic response to stimuli below the level. Remove the stimulus, deepen anaesthesia, then use vasodilators (GTN, nifedipine)."
+  },
+  {
+    "q": "Which level of complete spinal cord injury causes diaphragmatic paralysis needing ventilation?",
+    "o": [
+      "At or above C3",
+      "C6",
+      "T1",
+      "T6",
+      "T8"
+    ],
+    "a": 0,
+    "why": "C3–5 supply the diaphragm. Injuries at or above C3 paralyse it; at or above T8 the intercostals are lost."
+  }
+]

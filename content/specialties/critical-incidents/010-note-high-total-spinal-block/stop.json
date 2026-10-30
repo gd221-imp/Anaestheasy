@@ -1,0 +1,21 @@
+{
+  "t": "tip",
+  "shape": "warn",
+  "group": "Critical incidents",
+  "title": "High & Total Spinal Block",
+  "note": true,
+  "cards": [
+    {
+      "h": "Recognition",
+      "b": "file:cards/01-recognition.html"
+    },
+    {
+      "h": "Management",
+      "b": "file:cards/02-management.html"
+    },
+    {
+      "h": "Prevention",
+      "b": "file:cards/03-prevention.html"
+    }
+  ]
+}

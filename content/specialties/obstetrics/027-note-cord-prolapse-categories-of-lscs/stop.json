@@ -1,0 +1,34 @@
+{
+  "t": "tip",
+  "shape": "belly",
+  "group": "Obstetrics",
+  "title": "Cord Prolapse & Categories of LSCS",
+  "cards": [
+    {
+      "h": "Overview",
+      "b": "file:cards/01-overview.html"
+    },
+    {
+      "h": "Management",
+      "b": "file:cards/02-management.html"
+    },
+    {
+      "h": "Risk factors",
+      "b": "file:cards/03-risk-factors.html"
+    },
+    {
+      "h": "Categories of caesarean section",
+      "b": "file:cards/04-categories-of-caesarean-section.html"
+    },
+    {
+      "h": "Key points",
+      "b": "file:cards/05-key-points.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/06-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

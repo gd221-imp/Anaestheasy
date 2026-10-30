@@ -1,0 +1,26 @@
+{
+  "t": "tip",
+  "shape": "brain",
+  "group": "Neuro",
+  "title": "Sodium Disorders in Neurosurgery",
+  "cards": [
+    {
+      "h": "Overview",
+      "b": "file:cards/01-overview.html"
+    },
+    {
+      "h": "Hypernatraemia",
+      "b": "file:cards/02-hypernatraemia.html"
+    },
+    {
+      "h": "Hyponatraemia (assess volume status, then urinary sodium/osmolality)",
+      "b": "file:cards/03-hyponatraemia-assess-volume-status-then-urinary.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/04-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

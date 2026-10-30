@@ -1,0 +1,162 @@
+[
+  {
+    "id": "Q211",
+    "ar": "ENT, maxfax & dental",
+    "sb": "Thyroidectomy",
+    "q": "Three hours after a total thyroidectomy, a patient becomes stridulous and the neck is swollen and tense. Help has been called and oxygen given. What is the next step?",
+    "o": [
+      "IV dexamethasone and observe",
+      "Open the wound at the bedside (SCOOP: skin exposure, cut sutures, open skin, open muscles, pack) to evacuate the haematoma",
+      "CT neck",
+      "Nebulised adrenaline",
+      "Reintubate before opening the wound"
+    ],
+    "a": 1,
+    "why": "Post-thyroidectomy haematoma guidance (DAS/BAETS/ENT-UK 2014): recognise early, call for help, and open the wound at the bedside using SCOOP to relieve pressure before airway oedema progresses. Then secure the airway (expect difficulty) and return to theatre. Other causes of stridor after thyroidectomy: bilateral recurrent laryngeal nerve palsy and hypocalcaemia.",
+    "st": "st2-130"
+  },
+  {
+    "id": "Q212",
+    "ar": "ENT, maxfax & dental",
+    "sb": "Thyroidectomy",
+    "q": "On day 2 after total thyroidectomy, a patient reports perioral tingling and carpopedal spasm. What is the most likely cause?",
+    "o": [
+      "Hyperkalaemia",
+      "Recurrent laryngeal nerve palsy",
+      "Hypomagnesaemia",
+      "Thyroid storm",
+      "Hypocalcaemia from parathyroid injury or removal"
+    ],
+    "a": 4,
+    "why": "Transient or permanent hypoparathyroidism after total thyroidectomy causes hypocalcaemia, usually 24–72 hours postoperatively, with paraesthesia, Chvostek's and Trousseau's signs, laryngospasm and prolonged QT. Check adjusted calcium and PTH, and give IV calcium gluconate for symptomatic or severe hypocalcaemia.",
+    "st": "st2-130"
+  },
+  {
+    "id": "Q213",
+    "ar": "ENT, maxfax & dental",
+    "sb": "Laser surgery",
+    "q": "Which measure most reduces the risk of airway fire during laser microlaryngeal surgery with a laser-resistant tube?",
+    "o": [
+      "Keep FiO2 as low as possible (ideally ≤ 0.3), avoid nitrous oxide, and fill the cuff with saline (often with methylene blue)",
+      "Use nitrous oxide instead of air",
+      "Use 100% oxygen to maximise safety margin",
+      "Inflate the cuff with air",
+      "Use a standard PVC tube"
+    ],
+    "a": 0,
+    "why": "The fire triangle: oxidiser (oxygen, nitrous oxide), fuel (tube, drapes, tissue) and ignition source (laser). Use the lowest FiO2 compatible with safe saturation, avoid N2O, use laser-resistant tubes with saline-filled (dyed) cuffs, wet swabs around the tube, and laser safety precautions (eye protection, signage). If fire occurs: stop the laser and ventilation, remove the tube, flood with saline, then reintubate and bronchoscope.",
+    "st": "st3-12"
+  },
+  {
+    "id": "Q214",
+    "ar": "ENT, maxfax & dental",
+    "sb": "Tubeless ENT surgery",
+    "q": "Which technique allows tubeless laryngeal surgery while providing oxygenation, though CO2 rises steadily over time?",
+    "o": [
+      "Laryngeal mask airway",
+      "High-flow nasal oxygen (THRIVE) in an apnoeic patient",
+      "Jet ventilation through a cricothyroid cannula only",
+      "Low-flow nasal cannula at 2 L/min",
+      "Facemask ventilation"
+    ],
+    "a": 1,
+    "why": "Transnasal humidified rapid-insufflation ventilatory exchange (high-flow nasal oxygen at 70 L/min) gives apnoeic oxygenation for short laryngeal procedures, but CO2 still rises (about 0.15–0.25 kPa per minute), limiting duration (typically to around 15–30 minutes). Laser use with high FiO2 is a fire risk. Jet ventilation (supraglottic or subglottic) is the alternative for longer cases.",
+    "st": "st2-127"
+  },
+  {
+    "id": "Q215",
+    "ar": "ENT, maxfax & dental",
+    "sb": "Jet ventilation",
+    "q": "During subglottic jet ventilation via a transtracheal catheter, which is the greatest risk?",
+    "o": [
+      "Barotrauma and surgical emphysema if expiration is obstructed",
+      "Hypothermia",
+      "Hypoxia from low FiO2",
+      "Awareness",
+      "Bradycardia from vagal stimulation"
+    ],
+    "a": 0,
+    "why": "Jet ventilation depends on a patent upper airway for passive exhalation. If the outflow is obstructed (laryngospasm, packs, tumour), gas accumulates, causing barotrauma, pneumothorax, surgical emphysema and cardiovascular collapse. Use automated jet ventilators with pause-pressure alarms, ensure an exhalation route, and use TIVA.",
+    "st": "st3-10"
+  },
+  {
+    "id": "Q216",
+    "ar": "ENT, maxfax & dental",
+    "sb": "Bimaxillary osteotomy",
+    "q": "After bimaxillary osteotomy with the jaws wired together, what equipment must stay with the patient on the ward?",
+    "o": [
+      "A laryngoscope only",
+      "A spare tracheostomy tube",
+      "A nasopharyngeal airway only",
+      "Wire cutters (or scissors for elastics) and instructions on which wires to cut",
+      "An oxygen cylinder"
+    ],
+    "a": 3,
+    "why": "Patients with intermaxillary fixation cannot open their mouth to vomit or clear the airway. Wire cutters or scissors must be at the bedside, staff must know which wires or elastics to cut, and PONV prophylaxis should be thorough. Throat packs must be removed (with documented checks). Extubate awake after a nasotracheal intubation.",
+    "st": "st2-131"
+  },
+  {
+    "id": "Q217",
+    "ar": "ENT, maxfax & dental",
+    "sb": "Free flap surgery",
+    "q": "Which intraoperative factor is most important for free flap survival in head and neck surgery?",
+    "o": [
+      "Hypothermia to reduce metabolic demand",
+      "Vasopressor infusions at high dose",
+      "Maintaining normothermia, normovolaemia, adequate MAP and a haematocrit of about 0.30–0.35",
+      "Fluid restriction to avoid oedema",
+      "Deliberate hypotension"
+    ],
+    "a": 2,
+    "why": "Flap perfusion depends on perfusion pressure, blood viscosity and vessel calibre (Hagen–Poiseuille: flow ∝ r⁴). Maintain normal BP, normothermia (hypothermia causes vasoconstriction and raises viscosity), normovolaemia, moderate haemodilution, good analgesia and avoid vasoconstriction. Judicious vasopressors to maintain MAP are not harmful to flaps in current evidence.",
+    "st": "st3-11"
+  },
+  {
+    "id": "Q218",
+    "ar": "ENT, maxfax & dental",
+    "sb": "Middle ear surgery",
+    "q": "Why is nitrous oxide usually avoided in tympanoplasty?",
+    "o": [
+      "It increases bleeding",
+      "It causes bronchospasm",
+      "It is a trigger for malignant hyperthermia",
+      "It diffuses into the middle ear faster than nitrogen leaves, raising middle ear pressure and risking graft displacement",
+      "It reduces facial nerve monitoring signals"
+    ],
+    "a": 3,
+    "why": "N2O is 34 times more soluble than nitrogen, so it enters air-filled spaces faster than nitrogen leaves, raising pressure in the closed middle ear and lifting the tympanic graft; on discontinuation negative pressure can follow. Other goals: a bloodless field (controlled hypotension, head-up, remifentanil), avoiding neuromuscular block for facial nerve monitoring, and PONV prophylaxis.",
+    "st": "core-24"
+  },
+  {
+    "id": "Q219",
+    "ar": "ENT, maxfax & dental",
+    "sb": "Maxillofacial trauma",
+    "q": "Which facial fracture pattern most commonly causes airway obstruction from posterior displacement of the tongue?",
+    "o": [
+      "Isolated nasal fracture",
+      "Le Fort I fracture",
+      "Orbital floor fracture",
+      "Bilateral anterior mandibular (parasymphyseal) fractures",
+      "Zygomatic arch fracture"
+    ],
+    "a": 3,
+    "why": "Bilateral mandibular body or parasymphyseal fractures can create a 'flail' anterior segment, losing the attachment of genioglossus so the tongue falls back and obstructs the airway. Pull the tongue or mandible forward. Midface (Le Fort) fractures can obstruct by posterior-inferior displacement and bleeding. Trismus from pain usually resolves under anaesthesia, but mechanical trismus does not.",
+    "st": "st2-128"
+  },
+  {
+    "id": "Q220",
+    "ar": "ENT, maxfax & dental",
+    "sb": "Total laryngectomy",
+    "q": "A patient with a long-standing total laryngectomy needs emergency oxygen therapy on the ward. Where should oxygen be applied?",
+    "o": [
+      "Mouth-to-mouth",
+      "Via a supraglottic airway",
+      "Over the neck stoma",
+      "Face mask over the mouth and nose",
+      "Nasal cannulae"
+    ],
+    "a": 2,
+    "why": "After total laryngectomy the trachea is brought out as an end stoma and there is no connection between the upper airway and the lungs, so oxygen and ventilation must go via the stoma. Bedhead signs (NTSP) indicate whether a patient is a laryngectomy (neck breather only) or has a tracheostomy (upper airway may be patent).",
+    "st": "st3-13"
+  }
+]

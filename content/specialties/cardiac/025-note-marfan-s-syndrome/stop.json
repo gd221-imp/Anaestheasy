@@ -1,0 +1,22 @@
+{
+  "t": "tip",
+  "shape": "heart",
+  "group": "Cardiac",
+  "title": "Marfan's Syndrome",
+  "cards": [
+    {
+      "h": "Overview",
+      "b": "file:cards/01-overview.html"
+    },
+    {
+      "h": "Features",
+      "b": "file:cards/02-features.html"
+    },
+    {
+      "h": "Anaesthetic considerations",
+      "b": "file:cards/03-anaesthetic-considerations.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

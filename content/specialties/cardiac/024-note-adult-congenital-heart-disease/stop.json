@@ -1,0 +1,26 @@
+{
+  "t": "tip",
+  "shape": "heart",
+  "group": "Cardiac",
+  "title": "Adult Congenital Heart Disease",
+  "cards": [
+    {
+      "h": "Definition",
+      "b": "file:cards/01-definition.html"
+    },
+    {
+      "h": "Classification by complexity",
+      "b": "file:cards/02-classification-by-complexity.html"
+    },
+    {
+      "h": "In pregnancy",
+      "b": "file:cards/03-in-pregnancy.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/04-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

@@ -1,0 +1,42 @@
+{
+  "t": "tip",
+  "shape": "brain",
+  "group": "Neuro",
+  "title": "Scoliosis & Prone Positioning",
+  "cards": [
+    {
+      "h": "Overview",
+      "b": "file:cards/01-overview.html"
+    },
+    {
+      "h": "Causes",
+      "b": "file:cards/02-causes.html"
+    },
+    {
+      "h": "Cobb angle",
+      "b": "file:cards/03-cobb-angle.html"
+    },
+    {
+      "h": "Clinical features",
+      "b": "file:cards/04-clinical-features.html"
+    },
+    {
+      "h": "Anaesthesia for scoliosis correction",
+      "b": "file:cards/05-anaesthesia-for-scoliosis-correction.html"
+    },
+    {
+      "h": "The prone position (ABCDE)",
+      "b": "file:cards/06-the-prone-position-abcde.html"
+    },
+    {
+      "h": "Managing accidental extubation in the prone position",
+      "b": "file:cards/07-managing-accidental-extubation-in-the-prone-posi.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/08-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

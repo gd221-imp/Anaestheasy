@@ -1,0 +1,26 @@
+{
+  "t": "tip",
+  "shape": "star",
+  "group": "Miscellaneous",
+  "title": "Bronchiectasis",
+  "cards": [
+    {
+      "h": "Overview",
+      "b": "file:cards/01-overview.html"
+    },
+    {
+      "h": "Key points",
+      "b": "file:cards/02-key-points.html"
+    },
+    {
+      "h": "History",
+      "b": "file:cards/03-history.html"
+    },
+    {
+      "h": "Causes",
+      "b": "file:cards/04-causes.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

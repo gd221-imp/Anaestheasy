@@ -1,0 +1,26 @@
+{
+  "t": "tip",
+  "shape": "belly",
+  "group": "Obstetrics",
+  "title": "CTG Interpretation",
+  "cards": [
+    {
+      "h": "The fetal environment",
+      "b": "file:cards/01-the-fetal-environment.html"
+    },
+    {
+      "h": "Normal CTG",
+      "b": "file:cards/02-normal-ctg.html"
+    },
+    {
+      "h": "Key points",
+      "b": "file:cards/03-key-points.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/04-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

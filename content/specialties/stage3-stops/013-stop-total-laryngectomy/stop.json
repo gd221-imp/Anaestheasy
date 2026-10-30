@@ -1,0 +1,43 @@
+{
+  "t": "recipe",
+  "shape": "headn",
+  "group": "Head and neck",
+  "title": "Total Laryngectomy",
+  "op": true,
+  "cards": [
+    {
+      "h": "Anaesthetic recipe",
+      "b": "file:cards/01-anaesthetic-recipe.html",
+      "recipe": true
+    },
+    {
+      "h": "The Larynx",
+      "primaryRef": "ana15"
+    },
+    {
+      "h": "The Neck (Root of Neck at C6)",
+      "primaryRef": "ana16"
+    },
+    {
+      "h": "Tracheostomy",
+      "noteRef": "Tracheostomy"
+    },
+    {
+      "h": "Awake Fibreoptic Intubation, Stridor, Epiglottitis & Croup",
+      "noteRef": "Awake Fibreoptic Intubation, Stridor, Epiglottitis & Croup"
+    },
+    {
+      "h": "Sample WPBA",
+      "b": "file:cards/06-sample-wpba.html",
+      "wpba": true
+    },
+    {
+      "h": "Curriculum",
+      "links": [
+        "curric:8",
+        "curric:9"
+      ]
+    }
+  ],
+  "q": "file:quiz.json"
+}

@@ -1,0 +1,14 @@
+{
+  "t": "tip",
+  "shape": "star",
+  "group": "Miscellaneous",
+  "title": "Klinefelter Syndrome",
+  "cards": [
+    {
+      "h": "Overview",
+      "b": "file:cards/01-overview.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

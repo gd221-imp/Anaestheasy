@@ -1,0 +1,38 @@
+{
+  "t": "tip",
+  "shape": "dummy",
+  "group": "Paeds",
+  "title": "Paediatric Premedication",
+  "cards": [
+    {
+      "h": "Aims",
+      "b": "file:cards/01-aims.html"
+    },
+    {
+      "h": "Risk factors for anxiety",
+      "b": "file:cards/02-risk-factors-for-anxiety.html"
+    },
+    {
+      "h": "Non-pharmacological management",
+      "b": "file:cards/03-non-pharmacological-management.html"
+    },
+    {
+      "h": "Measuring anxiety",
+      "b": "file:cards/04-measuring-anxiety.html"
+    },
+    {
+      "h": "Common agents and doses",
+      "b": "file:cards/05-common-agents-and-doses.html"
+    },
+    {
+      "h": "Choice depends on",
+      "b": "file:cards/06-choice-depends-on.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/07-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

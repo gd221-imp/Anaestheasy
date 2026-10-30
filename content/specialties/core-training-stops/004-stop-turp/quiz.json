@@ -1,0 +1,122 @@
+[
+  {
+    "q": "What sensory block level is needed for TURP under spinal?",
+    "o": [
+      "T4",
+      "T10",
+      "L1",
+      "S1",
+      "T6"
+    ],
+    "a": 1,
+    "why": "Higher levels mask bladder perforation pain."
+  },
+  {
+    "q": "Why is spinal anaesthesia helpful in TURP?",
+    "o": [
+      "Lower cost",
+      "The awake patient shows early signs of TURP syndrome",
+      "Better relaxation",
+      "Less bleeding always",
+      "No reason"
+    ],
+    "a": 1,
+    "why": "Confusion, nausea and visual changes."
+  },
+  {
+    "q": "What causes TURP syndrome?",
+    "o": [
+      "Blood loss",
+      "Absorption of hypotonic irrigation fluid causing fluid overload and hyponatraemia",
+      "Spinal block",
+      "Sepsis",
+      "Hypothermia only"
+    ],
+    "a": 1,
+    "why": "Glycine toxicity may cause visual disturbance."
+  },
+  {
+    "q": "Which is a glycine-specific effect?",
+    "o": [
+      "Hypertension",
+      "Transient blindness or visual disturbance",
+      "Hyperkalaemia",
+      "Bronchospasm",
+      "Rash"
+    ],
+    "a": 1,
+    "why": "Glycine is an inhibitory neurotransmitter in the retina."
+  },
+  {
+    "q": "How is severe symptomatic hyponatraemia treated in TURP syndrome?",
+    "o": [
+      "5% dextrose",
+      "Hypertonic (3%) saline, carefully",
+      "Water restriction only",
+      "Glycine",
+      "0.45% saline"
+    ],
+    "a": 1,
+    "why": "Stop the procedure, give furosemide for pulmonary oedema."
+  },
+  {
+    "q": "Which surgical technique reduces TURP syndrome risk?",
+    "o": [
+      "Monopolar with glycine",
+      "Bipolar resectoscope with saline irrigation",
+      "Higher irrigation bag",
+      "Longer resection",
+      "Water irrigation"
+    ],
+    "a": 1,
+    "why": "Also limit irrigation height and resection time."
+  },
+  {
+    "q": "What is an ideal irrigation fluid property?",
+    "o": [
+      "Conductive",
+      "Non-conductive, non-haemolytic and transparent",
+      "Hypotonic",
+      "Coloured",
+      "Viscous"
+    ],
+    "a": 1,
+    "why": "Glycine 1.5% is close to this ideal."
+  },
+  {
+    "q": "Which early cardiovascular sign suggests TURP syndrome?",
+    "o": [
+      "Hypotension first",
+      "Hypertension and bradycardia",
+      "Tachycardia only",
+      "No change",
+      "AF"
+    ],
+    "a": 1,
+    "why": "Hypotension is late."
+  },
+  {
+    "q": "Which delayed surgical complication occurs after TURP?",
+    "o": [
+      "Hernia",
+      "Urethral stricture",
+      "Ileus",
+      "PDPH",
+      "Hearing loss"
+    ],
+    "a": 1,
+    "why": "Also retrograde ejaculation."
+  },
+  {
+    "q": "Bladder perforation during TURP under spinal may present with:",
+    "o": [
+      "Headache",
+      "Shoulder-tip or abdominal pain and nausea",
+      "Rash",
+      "Leg weakness",
+      "Visual disturbance only"
+    ],
+    "a": 1,
+    "why": "Which is why T10 is adequate."
+  }
+]

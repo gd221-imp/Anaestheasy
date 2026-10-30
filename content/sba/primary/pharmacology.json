@@ -1,0 +1,1090 @@
+[
+  {
+    "id": "P351",
+    "ar": "Pharmacology",
+    "sb": "Drugs as Organic Molecules",
+    "tp": "pha0",
+    "q": "Which drug contains an ester linkage and is metabolised by plasma cholinesterase?",
+    "o": [
+      "Prilocaine",
+      "Chloroprocaine",
+      "Ropivacaine",
+      "Lidocaine",
+      "Bupivacaine"
+    ],
+    "a": 1,
+    "why": "Ester local anaesthetics (cocaine, procaine, chloroprocaine, tetracaine) are hydrolysed by plasma esterases, producing para-aminobenzoic acid, which can cause allergy. Amides (with an 'i' before '-caine') are metabolised in the liver."
+  },
+  {
+    "id": "P352",
+    "ar": "Pharmacology",
+    "sb": "Drugs as Organic Molecules",
+    "tp": "pha0",
+    "q": "Which drug is a quaternary ammonium compound and therefore does not readily cross the blood–brain barrier?",
+    "o": [
+      "Hyoscine hydrobromide",
+      "Glycopyrronium",
+      "Atropine",
+      "Diazepam",
+      "Physostigmine"
+    ],
+    "a": 1,
+    "why": "Glycopyrronium is a quaternary amine, permanently charged, so it does not cross the blood–brain barrier or placenta significantly. Atropine and hyoscine are tertiary amines and can cause central effects (central anticholinergic syndrome)."
+  },
+  {
+    "id": "P353",
+    "ar": "Pharmacology",
+    "sb": "Ionisation, pKa &amp; Isomerism",
+    "tp": "pha1",
+    "q": "Lidocaine (pKa 7.9) is injected into infected, acidic tissue. Why is its effect reduced?",
+    "o": [
+      "More drug is unionised",
+      "The drug is metabolised faster",
+      "More drug is ionised and cannot cross the membrane",
+      "Vasoconstriction increases",
+      "The drug becomes more protein bound"
+    ],
+    "a": 2,
+    "why": "In acidic tissue, a weak base becomes more ionised (pH below pKa), so less unionised drug crosses the lipid membrane to reach its intracellular site of action. The ionised form is what blocks the sodium channel from inside."
+  },
+  {
+    "id": "P354",
+    "ar": "Pharmacology",
+    "sb": "Ionisation, pKa &amp; Isomerism",
+    "tp": "pha1",
+    "q": "Which drug is marketed as a single enantiomer (an S-isomer) to reduce cardiotoxicity?",
+    "o": [
+      "Prilocaine",
+      "Levobupivacaine",
+      "Lidocaine",
+      "Bupivacaine",
+      "Mepivacaine"
+    ],
+    "a": 1,
+    "why": "Levobupivacaine is the S-enantiomer of bupivacaine, and ropivacaine is also an S-enantiomer; both are less cardiotoxic. Esketamine is the S-enantiomer of ketamine, more potent with fewer psychotomimetic effects. Atracurium is a mixture of 10 stereoisomers; cisatracurium is one of them."
+  },
+  {
+    "id": "P355",
+    "ar": "Pharmacology",
+    "sb": "Receptors",
+    "tp": "pha2",
+    "q": "Which receptor is a ligand-gated ion channel?",
+    "o": [
+      "Mu opioid receptor",
+      "Beta-1 adrenoceptor",
+      "Nicotinic acetylcholine receptor",
+      "Muscarinic M2",
+      "Alpha-2 adrenoceptor"
+    ],
+    "a": 2,
+    "why": "Ligand-gated ion channels include nicotinic, GABA-A, 5-HT3, NMDA and glycine receptors. Muscarinic, adrenergic and opioid receptors are G protein-coupled receptors. Insulin acts via a tyrosine kinase receptor; steroids act via intracellular receptors."
+  },
+  {
+    "id": "P356",
+    "ar": "Pharmacology",
+    "sb": "Receptors",
+    "tp": "pha2",
+    "q": "Which G protein is coupled to the beta-1 adrenoceptor?",
+    "o": [
+      "Gi (reducing cAMP)",
+      "Go",
+      "Gq (increasing IP3 and DAG)",
+      "G12",
+      "Gs (increasing cAMP)"
+    ],
+    "a": 4,
+    "why": "Beta receptors couple to Gs (adenylyl cyclase, cAMP rise). Alpha-2, M2 and opioid receptors couple to Gi; alpha-1, M1 and M3 receptors couple to Gq (phospholipase C, IP3, DAG, calcium release)."
+  },
+  {
+    "id": "P357",
+    "ar": "Pharmacology",
+    "sb": "Pharmacodynamics",
+    "tp": "pha3",
+    "q": "A drug has high affinity for a receptor but an intrinsic activity of zero. How is it classified?",
+    "o": [
+      "Full agonist",
+      "Inverse agonist",
+      "Competitive antagonist",
+      "Allosteric modulator",
+      "Partial agonist"
+    ],
+    "a": 2,
+    "why": "An antagonist binds (affinity) but produces no response (efficacy 0). A partial agonist has intrinsic activity between 0 and 1; an inverse agonist produces the opposite effect to an agonist (negative efficacy)."
+  },
+  {
+    "id": "P358",
+    "ar": "Pharmacology",
+    "sb": "Pharmacodynamics",
+    "tp": "pha3",
+    "q": "How does a competitive antagonist affect the agonist log dose–response curve?",
+    "o": [
+      "The curve becomes linear",
+      "Parallel shift to the left",
+      "No change in the curve",
+      "Lower maximum response, no shift",
+      "Parallel shift to the right, same maximum"
+    ],
+    "a": 4,
+    "why": "A reversible competitive antagonist causes a parallel rightward shift; increasing agonist dose overcomes it. A non-competitive (or irreversible) antagonist reduces the maximum response. The pA2 quantifies competitive antagonist potency."
+  },
+  {
+    "id": "P359",
+    "ar": "Pharmacology",
+    "sb": "Enzyme Induction &amp; Inhibition",
+    "tp": "pha4",
+    "q": "Which drug is a potent enzyme inducer of cytochrome P450 enzymes?",
+    "o": [
+      "Fluconazole",
+      "Erythromycin",
+      "Omeprazole",
+      "Rifampicin",
+      "Grapefruit juice"
+    ],
+    "a": 3,
+    "why": "Inducers include rifampicin, carbamazepine, phenytoin, phenobarbital, St John's wort and chronic alcohol. Inhibitors include macrolides, azole antifungals, amiodarone, cimetidine, omeprazole, ritonavir and grapefruit juice."
+  },
+  {
+    "id": "P360",
+    "ar": "Pharmacology",
+    "sb": "Enzyme Induction &amp; Inhibition",
+    "tp": "pha4",
+    "q": "Why can clarithromycin cause excessive sedation in a patient taking midazolam?",
+    "o": [
+      "It displaces midazolam from albumin",
+      "It increases renal excretion",
+      "It inhibits CYP3A4, reducing midazolam metabolism",
+      "It increases absorption",
+      "It acts on GABA receptors"
+    ],
+    "a": 2,
+    "why": "Midazolam is metabolised by CYP3A4. Inhibitors (macrolides, azoles, HIV protease inhibitors, diltiazem) increase its plasma levels and prolong sedation. Inducers reduce its effect."
+  },
+  {
+    "id": "P361",
+    "ar": "Pharmacology",
+    "sb": "Arachidonic Acid (COX) Pathway",
+    "tp": "pha5",
+    "q": "Which enzyme is inhibited by NSAIDs?",
+    "o": [
+      "Phospholipase A2",
+      "Thromboxane synthase only",
+      "Lipoxygenase",
+      "Prostacyclin synthase only",
+      "Cyclo-oxygenase"
+    ],
+    "a": 4,
+    "why": "NSAIDs inhibit COX-1 and COX-2, reducing prostaglandin and thromboxane synthesis. Corticosteroids indirectly inhibit phospholipase A2. Leukotrienes come from the lipoxygenase pathway, which is relevant to aspirin-exacerbated respiratory disease."
+  },
+  {
+    "id": "P362",
+    "ar": "Pharmacology",
+    "sb": "Arachidonic Acid (COX) Pathway",
+    "tp": "pha5",
+    "q": "Why does aspirin produce a long-lasting antiplatelet effect?",
+    "o": [
+      "Irreversible acetylation of platelet COX-1",
+      "Blockade of platelet P2Y12 receptors",
+      "Inhibition of von Willebrand factor",
+      "Reversible blockade of COX-2",
+      "Very slow renal excretion"
+    ],
+    "a": 0,
+    "why": "Platelets lack nuclei, so irreversible COX-1 acetylation lasts the platelet's lifespan (7–10 days). Low doses selectively reduce thromboxane A2 while sparing endothelial prostacyclin."
+  },
+  {
+    "id": "P363",
+    "ar": "Pharmacology",
+    "sb": "Adverse Drug Reactions &amp; Drug Interactions",
+    "tp": "pha6",
+    "q": "According to Rawlins and Thompson, a predictable, dose-related adverse drug reaction is classified as which type?",
+    "o": [
+      "Type C",
+      "Type B",
+      "Type D",
+      "Type E",
+      "Type A"
+    ],
+    "a": 4,
+    "why": "Type A (augmented) reactions are dose-related and predictable (e.g. respiratory depression with opioids). Type B (bizarre) are unpredictable (e.g. anaphylaxis, malignant hyperthermia). C: chronic; D: delayed; E: end-of-use; F: failure of therapy."
+  },
+  {
+    "id": "P364",
+    "ar": "Pharmacology",
+    "sb": "Adverse Drug Reactions &amp; Drug Interactions",
+    "tp": "pha6",
+    "q": "Which is an example of a pharmaceutical (in vitro) drug interaction?",
+    "o": [
+      "Neostigmine reversing rocuronium block",
+      "Warfarin and aspirin increasing bleeding",
+      "Rifampicin inducing CYP3A4",
+      "Midazolam and fentanyl synergy",
+      "Thiopental precipitating in a line with rocuronium"
+    ],
+    "a": 4,
+    "why": "Pharmaceutical interactions occur outside the body, e.g. thiopental (alkaline) precipitating with acidic drugs. Pharmacokinetic interactions affect ADME; pharmacodynamic interactions occur at the site of action (synergy or antagonism)."
+  },
+  {
+    "id": "P365",
+    "ar": "Pharmacology",
+    "sb": "Hypersensitivity Reactions (Coombs Classification)",
+    "tp": "pha7",
+    "q": "Anaphylaxis to a neuromuscular blocking drug is which type of hypersensitivity reaction?",
+    "o": [
+      "Type III",
+      "Type I",
+      "Type V",
+      "Type IV",
+      "Type II"
+    ],
+    "a": 1,
+    "why": "Type I is immediate and IgE-mediated, with mast cell degranulation. Type II is antibody against cell surface antigens (e.g. ABO incompatibility, HIT). Type III is immune complex (serum sickness); type IV is delayed T cell (contact dermatitis)."
+  },
+  {
+    "id": "P366",
+    "ar": "Pharmacology",
+    "sb": "Hypersensitivity Reactions (Coombs Classification)",
+    "tp": "pha7",
+    "q": "Heparin-induced thrombocytopenia (type II) is mediated by which mechanism?",
+    "o": [
+      "IgE against heparin",
+      "Direct non-immune platelet clumping",
+      "IgG against PF4–heparin complexes",
+      "Complement deficiency",
+      "A T cell–mediated reaction"
+    ],
+    "a": 2,
+    "why": "HIT antibodies (IgG) bind PF4–heparin complexes and activate platelets via FcγRIIa, causing thrombocytopenia and thrombosis, typically 5–10 days after starting heparin. Stop heparin and give a non-heparin anticoagulant (e.g. argatroban)."
+  },
+  {
+    "id": "P367",
+    "ar": "Pharmacology",
+    "sb": "Absorption &amp; Bioavailability",
+    "tp": "pha8",
+    "q": "Which route of administration avoids hepatic first-pass metabolism?",
+    "o": [
+      "Oral modified release",
+      "Intraportal",
+      "Oral",
+      "Sublingual",
+      "Rectal (upper rectum)"
+    ],
+    "a": 3,
+    "why": "Sublingual, buccal, transdermal, inhaled, intranasal and parenteral routes avoid first-pass metabolism. The lower rectum drains partly into systemic veins, but the upper rectum drains via the portal system."
+  },
+  {
+    "id": "P368",
+    "ar": "Pharmacology",
+    "sb": "Absorption &amp; Bioavailability",
+    "tp": "pha8",
+    "q": "Oral bioavailability is defined as which ratio?",
+    "o": [
+      "Peak oral concentration / peak IV concentration",
+      "Clearance / volume of distribution",
+      "AUC oral / AUC IV (dose corrected)",
+      "Oral dose / IV dose",
+      "AUC IV / AUC oral"
+    ],
+    "a": 2,
+    "why": "Bioavailability (F) = (AUC oral × IV dose)/(AUC IV × oral dose). It is reduced by poor absorption and first-pass metabolism (gut wall and liver)."
+  },
+  {
+    "id": "P369",
+    "ar": "Pharmacology",
+    "sb": "Inhalational Anaesthetic Pharmacokinetics",
+    "tp": "pha9",
+    "q": "Which factor speeds the rise of alveolar concentration (FA/FI) of a volatile agent?",
+    "o": [
+      "Low inspired concentration",
+      "High minute ventilation",
+      "High fat:blood partition coefficient",
+      "High blood:gas solubility",
+      "High cardiac output"
+    ],
+    "a": 1,
+    "why": "FA/FI rises faster with increased ventilation, higher inspired concentration (concentration effect), low blood:gas solubility and low cardiac output. A high cardiac output removes more agent from the alveoli, slowing the rise."
+  },
+  {
+    "id": "P370",
+    "ar": "Pharmacology",
+    "sb": "Inhalational Anaesthetic Pharmacokinetics",
+    "tp": "pha9",
+    "q": "What is the second gas effect?",
+    "o": [
+      "Two gases cancel out each other's effects",
+      "Rapid N2O uptake concentrates the second gas",
+      "A volatile increases N2O solubility in blood",
+      "Diffusion hypoxia at the end of anaesthesia",
+      "The second agent increases N2O metabolism"
+    ],
+    "a": 1,
+    "why": "Rapid uptake of a large volume of N2O concentrates the remaining alveolar gases (including the volatile and O2) and draws more gas into the lungs, accelerating uptake of the second agent. Diffusion hypoxia (Fink effect) occurs at the end when N2O leaves the blood."
+  },
+  {
+    "id": "P371",
+    "ar": "Pharmacology",
+    "sb": "Drug Metabolism - Cytochrome P450 System",
+    "tp": "pha10",
+    "q": "Which cytochrome P450 isoenzyme metabolises the largest proportion of drugs?",
+    "o": [
+      "CYP2C9",
+      "CYP2E1",
+      "CYP1A2",
+      "CYP3A4",
+      "CYP2D6"
+    ],
+    "a": 3,
+    "why": "CYP3A4 metabolises about half of drugs, including midazolam, fentanyl, alfentanil, lidocaine and many others. CYP2D6 converts codeine and tramadol to more active metabolites; CYP2E1 metabolises sevoflurane and paracetamol (to NAPQI)."
+  },
+  {
+    "id": "P372",
+    "ar": "Pharmacology",
+    "sb": "Drug Metabolism - Cytochrome P450 System",
+    "tp": "pha10",
+    "q": "A patient who is a CYP2D6 ultra-rapid metaboliser is given codeine. What is the risk?",
+    "o": [
+      "Hepatotoxicity",
+      "No analgesia",
+      "Serotonin syndrome",
+      "Opioid toxicity",
+      "Allergy"
+    ],
+    "a": 3,
+    "why": "Codeine is a prodrug converted to morphine by CYP2D6. Ultra-rapid metabolisers produce excess morphine, risking toxicity (deaths in children after tonsillectomy). Poor metabolisers (about 8% of Europeans) get little analgesia."
+  },
+  {
+    "id": "P373",
+    "ar": "Pharmacology",
+    "sb": "Pharmacokinetic Modelling",
+    "tp": "pha11",
+    "q": "In a three-compartment model of propofol, what does the rapid initial fall in plasma concentration after a bolus mainly represent?",
+    "o": [
+      "Renal excretion",
+      "Pulmonary excretion",
+      "Redistribution to vessel-rich tissues",
+      "Redistribution to fat",
+      "Hepatic metabolism"
+    ],
+    "a": 2,
+    "why": "The early fall reflects redistribution to the fast compartment (vessel-rich tissues and muscle), explaining offset after a single bolus. Later phases reflect slower redistribution (fat) and elimination."
+  },
+  {
+    "id": "P374",
+    "ar": "Pharmacology",
+    "sb": "Pharmacokinetic Modelling",
+    "tp": "pha11",
+    "q": "What does context-sensitive half-time describe?",
+    "o": [
+      "Elimination half-life after a single bolus",
+      "Time from bolus to peak effect",
+      "Half-life of the main active metabolite",
+      "Time to reach steady state",
+      "Time for a 50% fall after stopping an infusion"
+    ],
+    "a": 4,
+    "why": "Context-sensitive half-time depends on infusion duration. Remifentanil's is about 3–4 minutes regardless of duration (esterase metabolism); fentanyl's rises markedly with longer infusions because of large peripheral compartments."
+  },
+  {
+    "id": "P375",
+    "ar": "Pharmacology",
+    "sb": "Clearance &amp; Volume of Distribution",
+    "tp": "pha12",
+    "q": "A drug has a clearance of 1 L/min and a volume of distribution of 70 L. What is its elimination half-life?",
+    "o": [
+      "About 70 minutes",
+      "About 35 minutes",
+      "About 7 minutes",
+      "About 48 minutes",
+      "About 100 minutes"
+    ],
+    "a": 3,
+    "why": "t½ = 0.693 × Vd/Cl = 0.693 × 70/1 ≈ 48.5 min."
+  },
+  {
+    "id": "P376",
+    "ar": "Pharmacology",
+    "sb": "Clearance &amp; Volume of Distribution",
+    "tp": "pha12",
+    "q": "Which drug property tends to produce a large volume of distribution?",
+    "o": [
+      "Water solubility",
+      "High ionisation",
+      "High lipid solubility and tissue binding",
+      "High plasma protein binding",
+      "Large molecular size"
+    ],
+    "a": 2,
+    "why": "Lipid-soluble drugs with extensive tissue binding (e.g. fentanyl, amiodarone) have large Vd. Highly protein-bound, ionised or large molecules (e.g. warfarin, neuromuscular blockers, heparin) have small Vd, close to plasma or ECF volume."
+  },
+  {
+    "id": "P377",
+    "ar": "Pharmacology",
+    "sb": "Drug Metabolism - Phase I &amp; II Reactions",
+    "tp": "pha13",
+    "q": "Which reaction is a phase II metabolic reaction?",
+    "o": [
+      "Oxidation",
+      "Hydrolysis",
+      "Dealkylation",
+      "Reduction",
+      "Glucuronidation"
+    ],
+    "a": 4,
+    "why": "Phase I reactions (oxidation, reduction, hydrolysis) introduce or expose functional groups. Phase II reactions are conjugations (glucuronidation, sulphation, acetylation, methylation, glutathione conjugation), producing water-soluble metabolites."
+  },
+  {
+    "id": "P378",
+    "ar": "Pharmacology",
+    "sb": "Drug Metabolism - Phase I &amp; II Reactions",
+    "tp": "pha13",
+    "q": "Morphine is metabolised mainly to morphine-6-glucuronide. What is the clinical significance?",
+    "o": [
+      "It is inactive at opioid receptors",
+      "It is converted back to codeine",
+      "It is excreted only in bile",
+      "It is active and accumulates in renal failure",
+      "It commonly causes seizures"
+    ],
+    "a": 3,
+    "why": "M6G is a more potent mu agonist than morphine and accumulates in renal impairment, causing prolonged sedation and respiratory depression. M3G (the main metabolite) is inactive at opioid receptors but may cause neuroexcitation."
+  },
+  {
+    "id": "P379",
+    "ar": "Pharmacology",
+    "sb": "Excretion",
+    "tp": "pha14",
+    "q": "Which drug undergoes significant enterohepatic recirculation?",
+    "o": [
+      "Propofol",
+      "Suxamethonium",
+      "Mycophenolate",
+      "Rocuronium",
+      "Remifentanil"
+    ],
+    "a": 2,
+    "why": "Drugs excreted in bile as conjugates and then deconjugated by gut bacteria are reabsorbed (e.g. mycophenolate, oestrogens, morphine to a degree, rifampicin). Antibiotics can disrupt this, reducing oral contraceptive efficacy (now considered a minor effect)."
+  },
+  {
+    "id": "P380",
+    "ar": "Pharmacology",
+    "sb": "Excretion",
+    "tp": "pha14",
+    "q": "How is aspirin overdose excretion enhanced?",
+    "o": [
+      "Alkalinising the urine with sodium bicarbonate",
+      "Giving activated charcoal only",
+      "Acidifying the urine",
+      "Haemofiltration as first-line",
+      "Giving furosemide"
+    ],
+    "a": 0,
+    "why": "Salicylate is a weak acid; urinary alkalinisation increases ionisation in the tubule, trapping it in the urine (ion trapping). Haemodialysis is used in severe poisoning."
+  },
+  {
+    "id": "P381",
+    "ar": "Pharmacology",
+    "sb": "Target Controlled Infusions",
+    "tp": "pha15",
+    "q": "In propofol target-controlled infusion, which model targets the effect-site concentration?",
+    "o": [
+      "Kataria",
+      "Schnider (effect-site)",
+      "Marsh plasma-targeting",
+      "Paedfusor",
+      "Minto"
+    ],
+    "a": 1,
+    "why": "The Schnider model is commonly used in effect-site mode and adjusts for age, weight, height and sex. The Marsh model is typically plasma-targeted and uses weight only. Minto is used for remifentanil; Paedfusor and Kataria are paediatric propofol models. Eleveld is a newer general-purpose propofol model."
+  },
+  {
+    "id": "P382",
+    "ar": "Pharmacology",
+    "sb": "Target Controlled Infusions",
+    "tp": "pha15",
+    "q": "What is ke0 in a target-controlled infusion model?",
+    "o": [
+      "The infusion rate at steady state",
+      "The rate constant for equilibration between plasma and effect site",
+      "The bolus dose",
+      "The clearance from the fat compartment",
+      "The elimination rate constant from the central compartment"
+    ],
+    "a": 1,
+    "why": "ke0 describes how quickly the effect site equilibrates with plasma. A larger ke0 means faster equilibration (shorter t½ke0). Effect-site targeting overshoots plasma concentration to reach the target faster."
+  },
+  {
+    "id": "P383",
+    "ar": "Pharmacology",
+    "sb": "Pharmacokinetics in Special Patient Groups",
+    "tp": "pha16",
+    "q": "Why are neonates more sensitive to non-depolarising neuromuscular blockers?",
+    "o": [
+      "Immature junctions with fewer acetylcholine receptors",
+      "Larger extracellular fluid volume",
+      "Lower plasma cholinesterase activity",
+      "Higher plasma protein binding",
+      "Faster hepatic metabolism"
+    ],
+    "a": 0,
+    "why": "Neonates are more sensitive at the receptor level, but their larger ECF volume increases Vd, so initial doses per kg are similar. Clearance is reduced, so duration may be longer. Neonates are relatively resistant to suxamethonium (needs about 2 mg/kg)."
+  },
+  {
+    "id": "P384",
+    "ar": "Pharmacology",
+    "sb": "Pharmacokinetics in Special Patient Groups",
+    "tp": "pha16",
+    "q": "How does pregnancy affect the minimum alveolar concentration of volatile agents?",
+    "o": [
+      "Increases by 50%",
+      "Increases by 10%",
+      "Decreases by up to about 30%",
+      "No change",
+      "Doubles"
+    ],
+    "a": 2,
+    "why": "MAC falls by up to about 30% in pregnancy, possibly from progesterone and endorphins. Increased minute ventilation and reduced FRC also speed inhalational induction."
+  },
+  {
+    "id": "P385",
+    "ar": "Pharmacology",
+    "sb": "Inhalational Anaesthetic Agents - Properties",
+    "tp": "pha17",
+    "q": "What is MAC?",
+    "o": [
+      "Maximum alveolar concentration that is safe",
+      "Blood concentration giving unconsciousness in 50%",
+      "Alveolar concentration producing apnoea",
+      "Alveolar concentration preventing movement to incision in 50%",
+      "Concentration preventing awareness in 95%"
+    ],
+    "a": 3,
+    "why": "MAC is the minimum alveolar concentration at steady state (1 atm) that prevents movement in response to a standard surgical incision in 50% of subjects. MAC-awake is about 0.3–0.5 MAC. MAC is lowered by age, hypothermia, pregnancy and opioids."
+  },
+  {
+    "id": "P386",
+    "ar": "Pharmacology",
+    "sb": "Inhalational Anaesthetic Agents - Properties",
+    "tp": "pha17",
+    "q": "Approximately what is the MAC of sevoflurane in a 40-year-old adult?",
+    "o": [
+      "0.75%",
+      "104%",
+      "1.15%",
+      "6.0%",
+      "2.0%"
+    ],
+    "a": 4,
+    "why": "MAC (age about 40): halothane 0.75%, isoflurane 1.17%, sevoflurane about 2%, desflurane about 6%, N2O about 104%. MAC falls about 6% per decade after 40."
+  },
+  {
+    "id": "P387",
+    "ar": "Pharmacology",
+    "sb": "IV Induction Agents",
+    "tp": "pha18",
+    "q": "Which induction agent is an NMDA receptor antagonist and preserves airway reflexes and blood pressure better than others?",
+    "o": [
+      "Thiopental",
+      "Etomidate",
+      "Propofol",
+      "Midazolam",
+      "Ketamine"
+    ],
+    "a": 4,
+    "why": "Ketamine causes dissociative anaesthesia, sympathomimetic effects (BP and HR increase, except in catecholamine depletion), bronchodilation and relative preservation of airway reflexes and respiratory drive. It increases secretions and can cause emergence phenomena."
+  },
+  {
+    "id": "P388",
+    "ar": "Pharmacology",
+    "sb": "IV Induction Agents",
+    "tp": "pha18",
+    "q": "Which induction agent causes adrenocortical suppression by inhibiting 11-beta-hydroxylase?",
+    "o": [
+      "Thiopental",
+      "Methohexital",
+      "Propofol",
+      "Ketamine",
+      "Etomidate"
+    ],
+    "a": 4,
+    "why": "Etomidate inhibits 11-beta-hydroxylase, suppressing cortisol synthesis for 6–24 h after a single dose, a concern in sepsis. It is cardiovascularly stable but causes myoclonus and PONV."
+  },
+  {
+    "id": "P389",
+    "ar": "Pharmacology",
+    "sb": "Muscle Relaxants",
+    "tp": "pha19",
+    "q": "Why does suxamethonium cause hyperkalaemia in burns patients after about 24–48 hours?",
+    "o": [
+      "Burns cause acute renal failure",
+      "Suxamethonium is metabolised to potassium",
+      "Burns increase acetylcholine release",
+      "Upregulation of extrajunctional acetylcholine receptors",
+      "Burns reduce plasma cholinesterase"
+    ],
+    "a": 3,
+    "why": "Denervation, burns, immobility and crush injury lead to proliferation of extrajunctional receptors (including fetal γ and α7 types). Depolarisation releases large amounts of potassium. Avoid suxamethonium from about 24–48 h until recovery."
+  },
+  {
+    "id": "P390",
+    "ar": "Pharmacology",
+    "sb": "Muscle Relaxants",
+    "tp": "pha19",
+    "q": "What is the recommended dose of sugammadex to reverse a profound rocuronium block (post-tetanic count 1–2)?",
+    "o": [
+      "1 mg/kg",
+      "8 mg/kg",
+      "2 mg/kg",
+      "4 mg/kg",
+      "16 mg/kg"
+    ],
+    "a": 3,
+    "why": "Sugammadex: 2 mg/kg if TOF count is 2 or more; 4 mg/kg if PTC is 1–2; 16 mg/kg for immediate reversal after 1.2 mg/kg rocuronium. It encapsulates rocuronium and vecuronium, not benzylisoquinoliniums."
+  },
+  {
+    "id": "P391",
+    "ar": "Pharmacology",
+    "sb": "Local Anaesthetics",
+    "tp": "pha20",
+    "q": "What is the maximum recommended dose of plain bupivacaine?",
+    "o": [
+      "5 mg/kg",
+      "2 mg/kg",
+      "1 mg/kg",
+      "7 mg/kg",
+      "3 mg/kg"
+    ],
+    "a": 1,
+    "why": "Commonly quoted maxima: bupivacaine and levobupivacaine 2 mg/kg (adrenaline does not substantially change this), lidocaine 3 mg/kg plain or 7 mg/kg with adrenaline, prilocaine 6 mg/kg plain (8 mg/kg with felypressin), ropivacaine 3 mg/kg. Site of injection affects peak levels."
+  },
+  {
+    "id": "P392",
+    "ar": "Pharmacology",
+    "sb": "Local Anaesthetics",
+    "tp": "pha20",
+    "q": "Which local anaesthetic is associated with methaemoglobinaemia at high doses?",
+    "o": [
+      "Chloroprocaine",
+      "Ropivacaine",
+      "Prilocaine",
+      "Bupivacaine",
+      "Lidocaine"
+    ],
+    "a": 2,
+    "why": "Prilocaine is metabolised to o-toluidine, which oxidises haemoglobin to methaemoglobin, usually above about 600 mg in adults. Benzocaine also causes it. Treatment is methylene blue 1–2 mg/kg."
+  },
+  {
+    "id": "P393",
+    "ar": "Pharmacology",
+    "sb": "Simple Analgesics &amp; NSAIDs",
+    "tp": "pha21",
+    "q": "What is the toxic metabolite of paracetamol in overdose?",
+    "o": [
+      "Glutathione",
+      "Paracetamol sulphate",
+      "Paracetamol glucuronide",
+      "Salicylic acid",
+      "N-acetyl-p-benzoquinone imine (NAPQI)"
+    ],
+    "a": 4,
+    "why": "In overdose, glucuronidation and sulphation saturate and more drug is oxidised by CYP2E1 and 3A4 to NAPQI. Once glutathione is depleted, NAPQI causes centrilobular hepatic necrosis. Acetylcysteine replenishes glutathione."
+  },
+  {
+    "id": "P394",
+    "ar": "Pharmacology",
+    "sb": "Simple Analgesics &amp; NSAIDs",
+    "tp": "pha21",
+    "q": "Which NSAID is a selective COX-2 inhibitor?",
+    "o": [
+      "Parecoxib",
+      "Ibuprofen",
+      "Ketorolac",
+      "Diclofenac",
+      "Aspirin"
+    ],
+    "a": 0,
+    "why": "Coxibs (parecoxib, celecoxib, etoricoxib) selectively inhibit COX-2, causing less gastric toxicity and no platelet inhibition, but they still have renal effects and an increased cardiovascular thrombotic risk."
+  },
+  {
+    "id": "P395",
+    "ar": "Pharmacology",
+    "sb": "Opioids",
+    "tp": "pha22",
+    "q": "Which opioid is metabolised by non-specific plasma and tissue esterases?",
+    "o": [
+      "Morphine",
+      "Alfentanil",
+      "Fentanyl",
+      "Remifentanil",
+      "Sufentanil"
+    ],
+    "a": 3,
+    "why": "Remifentanil's ester linkage is hydrolysed by non-specific esterases, giving a context-sensitive half-time of about 3–4 min and no accumulation, even in hepatic or renal failure. It is not metabolised by plasma cholinesterase."
+  },
+  {
+    "id": "P396",
+    "ar": "Pharmacology",
+    "sb": "Opioids",
+    "tp": "pha22",
+    "q": "Why does alfentanil have a faster onset than fentanyl despite lower lipid solubility?",
+    "o": [
+      "It has a larger volume of distribution",
+      "It is more protein bound",
+      "Its low pKa leaves about 90% unionised",
+      "It is given in higher doses",
+      "Its pKa is higher than fentanyl's"
+    ],
+    "a": 2,
+    "why": "Alfentanil's low pKa (6.5) means about 90% is unionised at pH 7.4 (fentanyl, pKa 8.4, is about 9% unionised), so it crosses the blood–brain barrier quickly. Its small Vd also gives high concentration gradients."
+  },
+  {
+    "id": "P397",
+    "ar": "Pharmacology",
+    "sb": "Cardiovascular Pharmacology",
+    "tp": "pha23",
+    "q": "Which drug increases cardiac contractility by inhibiting phosphodiesterase III?",
+    "o": [
+      "Milrinone",
+      "Levosimendan",
+      "Noradrenaline",
+      "Dobutamine",
+      "Digoxin"
+    ],
+    "a": 0,
+    "why": "Milrinone (PDE3 inhibitor) increases cAMP, giving inotropy and vasodilatation (inodilator). Dobutamine is a beta-1 agonist; levosimendan is a calcium sensitiser; digoxin inhibits Na⁺/K⁺ ATPase."
+  },
+  {
+    "id": "P398",
+    "ar": "Pharmacology",
+    "sb": "Cardiovascular Pharmacology",
+    "tp": "pha23",
+    "q": "Which antiarrhythmic drug is a Vaughan Williams class III agent?",
+    "o": [
+      "Verapamil",
+      "Flecainide",
+      "Amiodarone",
+      "Metoprolol",
+      "Lidocaine"
+    ],
+    "a": 2,
+    "why": "Class I: sodium channel blockers (Ia procainamide, Ib lidocaine, Ic flecainide). II: beta-blockers. III: potassium channel blockers (amiodarone, sotalol), prolonging repolarisation. IV: calcium channel blockers (verapamil, diltiazem)."
+  },
+  {
+    "id": "P399",
+    "ar": "Pharmacology",
+    "sb": "Respiratory Pharmacology",
+    "tp": "pha24",
+    "q": "Which bronchodilator acts by blocking muscarinic M3 receptors?",
+    "o": [
+      "Montelukast",
+      "Salbutamol",
+      "Ipratropium",
+      "Magnesium",
+      "Aminophylline"
+    ],
+    "a": 2,
+    "why": "Ipratropium and tiotropium are muscarinic antagonists. Salbutamol is a beta-2 agonist; aminophylline is a phosphodiesterase inhibitor and adenosine antagonist; montelukast blocks leukotriene receptors."
+  },
+  {
+    "id": "P400",
+    "ar": "Pharmacology",
+    "sb": "Respiratory Pharmacology",
+    "tp": "pha24",
+    "q": "What is the therapeutic range of plasma theophylline?",
+    "o": [
+      "0.1–1 mg/L",
+      "30–50 mg/L",
+      "1–5 mg/L",
+      "10–20 mg/L",
+      "100 mg/L"
+    ],
+    "a": 3,
+    "why": "Theophylline has a narrow therapeutic range (10–20 mg/L, some use 5–15). Toxicity causes nausea, arrhythmias and seizures. Levels rise with enzyme inhibitors (e.g. erythromycin, ciprofloxacin) and fall with smoking."
+  },
+  {
+    "id": "P401",
+    "ar": "Pharmacology",
+    "sb": "GI Pharmacology",
+    "tp": "pha25",
+    "q": "How does metoclopramide work as an antiemetic and prokinetic?",
+    "o": [
+      "5-HT3 antagonist",
+      "NK1 antagonist",
+      "H1 antagonist",
+      "D2 antagonist and 5-HT4 agonist",
+      "Muscarinic agonist"
+    ],
+    "a": 3,
+    "why": "Metoclopramide blocks D2 receptors in the CTZ and enhances upper GI motility via 5-HT4 agonism and cholinergic effects. It can cause extrapyramidal effects and is avoided in bowel obstruction and Parkinson's disease."
+  },
+  {
+    "id": "P402",
+    "ar": "Pharmacology",
+    "sb": "GI Pharmacology",
+    "tp": "pha25",
+    "q": "Which drug irreversibly inhibits the gastric H⁺/K⁺ ATPase?",
+    "o": [
+      "Ranitidine",
+      "Omeprazole",
+      "Sodium citrate",
+      "Sucralfate",
+      "Misoprostol"
+    ],
+    "a": 1,
+    "why": "Proton pump inhibitors are prodrugs activated in acid to irreversibly inhibit the proton pump. H2 antagonists (ranitidine, famotidine) block histamine at parietal cells. Sodium citrate neutralises existing acid."
+  },
+  {
+    "id": "P403",
+    "ar": "Pharmacology",
+    "sb": "Diuretics",
+    "tp": "pha26",
+    "q": "Where do thiazide diuretics act?",
+    "o": [
+      "Collecting duct (ENaC)",
+      "Distal convoluted tubule (NaCl cotransporter)",
+      "Thick ascending limb (NKCC2)",
+      "Proximal convoluted tubule",
+      "Loop of Henle descending limb"
+    ],
+    "a": 1,
+    "why": "Thiazides block the NCC in the DCT, causing hypokalaemia, hyponatraemia, hypercalcaemia (reduced calcium excretion), hyperglycaemia and hyperuricaemia. Loop diuretics block NKCC2; amiloride blocks ENaC; spironolactone blocks aldosterone receptors."
+  },
+  {
+    "id": "P404",
+    "ar": "Pharmacology",
+    "sb": "Diuretics",
+    "tp": "pha26",
+    "q": "Mannitol reduces intracranial pressure mainly by which mechanism?",
+    "o": [
+      "Blockade of aquaporin channels",
+      "Osmotic shift of water out of the brain",
+      "Inhibition of CSF production",
+      "Reduced cerebral metabolic rate",
+      "Direct cerebral vasoconstriction"
+    ],
+    "a": 1,
+    "why": "Mannitol (0.25–1 g/kg) raises plasma osmolality, drawing water from brain tissue. It also reduces blood viscosity, causing reflex vasoconstriction. It is an osmotic diuretic; monitor osmolality (keep under about 320 mOsm/kg)."
+  },
+  {
+    "id": "P405",
+    "ar": "Pharmacology",
+    "sb": "Drugs Acting on the Uterus",
+    "tp": "pha27",
+    "q": "Which drug is first-line in the UK for preventing postpartum haemorrhage at caesarean section?",
+    "o": [
+      "Terbutaline",
+      "Ergometrine",
+      "Carboprost",
+      "Oxytocin",
+      "Misoprostol"
+    ],
+    "a": 3,
+    "why": "Oxytocin (e.g. a slow 3–5 IU bolus or infusion) is first-line. Carbetocin is an alternative. Ergometrine is avoided in hypertension and pre-eclampsia. Carboprost (PGF2α) is avoided in asthma."
+  },
+  {
+    "id": "P406",
+    "ar": "Pharmacology",
+    "sb": "Drugs Acting on the Uterus",
+    "tp": "pha27",
+    "q": "Which drug is a tocolytic used to relax the uterus?",
+    "o": [
+      "Terbutaline",
+      "Oxytocin",
+      "Dinoprostone",
+      "Ergometrine",
+      "Carboprost"
+    ],
+    "a": 0,
+    "why": "Tocolytics include beta-2 agonists (terbutaline), nifedipine, atosiban (oxytocin receptor antagonist) and GTN for acute relaxation. Oxytocin, ergometrine and prostaglandins are uterotonics."
+  },
+  {
+    "id": "P407",
+    "ar": "Pharmacology",
+    "sb": "CNS Pharmacology",
+    "tp": "pha28",
+    "q": "Which antiepileptic drug acts mainly by blocking voltage-gated sodium channels?",
+    "o": [
+      "Diazepam",
+      "Levetiracetam",
+      "Ethosuximide",
+      "Carbamazepine",
+      "Gabapentin"
+    ],
+    "a": 3,
+    "why": "Carbamazepine, phenytoin and lamotrigine block sodium channels. Levetiracetam binds SV2A; gabapentin binds the α2δ subunit of calcium channels; ethosuximide blocks T-type calcium channels; benzodiazepines enhance GABA-A."
+  },
+  {
+    "id": "P408",
+    "ar": "Pharmacology",
+    "sb": "CNS Pharmacology",
+    "tp": "pha28",
+    "q": "A patient on an MAOI needs a vasopressor. Which drug is most likely to cause a dangerous hypertensive response?",
+    "o": [
+      "Ephedrine",
+      "Metaraminol in small titrated doses",
+      "Phenylephrine",
+      "Vasopressin",
+      "Noradrenaline in small titrated doses"
+    ],
+    "a": 0,
+    "why": "Indirect-acting sympathomimetics (ephedrine) release stored noradrenaline, which accumulates with MAO inhibition, causing hypertensive crises. Direct-acting agents in small titrated doses are preferred. Pethidine and tramadol risk serotonin toxicity."
+  },
+  {
+    "id": "P409",
+    "ar": "Pharmacology",
+    "sb": "Endocrine Pharmacology",
+    "tp": "pha29",
+    "q": "Which drug increases insulin secretion by closing ATP-sensitive potassium channels on beta cells?",
+    "o": [
+      "Pioglitazone",
+      "Sitagliptin",
+      "Metformin",
+      "Gliclazide",
+      "Empagliflozin"
+    ],
+    "a": 3,
+    "why": "Sulphonylureas close K-ATP channels, depolarising beta cells, and can cause hypoglycaemia (omit on the day of surgery). Metformin reduces hepatic glucose output; pioglitazone is a PPAR-γ agonist; SGLT2 inhibitors cause glycosuria; DPP-4 inhibitors increase incretins."
+  },
+  {
+    "id": "P410",
+    "ar": "Pharmacology",
+    "sb": "Endocrine Pharmacology",
+    "tp": "pha29",
+    "q": "What is the equivalent dose of hydrocortisone to 5 mg of prednisolone in glucocorticoid potency?",
+    "o": [
+      "10 mg",
+      "20 mg",
+      "5 mg",
+      "40 mg",
+      "100 mg"
+    ],
+    "a": 1,
+    "why": "Hydrocortisone 20 mg ≈ prednisolone 5 mg ≈ dexamethasone 0.75 mg in glucocorticoid potency. Dexamethasone has negligible mineralocorticoid activity; fludrocortisone is mainly mineralocorticoid."
+  },
+  {
+    "id": "P411",
+    "ar": "Pharmacology",
+    "sb": "Effect of Drugs on the Eye",
+    "tp": "pha30",
+    "q": "Which drug used in anaesthesia increases intraocular pressure?",
+    "o": [
+      "Remifentanil",
+      "Suxamethonium",
+      "Volatile agents",
+      "Thiopental",
+      "Propofol"
+    ],
+    "a": 1,
+    "why": "Suxamethonium transiently raises IOP by about 5–10 mmHg (extraocular muscle tonic contraction and choroidal vasodilatation). Ketamine may increase it slightly. Most induction agents, volatiles and opioids lower IOP."
+  },
+  {
+    "id": "P412",
+    "ar": "Pharmacology",
+    "sb": "Effect of Drugs on the Eye",
+    "tp": "pha30",
+    "q": "Echothiophate eye drops used for glaucoma can prolong the action of which drug?",
+    "o": [
+      "Propofol",
+      "Vecuronium",
+      "Rocuronium",
+      "Suxamethonium",
+      "Atracurium"
+    ],
+    "a": 3,
+    "why": "Echothiophate is a long-acting anticholinesterase that inhibits plasma cholinesterase, prolonging suxamethonium and mivacurium. Timolol drops can cause bradycardia and bronchospasm; acetazolamide causes metabolic acidosis and hypokalaemia."
+  },
+  {
+    "id": "P413",
+    "ar": "Pharmacology",
+    "sb": "Volatile Anaesthetic Agents - Comparison Table",
+    "tp": "pha31",
+    "q": "Which volatile agent has the lowest blood:gas partition coefficient?",
+    "o": [
+      "Nitrous oxide",
+      "Desflurane",
+      "Sevoflurane",
+      "Isoflurane",
+      "Halothane"
+    ],
+    "a": 1,
+    "why": "Blood:gas coefficients: desflurane 0.42, N2O 0.47, sevoflurane 0.65–0.69, isoflurane 1.4, halothane 2.4. Lower solubility means faster onset and offset."
+  },
+  {
+    "id": "P414",
+    "ar": "Pharmacology",
+    "sb": "Volatile Anaesthetic Agents - Comparison Table",
+    "tp": "pha31",
+    "q": "Which volatile agent is most irritant to the airway and unsuitable for inhalational induction?",
+    "o": [
+      "Nitrous oxide",
+      "Sevoflurane",
+      "Xenon",
+      "Desflurane",
+      "Halothane"
+    ],
+    "a": 3,
+    "why": "Desflurane (and isoflurane to a lesser extent) is pungent, causing coughing, breath-holding and laryngospasm, and can cause sympathetic stimulation with rapid increases in concentration. Sevoflurane is non-irritant and used for gas induction."
+  },
+  {
+    "id": "P415",
+    "ar": "Pharmacology",
+    "sb": "Antimicrobials - Antibacterial Agents",
+    "tp": "pha32",
+    "q": "Which antibiotic class acts by inhibiting bacterial cell wall synthesis through binding penicillin-binding proteins?",
+    "o": [
+      "Fluoroquinolones",
+      "Aminoglycosides",
+      "Macrolides",
+      "Tetracyclines",
+      "Beta-lactams"
+    ],
+    "a": 4,
+    "why": "Beta-lactams (penicillins, cephalosporins, carbapenems) bind PBPs, inhibiting peptidoglycan cross-linking. Glycopeptides (vancomycin) bind D-Ala-D-Ala. Aminoglycosides and macrolides inhibit protein synthesis; fluoroquinolones inhibit DNA gyrase."
+  },
+  {
+    "id": "P416",
+    "ar": "Pharmacology",
+    "sb": "Antimicrobials - Antibacterial Agents",
+    "tp": "pha32",
+    "q": "Which antibiotic can prolong neuromuscular block by reducing acetylcholine release?",
+    "o": [
+      "Metronidazole",
+      "Amoxicillin",
+      "Ceftriaxone",
+      "Vancomycin",
+      "Gentamicin"
+    ],
+    "a": 4,
+    "why": "Aminoglycosides reduce presynaptic calcium entry and acetylcholine release, potentiating non-depolarising blockers. They are also nephrotoxic and ototoxic, so levels are monitored. Clindamycin and polymyxins can also potentiate block."
+  },
+  {
+    "id": "P417",
+    "ar": "Pharmacology",
+    "sb": "Antifungals &amp; Antivirals",
+    "tp": "pha33",
+    "q": "How does aciclovir work?",
+    "o": [
+      "Blocks viral entry into cells",
+      "Inhibits viral protease",
+      "Inhibits reverse transcriptase",
+      "Inhibits viral DNA polymerase",
+      "Inhibits viral neuraminidase"
+    ],
+    "a": 3,
+    "why": "Aciclovir is selectively activated by herpesvirus thymidine kinase and then inhibits viral DNA polymerase (chain termination). Oseltamivir inhibits influenza neuraminidase. It can crystallise in the kidneys, so maintain hydration."
+  },
+  {
+    "id": "P418",
+    "ar": "Pharmacology",
+    "sb": "Antifungals &amp; Antivirals",
+    "tp": "pha33",
+    "q": "Which antifungal class acts by inhibiting synthesis of beta-1,3-glucan in the fungal cell wall?",
+    "o": [
+      "Allylamines",
+      "Flucytosine",
+      "Polyenes",
+      "Echinocandins",
+      "Azoles"
+    ],
+    "a": 3,
+    "why": "Echinocandins (caspofungin, micafungin, anidulafungin) inhibit glucan synthesis. Azoles inhibit ergosterol synthesis (and CYP3A4 in humans); polyenes (amphotericin) bind ergosterol, forming pores, and are nephrotoxic."
+  }
+]

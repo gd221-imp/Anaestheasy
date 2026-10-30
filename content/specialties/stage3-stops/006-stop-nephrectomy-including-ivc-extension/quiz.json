@@ -1,0 +1,122 @@
+[
+  {
+    "q": "What happens when the IVC is clamped?",
+    "o": [
+      "Hypertension",
+      "Hypotension from reduced venous return",
+      "Bradycardia only",
+      "No change",
+      "Hypoxia only"
+    ],
+    "a": 1,
+    "why": "Volume load and vasopressors."
+  },
+  {
+    "q": "Which imaging is used intra-op for a high IVC thrombus?",
+    "o": [
+      "CXR",
+      "TOE",
+      "CT",
+      "USS abdomen",
+      "MRI"
+    ],
+    "a": 1,
+    "why": "Monitors tumour thrombus and embolism."
+  },
+  {
+    "q": "Which immediate surgical complication is specific to IVC extension?",
+    "o": [
+      "Ileus",
+      "Tumour embolism",
+      "Hernia",
+      "Wound infection",
+      "Fistula"
+    ],
+    "a": 1,
+    "why": "Can cause PE and cardiovascular collapse."
+  },
+  {
+    "q": "Which delayed complication is renal?",
+    "o": [
+      "Stroke",
+      "AKI in the remaining kidney",
+      "Liver failure",
+      "PDPH",
+      "Diplopia"
+    ],
+    "a": 1,
+    "why": "Monitor renal function."
+  },
+  {
+    "q": "Which is an indication for RRT (AEIOU)?",
+    "o": [
+      "Hypertension",
+      "Refractory acidosis, hyperkalaemia, toxin, overload or uraemia",
+      "Low urine only",
+      "Raised creatinine alone",
+      "Anaemia"
+    ],
+    "a": 1,
+    "why": "AEIOU."
+  },
+  {
+    "q": "How does haemofiltration remove solute?",
+    "o": [
+      "Diffusion",
+      "Convection",
+      "Osmosis",
+      "Active transport",
+      "Adsorption only"
+    ],
+    "a": 1,
+    "why": "Dialysis uses diffusion."
+  },
+  {
+    "q": "What side effect can citrate anticoagulation cause?",
+    "o": [
+      "Hypercalcaemia",
+      "Low ionised calcium and alkalosis or acidosis",
+      "HIT",
+      "Thrombocytosis",
+      "Hyperkalaemia"
+    ],
+    "a": 1,
+    "why": "Citrate binds calcium."
+  },
+  {
+    "q": "What urinary finding suggests acute tubular necrosis?",
+    "o": [
+      "Red cell casts",
+      "Muddy brown granular casts",
+      "Hyaline casts",
+      "White cell casts",
+      "Normal"
+    ],
+    "a": 1,
+    "why": "Sloughed tubular cells."
+  },
+  {
+    "q": "Which drugs are nephrotoxic perioperatively?",
+    "o": [
+      "Paracetamol",
+      "NSAIDs, ACE inhibitors and aminoglycosides",
+      "Fentanyl",
+      "Propofol",
+      "Ondansetron"
+    ],
+    "a": 1,
+    "why": "Also contrast."
+  },
+  {
+    "q": "Which positioning is used?",
+    "o": [
+      "Prone",
+      "Lateral or supine",
+      "Sitting",
+      "Lithotomy",
+      "Trendelenburg only"
+    ],
+    "a": 1,
+    "why": "Lateral risks positioning injuries."
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "q": "Why is an adductor canal block preferred over a femoral block for knee surgery?",
+    "o": [
+      "It blocks the sciatic nerve",
+      "It covers the whole leg",
+      "It needs no ultrasound",
+      "It better preserves quadriceps strength",
+      "It lasts a week"
+    ],
+    "a": 3,
+    "why": "Sparing quadriceps strength helps early mobilisation and reduces falls."
+  },
+  {
+    "q": "Which nerve does an adductor canal block mainly target?",
+    "o": [
+      "Common peroneal nerve",
+      "Sural nerve",
+      "Saphenous nerve",
+      "Obturator nerve",
+      "Sciatic nerve"
+    ],
+    "a": 2,
+    "why": "The saphenous nerve (and nerve to vastus medialis) runs in the canal beside the femoral artery."
+  },
+  {
+    "q": "What should you record when a tourniquet is used?",
+    "o": [
+      "EtCO₂",
+      "Time of inflation",
+      "Patient's weight",
+      "Room temperature",
+      "Blood glucose"
+    ],
+    "a": 1,
+    "why": "Tourniquet time guides safe limits and links to tourniquet pain and ischaemia."
+  },
+  {
+    "q": "What extra analgesia does the surgeon often give at the end of ACL repair?",
+    "o": [
+      "Epidural top-up",
+      "Intrathecal diamorphine",
+      "Stellate ganglion block",
+      "Dilute local anaesthetic into the joint",
+      "Ketamine infusion"
+    ],
+    "a": 3,
+    "why": "Intra-articular local anaesthetic adds to the block and simple analgesia."
+  },
+  {
+    "q": "Where are most ACL reconstructions managed?",
+    "o": [
+      "Obstetric unit",
+      "Day surgery",
+      "Cardiac ward",
+      "HDU",
+      "ICU"
+    ],
+    "a": 1,
+    "why": "Usually young, fit patients who go home the same day."
+  }
+]

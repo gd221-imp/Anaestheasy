@@ -1,0 +1,30 @@
+{
+  "t": "tip",
+  "shape": "dummy",
+  "group": "Paeds",
+  "title": "Tetralogy of Fallot & Eisenmenger's Syndrome",
+  "cards": [
+    {
+      "h": "Tetralogy of Fallot - 4 features",
+      "b": "file:cards/01-tetralogy-of-fallot-4-features.html"
+    },
+    {
+      "h": "Physiology",
+      "b": "file:cards/02-physiology.html"
+    },
+    {
+      "h": "Management of a Tet spell",
+      "b": "file:cards/03-management-of-a-tet-spell.html"
+    },
+    {
+      "h": "Eisenmenger's syndrome",
+      "b": "file:cards/04-eisenmenger-s-syndrome.html"
+    },
+    {
+      "h": "Key points",
+      "b": "file:cards/05-key-points.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

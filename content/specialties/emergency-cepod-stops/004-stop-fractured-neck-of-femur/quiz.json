@@ -1,0 +1,122 @@
+[
+  {
+    "q": "Within what time should hip fracture surgery happen?",
+    "o": [
+      "72 hours",
+      "36 hours (day of or day after admission)",
+      "1 week",
+      "6 hours",
+      "24 hours exactly"
+    ],
+    "a": 1,
+    "why": "Per NICE and the recipe."
+  },
+  {
+    "q": "Which block is recommended for analgesia?",
+    "o": [
+      "Femoral sciatic",
+      "Fascia iliaca block",
+      "Interscalene",
+      "Ankle block",
+      "Caudal"
+    ],
+    "a": 1,
+    "why": "Opioid-sparing."
+  },
+  {
+    "q": "What did the 2016 Cochrane review find for spinal versus GA in hip fracture?",
+    "o": [
+      "Spinal reduced mortality",
+      "Spinal was only superior for VTE risk (later REGAIN and RAGA trials found no difference in ambulation, mortality or delirium)",
+      "GA was better",
+      "Large differences",
+      "Spinal reduced delirium"
+    ],
+    "a": 1,
+    "why": "Choose based on patient factors."
+  },
+  {
+    "q": "Which drugs should be avoided to reduce postoperative cognitive dysfunction?",
+    "o": [
+      "Paracetamol",
+      "Benzodiazepines and anticholinergics",
+      "Local anaesthetic",
+      "Ondansetron",
+      "Oxygen"
+    ],
+    "a": 1,
+    "why": "Avoid excess opioids too."
+  },
+  {
+    "q": "What is the anaesthetic principle in severe aortic stenosis?",
+    "o": [
+      "Fast and loose",
+      "Slow and tight: maintain SVR and sinus rhythm, avoid tachycardia",
+      "Vasodilate",
+      "High heart rate",
+      "Hypovolaemia"
+    ],
+    "a": 1,
+    "why": "Caution with neuraxial."
+  },
+  {
+    "q": "What mean gradient defines severe aortic stenosis?",
+    "o": [
+      "Over 10 mmHg",
+      "Over 40 mmHg",
+      "Over 20 mmHg",
+      "Over 100 mmHg",
+      "Over 5 mmHg"
+    ],
+    "a": 1,
+    "why": "Severe ≥40 mmHg; moderate 20–40."
+  },
+  {
+    "q": "How much can atrial kick contribute to preload in AS?",
+    "o": [
+      "5%",
+      "Up to 40%",
+      "80%",
+      "0%",
+      "100%"
+    ],
+    "a": 1,
+    "why": "Maintain sinus rhythm."
+  },
+  {
+    "q": "What is BCIS grade 3?",
+    "o": [
+      "Mild hypoxia",
+      "Cardiovascular collapse requiring CPR",
+      "Severe hypoxia only",
+      "Hypertension",
+      "Bradycardia"
+    ],
+    "a": 1,
+    "why": "Watch when cementing."
+  },
+  {
+    "q": "Which is a risk factor for increased 30-day mortality after hip fracture?",
+    "o": [
+      "Female sex",
+      "Male sex, older age and reduced cognition",
+      "Young age",
+      "Living at home",
+      "High Hb"
+    ],
+    "a": 1,
+    "why": "Also active malignancy and over 2 comorbidities."
+  },
+  {
+    "q": "When should geriatrician assessment occur?",
+    "o": [
+      "After discharge",
+      "Within 72 hours",
+      "Never",
+      "After 1 week",
+      "Only if delirious"
+    ],
+    "a": 1,
+    "why": "Orthogeriatric care."
+  }
+]

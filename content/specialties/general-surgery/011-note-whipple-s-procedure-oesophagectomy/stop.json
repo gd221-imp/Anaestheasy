@@ -1,0 +1,22 @@
+{
+  "t": "tip",
+  "shape": "scalpel",
+  "group": "General surgery",
+  "title": "Whipple's Procedure & Oesophagectomy",
+  "cards": [
+    {
+      "h": "Whipple's (pancreaticoduodenectomy)",
+      "b": "file:cards/01-whipple-s-pancreaticoduodenectomy.html"
+    },
+    {
+      "h": "Oesophagectomy",
+      "b": "file:cards/02-oesophagectomy.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/03-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

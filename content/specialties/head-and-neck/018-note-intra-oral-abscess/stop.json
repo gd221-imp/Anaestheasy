@@ -1,0 +1,26 @@
+{
+  "t": "tip",
+  "shape": "headn",
+  "group": "Head and neck",
+  "title": "Intra-oral Abscess",
+  "cards": [
+    {
+      "h": "Example",
+      "b": "file:cards/01-example.html"
+    },
+    {
+      "h": "Pre-op",
+      "b": "file:cards/02-pre-op.html"
+    },
+    {
+      "h": "Note",
+      "b": "file:cards/03-note.html"
+    },
+    {
+      "h": "Note",
+      "b": "file:cards/04-note.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

@@ -1,0 +1,26 @@
+{
+  "t": "tip",
+  "shape": "headn",
+  "group": "Head and neck",
+  "title": "Rhinological Surgery & Valsalva Manoeuvre",
+  "cards": [
+    {
+      "h": "Rhinological surgery",
+      "b": "file:cards/01-rhinological-surgery.html"
+    },
+    {
+      "h": "Valsalva manoeuvre: forced expiration against a closed glottis. Phases",
+      "b": "file:cards/02-valsalva-manoeuvre-forced-expiration-against-a-c.html"
+    },
+    {
+      "h": "Clinical relevance",
+      "b": "file:cards/03-clinical-relevance.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/04-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

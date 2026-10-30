@@ -1,0 +1,122 @@
+[
+  {
+    "q": "What is a common indication for revision THR?",
+    "o": [
+      "Primary osteoarthritis",
+      "Infection, recurrent dislocation or loosening",
+      "Fracture neck of femur",
+      "Paget’s only",
+      "Cosmetic"
+    ],
+    "a": 1,
+    "why": "More complex, longer and bloodier."
+  },
+  {
+    "q": "Why may a single-shot spinal be insufficient?",
+    "o": [
+      "Too dense",
+      "The surgery is too long",
+      "Too short-acting for analgesia only",
+      "Unsafe",
+      "Infection"
+    ],
+    "a": 1,
+    "why": "Combine with GA or catheter technique."
+  },
+  {
+    "q": "Which blood conservation measures are listed?",
+    "o": [
+      "None",
+      "Cell salvage and tranexamic acid",
+      "Haemodilution only",
+      "Aprotinin",
+      "EPO on the day"
+    ],
+    "a": 1,
+    "why": "Plus arterial line and large-bore access."
+  },
+  {
+    "q": "Which nerve is at risk?",
+    "o": [
+      "Femoral only",
+      "Sciatic",
+      "Obturator only",
+      "Pudendal",
+      "Ilioinguinal"
+    ],
+    "a": 1,
+    "why": "Also periprosthetic fracture."
+  },
+  {
+    "q": "What is the NICE Patient Blood Management principle?",
+    "o": [
+      "Transfuse early",
+      "Optimise red cell mass, minimise blood loss, manage anaemia",
+      "Avoid cell salvage",
+      "Liberal transfusion",
+      "Use EPO always"
+    ],
+    "a": 1,
+    "why": "Three pillars."
+  },
+  {
+    "q": "What transfusion threshold is used in most patients?",
+    "o": [
+      "Hb under 100",
+      "Hb under 70 g/L (under 90 in IHD per note)",
+      "Hb under 50",
+      "Hb under 120",
+      "Any Hb"
+    ],
+    "a": 1,
+    "why": "Restrictive threshold."
+  },
+  {
+    "q": "How long before surgery should FBC be checked?",
+    "o": [
+      "On the day",
+      "4–6 weeks",
+      "1 year",
+      "24 hours",
+      "Not needed"
+    ],
+    "a": 1,
+    "why": "Allows anaemia treatment."
+  },
+  {
+    "q": "Why does raised hepcidin cause anaemia in inflammation?",
+    "o": [
+      "Increases absorption",
+      "Functional iron deficiency",
+      "Haemolysis",
+      "B12 deficiency",
+      "Marrow failure"
+    ],
+    "a": 1,
+    "why": "Iron trapped in stores."
+  },
+  {
+    "q": "Which bone disorder involves increased osteoclast and osteoblast activity?",
+    "o": [
+      "Osteoporosis",
+      "Paget’s disease",
+      "Osteomalacia",
+      "Osteopetrosis",
+      "Rickets"
+    ],
+    "a": 1,
+    "why": "Raised ALP and increased bone blood flow."
+  },
+  {
+    "q": "Which delayed anaesthetic complication is common in elderly patients?",
+    "o": [
+      "MH",
+      "Delirium",
+      "PDPH",
+      "Laryngospasm",
+      "Diplopia"
+    ],
+    "a": 1,
+    "why": "Also VTE and AKI."
+  }
+]

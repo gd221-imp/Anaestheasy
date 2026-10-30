@@ -1,0 +1,38 @@
+{
+  "t": "tip",
+  "shape": "belly",
+  "group": "Obstetrics",
+  "title": "Antepartum Haemorrhage & Placental Abruption",
+  "cards": [
+    {
+      "h": "Overview",
+      "b": "file:cards/01-overview.html"
+    },
+    {
+      "h": "Placental abruption",
+      "b": "file:cards/02-placental-abruption.html"
+    },
+    {
+      "h": "Risk factors",
+      "b": "file:cards/03-risk-factors.html"
+    },
+    {
+      "h": "Acute presentation",
+      "b": "file:cards/04-acute-presentation.html"
+    },
+    {
+      "h": "Management",
+      "b": "file:cards/05-management.html"
+    },
+    {
+      "h": "Placenta praevia",
+      "b": "file:cards/06-placenta-praevia.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/07-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

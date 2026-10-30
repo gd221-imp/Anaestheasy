@@ -1,0 +1,34 @@
+{
+  "t": "tip",
+  "shape": "brain",
+  "group": "Neuro",
+  "title": "Status Epilepticus",
+  "cards": [
+    {
+      "h": "Overview",
+      "b": "file:cards/01-overview.html"
+    },
+    {
+      "h": "Management of a tonic-clonic seizure lasting over 5 mins",
+      "b": "file:cards/02-management-of-a-tonic-clonic-seizure-lasting-ove.html"
+    },
+    {
+      "h": "2nd line",
+      "b": "file:cards/03-2nd-line.html"
+    },
+    {
+      "h": "Common causes of tonic-clonic seizures",
+      "b": "file:cards/04-common-causes-of-tonic-clonic-seizures.html"
+    },
+    {
+      "h": "Physiological changes during a seizure",
+      "b": "file:cards/05-physiological-changes-during-a-seizure.html"
+    },
+    {
+      "h": "Complications of prolonged/repeated seizures",
+      "b": "file:cards/06-complications-of-prolonged-repeated-seizures.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

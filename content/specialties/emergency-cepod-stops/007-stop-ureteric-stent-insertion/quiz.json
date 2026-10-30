@@ -1,0 +1,122 @@
+[
+  {
+    "q": "What is the usual indication for emergency ureteric stent?",
+    "o": [
+      "Elective stone",
+      "Obstructed, infected kidney needing source control",
+      "Haematuria",
+      "Cancer staging",
+      "Renal colic without infection"
+    ],
+    "a": 1,
+    "why": "Patient may be septic."
+  },
+  {
+    "q": "What should be worn during screening?",
+    "o": [
+      "Laser goggles",
+      "Lead apron",
+      "Nothing",
+      "Magnet-safe kit",
+      "Ear protection"
+    ],
+    "a": 1,
+    "why": "X-ray screening."
+  },
+  {
+    "q": "What airway is usual?",
+    "o": [
+      "ETT always",
+      "LMA in lithotomy",
+      "Facemask",
+      "Tracheostomy",
+      "Nasal"
+    ],
+    "a": 1,
+    "why": "Short cystoscopy."
+  },
+  {
+    "q": "Which bloods are important?",
+    "o": [
+      "Lipids",
+      "Renal function and potassium",
+      "TFT",
+      "Amylase",
+      "Troponin"
+    ],
+    "a": 1,
+    "why": "Plus confirm antibiotics."
+  },
+  {
+    "q": "Which immediate anaesthetic complication occurs?",
+    "o": [
+      "MH",
+      "Hypotension in septic shock",
+      "Laryngospasm only",
+      "PDPH",
+      "Awareness"
+    ],
+    "a": 1,
+    "why": "Support BP."
+  },
+  {
+    "q": "Which nerve injury is a lithotomy risk?",
+    "o": [
+      "Ulnar",
+      "Common peroneal",
+      "Radial",
+      "Facial",
+      "Phrenic"
+    ],
+    "a": 1,
+    "why": "Pad pressure points."
+  },
+  {
+    "q": "Which RRT method uses diffusion?",
+    "o": [
+      "Haemofiltration",
+      "Haemodialysis",
+      "Plasma exchange",
+      "Ultrafiltration",
+      "Peritoneal ultrafiltration only"
+    ],
+    "a": 1,
+    "why": "Haemofiltration uses convection."
+  },
+  {
+    "q": "Which delayed surgical complication is listed?",
+    "o": [
+      "Hernia",
+      "Stent migration or encrustation",
+      "Stricture of the urethra only",
+      "Ileus",
+      "Fistula"
+    ],
+    "a": 1,
+    "why": "Also stent symptoms."
+  },
+  {
+    "q": "What is the destination?",
+    "o": [
+      "Home",
+      "Ward with fluids and antibiotics (escalate if septic shock)",
+      "Day unit",
+      "Rehab",
+      "ICU always"
+    ],
+    "a": 1,
+    "why": "Per recipe."
+  },
+  {
+    "q": "Which is an AKI risk factor in sepsis?",
+    "o": [
+      "Young age",
+      "Hypotension and nephrotoxins",
+      "Female sex",
+      "High BMI only",
+      "Normotension"
+    ],
+    "a": 1,
+    "why": "Avoid NSAIDs and ACEi."
+  }
+]

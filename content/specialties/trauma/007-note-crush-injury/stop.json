@@ -1,0 +1,14 @@
+{
+  "t": "tip",
+  "shape": "cross",
+  "group": "Orthopaedics and Trauma",
+  "title": "Crush Injury",
+  "cards": [
+    {
+      "h": "Increased risk of",
+      "b": "file:cards/01-increased-risk-of.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

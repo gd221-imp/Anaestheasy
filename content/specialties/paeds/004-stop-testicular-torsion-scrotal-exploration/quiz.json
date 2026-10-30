@@ -1,0 +1,122 @@
+[
+  {
+    "q": "A 13-year-old with testicular torsion ate 2 hours ago. What is appropriate?",
+    "o": [
+      "Wait 6 hours",
+      "Proceed without delay using an RSI or modified RSI",
+      "Give metoclopramide and wait 4 hours",
+      "Proceed with an LMA",
+      "Treat conservatively"
+    ],
+    "a": 1,
+    "why": "Surgery is time-critical to save the testis; do not delay for fasting."
+  },
+  {
+    "q": "What is usually discussed in consent for scrotal exploration?",
+    "o": [
+      "Hernia repair",
+      "Bilateral fixation and possible orchidectomy",
+      "Circumcision",
+      "Hydrocele repair",
+      "Vasectomy"
+    ],
+    "a": 1,
+    "why": "The contralateral testis is usually fixed too."
+  },
+  {
+    "q": "What should be drawn up for cord traction?",
+    "o": [
+      "Adrenaline",
+      "Atropine or glycopyrronium",
+      "Ephedrine only",
+      "Naloxone",
+      "Calcium"
+    ],
+    "a": 1,
+    "why": "Bradycardia and laryngospasm can occur with cord traction."
+  },
+  {
+    "q": "Which airway device is appropriate if the child is not fasted?",
+    "o": [
+      "LMA",
+      "Cuffed ETT",
+      "Facemask",
+      "Nasal airway",
+      "Guedel only"
+    ],
+    "a": 1,
+    "why": "Cuffed ETT after RSI when not fasted."
+  },
+  {
+    "q": "Who can give consent for a 14-year-old who is not Gillick competent?",
+    "o": [
+      "Any adult relative",
+      "A person with parental responsibility",
+      "The anaesthetist",
+      "A teacher",
+      "An older sibling"
+    ],
+    "a": 1,
+    "why": "Consent comes from a person with parental responsibility."
+  },
+  {
+    "q": "Which is a delayed surgical complication of torsion?",
+    "o": [
+      "Laryngospasm",
+      "Subfertility",
+      "Aspiration",
+      "PONV",
+      "Emergence delirium"
+    ],
+    "a": 1,
+    "why": "Also testicular atrophy and wound infection."
+  },
+  {
+    "q": "Emergency treatment of a child can proceed without consent when:",
+    "o": [
+      "The parents disagree with the surgeon",
+      "It is necessary to save life or prevent serious harm and consent cannot be obtained in time",
+      "The child is over 12",
+      "It is out of hours",
+      "Never"
+    ],
+    "a": 1,
+    "why": "This is a recognised exception."
+  },
+  {
+    "q": "What is the paediatric maintenance fluid rate for a 25 kg child (4-2-1 rule)?",
+    "o": [
+      "45 ml/h",
+      "65 ml/h",
+      "100 ml/h",
+      "25 ml/h",
+      "85 ml/h"
+    ],
+    "a": 1,
+    "why": "40 + 20 + 5 = 65 ml/h."
+  },
+  {
+    "q": "What local anaesthetic technique can be used for scrotal exploration?",
+    "o": [
+      "Penile block",
+      "Surgeon’s infiltration or ilioinguinal block",
+      "Femoral block",
+      "Interscalene",
+      "Spinal always"
+    ],
+    "a": 1,
+    "why": "Combined with paracetamol and NSAID."
+  },
+  {
+    "q": "What is the usual destination after scrotal exploration?",
+    "o": [
+      "PICU",
+      "Home the same or next day",
+      "HDU for 48 hours",
+      "Rehab",
+      "Long-term ward stay"
+    ],
+    "a": 1,
+    "why": "Usually home the same or next day."
+  }
+]

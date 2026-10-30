@@ -1,0 +1,18 @@
+{
+  "t": "tip",
+  "shape": "cross",
+  "group": "Orthopaedics and Trauma",
+  "title": "Gunshot Injury",
+  "cards": [
+    {
+      "h": "Mechanism",
+      "b": "file:cards/01-mechanism.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/02-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

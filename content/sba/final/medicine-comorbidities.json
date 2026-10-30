@@ -1,0 +1,178 @@
+[
+  {
+    "id": "Q196",
+    "ar": "Medicine & comorbidities",
+    "sb": "Myasthenia gravis",
+    "q": "A patient with myasthenia gravis on pyridostigmine needs a laparoscopic cholecystectomy. Which neuromuscular blocker strategy is most appropriate?",
+    "o": [
+      "Avoid neuromuscular blockers if possible; if needed, use reduced doses of rocuronium with quantitative monitoring and reverse with sugammadex",
+      "Vecuronium at double dose",
+      "Suxamethonium 1.5 mg/kg as usual, no monitoring",
+      "Pancuronium as it is long-acting",
+      "Atracurium at standard dose, reversed with neostigmine"
+    ],
+    "a": 0,
+    "why": "Patients with MG are very sensitive to non-depolarising blockers and resistant to suxamethonium (also prolonged with pyridostigmine). Use quantitative monitoring, small titrated doses of rocuronium and sugammadex for reliable reversal (neostigmine is unpredictable). Predictors of postoperative ventilation: disease duration &gt; 6 years, pyridostigmine &gt; 750 mg/day, COPD, VC &lt; 2.9 L.",
+    "st": "st2-8"
+  },
+  {
+    "id": "Q197",
+    "ar": "Medicine & comorbidities",
+    "sb": "Myotonic dystrophy",
+    "q": "A patient with myotonic dystrophy type 1 is having surgery. Which drug is most likely to cause severe myotonic contractures, making ventilation and intubation difficult?",
+    "o": [
+      "Propofol",
+      "Suxamethonium",
+      "Sugammadex",
+      "Rocuronium",
+      "Remifentanil"
+    ],
+    "a": 1,
+    "why": "Suxamethonium can trigger generalised myotonia and masseter spasm and must be avoided. Neostigmine may also provoke myotonia (use sugammadex). Other issues: sensitivity to sedatives and opioids (respiratory depression), cardiac conduction defects and cardiomyopathy, bulbar weakness and aspiration, and myotonia from cold, shivering and diathermy.",
+    "st": null
+  },
+  {
+    "id": "Q198",
+    "ar": "Medicine & comorbidities",
+    "sb": "Parkinson's disease",
+    "q": "A patient with Parkinson's disease is nil by mouth for 24 hours after bowel surgery. How should his levodopa be managed?",
+    "o": [
+      "Give metoclopramide to treat nausea",
+      "Give IV haloperidol to prevent agitation",
+      "Give levodopa via nasogastric tube or convert to a transdermal rotigotine patch, without missing doses",
+      "Omit until he can take oral medications",
+      "Give double doses once he can eat"
+    ],
+    "a": 2,
+    "why": "Missing doses risks severe rigidity, aspiration, and neuroleptic malignant-like syndrome. Give medication on time, via nasogastric tube if needed (dispersible levodopa), or convert to transdermal rotigotine (or apomorphine under specialist advice). Avoid dopamine antagonists (metoclopramide, haloperidol, prochlorperazine); use ondansetron or domperidone.",
+    "st": null
+  },
+  {
+    "id": "Q199",
+    "ar": "Medicine & comorbidities",
+    "sb": "Rheumatoid arthritis",
+    "q": "A patient with long-standing rheumatoid arthritis has hoarseness and stridor on exertion. Which airway pathology is the most likely cause?",
+    "o": [
+      "Cricoarytenoid joint arthritis",
+      "Atlantoaxial subluxation",
+      "Temporomandibular joint ankylosis",
+      "Tracheal stenosis from steroids",
+      "Vocal cord nodules"
+    ],
+    "a": 0,
+    "why": "Cricoarytenoid arthritis narrows the glottis and causes hoarseness, stridor and difficulty passing a tube (use a smaller tube). Other RA airway issues: atlantoaxial subluxation (avoid neck flexion), subaxial instability, TMJ involvement limiting mouth opening. Systemic features include pulmonary fibrosis, pericardial disease, anaemia and steroid use.",
+    "st": null
+  },
+  {
+    "id": "Q200",
+    "ar": "Medicine & comorbidities",
+    "sb": "Acute porphyria",
+    "q": "A patient with acute intermittent porphyria needs an emergency laparotomy. Which drug is considered unsafe?",
+    "o": [
+      "Morphine",
+      "Rocuronium",
+      "Propofol",
+      "Fentanyl",
+      "Thiopental"
+    ],
+    "a": 4,
+    "why": "Barbiturates induce hepatic ALA synthase and can precipitate an acute attack. Propofol, opioids, suxamethonium, rocuronium, atracurium and most volatile agents are considered safe (check the Welsh Medicines Information Centre or UKPIN drug database). Avoid fasting, dehydration and stress; treat attacks with IV haem arginate and glucose.",
+    "st": null
+  },
+  {
+    "id": "Q201",
+    "ar": "Medicine & comorbidities",
+    "sb": "Asthma",
+    "q": "An intubated patient with life-threatening asthma has rising airway pressures and falling BP. On disconnection from the ventilator, the BP rises. What is the most likely cause?",
+    "o": [
+      "Dynamic hyperinflation (intrinsic PEEP) from inadequate expiratory time",
+      "Anaphylaxis to the induction agent",
+      "Hypovolaemia only",
+      "Tube in the oesophagus",
+      "Tension pneumothorax"
+    ],
+    "a": 0,
+    "why": "Gas trapping from bronchoconstriction raises intrathoracic pressure and reduces venous return. Disconnection allows trapped gas to escape and BP to recover. Use low respiratory rates, long expiratory times (I:E 1:4 or more), modest tidal volumes, accept permissive hypercapnia, and treat bronchospasm (salbutamol, magnesium, ketamine, volatile agents). Exclude pneumothorax if it persists.",
+    "st": "st2-38"
+  },
+  {
+    "id": "Q202",
+    "ar": "Medicine & comorbidities",
+    "sb": "Systemic sclerosis",
+    "q": "Which is a particular anaesthetic difficulty in systemic sclerosis?",
+    "o": [
+      "Limited mouth opening, difficult IV access and gastro-oesophageal reflux",
+      "Malignant hyperthermia susceptibility",
+      "Macroglossia",
+      "Atlantoaxial instability",
+      "Hyperkalaemia with rocuronium"
+    ],
+    "a": 0,
+    "why": "Systemic sclerosis causes skin tightening around the mouth (microstomia), difficult venous and arterial access, oesophageal dysmotility with reflux (aspiration risk), pulmonary fibrosis and pulmonary hypertension, renal crisis, and Raynaud's (keep warm). Plan for a difficult airway and RSI.",
+    "st": null
+  },
+  {
+    "id": "Q203",
+    "ar": "Medicine & comorbidities",
+    "sb": "Thyroid storm",
+    "q": "A patient with poorly controlled Graves' disease develops fever, agitation, AF at 170 bpm and hypertension after emergency surgery. What is the most appropriate initial treatment?",
+    "o": [
+      "Levothyroxine",
+      "Propranolol (or esmolol), carbimazole or propylthiouracil, then iodine an hour later, hydrocortisone, and cooling",
+      "Amiodarone as sole therapy",
+      "Paracetamol and observe",
+      "Dantrolene"
+    ],
+    "a": 1,
+    "why": "Thyroid storm management: supportive care and cooling, beta-blockade (propranolol also reduces T4 to T3 conversion), thionamide (propylthiouracil preferred as it also blocks peripheral conversion) to block synthesis, then iodine (Lugol's) at least an hour later to block release, and hydrocortisone. Avoid aspirin (displaces thyroid hormone from binding proteins).",
+    "st": null
+  },
+  {
+    "id": "Q278",
+    "ar": "Medicine & comorbidities",
+    "sb": "Chronic heart failure",
+    "q": "A patient with heart failure with reduced ejection fraction takes sacubitril-valsartan, bisoprolol, spironolactone and dapagliflozin. Which drug should be withheld on the day before and the day of major surgery?",
+    "o": [
+      "Spironolactone only on the day before",
+      "Dapagliflozin",
+      "None of them",
+      "All of them for a week",
+      "Bisoprolol"
+    ],
+    "a": 1,
+    "why": "SGLT2 inhibitors are withheld the day before and the day of surgery (euglycaemic ketoacidosis risk). Beta-blockers are continued to avoid rebound tachycardia and ischaemia. ACE inhibitors, ARBs and ARNIs are commonly withheld on the day of surgery (refractory hypotension) and restarted when stable. Continue other medicines where possible and involve the heart failure team.",
+    "st": null
+  },
+  {
+    "id": "Q279",
+    "ar": "Medicine & comorbidities",
+    "sb": "Hyperparathyroidism",
+    "q": "A patient with primary hyperparathyroidism has a corrected calcium of 3.4 mmol/L before parathyroidectomy. Which feature is most typical of hypercalcaemia?",
+    "o": [
+      "Prolonged QT interval",
+      "Hyperreflexia",
+      "Tetany",
+      "Chvostek's sign",
+      "Shortened QT interval, polyuria and dehydration, constipation and confusion"
+    ],
+    "a": 4,
+    "why": "Hypercalcaemia ('bones, stones, groans, thrones and psychiatric overtones') causes polyuria (nephrogenic DI), dehydration, renal stones, abdominal pain and constipation, confusion and a short QT. Treat significant hypercalcaemia preoperatively with IV fluids, then bisphosphonates. After parathyroidectomy, watch for 'hungry bone' hypocalcaemia.",
+    "st": null
+  },
+  {
+    "id": "Q280",
+    "ar": "Medicine & comorbidities",
+    "sb": "Chemotherapy",
+    "q": "A woman who had doxorubicin chemotherapy for breast cancer is having a mastectomy. Which preoperative investigation is most important?",
+    "o": [
+      "Bone scan",
+      "Echocardiogram to assess for anthracycline cardiomyopathy",
+      "Thyroid function tests",
+      "Nerve conduction studies",
+      "Pulmonary function tests"
+    ],
+    "a": 1,
+    "why": "Anthracyclines cause dose-dependent cardiomyopathy (cumulative dose above about 450 mg/m² greatly increases risk), which can develop years later. Trastuzumab also causes reversible LV dysfunction. Other chemotherapy effects relevant to anaesthesia: bleomycin pulmonary fibrosis, cisplatin nephrotoxicity, vincristine neuropathy, myelosuppression and mucositis.",
+    "st": null
+  }
+]

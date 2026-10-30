@@ -1,0 +1,122 @@
+[
+  {
+    "q": "Which is a risk factor for NEC?",
+    "o": [
+      "Breastfeeding",
+      "Prematurity and very low birth weight",
+      "Term birth",
+      "Female sex",
+      "Caesarean section"
+    ],
+    "a": 1,
+    "why": "Also umbilical catheters, cyanotic heart disease and formula feeding."
+  },
+  {
+    "q": "Which Bell stage typically needs surgery?",
+    "o": [
+      "Stage 1",
+      "Stage 3 (advanced, with DIC)",
+      "Stage 2A",
+      "Stage 0",
+      "All stages"
+    ],
+    "a": 1,
+    "why": "Stages 1–2 are usually managed medically."
+  },
+  {
+    "q": "What is the medical management of NEC?",
+    "o": [
+      "Increase feeds",
+      "Bowel rest, decompression, broad-spectrum antibiotics and organ support",
+      "Laxatives",
+      "Steroids",
+      "Immediate laparotomy for all"
+    ],
+    "a": 1,
+    "why": "Follow local guidelines for antibiotic choice."
+  },
+  {
+    "q": "What is the approximate surgical mortality of NEC?",
+    "o": [
+      "1%",
+      "About 20%",
+      "60%",
+      "90%",
+      "0.1%"
+    ],
+    "a": 1,
+    "why": "High morbidity and mortality."
+  },
+  {
+    "q": "Which is a common anaesthetic issue during NEC laparotomy?",
+    "o": [
+      "Hypertension",
+      "Coagulopathy and thrombocytopenia",
+      "Hyperthermia",
+      "Polycythaemia",
+      "Bradypnoea"
+    ],
+    "a": 1,
+    "why": "Have blood products ready; liver capsule bleeding can occur."
+  },
+  {
+    "q": "Which neonatal complication is linked to immature cerebral autoregulation?",
+    "o": [
+      "Stroke in adults",
+      "Intraventricular haemorrhage",
+      "Subdural haematoma",
+      "Retinal detachment",
+      "Hydrops"
+    ],
+    "a": 1,
+    "why": "Avoid swings in BP and CO2."
+  },
+  {
+    "q": "What X-ray sign supports NEC?",
+    "o": [
+      "Double bubble",
+      "Pneumatosis intestinalis or free air",
+      "Coiled NG tube",
+      "Bowel in chest",
+      "Target sign"
+    ],
+    "a": 1,
+    "why": "Diagnosis is clinical plus AXR with Doppler of mesenteric flow."
+  },
+  {
+    "q": "Which factor raises PVR and should be avoided in neonates?",
+    "o": [
+      "Normocapnia",
+      "Hypoxia, hypercapnia and acidosis",
+      "Warming",
+      "Analgesia",
+      "Alkalosis"
+    ],
+    "a": 1,
+    "why": "Also hypothermia, sepsis and pain."
+  },
+  {
+    "q": "Which delayed surgical complication follows NEC?",
+    "o": [
+      "Hernia",
+      "Short gut syndrome and strictures",
+      "Hypospadias",
+      "Squint",
+      "Otitis"
+    ],
+    "a": 1,
+    "why": "Also stoma complications."
+  },
+  {
+    "q": "What vitamin should be checked as given to the neonate?",
+    "o": [
+      "Vitamin C",
+      "Vitamin K",
+      "Vitamin D",
+      "Vitamin A",
+      "B12"
+    ],
+    "a": 1,
+    "why": "To prevent vitamin K deficiency bleeding."
+  }
+]

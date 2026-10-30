@@ -1,0 +1,122 @@
+[
+  {
+    "q": "At what diameter is repair of an asymptomatic abdominal aortic aneurysm generally considered?",
+    "o": [
+      "Over 3 cm",
+      "Over 4 cm",
+      "Over 4.5 cm",
+      "Over 5.5 cm",
+      "Over 7 cm"
+    ],
+    "a": 3,
+    "why": "Surgery is generally considered once the diameter exceeds 5.5 cm, or if it grows more than about 1 cm a year. Rupture risk is under 1% a year below 4.5 cm."
+  },
+  {
+    "q": "What ACT target is used after heparin during EVAR?",
+    "o": [
+      "Above 480 s",
+      "200–250 s",
+      "100–150 s",
+      "3× baseline",
+      "Heparin is not used"
+    ],
+    "a": 1,
+    "why": "Around 5,000 units heparin after femoral exposure, targeting an ACT of 200–250 s."
+  },
+  {
+    "q": "Which endoleak types generally need intervention?",
+    "o": [
+      "Types 2 and 4",
+      "Types 1, 3 and 5",
+      "Type 2 only",
+      "All types",
+      "None: they all resolve"
+    ],
+    "a": 1,
+    "why": "Types 1 (attachment sites), 3 (graft defect) and 5 (endotension) usually need intervention; types 2 (branch filling) and 4 (porosity) are often watched."
+  },
+  {
+    "q": "What did the EVAR-2 trial show?",
+    "o": [
+      "EVAR improves survival in patients unfit for open repair",
+      "No survival benefit of EVAR over no intervention in patients unfit for open repair",
+      "EVAR is better than open repair in all patients",
+      "Open repair has more long-term complications",
+      "EVAR needs no follow-up"
+    ],
+    "a": 1,
+    "why": "EVAR-2 found no survival benefit in patients unfit for open repair. NICE notes EVAR has higher long-term complication rates and needs lifelong surveillance."
+  },
+  {
+    "q": "According to the IMPROVE trial, which factor in ruptured AAA correlated with 30-day mortality?",
+    "o": [
+      "Aneurysm diameter",
+      "The lowest recorded systolic BP",
+      "Patient sex",
+      "Time of day",
+      "Heparin dose"
+    ],
+    "a": 1,
+    "why": "IMPROVE found comparable outcomes between open and endovascular-first strategies; mortality correlated with the lowest systolic BP, and local anaesthesia was associated with lower mortality."
+  },
+  {
+    "q": "Two days after EVAR, a patient has a fever, raised white cell count and CRP, with no source of infection. What is the most likely cause?",
+    "o": [
+      "Graft infection",
+      "Post-implantation syndrome",
+      "Contrast nephropathy",
+      "Endoleak",
+      "Pulmonary embolism"
+    ],
+    "a": 1,
+    "why": "Post-implantation syndrome is a mild, self-limiting reaction to the graft material, lasting 2–10 days."
+  },
+  {
+    "q": "What is the main anaesthetic concern with fenestrated or branched (\"complex\") EVAR compared with standard EVAR?",
+    "o": [
+      "Shorter duration",
+      "Longer procedure, more contrast and usually GA, with more risk of AKI",
+      "No need for crossmatch",
+      "Always done under LA",
+      "No heparin required"
+    ],
+    "a": 1,
+    "why": "Complex EVAR usually needs GA, a 4–6 unit crossmatch, more contrast (renal risk) and HDU/ICU care."
+  },
+  {
+    "q": "Which aortic aneurysm is the most extensive in the Crawford classification of thoracoabdominal aneurysms?",
+    "o": [
+      "Type I",
+      "Type II",
+      "Type III",
+      "Type IV",
+      "They are equal"
+    ],
+    "a": 1,
+    "why": "Type II runs from below the left subclavian to below the renal arteries; it is the most extensive."
+  },
+  {
+    "q": "In the UK AAA screening programme, which threshold triggers referral for CT?",
+    "o": [
+      "Over 30 mm in men",
+      "Over 55 mm in men",
+      "Over 40 mm in women",
+      "Any aneurysm in women",
+      "Over 70 mm in both sexes"
+    ],
+    "a": 1,
+    "why": "Ultrasound screening refers men over 55 mm (women over 50 mm) for CT. The UK programme screens men; aneurysms in women and smokers carry higher rupture risk."
+  },
+  {
+    "q": "Which drugs are usually stopped before EVAR to protect renal function?",
+    "o": [
+      "Statins",
+      "NSAIDs and ACE inhibitors",
+      "Aspirin",
+      "Beta-blockers",
+      "Insulin"
+    ],
+    "a": 1,
+    "why": "Stop NSAIDs and ACE inhibitors before contrast; optimise comorbidities and consider CPET for risk."
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "q": "Which symptom is a red flag in a child with an anterior mediastinal mass?",
+    "o": [
+      "Night sweats",
+      "Orthopnoea or coughing when supine",
+      "Weight loss",
+      "Lymphadenopathy",
+      "Fatigue"
+    ],
+    "a": 1,
+    "why": "Also stridor, syncope and SVC obstruction signs."
+  },
+  {
+    "q": "What is the investigation of choice?",
+    "o": [
+      "CXR",
+      "CT",
+      "USS",
+      "PET only",
+      "Spirometry"
+    ],
+    "a": 1,
+    "why": "CT assesses tracheal and vascular compression."
+  },
+  {
+    "q": "Why are muscle relaxants avoided?",
+    "o": [
+      "They cause hyperkalaemia",
+      "Loss of muscle tone can cause complete airway or vascular collapse",
+      "They are slow",
+      "They cause bronchospasm",
+      "They cause MH"
+    ],
+    "a": 1,
+    "why": "Maintain spontaneous ventilation."
+  },
+  {
+    "q": "What should be considered before GA?",
+    "o": [
+      "Nothing extra",
+      "Whether a tissue diagnosis can be obtained under local, or the mass shrunk with steroids or radiotherapy",
+      "Routine premedication with opioid",
+      "Sedation always",
+      "Paralysis early"
+    ],
+    "a": 1,
+    "why": "Avoid GA if possible."
+  },
+  {
+    "q": "Airway obstruction occurs on induction. What is an early step?",
+    "o": [
+      "Give more relaxant",
+      "Reposition (lateral, prone or the patient’s preferred position)",
+      "Lie flat",
+      "Stop oxygen",
+      "Remove monitoring"
+    ],
+    "a": 1,
+    "why": "Then rigid bronchoscopy, or sternotomy to lift the mass if cardiovascular collapse."
+  },
+  {
+    "q": "What is the commonest malignant cause of anterior mediastinal mass in children?",
+    "o": [
+      "Thymoma",
+      "Lymphoma (non-Hodgkin more common in children)",
+      "Lung carcinoma",
+      "Teratoma always",
+      "Neuroblastoma"
+    ],
+    "a": 1,
+    "why": "Also ALL and germ cell tumours."
+  },
+  {
+    "q": "Which biochemical abnormality is seen in tumour lysis syndrome?",
+    "o": [
+      "Hypokalaemia",
+      "Hyperkalaemia, hyperphosphataemia and hypocalcaemia",
+      "Hypercalcaemia",
+      "Hyponatraemia only",
+      "Low urate"
+    ],
+    "a": 1,
+    "why": "Prevent with allopurinol and fluids."
+  },
+  {
+    "q": "Which drug prevents tumour lysis syndrome?",
+    "o": [
+      "Furosemide",
+      "Allopurinol",
+      "Steroids",
+      "Bicarbonate",
+      "Calcium"
+    ],
+    "a": 1,
+    "why": "Allopurinol is a xanthine oxidase inhibitor."
+  },
+  {
+    "q": "What line is placed before induction?",
+    "o": [
+      "Central line",
+      "Arterial line",
+      "PICC",
+      "Swan–Ganz",
+      "None"
+    ],
+    "a": 1,
+    "why": "Rigid bronchoscope and bypass access may also be considered."
+  },
+  {
+    "q": "What is the induction technique classically used?",
+    "o": [
+      "IV RSI with relaxant",
+      "Gas induction maintaining spontaneous ventilation, lateral or head-up",
+      "Awake tracheostomy",
+      "TIVA with relaxant",
+      "Spinal"
+    ],
+    "a": 1,
+    "why": "Awake extubation at the end."
+  }
+]

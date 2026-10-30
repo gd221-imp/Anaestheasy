@@ -1,0 +1,50 @@
+{
+  "t": "tip",
+  "shape": "dummy",
+  "group": "Paeds",
+  "title": "Inhaled Foreign Body & Sickle Cell Disease",
+  "cards": [
+    {
+      "h": "Inhaled foreign body",
+      "b": "file:cards/01-inhaled-foreign-body.html"
+    },
+    {
+      "h": "Pre-op",
+      "b": "file:cards/02-pre-op.html"
+    },
+    {
+      "h": "Intra-op",
+      "b": "file:cards/03-intra-op.html"
+    },
+    {
+      "h": "Post-op",
+      "b": "file:cards/04-post-op.html"
+    },
+    {
+      "h": "If effective cough",
+      "b": "file:cards/05-if-effective-cough.html"
+    },
+    {
+      "h": "Sickle Cell Disease",
+      "b": "file:cards/06-sickle-cell-disease.html"
+    },
+    {
+      "h": "Clinical features",
+      "b": "file:cards/07-clinical-features.html"
+    },
+    {
+      "h": "Perioperative management",
+      "b": "file:cards/08-perioperative-management.html"
+    },
+    {
+      "h": "Note",
+      "b": "file:cards/09-note.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/10-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

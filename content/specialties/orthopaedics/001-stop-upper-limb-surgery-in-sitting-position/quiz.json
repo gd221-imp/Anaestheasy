@@ -1,0 +1,122 @@
+[
+  {
+    "q": "What is the Bezold–Jarisch reflex in the beach-chair position?",
+    "o": [
+      "Hypertension and tachycardia",
+      "Sudden bradycardia and hypotension from a vigorously contracting underfilled ventricle",
+      "Laryngospasm",
+      "Bronchospasm",
+      "Seizures"
+    ],
+    "a": 1,
+    "why": "Treat with fluid, vasopressor, anticholinergic and reduce the head-up tilt."
+  },
+  {
+    "q": "Why must BP be corrected for height in the beach-chair position?",
+    "o": [
+      "Cuff error",
+      "Brain perfusion is lower than at the arm cuff by the hydrostatic gradient",
+      "For accuracy only",
+      "No reason",
+      "To avoid bradycardia"
+    ],
+    "a": 1,
+    "why": "About 0.75 mmHg per cm above the cuff."
+  },
+  {
+    "q": "Which complication of interscalene block is near-universal?",
+    "o": [
+      "Horner’s",
+      "Ipsilateral phrenic nerve palsy",
+      "Pneumothorax",
+      "Spinal injection",
+      "Recurrent laryngeal palsy"
+    ],
+    "a": 1,
+    "why": "Assess respiratory reserve before."
+  },
+  {
+    "q": "Which embolic risk is raised in the sitting position?",
+    "o": [
+      "Fat embolism",
+      "Venous air embolism",
+      "Amniotic",
+      "Thromboembolism immediately",
+      "Cement"
+    ],
+    "a": 1,
+    "why": "The surgical site is above the heart."
+  },
+  {
+    "q": "Which monitoring may detect cerebral hypoperfusion in beach-chair?",
+    "o": [
+      "BIS alone",
+      "NIRS",
+      "Capnography",
+      "Temperature",
+      "Peripheral nerve stimulator"
+    ],
+    "a": 1,
+    "why": "Cerebral oximetry."
+  },
+  {
+    "q": "Which local anaesthetic is first choice for a Bier block?",
+    "o": [
+      "Bupivacaine",
+      "Prilocaine 0.5%",
+      "Lidocaine 2% with adrenaline",
+      "Ropivacaine",
+      "Levobupivacaine"
+    ],
+    "a": 1,
+    "why": "Bupivacaine is contraindicated (cardiotoxicity)."
+  },
+  {
+    "q": "Which complication follows large doses of prilocaine?",
+    "o": [
+      "Hyperkalaemia",
+      "Methaemoglobinaemia",
+      "Malignant hyperthermia",
+      "Seizures only",
+      "Bronchospasm"
+    ],
+    "a": 1,
+    "why": "Treat with methylene blue."
+  },
+  {
+    "q": "Which is an absolute contraindication to a Bier block?",
+    "o": [
+      "Carpal tunnel",
+      "AV fistula or Raynaud’s",
+      "Age over 70",
+      "Diabetes",
+      "Obesity"
+    ],
+    "a": 1,
+    "why": "Also Buerger’s disease, LA allergy and refusal."
+  },
+  {
+    "q": "A drug is accidentally injected intra-arterially. What is the first step?",
+    "o": [
+      "Remove the cannula",
+      "Stop injecting and leave the cannula in place",
+      "Flush with saline fast",
+      "Apply a tourniquet",
+      "Massage"
+    ],
+    "a": 1,
+    "why": "Use it for iloprost or LA; elevate, get vascular input and report."
+  },
+  {
+    "q": "Where is the BP cuff placed?",
+    "o": [
+      "On the operative arm",
+      "On the non-operative arm",
+      "On the leg only",
+      "Arterial line always",
+      "No BP needed"
+    ],
+    "a": 1,
+    "why": "Correct for height difference to the head."
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "t": "tip",
+  "shape": "brain",
+  "group": "Neuro",
+  "title": "Traumatic Brain Injury",
+  "cards": [
+    {
+      "h": "Mortality by severity",
+      "b": "file:cards/01-mortality-by-severity.html"
+    },
+    {
+      "h": "Classification",
+      "b": "file:cards/02-classification.html"
+    },
+    {
+      "h": "Management is tiered",
+      "b": "file:cards/03-management-is-tiered.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

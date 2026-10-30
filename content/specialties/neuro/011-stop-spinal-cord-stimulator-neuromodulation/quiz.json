@@ -1,0 +1,122 @@
+[
+  {
+    "q": "By what mechanism does spinal cord stimulation relieve pain?",
+    "o": [
+      "Blocking C fibres directly",
+      "Stimulating large A-beta fibres in the dorsal columns, activating inhibitory interneurons (gate control)",
+      "Releasing endorphins only",
+      "Blocking sodium channels",
+      "Ablating the dorsal horn"
+    ],
+    "a": 1,
+    "why": "Dorsal column stimulation activates A-beta fibres and inhibitory interneurons that \"gate\" pain."
+  },
+  {
+    "q": "Which is an indication for a spinal cord stimulator?",
+    "o": [
+      "Acute appendicitis",
+      "Failed back surgery syndrome or CRPS",
+      "Migraine",
+      "Osteoarthritis of the hip",
+      "Cancer pain only"
+    ],
+    "a": 1,
+    "why": "Indications include FBSS, CRPS type 1, refractory neuropathic pain, ischaemic pain and refractory angina."
+  },
+  {
+    "q": "Why is the trial lead often placed under local anaesthetic with light sedation?",
+    "o": [
+      "To save time",
+      "So the patient can report where the paraesthesia is felt",
+      "Because GA is contraindicated",
+      "To allow prone positioning",
+      "To avoid antibiotics"
+    ],
+    "a": 1,
+    "why": "Over-sedation stops the patient reporting paraesthesia coverage."
+  },
+  {
+    "q": "What is needed before permanent implantation of a stimulator?",
+    "o": [
+      "MRI",
+      "A successful trial (typically over 50% pain reduction) and psychological assessment",
+      "Nerve conduction studies",
+      "Bone scan",
+      "Nothing"
+    ],
+    "a": 1,
+    "why": "Selection: pain over 6 months, refractory, definite diagnosis, successful trial and psychological assessment."
+  },
+  {
+    "q": "Where is the pulse generator usually placed?",
+    "o": [
+      "In the neck",
+      "In the gluteal region or anterior abdominal wall",
+      "Intrathecally",
+      "In the chest wall always",
+      "In the thigh"
+    ],
+    "a": 1,
+    "why": "Usually in the buttock or abdominal wall; leads are often around T8–10."
+  },
+  {
+    "q": "What is the commonest delayed complication of spinal cord stimulators?",
+    "o": [
+      "Spinal cord injury",
+      "Lead migration",
+      "Meningitis",
+      "Paraplegia",
+      "Hypotension"
+    ],
+    "a": 1,
+    "why": "Lead migration or fracture, infection and device failure are common delayed problems."
+  },
+  {
+    "q": "A patient with a stimulator needs a laparotomy. What should be planned regarding diathermy?",
+    "o": [
+      "Use monopolar at high power",
+      "Discuss with the pain team or manufacturer; prefer bipolar and turn the device off",
+      "No precautions",
+      "Remove the device first",
+      "Use only ultrasonic scalpel without discussion"
+    ],
+    "a": 1,
+    "why": "Diathermy risks tissue heating and device damage; plan with the manufacturer and pain team."
+  },
+  {
+    "q": "What is chronic migraine?",
+    "o": [
+      "Headache on 4 days a month",
+      "Headache on 15 or more days a month for over 3 months",
+      "Any migraine with aura",
+      "Migraine lasting over 72 hours",
+      "Medication overuse"
+    ],
+    "a": 1,
+    "why": "Chronic migraine is 15 or more headache days a month for over 3 months."
+  },
+  {
+    "q": "How can migraine aura be distinguished from a TIA?",
+    "o": [
+      "Aura is sudden and simultaneous",
+      "Aura spreads gradually and sequentially; TIA symptoms start suddenly and together",
+      "TIA always causes headache",
+      "They cannot be distinguished",
+      "Aura only affects speech"
+    ],
+    "a": 1,
+    "why": "TIA symptoms are typically sudden and simultaneous; migraine aura spreads gradually."
+  },
+  {
+    "q": "Which drug is used to prevent frequent migraine?",
+    "o": [
+      "Sumatriptan",
+      "Propranolol or topiramate",
+      "Paracetamol",
+      "Codeine",
+      "Metoclopramide"
+    ],
+    "a": 1,
+    "why": "Preventives include propranolol, topiramate and valproate; triptans treat attacks."
+  }
+]

@@ -1,0 +1,30 @@
+{
+  "t": "tip",
+  "shape": "warn",
+  "group": "Critical incidents",
+  "title": "Malignant Hyperthermia",
+  "cards": [
+    {
+      "h": "Overview",
+      "b": "file:cards/01-overview.html"
+    },
+    {
+      "h": "Hypermetabolism",
+      "b": "file:cards/02-hypermetabolism.html"
+    },
+    {
+      "h": "Prevention",
+      "b": "file:cards/03-prevention.html"
+    },
+    {
+      "h": "Treatment",
+      "b": "file:cards/04-treatment.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/05-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

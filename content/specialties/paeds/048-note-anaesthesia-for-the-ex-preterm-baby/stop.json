@@ -1,0 +1,38 @@
+{
+  "t": "tip",
+  "shape": "dummy",
+  "group": "Paeds",
+  "title": "Anaesthesia for the Ex-Preterm Baby",
+  "cards": [
+    {
+      "h": "WHO prematurity definitions",
+      "b": "file:cards/01-who-prematurity-definitions.html"
+    },
+    {
+      "h": "A: Airway",
+      "b": "file:cards/02-a-airway.html"
+    },
+    {
+      "h": "B: Breathing",
+      "b": "file:cards/03-b-breathing.html"
+    },
+    {
+      "h": "C: Circulation",
+      "b": "file:cards/04-c-circulation.html"
+    },
+    {
+      "h": "D: Disability",
+      "b": "file:cards/05-d-disability.html"
+    },
+    {
+      "h": "E: Exposure and other systems",
+      "b": "file:cards/06-e-exposure-and-other-systems.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/07-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

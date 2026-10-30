@@ -1,0 +1,122 @@
+[
+  {
+    "q": "Which anaemia is common with right-sided colon tumours?",
+    "o": [
+      "B12 deficiency",
+      "Iron-deficiency anaemia",
+      "Haemolytic",
+      "Aplastic",
+      "Sideroblastic"
+    ],
+    "a": 1,
+    "why": "Correct with IV or oral iron (CPOC 2022)."
+  },
+  {
+    "q": "Which spinal opioid is given before induction for laparoscopic cases in the recipe?",
+    "o": [
+      "Fentanyl only",
+      "Intrathecal diamorphine",
+      "Epidural morphine",
+      "Clonidine",
+      "Ketamine"
+    ],
+    "a": 1,
+    "why": "If no contraindication."
+  },
+  {
+    "q": "Which risk score is used for emergency laparotomy?",
+    "o": [
+      "STOP-BANG",
+      "NELA or P-POSSUM",
+      "Apfel",
+      "Wells",
+      "CHA2DS2-VASc"
+    ],
+    "a": 1,
+    "why": "Guides HDU/ICU planning."
+  },
+  {
+    "q": "When is RSI indicated for hemicolectomy?",
+    "o": [
+      "Never",
+      "If obstructed, after aspirating the NGT",
+      "Always",
+      "Only with epidural",
+      "Only right-sided"
+    ],
+    "a": 1,
+    "why": "Vomiting and distension raise aspiration risk."
+  },
+  {
+    "q": "Which cannula convention is used?",
+    "o": [
+      "16G awake",
+      "20G for induction, then 16G once asleep",
+      "14G only",
+      "Central only",
+      "IO"
+    ],
+    "a": 1,
+    "why": "20G then 16G."
+  },
+  {
+    "q": "Which ERAS element reduces insulin resistance?",
+    "o": [
+      "Bowel prep",
+      "Carbohydrate loading",
+      "NG tube",
+      "Prolonged fasting",
+      "Drains"
+    ],
+    "a": 1,
+    "why": "Avoid prolonged fasting."
+  },
+  {
+    "q": "Which test helps when fitness is borderline?",
+    "o": [
+      "Spirometry",
+      "CPET",
+      "Echo only",
+      "CXR",
+      "Holter"
+    ],
+    "a": 1,
+    "why": "Cardiopulmonary exercise testing."
+  },
+  {
+    "q": "Which management is used for ileus?",
+    "o": [
+      "Opioids",
+      "NG decompression, electrolyte correction and prokinetics",
+      "Laxatives",
+      "Fluid loading",
+      "Antibiotics"
+    ],
+    "a": 1,
+    "why": "Chewing gum also suggested."
+  },
+  {
+    "q": "What is a benefit of ERAS?",
+    "o": [
+      "Longer stay",
+      "Reduced length of stay and complications",
+      "More ileus",
+      "More PONV",
+      "Higher cost"
+    ],
+    "a": 1,
+    "why": "And reduced stress response."
+  },
+  {
+    "q": "Why examine fluid status before surgery?",
+    "o": [
+      "Routine only",
+      "Dehydration after bowel preparation or obstruction",
+      "To check BMI",
+      "Not needed",
+      "For consent"
+    ],
+    "a": 1,
+    "why": "Guides induction and fluids."
+  }
+]

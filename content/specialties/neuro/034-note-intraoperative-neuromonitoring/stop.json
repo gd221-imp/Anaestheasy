@@ -1,0 +1,26 @@
+{
+  "t": "tip",
+  "shape": "brain",
+  "group": "Neuro",
+  "title": "Intraoperative Neuromonitoring",
+  "cards": [
+    {
+      "h": "Indications",
+      "b": "file:cards/01-indications.html"
+    },
+    {
+      "h": "Modalities",
+      "b": "file:cards/02-modalities.html"
+    },
+    {
+      "h": "Factors affecting IONM signals",
+      "b": "file:cards/03-factors-affecting-ionm-signals.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/04-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

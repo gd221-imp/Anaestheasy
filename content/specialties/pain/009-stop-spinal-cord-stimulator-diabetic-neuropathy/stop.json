@@ -1,0 +1,21 @@
+{
+  "t": "tip",
+  "shape": "face",
+  "group": "Pain",
+  "title": "Spinal Cord Stimulator & Diabetic Neuropathy",
+  "cards": [
+    {
+      "h": "Spinal cord stimulator (SCS)",
+      "b": "file:cards/01-spinal-cord-stimulator-scs.html"
+    },
+    {
+      "h": "Diabetic neuropathy",
+      "b": "file:cards/02-diabetic-neuropathy.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/03-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json"
+}

@@ -1,0 +1,1570 @@
+[
+  {
+    "id": "P001",
+    "ar": "Anatomy",
+    "sb": "Nasal Anatomy",
+    "tp": "ana0",
+    "q": "During nasotracheal intubation, the tube is passed along the floor of the nose. Which structure forms most of the lateral wall of the nasal cavity that the tube must avoid?",
+    "o": [
+      "The turbinates (conchae)",
+      "The cribriform plate",
+      "The hard palate",
+      "The palatine tonsil",
+      "The nasal septum"
+    ],
+    "a": 0,
+    "why": "The lateral wall carries the three turbinates (conchae) with their meatuses. Passing the tube along the nasal floor, below the inferior turbinate, reduces turbinate trauma and bleeding. The septum is the medial wall, the cribriform plate the roof and the hard palate the floor."
+  },
+  {
+    "id": "P002",
+    "ar": "Anatomy",
+    "sb": "Nasal Anatomy",
+    "tp": "ana0",
+    "q": "Which sinus or duct drains into the inferior meatus of the nose?",
+    "o": [
+      "Maxillary sinus",
+      "Frontal sinus",
+      "Posterior ethmoidal air cells",
+      "Sphenoid sinus",
+      "Nasolacrimal duct"
+    ],
+    "a": 4,
+    "why": "The nasolacrimal duct opens into the inferior meatus. The frontal, maxillary and anterior ethmoidal sinuses drain into the middle meatus (hiatus semilunaris), the posterior ethmoidal cells into the superior meatus, and the sphenoid sinus into the sphenoethmoidal recess."
+  },
+  {
+    "id": "P003",
+    "ar": "Anatomy",
+    "sb": "Oral Cavity, Pharynx &amp; Larynx",
+    "tp": "ana1",
+    "q": "Which muscle is the only one that abducts the vocal cords?",
+    "o": [
+      "Thyroarytenoid",
+      "Lateral cricoarytenoid",
+      "Transverse arytenoid",
+      "Posterior cricoarytenoid",
+      "Cricothyroid"
+    ],
+    "a": 3,
+    "why": "Posterior cricoarytenoid is the sole abductor. Lateral cricoarytenoid and the arytenoids adduct; cricothyroid tenses the cords (external branch of the superior laryngeal nerve); thyroarytenoid relaxes them. All except cricothyroid are supplied by the recurrent laryngeal nerve."
+  },
+  {
+    "id": "P004",
+    "ar": "Anatomy",
+    "sb": "Oral Cavity, Pharynx &amp; Larynx",
+    "tp": "ana1",
+    "q": "Sensation to the laryngeal mucosa above the vocal cords is supplied by which nerve?",
+    "o": [
+      "Glossopharyngeal nerve",
+      "Recurrent laryngeal nerve",
+      "External branch of the superior laryngeal nerve",
+      "Hypoglossal nerve",
+      "Internal branch of the superior laryngeal nerve"
+    ],
+    "a": 4,
+    "why": "The internal laryngeal nerve pierces the thyrohyoid membrane to supply sensation above the cords (and is blocked at the greater horn of the hyoid for awake intubation). The recurrent laryngeal supplies sensation below the cords. The glossopharyngeal supplies the posterior third of the tongue and oropharynx."
+  },
+  {
+    "id": "P005",
+    "ar": "Anatomy",
+    "sb": "Trachea, Main Bronchi &amp; Bronchopulmonary Segments",
+    "tp": "ana2",
+    "q": "Why is an inhaled foreign body in an adult more likely to enter the right main bronchus?",
+    "o": [
+      "The carina lies to the right of the midline",
+      "The right bronchus is wider, shorter and more vertical",
+      "The right bronchus is longer and narrower",
+      "The right lung has fewer segments",
+      "The left bronchus is guarded by the aortic arch valve"
+    ],
+    "a": 1,
+    "why": "The right main bronchus is about 2.5 cm long, wider and leaves at about 25° from vertical; the left is about 5 cm, narrower and at about 45°, passing under the aortic arch. The right upper lobe bronchus arises within 2.5 cm of the carina, which matters for right-sided double-lumen tubes."
+  },
+  {
+    "id": "P006",
+    "ar": "Anatomy",
+    "sb": "Trachea, Main Bronchi &amp; Bronchopulmonary Segments",
+    "tp": "ana2",
+    "q": "How many bronchopulmonary segments does the right lung typically have?",
+    "o": [
+      "9",
+      "8",
+      "12",
+      "11",
+      "10"
+    ],
+    "a": 4,
+    "why": "The right lung has 10 segments: upper lobe 3 (apical, posterior, anterior), middle lobe 2 (lateral, medial), lower lobe 5 (superior, medial, anterior, lateral and posterior basal). The left has 8–10 depending on whether apicoposterior and anteromedial segments are counted as fused."
+  },
+  {
+    "id": "P007",
+    "ar": "Anatomy",
+    "sb": "Microstructure of the Lungs &amp; Pleura",
+    "tp": "ana3",
+    "q": "Which cell produces surfactant in the alveolus?",
+    "o": [
+      "Club (Clara) cell",
+      "Type I pneumocyte",
+      "Goblet cell",
+      "Alveolar macrophage",
+      "Type II pneumocyte"
+    ],
+    "a": 4,
+    "why": "Type II pneumocytes (cuboidal, about 5% of surface area) secrete surfactant (mainly dipalmitoylphosphatidylcholine) and act as progenitors for type I cells. Type I cells are thin and cover about 95% of the alveolar surface for gas exchange. Club cells line the bronchioles."
+  },
+  {
+    "id": "P008",
+    "ar": "Anatomy",
+    "sb": "Microstructure of the Lungs &amp; Pleura",
+    "tp": "ana3",
+    "q": "What is the approximate thickness of the alveolar–capillary barrier at its thinnest point?",
+    "o": [
+      "10–20 micrometres",
+      "0.2–0.5 micrometres",
+      "2–5 micrometres",
+      "0.2–0.5 millimetres",
+      "50 micrometres"
+    ],
+    "a": 1,
+    "why": "The blood–gas barrier (type I cell, fused basement membranes and endothelium) is about 0.2–0.5 µm thick over a surface area of 50–100 m², which suits rapid diffusion according to Fick's law."
+  },
+  {
+    "id": "P009",
+    "ar": "Anatomy",
+    "sb": "Mediastinum and Contents",
+    "tp": "ana4",
+    "q": "Which structure lies in the posterior mediastinum?",
+    "o": [
+      "Thymus",
+      "Ascending aorta",
+      "Phrenic nerve",
+      "Descending thoracic aorta",
+      "Pericardium"
+    ],
+    "a": 3,
+    "why": "The posterior mediastinum contains the descending aorta, oesophagus, thoracic duct, azygos and hemiazygos veins and the sympathetic chains (alongside). The thymus is in the anterior (and superior) mediastinum; the heart, pericardium, ascending aorta and phrenic nerves are in the middle mediastinum."
+  },
+  {
+    "id": "P010",
+    "ar": "Anatomy",
+    "sb": "Mediastinum and Contents",
+    "tp": "ana4",
+    "q": "The boundary between the superior and inferior mediastinum is a plane passing through which level?",
+    "o": [
+      "The manubriosternal angle and the T4/T5 disc",
+      "The xiphisternum and T9",
+      "The sternal notch and C7",
+      "The suprasternal notch and T2",
+      "The nipple line and T6"
+    ],
+    "a": 0,
+    "why": "The transverse thoracic plane runs from the angle of Louis to the T4/5 intervertebral disc. At this level the aortic arch begins and ends, the trachea bifurcates, the azygos enters the SVC and the second costal cartilage articulates."
+  },
+  {
+    "id": "P011",
+    "ar": "Anatomy",
+    "sb": "Paediatric vs Adult Anatomical Differences",
+    "tp": "ana5",
+    "q": "Compared with an adult, which feature describes the neonatal airway?",
+    "o": [
+      "The trachea is relatively long and narrow",
+      "The epiglottis is short, broad and stiff",
+      "The cricoid ring is the narrowest fixed point",
+      "The tongue is relatively small for the mouth",
+      "The larynx sits lower, at C5–C6"
+    ],
+    "a": 4,
+    "why": "Neonates have a larynx at about C3–C4, a long floppy U-shaped epiglottis, a relatively large tongue and occiput, and a short trachea (about 4–5 cm). The subglottis at the cricoid has traditionally been described as the narrowest point; MRI studies suggest the glottis is narrowest but the cricoid ring is non-distensible."
+  },
+  {
+    "id": "P012",
+    "ar": "Anatomy",
+    "sb": "Paediatric vs Adult Anatomical Differences",
+    "tp": "ana5",
+    "q": "Why is a neonate's diaphragm more prone to fatigue than an adult's?",
+    "o": [
+      "It has no central tendon at birth",
+      "It has fewer fatigue-resistant type I fibres",
+      "It is innervated by C2–C3 roots only",
+      "It contains more fatigue-resistant fibres",
+      "It inserts higher on more vertical ribs"
+    ],
+    "a": 1,
+    "why": "The neonatal diaphragm has about 25% type I fibres (about 55% in adults), its ribs are horizontal and the chest wall is compliant, so the work of breathing is high and fatigue occurs early, particularly in preterm infants."
+  },
+  {
+    "id": "P013",
+    "ar": "Anatomy",
+    "sb": "Anatomical Basis of Airway Management",
+    "tp": "ana6",
+    "q": "The cricothyroid membrane is identified for emergency front-of-neck access. What lies immediately superior to it?",
+    "o": [
+      "Thyroid isthmus",
+      "Cricoid cartilage",
+      "Hyoid bone",
+      "First tracheal ring",
+      "Thyroid cartilage"
+    ],
+    "a": 4,
+    "why": "The cricothyroid membrane lies between the inferior border of the thyroid cartilage and the superior border of the cricoid cartilage. The thyroid isthmus usually lies over tracheal rings 2–4, so it is below the membrane. DAS recommends the laryngeal handshake to locate it."
+  },
+  {
+    "id": "P014",
+    "ar": "Anatomy",
+    "sb": "Anatomical Basis of Airway Management",
+    "tp": "ana6",
+    "q": "During laryngoscopy with a Macintosh blade, where is the blade tip placed?",
+    "o": [
+      "On the arytenoid cartilages posteriorly",
+      "In the vallecula, anterior to the epiglottis",
+      "Against the posterior pharyngeal wall",
+      "In the piriform fossa beside the larynx",
+      "Posterior to the epiglottis, lifting it directly"
+    ],
+    "a": 1,
+    "why": "The curved Macintosh blade tip sits in the vallecula; lifting tensions the hyoepiglottic ligament, which elevates the epiglottis indirectly. A straight (Miller) blade lifts the epiglottis directly, which is helpful in infants with a long floppy epiglottis."
+  },
+  {
+    "id": "P015",
+    "ar": "Anatomy",
+    "sb": "Anatomy of the Heart",
+    "tp": "ana7",
+    "q": "Which cardiac valve has three cusps named anterior, posterior and septal?",
+    "o": [
+      "Tricuspid valve",
+      "Pulmonary valve",
+      "Mitral valve",
+      "Eustachian valve",
+      "Aortic valve"
+    ],
+    "a": 0,
+    "why": "The tricuspid valve has anterior, posterior and septal leaflets. The mitral valve has anterior and posterior leaflets. The aortic valve has right, left and non-coronary (posterior) cusps; the pulmonary valve has anterior, left and right cusps."
+  },
+  {
+    "id": "P016",
+    "ar": "Anatomy",
+    "sb": "Anatomy of the Heart",
+    "tp": "ana7",
+    "q": "Which chamber forms most of the anterior (sternocostal) surface of the heart?",
+    "o": [
+      "Left ventricle",
+      "Right atrium",
+      "Left auricle",
+      "Left atrium",
+      "Right ventricle"
+    ],
+    "a": 4,
+    "why": "The right ventricle forms most of the sternocostal surface. The left ventricle forms the apex and most of the left border and diaphragmatic surface; the left atrium forms most of the base (posterior surface), lying close to the oesophagus, which is why TOE images it well."
+  },
+  {
+    "id": "P017",
+    "ar": "Anatomy",
+    "sb": "Coronary Circulation",
+    "tp": "ana8",
+    "q": "In a right-dominant coronary circulation, which artery gives rise to the posterior descending artery?",
+    "o": [
+      "Circumflex",
+      "Left main stem",
+      "Right coronary",
+      "Left anterior descending",
+      "Obtuse marginal"
+    ],
+    "a": 2,
+    "why": "Dominance is defined by which artery supplies the posterior descending artery. About 70–80% of people are right dominant (RCA), around 10% left dominant (circumflex) and the remainder co-dominant."
+  },
+  {
+    "id": "P018",
+    "ar": "Anatomy",
+    "sb": "Coronary Circulation",
+    "tp": "ana8",
+    "q": "Which coronary artery most commonly supplies the sinoatrial node?",
+    "o": [
+      "Right coronary artery",
+      "First diagonal artery",
+      "Left anterior descending artery",
+      "Posterior descending artery",
+      "Circumflex artery"
+    ],
+    "a": 0,
+    "why": "The SA nodal artery arises from the RCA in about 60% and from the circumflex in about 40%. The AV node is supplied by the artery that gives the posterior descending artery (usually the RCA), so inferior MI often causes heart block."
+  },
+  {
+    "id": "P019",
+    "ar": "Anatomy",
+    "sb": "Conducting System of the Heart",
+    "tp": "ana9",
+    "q": "What is the main physiological purpose of the delay at the atrioventricular node?",
+    "o": [
+      "To protect the SA node from overdrive pacing",
+      "To let atrial systole finish ventricular filling",
+      "To synchronise contraction of papillary muscles",
+      "To lengthen the QT interval and refractoriness",
+      "To prevent retrograde conduction to the atria"
+    ],
+    "a": 1,
+    "why": "Slow conduction through the AV node (about 0.1 s, giving much of the PR interval) allows atrial systole to finish filling the ventricles before they contract. It also limits ventricular rate during atrial tachyarrhythmias."
+  },
+  {
+    "id": "P020",
+    "ar": "Anatomy",
+    "sb": "Conducting System of the Heart",
+    "tp": "ana9",
+    "q": "Which part of the conducting system has the fastest conduction velocity?",
+    "o": [
+      "SA node",
+      "AV node",
+      "Purkinje fibres",
+      "Atrial myocardium",
+      "Bundle of His"
+    ],
+    "a": 2,
+    "why": "Purkinje fibres conduct at about 2–4 m/s, allowing near-simultaneous ventricular activation. The AV node is slowest (about 0.05 m/s); atrial muscle and the bundle of His conduct at about 1 m/s."
+  },
+  {
+    "id": "P021",
+    "ar": "Anatomy",
+    "sb": "Great Vessels",
+    "tp": "ana10",
+    "q": "Which is the first branch of the aortic arch?",
+    "o": [
+      "Brachiocephalic trunk",
+      "Left subclavian artery",
+      "Left common carotid artery",
+      "Thyroidea ima artery",
+      "Right subclavian artery"
+    ],
+    "a": 0,
+    "why": "The arch gives the brachiocephalic trunk, then the left common carotid, then the left subclavian. The brachiocephalic divides behind the right sternoclavicular joint into the right subclavian and right common carotid arteries."
+  },
+  {
+    "id": "P022",
+    "ar": "Anatomy",
+    "sb": "Great Vessels",
+    "tp": "ana10",
+    "q": "Which nerve hooks under the aortic arch, explaining left vocal cord palsy with aortic arch aneurysms?",
+    "o": [
+      "Left phrenic nerve",
+      "Left recurrent laryngeal nerve",
+      "Left superior laryngeal nerve",
+      "Left vagus nerve trunk",
+      "Left sympathetic chain"
+    ],
+    "a": 1,
+    "why": "The left recurrent laryngeal nerve loops under the arch near the ligamentum arteriosum and ascends in the tracheo-oesophageal groove. The right recurrent nerve loops under the right subclavian artery. A large left atrium or arch aneurysm can compress the left nerve (Ortner's syndrome)."
+  },
+  {
+    "id": "P023",
+    "ar": "Anatomy",
+    "sb": "Blood Supply to the Brain",
+    "tp": "ana11",
+    "q": "The anterior cerebral artery supplies which territory?",
+    "o": [
+      "Brainstem and cerebellum",
+      "Occipital lobe",
+      "Internal capsule only",
+      "Lateral surface of the frontal and parietal lobes",
+      "Medial surface of the frontal and parietal lobes"
+    ],
+    "a": 4,
+    "why": "The ACA supplies the medial frontal and parietal cortex, so occlusion causes contralateral leg weakness and sensory loss. The MCA supplies most of the lateral cortex (face and arm, language in the dominant hemisphere); the PCA supplies the occipital lobe."
+  },
+  {
+    "id": "P024",
+    "ar": "Anatomy",
+    "sb": "Blood Supply to the Brain",
+    "tp": "ana11",
+    "q": "The two vertebral arteries unite to form which vessel?",
+    "o": [
+      "Middle cerebral artery",
+      "Anterior spinal artery",
+      "Posterior cerebral artery",
+      "Basilar artery",
+      "Internal carotid artery"
+    ],
+    "a": 3,
+    "why": "The vertebral arteries ascend through the foramina transversaria of C6–C1, enter via the foramen magnum and join at the pontomedullary junction to form the basilar artery, which divides into the two posterior cerebral arteries."
+  },
+  {
+    "id": "P025",
+    "ar": "Anatomy",
+    "sb": "Lower Limb Nerve Supply — Lumbar &amp; Sacral Plexus",
+    "tp": "ana12",
+    "q": "Which nerve roots form the femoral nerve?",
+    "o": [
+      "L2–L4 (anterior divisions)",
+      "S2–S4",
+      "L4–S3",
+      "L1–L2",
+      "L2–L4 (posterior divisions)"
+    ],
+    "a": 4,
+    "why": "The femoral nerve arises from the posterior divisions of L2–L4; the obturator nerve from the anterior divisions of L2–L4. The sciatic nerve arises from L4–S3 and the pudendal from S2–S4."
+  },
+  {
+    "id": "P026",
+    "ar": "Anatomy",
+    "sb": "Lower Limb Nerve Supply — Lumbar &amp; Sacral Plexus",
+    "tp": "ana12",
+    "q": "Which nerve supplies sensation to the medial side of the leg down to the medial malleolus?",
+    "o": [
+      "Saphenous nerve",
+      "Superficial peroneal nerve",
+      "Sural nerve",
+      "Obturator nerve",
+      "Lateral cutaneous nerve of thigh"
+    ],
+    "a": 0,
+    "why": "The saphenous nerve is the terminal sensory branch of the femoral nerve. It supplies the medial leg and ankle, which is why a sciatic or popliteal block alone does not give complete analgesia below the knee."
+  },
+  {
+    "id": "P027",
+    "ar": "Anatomy",
+    "sb": "The Nose (Blood Supply)",
+    "tp": "ana13",
+    "q": "Kiesselbach's plexus (Little's area), the commonest site of epistaxis, lies on which part of the nose?",
+    "o": [
+      "Posterior lateral wall",
+      "Inferior turbinate",
+      "Posterior choana",
+      "Anterior nasal septum",
+      "Roof of the nasal cavity"
+    ],
+    "a": 3,
+    "why": "Little's area on the anteroinferior septum is an anastomosis of the anterior ethmoidal, sphenopalatine, greater palatine and superior labial (facial) arteries. Posterior bleeds usually arise from sphenopalatine branches."
+  },
+  {
+    "id": "P028",
+    "ar": "Anatomy",
+    "sb": "The Nose (Blood Supply)",
+    "tp": "ana13",
+    "q": "Which artery is the main arterial supply to the nasal cavity?",
+    "o": [
+      "Lingual artery",
+      "Sphenopalatine artery",
+      "Facial artery",
+      "Ascending pharyngeal artery",
+      "Ophthalmic artery"
+    ],
+    "a": 1,
+    "why": "The sphenopalatine artery, a terminal branch of the maxillary artery (external carotid), is the main supply. The anterior and posterior ethmoidal arteries come from the ophthalmic artery (internal carotid); the facial artery contributes via the superior labial artery."
+  },
+  {
+    "id": "P029",
+    "ar": "Anatomy",
+    "sb": "The Pharynx",
+    "tp": "ana14",
+    "q": "What is the motor nerve supply to most muscles of the pharynx?",
+    "o": [
+      "Pharyngeal plexus (mainly vagus)",
+      "Facial nerve",
+      "Hypoglossal nerve",
+      "Glossopharyngeal nerve",
+      "Trigeminal nerve"
+    ],
+    "a": 0,
+    "why": "The pharyngeal constrictors and most palatal muscles are supplied by the vagus via the pharyngeal plexus. The exceptions are stylopharyngeus (glossopharyngeal) and tensor veli palatini (mandibular division of trigeminal)."
+  },
+  {
+    "id": "P030",
+    "ar": "Anatomy",
+    "sb": "The Pharynx",
+    "tp": "ana14",
+    "q": "At which vertebral level does the pharynx become the oesophagus in an adult?",
+    "o": [
+      "C3",
+      "T4",
+      "C6",
+      "C4",
+      "T1"
+    ],
+    "a": 2,
+    "why": "The pharynx ends and the oesophagus begins at the lower border of the cricoid cartilage, at C6, where cricopharyngeus forms the upper oesophageal sphincter. The larynx also becomes the trachea at C6."
+  },
+  {
+    "id": "P031",
+    "ar": "Anatomy",
+    "sb": "The Larynx",
+    "tp": "ana15",
+    "q": "Which laryngeal cartilage is the only complete ring?",
+    "o": [
+      "Thyroid",
+      "Arytenoid",
+      "Epiglottis",
+      "Corniculate",
+      "Cricoid"
+    ],
+    "a": 4,
+    "why": "The cricoid is the only complete cartilaginous ring in the airway, shaped like a signet ring (taller posteriorly). This is why cricoid pressure can compress the oesophagus against C6, and why it limits tube size in children."
+  },
+  {
+    "id": "P032",
+    "ar": "Anatomy",
+    "sb": "The Larynx",
+    "tp": "ana15",
+    "q": "Damage to the external branch of the superior laryngeal nerve during thyroidectomy causes which deficit?",
+    "o": [
+      "Loss of sensation below the cords",
+      "Complete loss of voice (aphonia)",
+      "Aspiration from loss of the cough reflex",
+      "Weak voice with loss of high pitch",
+      "Stridor from bilateral cord adduction"
+    ],
+    "a": 3,
+    "why": "The external laryngeal nerve, running with the superior thyroid artery, supplies cricothyroid, which tenses the cords. Injury causes a weak voice that cannot reach high pitch. Bilateral recurrent laryngeal nerve injury causes stridor."
+  },
+  {
+    "id": "P033",
+    "ar": "Anatomy",
+    "sb": "The Neck (Root of Neck at C6)",
+    "tp": "ana16",
+    "q": "Which structure lies at the level of C6?",
+    "o": [
+      "Hyoid bone",
+      "Cricoid cartilage",
+      "Upper border of the thyroid cartilage",
+      "Sternal notch",
+      "Carotid bifurcation"
+    ],
+    "a": 1,
+    "why": "At C6 lie the cricoid cartilage, the start of the trachea and oesophagus, the carotid (Chassaignac's) tubercle, where the vertebral artery enters the foramen transversarium and the middle cervical ganglion. The hyoid is at C3 and the carotid bifurcation at the upper border of the thyroid cartilage (C4)."
+  },
+  {
+    "id": "P034",
+    "ar": "Anatomy",
+    "sb": "The Neck (Root of Neck at C6)",
+    "tp": "ana16",
+    "q": "The stellate ganglion lies anterior to which structure?",
+    "o": [
+      "The cricoid cartilage",
+      "The carotid tubercle at C4",
+      "The transverse process of C6",
+      "The neck of the first rib",
+      "The body of T4"
+    ],
+    "a": 3,
+    "why": "The stellate ganglion (fused inferior cervical and first thoracic ganglia) lies anterior to the neck of the first rib and the C7 transverse process, near the vertebral artery and pleural dome. It is commonly blocked at C6 (Chassaignac's tubercle) with spread downwards."
+  },
+  {
+    "id": "P035",
+    "ar": "Anatomy",
+    "sb": "The Diaphragm",
+    "tp": "ana17",
+    "q": "At which vertebral level does the oesophagus pass through the diaphragm?",
+    "o": [
+      "L1",
+      "T8",
+      "T6",
+      "T12",
+      "T10"
+    ],
+    "a": 4,
+    "why": "Remember 'I 8 10 eggs at 12': IVC at T8 (with the right phrenic nerve), oesophagus at T10 (with the vagal trunks), aorta at T12 (with the thoracic duct and azygos vein)."
+  },
+  {
+    "id": "P036",
+    "ar": "Anatomy",
+    "sb": "The Diaphragm",
+    "tp": "ana17",
+    "q": "What is the motor nerve supply to the diaphragm?",
+    "o": [
+      "Phrenic nerves C3–C5",
+      "Vagus nerves",
+      "Accessory nerve",
+      "Phrenic nerves C5–C7",
+      "Intercostal nerves T7–T12"
+    ],
+    "a": 0,
+    "why": "Motor supply is entirely from the phrenic nerves (C3, 4, 5). The peripheral diaphragm receives sensory fibres from the lower intercostal nerves. Interscalene blocks almost always block the ipsilateral phrenic nerve, causing hemidiaphragmatic paresis."
+  },
+  {
+    "id": "P037",
+    "ar": "Anatomy",
+    "sb": "The Epidural Space",
+    "tp": "ana18",
+    "q": "In an adult, where does the epidural space end inferiorly?",
+    "o": [
+      "L3",
+      "Coccyx tip",
+      "S2",
+      "Sacral hiatus",
+      "L1"
+    ],
+    "a": 3,
+    "why": "The epidural space extends from the foramen magnum (where the dura fuses with the periosteum) to the sacrococcygeal membrane at the sacral hiatus. The dural sac ends at about S2 and the spinal cord at about L1–L2 in adults."
+  },
+  {
+    "id": "P038",
+    "ar": "Anatomy",
+    "sb": "The Epidural Space",
+    "tp": "ana18",
+    "q": "Which ligament is the last to be traversed before entering the epidural space in the midline approach?",
+    "o": [
+      "Supraspinous ligament",
+      "Interspinous ligament",
+      "Posterior longitudinal ligament",
+      "Anterior longitudinal ligament",
+      "Ligamentum flavum"
+    ],
+    "a": 4,
+    "why": "Midline order: skin, subcutaneous tissue, supraspinous ligament, interspinous ligament, ligamentum flavum, epidural space. The ligamentum flavum gives the characteristic resistance before loss of resistance. The posterior longitudinal ligament lies on the front wall of the canal."
+  },
+  {
+    "id": "P039",
+    "ar": "Anatomy",
+    "sb": "The Vertebral Column",
+    "tp": "ana19",
+    "q": "Which vertebra has a long, usually non-bifid spinous process that is the most prominent palpable spine at the base of the neck?",
+    "o": [
+      "T4",
+      "C6",
+      "C7",
+      "C1",
+      "C2"
+    ],
+    "a": 2,
+    "why": "C7 (vertebra prominens) has the longest cervical spinous process, usually not bifid, and is a key surface landmark. Typical cervical vertebrae (C3–C6) have bifid spines and foramina transversaria; at C7 the foramen usually transmits only vertebral veins."
+  },
+  {
+    "id": "P040",
+    "ar": "Anatomy",
+    "sb": "The Vertebral Column",
+    "tp": "ana19",
+    "q": "Tuffier's line, joining the iliac crests, crosses the spine at approximately which level?",
+    "o": [
+      "L1",
+      "L2",
+      "S1",
+      "T12",
+      "L4 or L4/5"
+    ],
+    "a": 4,
+    "why": "The intercristal line usually crosses L4 or the L4/5 interspace, though clinical estimates are often one space too high. Spinals are performed below L1–L2 to avoid the conus medullaris."
+  },
+  {
+    "id": "P041",
+    "ar": "Anatomy",
+    "sb": "The Caudal Space",
+    "tp": "ana20",
+    "q": "Which landmarks form the sacral hiatus used for caudal block?",
+    "o": [
+      "The sacral cornua",
+      "The posterior superior iliac spines",
+      "The S2 foramina",
+      "The coccygeal tip",
+      "The iliac crests"
+    ],
+    "a": 0,
+    "why": "The sacral hiatus results from failed fusion of the S5 (and sometimes S4) laminae and is bordered by the sacral cornua. It is covered by the sacrococcygeal ligament. The hiatus and the PSIS form an approximately equilateral triangle."
+  },
+  {
+    "id": "P042",
+    "ar": "Anatomy",
+    "sb": "The Caudal Space",
+    "tp": "ana20",
+    "q": "In a neonate, where does the dural sac usually end?",
+    "o": [
+      "Coccyx",
+      "S3–S4",
+      "S1",
+      "L1",
+      "L3"
+    ],
+    "a": 1,
+    "why": "In neonates the dural sac ends at about S3–S4 (adults S2) and the spinal cord at about L3 (adults L1–L2), so the needle should be advanced only a few millimetres beyond the sacrococcygeal ligament during caudal block."
+  },
+  {
+    "id": "P043",
+    "ar": "Anatomy",
+    "sb": "Skull Base",
+    "tp": "ana21",
+    "q": "Which structure passes through the jugular foramen?",
+    "o": [
+      "Internal carotid artery",
+      "CN XII",
+      "CN IX, X and XI",
+      "CN V3",
+      "CN VII"
+    ],
+    "a": 2,
+    "why": "The jugular foramen transmits CN IX, X and XI and the internal jugular vein (sigmoid sinus). The hypoglossal nerve passes through the hypoglossal canal, the facial nerve through the internal acoustic meatus, and the mandibular nerve through foramen ovale."
+  },
+  {
+    "id": "P044",
+    "ar": "Anatomy",
+    "sb": "Skull Base",
+    "tp": "ana21",
+    "q": "Through which foramen does the maxillary division of the trigeminal nerve leave the skull?",
+    "o": [
+      "Foramen rotundum",
+      "Foramen spinosum",
+      "Stylomastoid foramen",
+      "Superior orbital fissure",
+      "Foramen ovale"
+    ],
+    "a": 0,
+    "why": "V1 (ophthalmic) passes through the superior orbital fissure, V2 (maxillary) through foramen rotundum and V3 (mandibular) through foramen ovale. Foramen spinosum transmits the middle meningeal artery; the stylomastoid foramen transmits the facial nerve."
+  },
+  {
+    "id": "P045",
+    "ar": "Anatomy",
+    "sb": "Circle of Willis",
+    "tp": "ana22",
+    "q": "Which vessel connects the internal carotid artery to the posterior cerebral artery in the circle of Willis?",
+    "o": [
+      "Posterior communicating artery",
+      "Superior cerebellar artery",
+      "Anterior communicating artery",
+      "Basilar artery",
+      "Anterior choroidal artery"
+    ],
+    "a": 0,
+    "why": "The posterior communicating arteries link the carotid and vertebrobasilar systems. The anterior communicating artery links the two anterior cerebral arteries and is the commonest site of berry aneurysm. A complete textbook circle is present in under half of people."
+  },
+  {
+    "id": "P046",
+    "ar": "Anatomy",
+    "sb": "Circle of Willis",
+    "tp": "ana22",
+    "q": "An aneurysm of the posterior communicating artery classically compresses which cranial nerve?",
+    "o": [
+      "Facial nerve",
+      "Oculomotor nerve",
+      "Abducens nerve",
+      "Optic nerve",
+      "Trochlear nerve"
+    ],
+    "a": 1,
+    "why": "The oculomotor nerve passes between the posterior cerebral and superior cerebellar arteries, close to the posterior communicating artery. Compression gives a painful third nerve palsy with a dilated pupil (parasympathetic fibres lie superficially)."
+  },
+  {
+    "id": "P047",
+    "ar": "Anatomy",
+    "sb": "Lumbosacral Plexus, Femoral &amp; Sciatic Nerves",
+    "tp": "ana23",
+    "q": "The sciatic nerve leaves the pelvis through which opening?",
+    "o": [
+      "Greater sciatic foramen below piriformis",
+      "Greater sciatic foramen above piriformis",
+      "Lesser sciatic foramen",
+      "Femoral canal",
+      "Obturator canal"
+    ],
+    "a": 0,
+    "why": "The sciatic nerve (L4–S3) usually exits through the greater sciatic foramen below piriformis, descending between the greater trochanter and ischial tuberosity. The superior gluteal nerve and vessels pass above piriformis."
+  },
+  {
+    "id": "P048",
+    "ar": "Anatomy",
+    "sb": "Lumbosacral Plexus, Femoral &amp; Sciatic Nerves",
+    "tp": "ana23",
+    "q": "Where does the sciatic nerve usually divide into the tibial and common peroneal nerves?",
+    "o": [
+      "At the knee joint line",
+      "At the fibular neck",
+      "At the lesser trochanter",
+      "At the gluteal fold",
+      "At the apex of the popliteal fossa"
+    ],
+    "a": 4,
+    "why": "The division usually occurs at or just above the apex of the popliteal fossa (about 5–10 cm above the crease), though it is variable and can occur high in the pelvis. The popliteal block targets the nerve before or at the bifurcation."
+  },
+  {
+    "id": "P049",
+    "ar": "Anatomy",
+    "sb": "Brachial Plexus",
+    "tp": "ana24",
+    "q": "At the level of the interscalene groove, the brachial plexus is organised as which component?",
+    "o": [
+      "Terminal branches",
+      "Roots/trunks",
+      "Cords",
+      "Divisions",
+      "Rami communicantes"
+    ],
+    "a": 1,
+    "why": "Roots emerge between scalenus anterior and medius and form trunks at the interscalene level. Divisions lie behind the clavicle, cords around the axillary artery (infraclavicular), and terminal branches in the axilla."
+  },
+  {
+    "id": "P050",
+    "ar": "Anatomy",
+    "sb": "Brachial Plexus",
+    "tp": "ana24",
+    "q": "Which nerve arises from the posterior cord of the brachial plexus?",
+    "o": [
+      "Radial nerve",
+      "Medial cutaneous nerve of forearm",
+      "Ulnar nerve",
+      "Musculocutaneous nerve",
+      "Median nerve"
+    ],
+    "a": 0,
+    "why": "The posterior cord gives the radial and axillary nerves (plus subscapular and thoracodorsal nerves). The lateral cord gives the musculocutaneous and lateral root of the median; the medial cord gives the ulnar, medial root of the median and medial cutaneous nerves."
+  },
+  {
+    "id": "P051",
+    "ar": "Anatomy",
+    "sb": "Cervical Plexus",
+    "tp": "ana25",
+    "q": "The superficial cervical plexus emerges at which surface landmark?",
+    "o": [
+      "Angle of the mandible below the ear lobe",
+      "Suprasternal notch between the sternal heads",
+      "Anterior border of trapezius at the level of C7",
+      "Midpoint of the posterior border of sternocleidomastoid",
+      "Midpoint of the clavicle over the subclavian artery"
+    ],
+    "a": 3,
+    "why": "The superficial branches (lesser occipital, great auricular, transverse cervical and supraclavicular nerves, C2–C4) emerge at Erb's point, the midpoint of the posterior border of sternocleidomastoid, where a superficial cervical plexus block is performed."
+  },
+  {
+    "id": "P052",
+    "ar": "Anatomy",
+    "sb": "Cervical Plexus",
+    "tp": "ana25",
+    "q": "Which nerve arises from the cervical plexus and supplies motor fibres to the diaphragm?",
+    "o": [
+      "Great auricular nerve",
+      "Ansa cervicalis",
+      "Lesser occipital nerve",
+      "Accessory nerve",
+      "Phrenic nerve"
+    ],
+    "a": 4,
+    "why": "The phrenic nerve (C3–C5) is the main motor branch of the deep cervical plexus, running on scalenus anterior. A deep cervical plexus block therefore commonly causes phrenic palsy, so bilateral deep blocks are avoided."
+  },
+  {
+    "id": "P053",
+    "ar": "Anatomy",
+    "sb": "CSF Circulation",
+    "tp": "ana26",
+    "q": "Where is most cerebrospinal fluid produced?",
+    "o": [
+      "Dural venous sinuses",
+      "Pia mater",
+      "Ependyma of the central canal",
+      "Choroid plexus",
+      "Arachnoid granulations"
+    ],
+    "a": 3,
+    "why": "About 70% of CSF is produced by the choroid plexus, the rest by ependyma and brain interstitium, at about 500 mL/day (0.35 mL/min). Total volume is about 150 mL. It is absorbed mainly via arachnoid granulations into the dural venous sinuses."
+  },
+  {
+    "id": "P054",
+    "ar": "Anatomy",
+    "sb": "CSF Circulation",
+    "tp": "ana26",
+    "q": "CSF passes from the third ventricle to the fourth ventricle through which structure?",
+    "o": [
+      "Cerebral aqueduct (of Sylvius)",
+      "Foramen of Magendie",
+      "Foramina of Luschka",
+      "Foramen of Monro",
+      "Central canal"
+    ],
+    "a": 0,
+    "why": "Lateral ventricles → foramina of Monro → third ventricle → cerebral aqueduct → fourth ventricle → foramen of Magendie (median) and foramina of Luschka (lateral) → subarachnoid space. Aqueduct stenosis causes non-communicating hydrocephalus."
+  },
+  {
+    "id": "P055",
+    "ar": "Anatomy",
+    "sb": "Upper Limb Vascular Anatomy",
+    "tp": "ana27",
+    "q": "Which superficial vein runs along the lateral (radial) side of the forearm and arm, ending in the axillary vein?",
+    "o": [
+      "Cephalic vein",
+      "Median cubital vein",
+      "Basilic vein",
+      "Brachial vein",
+      "Median antebrachial vein"
+    ],
+    "a": 0,
+    "why": "The cephalic vein runs laterally and pierces the clavipectoral fascia in the deltopectoral groove to join the axillary vein. The basilic vein runs medially and becomes the axillary vein at the lower border of teres major; it is a common PICC route."
+  },
+  {
+    "id": "P056",
+    "ar": "Anatomy",
+    "sb": "Upper Limb Vascular Anatomy",
+    "tp": "ana27",
+    "q": "Before radial artery cannulation, what does the modified Allen test assess?",
+    "o": [
+      "Brachial artery patency above the elbow",
+      "Radial artery diameter and depth",
+      "Ulnar collateral flow to the hand",
+      "Median nerve integrity at the wrist",
+      "Venous return from the hand"
+    ],
+    "a": 2,
+    "why": "Both arteries are occluded, the hand blanched, then ulnar pressure released; return of colour within about 5–10 s suggests adequate ulnar collateral flow via the palmar arches. Its predictive value for ischaemia is poor, but it is still widely taught."
+  },
+  {
+    "id": "P057",
+    "ar": "Anatomy",
+    "sb": "Thoracic Outlet",
+    "tp": "ana28",
+    "q": "Which structures pass through the interscalene triangle between scalenus anterior and medius?",
+    "o": [
+      "Thoracic duct and subclavian vein",
+      "Subclavian vein and phrenic nerve",
+      "Subclavian vein and brachial plexus",
+      "Vagus nerve and common carotid artery",
+      "Brachial plexus and subclavian artery"
+    ],
+    "a": 4,
+    "why": "The brachial plexus and subclavian artery pass between scalenus anterior and medius over the first rib. The subclavian vein passes anterior to scalenus anterior, and the phrenic nerve runs on its anterior surface."
+  },
+  {
+    "id": "P058",
+    "ar": "Anatomy",
+    "sb": "Thoracic Outlet",
+    "tp": "ana28",
+    "q": "A cervical rib most commonly compresses which nerve roots in thoracic outlet syndrome?",
+    "o": [
+      "C8–T1 (lower trunk)",
+      "C5–C6",
+      "C3–C4",
+      "C6–C7",
+      "T2–T3"
+    ],
+    "a": 0,
+    "why": "Neurogenic thoracic outlet syndrome usually affects the lower trunk (C8–T1), causing ulnar-sided paraesthesia and wasting of the small hand muscles. Vascular compression of the subclavian artery or vein is less common."
+  },
+  {
+    "id": "P059",
+    "ar": "Anatomy",
+    "sb": "Long Bone Anatomy",
+    "tp": "ana29",
+    "q": "Which part of a long bone in a growing child contains the growth plate?",
+    "o": [
+      "Periosteum",
+      "Medullary cavity",
+      "Metaphysis",
+      "Diaphysis",
+      "Epiphyseal (physeal) plate"
+    ],
+    "a": 4,
+    "why": "Longitudinal growth occurs at the physis (epiphyseal plate) between the epiphysis and the metaphysis. The metaphysis is highly vascular, which is relevant to intraosseous access sites and to osteomyelitis in children."
+  },
+  {
+    "id": "P060",
+    "ar": "Anatomy",
+    "sb": "Long Bone Anatomy",
+    "tp": "ana29",
+    "q": "What is the recommended first-choice site for intraosseous access in a child?",
+    "o": [
+      "Distal radius just above the wrist crease",
+      "Sternum in the midline at the angle of Louis",
+      "Anteromedial proximal tibia below the tuberosity",
+      "Anterior iliac crest near the ASIS",
+      "Proximal femoral shaft below the trochanter"
+    ],
+    "a": 2,
+    "why": "The anteromedial proximal tibia is flat and has a thin cortex. Alternatives include the distal tibia above the medial malleolus, distal femur and, in adults, the proximal humerus. The sternum is used only with specific devices in adults."
+  },
+  {
+    "id": "P061",
+    "ar": "Anatomy",
+    "sb": "The Vagus Nerve",
+    "tp": "ana30",
+    "q": "Which branch of the vagus nerve supplies the cricothyroid muscle?",
+    "o": [
+      "Internal laryngeal nerve",
+      "Cardiac branch",
+      "Recurrent laryngeal nerve",
+      "External laryngeal nerve",
+      "Pharyngeal branch"
+    ],
+    "a": 3,
+    "why": "The superior laryngeal nerve divides into the internal (sensory above the cords) and external (motor to cricothyroid) branches. The recurrent laryngeal nerve supplies all other intrinsic laryngeal muscles and sensation below the cords."
+  },
+  {
+    "id": "P062",
+    "ar": "Anatomy",
+    "sb": "The Vagus Nerve",
+    "tp": "ana30",
+    "q": "The vagus nerve leaves the skull through which foramen?",
+    "o": [
+      "Internal acoustic meatus",
+      "Jugular foramen",
+      "Foramen ovale",
+      "Foramen magnum",
+      "Hypoglossal canal"
+    ],
+    "a": 1,
+    "why": "CN X exits through the jugular foramen with IX and XI, then descends in the carotid sheath between the internal jugular vein and the carotid artery."
+  },
+  {
+    "id": "P063",
+    "ar": "Anatomy",
+    "sb": "The Abdominal Wall",
+    "tp": "ana31",
+    "q": "In a TAP block, local anaesthetic is deposited in the plane between which two muscles?",
+    "o": [
+      "External oblique and skin",
+      "Rectus abdominis and posterior rectus sheath",
+      "Transversus abdominis and transversalis fascia",
+      "External oblique and internal oblique",
+      "Internal oblique and transversus abdominis"
+    ],
+    "a": 4,
+    "why": "The thoracolumbar nerves (T6–L1) run between internal oblique and transversus abdominis. A lateral TAP covers roughly T10–T12; a subcostal approach covers higher dermatomes. The rectus sheath block targets the plane posterior to rectus abdominis."
+  },
+  {
+    "id": "P064",
+    "ar": "Anatomy",
+    "sb": "The Abdominal Wall",
+    "tp": "ana31",
+    "q": "Below the arcuate line, what forms the posterior wall of the rectus sheath?",
+    "o": [
+      "Peritoneum and the linea alba",
+      "Transversalis fascia only",
+      "Aponeuroses of internal oblique and transversus abdominis",
+      "Posterior lamina of internal oblique",
+      "External oblique aponeurosis"
+    ],
+    "a": 1,
+    "why": "Above the arcuate line the posterior sheath is formed by the posterior lamina of internal oblique and transversus abdominis aponeuroses. Below it, all aponeuroses pass anterior to rectus, leaving only transversalis fascia (and peritoneum) behind."
+  },
+  {
+    "id": "P065",
+    "ar": "Anatomy",
+    "sb": "The Hip Joint &amp; Fascia Iliaca Compartment",
+    "tp": "ana32",
+    "q": "In a fascia iliaca compartment block, local anaesthetic is placed deep to the fascia iliaca and superficial to which muscle?",
+    "o": [
+      "Gluteus medius",
+      "Sartorius",
+      "Pectineus",
+      "Iliacus (iliopsoas)",
+      "Rectus femoris"
+    ],
+    "a": 3,
+    "why": "The femoral and lateral femoral cutaneous nerves (and variably obturator) run beneath the fascia iliaca on the iliopsoas. Volume-dependent spread within this compartment is used for hip fracture analgesia (suprainguinal approach gives better proximal spread)."
+  },
+  {
+    "id": "P066",
+    "ar": "Anatomy",
+    "sb": "The Hip Joint &amp; Fascia Iliaca Compartment",
+    "tp": "ana32",
+    "q": "Which nerves supply the anterior hip joint capsule and are targeted by a PENG block?",
+    "o": [
+      "Ilioinguinal and iliohypogastric nerves",
+      "Sciatic nerve and superior gluteal nerve",
+      "Femoral nerve, obturator nerve and accessory obturator nerve",
+      "Pudendal and inferior gluteal nerves",
+      "Lateral femoral cutaneous and genitofemoral nerves"
+    ],
+    "a": 2,
+    "why": "The anterior hip capsule is innervated by articular branches of the femoral, obturator and accessory obturator nerves. The PENG (pericapsular nerve group) block deposits LA between the iliopsoas tendon and the pubic ramus near the iliopubic eminence."
+  },
+  {
+    "id": "P067",
+    "ar": "Anatomy",
+    "sb": "The Ankle Block",
+    "tp": "ana33",
+    "q": "How many nerves are blocked in a complete ankle block?",
+    "o": [
+      "Two",
+      "Six",
+      "Four",
+      "Five",
+      "Three"
+    ],
+    "a": 3,
+    "why": "Five: tibial, deep peroneal, superficial peroneal, sural and saphenous. The tibial and deep peroneal nerves are deep (beneath fascia); the others are superficial and blocked by subcutaneous infiltration."
+  },
+  {
+    "id": "P068",
+    "ar": "Anatomy",
+    "sb": "The Ankle Block",
+    "tp": "ana33",
+    "q": "Where is the deep peroneal nerve blocked at the ankle?",
+    "o": [
+      "Behind the lateral malleolus beside the short saphenous vein",
+      "Beside the dorsalis pedis artery between EHL and EDL",
+      "Behind the medial malleolus with the tibial artery",
+      "Subcutaneously across the lateral heel",
+      "Over the medial malleolus beside the saphenous vein"
+    ],
+    "a": 1,
+    "why": "The deep peroneal nerve lies alongside the dorsalis pedis artery between the EHL and EDL tendons, supplying the first web space. The tibial nerve lies behind the posterior tibial artery posterior to the medial malleolus; the sural nerve lies behind the lateral malleolus."
+  },
+  {
+    "id": "P069",
+    "ar": "Anatomy",
+    "sb": "The Heart — Innervation &amp; Coronary Blood Flow",
+    "tp": "ana34",
+    "q": "When does most left ventricular coronary blood flow occur?",
+    "o": [
+      "During atrial systole only",
+      "During systole",
+      "Equally during systole and diastole",
+      "During isovolumetric contraction only",
+      "During diastole"
+    ],
+    "a": 4,
+    "why": "High intramural pressure during systole compresses subendocardial vessels, so about 80% of LV flow occurs in diastole. Coronary perfusion pressure is aortic diastolic pressure minus LVEDP, and tachycardia shortens diastole, reducing supply."
+  },
+  {
+    "id": "P070",
+    "ar": "Anatomy",
+    "sb": "The Heart — Innervation &amp; Coronary Blood Flow",
+    "tp": "ana34",
+    "q": "Into which chamber does the coronary sinus drain?",
+    "o": [
+      "Left atrium",
+      "Right atrium",
+      "Right ventricle",
+      "Superior vena cava",
+      "Left ventricle"
+    ],
+    "a": 1,
+    "why": "The coronary sinus runs in the posterior atrioventricular groove and opens into the right atrium between the IVC and the tricuspid valve, guarded by the Thebesian valve. Thebesian veins drain directly into chambers, contributing to the physiological shunt."
+  },
+  {
+    "id": "P071",
+    "ar": "Anatomy",
+    "sb": "The Eye",
+    "tp": "ana35",
+    "q": "Which muscle elevates the upper eyelid and is supplied by the oculomotor nerve?",
+    "o": [
+      "Orbicularis oculi",
+      "Inferior rectus",
+      "Levator palpebrae superioris",
+      "Superior tarsal (Müller's) muscle",
+      "Superior oblique"
+    ],
+    "a": 2,
+    "why": "Levator palpebrae superioris (CN III) elevates the lid; Müller's muscle (sympathetic) adds about 2 mm, explaining the mild ptosis in Horner's syndrome. Orbicularis oculi (CN VII) closes the eye."
+  },
+  {
+    "id": "P072",
+    "ar": "Anatomy",
+    "sb": "The Eye",
+    "tp": "ana35",
+    "q": "What is the nerve supply to the lateral rectus muscle?",
+    "o": [
+      "Trochlear nerve",
+      "Oculomotor nerve",
+      "Ophthalmic division of trigeminal",
+      "Facial nerve",
+      "Abducens nerve"
+    ],
+    "a": 4,
+    "why": "LR6 SO4, all the rest 3: lateral rectus (CN VI), superior oblique (CN IV), and the other extraocular muscles (CN III). Raised ICP can cause a false-localising sixth nerve palsy because of its long intracranial course."
+  },
+  {
+    "id": "P073",
+    "ar": "Anatomy",
+    "sb": "The Gallbladder",
+    "tp": "ana36",
+    "q": "Calot's triangle, dissected during cholecystectomy, is bordered by the cystic duct, the common hepatic duct and which other structure?",
+    "o": [
+      "The inferior border of the liver",
+      "The duodenum",
+      "The right kidney",
+      "The common bile duct",
+      "The portal vein"
+    ],
+    "a": 0,
+    "why": "Calot's (hepatobiliary) triangle is bounded by the cystic duct, common hepatic duct and the inferior surface of the liver. It contains the cystic artery, usually from the right hepatic artery."
+  },
+  {
+    "id": "P074",
+    "ar": "Anatomy",
+    "sb": "The Gallbladder",
+    "tp": "ana36",
+    "q": "Why may gallbladder pain be referred to the right shoulder tip?",
+    "o": [
+      "Phrenic nerve irritation via the diaphragm (C3–C5)",
+      "Stimulation of the T7 dermatome via splanchnic nerves",
+      "Vagus nerve irritation via the hepatic plexus",
+      "Compression of the axillary nerve by the liver",
+      "Irritation of the brachial plexus at the thoracic outlet"
+    ],
+    "a": 0,
+    "why": "Inflammation irritating the diaphragm is carried by the phrenic nerve (C3–C5), and pain is referred to the C4 dermatome over the shoulder. Visceral gallbladder pain is carried in sympathetic fibres (T6–T9) to the epigastrium and right upper quadrant. The same mechanism explains shoulder tip pain after laparoscopy."
+  },
+  {
+    "id": "P075",
+    "ar": "Anatomy",
+    "sb": "The Mediastinum (Summary)",
+    "tp": "ana37",
+    "q": "Which structure lies in the superior mediastinum?",
+    "o": [
+      "Aortic arch",
+      "Heart",
+      "Pulmonary trunk bifurcation below T5",
+      "Pericardial sac",
+      "Oesophageal hiatus"
+    ],
+    "a": 0,
+    "why": "The superior mediastinum contains the aortic arch and its branches, SVC and brachiocephalic veins, trachea, oesophagus, thymus, thoracic duct, vagus and phrenic nerves, and the left recurrent laryngeal nerve."
+  },
+  {
+    "id": "P076",
+    "ar": "Anatomy",
+    "sb": "The Mediastinum (Summary)",
+    "tp": "ana37",
+    "q": "An anterior mediastinal mass is most dangerous during induction of anaesthesia because of which mechanism?",
+    "o": [
+      "Phrenic nerve palsy prevents diaphragmatic movement",
+      "Vagal stimulation causes profound bradycardia",
+      "Pulmonary vascular resistance rises with hypoxia",
+      "Induction removes tone that splints the airway and vessels open",
+      "Chest wall rigidity increases after induction"
+    ],
+    "a": 3,
+    "why": "In the awake, upright patient, muscle tone and negative intrathoracic pressure keep the airways and vessels open. Induction, paralysis and supine positioning can cause tracheobronchial or SVC/pulmonary artery collapse. Plans include awake techniques, maintaining spontaneous ventilation and ECMO standby."
+  },
+  {
+    "id": "P077",
+    "ar": "Anatomy",
+    "sb": "Peripheral Nerve Structure",
+    "tp": "ana38",
+    "q": "Which connective tissue layer surrounds individual nerve fascicles?",
+    "o": [
+      "Endoneurium",
+      "Paraneurium",
+      "Perineurium",
+      "Epineurium",
+      "Mesoneurium"
+    ],
+    "a": 2,
+    "why": "Endoneurium surrounds individual axons, perineurium surrounds fascicles (and forms the blood–nerve barrier), and epineurium surrounds the whole nerve. Intrafascicular injection (inside perineurium) carries the highest risk of nerve injury."
+  },
+  {
+    "id": "P078",
+    "ar": "Anatomy",
+    "sb": "Peripheral Nerve Structure",
+    "tp": "ana38",
+    "q": "Which fibre type is the most sensitive to local anaesthetic block (blocked first)?",
+    "o": [
+      "A-gamma fibres",
+      "A-beta touch fibres",
+      "Large myelinated proprioceptive fibres",
+      "B preganglionic sympathetic fibres",
+      "A-alpha motor fibres"
+    ],
+    "a": 3,
+    "why": "Small myelinated B fibres are blocked first, then C and A-delta (pain, temperature), then A-beta (touch), then A-alpha (motor). This explains the higher sympathetic block level than sensory level in neuraxial anaesthesia."
+  },
+  {
+    "id": "P079",
+    "ar": "Anatomy",
+    "sb": "Nerve Supply to the Hand",
+    "tp": "ana39",
+    "q": "Which nerve supplies sensation to the palmar surface of the thumb, index and middle fingers?",
+    "o": [
+      "Ulnar nerve",
+      "Posterior interosseous nerve",
+      "Radial nerve",
+      "Musculocutaneous nerve",
+      "Median nerve"
+    ],
+    "a": 4,
+    "why": "The median nerve supplies the palmar lateral three and a half digits (and their nail beds). The ulnar nerve supplies the medial one and a half digits; the radial nerve supplies the dorsum of the lateral hand and first web space."
+  },
+  {
+    "id": "P080",
+    "ar": "Anatomy",
+    "sb": "Nerve Supply to the Hand",
+    "tp": "ana39",
+    "q": "Which nerve supplies most of the intrinsic muscles of the hand?",
+    "o": [
+      "Musculocutaneous nerve",
+      "Radial nerve",
+      "Anterior interosseous nerve",
+      "Ulnar nerve (deep branch)",
+      "Median nerve"
+    ],
+    "a": 3,
+    "why": "The ulnar nerve supplies the interossei, medial two lumbricals, hypothenar muscles, adductor pollicis and deep head of flexor pollicis brevis. The median nerve supplies the 'LOAF' muscles: lateral two lumbricals, opponens pollicis, abductor pollicis brevis, flexor pollicis brevis (superficial head)."
+  },
+  {
+    "id": "P081",
+    "ar": "Anatomy",
+    "sb": "Peripheral Nerve Injury",
+    "tp": "ana40",
+    "q": "In Seddon's classification, which injury involves axonal disruption with intact connective tissue sheaths, allowing good recovery by regeneration?",
+    "o": [
+      "Neurotmesis",
+      "Demyelination",
+      "Axonotmesis",
+      "Neurapraxia",
+      "Wallerian degeneration of the sheath"
+    ],
+    "a": 2,
+    "why": "Neurapraxia is a conduction block without axonal loss (recovers in weeks). Axonotmesis disrupts axons but preserves the endoneurium so regeneration (about 1 mm/day) is guided. Neurotmesis divides the whole nerve and usually needs surgical repair."
+  },
+  {
+    "id": "P082",
+    "ar": "Anatomy",
+    "sb": "Peripheral Nerve Injury",
+    "tp": "ana40",
+    "q": "Which nerve is most commonly injured by positioning during general anaesthesia?",
+    "o": [
+      "Ulnar nerve",
+      "Common peroneal nerve",
+      "Radial nerve",
+      "Brachial plexus",
+      "Sciatic nerve"
+    ],
+    "a": 0,
+    "why": "The ulnar nerve is the most frequently reported perioperative nerve injury, from compression at the cubital tunnel, especially with the forearm pronated. Keeping the forearm supinated or neutral and padding the elbow reduce risk. The common peroneal nerve is at risk in lithotomy at the fibular head."
+  },
+  {
+    "id": "P083",
+    "ar": "Anatomy",
+    "sb": "The Oesophagus",
+    "tp": "ana41",
+    "q": "Approximately how far from the incisor teeth is the oesophagogastric junction in an adult?",
+    "o": [
+      "25 cm",
+      "55 cm",
+      "40 cm",
+      "30 cm",
+      "15 cm"
+    ],
+    "a": 2,
+    "why": "The oesophagus begins about 15 cm from the incisors (C6), is about 25 cm long and the gastro-oesophageal junction lies about 40 cm from the incisors (T11). This guides placement of oesophageal temperature and Doppler probes."
+  },
+  {
+    "id": "P084",
+    "ar": "Anatomy",
+    "sb": "The Oesophagus",
+    "tp": "ana41",
+    "q": "Which statement about the lower oesophageal sphincter is correct?",
+    "o": [
+      "Barrier pressure is LOS pressure minus gastric pressure",
+      "It is an anatomical sphincter of skeletal muscle",
+      "Opioids increase LOS tone",
+      "Atropine increases LOS tone",
+      "Its tone is increased by suxamethonium-induced fasciculations only"
+    ],
+    "a": 0,
+    "why": "The LOS is a physiological sphincter, aided by the crural diaphragm. Barrier pressure (LOS minus intragastric pressure) protects against reflux. Anticholinergics, opioids, propofol and volatiles reduce LOS tone; metoclopramide, neostigmine and suxamethonium increase it (suxamethonium raises gastric pressure as well)."
+  },
+  {
+    "id": "P085",
+    "ar": "Anatomy",
+    "sb": "The Orbit",
+    "tp": "ana42",
+    "q": "In a peribulbar block, why is the needle directed inferotemporally?",
+    "o": [
+      "To reach the ciliary ganglion directly in the cone",
+      "To deposit LA into the lacrimal gland",
+      "To avoid the optic nerve and superomedial vessels",
+      "To block the facial nerve to orbicularis oculi",
+      "To enter the cone through the superior rectus"
+    ],
+    "a": 2,
+    "why": "The inferotemporal quadrant is relatively avascular and away from the superior oblique trochlea and the medial vessels. Peribulbar blocks stay extraconal; retrobulbar (intraconal) blocks carry greater risk of globe perforation, optic nerve injury and brainstem anaesthesia."
+  },
+  {
+    "id": "P086",
+    "ar": "Anatomy",
+    "sb": "The Orbit",
+    "tp": "ana42",
+    "q": "Which structure passes through the optic canal?",
+    "o": [
+      "Nasociliary nerve",
+      "Optic nerve and ophthalmic artery",
+      "Oculomotor nerve",
+      "Ophthalmic vein",
+      "Abducens nerve"
+    ],
+    "a": 1,
+    "why": "The optic canal transmits CN II and the ophthalmic artery. The superior orbital fissure transmits III, IV, V1 branches (lacrimal, frontal, nasociliary), VI and the superior ophthalmic vein."
+  },
+  {
+    "id": "P087",
+    "ar": "Anatomy",
+    "sb": "The Pleura",
+    "tp": "ana43",
+    "q": "Why is pain from the parietal pleura well localised, but visceral pleura insensitive to pain?",
+    "o": [
+      "Visceral pleura has somatic innervation; parietal has none",
+      "Visceral pleura is supplied by the phrenic nerves",
+      "Parietal pleura has no nerve supply of its own",
+      "Both layers are supplied only by the vagus nerve",
+      "Parietal pleura has somatic nerves; visceral has autonomic only"
+    ],
+    "a": 4,
+    "why": "Parietal pleura receives somatic intercostal nerves (costal) and phrenic nerves (central diaphragmatic and mediastinal, referred to the shoulder). Visceral pleura receives autonomic fibres only and is insensitive to pain."
+  },
+  {
+    "id": "P088",
+    "ar": "Anatomy",
+    "sb": "The Pleura",
+    "tp": "ana43",
+    "q": "In the mid-axillary line, how far inferiorly does the parietal pleura extend?",
+    "o": [
+      "T12 vertebra",
+      "6th rib",
+      "12th rib",
+      "8th rib",
+      "10th rib"
+    ],
+    "a": 4,
+    "why": "The pleural reflection lies at rib 8 in the midclavicular line, rib 10 in the midaxillary line and rib 12 posteriorly (about two ribs below the lung edge at each line). The pleura also rises 2–3 cm above the medial clavicle."
+  },
+  {
+    "id": "P089",
+    "ar": "Anatomy",
+    "sb": "Scalp Innervation (Scalp Block)",
+    "tp": "ana44",
+    "q": "Which nerve is NOT one of the sensory nerves blocked in a scalp block?",
+    "o": [
+      "Supraorbital nerve",
+      "Zygomaticotemporal nerve",
+      "Greater occipital nerve",
+      "Auriculotemporal nerve",
+      "Facial nerve"
+    ],
+    "a": 4,
+    "why": "Scalp block targets the supraorbital, supratrochlear, zygomaticotemporal, auriculotemporal, greater, lesser and third occipital nerves (and great auricular). The facial nerve is motor to the face and is not a target."
+  },
+  {
+    "id": "P090",
+    "ar": "Anatomy",
+    "sb": "Scalp Innervation (Scalp Block)",
+    "tp": "ana44",
+    "q": "When blocking the auriculotemporal nerve for a scalp block, which vessel lies close to the injection point?",
+    "o": [
+      "Posterior auricular artery",
+      "Occipital artery",
+      "Superficial temporal artery",
+      "Supraorbital artery",
+      "Facial artery"
+    ],
+    "a": 2,
+    "why": "The auriculotemporal nerve is blocked about 1–1.5 cm anterior to the tragus at the level of the tragus, beside the superficial temporal artery, which should be palpated and avoided. The greater occipital nerve lies medial to the occipital artery."
+  },
+  {
+    "id": "P091",
+    "ar": "Anatomy",
+    "sb": "Splanchnic Circulation &amp; Portal Venous System",
+    "tp": "ana45",
+    "q": "The portal vein is formed by the union of which veins?",
+    "o": [
+      "Superior mesenteric and splenic veins",
+      "Superior mesenteric and inferior vena cava",
+      "Hepatic and splenic veins",
+      "Inferior mesenteric and renal veins",
+      "Gastric and splenic veins"
+    ],
+    "a": 0,
+    "why": "The portal vein forms behind the neck of the pancreas from the superior mesenteric and splenic veins (the inferior mesenteric usually drains into the splenic). It supplies about 75% of liver blood flow but about half of its oxygen supply."
+  },
+  {
+    "id": "P092",
+    "ar": "Anatomy",
+    "sb": "Splanchnic Circulation &amp; Portal Venous System",
+    "tp": "ana45",
+    "q": "Which is a site of portosystemic anastomosis that can produce varices in portal hypertension?",
+    "o": [
+      "Upper oesophagus",
+      "Duodenal bulb",
+      "Lower oesophagus",
+      "Mid-ileum",
+      "Splenic flexure"
+    ],
+    "a": 2,
+    "why": "Portosystemic anastomoses: lower oesophagus (left gastric/azygos), anorectal (superior/middle and inferior rectal), umbilical (paraumbilical/epigastric, caput medusae) and retroperitoneal. Oesophageal varices are the most clinically important."
+  },
+  {
+    "id": "P093",
+    "ar": "Anatomy",
+    "sb": "Tracheobronchial Tree &amp; Bronchopulmonary Segments",
+    "tp": "ana46",
+    "q": "In a supine patient, aspirated material most commonly enters which segment?",
+    "o": [
+      "Superior (apical) segment of right lower lobe",
+      "Lingula",
+      "Apical segment of right upper lobe",
+      "Middle lobe medial segment",
+      "Anterior basal segment of left lower lobe"
+    ],
+    "a": 0,
+    "why": "In the supine position, the posterior segment of the right upper lobe and the superior segment of the right lower lobe are dependent. When upright, aspirate tends to go to the right lower lobe basal segments."
+  },
+  {
+    "id": "P094",
+    "ar": "Anatomy",
+    "sb": "Tracheobronchial Tree &amp; Bronchopulmonary Segments",
+    "tp": "ana46",
+    "q": "Approximately how many generations of airway division are there from the trachea to the alveolar sacs?",
+    "o": [
+      "8",
+      "35",
+      "23",
+      "50",
+      "16"
+    ],
+    "a": 2,
+    "why": "Weibel's model describes 23 generations: the conducting zone (generations 0–16, anatomical dead space about 150 mL) and the respiratory zone (17–23, respiratory bronchioles, alveolar ducts and sacs)."
+  },
+  {
+    "id": "P095",
+    "ar": "Anatomy",
+    "sb": "Trigeminal Nerve",
+    "tp": "ana47",
+    "q": "Which division of the trigeminal nerve carries motor fibres?",
+    "o": [
+      "All three",
+      "Ophthalmic",
+      "Mandibular",
+      "None of them",
+      "Maxillary"
+    ],
+    "a": 2,
+    "why": "Only the mandibular division (V3) has a motor root, supplying the muscles of mastication, mylohyoid, anterior belly of digastric, tensor tympani and tensor veli palatini."
+  },
+  {
+    "id": "P096",
+    "ar": "Anatomy",
+    "sb": "Trigeminal Nerve",
+    "tp": "ana47",
+    "q": "Trigeminal neuralgia most often affects which division(s)?",
+    "o": [
+      "Ophthalmic alone",
+      "Mandibular motor fibres",
+      "Maxillary and/or mandibular",
+      "Greater occipital",
+      "Ophthalmic and maxillary equally with the ophthalmic commonest"
+    ],
+    "a": 2,
+    "why": "Trigeminal neuralgia most often involves V2 and/or V3; isolated V1 involvement is uncommon (under 5%). Carbamazepine is first-line; microvascular decompression treats vascular compression at the root entry zone."
+  },
+  {
+    "id": "P097",
+    "ar": "Anatomy",
+    "sb": "Pituitary Gland Anatomy",
+    "tp": "ana48",
+    "q": "Which hormone is released from the posterior pituitary?",
+    "o": [
+      "Prolactin",
+      "TSH",
+      "Antidiuretic hormone",
+      "Growth hormone",
+      "ACTH"
+    ],
+    "a": 2,
+    "why": "The posterior pituitary (neurohypophysis) releases ADH and oxytocin, made in the supraoptic and paraventricular nuclei of the hypothalamus. The anterior pituitary releases GH, prolactin, ACTH, TSH, FSH and LH."
+  },
+  {
+    "id": "P098",
+    "ar": "Anatomy",
+    "sb": "Pituitary Gland Anatomy",
+    "tp": "ana48",
+    "q": "A pituitary macroadenoma compressing the optic chiasm classically produces which visual field defect?",
+    "o": [
+      "Superior quadrantanopia only",
+      "Homonymous hemianopia",
+      "Central scotoma",
+      "Bitemporal hemianopia",
+      "Monocular blindness"
+    ],
+    "a": 3,
+    "why": "Crossing nasal retinal fibres at the chiasm carry temporal field information, so central compression gives bitemporal hemianopia, often starting in the upper temporal quadrants because the tumour grows from below. Optic tract lesions cause homonymous defects."
+  }
+]

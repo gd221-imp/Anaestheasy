@@ -1,0 +1,26 @@
+{
+  "t": "tip",
+  "shape": "belly",
+  "group": "Obstetrics",
+  "title": "Placenta Accreta",
+  "cards": [
+    {
+      "h": "Overview",
+      "b": "file:cards/01-overview.html"
+    },
+    {
+      "h": "Blood supply to the uterus",
+      "b": "file:cards/02-blood-supply-to-the-uterus.html"
+    },
+    {
+      "h": "Management",
+      "b": "file:cards/03-management.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/04-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

@@ -1,0 +1,30 @@
+{
+  "t": "tip",
+  "shape": "scalpel",
+  "group": "General surgery",
+  "title": "Hyperthermic Intraperitoneal Chemotherapy (HIPEC) & Cytoreductive Surgery",
+  "cards": [
+    {
+      "h": "Overview",
+      "b": "file:cards/01-overview.html"
+    },
+    {
+      "h": "= eradicate all macroscopic tumours.",
+      "b": "file:cards/02-eradicate-all-macroscopic-tumours.html"
+    },
+    {
+      "h": "The anaesthetic",
+      "b": "file:cards/03-the-anaesthetic.html"
+    },
+    {
+      "h": "Note",
+      "b": "file:cards/04-note.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/05-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

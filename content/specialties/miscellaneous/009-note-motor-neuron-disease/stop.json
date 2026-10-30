@@ -1,0 +1,18 @@
+{
+  "t": "tip",
+  "shape": "star",
+  "group": "Miscellaneous",
+  "title": "Motor Neuron Disease",
+  "cards": [
+    {
+      "h": "A rare degenerative neuromuscular condition affecting",
+      "b": "file:cards/01-a-rare-degenerative-neuromuscular-condition-affe.html"
+    },
+    {
+      "h": "Anaesthetic considerations",
+      "b": "file:cards/02-anaesthetic-considerations.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

@@ -1,0 +1,37 @@
+{
+  "t": "tip",
+  "shape": "mon",
+  "group": "ICM",
+  "title": "Pleural Effusion & Empyema",
+  "cards": [
+    {
+      "h": "On CXR",
+      "b": "file:cards/01-on-cxr.html"
+    },
+    {
+      "h": "Causes",
+      "b": "file:cards/02-causes.html"
+    },
+    {
+      "h": "Investigations",
+      "b": "file:cards/03-investigations.html"
+    },
+    {
+      "h": "Indications to drain a parapneumonic effusion",
+      "b": "file:cards/04-indications-to-drain-a-parapneumonic-effusion.html"
+    },
+    {
+      "h": "Chylothorax",
+      "b": "file:cards/05-chylothorax.html"
+    },
+    {
+      "h": "Empyema",
+      "b": "file:cards/06-empyema.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/07-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json"
+}

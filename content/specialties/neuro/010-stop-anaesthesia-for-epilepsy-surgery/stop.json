@@ -1,0 +1,47 @@
+{
+  "t": "recipe",
+  "shape": "brain",
+  "group": "Neuro",
+  "title": "Anaesthesia for Epilepsy Surgery",
+  "op": true,
+  "cards": [
+    {
+      "h": "Anaesthetic recipe",
+      "b": "file:cards/01-anaesthetic-recipe.html",
+      "recipe": true
+    },
+    {
+      "h": "CNS Pharmacology",
+      "primaryRef": "pha28"
+    },
+    {
+      "h": "Depth of Anaesthesia",
+      "primaryRef": "phy32"
+    },
+    {
+      "h": "Anaesthesia for Epilepsy Surgery",
+      "noteRef": "Anaesthesia for Epilepsy Surgery"
+    },
+    {
+      "h": "Status Epilepticus",
+      "noteRef": "Status Epilepticus"
+    },
+    {
+      "h": "EEG & Spectrogram in Neuroanaesthesia",
+      "noteRef": "EEG & Spectrogram in Neuroanaesthesia"
+    },
+    {
+      "h": "Sample WPBA",
+      "b": "file:cards/07-sample-wpba.html",
+      "wpba": true
+    },
+    {
+      "h": "Curriculum",
+      "links": [
+        "curric:8",
+        "curric:9"
+      ]
+    }
+  ],
+  "q": "file:quiz.json"
+}

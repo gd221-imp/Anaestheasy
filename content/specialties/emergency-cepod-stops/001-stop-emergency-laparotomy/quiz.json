@@ -1,0 +1,122 @@
+[
+  {
+    "q": "What does the NELA risk score decide in the recipe?",
+    "o": [
+      "Antibiotic choice",
+      "Seniority of supervision and post-op destination",
+      "Fluid type",
+      "Induction agent",
+      "Surgical approach"
+    ],
+    "a": 1,
+    "why": "Consultant anaesthetist and surgeon present if high risk (often over 5%)."
+  },
+  {
+    "q": "Within what time should antibiotics be given in sepsis?",
+    "o": [
+      "6 hours",
+      "1 hour",
+      "24 hours",
+      "3 hours",
+      "After cultures return"
+    ],
+    "a": 1,
+    "why": "Part of the Sepsis Six."
+  },
+  {
+    "q": "How is sepsis defined (Sepsis-3)?",
+    "o": [
+      "SIRS with infection",
+      "Infection with organ dysfunction (SOFA rise of 2 or more)",
+      "Fever and tachycardia",
+      "Positive blood culture",
+      "Lactate over 4 only"
+    ],
+    "a": 1,
+    "why": "Septic shock needs vasopressors for MAP over 65 with lactate over 2 despite fluids."
+  },
+  {
+    "q": "Which is a qSOFA criterion?",
+    "o": [
+      "HR over 100",
+      "Respiratory rate 22 or more",
+      "Temperature over 38",
+      "Lactate over 2",
+      "WCC over 12"
+    ],
+    "a": 1,
+    "why": "Also altered mentation and SBP 100 or less."
+  },
+  {
+    "q": "Which induction is suggested for a septic emergency laparotomy?",
+    "o": [
+      "Full-dose propofol",
+      "Modified RSI with reduced propofol or ketamine and rocuronium",
+      "Thiopentone 5 mg/kg",
+      "Gas induction",
+      "Etomidate always"
+    ],
+    "a": 1,
+    "why": "With vasopressor running or ready."
+  },
+  {
+    "q": "Which antibiotic regimen is in the recipe (after \"Follow local guidelines\")?",
+    "o": [
+      "Vancomycin alone",
+      "Amoxicillin, metronidazole and gentamicin",
+      "Ceftriaxone alone",
+      "Clarithromycin",
+      "Doxycycline"
+    ],
+    "a": 1,
+    "why": "Follow local guidelines."
+  },
+  {
+    "q": "When should the arterial line ideally be placed?",
+    "o": [
+      "After surgery",
+      "Before induction",
+      "Never",
+      "Only if hypotensive",
+      "In recovery"
+    ],
+    "a": 1,
+    "why": "Haemodynamic instability at induction."
+  },
+  {
+    "q": "What is a pharmacokinetic change in sepsis?",
+    "o": [
+      "Reduced Vd for hydrophilic drugs",
+      "Increased Vd for hydrophilic drugs from capillary leak",
+      "Increased hepatic clearance",
+      "Increased protein binding",
+      "Faster IM absorption"
+    ],
+    "a": 1,
+    "why": "Reduced albumin and hepatic flow also matter."
+  },
+  {
+    "q": "What scale assesses frailty?",
+    "o": [
+      "GCS",
+      "Clinical Frailty Scale",
+      "ASA",
+      "Mallampati",
+      "Apfel"
+    ],
+    "a": 1,
+    "why": "Frailty influences risk and escalation planning."
+  },
+  {
+    "q": "What should be booked early?",
+    "o": [
+      "Day unit bed",
+      "Critical care bed",
+      "Physiotherapy",
+      "Endoscopy",
+      "Pain clinic"
+    ],
+    "a": 1,
+    "why": "With a treatment escalation plan discussed."
+  }
+]

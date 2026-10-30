@@ -1,0 +1,29 @@
+{
+  "t": "tip",
+  "shape": "mon",
+  "group": "ICM",
+  "title": "Hyperthermia & ICU Environment",
+  "cards": [
+    {
+      "h": "Heat stroke",
+      "b": "file:cards/01-heat-stroke.html"
+    },
+    {
+      "h": "Temperature homeostasis",
+      "b": "file:cards/02-temperature-homeostasis.html"
+    },
+    {
+      "h": "Treatment of heat stroke",
+      "b": "file:cards/03-treatment-of-heat-stroke.html"
+    },
+    {
+      "h": "ICU environment - adverse effects",
+      "b": "file:cards/04-icu-environment-adverse-effects.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/05-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json"
+}

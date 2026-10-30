@@ -1,0 +1,48 @@
+{
+  "t": "recipe",
+  "shape": "brain",
+  "group": "Neuro",
+  "title": "Decompressive Craniectomy for Traumatic Brain Injury",
+  "op": true,
+  "cards": [
+    {
+      "h": "Anaesthetic recipe",
+      "b": "file:cards/01-anaesthetic-recipe.html",
+      "recipe": true
+    },
+    {
+      "h": "The Brain: Anatomy, Blood Flow & Intracranial Pressure",
+      "primaryRef": "phs42"
+    },
+    {
+      "h": "Arterial Blood Gases",
+      "primaryRef": "phy36"
+    },
+    {
+      "h": "Traumatic Brain Injury",
+      "noteRef": "Traumatic Brain Injury"
+    },
+    {
+      "h": "Interhospital Transfer",
+      "noteRef": "Interhospital Transfer"
+    },
+    {
+      "h": "Sodium Disorders in Neurosurgery",
+      "noteRef": "Sodium Disorders in Neurosurgery"
+    },
+    {
+      "h": "Sample WPBA",
+      "b": "file:cards/07-sample-wpba.html",
+      "wpba": true
+    },
+    {
+      "h": "Curriculum",
+      "links": [
+        "curric:9",
+        "curric:11",
+        "curric:14"
+      ]
+    }
+  ],
+  "q": "file:quiz.json"
+}

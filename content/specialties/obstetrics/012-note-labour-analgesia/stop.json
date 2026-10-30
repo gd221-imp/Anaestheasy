@@ -1,0 +1,42 @@
+{
+  "t": "tip",
+  "shape": "belly",
+  "group": "Obstetrics",
+  "title": "Labour Analgesia",
+  "cards": [
+    {
+      "h": "Non-pharmacological options",
+      "b": "file:cards/01-non-pharmacological-options.html"
+    },
+    {
+      "h": "Pharmacological - systemic opioids",
+      "b": "file:cards/02-pharmacological-systemic-opioids.html"
+    },
+    {
+      "h": "Remifentanil PCA",
+      "b": "file:cards/03-remifentanil-pca.html"
+    },
+    {
+      "h": "Inhalational",
+      "b": "file:cards/04-inhalational.html"
+    },
+    {
+      "h": "Regional",
+      "b": "file:cards/05-regional.html"
+    },
+    {
+      "h": "Regional",
+      "b": "file:cards/06-regional.html"
+    },
+    {
+      "h": "Pain pathways in labour",
+      "b": "file:cards/07-pain-pathways-in-labour.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/08-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

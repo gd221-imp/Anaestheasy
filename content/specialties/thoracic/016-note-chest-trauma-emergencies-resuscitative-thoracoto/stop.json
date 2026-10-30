@@ -1,0 +1,26 @@
+{
+  "t": "tip",
+  "shape": "lung",
+  "group": "Thoracic",
+  "title": "Chest Trauma Emergencies (Resuscitative Thoracotomy, Empyema, Rib Fractures)",
+  "cards": [
+    {
+      "h": "Resuscitative Thoracotomy",
+      "b": "file:cards/01-resuscitative-thoracotomy.html"
+    },
+    {
+      "h": "Empyema",
+      "b": "file:cards/02-empyema.html"
+    },
+    {
+      "h": "Rib Fractures",
+      "b": "file:cards/03-rib-fractures.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/04-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

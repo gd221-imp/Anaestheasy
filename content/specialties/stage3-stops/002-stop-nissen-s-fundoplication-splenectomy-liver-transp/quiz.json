@@ -1,0 +1,122 @@
+[
+  {
+    "q": "Which vaccinations are given around splenectomy?",
+    "o": [
+      "BCG",
+      "Pneumococcal, Hib, meningococcal and influenza",
+      "MMR",
+      "HPV",
+      "None"
+    ],
+    "a": 1,
+    "why": "Ideally 2 weeks before elective splenectomy."
+  },
+  {
+    "q": "What is a serious delayed complication of splenectomy?",
+    "o": [
+      "Gallstones",
+      "Overwhelming post-splenectomy infection",
+      "Hernia",
+      "Ileus only",
+      "Diabetes"
+    ],
+    "a": 1,
+    "why": "Encapsulated organisms."
+  },
+  {
+    "q": "Which intra-op event is specific to liver transplant?",
+    "o": [
+      "BCIS",
+      "Post-reperfusion syndrome",
+      "TURP syndrome",
+      "Oculocardiac reflex",
+      "Bezold–Jarisch"
+    ],
+    "a": 1,
+    "why": "Hypotension, arrhythmia and hyperkalaemia on reperfusion."
+  },
+  {
+    "q": "Which pneumothorax risk applies to Nissen fundoplication?",
+    "o": [
+      "None",
+      "Pleural breach during hiatal dissection",
+      "From CVC only",
+      "From ventilation only",
+      "From spinal"
+    ],
+    "a": 1,
+    "why": "Watch airway pressures."
+  },
+  {
+    "q": "Which scores grade liver disease severity?",
+    "o": [
+      "APACHE",
+      "Child–Pugh and MELD",
+      "NELA",
+      "Glasgow",
+      "Ranson only"
+    ],
+    "a": 1,
+    "why": "Used in liver transplant assessment."
+  },
+  {
+    "q": "Which induction agent should be avoided in acute porphyria?",
+    "o": [
+      "Propofol",
+      "Thiopentone",
+      "Fentanyl",
+      "Suxamethonium",
+      "Atracurium"
+    ],
+    "a": 1,
+    "why": "Also avoid etomidate."
+  },
+  {
+    "q": "How is an acute porphyric crisis treated?",
+    "o": [
+      "Barbiturates",
+      "Remove precipitant and give haem arginate",
+      "Steroids",
+      "Fasting",
+      "Diuretics"
+    ],
+    "a": 1,
+    "why": "Haem arginate reduces the synthetic pathway."
+  },
+  {
+    "q": "What is the inheritance of hereditary haemochromatosis?",
+    "o": [
+      "X-linked",
+      "Autosomal recessive (HFE gene)",
+      "Autosomal dominant",
+      "Mitochondrial",
+      "Sporadic"
+    ],
+    "a": 1,
+    "why": "Causes cirrhosis, cardiomyopathy and diabetes."
+  },
+  {
+    "q": "What does hepcidin do?",
+    "o": [
+      "Increases iron absorption",
+      "Inhibits ferroportin, reducing iron absorption",
+      "Transports iron",
+      "Stores iron",
+      "Excretes iron"
+    ],
+    "a": 1,
+    "why": "There is no mechanism for iron excretion."
+  },
+  {
+    "q": "Which delayed complication is specific to Nissen fundoplication?",
+    "o": [
+      "OPSI",
+      "Dysphagia and gas bloat",
+      "Graft rejection",
+      "Hepatic artery thrombosis",
+      "Fistula"
+    ],
+    "a": 1,
+    "why": "Avoid vomiting post-op."
+  }
+]

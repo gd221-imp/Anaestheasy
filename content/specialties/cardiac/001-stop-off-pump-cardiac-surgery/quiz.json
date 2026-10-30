@@ -1,0 +1,122 @@
+[
+  {
+    "q": "A 64-year-old is listed for off-pump CABG. Compared with on-pump CABG, which is the main anaesthetic advantage of the off-pump technique?",
+    "o": [
+      "Greater haemodynamic stability during grafting",
+      "No need for heparin",
+      "Reduced systemic inflammation and coagulopathy",
+      "Shorter operating time",
+      "No risk of conversion to bypass"
+    ],
+    "a": 2,
+    "why": "Avoiding CPB reduces the systemic inflammatory response and coagulopathy, with less re-exploration and ventilator/ITU time (any POCD/stroke benefit is theoretical; trials show no difference at 5 years). Haemodynamic instability from handling the heart is the main disadvantage, and about 10% convert to CPB."
+  },
+  {
+    "q": "During off-pump grafting of the circumflex artery the heart is lifted into a stabiliser. BP falls from 120/70 to 65/35 mmHg and the ECG shows new ST depression. What is the most appropriate first action?",
+    "o": [
+      "Start a GTN infusion",
+      "Tell the surgeon and ask for the heart to be repositioned while supporting the BP",
+      "Give atropine 600 mcg",
+      "Deepen the volatile anaesthetic",
+      "Ask the perfusionist to go on bypass immediately"
+    ],
+    "a": 1,
+    "why": "Positioning and immobilisation devices reduce filling. Close communication with the surgeon is a core goal: release or reposition the heart while supporting the MAP (target above 70 mmHg). Conversion to CPB is the escalation if this fails."
+  },
+  {
+    "q": "Which is the target mean arterial pressure during off-pump coronary grafting?",
+    "o": [
+      "Above 50 mmHg",
+      "Above 60 mmHg",
+      "Above 70 mmHg",
+      "Above 90 mmHg",
+      "Within 10% of the pre-induction value only"
+    ],
+    "a": 2,
+    "why": "The goal is a MAP above 70 mmHg to maintain coronary perfusion while vessels are occluded, with pacing wires available for bradycardia and active warming."
+  },
+  {
+    "q": "Before induction a patient’s cerebral oximetry (NIRS) baseline is 74%. During surgery it falls to 55%. What should you do first?",
+    "o": [
+      "Transfuse to Hb 100 g/L",
+      "Increase FiO2 to 1.0",
+      "Check for artefact: reposition the probe and check the headband is not too tight",
+      "Raise the MAP above 90 mmHg",
+      "Give a bolus of propofol"
+    ],
+    "a": 2,
+    "why": "A fall of more than 20% from baseline is significant. Exclude artefact first, then optimise oxygen delivery (Hb, MAP above 65, FiO2, PaCO2 4.5–5.5 kPa) and oxygen consumption (depth of anaesthesia, seizures)."
+  },
+  {
+    "q": "Which statement about near-infrared spectroscopy (NIRS) cerebral oximetry is correct?",
+    "o": [
+      "It needs pulsatile flow to give a reading",
+      "It uses light at around 760 and 850 nm and the Beer–Lambert law",
+      "A normal baseline is 50–60%",
+      "A 10% fall from baseline is significant",
+      "It measures jugular venous oxygen saturation"
+    ],
+    "a": 1,
+    "why": "NIRS uses near-infrared light (around 760 and 850 nm) and the Beer–Lambert law. It does not need pulsatile flow, so it works on bypass. Baseline is typically around 60–75% and changes are judged against the patient’s own baseline; a fall of more than 20% is significant."
+  },
+  {
+    "q": "In pre-operative assessment, climbing two flights of stairs without stopping corresponds to roughly how many METs?",
+    "o": [
+      "1",
+      "2",
+      "4",
+      "6",
+      "10"
+    ],
+    "a": 2,
+    "why": "Two flights without stopping is the usual practical marker of at least 4 METs (Miller’s table puts one flight at about 5 METs and gardening at 4). Self-report is unreliable, so a structured tool such as DASI is preferred. 1 MET = 3.5 ml O2/kg/min."
+  },
+  {
+    "q": "Which of the following is NOT a component of Lee’s Revised Cardiac Risk Index?",
+    "o": [
+      "History of cerebrovascular disease",
+      "Diabetes treated with insulin",
+      "Raised pre-operative creatinine",
+      "High-risk surgery",
+      "Age over 70 years"
+    ],
+    "a": 4,
+    "why": "The six RCRI factors are ischaemic heart disease, heart failure, cerebrovascular disease, insulin-treated diabetes, raised creatinine and high-risk surgery. Age is not included."
+  },
+  {
+    "q": "Four hours after CABG, a patient’s chest drain output suddenly stops. BP is falling, CVP is rising and heart sounds are quiet. A PA catheter is in place. Which finding most supports the likely diagnosis?",
+    "o": [
+      "PCWP much higher than CVP",
+      "Equalisation of diastolic pressures across the chambers",
+      "A large v wave on the PCWP trace",
+      "High cardiac output with low SVR",
+      "Falling pulmonary artery pressures with rising CVP"
+    ],
+    "a": 1,
+    "why": "This is tamponade (Beck’s triad: low BP, raised JVP, muffled heart sounds). A PA catheter shows equalised diastolic pressures; echo shows chamber collapse and a dilated IVC."
+  },
+  {
+    "q": "You are inducing anaesthesia for re-sternotomy for cardiac tamponade. Which haemodynamic goal is most important?",
+    "o": [
+      "Allow a slow heart rate to improve filling time",
+      "Reduce SVR to improve forward flow",
+      "Keep the patient “fast, full and tight”, avoiding bradycardia",
+      "Use positive pressure with high PEEP before the chest is opened",
+      "Give a large dose of propofol to blunt the pressor response"
+    ],
+    "a": 2,
+    "why": "Stroke volume is fixed and limited, so cardiac output depends on heart rate. Maintain preload, rate, SVR and contractility, avoid bradycardia, and have the surgeon scrubbed before induction."
+  },
+  {
+    "q": "A patient in cardiac ICU after cardiac surgery develops VF. A defibrillator is attached immediately. What is the recommended first step?",
+    "o": [
+      "Start external chest compressions and give adrenaline 1 mg",
+      "Deliver up to three stacked shocks",
+      "Open the chest immediately for internal massage",
+      "Give amiodarone 300 mg before shocking",
+      "Pace DDD at 100/min"
+    ],
+    "a": 1,
+    "why": "After cardiac surgery, VF/pVT is treated with three stacked shocks first. Then give early amiodarone 300 mg, FiO2 1.0, remove PEEP, avoid full-dose adrenaline and aim to re-open within 5 minutes if needed."
+  }
+]

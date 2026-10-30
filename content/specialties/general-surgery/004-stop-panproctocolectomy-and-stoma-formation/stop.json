@@ -1,0 +1,47 @@
+{
+  "t": "recipe",
+  "shape": "scalpel",
+  "group": "General surgery",
+  "title": "Panproctocolectomy and Stoma Formation",
+  "op": true,
+  "cards": [
+    {
+      "h": "Anaesthetic recipe",
+      "b": "file:cards/01-anaesthetic-recipe.html",
+      "recipe": true
+    },
+    {
+      "h": "Adrenal Hormones & Catecholamines",
+      "primaryRef": "phs52"
+    },
+    {
+      "h": "Renal Tubular Transport & Reabsorption",
+      "primaryRef": "phs31"
+    },
+    {
+      "h": "Total Parenteral Nutrition (TPN)",
+      "noteRef": "Total Parenteral Nutrition (TPN)"
+    },
+    {
+      "h": "Post-op Ileus",
+      "noteRef": "Post-op Ileus"
+    },
+    {
+      "h": "ERAS & Prehabilitation",
+      "noteRef": "ERAS & Prehabilitation"
+    },
+    {
+      "h": "Sample WPBA",
+      "b": "file:cards/07-sample-wpba.html",
+      "wpba": true
+    },
+    {
+      "h": "Curriculum",
+      "links": [
+        "curric:8",
+        "curric:9"
+      ]
+    }
+  ],
+  "q": "file:quiz.json"
+}

@@ -1,0 +1,122 @@
+[
+  {
+    "q": "What size MLT is typical?",
+    "o": [
+      "8.0",
+      "5.0–6.0",
+      "3.0",
+      "7.5",
+      "9.0"
+    ],
+    "a": 1,
+    "why": "Small diameter for surgical access."
+  },
+  {
+    "q": "Who should control the airway in shared airway surgery?",
+    "o": [
+      "Surgeon only",
+      "Agreed in advance between anaesthetist and surgeon",
+      "Nobody",
+      "The ODP",
+      "Decided intra-op"
+    ],
+    "a": 1,
+    "why": "Clear communication is key."
+  },
+  {
+    "q": "What is the best maintenance technique?",
+    "o": [
+      "Volatile via ETT",
+      "TIVA with remifentanil",
+      "Spinal",
+      "Ketamine",
+      "N2O"
+    ],
+    "a": 1,
+    "why": "Delivery independent of the airway."
+  },
+  {
+    "q": "How is the patient recovered?",
+    "o": [
+      "Flat",
+      "Sitting up, watching for stridor",
+      "Prone",
+      "Head-down",
+      "Lateral"
+    ],
+    "a": 1,
+    "why": "Consider dexamethasone."
+  },
+  {
+    "q": "Which pre-op information is crucial?",
+    "o": [
+      "BMI only",
+      "Size and site of lesion from nasendoscopy",
+      "Echo",
+      "Spirometry",
+      "Hb"
+    ],
+    "a": 1,
+    "why": "Determines airway plan."
+  },
+  {
+    "q": "What is the main laser-specific precaution?",
+    "o": [
+      "High FiO2",
+      "Laser-safe tube, low FiO2, saline-filled cuff",
+      "N2O",
+      "PVC tube",
+      "Wet drapes only"
+    ],
+    "a": 1,
+    "why": "Prevent airway fire."
+  },
+  {
+    "q": "Which delayed complication is anaesthetic?",
+    "o": [
+      "Granuloma",
+      "Post-op stridor",
+      "Voice change",
+      "Bleeding",
+      "Infection"
+    ],
+    "a": 1,
+    "why": "From airway oedema."
+  },
+  {
+    "q": "Why is neuromuscular block needed?",
+    "o": [
+      "For ventilation only",
+      "For surgical access and a still larynx",
+      "For analgesia",
+      "Not needed",
+      "For TIVA"
+    ],
+    "a": 1,
+    "why": "Relaxation for surgical access."
+  },
+  {
+    "q": "Which rescue equipment should be ready?",
+    "o": [
+      "None",
+      "Rescue airway kit including front-of-neck access",
+      "Defibrillator only",
+      "Chest drain",
+      "Pacing wire"
+    ],
+    "a": 1,
+    "why": "Laryngeal lesions can obstruct."
+  },
+  {
+    "q": "Which jet ventilation hazard is important?",
+    "o": [
+      "Hypothermia",
+      "Barotrauma if outflow is obstructed",
+      "Hyperkalaemia",
+      "Bradycardia",
+      "Hypertension"
+    ],
+    "a": 1,
+    "why": "Ensure an unobstructed expiratory path."
+  }
+]

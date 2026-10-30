@@ -1,0 +1,43 @@
+{
+  "t": "recipe",
+  "shape": "bone",
+  "group": "Orthopaedics and Trauma",
+  "title": "Knee Arthroscopy",
+  "op": true,
+  "cards": [
+    {
+      "h": "Anaesthetic recipe",
+      "b": "file:cards/01-anaesthetic-recipe.html",
+      "recipe": true
+    },
+    {
+      "h": "Heat Transfer & Temperature",
+      "primaryRef": "phy10"
+    },
+    {
+      "h": "Methods of Measuring Temperature",
+      "primaryRef": "phy67"
+    },
+    {
+      "h": "Patient Monitoring: Invasive & Non-invasive BP",
+      "primaryRef": "phy31"
+    },
+    {
+      "h": "Day Case Surgery",
+      "noteRef": "Day Case Surgery"
+    },
+    {
+      "h": "Sample WPBA",
+      "b": "file:cards/06-sample-wpba.html",
+      "wpba": true
+    },
+    {
+      "h": "Curriculum",
+      "links": [
+        "curric:8",
+        "curric:9"
+      ]
+    }
+  ],
+  "q": "file:quiz.json"
+}

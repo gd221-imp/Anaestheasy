@@ -1,0 +1,47 @@
+{
+  "t": "recipe",
+  "shape": "brain",
+  "group": "Neuro",
+  "title": "Elective Lumbar Spinal Surgery",
+  "op": true,
+  "cards": [
+    {
+      "h": "Anaesthetic recipe",
+      "b": "file:cards/01-anaesthetic-recipe.html",
+      "recipe": true
+    },
+    {
+      "h": "Depth of Anaesthesia",
+      "primaryRef": "phy32"
+    },
+    {
+      "h": "Cardiovascular Pharmacology",
+      "primaryRef": "pha23"
+    },
+    {
+      "h": "Elective Lumbar Spinal Surgery",
+      "noteRef": "Elective Lumbar Spinal Surgery"
+    },
+    {
+      "h": "EEG & Spectrogram in Neuroanaesthesia",
+      "noteRef": "EEG & Spectrogram in Neuroanaesthesia"
+    },
+    {
+      "h": "Intraoperative Neuromonitoring",
+      "noteRef": "Intraoperative Neuromonitoring"
+    },
+    {
+      "h": "Sample WPBA",
+      "b": "file:cards/07-sample-wpba.html",
+      "wpba": true
+    },
+    {
+      "h": "Curriculum",
+      "links": [
+        "curric:8",
+        "curric:9"
+      ]
+    }
+  ],
+  "q": "file:quiz.json"
+}

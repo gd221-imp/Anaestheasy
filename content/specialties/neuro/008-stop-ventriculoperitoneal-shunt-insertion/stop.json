@@ -1,0 +1,47 @@
+{
+  "t": "recipe",
+  "shape": "brain",
+  "group": "Neuro",
+  "title": "Ventriculoperitoneal Shunt Insertion",
+  "op": true,
+  "cards": [
+    {
+      "h": "Anaesthetic recipe",
+      "b": "file:cards/01-anaesthetic-recipe.html",
+      "recipe": true
+    },
+    {
+      "h": "CSF Circulation",
+      "primaryRef": "ana26"
+    },
+    {
+      "h": "The Brain: Anatomy, Blood Flow & Intracranial Pressure",
+      "primaryRef": "phs42"
+    },
+    {
+      "h": "CSF Physiology & Hydrocephalus",
+      "noteRef": "CSF Physiology & Hydrocephalus"
+    },
+    {
+      "h": "Spinal Epidural Abscess",
+      "noteRef": "Spinal Epidural Abscess"
+    },
+    {
+      "h": "Neurofibromatosis",
+      "noteRef": "Neurofibromatosis"
+    },
+    {
+      "h": "Sample WPBA",
+      "b": "file:cards/07-sample-wpba.html",
+      "wpba": true
+    },
+    {
+      "h": "Curriculum",
+      "links": [
+        "curric:8",
+        "curric:9"
+      ]
+    }
+  ],
+  "q": "file:quiz.json"
+}

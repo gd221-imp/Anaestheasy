@@ -1,0 +1,59 @@
+{
+  "t": "tip",
+  "title": "Pre-operative assessment",
+  "cards": [
+    {
+      "h": "The skeleton",
+      "b": "file:cards/01-the-skeleton.html"
+    },
+    {
+      "h": "Airway assessment",
+      "b": "file:cards/02-airway-assessment.html"
+    },
+    {
+      "h": "Functional capacity and risk",
+      "b": "file:cards/03-functional-capacity-and-risk.html"
+    },
+    {
+      "h": "Investigations",
+      "b": "file:cards/04-investigations.html"
+    },
+    {
+      "h": "Medicines",
+      "b": "file:cards/05-medicines.html"
+    },
+    {
+      "h": "Optimise",
+      "b": "file:cards/06-optimise.html"
+    },
+    {
+      "h": "Consent and shared decision-making",
+      "b": "file:cards/07-consent-and-shared-decision-making.html"
+    },
+    {
+      "h": "CPET & Perioperative Risk Assessment",
+      "noteRef": "CPET & Perioperative Risk Assessment"
+    },
+    {
+      "h": "Ischaemic Heart Disease",
+      "noteRef": "Ischaemic Heart Disease"
+    },
+    {
+      "h": "Perioperative Diabetes Management",
+      "noteRef": "Perioperative Diabetes Management"
+    },
+    {
+      "h": "Blood Conservation Strategies",
+      "noteRef": "Blood Conservation Strategies"
+    },
+    {
+      "h": "ERAS & Prehabilitation",
+      "noteRef": "ERAS & Prehabilitation"
+    },
+    {
+      "h": "Obstructive Sleep Apnoea & Obesity Hypoventilation Syndrome",
+      "noteRef": "Obstructive Sleep Apnoea & Obesity Hypoventilation Syndrome"
+    }
+  ],
+  "q": "file:quiz.json"
+}

@@ -1,0 +1,58 @@
+{
+  "t": "tip",
+  "shape": "belly",
+  "group": "Obstetrics",
+  "title": "Post Dural Puncture Headache & Nerve Injury",
+  "cards": [
+    {
+      "h": "Post dural puncture headache (PDPH)",
+      "b": "file:cards/01-post-dural-puncture-headache-pdph.html"
+    },
+    {
+      "h": "Differential diagnosis",
+      "b": "file:cards/02-differential-diagnosis.html"
+    },
+    {
+      "h": "Typical features",
+      "b": "file:cards/03-typical-features.html"
+    },
+    {
+      "h": "Incidence",
+      "b": "file:cards/04-incidence.html"
+    },
+    {
+      "h": "Management",
+      "b": "file:cards/05-management.html"
+    },
+    {
+      "h": "Risks of not treating a PDPH",
+      "b": "file:cards/06-risks-of-not-treating-a-pdph.html"
+    },
+    {
+      "h": "Other headaches in pregnancy to consider",
+      "b": "file:cards/07-other-headaches-in-pregnancy-to-consider.html"
+    },
+    {
+      "h": "Key points",
+      "b": "file:cards/08-key-points.html"
+    },
+    {
+      "h": "Key points",
+      "b": "file:cards/09-key-points.html"
+    },
+    {
+      "h": "Central causes",
+      "b": "file:cards/10-central-causes.html"
+    },
+    {
+      "h": "Peripheral causes",
+      "b": "file:cards/11-peripheral-causes.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/12-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

@@ -1,0 +1,26 @@
+{
+  "t": "tip",
+  "shape": "heart",
+  "group": "Cardiac",
+  "title": "Mitral Valve Disease",
+  "cards": [
+    {
+      "h": "Anatomy",
+      "b": "file:cards/01-anatomy.html"
+    },
+    {
+      "h": "Mitral Stenosis",
+      "b": "file:cards/02-mitral-stenosis.html"
+    },
+    {
+      "h": "Mitral Regurgitation",
+      "b": "file:cards/03-mitral-regurgitation.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/04-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

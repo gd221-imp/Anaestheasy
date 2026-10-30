@@ -1,0 +1,386 @@
+[
+  {
+    "id": "Q122",
+    "ar": "Pain medicine",
+    "sb": "Rib fractures",
+    "q": "A 74-year-old with COPD has five unilateral rib fractures. Despite paracetamol and oral morphine he cannot cough effectively and SpO2 is falling. He takes apixaban, last dose 12 hours ago. Which analgesic technique is most appropriate?",
+    "o": [
+      "Ultrasound-guided serratus anterior plane or erector spinae plane catheter",
+      "Increase oral morphine only",
+      "Thoracic epidural now",
+      "Intercostal blocks at each level every 6 hours",
+      "Intrathecal diamorphine"
+    ],
+    "a": 0,
+    "why": "Thoracic epidural is a gold standard for multiple rib fractures but should not be sited 12 hours after treatment-dose apixaban (older AAGBI guidance: at least 48 hours; ESAIC and ASRA: 72 hours). Fascial plane catheters (serratus anterior or erector spinae) are superficial, compressible and acceptable with anticoagulation, giving useful unilateral analgesia. Paravertebral catheters are an alternative but are deep, non-compressible blocks. Scoring tools such as STUMBL guide escalation.",
+    "st": "st2-72"
+  },
+  {
+    "id": "Q123",
+    "ar": "Pain medicine",
+    "sb": "Phantom limb pain",
+    "q": "Which intervention has the best evidence for reducing established phantom limb pain?",
+    "o": [
+      "Ketamine infusion for 30 minutes at operation",
+      "Long-term high-dose opioids",
+      "Mirror therapy and graded motor imagery as part of a multimodal programme",
+      "Surgical revision of the stump",
+      "Pre-emptive epidural for 72 hours before amputation"
+    ],
+    "a": 2,
+    "why": "Phantom limb pain affects most amputees. Pre-emptive epidurals have not consistently prevented it. For established pain, evidence is modest overall but supports mirror therapy/graded motor imagery, gabapentinoids or tricyclics, and physiotherapy within a multidisciplinary approach. Distinguish it from stump pain, which may have a treatable cause (neuroma, infection, ill-fitting prosthesis).",
+    "st": "st2-74"
+  },
+  {
+    "id": "Q124",
+    "ar": "Pain medicine",
+    "sb": "CRPS",
+    "q": "Eight weeks after a wrist fracture, a woman has burning pain out of proportion to the injury, allodynia, a swollen, mottled, sweaty hand and reduced range of movement. Which is the first priority in management?",
+    "o": [
+      "Stellate ganglion block",
+      "Spinal cord stimulator",
+      "Immobilise the wrist in plaster",
+      "High-dose oral steroids for 6 months",
+      "Early physiotherapy and occupational therapy focused on restoring function, with analgesia"
+    ],
+    "a": 4,
+    "why": "CRPS is diagnosed with the Budapest criteria (symptoms in 3 of 4 categories, signs in 2: sensory, vasomotor, sudomotor/oedema, motor/trophic). Management centres on rehabilitation (physiotherapy, occupational therapy, desensitisation, graded motor imagery) with pain relief and psychological support. Bisphosphonates have some evidence early; sympathetic blocks may facilitate therapy; spinal cord stimulation is for refractory cases.",
+    "st": "st2-75"
+  },
+  {
+    "id": "Q125",
+    "ar": "Pain medicine",
+    "sb": "Neuropathic pain",
+    "q": "According to NICE CG173, which is a first-line drug for neuropathic pain (other than trigeminal neuralgia)?",
+    "o": [
+      "Tramadol",
+      "Capsaicin 8% patch",
+      "Amitriptyline, duloxetine, gabapentin or pregabalin",
+      "Morphine",
+      "Carbamazepine"
+    ],
+    "a": 2,
+    "why": "NICE offers a choice of amitriptyline, duloxetine, gabapentin or pregabalin first line, switching if one is ineffective or not tolerated. Tramadol is for acute rescue only. Capsaicin cream is for localised pain in people who prefer to avoid oral drugs. Carbamazepine is first line for trigeminal neuralgia specifically.",
+    "st": "st2-77"
+  },
+  {
+    "id": "Q126",
+    "ar": "Pain medicine",
+    "sb": "Trigeminal neuralgia",
+    "q": "A 70-year-old has classical trigeminal neuralgia controlled by carbamazepine but has become hyponatraemic and ataxic. MRI shows a superior cerebellar artery loop compressing the nerve root. He is fit for surgery. Which treatment offers the best chance of long-term pain freedom?",
+    "o": [
+      "Microvascular decompression",
+      "Switch to oxcarbazepine indefinitely",
+      "Radiofrequency thermocoagulation of the Gasserian ganglion",
+      "Glycerol rhizolysis",
+      "Gamma knife radiosurgery"
+    ],
+    "a": 0,
+    "why": "Microvascular decompression gives the longest pain-free intervals (around 70% pain-free at 10 years) and preserves facial sensation, but is a posterior fossa craniotomy with small risks of hearing loss, stroke and death. Percutaneous ganglion procedures and radiosurgery suit older or less fit patients but cause numbness and have higher recurrence. Oxcarbazepine is an alternative drug with less ataxia but also causes hyponatraemia.",
+    "st": "st2-76"
+  },
+  {
+    "id": "Q127",
+    "ar": "Pain medicine",
+    "sb": "Post-herpetic neuralgia",
+    "q": "A 75-year-old has localised post-herpetic neuralgia over T6 with allodynia, and cannot tolerate oral neuropathic drugs because of dizziness. What is the most appropriate treatment?",
+    "o": [
+      "Lidocaine 5% medicated plaster (up to 12 hours on, 12 hours off)",
+      "Spinal cord stimulator",
+      "Intercostal neurolysis with phenol",
+      "Oral morphine",
+      "Repeat antiviral therapy"
+    ],
+    "a": 0,
+    "why": "For localised PHN, topical lidocaine 5% plaster is useful when oral drugs are poorly tolerated (licensed for PHN; applied for 12 hours in 24; can be cut to size). Capsaicin 8% patch is an alternative under specialist supervision. Prompt antivirals during acute zoster reduce severity of acute pain; zoster vaccination reduces PHN incidence.",
+    "st": "st2-76"
+  },
+  {
+    "id": "Q128",
+    "ar": "Pain medicine",
+    "sb": "Low back pain",
+    "q": "A 45-year-old has non-specific low back pain for 3 months without red flags. According to NICE NG59, which treatment should be offered?",
+    "o": [
+      "Paracetamol alone",
+      "A group exercise programme, with or without psychological therapy within a combined physical and psychological programme",
+      "Long-term strong opioids",
+      "Facet joint injections",
+      "Spinal fusion"
+    ],
+    "a": 1,
+    "why": "NICE NG59 recommends exercise programmes, considering manual therapy only alongside exercise, and combined physical and psychological programmes for those with significant psychosocial obstacles. NSAIDs can be used; paracetamol alone, opioids for chronic pain, and spinal injections for non-specific back pain are not recommended. Radiofrequency denervation can be considered for confirmed facet pain after a positive diagnostic medial branch block.",
+    "st": "st2-69"
+  },
+  {
+    "id": "Q129",
+    "ar": "Pain medicine",
+    "sb": "Red flags",
+    "q": "A 55-year-old with back pain reports new urinary retention, saddle anaesthesia and bilateral leg weakness. What is the most appropriate next step?",
+    "o": [
+      "Epidural steroid injection",
+      "Routine outpatient MRI",
+      "Physiotherapy referral",
+      "Start gabapentin and review in 2 weeks",
+      "Emergency MRI of the lumbosacral spine and urgent spinal surgical referral"
+    ],
+    "a": 4,
+    "why": "These are features of cauda equina syndrome, a surgical emergency. Arrange immediate MRI and spinal surgical referral; outcome depends on decompression before complete retention develops. Other red flags include history of cancer, fever or IV drug use (infection), significant trauma or osteoporosis (fracture), and weight loss.",
+    "st": "st2-69"
+  },
+  {
+    "id": "Q130",
+    "ar": "Pain medicine",
+    "sb": "Cancer pain",
+    "q": "A patient with pancreatic cancer has severe upper abdominal pain radiating to the back despite escalating opioids and a gabapentinoid, with sedation and constipation. Which procedure is most appropriate?",
+    "o": [
+      "Stellate ganglion block",
+      "Lumbar sympathetic block",
+      "Coeliac plexus neurolysis with alcohol",
+      "Superior hypogastric plexus block",
+      "Ganglion impar block"
+    ],
+    "a": 2,
+    "why": "The coeliac plexus carries visceral afferents from upper abdominal organs including the pancreas. Neurolysis (usually 50–100% alcohol, or phenol) under CT or endoscopic ultrasound guidance reduces pain and opioid requirements. Side effects: postural hypotension, diarrhoea (unopposed parasympathetic activity), back pain and, rarely, paraplegia from spinal artery injury. The superior hypogastric plexus serves pelvic organs.",
+    "st": "st2-70"
+  },
+  {
+    "id": "Q131",
+    "ar": "Pain medicine",
+    "sb": "Bone metastases",
+    "q": "A man with prostate cancer has well-localised pain from a single vertebral metastasis without cord compression. Which treatment is most effective for this pain?",
+    "o": [
+      "Single-fraction palliative radiotherapy",
+      "Spinal cord stimulator",
+      "Increase opioids",
+      "Bisphosphonates alone",
+      "Calcitonin"
+    ],
+    "a": 0,
+    "why": "External beam radiotherapy (often a single 8 Gy fraction) relieves pain from bone metastases in about 60–70% of patients, though relief may take weeks and pain can flare initially. Bisphosphonates and denosumab reduce skeletal events. Opioids and NSAIDs support analgesia meanwhile. New back pain with neurology needs urgent MRI for cord compression.",
+    "st": "st2-70"
+  },
+  {
+    "id": "Q132",
+    "ar": "Pain medicine",
+    "sb": "Opioid tolerance",
+    "q": "A man on oral methadone 80 mg daily for opioid substitution needs an emergency laparotomy. What is the most appropriate analgesic strategy?",
+    "o": [
+      "Switch to buprenorphine at induction",
+      "Use tramadol as the only opioid",
+      "Stop methadone and use a morphine PCA",
+      "Avoid all opioids postoperatively",
+      "Continue methadone, add multimodal analgesia (regional technique, ketamine, paracetamol, NSAID) and give additional short-acting opioid titrated to effect"
+    ],
+    "a": 4,
+    "why": "Continue the baseline opioid (methadone, confirmed with the prescriber or pharmacy) to prevent withdrawal; it provides little analgesia. Add regional anaesthesia, ketamine, NSAIDs and paracetamol, and expect higher opioid requirements (PCA with larger boluses). Involve the acute pain team and plan discharge with the substitution service.",
+    "st": "st2-72"
+  },
+  {
+    "id": "Q133",
+    "ar": "Pain medicine",
+    "sb": "Buprenorphine",
+    "q": "A patient using a buprenorphine 20 micrograms/hour transdermal patch for chronic back pain is having a total knee replacement. What does current guidance recommend?",
+    "o": [
+      "Postpone surgery until the patch has been stopped for a week",
+      "Remove the patch and give naloxone",
+      "Double the patch dose postoperatively",
+      "Remove the patch 72 hours before surgery",
+      "Continue the patch and add other analgesia, including full-agonist opioids if needed"
+    ],
+    "a": 4,
+    "why": "Low-to-moderate dose buprenorphine (transdermal, or sublingual up to about 16 mg/day) is usually continued perioperatively; full agonists still work at these doses and stopping risks withdrawal or relapse. Plan multimodal and regional analgesia. Decisions about high-dose sublingual buprenorphine are made with the prescriber.",
+    "st": "st2-72"
+  },
+  {
+    "id": "Q134",
+    "ar": "Pain medicine",
+    "sb": "Opioid side effects",
+    "q": "A patient on long-term high-dose oxycodone reports worsening diffuse pain extending beyond the original site as the dose increases. What is the most likely explanation?",
+    "o": [
+      "Opioid tolerance",
+      "Opioid-induced hyperalgesia",
+      "Disease progression",
+      "Opioid withdrawal",
+      "Pseudo-addiction"
+    ],
+    "a": 1,
+    "why": "Opioid-induced hyperalgesia is paradoxical increased pain sensitivity, often diffuse and different from the original pain, that worsens with dose escalation (partly NMDA-mediated). Tolerance is reduced effect needing dose increase, with pain at the original site. Management: reduce or rotate opioid, add NMDA antagonists (ketamine), and use non-opioid strategies.",
+    "st": null
+  },
+  {
+    "id": "Q135",
+    "ar": "Pain medicine",
+    "sb": "Chronic post-surgical pain",
+    "q": "Which factor is the strongest predictor of chronic post-surgical pain?",
+    "o": [
+      "Older age",
+      "Use of general rather than regional anaesthesia",
+      "Female surgeon",
+      "Severe acute postoperative pain",
+      "Short duration of surgery"
+    ],
+    "a": 3,
+    "why": "Risk factors include severe acute postoperative pain, preoperative pain, younger age, female sex, psychological factors (anxiety, catastrophising, depression), nerve damage during surgery, repeat surgery and adjuvant radiotherapy or chemotherapy. Highest-risk operations: amputation, thoracotomy, mastectomy, inguinal hernia repair and CABG.",
+    "st": "st2-74"
+  },
+  {
+    "id": "Q136",
+    "ar": "Pain medicine",
+    "sb": "Intrathecal opioids",
+    "q": "A patient receives 300 micrograms of intrathecal diamorphine for a hip replacement. When is the risk of delayed respiratory depression greatest?",
+    "o": [
+      "There is no risk with diamorphine",
+      "Between about 6 and 12 hours after injection",
+      "Within the first 10 minutes",
+      "At 48 hours",
+      "Only if IV opioids are given at the same time"
+    ],
+    "a": 1,
+    "why": "Hydrophilic opioids (morphine, and to a lesser extent diamorphine after conversion) spread rostrally in CSF, reaching the brainstem hours later; late respiratory depression peaks around 6–12 hours. Monitor respiratory rate and sedation hourly for at least 12 hours (24 hours for morphine at higher doses). Lipophilic opioids (fentanyl) act faster, briefly and segmentally.",
+    "st": "st2-70"
+  },
+  {
+    "id": "Q137",
+    "ar": "Pain medicine",
+    "sb": "Spinal cord stimulation",
+    "q": "Which condition has the best evidence for benefit from spinal cord stimulation?",
+    "o": [
+      "Persistent spinal pain syndrome type 2 (failed back surgery) with predominant radicular leg pain",
+      "Fibromyalgia",
+      "Chronic pelvic pain from endometriosis",
+      "Acute low back pain",
+      "Post-stroke central pain"
+    ],
+    "a": 0,
+    "why": "NICE TA159 supports spinal cord stimulation for chronic neuropathic pain (≥ 6 months despite conventional treatment) after a successful trial, particularly failed back surgery syndrome with leg pain and CRPS. Refractory angina and painful diabetic neuropathy also respond. For surgery, check device MRI compatibility, switch it off for diathermy and use bipolar where possible.",
+    "st": "st2-77"
+  },
+  {
+    "id": "Q138",
+    "ar": "Pain medicine",
+    "sb": "Pain assessment",
+    "q": "Which tool is designed to identify neuropathic components of a patient's pain?",
+    "o": [
+      "Abbey pain scale",
+      "Hospital Anxiety and Depression Scale",
+      "LANSS pain scale",
+      "Visual analogue scale",
+      "Brief Pain Inventory"
+    ],
+    "a": 2,
+    "why": "The Leeds Assessment of Neuropathic Symptoms and Signs (LANSS), DN4 and painDETECT screen for neuropathic pain. VAS and NRS measure intensity; the Brief Pain Inventory and McGill questionnaire assess interference and quality; HADS screens mood; the Abbey and PAINAD scales assess pain in people with dementia.",
+    "st": "st2-75"
+  },
+  {
+    "id": "Q139",
+    "ar": "Pain medicine",
+    "sb": "Transdermal opioids",
+    "q": "A patient with a fentanyl 25 micrograms/hour patch develops a fever of 39.5 °C after surgery and becomes drowsy with a respiratory rate of 8. What is the most likely cause?",
+    "o": [
+      "Hypoglycaemia",
+      "Increased fentanyl absorption from the patch due to raised skin temperature",
+      "Sepsis-associated encephalopathy alone",
+      "Serotonin syndrome",
+      "Opioid withdrawal"
+    ],
+    "a": 1,
+    "why": "Heat (fever, warming blankets, heat pads) increases skin blood flow and drug release from transdermal fentanyl, raising plasma levels and risking respiratory depression. Remove the patch, give naloxone as needed (fentanyl's skin depot means effects persist for many hours) and monitor. Fentanyl 25 micrograms/hour is roughly equivalent to 60–90 mg oral morphine a day.",
+    "st": null
+  },
+  {
+    "id": "Q316",
+    "ar": "Pain medicine",
+    "sb": "Coeliac plexus block",
+    "q": "What is the most common side effect after a neurolytic coeliac plexus block for pancreatic cancer pain?",
+    "o": [
+      "Horner's syndrome",
+      "Lower limb paraplegia in most patients",
+      "Bradycardia only",
+      "Urinary retention",
+      "Orthostatic hypotension and diarrhoea"
+    ],
+    "a": 4,
+    "why": "Sympathetic blockade causes orthostatic hypotension and unopposed parasympathetic activity causes diarrhoea; both are usually transient. Rare serious complications include paraplegia (from anterior spinal artery injury), retroperitoneal haemorrhage and pneumothorax.",
+    "st": "st2-71"
+  },
+  {
+    "id": "Q317",
+    "ar": "Pain medicine",
+    "sb": "Stellate ganglion block",
+    "q": "Which sign confirms a successful stellate ganglion block?",
+    "o": [
+      "Contralateral mydriasis",
+      "Bilateral ptosis",
+      "Loss of the gag reflex",
+      "Diaphragmatic paralysis",
+      "Ipsilateral Horner's syndrome"
+    ],
+    "a": 4,
+    "why": "Ipsilateral Horner's syndrome (ptosis, miosis, anhidrosis, enophthalmos) and a rise in hand temperature confirm sympathetic block. Risks include intravascular (vertebral artery) injection causing seizures, recurrent laryngeal nerve block with hoarseness, phrenic nerve block and pneumothorax.",
+    "st": "st2-71"
+  },
+  {
+    "id": "Q318",
+    "ar": "Pain medicine",
+    "sb": "Caudal block",
+    "q": "For a caudal block in a child, what volume of 0.25% levobupivacaine typically gives a block to the lower thoracic dermatomes (Armitage regimen)?",
+    "o": [
+      "1.0 mL/kg",
+      "2.5 mL/kg",
+      "1.25 mL/kg",
+      "0.1 mL/kg",
+      "0.5 mL/kg"
+    ],
+    "a": 2,
+    "why": "Armitage: 0.5 mL/kg for sacral, 1 mL/kg for lumbar and 1.25 mL/kg for lower thoracic levels, keeping within the maximum dose of 2.5 mg/kg. Adjuncts such as clonidine 1–2 µg/kg prolong the block.",
+    "st": "st2-71"
+  },
+  {
+    "id": "Q319",
+    "ar": "Pain medicine",
+    "sb": "PCA",
+    "q": "A typical morphine PCA for an opioid-naive adult is programmed with which settings?",
+    "o": [
+      "0.1 mg bolus, 60-minute lockout",
+      "10 mg bolus, 1-minute lockout",
+      "5 mg bolus with a 10 mg/h background infusion",
+      "1 mg bolus, 5-minute lockout, no background infusion",
+      "1 mg bolus, no lockout"
+    ],
+    "a": 3,
+    "why": "A standard PCA is morphine 1 mg bolus with a 5-minute lockout and no background infusion in opioid-naive patients (background infusions increase respiratory depression). Monitor sedation score, respiratory rate and SpO2, and prescribe naloxone and antiemetics.",
+    "st": "st2-73"
+  },
+  {
+    "id": "Q320",
+    "ar": "Pain medicine",
+    "sb": "Epidural analgesia",
+    "q": "A patient with a thoracic epidural infusion develops new bilateral leg weakness and back pain 12 hours after surgery. What is the priority?",
+    "o": [
+      "Give a bolus to improve analgesia",
+      "Start physiotherapy to mobilise",
+      "Reduce the rate and review in 4 hours",
+      "Stop the infusion and arrange urgent MRI",
+      "Remove the catheter and discharge from APS"
+    ],
+    "a": 3,
+    "why": "Increasing motor block, especially with back pain, is an emergency. Stop the infusion and review within an hour; if there is no improvement, get an urgent MRI and neurosurgical opinion, as decompression within 8–12 hours improves outcome (NAP3). Check anticoagulation timing.",
+    "st": "st2-73"
+  },
+  {
+    "id": "Q321",
+    "ar": "Pain medicine",
+    "sb": "Opioid-induced ventilatory impairment",
+    "q": "Which observation is the earliest reliable warning of opioid-induced ventilatory impairment on the ward?",
+    "o": [
+      "Respiratory rate alone",
+      "Blood pressure",
+      "Increasing sedation score",
+      "Heart rate",
+      "Pupil size"
+    ],
+    "a": 2,
+    "why": "Rising sedation usually precedes respiratory depression; respiratory rate can stay normal until late, and SpO2 may be maintained on supplemental oxygen. Risk factors include OSA, obesity, older age, renal impairment and concurrent sedatives such as gabapentinoids.",
+    "st": "st2-73"
+  }
+]

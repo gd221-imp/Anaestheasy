@@ -1,0 +1,26 @@
+{
+  "t": "tip",
+  "shape": "cross",
+  "group": "Orthopaedics and Trauma",
+  "title": "Paediatric Trauma",
+  "cards": [
+    {
+      "h": "Overview",
+      "b": "file:cards/01-overview.html"
+    },
+    {
+      "h": "Increased elasticity of lungs",
+      "b": "file:cards/02-increased-elasticity-of-lungs.html"
+    },
+    {
+      "h": "CT head within 1hr if",
+      "b": "file:cards/03-ct-head-within-1hr-if.html"
+    },
+    {
+      "h": "SCIWORA (Spinal Cord Injury WithOut Radiographic Abnormality)",
+      "b": "file:cards/04-sciwora-spinal-cord-injury-without-radiographic.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

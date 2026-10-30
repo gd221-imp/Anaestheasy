@@ -1,0 +1,122 @@
+[
+  {
+    "q": "During surgery in the sitting position, EtCO2 falls suddenly, SpO2 drops and BP falls. What is the most likely diagnosis?",
+    "o": [
+      "Anaphylaxis",
+      "Venous air embolism",
+      "Tension pneumothorax",
+      "Light anaesthesia",
+      "Hypoglycaemia"
+    ],
+    "a": 1,
+    "why": "Open venous sinuses above the heart entrain air. Signs: falling EtCO2 and SpO2, arrhythmia, hypotension, rising right atrial pressure."
+  },
+  {
+    "q": "What is the first step in managing venous air embolism during posterior fossa surgery?",
+    "o": [
+      "Give adrenaline",
+      "Tell the surgeon to flood the field with saline and stop further air entry",
+      "Start CPR",
+      "Increase volatile",
+      "Remove the ETT"
+    ],
+    "a": 1,
+    "why": "Prevent more air entering: flood the field and use wet packs, lower the head, stop N2O, FiO2 1.0, aspirate the CVC."
+  },
+  {
+    "q": "Which monitor is most sensitive for detecting venous air embolism?",
+    "o": [
+      "EtCO2",
+      "TOE or precordial Doppler",
+      "Pulse oximetry",
+      "ECG",
+      "Arterial pressure"
+    ],
+    "a": 1,
+    "why": "TOE and precordial Doppler are the most sensitive."
+  },
+  {
+    "q": "Which is an absolute contraindication to the sitting position?",
+    "o": [
+      "Age over 60",
+      "A right-to-left intracardiac shunt or ventriculo-atrial shunt",
+      "Controlled hypertension",
+      "Obesity",
+      "Previous craniotomy"
+    ],
+    "a": 1,
+    "why": "Right-to-left shunts risk paradoxical air embolism; a PFO is a relative contraindication."
+  },
+  {
+    "q": "During posterior fossa surgery the heart rate suddenly falls to 35 with hypertension. What is the likely cause?",
+    "o": [
+      "Hypovolaemia",
+      "Brainstem stimulation by the surgeon",
+      "Opioid overdose",
+      "Hypothermia",
+      "Venous air embolism"
+    ],
+    "a": 1,
+    "why": "Brainstem manipulation causes sudden bradycardia and BP changes; tell the surgeon to stop."
+  },
+  {
+    "q": "Why must swallow and airway reflexes be checked before extubation after posterior fossa surgery?",
+    "o": [
+      "To check for awareness",
+      "Lower cranial nerve (IX–XII) injury can cause bulbar dysfunction and aspiration",
+      "To test hearing",
+      "To assess pain",
+      "Not needed"
+    ],
+    "a": 1,
+    "why": "The posterior fossa contains cranial nerves VII–XII; injury causes dysphagia and impaired airway reflexes."
+  },
+  {
+    "q": "Why is post-operative vomiting common after posterior fossa surgery?",
+    "o": [
+      "Volatile use",
+      "Surgery is close to the vomiting centre",
+      "Opioids only",
+      "Hypotension",
+      "Dehydration"
+    ],
+    "a": 1,
+    "why": "Proximity to the vomiting centre (area postrema) increases PONV; give regular antiemetics."
+  },
+  {
+    "q": "What does the acronym DANISH describe?",
+    "o": [
+      "Signs of raised ICP",
+      "Cerebellar signs",
+      "Signs of brainstem death",
+      "Features of autonomic neuropathy",
+      "Signs of meningism"
+    ],
+    "a": 1,
+    "why": "Dysdiadochokinesia, ataxia, nystagmus, intention tremor, slurred speech, hypotonia."
+  },
+  {
+    "q": "A patient with an acoustic neuroma (vestibular schwannoma) has a reduced corneal reflex. Which nerve is affected?",
+    "o": [
+      "Facial (VII)",
+      "Trigeminal (V)",
+      "Abducens (VI)",
+      "Vagus (X)",
+      "Accessory (XI)"
+    ],
+    "a": 1,
+    "why": "The corneal reflex afferent is V; acoustic neuromas affect VIII, then V and VII as they grow."
+  },
+  {
+    "q": "Which complication of prolonged surgery in the sitting or prone position affects the airway after extubation?",
+    "o": [
+      "Laryngospasm only",
+      "Macroglossia and tongue oedema",
+      "Tracheomalacia",
+      "Vocal cord granuloma",
+      "Epistaxis"
+    ],
+    "a": 1,
+    "why": "Neck flexion and prolonged surgery cause tongue and airway oedema (macroglossia)."
+  }
+]

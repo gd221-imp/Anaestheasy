@@ -1,0 +1,34 @@
+{
+  "t": "tip",
+  "shape": "brain",
+  "group": "Neuro",
+  "title": "Elective Lumbar Spinal Surgery",
+  "q": "file:quiz.json",
+  "cards": [
+    {
+      "h": "The operations",
+      "b": "file:cards/01-the-operations.html"
+    },
+    {
+      "h": "Pre-op",
+      "b": "file:cards/02-pre-op.html"
+    },
+    {
+      "h": "Prone positioning",
+      "b": "file:cards/03-prone-positioning.html"
+    },
+    {
+      "h": "Intra-op",
+      "b": "file:cards/04-intra-op.html"
+    },
+    {
+      "h": "Analgesia",
+      "b": "file:cards/05-analgesia.html"
+    },
+    {
+      "h": "Complications",
+      "b": "file:cards/06-complications.html"
+    }
+  ],
+  "note": true
+}

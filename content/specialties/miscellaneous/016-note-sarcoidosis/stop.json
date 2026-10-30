@@ -1,0 +1,18 @@
+{
+  "t": "tip",
+  "shape": "star",
+  "group": "Miscellaneous",
+  "title": "Sarcoidosis",
+  "cards": [
+    {
+      "h": "Overview",
+      "b": "file:cards/01-overview.html"
+    },
+    {
+      "h": "A: Airway",
+      "b": "file:cards/02-a-airway.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

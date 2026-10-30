@@ -1,0 +1,122 @@
+[
+  {
+    "q": "What is the maximum lidocaine dose for airway topicalisation during AFOI?",
+    "o": [
+      "3 mg/kg",
+      "9 mg/kg lean body weight",
+      "20 mg/kg",
+      "1.5 mg/kg",
+      "15 mg/kg total body weight"
+    ],
+    "a": 1,
+    "why": "Calculated on lean body weight."
+  },
+  {
+    "q": "When is the induction agent given during AFOI?",
+    "o": [
+      "Before the scope is passed",
+      "Only after the cuff is inflated and position confirmed with capnography",
+      "Once the scope is at the cords",
+      "Before topicalisation",
+      "Never"
+    ],
+    "a": 1,
+    "why": "Confirm position before inducing."
+  },
+  {
+    "q": "Which nerve supplies sensation to the larynx above the cords?",
+    "o": [
+      "Recurrent laryngeal nerve",
+      "Superior laryngeal nerve (internal branch)",
+      "Glossopharyngeal nerve",
+      "Hypoglossal nerve",
+      "Phrenic nerve"
+    ],
+    "a": 1,
+    "why": "The RLN supplies sensation below the cords."
+  },
+  {
+    "q": "Which intrinsic laryngeal muscle is the only abductor of the vocal cords?",
+    "o": [
+      "Lateral cricoarytenoid",
+      "Posterior cricoarytenoid",
+      "Cricothyroid",
+      "Thyroarytenoid",
+      "Transverse arytenoid"
+    ],
+    "a": 1,
+    "why": "All intrinsic muscles are supplied by the RLN except cricothyroid (superior laryngeal nerve)."
+  },
+  {
+    "q": "Biphasic stridor suggests obstruction where?",
+    "o": [
+      "Supraglottic",
+      "Glottic or subglottic",
+      "Bronchial",
+      "Nasopharyngeal",
+      "Alveolar"
+    ],
+    "a": 1,
+    "why": "Inspiratory suggests laryngeal; expiratory suggests tracheobronchial."
+  },
+  {
+    "q": "Which feature favours epiglottitis over croup?",
+    "o": [
+      "Barking cough",
+      "Drooling, leaning forward and absence of cough",
+      "Coryza for days",
+      "Age 1 year",
+      "Gradual onset"
+    ],
+    "a": 1,
+    "why": "Rapid deterioration, muffled voice and odynophagia."
+  },
+  {
+    "q": "What is the usual cause of croup?",
+    "o": [
+      "H. influenzae",
+      "Parainfluenza virus",
+      "Group A strep",
+      "RSV only",
+      "Staph aureus"
+    ],
+    "a": 1,
+    "why": "Treat with oral dexamethasone, nebulised budesonide or adrenaline."
+  },
+  {
+    "q": "How long should patients stay nil by mouth after airway topicalisation?",
+    "o": [
+      "15 minutes",
+      "2 hours",
+      "24 hours",
+      "6 hours",
+      "No restriction"
+    ],
+    "a": 1,
+    "why": "Because protective reflexes are impaired."
+  },
+  {
+    "q": "Which is a relative contraindication to AFOI?",
+    "o": [
+      "Limited mouth opening",
+      "Uncooperative patient or local anaesthetic allergy",
+      "Obesity",
+      "Cervical spine instability",
+      "Previous difficult airway"
+    ],
+    "a": 1,
+    "why": "Also laryngeal stenosis, bleeding and operator inexperience."
+  },
+  {
+    "q": "How is the cricothyroid (transtracheal) injection performed?",
+    "o": [
+      "Through the thyroid isthmus",
+      "22G needle through the cricothyroid membrane, aspirate air, inject and withdraw quickly",
+      "Into the vallecula",
+      "Via the nose",
+      "Through the cricoid cartilage"
+    ],
+    "a": 1,
+    "why": "Patient coughs, spreading LA below the cords."
+  }
+]

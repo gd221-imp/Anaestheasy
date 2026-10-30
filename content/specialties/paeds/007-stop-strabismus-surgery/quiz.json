@@ -1,0 +1,122 @@
+[
+  {
+    "q": "What is the efferent limb of the oculocardiac reflex?",
+    "o": [
+      "Trigeminal nerve",
+      "Vagus nerve",
+      "Facial nerve",
+      "Oculomotor nerve",
+      "Sympathetic chain"
+    ],
+    "a": 1,
+    "why": "Afferent via CN V, efferent via CN X."
+  },
+  {
+    "q": "What is the first step when bradycardia occurs during squint surgery?",
+    "o": [
+      "Give adrenaline",
+      "Ask the surgeon to stop the stimulus",
+      "Start CPR",
+      "Give atropine 2 mg",
+      "Deepen with volatile"
+    ],
+    "a": 1,
+    "why": "Then atropine 20 mcg/kg or glycopyrronium 10 mcg/kg."
+  },
+  {
+    "q": "Why is strabismus surgery high risk for PONV?",
+    "o": [
+      "Long duration",
+      "The oculocardiac reflex correlates with PONV",
+      "Opioid-free",
+      "Use of TIVA",
+      "Short fasting"
+    ],
+    "a": 1,
+    "why": "Use two antiemetics, TIVA and avoid nitrous oxide."
+  },
+  {
+    "q": "Why is PPV with lower PaCO2 used in squint surgery?",
+    "o": [
+      "To reduce bleeding",
+      "To reduce the risk of the oculocardiac reflex",
+      "To speed emergence",
+      "To reduce IOP only",
+      "To prevent awareness"
+    ],
+    "a": 1,
+    "why": "Hypercapnia increases the reflex."
+  },
+  {
+    "q": "Which atropine dose is used in children?",
+    "o": [
+      "2 mcg/kg",
+      "20 mcg/kg",
+      "200 mcg/kg",
+      "1 mg fixed",
+      "0.5 mg/kg"
+    ],
+    "a": 1,
+    "why": "Atropine 20 mcg/kg IV."
+  },
+  {
+    "q": "Which syndrome is associated with strabismus?",
+    "o": [
+      "Marfan",
+      "Down syndrome",
+      "Turner",
+      "Klinefelter",
+      "Noonan only"
+    ],
+    "a": 1,
+    "why": "Also Edwards, Prader–Willi, Goldenhar, Treacher Collins, Apert and Crouzon."
+  },
+  {
+    "q": "Which airway is usual for strabismus surgery?",
+    "o": [
+      "Nasal tube",
+      "South-facing RAE tube or LMA",
+      "Tracheostomy",
+      "Facemask",
+      "Double lumen tube"
+    ],
+    "a": 1,
+    "why": "RAE tube or LMA, with full access shared with the surgeon."
+  },
+  {
+    "q": "Which delayed surgical complication may follow squint surgery?",
+    "o": [
+      "Hearing loss",
+      "Diplopia",
+      "Ptosis only",
+      "Facial palsy",
+      "Glaucoma"
+    ],
+    "a": 1,
+    "why": "Also residual or recurrent squint and infection."
+  },
+  {
+    "q": "Which agent should be avoided because of PONV in strabismus surgery?",
+    "o": [
+      "Propofol",
+      "Nitrous oxide",
+      "Remifentanil",
+      "Paracetamol",
+      "Ondansetron"
+    ],
+    "a": 1,
+    "why": "Avoid N2O; TIVA reduces PONV."
+  },
+  {
+    "q": "What is the glycopyrronium dose for bradycardia in children?",
+    "o": [
+      "1 mcg/kg",
+      "10 mcg/kg",
+      "100 mcg/kg",
+      "1 mg/kg",
+      "0.5 mg"
+    ],
+    "a": 1,
+    "why": "Glycopyrronium 10 mcg/kg."
+  }
+]

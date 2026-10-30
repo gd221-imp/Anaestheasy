@@ -1,0 +1,42 @@
+{
+  "t": "tip",
+  "shape": "cross",
+  "group": "Orthopaedics and Trauma",
+  "title": "Blood Conservation Strategies",
+  "cards": [
+    {
+      "h": "\"Patient Blood Management\" - NICE principles",
+      "b": "file:cards/01-patient-blood-management-nice-principles.html"
+    },
+    {
+      "h": "WHO anaemia definition",
+      "b": "file:cards/02-who-anaemia-definition.html"
+    },
+    {
+      "h": "Pre-op",
+      "b": "file:cards/03-pre-op.html"
+    },
+    {
+      "h": "Intra-op",
+      "b": "file:cards/04-intra-op.html"
+    },
+    {
+      "h": "Note",
+      "b": "file:cards/05-note.html"
+    },
+    {
+      "h": "Iron deficiency",
+      "b": "file:cards/06-iron-deficiency.html"
+    },
+    {
+      "h": "Note",
+      "b": "file:cards/07-note.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/08-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

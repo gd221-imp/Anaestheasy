@@ -1,0 +1,1730 @@
+[
+  {
+    "id": "P243",
+    "ar": "Physiology",
+    "sb": "The Cardiac Cycle",
+    "tp": "phs0",
+    "q": "During which phase of the cardiac cycle are all four heart valves closed and ventricular volume constant while pressure rises?",
+    "o": [
+      "Rapid filling",
+      "Isovolumetric relaxation with rising pressure",
+      "Rapid ejection",
+      "Isovolumetric contraction",
+      "Atrial systole"
+    ],
+    "a": 3,
+    "why": "Isovolumetric contraction starts at mitral closure (first heart sound) and ends when LV pressure exceeds aortic pressure and the aortic valve opens. Isovolumetric relaxation (falling pressure) runs from aortic valve closure to mitral opening."
+  },
+  {
+    "id": "P244",
+    "ar": "Physiology",
+    "sb": "The Cardiac Cycle",
+    "tp": "phs0",
+    "q": "On the jugular venous waveform, which event causes the 'a' wave?",
+    "o": [
+      "Tricuspid valve closure bulging",
+      "Ventricular contraction",
+      "Rapid ventricular filling",
+      "Atrial filling against a closed tricuspid",
+      "Right atrial contraction"
+    ],
+    "a": 4,
+    "why": "a wave: atrial contraction; c wave: tricuspid bulging in isovolumetric contraction; x descent: atrial relaxation and descent of the valve ring; v wave: atrial filling against a closed tricuspid; y descent: tricuspid opening. The a wave is absent in AF."
+  },
+  {
+    "id": "P245",
+    "ar": "Physiology",
+    "sb": "Cardiac Conduction",
+    "tp": "phs1",
+    "q": "Which ion current is mainly responsible for phase 0 (rapid depolarisation) of the ventricular action potential?",
+    "o": [
+      "Funny current (If)",
+      "Slow inward calcium current",
+      "Fast inward sodium current",
+      "Chloride current",
+      "Outward potassium current"
+    ],
+    "a": 2,
+    "why": "Phase 0 in ventricular myocytes is due to fast Na⁺ influx. Phase 2 (plateau) is L-type Ca²⁺ influx balanced by K⁺ efflux; phase 3 is K⁺ efflux. In SA nodal cells, phase 0 is due to Ca²⁺ influx."
+  },
+  {
+    "id": "P246",
+    "ar": "Physiology",
+    "sb": "Cardiac Conduction",
+    "tp": "phs1",
+    "q": "What produces the spontaneous depolarisation (phase 4) of sinoatrial node cells?",
+    "o": [
+      "The Na⁺/K⁺ ATPase pump",
+      "The funny current (If) and T-type calcium current",
+      "Inward rectifier potassium current",
+      "Chloride efflux through CFTR channels",
+      "Fast sodium channel opening only"
+    ],
+    "a": 1,
+    "why": "Phase 4 depolarisation is driven by If (HCN channels opened by hyperpolarisation), T-type Ca²⁺ current and declining K⁺ efflux. Sympathetic stimulation increases the slope; vagal stimulation reduces it. Ivabradine blocks If."
+  },
+  {
+    "id": "P247",
+    "ar": "Physiology",
+    "sb": "The ECG",
+    "tp": "phs2",
+    "q": "What is the upper limit of a normal PR interval in adults?",
+    "o": [
+      "0.24 s",
+      "0.44 s",
+      "0.10 s",
+      "0.20 s",
+      "0.12 s"
+    ],
+    "a": 3,
+    "why": "PR interval 0.12–0.20 s (3–5 small squares). A PR over 0.20 s is first-degree heart block; under 0.12 s suggests pre-excitation (e.g. WPW) or a junctional rhythm. QRS is normally under 0.12 s."
+  },
+  {
+    "id": "P248",
+    "ar": "Physiology",
+    "sb": "The ECG",
+    "tp": "phs2",
+    "q": "Which ECG change is typical of hyperkalaemia?",
+    "o": [
+      "J waves",
+      "U waves",
+      "Delta waves",
+      "Prolonged QT with ST depression",
+      "Tall peaked T waves"
+    ],
+    "a": 4,
+    "why": "Hyperkalaemia progresses from peaked T waves to flattened P waves, prolonged PR, broad QRS, sine wave and VF/asystole. Hypokalaemia causes flattened T waves, ST depression and U waves. J (Osborn) waves suggest hypothermia."
+  },
+  {
+    "id": "P249",
+    "ar": "Physiology",
+    "sb": "Mitral Regurgitation",
+    "tp": "phs3",
+    "q": "In chronic mitral regurgitation, what is the main haemodynamic goal during anaesthesia?",
+    "o": [
+      "Raising systemic vascular resistance",
+      "Avoiding all vasodilator drugs",
+      "Slow heart rate and high afterload",
+      "Bradycardia to prolong diastole",
+      "Normal-to-fast rate and reduced afterload"
+    ],
+    "a": 4,
+    "why": "In MR, a faster heart rate reduces regurgitant volume and LV size; reducing afterload favours forward flow. Bradycardia and raised SVR increase the regurgitant fraction. Keep preload adequate."
+  },
+  {
+    "id": "P250",
+    "ar": "Physiology",
+    "sb": "Mitral Regurgitation",
+    "tp": "phs3",
+    "q": "In acute severe mitral regurgitation (e.g. papillary muscle rupture), why do patients develop sudden pulmonary oedema?",
+    "o": [
+      "A small, stiff left atrium sees a sudden volume load",
+      "Systemic vascular resistance falls sharply",
+      "Aortic stenosis is always coexistent",
+      "The right ventricle fails first",
+      "The left atrium is large and compliant"
+    ],
+    "a": 0,
+    "why": "In acute MR, the normal-sized, non-compliant left atrium sees a sudden volume load, so LA pressure and pulmonary venous pressure rise sharply. In chronic MR, the LA dilates and compliance increases, protecting the lungs."
+  },
+  {
+    "id": "P251",
+    "ar": "Physiology",
+    "sb": "Aortic Stenosis",
+    "tp": "phs4",
+    "q": "What defines severe aortic stenosis by echocardiography?",
+    "o": [
+      "Area 1.5–2.0 cm²",
+      "Area under 1.0 cm²",
+      "Peak velocity 2 m/s",
+      "Area over 2.0 cm²",
+      "Mean gradient 10 mmHg"
+    ],
+    "a": 1,
+    "why": "Severe AS: AVA under 1.0 cm² (indexed under 0.6 cm²/m²), mean gradient over 40 mmHg, peak velocity over 4 m/s. Low-flow, low-gradient AS occurs with reduced LV function or small, stiff ventricles."
+  },
+  {
+    "id": "P252",
+    "ar": "Physiology",
+    "sb": "Aortic Stenosis",
+    "tp": "phs4",
+    "q": "Which haemodynamic goal is most important when anaesthetising a patient with severe aortic stenosis?",
+    "o": [
+      "Reducing preload with diuretics",
+      "Tachycardia to raise cardiac output",
+      "Deliberate hypotension",
+      "Marked vasodilatation to reduce afterload",
+      "Sinus rhythm, normal-to-slow rate, maintained SVR"
+    ],
+    "a": 4,
+    "why": "The hypertrophied LV depends on atrial contraction and adequate diastolic time for coronary perfusion. Hypotension reduces coronary perfusion, causing ischaemia and a downward spiral. Treat hypotension promptly with a vasoconstrictor such as phenylephrine or metaraminol."
+  },
+  {
+    "id": "P253",
+    "ar": "Physiology",
+    "sb": "Baroreceptor Reflex &amp; Haemorrhagic Shock",
+    "tp": "phs5",
+    "q": "Where are the arterial baroreceptors that respond to changes in blood pressure located?",
+    "o": [
+      "Medullary vasomotor centre",
+      "Right atrium only",
+      "Carotid bodies and aortic bodies",
+      "Carotid sinus and aortic arch",
+      "Pulmonary veins"
+    ],
+    "a": 3,
+    "why": "High-pressure baroreceptors are stretch receptors in the carotid sinus (afferents via the glossopharyngeal nerve) and the aortic arch (vagus). Carotid and aortic bodies are chemoreceptors."
+  },
+  {
+    "id": "P254",
+    "ar": "Physiology",
+    "sb": "Baroreceptor Reflex &amp; Haemorrhagic Shock",
+    "tp": "phs5",
+    "q": "In ATLS class III haemorrhagic shock in an adult, what is the approximate blood loss?",
+    "o": [
+      "15–30% (750–1500 mL)",
+      "30–40% (1500–2000 mL)",
+      "Under 5%",
+      "Over 40% (over 2000 mL)",
+      "Under 15% (under 750 mL)"
+    ],
+    "a": 1,
+    "why": "Class III (30–40%) causes tachycardia over 120, hypotension, tachypnoea, oliguria and confusion. Class II (15–30%) has a narrowed pulse pressure but normal systolic pressure. Beta-blockers, the elderly and athletes may mask tachycardia."
+  },
+  {
+    "id": "P255",
+    "ar": "Physiology",
+    "sb": "Valsalva Manoeuvre",
+    "tp": "phs6",
+    "q": "In a normal person, what happens to heart rate during phase II (sustained strain) of the Valsalva manoeuvre?",
+    "o": [
+      "It rises only in phase IV",
+      "It rises",
+      "No change",
+      "Asystole occurs",
+      "It falls"
+    ],
+    "a": 1,
+    "why": "Phase I: BP rises transiently from increased intrathoracic pressure. Phase II: venous return falls, BP falls, and reflex tachycardia restores BP. Phase III: BP dips on release. Phase IV: overshoot of BP with reflex bradycardia."
+  },
+  {
+    "id": "P256",
+    "ar": "Physiology",
+    "sb": "Valsalva Manoeuvre",
+    "tp": "phs6",
+    "q": "What is the 'square wave' response to the Valsalva manoeuvre seen in?",
+    "o": [
+      "Normal subjects",
+      "Athletes",
+      "Congestive heart failure",
+      "Autonomic neuropathy",
+      "Hypovolaemia"
+    ],
+    "a": 2,
+    "why": "In heart failure with high filling pressures, BP rises in phase I and stays high throughout strain without reflex change (square wave). In autonomic neuropathy, BP falls in phase II without tachycardia and there is no phase IV overshoot."
+  },
+  {
+    "id": "P257",
+    "ar": "Physiology",
+    "sb": "Fetal Circulation",
+    "tp": "phs7",
+    "q": "In the fetal circulation, oxygenated blood from the placenta bypasses the liver via which structure?",
+    "o": [
+      "Ductus arteriosus",
+      "Ductus venosus",
+      "Umbilical arteries",
+      "Foramen ovale",
+      "Ligamentum teres"
+    ],
+    "a": 1,
+    "why": "Oxygenated blood travels in the umbilical vein; about half bypasses the liver via the ductus venosus to the IVC. It then crosses the foramen ovale to the left atrium. The ductus arteriosus shunts pulmonary artery blood to the aorta."
+  },
+  {
+    "id": "P258",
+    "ar": "Physiology",
+    "sb": "Fetal Circulation",
+    "tp": "phs7",
+    "q": "What is the main stimulus for closure of the ductus arteriosus after birth?",
+    "o": [
+      "Clamping the cord",
+      "Increase in prostaglandin E2",
+      "Fall in PaO2",
+      "Rise in pulmonary vascular resistance",
+      "Rise in PaO2 and fall in circulating prostaglandin E2"
+    ],
+    "a": 4,
+    "why": "The ductus constricts functionally within about 12–24 h in response to higher PaO2 and reduced PGE2 (placenta removed, lung metabolism increases). PGE1 infusion keeps it open in duct-dependent lesions; indomethacin or ibuprofen can close it."
+  },
+  {
+    "id": "P259",
+    "ar": "Physiology",
+    "sb": "JVP (Jugular Venous Pulse)",
+    "tp": "phs8",
+    "q": "A large 'cannon a wave' in the JVP indicates what?",
+    "o": [
+      "Tricuspid regurgitation",
+      "Complete heart block",
+      "Atrial fibrillation",
+      "Constrictive pericarditis",
+      "Right ventricular failure"
+    ],
+    "a": 1,
+    "why": "Cannon a waves occur when the atria contract against a closed tricuspid valve due to AV dissociation (complete heart block, VT, junctional rhythm). Large v waves suggest tricuspid regurgitation."
+  },
+  {
+    "id": "P260",
+    "ar": "Physiology",
+    "sb": "JVP (Jugular Venous Pulse)",
+    "tp": "phs8",
+    "q": "What is Kussmaul's sign?",
+    "o": [
+      "A rise in JVP on inspiration",
+      "A fall in systolic BP over 10 mmHg on inspiration",
+      "An absent a wave",
+      "A slow y descent",
+      "A high-pitched pericardial rub"
+    ],
+    "a": 0,
+    "why": "Kussmaul's sign (paradoxical rise in JVP on inspiration) occurs in constrictive pericarditis, restrictive cardiomyopathy and severe right heart failure. A fall in systolic BP of over 10 mmHg on inspiration is pulsus paradoxus (e.g. tamponade)."
+  },
+  {
+    "id": "P261",
+    "ar": "Physiology",
+    "sb": "Peripheral Circulation &amp; Lymphatics",
+    "tp": "phs9",
+    "q": "According to the Starling equation, which force tends to move fluid out of the capillary?",
+    "o": [
+      "Lymphatic flow",
+      "Capillary hydrostatic pressure",
+      "Reflection coefficient",
+      "Interstitial hydrostatic pressure",
+      "Plasma oncotic pressure"
+    ],
+    "a": 1,
+    "why": "Net filtration = Kf[(Pc − Pi) − σ(πc − πi)]. Capillary hydrostatic pressure and interstitial oncotic pressure favour filtration; plasma oncotic pressure and interstitial hydrostatic pressure oppose it. The glycocalyx refines this model."
+  },
+  {
+    "id": "P262",
+    "ar": "Physiology",
+    "sb": "Peripheral Circulation &amp; Lymphatics",
+    "tp": "phs9",
+    "q": "Approximately how much fluid does the lymphatic system return to the circulation each day?",
+    "o": [
+      "20–30 L",
+      "0.5 L",
+      "10–15 L",
+      "2–4 L",
+      "50 L"
+    ],
+    "a": 3,
+    "why": "About 2–4 L/day of filtered fluid and protein returns via lymph, mainly through the thoracic duct into the left subclavian–internal jugular junction. Lymphatic failure causes oedema."
+  },
+  {
+    "id": "P263",
+    "ar": "Physiology",
+    "sb": "Cardiac Muscle: Structure &amp; Contraction",
+    "tp": "phs10",
+    "q": "What triggers calcium release from the sarcoplasmic reticulum in cardiac muscle?",
+    "o": [
+      "Direct mechanical coupling to DHP receptors as in skeletal muscle",
+      "Calcium-induced calcium release via ryanodine receptors after L-type channel influx",
+      "Sodium influx alone",
+      "IP3 receptors only",
+      "Troponin I phosphorylation"
+    ],
+    "a": 1,
+    "why": "In cardiac muscle, Ca²⁺ entering via L-type channels triggers Ca²⁺ release through ryanodine (RyR2) receptors. In skeletal muscle, DHP receptors are mechanically linked to RyR1 and extracellular calcium is not required."
+  },
+  {
+    "id": "P264",
+    "ar": "Physiology",
+    "sb": "Cardiac Muscle: Structure &amp; Contraction",
+    "tp": "phs10",
+    "q": "What does the Frank–Starling law describe?",
+    "o": [
+      "Heart rate rises with venous return",
+      "Afterload is proportional to wall thickness",
+      "Coronary flow depends on diastolic pressure",
+      "Stroke volume rises with preload, up to a point",
+      "Contractility increases with heart rate"
+    ],
+    "a": 3,
+    "why": "Greater stretch improves actin–myosin overlap and calcium sensitivity, increasing contraction force. Beyond optimal length, performance falls. The Bowditch (staircase) effect describes increased force with heart rate."
+  },
+  {
+    "id": "P265",
+    "ar": "Physiology",
+    "sb": "Autonomic &amp; Hormonal Regulation of Cardiac Function",
+    "tp": "phs11",
+    "q": "Stimulation of which receptor increases heart rate and contractility?",
+    "o": [
+      "Muscarinic M2",
+      "Dopamine D2",
+      "Alpha-1",
+      "Beta-1",
+      "Alpha-2"
+    ],
+    "a": 3,
+    "why": "Beta-1 receptors (Gs, cAMP rise) increase rate, contractility, conduction and relaxation. M2 muscarinic receptors (Gi) slow the heart. Alpha-1 receptors mediate vasoconstriction."
+  },
+  {
+    "id": "P266",
+    "ar": "Physiology",
+    "sb": "Autonomic &amp; Hormonal Regulation of Cardiac Function",
+    "tp": "phs11",
+    "q": "What is the Bainbridge reflex?",
+    "o": [
+      "Bradycardia from raised arterial pressure",
+      "Hypertension from raised intracranial pressure",
+      "Vasodilatation in response to hypoxia",
+      "Bradycardia from pressure on the globe",
+      "Tachycardia from increased right atrial filling"
+    ],
+    "a": 4,
+    "why": "Stretch receptors in the right atrium and great veins increase heart rate via vagal afferents when venous return increases. The baroreceptor reflex usually dominates in humans."
+  },
+  {
+    "id": "P267",
+    "ar": "Physiology",
+    "sb": "Coronary Circulation",
+    "tp": "phs12",
+    "q": "What is the main mediator of coronary vasodilatation in response to increased myocardial metabolism?",
+    "o": [
+      "Sympathetic alpha stimulation",
+      "Angiotensin II",
+      "Endothelin",
+      "Vasopressin",
+      "Adenosine (and other local metabolites)"
+    ],
+    "a": 4,
+    "why": "Coronary blood flow is mainly regulated by local metabolic factors (adenosine, NO, K⁺, CO2, hypoxia). Myocardial oxygen extraction is already about 70% at rest, so increased demand must be met by increased flow."
+  },
+  {
+    "id": "P268",
+    "ar": "Physiology",
+    "sb": "Coronary Circulation",
+    "tp": "phs12",
+    "q": "What is the normal coronary blood flow at rest in an adult?",
+    "o": [
+      "About 50 mL/min",
+      "About 1 L/min",
+      "About 2.5 L/min",
+      "About 10 mL/min",
+      "About 250 mL/min"
+    ],
+    "a": 4,
+    "why": "Coronary blood flow is about 250 mL/min (80 mL/100 g/min), about 5% of cardiac output. Coronary sinus blood has very low oxygen saturation (about 30%), reflecting high extraction."
+  },
+  {
+    "id": "P269",
+    "ar": "Physiology",
+    "sb": "Pulmonary Circulation &amp; West's Lung Zones",
+    "tp": "phs13",
+    "q": "In West zone 1 of the lung, which pressure relationship applies?",
+    "o": [
+      "Pv &gt; Pa &gt; PA",
+      "PA &gt; Pa &gt; Pv",
+      "Pa &gt; Pv &gt; PA",
+      "Pa &gt; PA &gt; Pv",
+      "Pa = PA = Pv"
+    ],
+    "a": 1,
+    "why": "Zone 1: alveolar pressure exceeds arterial pressure, so there is no flow (alveolar dead space), which can occur with hypovolaemia or high PEEP. Zone 2: Pa &gt; PA &gt; Pv (flow depends on Pa − PA). Zone 3: Pa &gt; Pv &gt; PA (flow depends on Pa − Pv)."
+  },
+  {
+    "id": "P270",
+    "ar": "Physiology",
+    "sb": "Pulmonary Circulation &amp; West's Lung Zones",
+    "tp": "phs13",
+    "q": "What is hypoxic pulmonary vasoconstriction mainly triggered by?",
+    "o": [
+      "High PaCO2 only",
+      "Low alveolar PO2",
+      "Low mixed venous PO2 only",
+      "Low pH only",
+      "Sympathetic stimulation"
+    ],
+    "a": 1,
+    "why": "HPV is triggered mainly by low alveolar PO2 (and to a lesser extent mixed venous PO2), redirecting blood to better-ventilated areas. It is inhibited by volatile agents at high concentrations, vasodilators and alkalosis. It is important during one-lung ventilation."
+  },
+  {
+    "id": "P271",
+    "ar": "Physiology",
+    "sb": "Physiology of Exercise &amp; CPEX Testing",
+    "tp": "phs14",
+    "q": "In cardiopulmonary exercise testing, what does the anaerobic threshold represent?",
+    "o": [
+      "The VO2 above which lactate adds extra CO2",
+      "The peak VO2 at exhaustion",
+      "The maximum heart rate achieved",
+      "The rate of maximal lactate clearance",
+      "The point where ventilation stops rising"
+    ],
+    "a": 0,
+    "why": "Above the anaerobic threshold, lactate is buffered by bicarbonate, producing extra CO2 and a disproportionate rise in VCO2 and ventilation (V-slope method). An AT below about 10–11 mL/kg/min is associated with higher perioperative risk."
+  },
+  {
+    "id": "P272",
+    "ar": "Physiology",
+    "sb": "Physiology of Exercise &amp; CPEX Testing",
+    "tp": "phs14",
+    "q": "During maximal exercise in a healthy adult, which factor limits peak oxygen consumption most?",
+    "o": [
+      "Cardiac output",
+      "Haemoglobin oxygen affinity",
+      "Diffusion capacity",
+      "Ventilation",
+      "Mitochondrial number"
+    ],
+    "a": 0,
+    "why": "In healthy individuals, peak VO2 is usually limited by cardiac output (oxygen delivery). Ventilatory reserve remains at peak exercise. In lung disease, ventilation may limit exercise."
+  },
+  {
+    "id": "P273",
+    "ar": "Physiology",
+    "sb": "Lung Volumes &amp; Their Measurement",
+    "tp": "phs15",
+    "q": "Which lung volume cannot be measured by simple spirometry?",
+    "o": [
+      "Expiratory reserve volume",
+      "Tidal volume",
+      "Inspiratory reserve volume",
+      "Residual volume",
+      "Vital capacity"
+    ],
+    "a": 3,
+    "why": "Residual volume (and therefore FRC and TLC) cannot be measured by spirometry because it cannot be exhaled. It is measured by helium dilution, nitrogen washout or body plethysmography."
+  },
+  {
+    "id": "P274",
+    "ar": "Physiology",
+    "sb": "Lung Volumes &amp; Their Measurement",
+    "tp": "phs15",
+    "q": "What is the approximate functional residual capacity of a 70 kg adult in the upright position?",
+    "o": [
+      "500 mL",
+      "6 L",
+      "1.2 L",
+      "2.5 L",
+      "4.5 L"
+    ],
+    "a": 3,
+    "why": "FRC is about 30 mL/kg (about 2.5 L upright). It falls by about 0.5–1 L supine and further with anaesthesia (about 20%), obesity and pregnancy. Closing capacity rises with age and smoking."
+  },
+  {
+    "id": "P275",
+    "ar": "Physiology",
+    "sb": "Lung Compliance, Laplace's Law &amp; Work of Breathing",
+    "tp": "phs16",
+    "q": "What is the approximate normal total compliance of the respiratory system in an adult?",
+    "o": [
+      "1000 mL/cmH2O",
+      "100 mL/cmH2O",
+      "200 mL/cmH2O",
+      "10 mL/cmH2O",
+      "500 mL/cmH2O"
+    ],
+    "a": 1,
+    "why": "Lung compliance and chest wall compliance are each about 200 mL/cmH2O; combined in series (1/Ct = 1/Cl + 1/Ccw), total compliance is about 100 mL/cmH2O. Static compliance is measured at zero flow."
+  },
+  {
+    "id": "P276",
+    "ar": "Physiology",
+    "sb": "Lung Compliance, Laplace's Law &amp; Work of Breathing",
+    "tp": "phs16",
+    "q": "Which factor increases lung compliance?",
+    "o": [
+      "Emphysema",
+      "Pulmonary oedema",
+      "Pulmonary fibrosis",
+      "Atelectasis",
+      "Surfactant deficiency"
+    ],
+    "a": 0,
+    "why": "Emphysema destroys elastic tissue, increasing compliance (but causing airway collapse and gas trapping). Fibrosis, oedema, surfactant deficiency and atelectasis reduce compliance."
+  },
+  {
+    "id": "P277",
+    "ar": "Physiology",
+    "sb": "Hypoxia, Oxygen Delivery &amp; the Oxyhaemoglobin Dissociation Curve",
+    "tp": "phs17",
+    "q": "What is the P50 of normal adult haemoglobin?",
+    "o": [
+      "13.3 kPa",
+      "5.3 kPa",
+      "8 kPa",
+      "2.7 kPa",
+      "3.5 kPa (about 27 mmHg)"
+    ],
+    "a": 4,
+    "why": "P50 (PO2 at 50% saturation) is about 3.5 kPa (26.6 mmHg). Fetal haemoglobin has a lower P50 (about 2.5 kPa). A raised P50 indicates a right shift (reduced affinity)."
+  },
+  {
+    "id": "P278",
+    "ar": "Physiology",
+    "sb": "Hypoxia, Oxygen Delivery &amp; the Oxyhaemoglobin Dissociation Curve",
+    "tp": "phs17",
+    "q": "Which change shifts the oxyhaemoglobin dissociation curve to the right?",
+    "o": [
+      "Carbon monoxide",
+      "Hypothermia",
+      "Alkalosis",
+      "Fetal haemoglobin",
+      "Increased 2,3-DPG"
+    ],
+    "a": 4,
+    "why": "A right shift (reduced affinity, easier unloading to tissues) is caused by increased CO2, H⁺, temperature and 2,3-DPG. Alkalosis, hypothermia, CO, methaemoglobin and HbF shift it left."
+  },
+  {
+    "id": "P279",
+    "ar": "Physiology",
+    "sb": "Metabolism: Aerobic &amp; Anaerobic Respiration",
+    "tp": "phs18",
+    "q": "How many ATP molecules are produced (net) from one glucose molecule by anaerobic glycolysis?",
+    "o": [
+      "32",
+      "38",
+      "4",
+      "1",
+      "2"
+    ],
+    "a": 4,
+    "why": "Anaerobic glycolysis yields 2 net ATP and lactate. Complete aerobic oxidation (glycolysis, Krebs cycle, oxidative phosphorylation) yields about 30–32 ATP (older textbooks quote 36–38)."
+  },
+  {
+    "id": "P280",
+    "ar": "Physiology",
+    "sb": "Metabolism: Aerobic &amp; Anaerobic Respiration",
+    "tp": "phs18",
+    "q": "Where does the Krebs (citric acid) cycle take place?",
+    "o": [
+      "Mitochondrial matrix",
+      "Nucleus",
+      "Endoplasmic reticulum",
+      "Inner mitochondrial membrane only",
+      "Cytoplasm"
+    ],
+    "a": 0,
+    "why": "Glycolysis occurs in the cytoplasm; the Krebs cycle in the mitochondrial matrix; the electron transport chain and oxidative phosphorylation on the inner mitochondrial membrane."
+  },
+  {
+    "id": "P281",
+    "ar": "Physiology",
+    "sb": "Compensatory Mechanisms to Hypoxia &amp; CO2 Homeostasis",
+    "tp": "phs19",
+    "q": "Which response occurs early in acute ascent to high altitude?",
+    "o": [
+      "Hyperventilation driven by peripheral chemoreceptors",
+      "Increased 2,3-DPG within minutes",
+      "Polycythaemia within hours",
+      "Metabolic acidosis from the kidneys",
+      "Reduced pulmonary artery pressure"
+    ],
+    "a": 0,
+    "why": "Hypoxaemia stimulates the carotid bodies, causing hyperventilation and respiratory alkalosis. Over days, renal bicarbonate excretion compensates, 2,3-DPG rises, and erythropoietin increases red cell mass over weeks. HPV raises pulmonary pressure."
+  },
+  {
+    "id": "P282",
+    "ar": "Physiology",
+    "sb": "Compensatory Mechanisms to Hypoxia &amp; CO2 Homeostasis",
+    "tp": "phs19",
+    "q": "In chronic CO2 retention (e.g. COPD), what is mainly responsible for the persisting ventilatory drive?",
+    "o": [
+      "Voluntary cortical drive only",
+      "Arterial baroreceptor input",
+      "Pulmonary stretch receptor activity",
+      "Peripheral hypoxic drive (central drive blunted)",
+      "Airway irritant receptor input"
+    ],
+    "a": 3,
+    "why": "In chronic hypercapnia, CSF bicarbonate rises, normalising CSF pH and blunting the central response. Peripheral hypoxic drive contributes more. Oxygen-induced hypercapnia is mainly due to V/Q worsening and the Haldane effect rather than loss of hypoxic drive alone."
+  },
+  {
+    "id": "P283",
+    "ar": "Physiology",
+    "sb": "Altitude &amp; Hyperbaric/Hypobaric Physiology",
+    "tp": "phs20",
+    "q": "In hyperbaric oxygen at 3 atmospheres absolute breathing 100% oxygen, approximately how much oxygen is dissolved in plasma?",
+    "o": [
+      "20 mL/dL",
+      "2 mL/dL",
+      "6 mL/dL",
+      "15 mL/dL",
+      "0.3 mL/dL"
+    ],
+    "a": 2,
+    "why": "Dissolved oxygen = 0.0225 mL/dL/kPa × PaO2. At 3 ATA, PaO2 is about 260–280 kPa, giving about 6 mL/dL, enough to meet resting tissue needs without haemoglobin."
+  },
+  {
+    "id": "P284",
+    "ar": "Physiology",
+    "sb": "Altitude &amp; Hyperbaric/Hypobaric Physiology",
+    "tp": "phs20",
+    "q": "What happens to the delivered concentration from a conventional variable bypass vaporiser at altitude (low barometric pressure)?",
+    "o": [
+      "Partial pressure stays about the same",
+      "Volume percentage falls",
+      "Partial pressure doubles",
+      "The vaporiser stops working",
+      "Partial pressure halves"
+    ],
+    "a": 0,
+    "why": "SVP depends only on temperature, so the vaporiser delivers about the same partial pressure, which is what determines anaesthetic effect. The volume percentage rises because barometric pressure is lower. Desflurane (Tec 6) delivers a fixed volume percentage, so its partial pressure falls at altitude."
+  },
+  {
+    "id": "P285",
+    "ar": "Physiology",
+    "sb": "Haemoglobin",
+    "tp": "phs21",
+    "q": "Approximately how much oxygen does 1 g of fully saturated haemoglobin carry?",
+    "o": [
+      "0.5 mL",
+      "1.34 mL",
+      "0.003 mL",
+      "10 mL",
+      "2.0 mL"
+    ],
+    "a": 1,
+    "why": "Hüfner's constant is 1.34–1.39 mL O2/g Hb. Oxygen content = (1.34 × Hb × SaO2) + (0.0225 × PaO2 in kPa). With Hb 150 g/L and saturation 98%, content is about 200 mL/L."
+  },
+  {
+    "id": "P286",
+    "ar": "Physiology",
+    "sb": "Haemoglobin",
+    "tp": "phs21",
+    "q": "What is the structure of adult haemoglobin A?",
+    "o": [
+      "Two alpha and two beta chains",
+      "Two alpha and two gamma chains",
+      "Four beta chains",
+      "Two beta and two gamma chains",
+      "Two alpha and two delta chains"
+    ],
+    "a": 0,
+    "why": "HbA is α2β2 (about 97%); HbA2 is α2δ2 (about 2.5%); HbF is α2γ2. Each subunit has a haem group with Fe²⁺ binding one oxygen molecule, giving cooperative binding (sigmoid curve)."
+  },
+  {
+    "id": "P287",
+    "ar": "Physiology",
+    "sb": "CO2 Carriage in the Blood",
+    "tp": "phs22",
+    "q": "In what form is most CO2 carried in arterial blood?",
+    "o": [
+      "Carboxyhaemoglobin",
+      "Bicarbonate",
+      "Carbamino compounds",
+      "Carbonic acid",
+      "Dissolved CO2"
+    ],
+    "a": 1,
+    "why": "About 90% of CO2 in arterial blood is carried as bicarbonate, about 5% as carbamino compounds and about 5% dissolved. Carbamino compounds contribute disproportionately to the arteriovenous difference."
+  },
+  {
+    "id": "P288",
+    "ar": "Physiology",
+    "sb": "CO2 Carriage in the Blood",
+    "tp": "phs22",
+    "q": "What does the Haldane effect describe?",
+    "o": [
+      "CO2 increases cerebral blood flow",
+      "Deoxygenated blood carries more CO2",
+      "Chloride enters red cells as bicarbonate leaves",
+      "Oxygenated blood carries more CO2",
+      "CO2 shifts the oxygen dissociation curve to the right"
+    ],
+    "a": 1,
+    "why": "Deoxygenated haemoglobin is a better buffer and forms carbamino compounds more readily, increasing CO2 carriage in venous blood. The Bohr effect is CO2/H⁺ reducing oxygen affinity. The chloride shift describes Cl⁻ entering red cells."
+  },
+  {
+    "id": "P289",
+    "ar": "Physiology",
+    "sb": "Pulmonary Ventilation: Flow-Volume Loops",
+    "tp": "phs23",
+    "q": "On a flow–volume loop, a fixed upper airway obstruction (e.g. tracheal stenosis) produces what pattern?",
+    "o": [
+      "Scooped expiratory limb only",
+      "Inspiratory limb flattened only",
+      "Normal shape with small volumes",
+      "Both limbs flattened",
+      "Expiratory limb flattened only"
+    ],
+    "a": 3,
+    "why": "Fixed obstruction limits both phases. Variable extrathoracic obstruction (e.g. vocal cord palsy) flattens inspiration; variable intrathoracic obstruction (e.g. tumour of the lower trachea) flattens expiration. Obstructive lung disease scoops the expiratory limb."
+  },
+  {
+    "id": "P290",
+    "ar": "Physiology",
+    "sb": "Pulmonary Ventilation: Flow-Volume Loops",
+    "tp": "phs23",
+    "q": "What is the FEV1/FVC ratio in restrictive lung disease?",
+    "o": [
+      "Reduced below 0.3",
+      "Unmeasurable",
+      "Reduced below 0.7",
+      "Normal or increased",
+      "Always exactly 0.5"
+    ],
+    "a": 3,
+    "why": "In restrictive disease both FEV1 and FVC fall, so the ratio is normal or high. In obstructive disease FEV1 falls more than FVC, so the ratio is below 0.7."
+  },
+  {
+    "id": "P291",
+    "ar": "Physiology",
+    "sb": "Obstructive vs Restrictive Lung Disease",
+    "tp": "phs24",
+    "q": "Which result is typical of emphysema on pulmonary function testing?",
+    "o": [
+      "Normal TLCO and reduced FEV1/FVC",
+      "Increased TLCO",
+      "Increased TLC and RV, and reduced TLCO",
+      "Reduced TLC and reduced TLCO",
+      "Reduced RV"
+    ],
+    "a": 2,
+    "why": "Emphysema causes airflow obstruction, hyperinflation (raised TLC, RV and RV/TLC) and reduced gas transfer due to alveolar destruction. Asthma usually has normal or raised TLCO. Fibrosis reduces TLC and TLCO."
+  },
+  {
+    "id": "P292",
+    "ar": "Physiology",
+    "sb": "Obstructive vs Restrictive Lung Disease",
+    "tp": "phs24",
+    "q": "In pulmonary fibrosis, how does the transfer coefficient (KCO) typically behave?",
+    "o": [
+      "Normal only",
+      "Equal to TLCO",
+      "Reduced",
+      "Absent",
+      "Increased"
+    ],
+    "a": 2,
+    "why": "In interstitial fibrosis, TLCO and usually KCO are reduced. In extrapulmonary restriction (e.g. chest wall disease, neuromuscular weakness), KCO is normal or raised because the alveolar–capillary unit is normal."
+  },
+  {
+    "id": "P293",
+    "ar": "Physiology",
+    "sb": "Effect of IPPV on the Lungs",
+    "tp": "phs25",
+    "q": "How does positive pressure ventilation affect venous return?",
+    "o": [
+      "It has no effect",
+      "It increases right ventricular preload",
+      "It increases venous return by raising intrathoracic pressure",
+      "It only affects pulmonary venous return",
+      "It reduces venous return by raising intrathoracic and right atrial pressure"
+    ],
+    "a": 4,
+    "why": "Raised intrathoracic pressure increases RA pressure, reducing the gradient for venous return, so cardiac output can fall, especially in hypovolaemia. It also reduces LV afterload, which can benefit a failing LV."
+  },
+  {
+    "id": "P294",
+    "ar": "Physiology",
+    "sb": "Effect of IPPV on the Lungs",
+    "tp": "phs25",
+    "q": "Which ventilation strategy reduces ventilator-induced lung injury in ARDS?",
+    "o": [
+      "Routine inverse ratio ventilation",
+      "10–12 mL/kg actual body weight",
+      "High FiO2 with zero PEEP",
+      "6 mL/kg PBW with plateau under 30 cmH2O",
+      "Plateau pressure over 40 cmH2O"
+    ],
+    "a": 3,
+    "why": "ARDSNet showed reduced mortality with 6 mL/kg PBW and plateau under 30 cmH2O. Mechanisms of injury include volutrauma, barotrauma, atelectrauma and biotrauma. Driving pressure under about 15 cmH2O is associated with better outcomes."
+  },
+  {
+    "id": "P295",
+    "ar": "Physiology",
+    "sb": "Control of Breathing",
+    "tp": "phs26",
+    "q": "Where is the main respiratory rhythm generator located?",
+    "o": [
+      "Cerebral cortex",
+      "Spinal cord C3–C5",
+      "Carotid body",
+      "Pneumotaxic centre in the upper pons",
+      "Pre-Bötzinger complex in the medulla"
+    ],
+    "a": 4,
+    "why": "The pre-Bötzinger complex in the ventrolateral medulla generates respiratory rhythm. Dorsal and ventral respiratory groups shape the output; the pontine respiratory group (pneumotaxic centre) modulates timing; the cortex allows voluntary control."
+  },
+  {
+    "id": "P296",
+    "ar": "Physiology",
+    "sb": "Control of Breathing",
+    "tp": "phs26",
+    "q": "What is the approximate slope of the ventilatory response to CO2 in an awake adult?",
+    "o": [
+      "About 15–20 L/min per kPa",
+      "It is negative",
+      "About 50 L/min per kPa",
+      "It is flat",
+      "About 0.2 L/min per kPa"
+    ],
+    "a": 0,
+    "why": "Minute ventilation rises by roughly 2–3 L/min per mmHg (15–20 L/min per kPa) rise in PaCO2. Opioids, volatile agents, sleep and chronic hypercapnia shift the curve right and flatten it."
+  },
+  {
+    "id": "P297",
+    "ar": "Physiology",
+    "sb": "Chemoreceptors",
+    "tp": "phs27",
+    "q": "What do the central chemoreceptors respond to?",
+    "o": [
+      "CSF H⁺ concentration",
+      "Blood pressure",
+      "PaO2 directly",
+      "Plasma bicarbonate directly",
+      "Plasma lactate"
+    ],
+    "a": 0,
+    "why": "Central chemoreceptors on the ventral medulla respond to CSF pH. CO2 crosses the blood–brain barrier readily and forms H⁺ in poorly buffered CSF. They provide about 80% of the response to CO2 and do not respond to hypoxia."
+  },
+  {
+    "id": "P298",
+    "ar": "Physiology",
+    "sb": "Chemoreceptors",
+    "tp": "phs27",
+    "q": "Which statement about the peripheral chemoreceptors (carotid bodies) is correct?",
+    "o": [
+      "They lie on the ventral medulla",
+      "They are inhibited by hypoxia",
+      "They respond quickly to low PaO2, CO2 and H⁺",
+      "They respond only to PaCO2",
+      "They respond to O2 content, not PaO2"
+    ],
+    "a": 2,
+    "why": "Carotid bodies (glossopharyngeal afferents) have a very high blood flow and respond to PaO2 rather than content (so anaemia and CO poisoning do not stimulate them much). They also respond to H⁺ and CO2. Low-dose volatile agents blunt the hypoxic response."
+  },
+  {
+    "id": "P299",
+    "ar": "Physiology",
+    "sb": "Non-Respiratory Functions of the Lungs",
+    "tp": "phs28",
+    "q": "Which substance is inactivated during a single passage through the pulmonary circulation?",
+    "o": [
+      "Histamine only",
+      "Adrenaline",
+      "Bradykinin (about 80%)",
+      "Vasopressin",
+      "Angiotensin II"
+    ],
+    "a": 2,
+    "why": "Pulmonary endothelium inactivates bradykinin, serotonin, noradrenaline (partly) and prostaglandins E and F. Angiotensin I is converted to angiotensin II by ACE. Adrenaline, vasopressin, angiotensin II and histamine pass largely unchanged."
+  },
+  {
+    "id": "P300",
+    "ar": "Physiology",
+    "sb": "Non-Respiratory Functions of the Lungs",
+    "tp": "phs28",
+    "q": "Which is a non-respiratory function of the lung?",
+    "o": [
+      "Production of erythropoietin",
+      "Production of bile acids",
+      "Storage of glycogen",
+      "Filtering emboli and converting angiotensin I",
+      "Synthesis of albumin"
+    ],
+    "a": 3,
+    "why": "Non-respiratory functions include filtration, metabolism (ACE, inactivation of mediators), reservoir of blood, immune defence, surfactant synthesis, heat and water loss, and drug uptake (e.g. first-pass uptake of fentanyl, lidocaine)."
+  },
+  {
+    "id": "P301",
+    "ar": "Physiology",
+    "sb": "ARDS",
+    "tp": "phs29",
+    "q": "According to the Berlin definition, which PaO2/FiO2 ratio defines moderate ARDS?",
+    "o": [
+      "13.3–26.6 kPa (100–200 mmHg)",
+      "26.6–40 kPa (200–300 mmHg)",
+      "Over 40 kPa",
+      "Under 13.3 kPa (100 mmHg)",
+      "Under 6.6 kPa"
+    ],
+    "a": 0,
+    "why": "Berlin (with PEEP at least 5 cmH2O): mild 200–300 mmHg (26.7–40 kPa), moderate 100–200 mmHg (13.3–26.7 kPa), severe 100 mmHg or less (13.3 kPa or less). Onset within 1 week, bilateral opacities, not fully explained by cardiac failure."
+  },
+  {
+    "id": "P302",
+    "ar": "Physiology",
+    "sb": "ARDS",
+    "tp": "phs29",
+    "q": "What is the main pathological feature of the exudative phase of ARDS?",
+    "o": [
+      "Pleural effusion",
+      "Fibrosis with collagen deposition",
+      "Airway smooth muscle hypertrophy",
+      "Diffuse alveolar damage and hyaline membranes",
+      "Bronchiectasis"
+    ],
+    "a": 3,
+    "why": "The exudative phase (days 1–7) shows diffuse alveolar damage, increased permeability, neutrophil infiltration and hyaline membranes. A proliferative phase follows, then fibrosis in some patients."
+  },
+  {
+    "id": "P303",
+    "ar": "Physiology",
+    "sb": "GIT Metabolic Pathways &amp; Glucose Homeostasis",
+    "tp": "phs30",
+    "q": "What is the main hormone responsible for gluconeogenesis during fasting?",
+    "o": [
+      "Leptin",
+      "Somatostatin",
+      "Insulin",
+      "Glucagon",
+      "Gastrin"
+    ],
+    "a": 3,
+    "why": "Glucagon stimulates hepatic glycogenolysis and gluconeogenesis. Cortisol, adrenaline and growth hormone also oppose insulin. Liver glycogen stores last about 24 h of fasting."
+  },
+  {
+    "id": "P304",
+    "ar": "Physiology",
+    "sb": "GIT Metabolic Pathways &amp; Glucose Homeostasis",
+    "tp": "phs30",
+    "q": "During prolonged starvation, which fuel increasingly supplies the brain?",
+    "o": [
+      "Ketone bodies",
+      "Amino acids directly",
+      "Lactate",
+      "Free fatty acids",
+      "Glycerol"
+    ],
+    "a": 0,
+    "why": "After a few days, ketone bodies (acetoacetate, beta-hydroxybutyrate) from hepatic fatty acid oxidation provide much of the brain's energy, reducing protein breakdown for gluconeogenesis. Fatty acids do not cross the blood–brain barrier well."
+  },
+  {
+    "id": "P305",
+    "ar": "Physiology",
+    "sb": "Renal Tubular Transport &amp; Reabsorption",
+    "tp": "phs31",
+    "q": "Where in the nephron is most filtered sodium reabsorbed?",
+    "o": [
+      "Descending limb of loop of Henle",
+      "Collecting duct",
+      "Proximal convoluted tubule (about 65%)",
+      "Thick ascending limb of loop of Henle",
+      "Distal convoluted tubule"
+    ],
+    "a": 2,
+    "why": "About 65% of filtered sodium and water are reabsorbed in the PCT, 25% in the thick ascending limb (NKCC2, target of loop diuretics), 5% in the DCT (NCC, thiazides) and 2–3% in the collecting duct (ENaC, aldosterone)."
+  },
+  {
+    "id": "P306",
+    "ar": "Physiology",
+    "sb": "Renal Tubular Transport &amp; Reabsorption",
+    "tp": "phs31",
+    "q": "What is the renal threshold for glucose, above which glycosuria occurs?",
+    "o": [
+      "About 30 mmol/L",
+      "About 10 mmol/L",
+      "About 2 mmol/L",
+      "About 5 mmol/L",
+      "About 20 mmol/L"
+    ],
+    "a": 1,
+    "why": "Glucose is reabsorbed by SGLT2 (and SGLT1) in the PCT. Above a plasma level of about 10 mmol/L, transport saturates and glucose appears in the urine. SGLT2 inhibitors lower this threshold deliberately."
+  },
+  {
+    "id": "P307",
+    "ar": "Physiology",
+    "sb": "Renal Filtration Forces &amp; Aquaporins",
+    "tp": "phs32",
+    "q": "Which change reduces glomerular filtration rate?",
+    "o": [
+      "Efferent arteriolar constriction (moderate)",
+      "Afferent arteriolar constriction",
+      "Reduced plasma oncotic pressure",
+      "Afferent arteriolar dilatation",
+      "Increased glomerular hydrostatic pressure"
+    ],
+    "a": 1,
+    "why": "Afferent constriction (e.g. NSAIDs blocking vasodilator prostaglandins, sympathetic stimulation) lowers glomerular pressure and GFR. Efferent constriction (angiotensin II) maintains GFR; ACE inhibitors reduce it in renal artery stenosis."
+  },
+  {
+    "id": "P308",
+    "ar": "Physiology",
+    "sb": "Renal Filtration Forces &amp; Aquaporins",
+    "tp": "phs32",
+    "q": "Antidiuretic hormone increases water reabsorption in the collecting duct by which mechanism?",
+    "o": [
+      "Increasing GFR",
+      "Inhibiting NKCC2 transporters",
+      "Opening aquaporin-1 in the PCT",
+      "Inserting aquaporin-2 channels",
+      "Activating ENaC channels"
+    ],
+    "a": 3,
+    "why": "ADH binds V2 receptors (Gs, cAMP), causing aquaporin-2 vesicles to fuse with the apical membrane of collecting duct cells. Aquaporin-1 in the PCT and descending limb is constitutive. V1 receptors mediate vasoconstriction."
+  },
+  {
+    "id": "P309",
+    "ar": "Physiology",
+    "sb": "Countercurrent Multiplier Mechanism",
+    "tp": "phs33",
+    "q": "Which segment of the loop of Henle is impermeable to water but actively transports NaCl out, creating the medullary gradient?",
+    "o": [
+      "Thick ascending limb",
+      "Collecting duct",
+      "Thin descending limb",
+      "Proximal straight tubule",
+      "Vasa recta"
+    ],
+    "a": 0,
+    "why": "The thick ascending limb pumps NaCl out via NKCC2 but is impermeable to water, diluting tubular fluid and concentrating the interstitium. The descending limb is water-permeable, so fluid concentrates as it descends (countercurrent multiplication)."
+  },
+  {
+    "id": "P310",
+    "ar": "Physiology",
+    "sb": "Countercurrent Multiplier Mechanism",
+    "tp": "phs33",
+    "q": "What is the approximate maximum osmolality of urine that the human kidney can produce?",
+    "o": [
+      "3000 mOsm/kg",
+      "300 mOsm/kg",
+      "1200 mOsm/kg",
+      "600 mOsm/kg",
+      "50 mOsm/kg"
+    ],
+    "a": 2,
+    "why": "The medullary gradient reaches about 1200 mOsm/kg at the papilla, so maximally concentrated urine is about 1200 mOsm/kg. Minimum urine osmolality is about 50 mOsm/kg. Urea recycling contributes about half of the gradient."
+  },
+  {
+    "id": "P311",
+    "ar": "Physiology",
+    "sb": "Liver Anatomy, Blood Supply &amp; Metabolic Functions",
+    "tp": "phs34",
+    "q": "What proportion of hepatic blood flow comes from the hepatic artery?",
+    "o": [
+      "About 25%",
+      "About 90%",
+      "About 50%",
+      "About 10%",
+      "About 75%"
+    ],
+    "a": 0,
+    "why": "The hepatic artery provides about 25% of flow (but about 50% of the oxygen); the portal vein provides about 75% of flow. Total hepatic blood flow is about 1.5 L/min (25% of cardiac output). The hepatic arterial buffer response compensates for falls in portal flow."
+  },
+  {
+    "id": "P312",
+    "ar": "Physiology",
+    "sb": "Liver Anatomy, Blood Supply &amp; Metabolic Functions",
+    "tp": "phs34",
+    "q": "Which zone of the liver acinus is most vulnerable to hypoxic injury and paracetamol toxicity?",
+    "o": [
+      "Zone 3 (centrilobular)",
+      "All equally",
+      "Zone 1 (periportal)",
+      "Zone 2",
+      "The portal triad"
+    ],
+    "a": 0,
+    "why": "Zone 3, nearest the central vein, receives the least oxygenated blood and has the highest cytochrome P450 activity, generating toxic NAPQI from paracetamol. Zone 1 is affected first by direct toxins carried in portal blood."
+  },
+  {
+    "id": "P313",
+    "ar": "Physiology",
+    "sb": "Bilirubin Metabolism &amp; Jaundice",
+    "tp": "phs35",
+    "q": "In what form is bilirubin transported in plasma before reaching the liver?",
+    "o": [
+      "As stercobilin",
+      "Unconjugated, bound to albumin",
+      "As urobilinogen",
+      "Free in solution",
+      "Conjugated with glucuronic acid"
+    ],
+    "a": 1,
+    "why": "Unconjugated bilirubin is lipid-soluble and albumin-bound. The liver conjugates it with glucuronic acid (UGT1A1) to water-soluble conjugated bilirubin, excreted in bile. Gut bacteria convert it to urobilinogen."
+  },
+  {
+    "id": "P314",
+    "ar": "Physiology",
+    "sb": "Bilirubin Metabolism &amp; Jaundice",
+    "tp": "phs35",
+    "q": "A patient has jaundice, dark urine and pale stools. Which type of jaundice is most likely?",
+    "o": [
+      "Post-hepatic (obstructive)",
+      "Crigler–Najjar syndrome",
+      "Gilbert's syndrome",
+      "Physiological neonatal jaundice",
+      "Pre-hepatic (haemolytic)"
+    ],
+    "a": 0,
+    "why": "Obstruction causes conjugated hyperbilirubinaemia; water-soluble conjugated bilirubin enters urine (dark), and no bilirubin reaches the gut (pale stools). Haemolytic jaundice causes unconjugated hyperbilirubinaemia without bilirubinuria."
+  },
+  {
+    "id": "P315",
+    "ar": "Physiology",
+    "sb": "Lactate, Ammonia &amp; Hepatic Immunology",
+    "tp": "phs36",
+    "q": "What is the main route of lactate clearance in the body?",
+    "o": [
+      "Conversion to ketones",
+      "Excretion in sweat",
+      "Exhalation",
+      "Hepatic gluconeogenesis",
+      "Renal excretion"
+    ],
+    "a": 3,
+    "why": "The liver clears about 60% of lactate (gluconeogenesis via the Cori cycle), with the kidneys and heart also oxidising it. Liver failure reduces clearance and can cause hyperlactataemia."
+  },
+  {
+    "id": "P316",
+    "ar": "Physiology",
+    "sb": "Lactate, Ammonia &amp; Hepatic Immunology",
+    "tp": "phs36",
+    "q": "How does the liver mainly detoxify ammonia?",
+    "o": [
+      "Conversion to uric acid",
+      "Exhalation as nitrogen",
+      "Conversion to urea in the urea cycle",
+      "Conversion to creatinine",
+      "Binding to albumin"
+    ],
+    "a": 2,
+    "why": "The urea cycle in periportal hepatocytes converts ammonia to urea, excreted by the kidneys. Glutamine synthesis in perivenous hepatocytes, muscle and brain provides a second route. Hyperammonaemia contributes to hepatic encephalopathy."
+  },
+  {
+    "id": "P317",
+    "ar": "Physiology",
+    "sb": "Gastric Function",
+    "tp": "phs37",
+    "q": "Which cells secrete hydrochloric acid in the stomach?",
+    "o": [
+      "Enterochromaffin-like cells",
+      "Parietal cells",
+      "G cells",
+      "Mucous neck cells",
+      "Chief cells"
+    ],
+    "a": 1,
+    "why": "Parietal (oxyntic) cells secrete HCl via the H⁺/K⁺ ATPase (target of PPIs) and intrinsic factor. Chief cells secrete pepsinogen; G cells secrete gastrin; ECL cells secrete histamine."
+  },
+  {
+    "id": "P318",
+    "ar": "Physiology",
+    "sb": "Gastric Function",
+    "tp": "phs37",
+    "q": "What is the normal gastric emptying half-time for clear fluids?",
+    "o": [
+      "About 1 minute",
+      "About 2 hours",
+      "About 10–20 minutes",
+      "About 6 hours",
+      "About 12 hours"
+    ],
+    "a": 2,
+    "why": "Clear fluids empty exponentially with a half-time of about 10–20 min, supporting fasting guidance allowing clear fluids up to 2 hours before surgery (1 hour in children under recent guidance). Solids empty more slowly."
+  },
+  {
+    "id": "P319",
+    "ar": "Physiology",
+    "sb": "Nausea &amp; Vomiting",
+    "tp": "phs38",
+    "q": "Where is the chemoreceptor trigger zone located?",
+    "o": [
+      "Area postrema",
+      "Vestibular nuclei",
+      "Cerebral cortex",
+      "Nucleus tractus solitarius",
+      "Hypothalamus"
+    ],
+    "a": 0,
+    "why": "The CTZ lies in the area postrema outside the blood–brain barrier, detecting circulating emetogens. It contains dopamine D2, 5-HT3, opioid and NK1 receptors and projects to the vomiting centre in the medulla."
+  },
+  {
+    "id": "P320",
+    "ar": "Physiology",
+    "sb": "Nausea &amp; Vomiting",
+    "tp": "phs38",
+    "q": "Which antiemetic acts as an NK1 receptor antagonist?",
+    "o": [
+      "Aprepitant",
+      "Dexamethasone",
+      "Droperidol",
+      "Cyclizine",
+      "Ondansetron"
+    ],
+    "a": 0,
+    "why": "Aprepitant blocks substance P at NK1 receptors. Ondansetron blocks 5-HT3; cyclizine blocks H1 and muscarinic receptors; droperidol blocks D2; dexamethasone's mechanism is uncertain."
+  },
+  {
+    "id": "P321",
+    "ar": "Physiology",
+    "sb": "CNS Physiology: Motor End Plate &amp; Nerve Fibres",
+    "tp": "phs39",
+    "q": "Which nerve fibre type conducts fastest?",
+    "o": [
+      "A-alpha",
+      "C",
+      "A-gamma",
+      "B",
+      "A-delta"
+    ],
+    "a": 0,
+    "why": "A-alpha fibres (motor, proprioception) are the largest myelinated fibres (12–20 µm) and conduct at 70–120 m/s. A-delta carries fast pain (5–30 m/s); C fibres are unmyelinated and slowest (0.5–2 m/s)."
+  },
+  {
+    "id": "P322",
+    "ar": "Physiology",
+    "sb": "CNS Physiology: Motor End Plate &amp; Nerve Fibres",
+    "tp": "phs39",
+    "q": "At the neuromuscular junction, what triggers acetylcholine release from the nerve terminal?",
+    "o": [
+      "Potassium efflux",
+      "Calcium influx",
+      "Sodium influx",
+      "Chloride influx",
+      "ATP release"
+    ],
+    "a": 1,
+    "why": "Depolarisation opens P/Q-type calcium channels; Ca²⁺ triggers vesicle fusion via SNARE proteins. Magnesium and aminoglycosides reduce release; Lambert–Eaton syndrome involves antibodies to these channels; botulinum toxin cleaves SNARE proteins."
+  },
+  {
+    "id": "P323",
+    "ar": "Physiology",
+    "sb": "The Reflex Arc &amp; Autonomic Nervous System",
+    "tp": "phs40",
+    "q": "Which neurotransmitter is released by preganglionic sympathetic neurons at the ganglion?",
+    "o": [
+      "Dopamine",
+      "Noradrenaline",
+      "Adrenaline",
+      "Acetylcholine (nicotinic)",
+      "Serotonin"
+    ],
+    "a": 3,
+    "why": "All preganglionic autonomic fibres release acetylcholine acting on nicotinic receptors. Most sympathetic postganglionic fibres release noradrenaline; those to sweat glands release acetylcholine. The adrenal medulla acts as a modified ganglion."
+  },
+  {
+    "id": "P324",
+    "ar": "Physiology",
+    "sb": "The Reflex Arc &amp; Autonomic Nervous System",
+    "tp": "phs40",
+    "q": "The knee jerk reflex is an example of which reflex type?",
+    "o": [
+      "Autonomic reflex",
+      "Polysynaptic withdrawal reflex",
+      "Golgi tendon reflex",
+      "Monosynaptic stretch reflex",
+      "Crossed extensor reflex"
+    ],
+    "a": 3,
+    "why": "Stretch of muscle spindles activates Ia afferents synapsing directly on alpha motor neurons (L3–L4). Golgi tendon organs mediate inhibitory (Ib) reflexes. Withdrawal reflexes are polysynaptic."
+  },
+  {
+    "id": "P325",
+    "ar": "Physiology",
+    "sb": "Smooth Muscle &amp; Nerve Cell Physiology",
+    "tp": "phs41",
+    "q": "How does smooth muscle contraction differ from skeletal muscle contraction?",
+    "o": [
+      "Calcium binds troponin C to move tropomyosin",
+      "Contraction occurs without any calcium",
+      "Calcium–calmodulin activates myosin light chain kinase",
+      "Contraction is always under voluntary control",
+      "Sarcomeres are arranged in regular bands"
+    ],
+    "a": 2,
+    "why": "In smooth muscle, Ca²⁺ binds calmodulin, activating MLCK, which phosphorylates myosin light chains. Smooth muscle lacks troponin and sarcomeres. The 'latch' state maintains tone with low ATP use."
+  },
+  {
+    "id": "P326",
+    "ar": "Physiology",
+    "sb": "Smooth Muscle &amp; Nerve Cell Physiology",
+    "tp": "phs41",
+    "q": "Which glial cell forms myelin in the peripheral nervous system?",
+    "o": [
+      "Microglia",
+      "Schwann cell",
+      "Oligodendrocyte",
+      "Astrocyte",
+      "Ependymal cell"
+    ],
+    "a": 1,
+    "why": "Schwann cells myelinate one segment of one peripheral axon. Oligodendrocytes myelinate multiple CNS axons. Myelin increases conduction velocity by saltatory conduction between nodes of Ranvier."
+  },
+  {
+    "id": "P327",
+    "ar": "Physiology",
+    "sb": "The Brain: Anatomy, Blood Flow &amp; Intracranial Pressure",
+    "tp": "phs42",
+    "q": "Between which mean arterial pressures is cerebral blood flow autoregulated in normal adults (classical range)?",
+    "o": [
+      "0–100 mmHg",
+      "150–250 mmHg",
+      "20–50 mmHg",
+      "50–150 mmHg",
+      "100–200 mmHg"
+    ],
+    "a": 3,
+    "why": "The classical range is a MAP of about 50–150 mmHg (some recent data suggest a narrower plateau, about 70–150). Chronic hypertension shifts the curve to the right. Autoregulation is impaired by volatile agents at high doses, TBI and hypercapnia."
+  },
+  {
+    "id": "P328",
+    "ar": "Physiology",
+    "sb": "The Brain: Anatomy, Blood Flow &amp; Intracranial Pressure",
+    "tp": "phs42",
+    "q": "How does cerebral blood flow change with PaCO2 in the physiological range?",
+    "o": [
+      "It rises about 15–30% per kPa",
+      "It falls about 50% per kPa",
+      "It rises only above 10 kPa",
+      "It falls with hypercapnia",
+      "It does not change"
+    ],
+    "a": 0,
+    "why": "CBF changes by about 1–2 mL/100 g/min per mmHg (about 15–30% per kPa) between PaCO2 of about 3–10 kPa. Hyperventilation reduces CBF and ICP transiently but risks ischaemia, so it is reserved for impending herniation."
+  },
+  {
+    "id": "P329",
+    "ar": "Physiology",
+    "sb": "Pain Pathways",
+    "tp": "phs43",
+    "q": "Which pathway carries pain and temperature sensation to the thalamus?",
+    "o": [
+      "Spinothalamic tract (anterolateral system)",
+      "Dorsal column–medial lemniscus",
+      "Rubrospinal tract",
+      "Corticospinal tract",
+      "Spinocerebellar tract"
+    ],
+    "a": 0,
+    "why": "First-order neurons synapse in the dorsal horn; second-order fibres cross within one or two segments and ascend in the contralateral spinothalamic tract to the thalamus. Dorsal columns carry fine touch, vibration and proprioception, crossing in the medulla."
+  },
+  {
+    "id": "P330",
+    "ar": "Physiology",
+    "sb": "Pain Pathways",
+    "tp": "phs43",
+    "q": "What does the gate control theory of pain propose?",
+    "o": [
+      "Descending pathways can only increase pain",
+      "Pain is processed only in the cortex",
+      "Pain is transmitted only by C fibres",
+      "A-beta input closes a dorsal horn gate on pain",
+      "Opioids act only on peripheral nerves"
+    ],
+    "a": 3,
+    "why": "Melzack and Wall proposed that A-beta activity closes the 'gate' in lamina II, which explains relief from rubbing and TENS. Descending inhibition from the periaqueductal grey and rostral ventromedial medulla (serotonin, noradrenaline, opioids) also modulates pain."
+  },
+  {
+    "id": "P331",
+    "ar": "Physiology",
+    "sb": "Visceral &amp; Neuropathic Pain",
+    "tp": "phs44",
+    "q": "Which mechanism contributes to central sensitisation (wind-up)?",
+    "o": [
+      "Reduced glutamate release from C fibres",
+      "Increased GABAergic inhibition",
+      "NMDA receptor activation in the dorsal horn",
+      "Loss of peripheral nociceptors",
+      "Peripheral opioid receptor activation"
+    ],
+    "a": 2,
+    "why": "Repeated C-fibre stimulation removes the Mg²⁺ block of NMDA receptors, increasing dorsal horn excitability, causing hyperalgesia and allodynia. Ketamine (an NMDA antagonist) can reduce this."
+  },
+  {
+    "id": "P332",
+    "ar": "Physiology",
+    "sb": "Visceral &amp; Neuropathic Pain",
+    "tp": "phs44",
+    "q": "Which feature is characteristic of neuropathic pain?",
+    "o": [
+      "Well-localised aching from tissue injury",
+      "Burning, shooting pain with allodynia",
+      "Pain fully relieved by paracetamol",
+      "Colicky pain from a hollow viscus",
+      "Pain that resolves with the inflammation"
+    ],
+    "a": 1,
+    "why": "Neuropathic pain arises from a lesion or disease of the somatosensory system and is described as burning, shooting or electric, often with allodynia and sensory loss. First-line drugs include amitriptyline, duloxetine, gabapentin and pregabalin."
+  },
+  {
+    "id": "P333",
+    "ar": "Physiology",
+    "sb": "Haematology: Sickle Cell Disease &amp; Thalassaemia",
+    "tp": "phs45",
+    "q": "What is the molecular abnormality in sickle cell disease?",
+    "o": [
+      "Reduced alpha chain production",
+      "Gamma chain point mutation",
+      "Increased HbA2 production",
+      "Deletion of all four alpha genes",
+      "Glu6Val point mutation in beta globin"
+    ],
+    "a": 4,
+    "why": "HbS results from a point mutation (Glu6Val) on the beta chain. Deoxygenated HbS polymerises, deforming red cells. Precipitants include hypoxia, acidosis, dehydration, cold and infection."
+  },
+  {
+    "id": "P334",
+    "ar": "Physiology",
+    "sb": "Haematology: Sickle Cell Disease &amp; Thalassaemia",
+    "tp": "phs45",
+    "q": "What preoperative transfusion strategy is recommended for patients with HbSS having medium-risk surgery?",
+    "o": [
+      "No transfusion in any case",
+      "Top-up transfusion to Hb about 100 g/L",
+      "Exchange transfusion to HbS under 5%",
+      "Transfuse only if Hb under 50 g/L",
+      "Give erythropoietin only"
+    ],
+    "a": 1,
+    "why": "The TAPS trial supported preoperative top-up transfusion to about 100 g/L for HbSS patients having low- or medium-risk surgery. Exchange transfusion may be used for high-risk surgery or if baseline Hb is high. Avoid hypoxia, hypothermia, dehydration and acidosis."
+  },
+  {
+    "id": "P335",
+    "ar": "Physiology",
+    "sb": "Transfusion Physiology",
+    "tp": "phs46",
+    "q": "Which antibodies cause a severe acute haemolytic transfusion reaction from ABO incompatibility?",
+    "o": [
+      "IgG anti-D only",
+      "IgA",
+      "IgM anti-A or anti-B",
+      "IgE",
+      "Anti-Kell IgG"
+    ],
+    "a": 2,
+    "why": "Naturally occurring IgM anti-A and anti-B fix complement, causing intravascular haemolysis, hypotension, fever, DIC and renal failure. The commonest cause is wrong-patient identification. Stop the transfusion and give supportive care."
+  },
+  {
+    "id": "P336",
+    "ar": "Physiology",
+    "sb": "Transfusion Physiology",
+    "tp": "phs46",
+    "q": "Group O RhD-negative red cells are used in emergencies because they lack which antigens?",
+    "o": [
+      "HLA antigens",
+      "Kell antigen only",
+      "All minor antigens",
+      "A and B antigens, and RhD",
+      "Anti-A and anti-B antibodies"
+    ],
+    "a": 3,
+    "why": "Group O red cells lack A and B antigens, so they are not haemolysed by recipient anti-A or anti-B. RhD-negative units are given to females of childbearing potential to avoid sensitisation. Group AB plasma is the universal plasma donor."
+  },
+  {
+    "id": "P337",
+    "ar": "Physiology",
+    "sb": "Coagulation Cascade &amp; Clotting Factors",
+    "tp": "phs47",
+    "q": "Which test is used to monitor unfractionated heparin therapy?",
+    "o": [
+      "Prothrombin time",
+      "Fibrinogen level",
+      "Platelet count",
+      "APTT",
+      "Bleeding time"
+    ],
+    "a": 3,
+    "why": "The APTT measures the intrinsic and common pathways and is prolonged by UFH (anti-Xa levels are an alternative). The PT/INR monitors warfarin. LMWH, if monitored, uses anti-Xa levels."
+  },
+  {
+    "id": "P338",
+    "ar": "Physiology",
+    "sb": "Coagulation Cascade &amp; Clotting Factors",
+    "tp": "phs47",
+    "q": "Which clotting factors are vitamin K dependent?",
+    "o": [
+      "XI and XII",
+      "II, VII, IX and X (and proteins C and S)",
+      "VIII and von Willebrand factor",
+      "III, IV, VI",
+      "I, V, VIII, XIII"
+    ],
+    "a": 1,
+    "why": "Vitamin K enables gamma-carboxylation of factors II, VII, IX, X and proteins C and S. Factor VII has the shortest half-life (about 6 h), so the INR rises first with warfarin. Prothrombin complex concentrate replaces II, VII, IX and X."
+  },
+  {
+    "id": "P339",
+    "ar": "Physiology",
+    "sb": "Immunity",
+    "tp": "phs48",
+    "q": "Which immunoglobulin crosses the placenta?",
+    "o": [
+      "IgE",
+      "IgG",
+      "IgM",
+      "IgD",
+      "IgA"
+    ],
+    "a": 1,
+    "why": "IgG crosses the placenta via neonatal Fc receptors, giving passive immunity and also explaining haemolytic disease of the newborn (anti-D). IgM is the first antibody in a primary response; IgA protects mucosa; IgE mediates type I hypersensitivity."
+  },
+  {
+    "id": "P340",
+    "ar": "Physiology",
+    "sb": "Immunity",
+    "tp": "phs48",
+    "q": "Which cells are the main effectors of cell-mediated immunity against virally infected cells?",
+    "o": [
+      "Mast cells",
+      "CD8 cytotoxic T cells",
+      "B lymphocytes",
+      "Eosinophils",
+      "Plasma cells"
+    ],
+    "a": 1,
+    "why": "CD8 T cells recognise antigen on MHC class I and kill infected cells. CD4 helper T cells recognise MHC class II and coordinate responses. Natural killer cells kill cells lacking MHC I. B cells become plasma cells producing antibody."
+  },
+  {
+    "id": "P341",
+    "ar": "Physiology",
+    "sb": "Allergy, Inflammatory Response &amp; Anticoagulant Reversal",
+    "tp": "phs49",
+    "q": "In anaphylaxis, which mediator is measured to support the diagnosis?",
+    "o": [
+      "IgE",
+      "Eosinophil count",
+      "Histamine (rises for hours)",
+      "Complement C3",
+      "Mast cell tryptase"
+    ],
+    "a": 4,
+    "why": "Mast cell tryptase peaks about 1–2 h after the reaction; NAP6 recommends samples at the reaction, 1–2 h and 24 h (or at follow-up). Histamine has a very short half-life. Referral to an allergy clinic is required."
+  },
+  {
+    "id": "P342",
+    "ar": "Physiology",
+    "sb": "Allergy, Inflammatory Response &amp; Anticoagulant Reversal",
+    "tp": "phs49",
+    "q": "What is the recommended reversal for life-threatening bleeding in a patient taking warfarin?",
+    "o": [
+      "Fresh frozen plasma alone",
+      "Four-factor PCC plus IV vitamin K",
+      "Tranexamic acid alone",
+      "Idarucizumab",
+      "Protamine sulphate"
+    ],
+    "a": 1,
+    "why": "Four-factor PCC (25–50 units/kg, dose by INR) plus 5–10 mg IV vitamin K reverses warfarin rapidly. Protamine reverses heparin; idarucizumab reverses dabigatran; andexanet alfa reverses factor Xa inhibitors where available."
+  },
+  {
+    "id": "P343",
+    "ar": "Physiology",
+    "sb": "Endocrine Stress Response",
+    "tp": "phs50",
+    "q": "Which hormone level typically falls during the surgical stress response?",
+    "o": [
+      "ACTH",
+      "Insulin (relative)",
+      "Growth hormone",
+      "Glucagon",
+      "Cortisol"
+    ],
+    "a": 1,
+    "why": "The stress response increases catabolic hormones (cortisol, ACTH, catecholamines, glucagon, GH, ADH), while insulin secretion falls relatively and insulin resistance develops, causing hyperglycaemia. Neuraxial blocks can attenuate the response to lower-body surgery."
+  },
+  {
+    "id": "P344",
+    "ar": "Physiology",
+    "sb": "Endocrine Stress Response",
+    "tp": "phs50",
+    "q": "Which metabolic effect is part of the stress response to major surgery?",
+    "o": [
+      "Anabolism with increased protein synthesis",
+      "Catabolism, hyperglycaemia, salt and water retention",
+      "Reduced ADH secretion and diuresis",
+      "Hypoglycaemia from raised insulin",
+      "Increased insulin sensitivity"
+    ],
+    "a": 1,
+    "why": "Catabolism causes muscle breakdown and negative nitrogen balance; hyperglycaemia arises from gluconeogenesis and insulin resistance; ADH and aldosterone cause salt and water retention and potassium loss. Cytokines (IL-6) drive the acute phase response."
+  },
+  {
+    "id": "P345",
+    "ar": "Physiology",
+    "sb": "Pituitary, Thyroid &amp; Calcium Homeostasis",
+    "tp": "phs51",
+    "q": "Which hormone is the main regulator of plasma ionised calcium?",
+    "o": [
+      "Thyroxine",
+      "Aldosterone",
+      "Parathyroid hormone",
+      "Calcitonin",
+      "Insulin"
+    ],
+    "a": 2,
+    "why": "PTH raises calcium by increasing bone resorption, renal calcium reabsorption and renal 1-alpha-hydroxylation of vitamin D (increasing gut absorption). It also increases phosphate excretion. Calcitonin has a minor role in humans."
+  },
+  {
+    "id": "P346",
+    "ar": "Physiology",
+    "sb": "Pituitary, Thyroid &amp; Calcium Homeostasis",
+    "tp": "phs51",
+    "q": "Where does most circulating T3 come from?",
+    "o": [
+      "Peripheral deiodination of T4 (about 80%)",
+      "Conversion of reverse T3",
+      "Hepatic synthesis from tyrosine",
+      "Direct thyroid secretion (about 80%)",
+      "Pituitary secretion"
+    ],
+    "a": 0,
+    "why": "The thyroid secretes mainly T4; about 80% of T3 comes from peripheral deiodination. T3 is more potent. In critical illness, conversion falls and reverse T3 rises (sick euthyroid syndrome)."
+  },
+  {
+    "id": "P347",
+    "ar": "Physiology",
+    "sb": "Adrenal Hormones &amp; Catecholamines",
+    "tp": "phs52",
+    "q": "Which hormone is produced by the zona glomerulosa of the adrenal cortex?",
+    "o": [
+      "Adrenaline",
+      "Cortisol",
+      "Noradrenaline",
+      "Androgens",
+      "Aldosterone"
+    ],
+    "a": 4,
+    "why": "'GFR': zona glomerulosa makes mineralocorticoids (aldosterone), fasciculata makes glucocorticoids (cortisol) and reticularis makes androgens. The medulla makes catecholamines, mainly adrenaline (via PNMT, induced by cortisol)."
+  },
+  {
+    "id": "P348",
+    "ar": "Physiology",
+    "sb": "Adrenal Hormones &amp; Catecholamines",
+    "tp": "phs52",
+    "q": "Which enzyme converts noradrenaline to adrenaline in the adrenal medulla?",
+    "o": [
+      "Tyrosine hydroxylase",
+      "Monoamine oxidase",
+      "Dopa decarboxylase",
+      "Dopamine beta-hydroxylase",
+      "Phenylethanolamine N-methyltransferase"
+    ],
+    "a": 4,
+    "why": "Synthesis: tyrosine → L-DOPA (tyrosine hydroxylase, rate limiting) → dopamine (DOPA decarboxylase) → noradrenaline (dopamine beta-hydroxylase) → adrenaline (PNMT). MAO and COMT break down catecholamines."
+  },
+  {
+    "id": "P349",
+    "ar": "Physiology",
+    "sb": "Haemostasis: Platelet Plug Formation &amp; Coagulation",
+    "tp": "phs53",
+    "q": "Which molecule mediates platelet adhesion to exposed subendothelial collagen under high shear?",
+    "o": [
+      "von Willebrand factor",
+      "Thromboxane A2",
+      "ADP",
+      "Factor XIII",
+      "Fibrinogen"
+    ],
+    "a": 0,
+    "why": "vWF bridges collagen and platelet GPIb. Platelets are then activated, releasing ADP and TXA2, and GPIIb/IIIa binds fibrinogen to aggregate platelets. Aspirin blocks TXA2 synthesis; clopidogrel blocks P2Y12."
+  },
+  {
+    "id": "P350",
+    "ar": "Physiology",
+    "sb": "Haemostasis: Platelet Plug Formation &amp; Coagulation",
+    "tp": "phs53",
+    "q": "Which statement about the cell-based model of coagulation is correct?",
+    "o": [
+      "Platelets play no role in thrombin generation",
+      "The intrinsic pathway starts haemostasis",
+      "Factor XII is essential for haemostasis in vivo",
+      "Initiation on TF-bearing cells, propagation on platelets",
+      "Coagulation occurs entirely in plasma"
+    ],
+    "a": 3,
+    "why": "Initiation: TF–VIIa generates a little thrombin on TF-bearing cells. Amplification: thrombin activates platelets and factors V, VIII and XI. Propagation: tenase and prothrombinase on platelets produce a thrombin burst. Factor XII deficiency does not cause bleeding."
+  }
+]

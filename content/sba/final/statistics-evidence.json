@@ -1,0 +1,66 @@
+[
+  {
+    "id": "Q263",
+    "ar": "Statistics & evidence",
+    "sb": "Sensitivity and specificity",
+    "q": "A test for difficult intubation has a sensitivity of 60% and specificity of 90%. In a population where 10% are difficult to intubate, what is the positive predictive value?",
+    "o": [
+      "About 10%",
+      "About 40%",
+      "About 60%",
+      "About 96%",
+      "About 90%"
+    ],
+    "a": 1,
+    "why": "In 1000 patients: 100 difficult; true positives = 60, false negatives = 40. Of 900 not difficult, false positives = 90 (10%), true negatives = 810. PPV = 60/(60+90) = 40%. NPV = 810/850 ≈ 95%. PPV depends on prevalence, whereas sensitivity and specificity do not.",
+    "st": null
+  },
+  {
+    "id": "Q264",
+    "ar": "Statistics & evidence",
+    "sb": "Meta-analysis",
+    "q": "On a forest plot, what does it mean when the diamond (pooled estimate) does not cross the line of no effect?",
+    "o": [
+      "The pooled result is statistically significant",
+      "Publication bias is excluded",
+      "The effect is clinically important",
+      "The trials are biased",
+      "The studies are heterogeneous"
+    ],
+    "a": 0,
+    "why": "Each square is a study's point estimate (size reflects weight) with horizontal lines for confidence intervals. The diamond's width shows the pooled confidence interval; if it does not cross the line of no effect (1 for ratios, 0 for differences), the result is statistically significant. Heterogeneity is assessed by I² and the chi-squared test; funnel plots look for publication bias.",
+    "st": null
+  },
+  {
+    "id": "Q265",
+    "ar": "Statistics & evidence",
+    "sb": "Study design",
+    "q": "Which type of bias is minimised by allocation concealment in a randomised controlled trial?",
+    "o": [
+      "Selection bias",
+      "Attrition bias",
+      "Publication bias",
+      "Detection bias",
+      "Recall bias"
+    ],
+    "a": 0,
+    "why": "Allocation concealment stops investigators knowing the next allocation, preventing selective enrolment (selection bias). Blinding reduces performance and detection bias; intention-to-treat analysis and complete follow-up reduce attrition bias; trial registration addresses publication bias. Recall bias affects case–control studies.",
+    "st": null
+  },
+  {
+    "id": "Q282",
+    "ar": "Statistics & evidence",
+    "sb": "Choosing a test",
+    "q": "Researchers compare length of stay (skewed data) between two independent groups of patients. Which test is most appropriate?",
+    "o": [
+      "Pearson correlation",
+      "Chi-squared test",
+      "Unpaired t-test",
+      "Mann–Whitney U test",
+      "Paired t-test"
+    ],
+    "a": 3,
+    "why": "For non-normally distributed continuous or ordinal data in two independent groups, use the Mann–Whitney U test; for paired non-parametric data, Wilcoxon signed-rank. Normally distributed data use unpaired or paired t-tests (ANOVA for three or more groups). Chi-squared or Fisher's exact test compares proportions of categorical data.",
+    "st": null
+  }
+]

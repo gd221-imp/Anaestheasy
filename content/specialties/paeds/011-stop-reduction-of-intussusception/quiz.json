@@ -1,0 +1,122 @@
+[
+  {
+    "q": "Where does intussusception usually occur?",
+    "o": [
+      "Sigmoid colon",
+      "Terminal ileum / ileocaecal valve",
+      "Duodenum",
+      "Rectum",
+      "Stomach"
+    ],
+    "a": 1,
+    "why": "Idiopathic in 90% of cases."
+  },
+  {
+    "q": "What is the classic stool finding?",
+    "o": [
+      "Pale stool",
+      "Redcurrant jelly stool",
+      "Steatorrhoea",
+      "Black tarry stool",
+      "Rice-water"
+    ],
+    "a": 1,
+    "why": "With paroxysmal pain, a sausage-shaped mass and inconsolable crying."
+  },
+  {
+    "q": "What is first-line treatment if there is no perforation?",
+    "o": [
+      "Laparotomy",
+      "Air (or contrast) enema reduction",
+      "Antibiotics only",
+      "NG tube only",
+      "Colonoscopy"
+    ],
+    "a": 1,
+    "why": "Laparotomy if perforation or failed enema."
+  },
+  {
+    "q": "What is the commonest cause of bowel obstruction in children over 2 months?",
+    "o": [
+      "Hernia",
+      "Intussusception",
+      "Volvulus",
+      "Meckel’s",
+      "Appendicitis"
+    ],
+    "a": 1,
+    "why": "Also consider malrotation, NEC and Meckel’s diverticulum."
+  },
+  {
+    "q": "What induction technique is used?",
+    "o": [
+      "Gas induction with LMA",
+      "RSI after NG aspiration",
+      "Spinal",
+      "Sedation",
+      "Awake fibreoptic"
+    ],
+    "a": 1,
+    "why": "Obstructed bowel carries aspiration risk."
+  },
+  {
+    "q": "What fluid bolus is used in paediatric resuscitation?",
+    "o": [
+      "5 ml/kg",
+      "10 ml/kg",
+      "40 ml/kg",
+      "1 L",
+      "2 ml/kg"
+    ],
+    "a": 1,
+    "why": "WETFLAG uses 10 ml/kg boluses."
+  },
+  {
+    "q": "How is weight estimated with WETFLAG?",
+    "o": [
+      "Age × 3",
+      "(Age + 4) × 2",
+      "Age + 10",
+      "Age × 10",
+      "(Age + 2) × 4"
+    ],
+    "a": 1,
+    "why": "For children aged 1–10 years."
+  },
+  {
+    "q": "What glucose dose is given in WETFLAG?",
+    "o": [
+      "5 ml/kg 50%",
+      "2 ml/kg of 10%",
+      "10 ml/kg 5%",
+      "1 ml/kg 20%",
+      "0.5 ml/kg 50%"
+    ],
+    "a": 1,
+    "why": "2 ml/kg 10% glucose."
+  },
+  {
+    "q": "What adrenaline dose is used in paediatric cardiac arrest?",
+    "o": [
+      "1 ml/kg 1:1000",
+      "0.1 ml/kg of 1:10,000 (10 mcg/kg)",
+      "1 mg fixed",
+      "0.01 ml/kg 1:10,000",
+      "100 mcg/kg"
+    ],
+    "a": 1,
+    "why": "10 mcg/kg IV or IO."
+  },
+  {
+    "q": "What defibrillation energy is used in children?",
+    "o": [
+      "2 J/kg",
+      "4 J/kg",
+      "10 J/kg",
+      "200 J fixed",
+      "1 J/kg"
+    ],
+    "a": 1,
+    "why": "4 J/kg."
+  }
+]

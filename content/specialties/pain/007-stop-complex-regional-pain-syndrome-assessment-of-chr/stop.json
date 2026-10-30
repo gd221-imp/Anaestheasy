@@ -1,0 +1,29 @@
+{
+  "t": "tip",
+  "shape": "face",
+  "group": "Pain",
+  "title": "Complex Regional Pain Syndrome & Assessment of Chronic Pain",
+  "cards": [
+    {
+      "h": "Complex Regional Pain Syndrome (CRPS)",
+      "b": "file:cards/01-complex-regional-pain-syndrome-crps.html"
+    },
+    {
+      "h": "Diagnostic criteria (Budapest criteria)",
+      "b": "file:cards/02-diagnostic-criteria-budapest-criteria.html"
+    },
+    {
+      "h": "Management",
+      "b": "file:cards/03-management.html"
+    },
+    {
+      "h": "Assessment of chronic pain - a comprehensive biopsychosocial assessment",
+      "b": "file:cards/04-assessment-of-chronic-pain-a-comprehensive-biops.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/05-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json"
+}

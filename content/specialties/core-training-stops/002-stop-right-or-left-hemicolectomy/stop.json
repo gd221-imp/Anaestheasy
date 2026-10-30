@@ -1,0 +1,47 @@
+{
+  "t": "recipe",
+  "shape": "scalpel",
+  "group": "General surgery",
+  "title": "Right or Left Hemicolectomy",
+  "op": true,
+  "cards": [
+    {
+      "h": "Anaesthetic recipe",
+      "b": "file:cards/01-anaesthetic-recipe.html",
+      "recipe": true
+    },
+    {
+      "h": "Peripheral Circulation & Lymphatics",
+      "primaryRef": "phs9"
+    },
+    {
+      "h": "Endocrine Stress Response",
+      "primaryRef": "phs50"
+    },
+    {
+      "h": "ERAS & Prehabilitation",
+      "noteRef": "ERAS & Prehabilitation"
+    },
+    {
+      "h": "Post-op Ileus",
+      "noteRef": "Post-op Ileus"
+    },
+    {
+      "h": "Robotic vs Laparoscopic vs Open Surgery",
+      "noteRef": "Robotic vs Laparoscopic vs Open Surgery"
+    },
+    {
+      "h": "Sample WPBA",
+      "b": "file:cards/07-sample-wpba.html",
+      "wpba": true
+    },
+    {
+      "h": "Curriculum",
+      "links": [
+        "curric:8",
+        "curric:9"
+      ]
+    }
+  ],
+  "q": "file:quiz.json"
+}

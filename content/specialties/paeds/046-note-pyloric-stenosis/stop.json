@@ -1,0 +1,34 @@
+{
+  "t": "tip",
+  "shape": "dummy",
+  "group": "Paeds",
+  "title": "Pyloric Stenosis",
+  "cards": [
+    {
+      "h": "Example",
+      "b": "file:cards/01-example.html"
+    },
+    {
+      "h": "Biochemistry",
+      "b": "file:cards/02-biochemistry.html"
+    },
+    {
+      "h": "Management",
+      "b": "file:cards/03-management.html"
+    },
+    {
+      "h": "Intra-op",
+      "b": "file:cards/04-intra-op.html"
+    },
+    {
+      "h": "Post-op",
+      "b": "file:cards/05-post-op.html"
+    },
+    {
+      "h": "Anaesthetic considerations",
+      "b": "file:cards/06-anaesthetic-considerations.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

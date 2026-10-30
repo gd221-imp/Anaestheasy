@@ -1,0 +1,22 @@
+{
+  "t": "tip",
+  "shape": "star",
+  "group": "Miscellaneous",
+  "title": "HIV",
+  "cards": [
+    {
+      "h": "= a retrovirus that binds CD4 on T-cells.",
+      "b": "file:cards/01-a-retrovirus-that-binds-cd4-on-t-cells.html"
+    },
+    {
+      "h": "Rx → HAART (triple therapy)",
+      "b": "file:cards/02-rx-haart-triple-therapy.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/03-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

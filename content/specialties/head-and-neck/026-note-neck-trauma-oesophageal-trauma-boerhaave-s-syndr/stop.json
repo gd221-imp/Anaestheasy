@@ -1,0 +1,26 @@
+{
+  "t": "tip",
+  "shape": "headn",
+  "group": "Head and neck",
+  "title": "Neck Trauma, Oesophageal Trauma & Boerhaave's Syndrome",
+  "cards": [
+    {
+      "h": "Neck trauma - assessment divides the neck into zones",
+      "b": "file:cards/01-neck-trauma-assessment-divides-the-neck-into-zon.html"
+    },
+    {
+      "h": "Key points",
+      "b": "file:cards/02-key-points.html"
+    },
+    {
+      "h": "Boerhaave's syndrome",
+      "b": "file:cards/03-boerhaave-s-syndrome.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/04-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

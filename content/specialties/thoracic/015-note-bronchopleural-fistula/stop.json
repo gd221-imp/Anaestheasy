@@ -1,0 +1,30 @@
+{
+  "t": "tip",
+  "shape": "lung",
+  "group": "Thoracic",
+  "title": "Bronchopleural Fistula",
+  "cards": [
+    {
+      "h": "Definition",
+      "b": "file:cards/01-definition.html"
+    },
+    {
+      "h": "Causes",
+      "b": "file:cards/02-causes.html"
+    },
+    {
+      "h": "Presentation",
+      "b": "file:cards/03-presentation.html"
+    },
+    {
+      "h": "Ventilation strategy",
+      "b": "file:cards/04-ventilation-strategy.html"
+    },
+    {
+      "h": "Management",
+      "b": "file:cards/05-management.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

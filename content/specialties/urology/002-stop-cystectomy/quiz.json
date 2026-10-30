@@ -1,0 +1,122 @@
+[
+  {
+    "q": "What urinary diversion is commonly made after cystectomy?",
+    "o": [
+      "Nephrostomy",
+      "Ileal conduit",
+      "Suprapubic catheter",
+      "Ureterostomy always",
+      "None"
+    ],
+    "a": 1,
+    "why": "Risk of GU sepsis."
+  },
+  {
+    "q": "Which analgesia is used for open cystectomy?",
+    "o": [
+      "Femoral block",
+      "Epidural or rectus sheath catheters",
+      "Interscalene",
+      "Caudal",
+      "Penile block"
+    ],
+    "a": 1,
+    "why": "As part of multimodal analgesia."
+  },
+  {
+    "q": "What anaesthetic issue arises with steep Trendelenburg in robotic cystectomy?",
+    "o": [
+      "Low ICP",
+      "Raised ICP and IOP and airway oedema",
+      "Hypotension only",
+      "Bradypnoea",
+      "Hyperthermia"
+    ],
+    "a": 1,
+    "why": "Also venous air embolism risk."
+  },
+  {
+    "q": "What pre-op test assesses fitness for major surgery?",
+    "o": [
+      "Spirometry",
+      "CPET",
+      "ABG",
+      "Echo only",
+      "MRI"
+    ],
+    "a": 1,
+    "why": "And prehabilitation."
+  },
+  {
+    "q": "Why is cell salvage considered?",
+    "o": [
+      "Low blood loss",
+      "Major blood loss is expected",
+      "Cost",
+      "Infection risk",
+      "Always mandatory"
+    ],
+    "a": 1,
+    "why": "Discuss malignancy considerations locally."
+  },
+  {
+    "q": "Which monitoring is used for fluids?",
+    "o": [
+      "CVP only",
+      "Goal-directed therapy with cardiac output monitoring",
+      "Urine only",
+      "No monitoring",
+      "PA catheter always"
+    ],
+    "a": 1,
+    "why": "Urine output is unreliable after diversion."
+  },
+  {
+    "q": "Which delayed surgical complication occurs?",
+    "o": [
+      "Hypospadias",
+      "Ureteric stricture",
+      "Squint",
+      "Hernia only",
+      "Meatal stenosis"
+    ],
+    "a": 1,
+    "why": "Also ileus, urinary leak and infection."
+  },
+  {
+    "q": "Why measure blood glucose?",
+    "o": [
+      "Hypoglycaemia from bowel prep",
+      "Stress response and diabetes",
+      "Not needed",
+      "Insulin use always",
+      "Ketone check only"
+    ],
+    "a": 1,
+    "why": "Blood glucose is monitored under ERAS."
+  },
+  {
+    "q": "What is the usual post-op destination?",
+    "o": [
+      "Home",
+      "HDU or specialist ward on an ERAS pathway",
+      "Day unit",
+      "Rehab",
+      "ICU ventilated always"
+    ],
+    "a": 1,
+    "why": "HDU, ERAS."
+  },
+  {
+    "q": "Which delayed anaesthetic complication follows cystectomy?",
+    "o": [
+      "Laryngospasm",
+      "VTE",
+      "MH",
+      "Hypercalcaemia",
+      "Diplopia"
+    ],
+    "a": 1,
+    "why": "Also AKI and chest infection."
+  }
+]

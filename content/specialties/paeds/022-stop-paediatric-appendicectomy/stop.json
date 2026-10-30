@@ -1,0 +1,43 @@
+{
+  "t": "recipe",
+  "shape": "dummy",
+  "group": "Paeds",
+  "title": "Paediatric Appendicectomy",
+  "op": true,
+  "cards": [
+    {
+      "h": "Anaesthetic recipe",
+      "b": "file:cards/01-anaesthetic-recipe.html",
+      "recipe": true
+    },
+    {
+      "h": "Baroreceptor Reflex & Haemorrhagic Shock",
+      "primaryRef": "phs5"
+    },
+    {
+      "h": "Pharmacokinetics in Special Patient Groups",
+      "primaryRef": "pha16"
+    },
+    {
+      "h": "Paediatric Pre-operative Assessment",
+      "noteRef": "Paediatric Pre-operative Assessment"
+    },
+    {
+      "h": "Meningococcal Septicaemia & Consent (Gillick Competence)",
+      "noteRef": "Meningococcal Septicaemia & Consent (Gillick Competence)"
+    },
+    {
+      "h": "Sample WPBA",
+      "b": "file:cards/06-sample-wpba.html",
+      "wpba": true
+    },
+    {
+      "h": "Curriculum",
+      "links": [
+        "curric:8",
+        "curric:9"
+      ]
+    }
+  ],
+  "q": "file:quiz.json"
+}

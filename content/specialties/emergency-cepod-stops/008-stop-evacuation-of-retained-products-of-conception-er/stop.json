@@ -1,0 +1,47 @@
+{
+  "t": "recipe",
+  "shape": "warn",
+  "group": "CEPOD",
+  "title": "Evacuation of Retained Products of Conception (ERPC)",
+  "op": true,
+  "cards": [
+    {
+      "h": "Anaesthetic recipe",
+      "b": "file:cards/01-anaesthetic-recipe.html",
+      "recipe": true
+    },
+    {
+      "h": "Drugs Acting on the Uterus",
+      "primaryRef": "pha27"
+    },
+    {
+      "h": "Coagulation Cascade & Clotting Factors",
+      "primaryRef": "phs47"
+    },
+    {
+      "h": "Amniotic Fluid Embolism & Maternal Mortality",
+      "noteRef": "Amniotic Fluid Embolism & Maternal Mortality"
+    },
+    {
+      "h": "Intrauterine Fetal Death",
+      "noteRef": "Intrauterine Fetal Death"
+    },
+    {
+      "h": "Maternal Physiology",
+      "noteRef": "Maternal Physiology"
+    },
+    {
+      "h": "Sample WPBA",
+      "b": "file:cards/07-sample-wpba.html",
+      "wpba": true
+    },
+    {
+      "h": "Curriculum",
+      "links": [
+        "curric:8",
+        "curric:9"
+      ]
+    }
+  ],
+  "q": "file:quiz.json"
+}

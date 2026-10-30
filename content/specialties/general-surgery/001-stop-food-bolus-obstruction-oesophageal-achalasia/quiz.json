@@ -1,0 +1,122 @@
+[
+  {
+    "q": "What is the pathology of achalasia?",
+    "o": [
+      "Hypertrophy of the pylorus",
+      "Failure of LOS relaxation and loss of peristalsis from degeneration of the myenteric (Auerbach’s) plexus",
+      "Oesophageal web",
+      "Excess acid secretion",
+      "Vagotomy"
+    ],
+    "a": 1,
+    "why": "Progressive dysphagia to solids and liquids, regurgitation and nocturnal cough."
+  },
+  {
+    "q": "What is the gold standard investigation for achalasia?",
+    "o": [
+      "Barium swallow",
+      "Oesophageal manometry",
+      "CT",
+      "pH study",
+      "Endoscopy"
+    ],
+    "a": 1,
+    "why": "Barium shows a bird’s beak; endoscopy excludes pseudoachalasia from malignancy."
+  },
+  {
+    "q": "What is the main anaesthetic concern in achalasia?",
+    "o": [
+      "Bleeding",
+      "Aspiration from a dilated oesophagus full of food and secretions",
+      "Difficult IV access",
+      "Hyperkalaemia",
+      "Malignant hyperthermia"
+    ],
+    "a": 1,
+    "why": "Consider clear fluids for days pre-op, emptying the oesophagus, head-up RSI or awake fibreoptic intubation."
+  },
+  {
+    "q": "What sign is classically seen on barium swallow in achalasia?",
+    "o": [
+      "Apple core",
+      "Bird’s beak",
+      "Corkscrew",
+      "String sign",
+      "Target sign"
+    ],
+    "a": 1,
+    "why": "A dilated oesophagus tapering to a narrow LOS."
+  },
+  {
+    "q": "Which treatment is used temporarily in high-risk patients with achalasia?",
+    "o": [
+      "Heller myotomy",
+      "Botulinum toxin injection",
+      "POEM",
+      "Fundoplication",
+      "Oesophagectomy"
+    ],
+    "a": 1,
+    "why": "Botox gives temporary relief."
+  },
+  {
+    "q": "Which underlying cause is commonly found in food bolus obstruction?",
+    "o": [
+      "Achalasia only",
+      "Eosinophilic oesophagitis or stricture",
+      "Pyloric stenosis",
+      "Gastric band",
+      "Hiatus hernia only"
+    ],
+    "a": 1,
+    "why": "Also malignancy, previous surgery and Schatzki ring."
+  },
+  {
+    "q": "What triggers refeeding syndrome?",
+    "o": [
+      "Starvation alone",
+      "Reintroducing feeding in a malnourished patient, shifting phosphate, potassium and magnesium into cells",
+      "Excess fluids",
+      "Insulin overdose",
+      "Steroids"
+    ],
+    "a": 1,
+    "why": "Start slowly, correct electrolytes and give thiamine."
+  },
+  {
+    "q": "Why is TPN usually given via a central line?",
+    "o": [
+      "It is viscous",
+      "Its high osmolarity causes peripheral thrombophlebitis",
+      "It needs high flow",
+      "It contains lipid only",
+      "Cost"
+    ],
+    "a": 1,
+    "why": "A dedicated lumen is used."
+  },
+  {
+    "q": "What is the key electrolyte abnormality in refeeding syndrome?",
+    "o": [
+      "Hypernatraemia",
+      "Hypophosphataemia",
+      "Hypercalcaemia",
+      "Hyperkalaemia",
+      "Hypermagnesaemia"
+    ],
+    "a": 1,
+    "why": "Can cause arrhythmia, cardiac failure and death."
+  },
+  {
+    "q": "Systemic sclerosis is relevant to food bolus because of:",
+    "o": [
+      "Macroglossia",
+      "Oesophageal dysmotility (the E of CREST)",
+      "Bleeding",
+      "Seizures",
+      "Adrenal failure"
+    ],
+    "a": 1,
+    "why": "Also reduced mouth opening and pulmonary hypertension."
+  }
+]

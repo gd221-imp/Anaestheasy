@@ -1,0 +1,34 @@
+{
+  "t": "tip",
+  "shape": "dummy",
+  "group": "Paeds",
+  "title": "Upper Respiratory Tract Infection",
+  "cards": [
+    {
+      "h": "Perioperative risk with URTI",
+      "b": "file:cards/01-perioperative-risk-with-urti.html"
+    },
+    {
+      "h": "Assessment",
+      "b": "file:cards/02-assessment.html"
+    },
+    {
+      "h": "Decision to proceed - consider",
+      "b": "file:cards/03-decision-to-proceed-consider.html"
+    },
+    {
+      "h": "If proceeding",
+      "b": "file:cards/04-if-proceeding.html"
+    },
+    {
+      "h": "Cancel or proceed: guidance",
+      "b": "file:cards/05-cancel-or-proceed-guidance.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/06-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

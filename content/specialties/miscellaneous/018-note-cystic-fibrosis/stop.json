@@ -1,0 +1,22 @@
+{
+  "t": "tip",
+  "shape": "star",
+  "group": "Miscellaneous",
+  "title": "Cystic Fibrosis",
+  "cards": [
+    {
+      "h": "Overview",
+      "b": "file:cards/01-overview.html"
+    },
+    {
+      "h": "CP",
+      "b": "file:cards/02-cp.html"
+    },
+    {
+      "h": "Typical pathogens",
+      "b": "file:cards/03-typical-pathogens.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

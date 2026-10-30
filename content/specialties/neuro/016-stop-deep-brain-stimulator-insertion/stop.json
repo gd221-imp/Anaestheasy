@@ -1,0 +1,43 @@
+{
+  "t": "recipe",
+  "shape": "brain",
+  "group": "Neuro",
+  "title": "Deep Brain Stimulator Insertion",
+  "op": true,
+  "cards": [
+    {
+      "h": "Anaesthetic recipe",
+      "b": "file:cards/01-anaesthetic-recipe.html",
+      "recipe": true
+    },
+    {
+      "h": "Scalp Innervation (Scalp Block)",
+      "primaryRef": "ana44"
+    },
+    {
+      "h": "CNS Pharmacology",
+      "primaryRef": "pha28"
+    },
+    {
+      "h": "Parkinson's Disease",
+      "noteRef": "Parkinson's Disease"
+    },
+    {
+      "h": "Intraoperative Neuromonitoring",
+      "noteRef": "Intraoperative Neuromonitoring"
+    },
+    {
+      "h": "Sample WPBA",
+      "b": "file:cards/06-sample-wpba.html",
+      "wpba": true
+    },
+    {
+      "h": "Curriculum",
+      "links": [
+        "curric:9",
+        "curric:12"
+      ]
+    }
+  ],
+  "q": "file:quiz.json"
+}

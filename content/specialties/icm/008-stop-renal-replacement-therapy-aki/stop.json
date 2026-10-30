@@ -1,0 +1,41 @@
+{
+  "t": "tip",
+  "shape": "mon",
+  "group": "ICM",
+  "title": "Renal Replacement Therapy & AKI",
+  "cards": [
+    {
+      "h": "Haemofiltration 'pushes out'",
+      "b": "file:cards/01-haemofiltration-pushes-out.html"
+    },
+    {
+      "h": "Haemodialysis 'sucks out'",
+      "b": "file:cards/02-haemodialysis-sucks-out.html"
+    },
+    {
+      "h": "Indications (AEIOU)",
+      "b": "file:cards/03-indications-aeiou.html"
+    },
+    {
+      "h": "Types",
+      "b": "file:cards/04-types.html"
+    },
+    {
+      "h": "Anticoagulation for RRT",
+      "b": "file:cards/05-anticoagulation-for-rrt.html"
+    },
+    {
+      "h": "Risk factors for AKI",
+      "b": "file:cards/06-risk-factors-for-aki.html"
+    },
+    {
+      "h": "Acute tubular necrosis",
+      "b": "file:cards/07-acute-tubular-necrosis.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/08-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json"
+}

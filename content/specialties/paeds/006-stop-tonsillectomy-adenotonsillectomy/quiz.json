@@ -1,0 +1,122 @@
+[
+  {
+    "q": "What dose of dexamethasone is given for tonsillectomy?",
+    "o": [
+      "0.015 mg/kg",
+      "0.15 mg/kg",
+      "1.5 mg/kg",
+      "10 mg fixed",
+      "Not used"
+    ],
+    "a": 1,
+    "why": "Dexamethasone 0.15 mg/kg plus ondansetron for PONV and swelling."
+  },
+  {
+    "q": "According to APAGBI, which children can be treated as day-case tonsillectomy in any hospital?",
+    "o": [
+      "Over 1 year and over 10 kg",
+      "Over 3 years and over 15 kg",
+      "Over 6 months",
+      "All children",
+      "Only over 12 years"
+    ],
+    "a": 1,
+    "why": "Over 1 year and 10 kg only in hospitals with HDU; lower threshold for referral with severe OSA."
+  },
+  {
+    "q": "What is the peak timing of secondary post-tonsillectomy haemorrhage?",
+    "o": [
+      "Within 6 hours",
+      "Days 5–10",
+      "Day 28 exactly",
+      "Day 1",
+      "After 6 weeks"
+    ],
+    "a": 1,
+    "why": "Secondary haemorrhage can occur up to day 28, peaking at days 5–10."
+  },
+  {
+    "q": "A child is bleeding after tonsillectomy. What fluid bolus and TXA dose are given?",
+    "o": [
+      "5 ml/kg and 1 g",
+      "20 ml/kg crystalloid and TXA 15 mg/kg",
+      "40 ml/kg and no TXA",
+      "10 ml/kg albumin",
+      "Blood only"
+    ],
+    "a": 1,
+    "why": "Then cross-matched blood if needed; consultant anaesthetist and senior ENT present."
+  },
+  {
+    "q": "Why are two working suckers needed for a bleeding tonsil?",
+    "o": [
+      "To clear both nostrils",
+      "One may block with clot",
+      "For the surgeon only",
+      "To suction the stomach",
+      "Routine for all cases"
+    ],
+    "a": 1,
+    "why": "Also have smaller ETTs available because of oedema."
+  },
+  {
+    "q": "What position is a child with a bleeding tonsil recovered in?",
+    "o": [
+      "Supine",
+      "Lateral (tonsillar) and head-down",
+      "Sitting",
+      "Prone",
+      "Reverse Trendelenburg"
+    ],
+    "a": 1,
+    "why": "Blood drains out of the mouth rather than into the airway."
+  },
+  {
+    "q": "In severe OSA, why is opioid use reduced?",
+    "o": [
+      "It causes PONV",
+      "Increased opioid sensitivity raises the risk of respiratory depression and obstruction",
+      "Opioids are ineffective",
+      "They cause bleeding",
+      "Interaction with dexamethasone"
+    ],
+    "a": 1,
+    "why": "Use multimodal analgesia with rescue opioid only."
+  },
+  {
+    "q": "What is the commonest cause of OSA in children?",
+    "o": [
+      "Obesity",
+      "Adenotonsillar hypertrophy",
+      "Micrognathia",
+      "Neuromuscular disease",
+      "Asthma"
+    ],
+    "a": 1,
+    "why": "70–90% due to enlarged adenoids and tonsils, peaking at 3–10 years."
+  },
+  {
+    "q": "What should be checked after the Boyle–Davis gag is placed?",
+    "o": [
+      "Blood pressure",
+      "Ventilation (chest rise and pressures) for kinking or displacement",
+      "Temperature",
+      "Glucose",
+      "Urine output"
+    ],
+    "a": 1,
+    "why": "The gag can compress or dislodge the airway device."
+  },
+  {
+    "q": "What rescue morphine dose is used after tonsillectomy?",
+    "o": [
+      "1 mg/kg",
+      "0.1 mg/kg",
+      "0.01 mg/kg",
+      "5 mg fixed",
+      "None ever"
+    ],
+    "a": 1,
+    "why": "Morphine 0.1 mg/kg if needed, after paracetamol and ibuprofen."
+  }
+]

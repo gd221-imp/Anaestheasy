@@ -1,0 +1,43 @@
+{
+  "t": "recipe",
+  "shape": "cross",
+  "group": "Orthopaedics and Trauma",
+  "title": "Ankle Fracture Fixation",
+  "op": true,
+  "cards": [
+    {
+      "h": "Anaesthetic recipe",
+      "b": "file:cards/01-anaesthetic-recipe.html",
+      "recipe": true
+    },
+    {
+      "h": "Lumbosacral Plexus, Femoral & Sciatic Nerves",
+      "primaryRef": "ana23"
+    },
+    {
+      "h": "The Ankle Block",
+      "primaryRef": "ana33"
+    },
+    {
+      "h": "Regional Anaesthesia - Brachial Plexus & Ankle Block",
+      "noteRef": "Regional Anaesthesia - Brachial Plexus & Ankle Block"
+    },
+    {
+      "h": "Plan A Regional Anaesthesia Blocks",
+      "noteRef": "Plan A Regional Anaesthesia Blocks"
+    },
+    {
+      "h": "Sample WPBA",
+      "b": "file:cards/06-sample-wpba.html",
+      "wpba": true
+    },
+    {
+      "h": "Curriculum",
+      "links": [
+        "curric:9",
+        "curric:10"
+      ]
+    }
+  ],
+  "q": "file:quiz.json"
+}

@@ -1,0 +1,50 @@
+{
+  "t": "tip",
+  "shape": "drop",
+  "group": "Vascular",
+  "title": "Ruptured AAA",
+  "cards": [
+    {
+      "h": "Clinical picture",
+      "b": "file:cards/01-clinical-picture.html"
+    },
+    {
+      "h": "Management approach",
+      "b": "file:cards/02-management-approach.html"
+    },
+    {
+      "h": "Pre-op",
+      "b": "file:cards/03-pre-op.html"
+    },
+    {
+      "h": "Intra-op",
+      "b": "file:cards/04-intra-op.html"
+    },
+    {
+      "h": "Key intra-op issues",
+      "b": "file:cards/05-key-intra-op-issues.html"
+    },
+    {
+      "h": "On cross-clamping",
+      "b": "file:cards/06-on-cross-clamping.html"
+    },
+    {
+      "h": "On clamp release",
+      "b": "file:cards/07-on-clamp-release.html"
+    },
+    {
+      "h": "Post-op",
+      "b": "file:cards/08-post-op.html"
+    },
+    {
+      "h": "Other considerations",
+      "b": "file:cards/09-other-considerations.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/10-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

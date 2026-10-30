@@ -1,0 +1,22 @@
+{
+  "t": "tip",
+  "shape": "eye",
+  "group": "Ophthalmology",
+  "title": "Ophthalmic Surgery (inc. Cataract Surgery)",
+  "cards": [
+    {
+      "h": "Oculocardiac reflex",
+      "b": "file:cards/01-oculocardiac-reflex.html"
+    },
+    {
+      "h": "No fasting required if under LA or sedation.",
+      "b": "file:cards/02-no-fasting-required-if-under-la-or-sedation.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/03-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

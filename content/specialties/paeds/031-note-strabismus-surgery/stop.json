@@ -1,0 +1,30 @@
+{
+  "t": "tip",
+  "shape": "dummy",
+  "group": "Paeds",
+  "title": "Strabismus Surgery",
+  "cards": [
+    {
+      "h": "Overview",
+      "b": "file:cards/01-overview.html"
+    },
+    {
+      "h": "Pre-op",
+      "b": "file:cards/02-pre-op.html"
+    },
+    {
+      "h": "Intra-op",
+      "b": "file:cards/03-intra-op.html"
+    },
+    {
+      "h": "The oculocardiac reflex",
+      "b": "file:cards/04-the-oculocardiac-reflex.html"
+    },
+    {
+      "h": "Complications",
+      "b": "file:cards/05-complications.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

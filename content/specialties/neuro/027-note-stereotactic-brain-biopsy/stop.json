@@ -1,0 +1,22 @@
+{
+  "t": "tip",
+  "shape": "brain",
+  "group": "Neuro",
+  "title": "Stereotactic Brain Biopsy",
+  "cards": [
+    {
+      "h": "Overview",
+      "b": "file:cards/01-overview.html"
+    },
+    {
+      "h": "Key points",
+      "b": "file:cards/02-key-points.html"
+    },
+    {
+      "h": "Mostly frameless techniques used nowadays",
+      "b": "file:cards/03-mostly-frameless-techniques-used-nowadays.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

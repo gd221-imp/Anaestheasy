@@ -1,0 +1,87 @@
+<p>Any normal distribution can be converted to a z-score: z = (xi - mean)/SD (datum value, original mean, original SD) - i.e. no. of SDs away from the mean.</p>
+<ul>
+<li>the standard normal distribution ⇒ mean=0 &amp; SD=1 (the 'z distribution')</li>
+</ul>
+<ul>
+<li>standard deviation vs SEM (standard error of the mean): SEM = SD/sqrt(n)</li>
+<li>SD is ALWAYS used when describing the variability of the actual sample data</li>
+<li>SEM is used to describe the precision of the sample mean (how far it is likely to be from the population mean)</li>
+</ul>
+<p>95% population mean = sample mean ± 2 SEM</p>
+<h4>skewness</h4>
+<p>Symmetry of the curve (positive/neutral/negative skew)</p>
+<ul>
+<li>kurtosis = peakedness of the curve: positive = sharper peak and longer tail; negative = wide, flattened distribution.</li>
+</ul>
+<p>*positive skew → mean is shifted to the right → the median becomes the correct measure of central tendency, as data is not normally distributed.</p>
+<ul>
+<li>either accept this and use non-parametric statistical analysis,</li>
+<li>or transform the data to a normal distribution (e.g. logarithmic, square root, or reciprocal transformation)</li>
+</ul>
+<h4>Probability and Statistical tests</h4>
+<ul>
+<li>probability theory: we assume sample data is 'typical' of the population data.</li>
+<li>probability = the relative frequency that an event occurs in an infinite number of trials.</li>
+</ul>
+<p>mutually exclusive events: P(A&amp;B)=0 // P(A or B) = P(A)+P(B)</p>
+<p>not mutually exclusive (independent) events: P(A&amp;B) = P(A)xP(B) // P(A or B) = P(A)+P(B)-P(A&amp;B)</p>
+<ul>
+<li>the binomial distribution - describes any situation with a trial that has 2 mutually exclusive, independent outcomes.</li>
+</ul>
+<p>mean = np;  SD = sqrt(np(1-p))</p>
+<h4>Statistical inference</h4>
+<p>One group of interval data - estimating the population mean from sample data.</p>
+<ul>
+<li>Central limit theorem → repeating an experiment on samples gives a series of sample means; SD of this = SD/sqrt(n) (i.e. the SEM), and the mean of this series = the population mean, following a normal distribution.</li>
+</ul>
+<p><b>Sample mean estimate:</b> xbar - 1.96x(SD/sqrt(n)) &lt;= population mean &lt;= xbar + 1.96x(SD/sqrt(n))</p>
+<h4>One-sample t-test</h4>
+<ul>
+<li>t-value (akin to a z-value): t = (xbar - mu)/SEM. t=1.96 in large samples → corresponds to p=0.05.</li>
+<li>the t-distribution is used instead of the z-distribution if the population SD is unknown (values are instead substituted from the sample data).</li>
+</ul>
+<h4>Non-parametric equivalent</h4>
+<p>Wilcoxon signed-rank test (one-sample/paired); the Wilcoxon rank-sum test is the Mann-Whitney U test for two independent groups</p>
+<ul>
+<li>the sample median is compared against a known/hypothetical population median in a non-parametric distribution.</li>
+<li>each datum is assigned a rank depending on how far it is from the median; values below the median = negative, above = positive; these are summed to give the W-value.</li>
+</ul>
+<p>*if the null hypothesis is true, W=0.</p>
+<h4>'Paired'</h4>
+<p>Measurements from the same individual/sample. 'Unpaired' = measurements from two different groups (whether or not from the same overall sample).</p>
+<h4>Two groups of interval data</h4>
+<p><b>Key questions:</b> are the data normally distributed? are they paired?</p>
+<ul>
+<li>unpaired (independent) &amp; normally distributed → Student's unpaired two-sample t-test.</li>
+</ul>
+<p>aim: calculate the difference between the two sample means, the standard error of this difference, and a CI for the difference.</p>
+<p>SDs of the two groups must be similar → if not, use Welch's correction.</p>
+<ul>
+<li>paired &amp; normally distributed interval data → Student's paired two-sample t-test.</li>
+</ul>
+<p>A 'crossover' study is one where subjects receive both interventions under investigation → each subject acts as their own control.</p>
+<h4>Non-parametric interval data</h4>
+<ul>
+<li>analogous test to the unpaired t-test = Mann-Whitney U test</li>
+<li>analogous test to the paired t-test = Wilcoxon matched pairs test</li>
+</ul>
+<h4>Three groups of interval data</h4>
+<ul>
+<li>ANOVA (analysis of variance) → tells you 'the groups are different' (unmatched groups); post-hoc tests needed to identify which. Uses Student's unpaired two-sample t-tests between pairs of study groups.</li>
+<li>if 3 groups are matched &amp; normally distributed → repeated measures ANOVA</li>
+<li>if unmatched but non-parametric → Kruskal-Wallis test</li>
+<li>if matched but non-parametric → Friedman test.</li>
+</ul>
+<h4>Categorical data</h4>
+<ul>
+<li><b>Unpaired, 2 or more groups:</b> Fisher's exact test (2x2 table). Paired, 2 groups: McNemar's test.</li>
+<li>3 or more groups: chi-squared (x^2) test - larger tables, or a 2x2 table with Yates' correction (less accurate than Fisher's exact test for a 2x2 table).</li>
+</ul>
+<p>Both relative risk and odds ratio can be defined from a 2x2 table: (A/(A+B)) / (C/(C+D))</p>
+<ul>
+<li>if a prospective study → both relative risk and odds ratio can be calculated.</li>
+<li>if a retrospective study → only odds ratio can be calculated, as you start with the outcome and the number of patients at risk is unknown.</li>
+</ul>
+<h4>The 2x2 contingency table</h4>
+<p>Degrees of freedom = (number of rows - 1) x (number of columns - 1); for a 2x2 table this = 1.</p>
+<p><b>Convention:</b> lower row = control group; columns = outcomes. Cells don't have to be mutually exclusive but should contain a frequency. Observations must all be independent!</p>

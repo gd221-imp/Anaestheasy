@@ -1,0 +1,42 @@
+{
+  "t": "tip",
+  "shape": "belly",
+  "group": "Obstetrics",
+  "title": "Amniotic Fluid Embolism & Maternal Mortality",
+  "cards": [
+    {
+      "h": "Overview",
+      "b": "file:cards/01-overview.html"
+    },
+    {
+      "h": "Pathophysiology",
+      "b": "file:cards/02-pathophysiology.html"
+    },
+    {
+      "h": "Two phases",
+      "b": "file:cards/03-two-phases.html"
+    },
+    {
+      "h": "Management",
+      "b": "file:cards/04-management.html"
+    },
+    {
+      "h": "Differential for maternal collapse",
+      "b": "file:cards/05-differential-for-maternal-collapse.html"
+    },
+    {
+      "h": "MBRRACE-UK (2018-2020)",
+      "b": "file:cards/06-mbrrace-uk-2018-2020.html"
+    },
+    {
+      "h": "MBRRACE 2024",
+      "b": "file:cards/07-mbrrace-2024.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/08-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

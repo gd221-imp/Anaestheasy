@@ -1,0 +1,122 @@
+[
+  {
+    "q": "Why must adrenaline not be used in a penile block?",
+    "o": [
+      "It shortens the block",
+      "The penile arteries are end arteries",
+      "It causes hypotension",
+      "It is incompatible with bupivacaine",
+      "It causes priapism"
+    ],
+    "a": 1,
+    "why": "Vasoconstriction of end arteries risks ischaemia."
+  },
+  {
+    "q": "Which nerve is blocked in a penile block?",
+    "o": [
+      "Ilioinguinal",
+      "Dorsal nerve of the penis (S2–4)",
+      "Genitofemoral",
+      "Pudendal at the ischial spine",
+      "Obturator"
+    ],
+    "a": 1,
+    "why": "The dorsal nerve passes under the pubic ramus into Buck’s fascia."
+  },
+  {
+    "q": "During a penile block, what indicates the needle has entered the correct space?",
+    "o": [
+      "Loss of resistance to saline",
+      "A click as Buck’s fascia is breached",
+      "Aspiration of blood",
+      "Paraesthesia",
+      "A twitch"
+    ],
+    "a": 1,
+    "why": "Insert either side of the suspensory ligament, advance 3–5 mm until a click, and inject 1–2 ml 0.5% bupivacaine each side."
+  },
+  {
+    "q": "Which pain scale is based on behavioural observation in young children?",
+    "o": [
+      "VAS",
+      "FLACC",
+      "NRS 0–100",
+      "McGill",
+      "Brief Pain Inventory"
+    ],
+    "a": 1,
+    "why": "FLACC (face, legs, activity, cry, consolability) scores 0–10; Wong–Baker FACES needs self-report."
+  },
+  {
+    "q": "Which pain scales are used in neonates?",
+    "o": [
+      "FLACC only",
+      "NIPS and N-PASS",
+      "VAS",
+      "Wong–Baker FACES",
+      "Abbey"
+    ],
+    "a": 1,
+    "why": "Neonatal Infant Pain Scale and N-PASS."
+  },
+  {
+    "q": "After a caudal, what must be checked before day-case discharge?",
+    "o": [
+      "Blood glucose",
+      "That the child has passed urine",
+      "A chest X-ray",
+      "Haemoglobin",
+      "Temperature only"
+    ],
+    "a": 1,
+    "why": "Urinary retention and leg weakness are recognised after caudal blocks."
+  },
+  {
+    "q": "Which is a recognised immediate complication of a caudal block?",
+    "o": [
+      "Pneumothorax",
+      "Dural puncture or local anaesthetic toxicity",
+      "Horner’s syndrome",
+      "Phrenic palsy",
+      "Seizure from hypoglycaemia"
+    ],
+    "a": 1,
+    "why": "Also haematoma and failed block."
+  },
+  {
+    "q": "A 15-year-old wants to consent to treatment without a parent. What determines whether he can?",
+    "o": [
+      "Fraser guidelines",
+      "Gillick competence",
+      "Mental Health Act",
+      "Age only",
+      "The surgeon’s preference"
+    ],
+    "a": 1,
+    "why": "Under 16s can consent if they have sufficient understanding; Fraser relates specifically to contraception."
+  },
+  {
+    "q": "In England, can a person with parental responsibility override a Gillick-competent child’s refusal of treatment?",
+    "o": [
+      "Never",
+      "Yes, or the court can, if in their best interests, though this is ethically contentious",
+      "Only the GP can",
+      "Only if over 16",
+      "Only in Scotland"
+    ],
+    "a": 1,
+    "why": "This differs from adult law; seek senior and legal input."
+  },
+  {
+    "q": "What is the main surgical delayed complication of circumcision?",
+    "o": [
+      "Hypospadias",
+      "Meatal stenosis",
+      "Testicular atrophy",
+      "Hernia",
+      "Urethral fistula only"
+    ],
+    "a": 1,
+    "why": "Also infection and poor cosmetic result."
+  }
+]

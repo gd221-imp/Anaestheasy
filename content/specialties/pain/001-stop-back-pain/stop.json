@@ -1,0 +1,29 @@
+{
+  "t": "tip",
+  "shape": "face",
+  "group": "Pain",
+  "title": "Back Pain",
+  "cards": [
+    {
+      "h": "Assessment",
+      "b": "file:cards/01-assessment.html"
+    },
+    {
+      "h": "Key points",
+      "b": "file:cards/02-key-points.html"
+    },
+    {
+      "h": "Causes",
+      "b": "file:cards/03-causes.html"
+    },
+    {
+      "h": "Key points",
+      "b": "file:cards/04-key-points.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/05-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json"
+}

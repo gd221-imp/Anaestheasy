@@ -1,0 +1,42 @@
+{
+  "t": "tip",
+  "shape": "brain",
+  "group": "Neuro",
+  "title": "Posterior Fossa Surgery",
+  "cards": [
+    {
+      "h": "Note",
+      "b": "file:cards/01-note.html"
+    },
+    {
+      "h": "Key points",
+      "b": "file:cards/02-key-points.html"
+    },
+    {
+      "h": "Pre-op",
+      "b": "file:cards/03-pre-op.html"
+    },
+    {
+      "h": "Complications",
+      "b": "file:cards/04-complications.html"
+    },
+    {
+      "h": "Positioning",
+      "b": "file:cards/05-positioning.html"
+    },
+    {
+      "h": "Venous air embolism (VAE)",
+      "b": "file:cards/06-venous-air-embolism-vae.html"
+    },
+    {
+      "h": "Acoustic neuroma (aka vestibular schwannoma)",
+      "b": "file:cards/07-acoustic-neuroma-aka-vestibular-schwannoma.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/08-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

@@ -1,0 +1,26 @@
+{
+  "t": "tip",
+  "shape": "star",
+  "group": "Miscellaneous",
+  "title": "Dementia",
+  "cards": [
+    {
+      "h": "(Alzheimer's, Vascular, Lewy Body)",
+      "b": "file:cards/01-alzheimer-s-vascular-lewy-body.html"
+    },
+    {
+      "h": "Drugs",
+      "b": "file:cards/02-drugs.html"
+    },
+    {
+      "h": "Key points",
+      "b": "file:cards/03-key-points.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/04-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

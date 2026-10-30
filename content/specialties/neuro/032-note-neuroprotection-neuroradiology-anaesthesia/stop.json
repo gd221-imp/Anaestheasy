@@ -1,0 +1,22 @@
+{
+  "t": "tip",
+  "shape": "brain",
+  "group": "Neuro",
+  "title": "Neuroprotection & Neuroradiology Anaesthesia",
+  "cards": [
+    {
+      "h": "A general 'neuroprotection' approach for the injured brain, by system",
+      "b": "file:cards/01-a-general-neuroprotection-approach-for-the-injur.html"
+    },
+    {
+      "h": "Key points",
+      "b": "file:cards/02-key-points.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/03-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

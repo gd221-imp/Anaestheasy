@@ -1,0 +1,48 @@
+{
+  "t": "recipe",
+  "shape": "dummy",
+  "group": "Paeds",
+  "title": "Testicular Torsion (Scrotal Exploration)",
+  "op": true,
+  "cards": [
+    {
+      "h": "Anaesthetic recipe",
+      "b": "file:cards/01-anaesthetic-recipe.html",
+      "recipe": true
+    },
+    {
+      "h": "The Reflex Arc & Autonomic Nervous System",
+      "primaryRef": "phs40"
+    },
+    {
+      "h": "Muscle Relaxants",
+      "primaryRef": "pha19"
+    },
+    {
+      "h": "Meningococcal Septicaemia & Consent (Gillick Competence)",
+      "noteRef": "Meningococcal Septicaemia & Consent (Gillick Competence)"
+    },
+    {
+      "h": "Paediatric Pre-operative Assessment",
+      "noteRef": "Paediatric Pre-operative Assessment"
+    },
+    {
+      "h": "ADHD & Childhood Fasting Guidelines",
+      "noteRef": "ADHD & Childhood Fasting Guidelines"
+    },
+    {
+      "h": "Sample WPBA",
+      "b": "file:cards/07-sample-wpba.html",
+      "wpba": true
+    },
+    {
+      "h": "Curriculum",
+      "links": [
+        "curric:1",
+        "curric:8",
+        "curric:9"
+      ]
+    }
+  ],
+  "q": "file:quiz.json"
+}

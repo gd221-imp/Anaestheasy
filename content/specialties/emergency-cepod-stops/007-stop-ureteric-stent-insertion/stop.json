@@ -1,0 +1,44 @@
+{
+  "t": "recipe",
+  "shape": "warn",
+  "group": "CEPOD",
+  "title": "Ureteric Stent Insertion",
+  "op": true,
+  "cards": [
+    {
+      "h": "Anaesthetic recipe",
+      "b": "file:cards/01-anaesthetic-recipe.html",
+      "recipe": true
+    },
+    {
+      "h": "Renal Tubular Transport & Reabsorption",
+      "primaryRef": "phs31"
+    },
+    {
+      "h": "Antimicrobials - Antibacterial Agents",
+      "primaryRef": "pha32"
+    },
+    {
+      "h": "Sepsis",
+      "noteRef": "Sepsis"
+    },
+    {
+      "h": "Renal Replacement Therapy & AKI",
+      "noteRef": "Renal Replacement Therapy & AKI"
+    },
+    {
+      "h": "Sample WPBA",
+      "b": "file:cards/06-sample-wpba.html",
+      "wpba": true
+    },
+    {
+      "h": "Curriculum",
+      "links": [
+        "curric:8",
+        "curric:9",
+        "curric:14"
+      ]
+    }
+  ],
+  "q": "file:quiz.json"
+}

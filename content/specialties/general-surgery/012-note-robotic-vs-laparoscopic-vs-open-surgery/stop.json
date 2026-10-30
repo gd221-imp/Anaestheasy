@@ -1,0 +1,22 @@
+{
+  "t": "tip",
+  "shape": "scalpel",
+  "group": "General surgery",
+  "title": "Robotic vs Laparoscopic vs Open Surgery",
+  "cards": [
+    {
+      "h": "Laparoscopic vs Open",
+      "b": "file:cards/01-laparoscopic-vs-open.html"
+    },
+    {
+      "h": "Key points",
+      "b": "file:cards/02-key-points.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/03-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

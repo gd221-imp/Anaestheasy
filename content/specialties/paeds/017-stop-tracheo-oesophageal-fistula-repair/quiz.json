@@ -1,0 +1,122 @@
+[
+  {
+    "q": "What is the commonest type of TOF?",
+    "o": [
+      "H-type fistula without atresia",
+      "Proximal oesophageal atresia with distal fistula (Gross type C)",
+      "Isolated atresia",
+      "Proximal fistula only",
+      "Double fistula"
+    ],
+    "a": 1,
+    "why": "Type C makes up most cases."
+  },
+  {
+    "q": "What is the classic postnatal finding?",
+    "o": [
+      "Bilious vomiting",
+      "Inability to pass an NG tube, which coils in the upper pouch on CXR",
+      "Projectile vomiting",
+      "Bloody stool",
+      "Bowel in chest"
+    ],
+    "a": 1,
+    "why": "With excess salivation and choking on feeds."
+  },
+  {
+    "q": "Which association should be looked for?",
+    "o": [
+      "Turner syndrome",
+      "VACTERL",
+      "Marfan",
+      "Prader–Willi",
+      "Noonan"
+    ],
+    "a": 1,
+    "why": "Up to half have an associated anomaly; echo for cardiac lesions."
+  },
+  {
+    "q": "Why is bag-mask ventilation avoided before intubation?",
+    "o": [
+      "It is ineffective",
+      "Gas passes through the fistula and distends the stomach",
+      "It causes laryngospasm",
+      "It is too slow",
+      "It causes hypoxia"
+    ],
+    "a": 1,
+    "why": "Maintain spontaneous ventilation where possible."
+  },
+  {
+    "q": "Where should the ETT tip ideally sit?",
+    "o": [
+      "Above the cords",
+      "Distal to the fistula (above the carina)",
+      "In the fistula",
+      "In the right main bronchus always",
+      "In the oesophagus"
+    ],
+    "a": 1,
+    "why": "A bronchoscopy helps locate the fistula."
+  },
+  {
+    "q": "What is the purpose of a Replogle tube?",
+    "o": [
+      "Feeding",
+      "Continuous low-pressure suction of the upper pouch",
+      "Gastric decompression",
+      "Temperature probe",
+      "Ventilation"
+    ],
+    "a": 1,
+    "why": "Reduces aspiration of saliva."
+  },
+  {
+    "q": "What is the commonest post-op complication?",
+    "o": [
+      "Stridor",
+      "GORD",
+      "Hernia",
+      "Squint",
+      "Hydrocephalus"
+    ],
+    "a": 1,
+    "why": "Also anastomotic leak, stricture and tracheomalacia."
+  },
+  {
+    "q": "When is TOF repair usually done?",
+    "o": [
+      "After 3 months",
+      "Within 24 hours of delivery",
+      "At 1 year",
+      "Electively at 6 weeks",
+      "Never surgically"
+    ],
+    "a": 1,
+    "why": "Due to aspiration risk."
+  },
+  {
+    "q": "What is a key anaesthetic immediate complication?",
+    "o": [
+      "Malignant hyperthermia",
+      "ETT malposition into the fistula",
+      "Hyperthermia",
+      "Bronchial blocker failure",
+      "Hypertension"
+    ],
+    "a": 1,
+    "why": "Also gastric distension and hypoxia during retraction."
+  },
+  {
+    "q": "Which gas is avoided in TOF repair?",
+    "o": [
+      "Oxygen",
+      "Nitrous oxide",
+      "Air",
+      "Sevoflurane",
+      "Isoflurane"
+    ],
+    "a": 1,
+    "why": "N2O expands gas in the stomach."
+  }
+]

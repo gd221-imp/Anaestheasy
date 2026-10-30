@@ -1,0 +1,122 @@
+[
+  {
+    "q": "Above what bilirubin is biliary drainage considered pre-op?",
+    "o": [
+      "50",
+      "250 µmol/L",
+      "20",
+      "1000",
+      "Never"
+    ],
+    "a": 1,
+    "why": "Per the note."
+  },
+  {
+    "q": "Which delayed surgical complication is specific to Whipple’s?",
+    "o": [
+      "Chylothorax",
+      "Pancreatic fistula",
+      "Dislocation",
+      "OPSI",
+      "Stridor"
+    ],
+    "a": 1,
+    "why": "Also delayed gastric emptying and bile leak."
+  },
+  {
+    "q": "Which metabolic change occurs intra-op?",
+    "o": [
+      "Hypoglycaemia always",
+      "Hyperglycaemia",
+      "Hypercalcaemia",
+      "Hypernatraemia",
+      "Alkalosis"
+    ],
+    "a": 1,
+    "why": "Monitor glucose."
+  },
+  {
+    "q": "Which vessels are at risk?",
+    "o": [
+      "Carotid",
+      "Portal vein and SMV",
+      "Femoral",
+      "Renal artery",
+      "Aorta only"
+    ],
+    "a": 1,
+    "why": "Major haemorrhage risk."
+  },
+  {
+    "q": "What analgesia is in the recipe?",
+    "o": [
+      "PCA only",
+      "Epidural",
+      "Interscalene",
+      "Femoral",
+      "None"
+    ],
+    "a": 1,
+    "why": "Plus multimodal."
+  },
+  {
+    "q": "What does an anaerobic threshold above 11 ml/kg/min indicate?",
+    "o": [
+      "High risk",
+      "Lower perioperative risk",
+      "Contraindication to surgery",
+      "Heart failure",
+      "Nothing"
+    ],
+    "a": 1,
+    "why": "Normal AT over 11 ml/kg/min."
+  },
+  {
+    "q": "How many MET is climbing 2 flights of stairs?",
+    "o": [
+      "1",
+      "4",
+      "8",
+      "10",
+      "2"
+    ],
+    "a": 1,
+    "why": "1 MET = 3.5 ml O2/kg/min."
+  },
+  {
+    "q": "Which is an absolute contraindication to CPET?",
+    "o": [
+      "Hypertension",
+      "Severe aortic stenosis or unstable angina",
+      "Diabetes",
+      "Obesity",
+      "COPD"
+    ],
+    "a": 1,
+    "why": "Also uncontrolled arrhythmia and acute MI."
+  },
+  {
+    "q": "What does a high VE/VCO2 indicate?",
+    "o": [
+      "Good fitness",
+      "Inefficient ventilation (worse outcome)",
+      "Anaemia",
+      "High AT",
+      "Nothing"
+    ],
+    "a": 1,
+    "why": "Reflects the lungs’ ability to excrete CO2."
+  },
+  {
+    "q": "Which delayed anaesthetic complication may follow?",
+    "o": [
+      "MH",
+      "New-onset diabetes",
+      "PDPH",
+      "Laryngospasm",
+      "Diplopia"
+    ],
+    "a": 1,
+    "why": "Also AKI and chest infection."
+  }
+]

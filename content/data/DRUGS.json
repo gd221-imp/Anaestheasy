@@ -1,0 +1,1498 @@
+[
+  {
+    "n": "Acetazolamide",
+    "c": "Carbonic anhydrase inhibitor: raised intraocular pressure",
+    "a": "500 mg IV",
+    "p": "Specialist dosing",
+    "g": "Slow IV after reconstitution.",
+    "x": "Metabolic acidosis and hypokalaemia. Sulfonamide.",
+    "k": "glaucoma IOP eye Diamox",
+    "r": "500 mg/10 mL"
+  },
+  {
+    "n": "Acetylcysteine",
+    "c": "Antidote: paracetamol overdose",
+    "a": "Weight-based IV infusion regimen (e.g. SNAP: 100 mg/kg over 2 h, then 200 mg/kg over 10 h)",
+    "p": "Weight-based, as per protocol",
+    "g": "IV infusion in glucose 5% or sodium chloride 0.9%, using your trust's protocol and TOXBASE.",
+    "x": "Anaphylactoid reactions (flushing, bronchospasm), usually early. Stop, treat and restart at a slower rate.",
+    "k": "paracetamol overdose NAC Parvolex",
+    "r": "2 g/10 mL"
+  },
+  {
+    "n": "Adenosine",
+    "c": "Antiarrhythmic: SVT",
+    "a": "BNF: 6 mg, then 12 mg after 1–2 min, then a further 12 mg after 1–2 min if needed. Resus Council UK (2021): 6 mg, then 12 mg, then 18 mg",
+    "p": "Under 1 year 150 µg/kg; 1–11 years 100 µg/kg; increase in steps of 50–100 µg/kg every 1–2 min to max 500 µg/kg (neonates 300 µg/kg; max single dose 12 mg). 12–17 years: 3 mg, then 6 mg, then 12 mg. Resus Council UK paediatric (2021): 150 µg/kg, then 300 µg/kg (max single dose 12 mg)",
+    "g": "Rapid IV bolus into a large proximal vein, followed immediately by a fast 10–20 mL saline flush. Run an ECG strip.",
+    "x": "Warn the patient about transient chest tightness and a sense of doom. Avoid in asthma; reduce dose with dipyridamole or after heart transplant.",
+    "k": "supraventricular tachycardia SVT",
+    "r": "6 mg/2 mL"
+  },
+  {
+    "n": "Adrenaline (epinephrine)",
+    "c": "Vasopressor, inotrope; cardiac arrest; anaphylaxis",
+    "a": "Cardiac arrest: 1 mg IV (10 mL of 1 in 10,000). Anaphylaxis: 0.5 mg IM (0.5 mL of 1 in 1,000); under anaesthesia 50 µg IV boluses titrated. Infusion 0.05–0.5 µg/kg/min",
+    "p": "Cardiac arrest: 10 µg/kg IV. Anaphylaxis IM: under 6 months 100–150 µg, 6 months–6 years 150 µg, 6–12 years 300 µg, over 12 years 500 µg. IV under anaesthesia 1 µg/kg titrated. Nebulised for croup: 400 µg/kg of 1 in 1,000 (max 5 mg)",
+    "g": "IM into the anterolateral thigh. IV boluses from a dilute solution (e.g. 1 in 100,000 = 10 µg/mL). Infusions via a central line where possible.",
+    "x": "Check the strength (1 in 1,000 vs 1 in 10,000) before every dose.",
+    "k": "epinephrine anaphylaxis arrest croup",
+    "r": "1 mg/mL (1 in 1,000); 100 µg/mL (1 in 10,000)"
+  },
+  {
+    "n": "Alfentanil",
+    "c": "Opioid (short-acting)",
+    "a": "10–20 µg/kg IV; e.g. 0.5–1 mg at induction",
+    "p": "10–20 µg/kg IV",
+    "g": "Slow IV bolus.",
+    "x": "Fast onset (about 1–2 min) from its low pKa. Metabolised by CYP3A4, so effects are prolonged with macrolides and azoles.",
+    "k": "opioid",
+    "r": "1 mg/2 mL"
+  },
+  {
+    "n": "Amikacin",
+    "c": "Antibiotic (aminoglycoside)",
+    "a": "15 mg/kg IV once daily (by levels)",
+    "p": "15 mg/kg once daily",
+    "g": "IV infusion over 30 min.",
+    "x": "Nephrotoxic and ototoxic. Potentiates neuromuscular block.",
+    "k": "antibiotic aminoglycoside",
+    "r": "500 mg/2 mL"
+  },
+  {
+    "n": "Aminophylline",
+    "c": "Bronchodilator (methylxanthine)",
+    "a": "Loading 5 mg/kg over 20 min (omit if already on theophylline), then 0.5 mg/kg/h",
+    "p": "Loading 5 mg/kg over 20 min, then 1 mg/kg/h (adjust by levels)",
+    "g": "IV infusion, diluted in sodium chloride 0.9% or glucose 5%. Never give the loading dose as a fast bolus.",
+    "x": "Narrow therapeutic range (10–20 mg/L). Toxicity: vomiting, arrhythmias and seizures.",
+    "k": "asthma theophylline",
+    "r": "250 mg/10 mL"
+  },
+  {
+    "n": "Amiodarone",
+    "c": "Antiarrhythmic (class III)",
+    "a": "Cardiac arrest: 300 mg IV after the 3rd shock, then 150 mg after the 5th. Tachyarrhythmia: 300 mg over 10–20 min, then 900 mg over 24 h",
+    "p": "Cardiac arrest: 5 mg/kg IV after the 3rd and 5th shocks. Tachyarrhythmia: 5 mg/kg over 20 min–1 h",
+    "g": "In cardiac arrest, give as a bolus. Otherwise dilute in 5% glucose only and give via a central line where possible (thrombophlebitis peripherally).",
+    "x": "Hypotension and bradycardia with fast infusion. Long term: thyroid, lung, liver and skin toxicity.",
+    "k": "VF VT arrest AF",
+    "r": "300 mg/10 mL"
+  },
+  {
+    "n": "Amoxicillin",
+    "c": "Antibiotic (penicillin)",
+    "a": "500 mg IV every 8 h, increased to 1 g every 6 h in severe infection",
+    "p": "20–30 mg/kg every 8 h (max 500 mg per dose); severe infection 40–60 mg/kg every 8 h (max 1 g per dose)",
+    "g": "Slow IV over 3–4 min, or infusion.",
+    "x": "Contains penicillin.",
+    "k": "antibiotic penicillin",
+    "r": "500 mg/10 mL"
+  },
+  {
+    "n": "Aprotinin",
+    "c": "Antifibrinolytic (cardiac surgery)",
+    "a": "Test dose 10,000 KIU, then 1–2 million KIU loading, then 250,000–500,000 KIU/h",
+    "p": "Specialist dosing",
+    "g": "Test dose at least 10 min before the loading dose, via a central line, with the patient on their back. Antihistamine pre-treatment may be used.",
+    "x": "Anaphylaxis risk, especially on re-exposure within 12 months. Restricted to specific cardiac surgery indications.",
+    "k": "antifibrinolytic cardiac bypass Trasylol",
+    "r": "500,000 KIU/50 mL"
+  },
+  {
+    "n": "Aspirin (IV lysine acetylsalicylate)",
+    "c": "Antiplatelet",
+    "a": "Acute coronary syndrome if oral not possible: 75–250 mg IV",
+    "p": "Avoid under 16 years (Reye's syndrome)",
+    "g": "Reconstitute the 500 mg vial and give the required dose slowly IV.",
+    "x": "Irreversible COX-1 inhibition lasting the platelet's lifespan.",
+    "k": "antiplatelet ACS",
+    "r": "500 mg vial"
+  },
+  {
+    "n": "Atracurium",
+    "c": "Non-depolarising neuromuscular blocker",
+    "a": "0.3–0.6 mg/kg IV; infusion 0.3–0.6 mg/kg/h",
+    "p": "0.3–0.6 mg/kg IV",
+    "g": "IV bolus. Store in the fridge.",
+    "x": "Hofmann degradation and ester hydrolysis, so it suits renal and hepatic failure. Can release histamine. Laudanosine is a metabolite.",
+    "k": "muscle relaxant NMB",
+    "r": "50 mg/5 mL"
+  },
+  {
+    "n": "Atropine",
+    "c": "Anticholinergic",
+    "a": "Bradycardia: 500 µg IV, repeat to a maximum of 3 mg",
+    "p": "20 µg/kg IV (max 600 µg)",
+    "g": "IV bolus.",
+    "x": "Small doses can cause paradoxical bradycardia. Crosses the blood–brain barrier, so can cause central anticholinergic syndrome.",
+    "k": "bradycardia vagal",
+    "r": "600 µg/mL"
+  },
+  {
+    "n": "Benzylpenicillin",
+    "c": "Antibiotic (penicillin)",
+    "a": "1.2 g IV every 4–6 h (up to 2.4 g every 4 h in meningitis)",
+    "p": "25–50 mg/kg every 4–6 h",
+    "g": "Slow IV over 3–5 min (faster can cause seizures).",
+    "x": "Contains penicillin.",
+    "k": "antibiotic penicillin Crystapen",
+    "r": "600 mg/4 mL"
+  },
+  {
+    "n": "Bupivacaine",
+    "c": "Local anaesthetic (amide)",
+    "a": "Max 2 mg/kg (with or without adrenaline). Spinal for caesarean section: 0.5% heavy 2.2–2.8 mL",
+    "p": "Max 2.5 mg/kg single shot. Caudal 0.25%: 0.5 mL/kg sacral, 1 mL/kg lumbar, 1.25 mL/kg lower thoracic",
+    "g": "Inject incrementally with intermittent aspiration. Heavy (hyperbaric) is for spinal use only.",
+    "x": "The most cardiotoxic of the common local anaesthetics. Have 20% lipid emulsion available.",
+    "k": "local anaesthetic Marcain spinal caudal LA",
+    "r": "0.25% (25 mg/10 mL); 0.5% (50 mg/10 mL); 0.5% heavy with glucose (20 mg/4 mL)"
+  },
+  {
+    "n": "Calcium chloride 10%",
+    "c": "Electrolyte; hyperkalaemia; hypocalcaemia",
+    "a": "10 mL (6.8 mmol) IV",
+    "p": "0.2 mL/kg IV (max 10 mL)",
+    "g": "Slow IV over 5–10 min, ideally via a central or large vein; faster in cardiac arrest. Extravasation causes tissue necrosis.",
+    "x": "Three times more calcium per mL than calcium gluconate 10%. Don't mix with bicarbonate in the same line.",
+    "k": "hyperkalaemia calcium",
+    "r": "6.8 mmol/10 mL (680 µmol/mL)"
+  },
+  {
+    "n": "Calcium gluconate 10%",
+    "c": "Electrolyte; hyperkalaemia; hypocalcaemia",
+    "a": "30 mL (6.8 mmol) IV",
+    "p": "0.5 mL/kg IV over 5–10 min (max 30 mL)",
+    "g": "Slow IV over 5–10 min. Can be given peripherally.",
+    "x": "Less irritant than calcium chloride. Also used for magnesium toxicity.",
+    "k": "hyperkalaemia calcium",
+    "r": "2.2 mmol/10 mL"
+  },
+  {
+    "n": "Carbetocin",
+    "c": "Uterotonic (long-acting oxytocin analogue)",
+    "a": "100 µg IV at caesarean section",
+    "p": "—",
+    "g": "Slow IV bolus over 1 minute after delivery of the baby.",
+    "x": "Single dose only. Same cautions as oxytocin.",
+    "k": "PPH caesarean uterotonic",
+    "r": "100 µg/mL"
+  },
+  {
+    "n": "Carboprost",
+    "c": "Uterotonic (prostaglandin F2α)",
+    "a": "250 µg IM every 15 min, up to 8 doses (2 mg total)",
+    "p": "—",
+    "g": "Deep IM. Intramyometrial use is off-licence.",
+    "x": "Avoid in asthma (bronchospasm). Side effects: vomiting, diarrhoea, fever.",
+    "k": "PPH Hemabate",
+    "r": "250 µg/mL"
+  },
+  {
+    "n": "Cefazolin",
+    "c": "Antibiotic (cephalosporin): surgical prophylaxis",
+    "a": "2 g IV (3 g if over 120 kg). Redose after 4 h",
+    "p": "30 mg/kg IV (max 2 g)",
+    "g": "Slow IV bolus over 3–5 min, or infusion.",
+    "x": "Give within 60 minutes before incision. Check for penicillin allergy history.",
+    "k": "antibiotic prophylaxis",
+    "r": "2 g/10 mL"
+  },
+  {
+    "n": "Ceftazidime",
+    "c": "Antibiotic (cephalosporin, antipseudomonal)",
+    "a": "2 g IV every 8 h",
+    "p": "50 mg/kg every 8 h (max 2 g)",
+    "g": "IV over 3–5 min, or infusion.",
+    "x": "Some cross-reactivity with penicillin allergy.",
+    "k": "antibiotic Pseudomonas",
+    "r": "2 g"
+  },
+  {
+    "n": "Ceftriaxone",
+    "c": "Antibiotic (cephalosporin)",
+    "a": "1–2 g IV once daily (2 g twice daily in meningitis)",
+    "p": "50–80 mg/kg once daily (max 4 g)",
+    "g": "IV over 5 min (2 g doses as an infusion over 30 min). Not with calcium-containing fluids in neonates.",
+    "x": "Long half-life allows once-daily dosing.",
+    "k": "antibiotic",
+    "r": "2 g/20 mL"
+  },
+  {
+    "n": "Cefuroxime",
+    "c": "Antibiotic (cephalosporin): prophylaxis",
+    "a": "1.5 g IV",
+    "p": "50 mg/kg (max 1.5 g)",
+    "g": "Slow IV over 3–5 min.",
+    "x": "Some cross-reactivity with penicillin allergy.",
+    "k": "antibiotic prophylaxis Zinacef",
+    "r": "1.5 g/15 mL"
+  },
+  {
+    "n": "Chloroprocaine",
+    "c": "Local anaesthetic (ester), short-acting",
+    "a": "Spinal: 1% 40–50 mg",
+    "p": "—",
+    "g": "Intrathecal, preservative-free preparation only.",
+    "x": "Short duration (about 60 min), suited to day-case spinal anaesthesia. Hydrolysed by plasma esterases.",
+    "k": "spinal day case LA"
+  },
+  {
+    "n": "Chlorphenamine",
+    "c": "Antihistamine (H1)",
+    "a": "10 mg IV or IM",
+    "p": "1–5 months 250 µg/kg (max 2.5 mg); 6 months–5 years 2.5 mg; 6–11 years 5 mg; 12–17 years 10 mg (max 4 doses a day)",
+    "g": "Slow IV over 1 minute, or IM.",
+    "x": "Never a substitute for adrenaline in anaphylaxis; Resus Council UK (2021) no longer includes antihistamines in initial emergency treatment. Causes sedation.",
+    "k": "anaphylaxis allergy antihistamine",
+    "r": "10 mg/mL"
+  },
+  {
+    "n": "Ciprofloxacin",
+    "c": "Antibiotic (fluoroquinolone)",
+    "a": "400 mg IV every 8–12 h",
+    "p": "10 mg/kg (max 400 mg)",
+    "g": "IV infusion over 60 min (comes ready-mixed).",
+    "x": "MHRA warnings: tendon damage, aortic aneurysm, QT prolongation. Lowers the seizure threshold.",
+    "k": "antibiotic quinolone",
+    "r": "400 mg/200 mL"
+  },
+  {
+    "n": "Cisatracurium",
+    "c": "Non-depolarising neuromuscular blocker",
+    "a": "0.15 mg/kg IV; infusion 0.06–0.18 mg/kg/h",
+    "p": "0.1–0.15 mg/kg IV",
+    "g": "IV bolus. Store in the fridge.",
+    "x": "Hofmann degradation. Less histamine release than atracurium.",
+    "k": "muscle relaxant NMB Nimbex",
+    "r": "20 mg/10 mL"
+  },
+  {
+    "n": "Clarithromycin",
+    "c": "Antibiotic (macrolide)",
+    "a": "500 mg IV every 12 h",
+    "p": "7.5 mg/kg every 12 h (max 500 mg)",
+    "g": "IV infusion over 60 min into a large vein. Never as a bolus.",
+    "x": "Inhibits CYP3A4 (prolongs midazolam, alfentanil). QT prolongation.",
+    "k": "antibiotic macrolide",
+    "r": "500 mg/10 mL"
+  },
+  {
+    "n": "Clindamycin",
+    "c": "Antibiotic (lincosamide)",
+    "a": "600–900 mg IV every 6–8 h; prophylaxis 600–900 mg",
+    "p": "10 mg/kg (max 600 mg)",
+    "g": "IV infusion, diluted, over at least 10–60 min (no faster than 30 mg/min).",
+    "x": "Used for penicillin allergy and toxin suppression in necrotising infection. C. difficile risk.",
+    "k": "antibiotic penicillin allergy",
+    "r": "150 mg/mL"
+  },
+  {
+    "n": "Clonidine",
+    "c": "Alpha-2 agonist: analgesia adjunct, sedation, premedication",
+    "a": "IV: 1–2 µg/kg (e.g. 50–150 µg)",
+    "p": "Caudal or IV: 1–2 µg/kg. Oral premedication: 2–4 µg/kg",
+    "g": "Slow IV over 10 min. Can be added to caudal local anaesthetic.",
+    "x": "Causes bradycardia, hypotension and sedation. Avoid in neonates (apnoea).",
+    "k": "alpha agonist adjunct",
+    "r": "150 µg/mL injection; 25 µg and 100 µg tablets"
+  },
+  {
+    "n": "Co-amoxiclav",
+    "c": "Antibiotic: surgical prophylaxis",
+    "a": "1.2 g IV",
+    "p": "30 mg/kg IV (max 1.2 g)",
+    "g": "Slow IV bolus over 3–4 min, or infusion over 30–40 min.",
+    "x": "Contains penicillin.",
+    "k": "Augmentin antibiotic",
+    "r": "1.2 g/20 mL"
+  },
+  {
+    "n": "Cocaine with adrenaline (topical)",
+    "c": "Topical local anaesthetic and vasoconstrictor (nasal)",
+    "a": "Topical to the nasal mucosa only. Max cocaine about 1.5 mg/kg",
+    "p": "Avoid in young children",
+    "g": "Applied topically by the surgeon (e.g. Moffett's solution or paste). Never injected.",
+    "x": "Hypertension, tachycardia, arrhythmias and myocardial ischaemia. Controlled drug.",
+    "k": "nasal ENT Moffett's topical",
+    "r": "100 mg/2 mL"
+  },
+  {
+    "n": "Codeine",
+    "c": "Opioid (weak, prodrug)",
+    "a": "30–60 mg orally every 6 h as required (max 240 mg/day; max 3 days for acute pain)",
+    "p": "12–17 years: 30–60 mg every 6 h (max 3 days). Contraindicated under 12 years, and under 18 after tonsillectomy or adenoidectomy for obstructive sleep apnoea",
+    "g": "Oral.",
+    "x": "Converted to morphine by CYP2D6: ultra-rapid metabolisers risk toxicity, poor metabolisers get little effect.",
+    "k": "opioid"
+  },
+  {
+    "n": "Cyclizine",
+    "c": "Antiemetic (H1 antagonist)",
+    "a": "50 mg IV or IM every 8 h",
+    "p": "1 month–5 years 0.5–1 mg/kg (max 25 mg); 6–11 years 25 mg; 12–17 years 50 mg (up to 3 times a day)",
+    "g": "Slow IV over 3–5 min (painful, can cause tachycardia).",
+    "x": "Use with caution in heart failure. Anticholinergic side effects.",
+    "k": "PONV antiemetic",
+    "r": "50 mg/mL"
+  },
+  {
+    "n": "Dantrolene",
+    "c": "Muscle relaxant: malignant hyperthermia",
+    "a": "2.5 mg/kg IV, then 1 mg/kg boluses as needed (up to 10 mg/kg)",
+    "p": "Same as adult",
+    "g": "Reconstitute each Dantrium 20 mg vial with 60 mL water for injection and shake well (slow to dissolve, so get extra hands). Agilus 120 mg vials are reconstituted with 20 mL. Give via a large vein.",
+    "x": "Follow the Association of Anaesthetists malignant hyperthermia crisis guideline. Contains mannitol.",
+    "k": "malignant hyperthermia MH",
+    "r": "20 mg vial (reconstitute with 60 mL)"
+  },
+  {
+    "n": "Desflurane",
+    "c": "Volatile anaesthetic",
+    "a": "MAC about 6% (age 40)",
+    "p": "MAC higher in infants (up to about 9–10%)",
+    "g": "Inhaled via a heated, pressurised vaporiser (Tec 6).",
+    "x": "Airway irritant, so not for inhalational induction. Rapid onset and offset (blood:gas 0.42). High global warming potential.",
+    "k": "volatile MAC inhalational"
+  },
+  {
+    "n": "Desmopressin (DDAVP)",
+    "c": "Vasopressin analogue: bleeding; diabetes insipidus",
+    "a": "Bleeding (von Willebrand disease, uraemia, antiplatelet drugs): 0.3 µg/kg IV. Diabetes insipidus: 1–4 µg IV",
+    "p": "0.3 µg/kg IV (bleeding)",
+    "g": "For bleeding, dilute in 50 mL sodium chloride 0.9% and infuse over 20–30 min.",
+    "x": "Hyponatraemia and fluid retention (restrict fluids). Tachyphylaxis with repeated doses.",
+    "k": "DDAVP von Willebrand diabetes insipidus",
+    "r": "4 µg/mL"
+  },
+  {
+    "n": "Dexamethasone",
+    "c": "Corticosteroid: PONV, airway oedema, croup",
+    "a": "PONV: 4–8 mg IV at induction (6.6 mg common)",
+    "p": "PONV: 0.1–0.15 mg/kg (max 6.6 mg). Croup: 0.15 mg/kg orally",
+    "g": "Slow IV. Give to an awake patient slowly to avoid perineal burning.",
+    "x": "Raises blood glucose. A single dose doesn't increase wound infection.",
+    "k": "PONV steroid croup",
+    "r": "3.3 mg/mL"
+  },
+  {
+    "n": "Dexmedetomidine",
+    "c": "Alpha-2 agonist: sedation",
+    "a": "ICU infusion 0.2–1.4 µg/kg/h. Procedural: loading 1 µg/kg over 10 min (optional), then 0.2–1 µg/kg/h",
+    "p": "Intranasal premedication 1–2 µg/kg",
+    "g": "IV infusion diluted to 4 or 8 µg/mL. Avoid fast loading (transient hypertension, bradycardia).",
+    "x": "Cooperative sedation with little respiratory depression. Bradycardia and hypotension. MHRA (2022): increased mortality in ICU patients aged 65 or under (SPICE III).",
+    "k": "sedation ICU alpha agonist",
+    "r": "Concentrate, e.g. 100 µg/mL (dilute before use)"
+  },
+  {
+    "n": "Diamorphine",
+    "c": "Opioid",
+    "a": "IV: 2.5–5 mg titrated. Intrathecal (caesarean section): 250–400 µg. Epidural: 2–3 mg",
+    "p": "Intranasal: 0.1 mg/kg",
+    "g": "Intrathecal or epidural: preservative-free only, diluted in saline. Monitor for delayed respiratory depression.",
+    "x": "Controlled drug. More lipid soluble than morphine.",
+    "k": "opioid heroin intrathecal spinal",
+    "r": "5 mg (reconstituted, e.g. to 5 mL)"
+  },
+  {
+    "n": "Diazepam",
+    "c": "Benzodiazepine",
+    "a": "Seizures: 10 mg IV or rectal. Sedation: 2–10 mg IV",
+    "p": "Seizures IV: 300–400 µg/kg (max 10 mg), repeated once after 10 min if needed. Rectal: 1 month–1 year 5 mg; 2–11 years 5–10 mg; 12–17 years 10–20 mg",
+    "g": "Slow IV into a large vein using the emulsion (Diazemuls), no faster than 5 mg/min.",
+    "x": "Long-acting active metabolites.",
+    "k": "benzodiazepine seizure",
+    "r": "5 mg/mL"
+  },
+  {
+    "n": "Diclofenac",
+    "c": "NSAID",
+    "a": "50 mg orally or rectally every 8 h, or 75 mg IV repeated once after 4–6 h if needed (max 150 mg/day; IV for max 2 days)",
+    "p": "6 months and over: 0.3–1 mg/kg 3 times a day (max 50 mg per dose, 150 mg/day). Post-op rectal: 8–11 kg 12.5 mg twice daily; 12 kg and over 1 mg/kg 3 times a day (max 50 mg), for max 4 days",
+    "g": "IV: dilute and infuse over 30–120 min (not as a bolus).",
+    "x": "Avoid in renal impairment, GI bleeding and aspirin-sensitive asthma.",
+    "k": "NSAID analgesia Voltarol",
+    "r": "IV 25 mg/mL; suppository 100 mg"
+  },
+  {
+    "n": "Digoxin",
+    "c": "Cardiac glycoside: AF rate control",
+    "a": "Emergency loading: 0.75–1 mg by IV infusion over at least 2 h, then oral maintenance from the next day",
+    "p": "Specialist dosing",
+    "g": "IV infusion over at least 2 h for the loading dose.",
+    "x": "Toxicity is worse with hypokalaemia and renal impairment.",
+    "k": "AF rate control",
+    "r": "500 µg/2 mL"
+  },
+  {
+    "n": "Dobutamine",
+    "c": "Inotrope (beta-1 agonist)",
+    "a": "2.5–20 µg/kg/min",
+    "p": "5–20 µg/kg/min",
+    "g": "IV infusion, preferably central.",
+    "x": "Tachycardia and arrhythmias. Can cause hypotension from vasodilatation.",
+    "k": "inotrope",
+    "r": "250 mg/20 mL; 250 mg/50 mL"
+  },
+  {
+    "n": "Dopamine",
+    "c": "Inotrope and vasopressor",
+    "a": "2–20 µg/kg/min",
+    "p": "2–20 µg/kg/min",
+    "g": "IV infusion via a central line.",
+    "x": "Arrhythmias. No longer recommended for 'renal protection'.",
+    "k": "inotrope",
+    "r": "40 mg/mL"
+  },
+  {
+    "n": "Doxapram",
+    "c": "Respiratory stimulant",
+    "a": "1–1.5 mg/kg IV over at least 30 s; infusion 1.5–4 mg/min",
+    "p": "Not recommended",
+    "g": "Slow IV or infusion.",
+    "x": "Avoid in epilepsy, severe hypertension, ischaemic heart disease and thyrotoxicosis.",
+    "k": "respiratory stimulant",
+    "r": "20 mg/mL"
+  },
+  {
+    "n": "Droperidol",
+    "c": "Antiemetic (D2 antagonist)",
+    "a": "0.625–1.25 mg IV",
+    "p": "Over 2 years: 20–50 µg/kg (max 1.25 mg)",
+    "g": "Slow IV. Give towards the end of surgery.",
+    "x": "QT prolongation; avoid with other QT-prolonging drugs. Extrapyramidal effects.",
+    "k": "PONV antiemetic",
+    "r": "2.5 mg/mL"
+  },
+  {
+    "n": "Enoxaparin",
+    "c": "Low molecular weight heparin",
+    "a": "Prophylaxis 40 mg SC once daily (adjust for weight and renal function). Treatment 1.5 mg/kg once daily or 1 mg/kg twice daily",
+    "p": "Specialist dosing",
+    "g": "Deep SC injection.",
+    "x": "Follow neuraxial timing guidance (12 h after prophylactic, 24 h after treatment doses).",
+    "k": "LMWH Clexane anticoagulant VTE",
+    "r": "20 mg/0.2 mL; 40 mg/0.4 mL"
+  },
+  {
+    "n": "Enoximone",
+    "c": "Inotrope and vasodilator (PDE3 inhibitor)",
+    "a": "Loading 0.5–1 mg/kg slowly (no faster than 12.5 mg/min), then 5–20 µg/kg/min",
+    "p": "Specialist dosing",
+    "g": "Dilute in sodium chloride 0.9% in plastic syringes (crystallises in glucose or glass).",
+    "x": "Hypotension and arrhythmias. Reduce dose in renal impairment.",
+    "k": "inotrope inodilator",
+    "r": "100 mg/20 mL"
+  },
+  {
+    "n": "Ephedrine",
+    "c": "Vasopressor (direct and indirect sympathomimetic)",
+    "a": "3–6 mg IV boluses (max 30 mg)",
+    "p": "BNFc: 1 month–11 years 500–750 µg/kg every 3–4 min; 12–17 years 3–7.5 mg every 3–4 min (max 9 mg per dose, 30 mg per course). Common paediatric anaesthetic practice (no single named guideline): 0.1 mg/kg IV, titrated",
+    "g": "Dilute 30 mg to 10 mL (3 mg/mL) and give in boluses.",
+    "x": "Tachyphylaxis. Avoid with MAOIs. Raises heart rate as well as blood pressure.",
+    "k": "vasopressor hypotension",
+    "r": "30 mg/mL"
+  },
+  {
+    "n": "Ergometrine",
+    "c": "Uterotonic",
+    "a": "500 µg IM, or 250–500 µg slow IV. Syntometrine (ergometrine with oxytocin): 1 mL IM",
+    "p": "—",
+    "g": "IM, or slow IV over 1 minute.",
+    "x": "Avoid in hypertension, pre-eclampsia and cardiac disease. Causes vomiting.",
+    "k": "PPH uterotonic Syntometrine",
+    "r": "500 µg/mL; with oxytocin (Syntometrine: 500 µg + 5 units/mL)"
+  },
+  {
+    "n": "Erythromycin",
+    "c": "Antibiotic (macrolide); prokinetic",
+    "a": "Antibiotic 1 g IV every 6 h. Prokinetic (gastric emptying) 250 mg IV",
+    "p": "12.5 mg/kg every 6 h",
+    "g": "IV infusion over 60 min. Never as a bolus.",
+    "x": "Inhibits CYP3A4. QT prolongation.",
+    "k": "antibiotic macrolide prokinetic",
+    "r": "1 g/20 mL"
+  },
+  {
+    "n": "Esmolol",
+    "c": "Beta-blocker (beta-1 selective, ultra-short acting)",
+    "a": "0.5 mg/kg over 1 min, then 50–200 µg/kg/min; or 10–20 mg boluses",
+    "p": "Specialist dosing",
+    "g": "IV bolus or infusion.",
+    "x": "Half-life about 9 min (red cell esterases).",
+    "k": "beta blocker tachycardia",
+    "r": "10 mg/mL"
+  },
+  {
+    "n": "Etomidate",
+    "c": "IV induction agent",
+    "a": "0.2–0.3 mg/kg IV",
+    "p": "0.3 mg/kg IV",
+    "g": "IV bolus into a fast-running drip (painful on injection).",
+    "x": "Cardiovascularly stable. Adrenal suppression (inhibits 11-beta-hydroxylase). Myoclonus.",
+    "k": "induction",
+    "r": "20 mg/10 mL"
+  },
+  {
+    "n": "Fentanyl",
+    "c": "Opioid",
+    "a": "1–3 µg/kg IV at induction; 25–50 µg increments for analgesia",
+    "p": "1–2 µg/kg IV. Intranasal 1.5 µg/kg",
+    "g": "IV bolus.",
+    "x": "Large doses cause chest wall rigidity. Context-sensitive half-time rises with long infusions.",
+    "k": "opioid",
+    "r": "50 µg/mL"
+  },
+  {
+    "n": "Fibrinogen concentrate",
+    "c": "Coagulation factor",
+    "a": "Typically 50 mg/kg (e.g. 3–4 g), guided by Clauss fibrinogen or viscoelastic testing",
+    "p": "Specialist dosing",
+    "g": "Reconstitute and give slowly IV (no faster than about 5 mL/min).",
+    "x": "Target fibrinogen above 1.5 g/L in major haemorrhage and above 2 g/L in obstetric haemorrhage.",
+    "k": "major haemorrhage PPH RiaSTAP",
+    "r": "1 g/50 mL"
+  },
+  {
+    "n": "Flucloxacillin",
+    "c": "Antibiotic (penicillin, antistaphylococcal)",
+    "a": "1–2 g IV every 6 h",
+    "p": "12.5–25 mg/kg every 6 h (max 1 g per dose); higher doses in severe infection (see BNFc)",
+    "g": "Slow IV over 3–4 min, or infusion.",
+    "x": "Contains penicillin. Cholestatic jaundice.",
+    "k": "antibiotic penicillin",
+    "r": "500 mg/10 mL"
+  },
+  {
+    "n": "Fluconazole",
+    "c": "Antifungal (azole)",
+    "a": "400–800 mg IV loading, then 200–400 mg daily",
+    "p": "6–12 mg/kg once daily",
+    "g": "IV infusion (ready-mixed, 2 mg/mL), no faster than 10 mL/min.",
+    "x": "Inhibits CYP3A4 and 2C9 (raises midazolam, alfentanil, warfarin levels). QT prolongation.",
+    "k": "antifungal",
+    "r": "2 mg/mL"
+  },
+  {
+    "n": "Flumazenil",
+    "c": "Benzodiazepine antagonist",
+    "a": "200 µg IV, then 100 µg every minute (max 1 mg)",
+    "p": "10 µg/kg (max 200 µg), repeat every minute (max 1 mg total)",
+    "g": "IV bolus.",
+    "x": "Shorter-acting than most benzodiazepines, so resedation can occur. Can provoke seizures in chronic users.",
+    "k": "reversal",
+    "r": "100 µg/mL"
+  },
+  {
+    "n": "Furosemide",
+    "c": "Loop diuretic",
+    "a": "20–40 mg IV",
+    "p": "0.5–1 mg/kg IV",
+    "g": "Slow IV (no faster than 4 mg/min).",
+    "x": "Hypokalaemia, ototoxicity at high doses.",
+    "k": "diuretic",
+    "r": "10 mg/mL"
+  },
+  {
+    "n": "Gentamicin",
+    "c": "Antibiotic (aminoglycoside)",
+    "a": "Once daily: 5–7 mg/kg (by levels). Multiple daily: 3–5 mg/kg/day in 3 divided doses. Surgical prophylaxis by local protocol",
+    "p": "7 mg/kg once daily",
+    "g": "Once-daily dose by IV infusion. Multiple daily doses by slow IV over at least 3 min, or infusion.",
+    "x": "Nephrotoxic and ototoxic. Potentiates neuromuscular block.",
+    "k": "antibiotic",
+    "r": "80 mg/2 mL"
+  },
+  {
+    "n": "Glucagon",
+    "c": "Hormone: beta-blocker overdose; hypoglycaemia",
+    "a": "Hypoglycaemia 1 mg IM/IV/SC. Beta-blocker overdose 50–150 µg/kg IV, then infusion",
+    "p": "Hypoglycaemia: under 25 kg 0.5 mg; over 25 kg 1 mg",
+    "g": "IV, IM or SC.",
+    "x": "Causes vomiting. Also used in anaphylaxis on beta-blockers.",
+    "k": "hypoglycaemia beta blocker overdose",
+    "r": "1 mg"
+  },
+  {
+    "n": "Glucose (10% and 50%)",
+    "c": "Hypoglycaemia",
+    "a": "150–200 mL (15–20 g) IV over 15 min",
+    "p": "2 mL/kg IV",
+    "g": "IV via a large vein. 50% is very irritant: prefer 10–20% for hypoglycaemia; 50% (50 mL) is used with insulin for hyperkalaemia.",
+    "x": "Recheck capillary glucose after 10–15 min.",
+    "k": "dextrose hypoglycaemia",
+    "r": "10% (various volumes); 50% 50 mL"
+  },
+  {
+    "n": "Glyceryl trinitrate (GTN)",
+    "c": "Nitrate vasodilator; uterine relaxation",
+    "a": "Infusion 0.5–10 mg/h. Sublingual 400–800 µg. Uterine relaxation: 50–100 µg IV boluses",
+    "p": "Specialist dosing",
+    "g": "IV infusion via a PVC-free or glass system where possible.",
+    "x": "Headache, hypotension, tachyphylaxis.",
+    "k": "nitrate GTN hypertension uterine relaxation",
+    "r": "IV 50 mg/50 mL; sublingual spray 400 µg/dose"
+  },
+  {
+    "n": "Glycopyrronium",
+    "c": "Anticholinergic",
+    "a": "200–400 µg IV. With neostigmine: 10 µg/kg (e.g. 0.5 mg with 2.5 mg neostigmine)",
+    "p": "4–10 µg/kg IV",
+    "g": "IV bolus.",
+    "x": "Quaternary amine: doesn't cross the blood–brain barrier or placenta.",
+    "k": "anticholinergic antisialagogue",
+    "r": "600 µg/3 mL"
+  },
+  {
+    "n": "Haloperidol",
+    "c": "Antipsychotic: delirium",
+    "a": "Delirium: 1–10 mg oral or IM, starting at the lowest dose and titrated every 2–4 h (max 10 mg/day). Elderly: start at 0.5 mg (max 5 mg/day)",
+    "p": "Specialist dosing",
+    "g": "Oral or IM (IV is not a BNF route).",
+    "x": "QT prolongation. Avoid in Parkinson's disease and Lewy body dementia.",
+    "k": "delirium agitation",
+    "r": "5 mg/mL (haloperidol decanoate is a depot, not for acute use)"
+  },
+  {
+    "n": "Heparin (unfractionated)",
+    "c": "Anticoagulant",
+    "a": "VTE prophylaxis 5000 units SC every 8–12 h. Treatment 80 units/kg bolus, then 18 units/kg/h (by APTT). Cardiopulmonary bypass 300–400 units/kg (ACT over 400–480 s)",
+    "p": "Specialist dosing",
+    "g": "IV bolus or infusion, or SC.",
+    "x": "Reversed by protamine. Watch for heparin-induced thrombocytopenia.",
+    "k": "anticoagulant UFH",
+    "r": "5000 units/0.2 mL; 5000 units/mL; 10,000 units/10 mL; 20,000 units/20 mL"
+  },
+  {
+    "n": "Hyaluronidase",
+    "c": "Enzyme: speeds spread of local anaesthetic",
+    "a": "Added to local anaesthetic for ophthalmic blocks (follow local practice for dose)",
+    "p": "—",
+    "g": "Reconstitute the vial and add to the local anaesthetic mixture.",
+    "x": "Rare allergic reactions.",
+    "k": "eye block ophthalmic Hyalase",
+    "r": "1500 units"
+  },
+  {
+    "n": "Hydralazine",
+    "c": "Vasodilator: hypertension in pregnancy",
+    "a": "5 mg slow IV, repeated after 20 min (max 20 mg); infusion 5–20 mg/h",
+    "p": "Specialist dosing",
+    "g": "Slow IV over 5 min.",
+    "x": "Reflex tachycardia, headache. Give a fluid preload in pre-eclampsia.",
+    "k": "pre-eclampsia hypertension",
+    "r": "20 mg (reconstituted)"
+  },
+  {
+    "n": "Hydrocortisone",
+    "c": "Corticosteroid",
+    "a": "Perioperative cover (2020 guideline): 100 mg IV at induction, then 200 mg/24 h by infusion or 50 mg every 6 h. Adrenal crisis: 100 mg IV, then 200 mg/24 h. Asthma: 100 mg IV",
+    "p": "Adrenal crisis 2 mg/kg (max 100 mg). Asthma 4 mg/kg",
+    "g": "IV bolus over at least 1 minute, or infusion.",
+    "x": "Follow the Association of Anaesthetists/SfE steroid cover guideline for perioperative dosing.",
+    "k": "steroid adrenal crisis",
+    "r": "100 mg"
+  },
+  {
+    "n": "Hyoscine butylbromide",
+    "c": "Antispasmodic (anticholinergic)",
+    "a": "20 mg IV or IM (max 100 mg/day)",
+    "p": "Specialist dosing",
+    "g": "Slow IV over 1 min, or IM.",
+    "x": "Tachycardia. Use with caution in cardiac disease (MHRA warning). Doesn't cross the blood–brain barrier.",
+    "k": "Buscopan bowel spasm",
+    "r": "20 mg/mL"
+  },
+  {
+    "n": "Ibuprofen",
+    "c": "NSAID",
+    "a": "Oral 400 mg every 8 h (max 1.2–2.4 g/day). IV 400 mg every 6–8 h (max 1.2 g/day, for max 3 days)",
+    "p": "10 mg/kg every 8 h (max 30 mg/kg/day)",
+    "g": "Oral, or IV infusion over 30 min.",
+    "x": "Avoid in renal impairment, GI bleeding and aspirin-sensitive asthma.",
+    "k": "NSAID analgesia",
+    "r": "IV 400 mg/100 mL"
+  },
+  {
+    "n": "Idarucizumab",
+    "c": "Reversal of dabigatran",
+    "a": "5 g IV",
+    "p": "—",
+    "g": "Two 2.5 g vials as consecutive infusions or boluses.",
+    "x": "Specific to dabigatran.",
+    "k": "Praxbind DOAC reversal"
+  },
+  {
+    "n": "Indocyanine green",
+    "c": "Diagnostic dye (perfusion and angiography)",
+    "a": "Typically 0.1–0.5 mg/kg IV",
+    "p": "Specialist dosing",
+    "g": "IV bolus after reconstitution with water for injection.",
+    "x": "Transiently lowers SpO2 readings. Rare anaphylaxis. Contains iodide.",
+    "k": "ICG dye perfusion",
+    "r": "25 mg"
+  },
+  {
+    "n": "Indometacin",
+    "c": "NSAID",
+    "a": "100 mg rectally, up to twice daily",
+    "p": "Specialist dosing",
+    "g": "Rectal suppository.",
+    "x": "Same cautions as other NSAIDs.",
+    "k": "NSAID suppository",
+    "r": "100 mg suppository"
+  },
+  {
+    "n": "Insulin (soluble) with glucose",
+    "c": "Hyperkalaemia",
+    "a": "10 units soluble insulin with 25 g glucose (e.g. 50 mL of 50% or 250 mL of 10%)",
+    "p": "0.1 units/kg insulin with 0.5 g/kg glucose (5 mL/kg of 10%)",
+    "g": "IV over 15–30 min.",
+    "x": "Monitor glucose hourly for at least 6 h (hypoglycaemia risk).",
+    "k": "hyperkalaemia potassium",
+    "r": "100 units/mL"
+  },
+  {
+    "n": "Isoflurane",
+    "c": "Volatile anaesthetic",
+    "a": "MAC about 1.17% (age 40)",
+    "p": "MAC higher in infants (about 1.6–1.8%)",
+    "g": "Inhaled via a calibrated vaporiser.",
+    "x": "Pungent. Blood:gas 1.4.",
+    "k": "volatile MAC inhalational"
+  },
+  {
+    "n": "Isoprenaline",
+    "c": "Beta agonist: bradycardia",
+    "a": "5 µg/min IV, titrated (range 0.5–10 µg/min)",
+    "p": "0.02–0.2 µg/kg/min",
+    "g": "IV infusion.",
+    "x": "Used as a bridge to pacing.",
+    "k": "bradycardia heart block",
+    "r": "2 mg/2 mL"
+  },
+  {
+    "n": "Ketamine",
+    "c": "IV induction agent (NMDA antagonist); analgesia",
+    "a": "Induction 1–4.5 mg/kg IV (2 mg/kg usual) or 6.5–13 mg/kg IM (10 mg/kg usual). Analgesia 0.1–0.5 mg/kg IV",
+    "p": "Induction 1–2 mg/kg IV (12–17 years 1–4.5 mg/kg) or 4–13 mg/kg IM",
+    "g": "Slow IV bolus or IM.",
+    "x": "Preserves airway reflexes and blood pressure. Emergence phenomena (consider a benzodiazepine). Increases secretions.",
+    "k": "induction analgesia NMDA",
+    "r": "500 mg/10 mL"
+  },
+  {
+    "n": "Ketorolac",
+    "c": "NSAID",
+    "a": "10 mg IV initially, then 10–30 mg every 4–6 h (max 90 mg/day; 60 mg/day in the elderly; max 2 days)",
+    "p": "Specialist dosing",
+    "g": "IV bolus over at least 15 s, or IM.",
+    "x": "Same cautions as other NSAIDs.",
+    "k": "NSAID",
+    "r": "30 mg/mL"
+  },
+  {
+    "n": "Labetalol",
+    "c": "Alpha and beta blocker: hypertension",
+    "a": "5–10 mg IV boluses. Severe pre-eclampsia (NICE): 50 mg IV over at least 1 min, repeated every 5 min to max 200 mg; then infusion 20 mg/h, doubling every 30 min to max 160 mg/h. Oral 200 mg",
+    "p": "Specialist dosing",
+    "g": "Slow IV bolus or infusion (undiluted 5 mg/mL or diluted).",
+    "x": "Avoid in asthma.",
+    "k": "pre-eclampsia hypertension",
+    "r": "100 mg/20 mL"
+  },
+  {
+    "n": "Levetiracetam",
+    "c": "Antiepileptic: status epilepticus",
+    "a": "60 mg/kg IV (max 4.5 g)",
+    "p": "40–60 mg/kg IV over 5 min (max 4.5 g)",
+    "g": "IV infusion over 5–10 min.",
+    "x": "Few interactions. Second-line after benzodiazepines.",
+    "k": "seizure status epilepticus Keppra",
+    "r": "500 mg/5 mL"
+  },
+  {
+    "n": "Levobupivacaine",
+    "c": "Local anaesthetic (amide)",
+    "a": "Max 2 mg/kg (150 mg single dose)",
+    "p": "Max 2.5 mg/kg single shot",
+    "g": "Inject incrementally with intermittent aspiration.",
+    "x": "The S-enantiomer of bupivacaine; less cardiotoxic.",
+    "k": "local anaesthetic Chirocaine LA",
+    "r": "0.25% (25 mg/10 mL); 0.5% (50 mg/10 mL); 0.125% (125 mg/100 mL); 0.1% with fentanyl (epidural); 0.125% bags (625 mg/500 mL)"
+  },
+  {
+    "n": "Levosimendan",
+    "c": "Inotrope (calcium sensitiser)",
+    "a": "0.05–0.2 µg/kg/min for 24 h (loading 6–12 µg/kg is optional and often omitted)",
+    "p": "Specialist dosing",
+    "g": "IV infusion diluted in glucose 5%.",
+    "x": "Hypotension. Active metabolite gives effects lasting about a week.",
+    "k": "inotrope calcium sensitiser",
+    "r": "12.5 mg/5 mL"
+  },
+  {
+    "n": "Lidocaine",
+    "c": "Local anaesthetic (amide); antiarrhythmic",
+    "a": "Local anaesthetic: max 3 mg/kg plain, 7 mg/kg with adrenaline. IV infusion for analgesia: up to 1.5 mg/kg (ideal body weight) over 10 min, then up to 1.5 mg/kg/h (max 120 mg/h, usually max 24 h)",
+    "p": "Max 3 mg/kg plain, 7 mg/kg with adrenaline",
+    "g": "IV infusions need monitoring and a clear stop plan. Use a dedicated line.",
+    "x": "Signs of toxicity: perioral tingling, tinnitus, seizures, arrhythmias.",
+    "k": "local anaesthetic xylocaine LA infusion",
+    "r": "1% (100 mg/10 mL); 2% (100 mg/5 mL); 4% topical (40 mg/mL); 5% with phenylephrine spray"
+  },
+  {
+    "n": "Lipid emulsion 20%",
+    "c": "Local anaesthetic systemic toxicity",
+    "a": "1.5 mL/kg over 1 min, then 15 mL/kg/h. Up to two further boluses 5 min apart and double the infusion to 30 mL/kg/h if unstable (max 12 mL/kg total)",
+    "p": "Same as adult",
+    "g": "IV bolus, then infusion via a large vein.",
+    "x": "Follow the Association of Anaesthetists LA toxicity guideline. Check amylase or lipase afterwards.",
+    "k": "Intralipid LAST toxicity",
+    "r": "20% 500 mL (Intralipid)"
+  },
+  {
+    "n": "Lorazepam",
+    "c": "Benzodiazepine: status epilepticus",
+    "a": "4 mg IV (0.1 mg/kg, max 4 mg), repeat once after 5–10 min",
+    "p": "0.1 mg/kg IV (max 4 mg)",
+    "g": "Slow IV into a large vein. Store in the fridge.",
+    "x": "Respiratory depression.",
+    "k": "seizure status epilepticus benzodiazepine",
+    "r": "4 mg/mL"
+  },
+  {
+    "n": "Magnesium sulphate",
+    "c": "Electrolyte; pre-eclampsia; asthma; arrhythmia; analgesia adjunct",
+    "a": "Pre-eclampsia: 4 g over 5–15 min, then 1 g/h for 24 h. Asthma: 2 g over 20 min. Torsades: 2 g over 10 min. Analgesia: 30–50 mg/kg",
+    "p": "Asthma 40 mg/kg (max 2 g) over 20 min",
+    "g": "IV infusion, diluted. 1 g = 4 mmol.",
+    "x": "Toxicity: loss of reflexes, then respiratory depression and cardiac arrest. Treat with calcium gluconate. Potentiates neuromuscular blockers.",
+    "k": "eclampsia asthma torsades",
+    "r": "50%: 5 g/10 mL; 1 g/2 mL"
+  },
+  {
+    "n": "Mannitol",
+    "c": "Osmotic diuretic: raised ICP",
+    "a": "0.25–1 g/kg IV",
+    "p": "0.25–0.5 g/kg IV",
+    "g": "IV infusion over 15–30 min (10% or 20%). Crystallises when cold; use an in-line filter.",
+    "x": "Monitor serum osmolality (keep under about 320 mOsm/kg).",
+    "k": "ICP osmotherapy",
+    "r": "10% (50 g/500 mL); 20% (100 g/500 mL)"
+  },
+  {
+    "n": "Meropenem",
+    "c": "Antibiotic (carbapenem)",
+    "a": "1 g IV every 8 h (2 g in meningitis)",
+    "p": "10–20 mg/kg every 8 h (50 kg and over: 0.5–1 g). Meningitis: 40 mg/kg every 8 h (50 kg and over: 2 g)",
+    "g": "IV bolus over 5 min, or infusion over 15–30 min.",
+    "x": "Reserve agent. Lowers valproate levels.",
+    "k": "antibiotic carbapenem",
+    "r": "1 g/20 mL"
+  },
+  {
+    "n": "Metaraminol",
+    "c": "Vasopressor (alpha agonist)",
+    "a": "0.5–1 mg IV boluses; infusion 0.5–10 mg/h (e.g. 20 mg in 40 mL)",
+    "p": "10 µg/kg IV",
+    "g": "Dilute 10 mg to 20 mL (0.5 mg/mL) for boluses.",
+    "x": "Reflex bradycardia.",
+    "k": "vasopressor hypotension",
+    "r": "10 mg/mL"
+  },
+  {
+    "n": "Methylene blue (methylthioninium chloride)",
+    "c": "Methaemoglobinaemia; vasoplegia",
+    "a": "1–2 mg/kg IV",
+    "p": "1–2 mg/kg IV",
+    "g": "Slow IV over 5 min.",
+    "x": "Falsely lowers SpO2. Avoid with serotonergic drugs (serotonin syndrome) and in G6PD deficiency.",
+    "k": "methaemoglobinaemia vasoplegia"
+  },
+  {
+    "n": "Metoclopramide",
+    "c": "Antiemetic and prokinetic (D2 antagonist)",
+    "a": "10 mg IV, IM or oral up to 3 times a day (max 5 days)",
+    "p": "1–17 years: 0.1–0.15 mg/kg up to 3 times a day (max 10 mg per dose), second-line only; max 48 h for PONV",
+    "g": "Slow IV over at least 3 min.",
+    "x": "Extrapyramidal effects, especially in young women. Avoid in bowel obstruction and Parkinson's disease.",
+    "k": "PONV antiemetic Maxolon",
+    "r": "10 mg/2 mL"
+  },
+  {
+    "n": "Metoprolol",
+    "c": "Beta-blocker (beta-1 selective)",
+    "a": "1–2 mg IV increments, up to 15 mg",
+    "p": "Specialist dosing",
+    "g": "Slow IV, about 1–2 mg/min, with ECG and BP monitoring.",
+    "x": "Bradycardia and hypotension. Avoid in acute heart failure and asthma.",
+    "k": "beta blocker tachycardia AF",
+    "r": "5 mg/5 mL"
+  },
+  {
+    "n": "Metronidazole",
+    "c": "Antibiotic (anaerobes)",
+    "a": "500 mg IV",
+    "p": "7.5 mg/kg IV (max 500 mg)",
+    "g": "IV infusion over 20 min.",
+    "x": "Avoid alcohol (disulfiram-like reaction).",
+    "k": "antibiotic Flagyl",
+    "r": "IV 500 mg/100 mL; suppository 1 g"
+  },
+  {
+    "n": "Midazolam",
+    "c": "Benzodiazepine: sedation, premedication, seizures",
+    "a": "Sedation: 1–2 mg IV increments (0.5–1 mg in the elderly). Seizures: 10 mg buccal or IM",
+    "p": "Premedication: 0.5 mg/kg oral (max 20 mg). Sedation: 0.05–0.1 mg/kg IV. Seizures: 0.3 mg/kg buccal (max 10 mg)",
+    "g": "Slow IV in small increments, titrated to effect.",
+    "x": "Respiratory depression, especially with opioids. Metabolised by CYP3A4.",
+    "k": "sedation benzodiazepine premed",
+    "r": "5 mg/5 mL"
+  },
+  {
+    "n": "Milrinone",
+    "c": "Inotrope and vasodilator (PDE3 inhibitor)",
+    "a": "Loading 50 µg/kg over 10 min (often omitted), then 0.375–0.75 µg/kg/min",
+    "p": "Specialist dosing",
+    "g": "IV infusion.",
+    "x": "Hypotension. Reduce dose in renal impairment.",
+    "k": "inotrope inodilator",
+    "r": "10 mg/10 mL"
+  },
+  {
+    "n": "Misoprostol",
+    "c": "Uterotonic (prostaglandin E1)",
+    "a": "PPH: 800 µg sublingual",
+    "p": "—",
+    "g": "Sublingual or rectal.",
+    "x": "Fever and shivering.",
+    "k": "PPH",
+    "r": "200 µg tablets"
+  },
+  {
+    "n": "Mivacurium",
+    "c": "Non-depolarising neuromuscular blocker (short-acting)",
+    "a": "0.15–0.2 mg/kg IV",
+    "p": "0.2 mg/kg IV",
+    "g": "IV bolus over 30 s.",
+    "x": "Metabolised by plasma cholinesterase: prolonged in deficiency. Histamine release.",
+    "k": "muscle relaxant NMB",
+    "r": "20 mg/10 mL"
+  },
+  {
+    "n": "Morphine",
+    "c": "Opioid",
+    "a": "IV: 0.1–0.15 mg/kg titrated (e.g. 2–5 mg increments). PCA: 1 mg bolus, 5 min lockout. Intrathecal: 100–200 µg",
+    "p": "IV: 50–100 µg/kg. NCA/PCA by protocol",
+    "g": "IV titrated in small increments. Intrathecal: preservative-free only.",
+    "x": "Active metabolite (M6G) accumulates in renal impairment.",
+    "k": "opioid PCA intrathecal",
+    "r": "10 mg/mL"
+  },
+  {
+    "n": "Naloxone",
+    "c": "Opioid antagonist",
+    "a": "Postoperative respiratory depression: 100–200 µg IV titrated (or 40 µg increments). Overdose: 400 µg IV, repeat as needed",
+    "p": "Postoperative: 1–4 µg/kg titrated. Overdose: 100 µg/kg (max 2 mg)",
+    "g": "IV bolus, IM or intranasal. Infusion if a long-acting opioid is involved.",
+    "x": "Shorter-acting than many opioids, so respiratory depression can recur. Can cause pain, hypertension and pulmonary oedema.",
+    "k": "opioid reversal",
+    "r": "400 µg/mL"
+  },
+  {
+    "n": "Neostigmine",
+    "c": "Anticholinesterase: reversal of neuromuscular block",
+    "a": "50 µg/kg IV (max 5 mg; e.g. 2.5 mg), with glycopyrronium",
+    "p": "50 µg/kg IV (max 2.5 mg), with glycopyrronium 10 µg/kg",
+    "g": "Slow IV, mixed with or after glycopyrronium.",
+    "x": "Give only once there is spontaneous recovery (at least TOF count 2–4). Bradycardia, bronchospasm, PONV.",
+    "k": "reversal anticholinesterase",
+    "r": "2.5 mg/mL; also with glycopyrronium (2.5 mg + 500 µg/mL)"
+  },
+  {
+    "n": "Nifedipine",
+    "c": "Calcium channel blocker: hypertension; tocolysis",
+    "a": "Hypertension in pregnancy: 10–20 mg modified-release orally. Tocolysis: 20 mg, then 10–20 mg 3–4 times a day",
+    "p": "—",
+    "g": "Oral.",
+    "x": "Avoid sublingual use (precipitous hypotension).",
+    "k": "pre-eclampsia tocolysis"
+  },
+  {
+    "n": "Nitrous oxide",
+    "c": "Inhalational anaesthetic and analgesic",
+    "a": "MAC 104%. Entonox: 50% N2O in oxygen for analgesia",
+    "p": "Same",
+    "g": "Inhaled.",
+    "x": "Expands air-filled spaces (pneumothorax, bowel, middle ear). Inhibits methionine synthase with prolonged use. Second gas effect.",
+    "k": "Entonox inhalational volatile MAC"
+  },
+  {
+    "n": "Noradrenaline (norepinephrine)",
+    "c": "Vasopressor",
+    "a": "0.05–0.5 µg/kg/min IV (start 0.05–0.1)",
+    "p": "0.05–1 µg/kg/min",
+    "g": "IV infusion via a central line. Short-term peripheral use in a large vein is possible with dilute solutions and close monitoring.",
+    "x": "Extravasation causes necrosis.",
+    "k": "norepinephrine vasopressor sepsis",
+    "r": "4 mg/4 mL"
+  },
+  {
+    "n": "Octreotide",
+    "c": "Somatostatin analogue: carcinoid crisis; variceal bleeding",
+    "a": "Carcinoid crisis: 50–100 µg IV, then 50–100 µg/h. Variceal bleeding: 50 µg IV, then 50 µg/h",
+    "p": "Specialist dosing",
+    "g": "IV bolus diluted in sodium chloride 0.9%, then infusion.",
+    "x": "Give prophylactically before surgery in carcinoid syndrome.",
+    "k": "carcinoid varices",
+    "r": "100 µg/mL"
+  },
+  {
+    "n": "Ocular lubricant",
+    "c": "Eye protection under anaesthesia",
+    "a": "Apply to each eye after induction, then tape the eyes closed",
+    "p": "Same",
+    "g": "Topical.",
+    "x": "Corneal abrasion is the commonest eye injury under GA.",
+    "k": "eye protection Lacri-Lube",
+    "r": "Ointment, 1 application"
+  },
+  {
+    "n": "Omeprazole",
+    "c": "Proton pump inhibitor",
+    "a": "40 mg IV or oral",
+    "p": "Specialist dosing",
+    "g": "IV over 5 min, or infusion.",
+    "x": "Aspiration prophylaxis is ideally given the night before and the morning of surgery.",
+    "k": "PPI antacid aspiration"
+  },
+  {
+    "n": "Ondansetron",
+    "c": "Antiemetic (5-HT3 antagonist)",
+    "a": "4 mg IV",
+    "p": "PONV: 100 µg/kg IV (max 4 mg)",
+    "g": "Slow IV over at least 30 s.",
+    "x": "QT prolongation. Constipation, headache.",
+    "k": "PONV antiemetic Zofran",
+    "r": "4 mg/2 mL"
+  },
+  {
+    "n": "Oxycodone",
+    "c": "Opioid",
+    "a": "Oral immediate release 5–10 mg every 4–6 h. IV 1–2 mg titrated",
+    "p": "Oral 0.1–0.2 mg/kg (max 5–10 mg)",
+    "g": "Oral or slow IV.",
+    "x": "Metabolised by CYP2D6 and 3A4. Reduce dose in renal impairment.",
+    "k": "opioid OxyNorm",
+    "r": "10 mg/mL; 20 mg/2 mL; 50 mg/mL"
+  },
+  {
+    "n": "Oxytocin",
+    "c": "Uterotonic",
+    "a": "BNF: caesarean section 5 units slow IV after delivery. International consensus (Anaesthesia, 2019): elective caesarean 1 unit, intrapartum 3 units slow IV; many UK units then infuse 40 units in 500 mL at 125 mL/h (10 units/h). PPH: 5 units slow IV, repeated if needed; severe PPH: 40 units in 500 mL, infused at a rate that controls uterine atony",
+    "p": "—",
+    "g": "Slow IV over at least 30 s; never a rapid bolus.",
+    "x": "Hypotension, tachycardia, ST changes. Water retention with prolonged infusion. Follow your unit's protocol.",
+    "k": "Syntocinon PPH caesarean uterotonic",
+    "r": "10 units/mL"
+  },
+  {
+    "n": "Pabrinex (IV vitamins B and C)",
+    "c": "Thiamine replacement",
+    "a": "Wernicke's encephalopathy: 2 pairs of ampoules every 8 h. Prophylaxis: 1 pair daily",
+    "p": "Specialist dosing",
+    "g": "Mix each pair of ampoules and give in 50–100 mL sodium chloride 0.9% or glucose 5% over 30 min.",
+    "x": "Give before glucose in patients at risk of Wernicke's. Rare anaphylaxis.",
+    "k": "thiamine alcohol Wernicke",
+    "r": "Pairs of ampoules (I and II)"
+  },
+  {
+    "n": "Pancuronium",
+    "c": "Non-depolarising neuromuscular blocker (long-acting)",
+    "a": "0.05–0.1 mg/kg IV",
+    "p": "0.05–0.1 mg/kg IV",
+    "g": "IV bolus.",
+    "x": "Vagolytic (tachycardia). Renally excreted, so prolonged in renal failure.",
+    "k": "muscle relaxant NMB",
+    "r": "4 mg/2 mL"
+  },
+  {
+    "n": "Pantoprazole",
+    "c": "Proton pump inhibitor",
+    "a": "40 mg IV daily. Upper GI bleed: 80 mg, then 8 mg/h",
+    "p": "Specialist dosing",
+    "g": "IV over at least 2 min, or infusion.",
+    "x": "Can be used in place of omeprazole.",
+    "k": "PPI antacid GI bleed",
+    "r": "40 mg"
+  },
+  {
+    "n": "Papaverine",
+    "c": "Vasodilator (surgical use)",
+    "a": "Used topically or intra-arterially by surgeons to relieve vasospasm (free flaps, vascular and cardiac grafts)",
+    "p": "—",
+    "g": "Surgical field only. Not given IV by anaesthetists.",
+    "x": "Systemic absorption can cause hypotension.",
+    "k": "vasospasm flap",
+    "r": "60 mg/2 mL"
+  },
+  {
+    "n": "Paracetamol",
+    "c": "Simple analgesic",
+    "a": "50 kg and over: 1 g every 4–6 h (max 4 g/day; max 3 g/day with risk factors for hepatotoxicity). Under 50 kg: 15 mg/kg every 4–6 h (max 60 mg/kg/day)",
+    "p": "IV: under 10 kg 10 mg/kg every 4–6 h (max 30 mg/kg/day); 10–50 kg 15 mg/kg every 4–6 h (max 60 mg/kg/day). Neonates (32 weeks CGA and above): 7.5 mg/kg every 8 h, or 10 mg/kg every 4–6 h (max 30 mg/kg/day). Oral loading 20 mg/kg",
+    "g": "IV infusion over 15 min, or oral or rectal.",
+    "x": "Dose by weight in low-weight adults to avoid IV dosing errors.",
+    "k": "analgesia acetaminophen",
+    "r": "IV 100 mg/10 mL; 1 g/100 mL"
+  },
+  {
+    "n": "Parecoxib",
+    "c": "NSAID (COX-2 selective)",
+    "a": "40 mg IV, then 20–40 mg every 6–12 h (max 80 mg/day)",
+    "p": "Not licensed",
+    "g": "IV or IM bolus.",
+    "x": "No antiplatelet effect. Avoid after CABG and in ischaemic heart disease.",
+    "k": "NSAID COX-2 Dynastat",
+    "r": "40 mg/2 mL"
+  },
+  {
+    "n": "Pethidine",
+    "c": "Opioid",
+    "a": "50–100 mg IM (labour; max 400 mg/day). Shivering: 25 mg IV",
+    "p": "Specialist dosing",
+    "g": "IM, or slow IV.",
+    "x": "Norpethidine accumulates (seizures). Avoid with MAOIs (serotonin toxicity).",
+    "k": "opioid labour shivering meperidine",
+    "r": "50 mg/mL"
+  },
+  {
+    "n": "Phenylephrine",
+    "c": "Vasopressor (alpha-1 agonist)",
+    "a": "BNF: 100–500 µg slow IV, repeated after at least 15 min if needed; infusion up to 180 µg/min, reduced to 30–60 µg/min. International consensus for caesarean section (Anaesthesia, 2018): 50–100 µg boluses; infusion starting at 25–50 µg/min, titrated to baseline blood pressure",
+    "p": "1–5 µg/kg IV",
+    "g": "Dilute to 100 µg/mL for boluses.",
+    "x": "Reflex bradycardia. First-line for spinal hypotension at caesarean section.",
+    "k": "vasopressor spinal hypotension",
+    "r": "10 mg/mL"
+  },
+  {
+    "n": "Phenytoin",
+    "c": "Antiepileptic: status epilepticus",
+    "a": "20 mg/kg IV (max 2 g)",
+    "p": "20 mg/kg IV over 20 min",
+    "g": "IV infusion at no more than 50 mg/min (1 mg/kg/min in children), in sodium chloride 0.9% only, with ECG and blood pressure monitoring.",
+    "x": "Arrhythmias and hypotension with fast infusion. Extravasation injury.",
+    "k": "seizure status epilepticus",
+    "r": "250 mg/5 mL"
+  },
+  {
+    "n": "Piperacillin-tazobactam",
+    "c": "Antibiotic (broad-spectrum penicillin)",
+    "a": "4.5 g IV every 8 h (every 6 h in severe infection)",
+    "p": "90 mg/kg every 6–8 h (max 4.5 g)",
+    "g": "IV infusion over 30 min (extended infusions are used in some units).",
+    "x": "Contains penicillin.",
+    "k": "Tazocin antibiotic penicillin",
+    "r": "4.5 g/20 mL"
+  },
+  {
+    "n": "Plasma-Lyte 148",
+    "c": "Balanced crystalloid",
+    "a": "Replacement and maintenance, prescribed by volume",
+    "p": "Prescribe by weight and protocol",
+    "g": "IV infusion.",
+    "x": "Less hyperchloraemia than sodium chloride 0.9%.",
+    "k": "fluid crystalloid electrolyte solution",
+    "r": "1000 mL bags"
+  },
+  {
+    "n": "Potassium chloride",
+    "c": "Electrolyte",
+    "a": "Peripheral: max 10 mmol/h (40 mmol/L). Central with ECG monitoring: up to 20 mmol/h",
+    "p": "Specialist dosing",
+    "g": "Concentrated ampoules (e.g. 15%, 20 mmol in 10 mL) must never be given undiluted. Use pre-mixed bags wherever possible.",
+    "x": "A high-risk medicine: undiluted injection causes cardiac arrest.",
+    "k": "potassium hypokalaemia",
+    "r": "15% (20 mmol/10 mL) concentrate"
+  },
+  {
+    "n": "Prilocaine",
+    "c": "Local anaesthetic (amide)",
+    "a": "Max 6 mg/kg plain, 8 mg/kg with felypressin. IV regional (Bier's) block: 0.5%, 3 mg/kg (about 40 mL)",
+    "p": "Avoid in infants under 6 months (methaemoglobinaemia)",
+    "g": "Hyperbaric 2% is also used for spinal anaesthesia.",
+    "x": "Methaemoglobinaemia at high doses.",
+    "k": "local anaesthetic Bier LA spinal",
+    "r": "1% (500 mg/50 mL, IV regional); 2% heavy (100 mg/5 mL, spinal)"
+  },
+  {
+    "n": "Prochlorperazine",
+    "c": "Antiemetic (phenothiazine)",
+    "a": "12.5 mg IM, or 3–6 mg buccal",
+    "p": "Not usually used",
+    "g": "Deep IM or buccal.",
+    "x": "Extrapyramidal effects, sedation.",
+    "k": "antiemetic Stemetil",
+    "r": "12.5 mg/mL"
+  },
+  {
+    "n": "Propofol",
+    "c": "IV induction agent",
+    "a": "Induction 1.5–2.5 mg/kg IV. Maintenance 4–12 mg/kg/h, or TCI (e.g. effect site 2–6 µg/mL)",
+    "p": "Induction 2.5–4 mg/kg IV",
+    "g": "IV bolus titrated to effect, or TCI via a dedicated line with an anti-reflux valve.",
+    "x": "Pain on injection, hypotension, apnoea. Propofol infusion syndrome with prolonged high doses.",
+    "k": "induction TIVA TCI",
+    "r": "1% 20 mL (200 mg); 1% 50 mL (500 mg); 2% 50 mL (1 g)"
+  },
+  {
+    "n": "Protamine",
+    "c": "Heparin reversal",
+    "a": "1 mg per 100 units of heparin given (max 50 mg)",
+    "p": "Same, by heparin dose",
+    "g": "Slow IV over 10 min (no faster than 5 mg/min).",
+    "x": "Hypotension, pulmonary hypertension and anaphylactoid reactions with fast injection. Partial reversal of LMWH only.",
+    "k": "heparin reversal",
+    "r": "50 mg/5 mL"
+  },
+  {
+    "n": "Prothrombin complex concentrate (4-factor)",
+    "c": "Warfarin reversal",
+    "a": "25–50 units/kg IV depending on INR, with vitamin K 5–10 mg IV",
+    "p": "Specialist dosing",
+    "g": "IV injection at the rate in the product information.",
+    "x": "Thrombotic risk.",
+    "k": "Beriplex Octaplex PCC warfarin reversal"
+  },
+  {
+    "n": "Ranitidine",
+    "c": "H2 antagonist (withdrawn)",
+    "a": "Withdrawn in the UK in 2020",
+    "p": "—",
+    "g": "—",
+    "x": "Replaced by famotidine or a proton pump inhibitor for aspiration prophylaxis.",
+    "k": "H2 antacid",
+    "r": "Formerly 150 mg tablets; 50 mg/2 mL injection"
+  },
+  {
+    "n": "Remifentanil",
+    "c": "Opioid (ultra-short-acting)",
+    "a": "Infusion 0.05–0.5 µg/kg/min, or TCI 2–8 ng/mL. Labour PCA: 20–40 µg bolus, 2 min lockout",
+    "p": "0.05–0.5 µg/kg/min",
+    "g": "Dedicated line or close to the cannula, so flushes don't give an accidental bolus.",
+    "x": "Esterase metabolism, no accumulation. Plan analgesia before stopping. Labour PCA needs one-to-one midwife care and continuous SpO2.",
+    "k": "opioid TIVA labour PCA",
+    "r": "1 mg (reconstituted)"
+  },
+  {
+    "n": "Rifampicin",
+    "c": "Antibiotic",
+    "a": "0.6–1.2 g IV daily in 2–4 divided doses",
+    "p": "1–11 months 5–10 mg/kg twice daily; 1–17 years 10 mg/kg twice daily (max 600 mg per dose)",
+    "g": "IV infusion over 2–3 h.",
+    "x": "Potent enzyme inducer. Turns secretions orange.",
+    "k": "antibiotic",
+    "r": "600 mg ampoule"
+  },
+  {
+    "n": "Rocuronium",
+    "c": "Non-depolarising neuromuscular blocker",
+    "a": "0.6 mg/kg IV. RSI 1–1.2 mg/kg",
+    "p": "0.6 mg/kg IV. RSI 1 mg/kg",
+    "g": "IV bolus. Store in the fridge.",
+    "x": "Reversed by sugammadex. Anaphylaxis risk.",
+    "k": "muscle relaxant NMB RSI",
+    "r": "50 mg/5 mL"
+  },
+  {
+    "n": "Ropivacaine",
+    "c": "Local anaesthetic (amide)",
+    "a": "Max 3 mg/kg",
+    "p": "Max 3 mg/kg",
+    "g": "Inject incrementally with intermittent aspiration.",
+    "x": "S-enantiomer; less motor block and less cardiotoxic than bupivacaine.",
+    "k": "local anaesthetic Naropin LA",
+    "r": "0.75% (75 mg/10 mL)"
+  },
+  {
+    "n": "Salbutamol",
+    "c": "Bronchodilator (beta-2 agonist)",
+    "a": "Nebulised 5 mg. IV 250 µg slow bolus, then 3–20 µg/min. Hyperkalaemia: 10–20 mg nebulised",
+    "p": "Nebulised 2.5 mg (under 5 years) or 5 mg. IV 15 µg/kg (max 250 µg) over 5 min",
+    "g": "Nebulised with oxygen, or IV.",
+    "x": "Tachycardia, hypokalaemia, lactic acidosis.",
+    "k": "asthma bronchospasm hyperkalaemia",
+    "r": "IV 500 µg/mL; inhaler 100 µg/puff"
+  },
+  {
+    "n": "Sevoflurane",
+    "c": "Volatile anaesthetic",
+    "a": "MAC about 2% (age 40)",
+    "p": "MAC about 2.5% in children (higher in infants)",
+    "g": "Inhaled via a calibrated vaporiser.",
+    "x": "Non-irritant, so suitable for inhalational induction. Compound A with low flows. Emergence delirium in children.",
+    "k": "volatile MAC inhalational induction",
+    "r": "250 mL bottle"
+  },
+  {
+    "n": "Sodium bicarbonate 8.4%",
+    "c": "Alkalinising agent",
+    "a": "50 mL (50 mmol) IV",
+    "p": "1 mmol/kg (1 mL/kg of 8.4%); use 4.2% under 1 year",
+    "g": "Slow IV via a large or central vein; extravasation causes necrosis. Don't mix with calcium.",
+    "x": "Used in hyperkalaemia, tricyclic overdose and severe acidosis. Generates CO2.",
+    "k": "bicarbonate acidosis hyperkalaemia",
+    "r": "8.4% (1 mmol/mL) ampoules and infusion bottles; 1.26% (isotonic) 500 mL bags"
+  },
+  {
+    "n": "Sodium citrate 0.3 M",
+    "c": "Antacid: aspiration prophylaxis",
+    "a": "30 mL orally",
+    "p": "—",
+    "g": "Oral, shortly before induction (effect lasts about 30 min).",
+    "x": "Non-particulate.",
+    "k": "antacid aspiration caesarean"
+  },
+  {
+    "n": "Sodium nitroprusside",
+    "c": "Vasodilator: hypertensive crisis",
+    "a": "0.3–8 µg/kg/min IV",
+    "p": "Specialist dosing",
+    "g": "IV infusion protected from light, with arterial monitoring.",
+    "x": "Cyanide and thiocyanate toxicity with prolonged or high-dose use.",
+    "k": "hypertension vasodilator"
+  },
+  {
+    "n": "Sugammadex",
+    "c": "Reversal of rocuronium and vecuronium",
+    "a": "2 mg/kg (TOF count 2 or more); 4 mg/kg (post-tetanic count 1–2); 16 mg/kg immediate reversal",
+    "p": "2–17 years: 2 mg/kg (routine reversal of rocuronium)",
+    "g": "Single IV bolus over 10 s.",
+    "x": "Dose by actual body weight. Reduces efficacy of hormonal contraception (counts as a missed pill). Anaphylaxis is rare.",
+    "k": "reversal Bridion",
+    "r": "200 mg/2 mL"
+  },
+  {
+    "n": "Suxamethonium",
+    "c": "Depolarising neuromuscular blocker",
+    "a": "1–1.5 mg/kg IV (RSI 1.5 mg/kg)",
+    "p": "IV: under 1 year 2 mg/kg; 1–17 years 1 mg/kg. IM: neonates up to 4 mg/kg; 1–11 months up to 5 mg/kg; 1–11 years up to 4 mg/kg (max 150 mg)",
+    "g": "IV bolus. Store in the fridge.",
+    "x": "Hyperkalaemia (burns, denervation, crush), malignant hyperthermia trigger, bradycardia (especially second dose and in children), prolonged block with cholinesterase deficiency.",
+    "k": "muscle relaxant NMB RSI scoline",
+    "r": "100 mg/2 mL"
+  },
+  {
+    "n": "Teicoplanin",
+    "c": "Antibiotic (glycopeptide)",
+    "a": "400–800 mg IV (6–12 mg/kg); prophylaxis commonly 400–800 mg",
+    "p": "10 mg/kg (max 400 mg)",
+    "g": "IV bolus over 3–5 min, or infusion over 30 min.",
+    "x": "Used in penicillin allergy and for MRSA.",
+    "k": "antibiotic MRSA Targocid",
+    "r": "200 mg/3 mL"
+  },
+  {
+    "n": "Terbutaline",
+    "c": "Beta-2 agonist: uterine relaxation, tocolysis",
+    "a": "250 µg SC",
+    "p": "—",
+    "g": "SC injection.",
+    "x": "Maternal tachycardia.",
+    "k": "uterine relaxation tocolysis"
+  },
+  {
+    "n": "Thiopental",
+    "c": "IV induction agent (barbiturate)",
+    "a": "Up to 4 mg/kg IV (max 500 mg), e.g. 100–150 mg over 10–15 s, repeated after 30–60 s if needed",
+    "p": "Up to 4 mg/kg IV, then 1 mg/kg if needed (max 7 mg/kg per course). Neonates: up to 2 mg/kg, then 1 mg/kg (max 4 mg/kg per course)",
+    "g": "IV bolus of a 2.5% solution. Intra-arterial injection causes severe ischaemia.",
+    "x": "Contraindicated in porphyria. Accumulates with infusion (zero-order kinetics).",
+    "k": "induction barbiturate",
+    "r": "500 mg (reconstituted to 20 mL, 2.5%)"
+  },
+  {
+    "n": "Tinzaparin",
+    "c": "Low molecular weight heparin",
+    "a": "Prophylaxis 3500–4500 units SC once daily. Treatment 175 units/kg once daily",
+    "p": "Specialist dosing",
+    "g": "Deep SC injection.",
+    "x": "Follow neuraxial timing guidance (12 h after prophylactic, 24 h after treatment doses).",
+    "k": "LMWH Innohep anticoagulant VTE",
+    "r": "3500 units/0.35 mL; 4500 units/0.45 mL"
+  },
+  {
+    "n": "Tramadol",
+    "c": "Opioid (weak) with SNRI action",
+    "a": "50–100 mg every 4–6 h (max 400 mg/day)",
+    "p": "12–17 years: 50–100 mg every 4–6 h (usual max 400 mg/24 h)",
+    "g": "Oral, or slow IV over 2–3 min.",
+    "x": "Lowers seizure threshold. Serotonin syndrome risk with SSRIs and MAOIs. Causes nausea.",
+    "k": "opioid",
+    "r": "100 mg/2 mL"
+  },
+  {
+    "n": "Tranexamic acid",
+    "c": "Antifibrinolytic",
+    "a": "Trauma: 1 g over 10 min, then 1 g over 8 h. PPH: 1 g IV, repeat after 30 min if bleeding continues. Surgery: 15 mg/kg",
+    "p": "BNFc: 10 mg/kg (max 1 g) slow IV over at least 10 min, 2–3 times a day; or 45 mg/kg/24 h by infusion. RCPCH major trauma (2012): 15 mg/kg (max 1 g) over 10 min, then 2 mg/kg/h for at least 8 h",
+    "g": "Slow IV over 10 min (no faster than 1 mL/min of 100 mg/mL).",
+    "x": "Give within 3 hours of injury in trauma. Seizures at high doses.",
+    "k": "TXA bleeding haemorrhage trauma PPH",
+    "r": "500 mg/5 mL"
+  },
+  {
+    "n": "Vancomycin",
+    "c": "Antibiotic (glycopeptide)",
+    "a": "Prophylaxis 15 mg/kg IV. Treatment 15–20 mg/kg every 8–12 h (max 2 g per dose), by levels",
+    "p": "15 mg/kg IV",
+    "g": "IV infusion over at least 60 min, and no faster than 10 mg/min for doses over 500 mg (e.g. 1 g over at least 100 min). Fast infusion causes vancomycin infusion reaction (flushing, hypotension).",
+    "x": "Start the infusion early enough to finish before incision. Monitor levels for treatment courses.",
+    "k": "antibiotic MRSA",
+    "r": "1 g/20 mL"
+  },
+  {
+    "n": "Vasopressin",
+    "c": "Vasopressor (V1 agonist)",
+    "a": "Septic shock: 0.01–0.03 units/min IV",
+    "p": "Specialist dosing",
+    "g": "IV infusion via a central line.",
+    "x": "Added to noradrenaline in septic shock. Digital and mesenteric ischaemia.",
+    "k": "vasopressor septic shock",
+    "r": "20 units/mL"
+  },
+  {
+    "n": "Vecuronium",
+    "c": "Non-depolarising neuromuscular blocker",
+    "a": "0.08–0.1 mg/kg IV",
+    "p": "0.08–0.1 mg/kg IV",
+    "g": "IV bolus after reconstitution.",
+    "x": "Cardiovascularly stable. Reversed by sugammadex.",
+    "k": "muscle relaxant NMB",
+    "r": "10 mg (reconstituted to 5 mL)"
+  },
+  {
+    "n": "Verapamil",
+    "c": "Calcium channel blocker: SVT",
+    "a": "5–10 mg IV over 2 min (2.5–5 mg over 3 min in the elderly)",
+    "p": "Avoid in infants",
+    "g": "Slow IV with ECG monitoring.",
+    "x": "Don't give with IV beta-blockers or in WPW with AF. Hypotension and bradycardia.",
+    "k": "SVT antiarrhythmic",
+    "r": "5 mg/2 mL"
+  },
+  {
+    "n": "Vitamin K (phytomenadione)",
+    "c": "Warfarin reversal",
+    "a": "Major bleeding: 5–10 mg IV. INR reversal without bleeding: 1–5 mg IV or oral",
+    "p": "Neonatal prophylaxis 1 mg IM",
+    "g": "Slow IV over 3–5 min.",
+    "x": "Takes 6–12 h to work, so give with PCC in major bleeding.",
+    "k": "warfarin reversal phytomenadione"
+  }
+]

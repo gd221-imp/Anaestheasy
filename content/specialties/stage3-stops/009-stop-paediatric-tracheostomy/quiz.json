@@ -1,0 +1,122 @@
+[
+  {
+    "q": "How does a paediatric tracheostomy differ from an adult one?",
+    "o": [
+      "Always percutaneous",
+      "Open procedure, no inner tube and usually uncuffed",
+      "Always cuffed",
+      "Has inner cannula",
+      "Same"
+    ],
+    "a": 1,
+    "why": "Secretions can block the single lumen."
+  },
+  {
+    "q": "Which is an indication for paediatric tracheostomy?",
+    "o": [
+      "Asthma",
+      "Subglottic stenosis or long-term ventilation",
+      "Croup",
+      "Tonsillitis",
+      "Otitis"
+    ],
+    "a": 1,
+    "why": "Also craniofacial abnormalities."
+  },
+  {
+    "q": "Which delayed complication is specific to children?",
+    "o": [
+      "Dysphonia",
+      "Suprastomal collapse",
+      "Air embolism",
+      "Cuff herniation",
+      "Ulceration"
+    ],
+    "a": 1,
+    "why": "Also tracheal stenosis."
+  },
+  {
+    "q": "What is the main delayed anaesthetic complication?",
+    "o": [
+      "MH",
+      "Accidental decannulation or blockage with secretions",
+      "PONV",
+      "Hypotension",
+      "Laryngospasm"
+    ],
+    "a": 1,
+    "why": "Bedhead signs and emergency algorithm."
+  },
+  {
+    "q": "What FiO2 is used at insertion?",
+    "o": [
+      "0.21",
+      "1.0",
+      "0.4",
+      "0.6",
+      "0.3"
+    ],
+    "a": 1,
+    "why": "Withdraw the ETT as the tube is placed."
+  },
+  {
+    "q": "What are stay sutures used for?",
+    "o": [
+      "Cosmesis",
+      "To help reinsertion if the tube displaces",
+      "Haemostasis",
+      "Securing the tube",
+      "Nothing"
+    ],
+    "a": 1,
+    "why": "Labelled left and right."
+  },
+  {
+    "q": "Which immediate surgical complication involves the oesophagus?",
+    "o": [
+      "Stricture",
+      "Oesophageal injury",
+      "Fistula",
+      "Varices",
+      "Reflux"
+    ],
+    "a": 1,
+    "why": "Posterior tracheal wall injury."
+  },
+  {
+    "q": "Which delayed complication involves the oesophagus?",
+    "o": [
+      "Achalasia",
+      "Tracheo-oesophageal fistula",
+      "Varices",
+      "Reflux only",
+      "Stricture"
+    ],
+    "a": 1,
+    "why": "From erosion."
+  },
+  {
+    "q": "What should be at the bedside?",
+    "o": [
+      "Nothing",
+      "Spare tubes and emergency algorithm (bedhead signs)",
+      "Defibrillator only",
+      "Chest drain",
+      "IO"
+    ],
+    "a": 1,
+    "why": "Including a smaller size tube."
+  },
+  {
+    "q": "Which nerve may be damaged at insertion?",
+    "o": [
+      "Phrenic",
+      "Recurrent laryngeal",
+      "Facial",
+      "Hypoglossal",
+      "Accessory"
+    ],
+    "a": 1,
+    "why": "Immediate surgical risk."
+  }
+]

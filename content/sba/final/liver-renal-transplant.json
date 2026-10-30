@@ -1,0 +1,82 @@
+[
+  {
+    "id": "Q232",
+    "ar": "Liver, renal & transplant",
+    "sb": "Chronic liver disease",
+    "q": "Which component is NOT part of the Child–Pugh score?",
+    "o": [
+      "Creatinine",
+      "INR (prothrombin time)",
+      "Bilirubin",
+      "Ascites",
+      "Albumin"
+    ],
+    "a": 0,
+    "why": "Child–Pugh includes bilirubin, albumin, INR/prothrombin time, ascites and encephalopathy (classes A–C). Creatinine is part of the MELD score (with bilirubin, INR and, in MELD-Na, sodium). Both predict perioperative mortality in cirrhosis; Child–Pugh C has very high mortality for elective surgery.",
+    "st": "st2-60"
+  },
+  {
+    "id": "Q233",
+    "ar": "Liver, renal & transplant",
+    "sb": "Hepatic resection",
+    "q": "During a major liver resection, which strategy reduces blood loss from hepatic veins during parenchymal transection?",
+    "o": [
+      "High CVP (&gt; 12 mmHg) to protect the kidneys",
+      "Deliberate hypertension",
+      "Low CVP (below about 5 cmH2O), using restricted fluid, head-down tilt avoidance and vasodilators",
+      "PEEP of 15 cmH2O",
+      "Volume loading to 3 litres before transection"
+    ],
+    "a": 2,
+    "why": "Low CVP anaesthesia reduces back-bleeding from hepatic veins during transection (a reverse Trendelenburg position and restricted fluids help), then volume is restored after resection. Risks: air embolism and hypotension. Pringle manoeuvre (portal triad clamping) also reduces bleeding. Watch for post-hepatectomy liver failure if the future liver remnant is small.",
+    "st": "st3-5"
+  },
+  {
+    "id": "Q234",
+    "ar": "Liver, renal & transplant",
+    "sb": "Renal transplant",
+    "q": "During a deceased-donor renal transplant, which intraoperative goal best supports early graft function?",
+    "o": [
+      "Use dopamine at renal dose",
+      "Give mannitol only after closure",
+      "Maintain MAP above about 80 mmHg (or SBP &gt; 120 mmHg) with adequate intravascular volume before reperfusion",
+      "Avoid all fluids",
+      "Keep CVP at 0 to protect the heart"
+    ],
+    "a": 2,
+    "why": "The transplanted kidney is denervated and not autoregulating, so perfusion depends on systemic pressure and volume. Maintain adequate volume (balanced crystalloids are safe; avoid excess saline in hyperkalaemia concerns) and MAP before clamp release. 'Renal dose' dopamine has no benefit. Check potassium and time of last dialysis preoperatively; avoid the fistula arm.",
+    "st": "st2-122"
+  },
+  {
+    "id": "Q235",
+    "ar": "Liver, renal & transplant",
+    "sb": "End-stage renal failure",
+    "q": "A patient on haemodialysis is having a hernia repair. Which statement about drug choice is correct?",
+    "o": [
+      "Atracurium or cisatracurium are suitable because elimination does not depend on the kidneys",
+      "Gentamicin doses need no adjustment",
+      "Sugammadex is recommended in severe renal impairment",
+      "Morphine is the opioid of choice",
+      "Suxamethonium is absolutely contraindicated in all dialysis patients"
+    ],
+    "a": 0,
+    "why": "Atracurium and cisatracurium undergo Hofmann elimination and ester hydrolysis. Morphine (M6G) and pethidine metabolites accumulate; fentanyl, alfentanil and remifentanil are preferred. Suxamethonium can be used if potassium is normal (it raises K+ by about 0.5 mmol/L). Sugammadex is not recommended in severe renal impairment (CrCl &lt; 30). Dialyse before surgery and check potassium.",
+    "st": null
+  },
+  {
+    "id": "Q236",
+    "ar": "Liver, renal & transplant",
+    "sb": "TIPSS",
+    "q": "A patient with refractory ascites is having a TIPSS procedure under GA. Which complication is most specific to this procedure?",
+    "o": [
+      "Hyperkalaemia",
+      "Hepatic encephalopathy after the shunt",
+      "Malignant hyperthermia",
+      "Pneumothorax from the femoral approach",
+      "Fat embolism"
+    ],
+    "a": 1,
+    "why": "TIPSS creates a channel from hepatic to portal vein via the internal jugular route, diverting portal blood from the liver, which increases the risk of hepatic encephalopathy (up to a third of patients). Other complications: arrhythmias from wires in the right heart, haemorrhage (capsular puncture), tamponade, and right heart strain from increased venous return. Ascites raises aspiration risk; consider RSI.",
+    "st": null
+  }
+]

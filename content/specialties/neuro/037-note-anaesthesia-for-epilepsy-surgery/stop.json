@@ -1,0 +1,34 @@
+{
+  "t": "tip",
+  "shape": "brain",
+  "group": "Neuro",
+  "title": "Anaesthesia for Epilepsy Surgery",
+  "cards": [
+    {
+      "h": "Perioperative management of a patient with known epilepsy",
+      "b": "file:cards/01-perioperative-management-of-a-patient-with-known.html"
+    },
+    {
+      "h": "Aims of epilepsy surgery",
+      "b": "file:cards/02-aims-of-epilepsy-surgery.html"
+    },
+    {
+      "h": "Intra-op",
+      "b": "file:cards/03-intra-op.html"
+    },
+    {
+      "h": "Post-op",
+      "b": "file:cards/04-post-op.html"
+    },
+    {
+      "h": "Key points",
+      "b": "file:cards/05-key-points.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/06-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

@@ -1,0 +1,29 @@
+{
+  "t": "tip",
+  "shape": "face",
+  "group": "Pain",
+  "title": "Post-Amputation Pain & Chronic Post-Surgical Pain",
+  "cards": [
+    {
+      "h": "Post-amputation pain",
+      "b": "file:cards/01-post-amputation-pain.html"
+    },
+    {
+      "h": "Risk factors for phantom limb pain",
+      "b": "file:cards/02-risk-factors-for-phantom-limb-pain.html"
+    },
+    {
+      "h": "Management",
+      "b": "file:cards/03-management.html"
+    },
+    {
+      "h": "Chronic post-surgical pain (CPSP)",
+      "b": "file:cards/04-chronic-post-surgical-pain-cpsp.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/05-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json"
+}

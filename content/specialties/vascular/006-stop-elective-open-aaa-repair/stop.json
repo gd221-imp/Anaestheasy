@@ -1,0 +1,47 @@
+{
+  "t": "recipe",
+  "shape": "drop",
+  "group": "Vascular",
+  "title": "Elective Open AAA Repair",
+  "op": true,
+  "cards": [
+    {
+      "h": "Anaesthetic recipe",
+      "b": "file:cards/01-anaesthetic-recipe.html",
+      "recipe": true
+    },
+    {
+      "h": "Great Vessels",
+      "primaryRef": "ana10"
+    },
+    {
+      "h": "Baroreceptor Reflex & Haemorrhagic Shock",
+      "primaryRef": "phs5"
+    },
+    {
+      "h": "Marfan's Syndrome",
+      "noteRef": "Marfan's Syndrome"
+    },
+    {
+      "h": "Aneurysm Classification & Screening",
+      "noteRef": "Aneurysm Classification & Screening"
+    },
+    {
+      "h": "CPET & Perioperative Risk Assessment",
+      "noteRef": "CPET & Perioperative Risk Assessment"
+    },
+    {
+      "h": "Sample WPBA",
+      "b": "file:cards/07-sample-wpba.html",
+      "wpba": true
+    },
+    {
+      "h": "Curriculum",
+      "links": [
+        "curric:8",
+        "curric:9"
+      ]
+    }
+  ],
+  "q": "file:quiz.json"
+}

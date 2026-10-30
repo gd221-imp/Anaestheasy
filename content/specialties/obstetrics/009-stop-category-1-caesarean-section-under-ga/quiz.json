@@ -1,0 +1,122 @@
+[
+  {
+    "q": "What end-tidal oxygen is targeted before RSI for obstetric GA?",
+    "o": [
+      "Over 0.5",
+      "Over 0.9",
+      "Over 0.7",
+      "Any",
+      "Not measured"
+    ],
+    "a": 1,
+    "why": "Pre-oxygenate head-up to FeO2 0.9 or more; consider HFNO."
+  },
+  {
+    "q": "After failed intubation in a category 1 caesarean, the mother is oxygenating well via a second-generation SAD and the fetus is compromised. What is reasonable?",
+    "o": [
+      "Wake the mother in all cases",
+      "Proceed with surgery on the SAD, with cricoid pressure as appropriate",
+      "Keep trying intubation repeatedly",
+      "Front-of-neck access immediately",
+      "Nasal airway"
+    ],
+    "a": 1,
+    "why": "The proceed vs wake decision weighs fetal compromise, maternal condition and airway control; if oxygenating, proceeding on the SAD may be reasonable."
+  },
+  {
+    "q": "What is the delivery target for a category 1 caesarean?",
+    "o": [
+      "Under 30 minutes",
+      "Under 75 minutes",
+      "Within 24 hours",
+      "Planned",
+      "Under 2 hours"
+    ],
+    "a": 0,
+    "why": "Category 1 under 30 minutes; category 2 under 75 minutes."
+  },
+  {
+    "q": "Which intrauterine resuscitation measure is used for fetal distress in labour?",
+    "o": [
+      "Increase oxytocin",
+      "Stop oxytocin, left lateral position, fluid bolus, oxygen, and consider terbutaline 250 mcg",
+      "Supine flat position",
+      "Give ergometrine",
+      "Hyperventilate the mother"
+    ],
+    "a": 1,
+    "why": "Stop oxytocin, reposition, give fluid, oxygen and consider a tocolytic."
+  },
+  {
+    "q": "In cord prolapse, how can the presenting part be lifted off the cord while awaiting delivery?",
+    "o": [
+      "Supine position",
+      "Knee–chest or head-down position, manual elevation, or filling the bladder with about 500 ml",
+      "Pushing the cord back in",
+      "Fundal pressure",
+      "Oxytocin"
+    ],
+    "a": 1,
+    "why": "Keep the cord warm and moist and relieve compression while moving to a category 1 caesarean."
+  },
+  {
+    "q": "Why is a nasopharyngeal airway avoided in pregnancy?",
+    "o": [
+      "They are too small",
+      "Mucosal oedema and bleeding risk",
+      "They cause hypertension",
+      "They are not available",
+      "They increase aspiration"
+    ],
+    "a": 1,
+    "why": "Pregnant mucosa is engorged and bleeds easily."
+  },
+  {
+    "q": "When is an opioid usually given during obstetric GA?",
+    "o": [
+      "At induction (e.g. alfentanil or remifentanil), with the neonatal team informed",
+      "Only after cord clamping in every case",
+      "Never",
+      "Before pre-oxygenation",
+      "Only post-op"
+    ],
+    "a": 0,
+    "why": "Current UK OAA/DAS practice gives a short-acting opioid at induction to blunt the pressor response and reduce awareness; neonatal effects are mild and transient. Older teaching delayed opioids until after cord clamping. Local practice here: opioid at induction only for pre-eclampsia/PIH."
+  },
+  {
+    "q": "Which questionnaire assesses awareness after GA?",
+    "o": [
+      "STOP-BANG",
+      "Modified Brice questionnaire",
+      "Apfel",
+      "PHQ-9",
+      "Mallampati"
+    ],
+    "a": 1,
+    "why": "The Brice questionnaire is asked at several time points."
+  },
+  {
+    "q": "What size ETT is typically used for obstetric GA?",
+    "o": [
+      "8.5",
+      "6.0–7.0",
+      "9.0",
+      "5.0 only",
+      "Any"
+    ],
+    "a": 1,
+    "why": "Smaller tubes (6.0–7.0) allow for airway oedema; have a videolaryngoscope available."
+  },
+  {
+    "q": "What is the approximate aspiration incidence in obstetric GA?",
+    "o": [
+      "1 in 50",
+      "1 in 500",
+      "1 in 50,000",
+      "Never",
+      "1 in 5"
+    ],
+    "a": 1,
+    "why": "Around 1 in 500; use antacid prophylaxis and RSI."
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "q": "What block height is needed for cervical cerclage under spinal anaesthesia?",
+    "o": [
+      "T4",
+      "T10 with sacral cover",
+      "L1 only",
+      "T6",
+      "C8"
+    ],
+    "a": 1,
+    "why": "A block to around T10 with sacral cover is enough; hyperbaric bupivacaine with a low-dose opioid."
+  },
+  {
+    "q": "From what gestation is an RSI used if GA is needed for cerclage?",
+    "o": [
+      "From 6 weeks",
+      "From around 18 weeks",
+      "From 30 weeks",
+      "Only at term",
+      "Never"
+    ],
+    "a": 1,
+    "why": "Aspiration risk rises from the second trimester; RSI is used from around 18 weeks, with antacid prophylaxis."
+  },
+  {
+    "q": "In a twin pregnancy, how does spinal spread compare with a singleton pregnancy?",
+    "o": [
+      "Lower by 2 dermatomes",
+      "Around 2 dermatomes higher for the same dose",
+      "No difference",
+      "Much lower",
+      "Unpredictable, always patchy"
+    ],
+    "a": 1,
+    "why": "Twin pregnancy exaggerates singleton changes: higher spread, faster desaturation, more aortocaval compression and about double the blood loss."
+  },
+  {
+    "q": "After an accidental dural puncture during epidural siting, what proportion go on to develop PDPH?",
+    "o": [
+      "Under 5%",
+      "About 10%",
+      "About 50–80%",
+      "100%",
+      "About 25%"
+    ],
+    "a": 2,
+    "why": "Accidental dural puncture with a Tuohy needle occurs in about 1 in 100; 50–80% of those develop PDPH. After a spinal, PDPH is about 1 in 300."
+  },
+  {
+    "q": "What is the typical onset and positional nature of post-dural puncture headache?",
+    "o": [
+      "Immediate, worse lying flat",
+      "24–72 hours after puncture, worse sitting or standing and better lying flat",
+      "After 2 weeks, constant",
+      "Only with fever",
+      "Only in the morning"
+    ],
+    "a": 1,
+    "why": "PDPH starts 24–72 hours after puncture, is fronto-occipital and postural; CN VI palsy and tinnitus can occur."
+  },
+  {
+    "q": "How much blood is typically injected for an epidural blood patch?",
+    "o": [
+      "5 ml",
+      "20–30 ml, stopping if back or leg pain develops",
+      "100 ml",
+      "As much as possible",
+      "2 ml"
+    ],
+    "a": 1,
+    "why": "Aim for about 20 ml (up to 30 ml), injected slowly; initial cure rate is 60–90%, better if done after 48 hours, and about 17% need a second patch."
+  },
+  {
+    "q": "A woman has a foot drop and numbness over the first web space after a long delivery in lithotomy. Which nerve is injured?",
+    "o": [
+      "Femoral",
+      "Common peroneal",
+      "Lateral cutaneous nerve of thigh",
+      "Obturator",
+      "Sciatic root S1"
+    ],
+    "a": 1,
+    "why": "Common peroneal compression at the fibular head by lithotomy stirrups causes foot drop with numbness over the lateral leg and dorsum of the foot (the first web space is its deep peroneal branch)."
+  },
+  {
+    "q": "After labour epidural, a woman has back pain and a dense motor block that is not wearing off. What is the priority?",
+    "o": [
+      "Reassure and review tomorrow",
+      "Urgent MRI and neurosurgical referral for epidural haematoma",
+      "Physiotherapy",
+      "Blood patch",
+      "Stop the oxytocin"
+    ],
+    "a": 1,
+    "why": "Decompression within 6–12 hours of onset gives the best chance of recovery."
+  },
+  {
+    "q": "By how much is MAC reduced in pregnancy?",
+    "o": [
+      "Not at all",
+      "About 25–30%",
+      "About 50%",
+      "About 75%",
+      "It increases"
+    ],
+    "a": 1,
+    "why": "MAC falls by about 28% (from the first trimester); spinal doses are reduced by around 25% due to reduced CSF volume."
+  },
+  {
+    "q": "From what gestation does aortocaval compression become clinically important?",
+    "o": [
+      "8 weeks",
+      "Around 20 weeks",
+      "36 weeks only",
+      "Only in labour",
+      "Never when supine"
+    ],
+    "a": 1,
+    "why": "From about 20 weeks; neuraxial anaesthesia blunts the compensatory sympathetic response."
+  }
+]

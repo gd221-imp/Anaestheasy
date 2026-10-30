@@ -1,0 +1,122 @@
+[
+  {
+    "q": "What is the classic metabolic abnormality in pyloric stenosis?",
+    "o": [
+      "Hyperchloraemic acidosis",
+      "Hypokalaemic, hypochloraemic metabolic alkalosis",
+      "Respiratory acidosis",
+      "Hyperkalaemic acidosis",
+      "Lactic acidosis"
+    ],
+    "a": 1,
+    "why": "Loss of HCl from vomiting."
+  },
+  {
+    "q": "Why is pyloric stenosis a medical rather than surgical emergency?",
+    "o": [
+      "It resolves spontaneously",
+      "Fluid and electrolytes must be corrected first to avoid post-op apnoea",
+      "Surgery is risky",
+      "It needs antibiotics",
+      "Imaging takes time"
+    ],
+    "a": 1,
+    "why": "Uncorrected alkalosis reduces central respiratory drive."
+  },
+  {
+    "q": "What explains paradoxical aciduria in pyloric stenosis?",
+    "o": [
+      "Renal failure",
+      "With worsening hypokalaemia, the kidney preferentially exchanges H+ for Na+",
+      "Excess chloride",
+      "Ketosis",
+      "Lactic acid"
+    ],
+    "a": 1,
+    "why": "Volume depletion activates RAAS; Na+ is retained in exchange for H+ when K+ is depleted."
+  },
+  {
+    "q": "What is the typical age of onset?",
+    "o": [
+      "Birth",
+      "4–6 weeks",
+      "6 months",
+      "2 years",
+      "1 week"
+    ],
+    "a": 1,
+    "why": "Projectile vomiting with a palpable olive."
+  },
+  {
+    "q": "How is the stomach emptied before induction?",
+    "o": [
+      "Not needed",
+      "\"4-quadrant\" aspiration via NG tube",
+      "Metoclopramide",
+      "Prone position",
+      "Erythromycin"
+    ],
+    "a": 1,
+    "why": "Aspirate in supine, left and right lateral and prone positions."
+  },
+  {
+    "q": "Which electrolyte targets are in the recipe before theatre?",
+    "o": [
+      "Cl over 100, bicarbonate below 28",
+      "Cl over 80",
+      "Na over 150",
+      "K under 3",
+      "Bicarbonate over 35"
+    ],
+    "a": 0,
+    "why": "Correct fluids first: chloride above 100 and bicarbonate below 28."
+  },
+  {
+    "q": "What maintenance fluid is used in pyloric stenosis?",
+    "o": [
+      "10% dextrose alone",
+      "0.45% NaCl with 5% dextrose and KCl",
+      "Hartmann’s only",
+      "0.18% saline",
+      "Water"
+    ],
+    "a": 1,
+    "why": "About 150 ml/kg/day; replace NG losses with 0.9% NaCl with KCl."
+  },
+  {
+    "q": "Which ETT is typical for pyloromyotomy?",
+    "o": [
+      "5.0 cuffed",
+      "3.5 uncuffed",
+      "2.5",
+      "6.0",
+      "LMA"
+    ],
+    "a": 1,
+    "why": "A 3.5 mm uncuffed tube for a term infant."
+  },
+  {
+    "q": "What post-op monitoring is needed after pyloromyotomy?",
+    "o": [
+      "None",
+      "Apnoea monitoring",
+      "Arterial line",
+      "ICP",
+      "CVP"
+    ],
+    "a": 1,
+    "why": "Residual alkalosis and opioids increase apnoea risk."
+  },
+  {
+    "q": "Which gas should be avoided in pyloromyotomy?",
+    "o": [
+      "Oxygen",
+      "Nitrous oxide",
+      "Air",
+      "Sevoflurane",
+      "Desflurane"
+    ],
+    "a": 1,
+    "why": "Avoid N2O because of bowel distension."
+  }
+]

@@ -1,0 +1,290 @@
+[
+  {
+    "id": "Q140",
+    "ar": "Neuroanaesthesia",
+    "sb": "Traumatic brain injury",
+    "q": "A 30-year-old with an isolated severe TBI is intubated for transfer to a neurosurgical centre. Which physiological targets are most appropriate?",
+    "o": [
+      "PaO2 &gt; 8 kPa, PaCO2 3.5–4.0 kPa, MAP &gt; 65 mmHg",
+      "Therapeutic hypothermia to 33 °C",
+      "Permissive hypotension with SBP 80 mmHg",
+      "PaO2 &gt; 20 kPa, PaCO2 6.0 kPa, MAP 60 mmHg",
+      "PaO2 &gt; 13 kPa, PaCO2 4.5–5.0 kPa, MAP &gt; 80 mmHg (or SBP &gt; 110 mmHg), glucose 6–10 mmol/L"
+    ],
+    "a": 4,
+    "why": "AAGBI/Neuroanaesthesia guidance for TBI transfer: PaO2 &gt; 13 kPa, PaCO2 4.5–5.0 kPa (lower only briefly for impending herniation), MAP &gt; 80 mmHg, normothermia, glucose 6–10 mmol/L, head-up 30° with neutral neck and loose ties, and adequate sedation. Avoid permissive hypotension in TBI.",
+    "st": "st2-33"
+  },
+  {
+    "id": "Q141",
+    "ar": "Neuroanaesthesia",
+    "sb": "Raised ICP",
+    "q": "A ventilated patient with TBI has an ICP of 30 mmHg despite sedation, head-up positioning and normocapnia. Which is the most appropriate next step?",
+    "o": [
+      "Start high-dose steroids",
+      "Hyperventilate to PaCO2 3.0 kPa for 24 hours",
+      "Osmotherapy with hypertonic saline or mannitol",
+      "Lower the MAP to reduce cerebral blood volume",
+      "Induce hypothermia to 33 °C as first-line"
+    ],
+    "a": 2,
+    "why": "Tiered ICP management: sedation and analgesia, head-up, avoid venous obstruction, normocapnia, normothermia, then osmotherapy (hypertonic saline or mannitol), CSF drainage if an EVD is present, then deeper sedation, short-term mild hyperventilation, barbiturates or decompressive craniectomy. Steroids increase mortality in TBI (CRASH). Prophylactic hypothermia showed no benefit (Eurotherm). Target CPP 60–70 mmHg.",
+    "st": "st2-32"
+  },
+  {
+    "id": "Q142",
+    "ar": "Neuroanaesthesia",
+    "sb": "Subarachnoid haemorrhage",
+    "q": "A 50-year-old with an aneurysmal SAH (WFNS grade 2) had the aneurysm coiled yesterday. Which treatment has proven benefit in reducing poor outcome from delayed cerebral ischaemia?",
+    "o": [
+      "Statins",
+      "Intrathecal thrombolysis",
+      "IV magnesium infusion",
+      "Oral nimodipine 60 mg 4-hourly for 21 days",
+      "Prophylactic triple-H therapy"
+    ],
+    "a": 3,
+    "why": "Nimodipine is the only drug shown to improve outcome after aneurysmal SAH (reducing poor outcome from DCI). Prophylactic triple-H therapy is no longer recommended; maintain euvolaemia and induce hypertension only to treat established DCI. Magnesium and statins showed no benefit in large trials (MASH-2, STASH).",
+    "st": "st2-26"
+  },
+  {
+    "id": "Q143",
+    "ar": "Neuroanaesthesia",
+    "sb": "Subarachnoid haemorrhage",
+    "q": "Five days after SAH, a patient's sodium falls to 126 mmol/L. She is polyuric, has a negative fluid balance and appears clinically dry. What is the most likely cause and treatment?",
+    "o": [
+      "Cerebral salt wasting; replace sodium and volume with isotonic or hypertonic saline (fludrocortisone may help)",
+      "Adrenal insufficiency; dexamethasone only",
+      "SIADH; fluid restrict",
+      "Dilutional hyponatraemia; furosemide",
+      "Diabetes insipidus; desmopressin"
+    ],
+    "a": 0,
+    "why": "Cerebral salt wasting causes natriuresis with volume depletion; SIADH causes euvolaemic hyponatraemia. Distinguishing them is about volume status. After SAH, fluid restriction is dangerous because hypovolaemia increases the risk of delayed cerebral ischaemia, so treat with sodium and volume replacement (fludrocortisone can reduce natriuresis).",
+    "st": "st2-26"
+  },
+  {
+    "id": "Q144",
+    "ar": "Neuroanaesthesia",
+    "sb": "Acute stroke and thrombectomy",
+    "q": "A 68-year-old with a left middle cerebral artery occlusion arrives for mechanical thrombectomy. He is cooperative with an NIHSS of 14. What is the most appropriate anaesthetic approach?",
+    "o": [
+      "General anaesthesia is mandatory",
+      "Either conscious sedation or GA, avoiding delays and keeping systolic BP above about 140 mmHg before recanalisation",
+      "Hyperventilate to reduce cerebral oedema",
+      "Delay until the patient can be fasted for 6 hours",
+      "Lower systolic BP to 110 mmHg before puncture"
+    ],
+    "a": 1,
+    "why": "Trials and meta-analyses show similar outcomes with GA or conscious sedation when delays and hypotension are avoided; choice depends on patient factors (agitation, airway, aphasia, vomiting). Keep systolic BP 140–180 mmHg before recanalisation (avoid falls in BP, which worsen penumbral ischaemia), and normocapnia. After successful reperfusion, BP targets are usually lowered.",
+    "st": "st2-16"
+  },
+  {
+    "id": "Q145",
+    "ar": "Neuroanaesthesia",
+    "sb": "Awake craniotomy",
+    "q": "A patient is having an awake craniotomy for a glioma near the speech area. During cortical mapping, she has a focal seizure that becomes generalised. What should be done first?",
+    "o": [
+      "Give naloxone",
+      "Abandon surgery and wake her",
+      "Intubate immediately",
+      "Ask the surgeon to irrigate the cortex with ice-cold saline",
+      "Give IV phenytoin 20 mg/kg"
+    ],
+    "a": 3,
+    "why": "Stimulation-induced seizures usually stop with cold saline irrigation of the cortex. If they persist, give a small dose of propofol or a benzodiazepine, then an antiepileptic. Airway rescue (SGA or intubation) must be planned in advance. Absolute contraindications to awake craniotomy include patient refusal and inability to cooperate; relative ones include OSA, severe anxiety and language barriers.",
+    "st": "st2-28"
+  },
+  {
+    "id": "Q146",
+    "ar": "Neuroanaesthesia",
+    "sb": "Posterior fossa / VAE",
+    "q": "During posterior fossa surgery in the sitting position, the end-tidal CO2 suddenly falls from 4.5 to 2.0 kPa and BP falls. Which action should be taken first?",
+    "o": [
+      "Turn the patient left lateral immediately",
+      "Apply PEEP of 15 cmH2O",
+      "Give adrenaline 1 mg",
+      "Tell the surgeon to flood the field with saline and occlude open veins, and stop nitrous oxide if used",
+      "Increase the minute ventilation"
+    ],
+    "a": 3,
+    "why": "Venous air embolism: inform the surgeon to flood the field and wax bone edges, stop nitrous oxide, give 100% oxygen, aspirate from a multi-orifice CVC, consider bilateral jugular compression, lower the head if feasible and support the circulation. TOE is the most sensitive monitor; precordial Doppler and ETCO2 are commonly used. Patent foramen ovale risks paradoxical embolism.",
+    "st": "st2-23"
+  },
+  {
+    "id": "Q147",
+    "ar": "Neuroanaesthesia",
+    "sb": "Acromegaly and pituitary surgery",
+    "q": "A patient with acromegaly is having transsphenoidal pituitary surgery. Which airway problem is most characteristic?",
+    "o": [
+      "Recurrent laryngeal nerve palsy in most patients",
+      "Atlantoaxial instability",
+      "Micrognathia",
+      "Macroglossia, thickened soft tissues and laryngeal narrowing, with possible OSA",
+      "Tracheomalacia from previous surgery"
+    ],
+    "a": 3,
+    "why": "Growth hormone excess causes macroglossia, prognathism, thickened pharyngeal and laryngeal tissues, subglottic narrowing and OSA, so facemask ventilation and laryngoscopy can be difficult. Also look for hypertension, cardiomyopathy and diabetes. Postoperatively, nasal packs mean the patient must breathe through the mouth; watch for diabetes insipidus and cortisol deficiency.",
+    "st": "st2-22"
+  },
+  {
+    "id": "Q148",
+    "ar": "Neuroanaesthesia",
+    "sb": "Spinal cord injury",
+    "q": "A 25-year-old with a complete C5 spinal cord injury 2 hours ago has BP 75/40 mmHg and heart rate 45 bpm. There is no evidence of bleeding. What is the most likely cause and treatment?",
+    "o": [
+      "Spinal shock; no treatment needed",
+      "Neurogenic shock; cautious fluids, vasopressor with chronotropic effect, and atropine for bradycardia",
+      "Tension pneumothorax; needle decompression",
+      "Hypovolaemic shock; transfuse",
+      "Cardiac tamponade; pericardiocentesis"
+    ],
+    "a": 1,
+    "why": "Injury above T6 disrupts sympathetic outflow, causing vasodilatation, hypotension and unopposed vagal bradycardia (neurogenic shock). Exclude haemorrhage, then give cautious fluid and vasopressors (noradrenaline or a combined agent), atropine or glycopyrrolate for bradycardia, and aim for MAP 85–90 mmHg for cord perfusion. Spinal shock refers to the loss of reflexes below the lesion.",
+    "st": null
+  },
+  {
+    "id": "Q149",
+    "ar": "Neuroanaesthesia",
+    "sb": "Spinal cord injury",
+    "q": "Twelve days after a complete C6 spinal cord injury, a patient needs an emergency laparotomy. Which drug should be avoided?",
+    "o": [
+      "Fentanyl",
+      "Propofol",
+      "Rocuronium",
+      "Suxamethonium",
+      "Sevoflurane"
+    ],
+    "a": 3,
+    "why": "From about 48–72 hours after denervation injury, extrajunctional acetylcholine receptors proliferate, and suxamethonium can cause life-threatening hyperkalaemia. Avoid it from about 72 hours until at least 6–12 months. Rocuronium with sugammadex is the usual alternative for RSI.",
+    "st": null
+  },
+  {
+    "id": "Q150",
+    "ar": "Neuroanaesthesia",
+    "sb": "Autonomic dysreflexia",
+    "q": "A patient with a complete T4 spinal cord injury 3 years ago is having a cystoscopy. Which anaesthetic approach most reliably prevents autonomic dysreflexia?",
+    "o": [
+      "Spinal anaesthesia or adequately deep general anaesthesia",
+      "IV glyceryl trinitrate infusion alone",
+      "No anaesthesia, because the lesion is complete",
+      "Topical lidocaine gel only",
+      "Sedation with midazolam"
+    ],
+    "a": 0,
+    "why": "Lesions at or above T6 risk autonomic dysreflexia: stimulation below the level (bladder distension, surgery) triggers massive sympathetic discharge with severe hypertension and reflex bradycardia. Spinal anaesthesia or adequate GA blocks the afferent input. Treat an episode by removing the stimulus, sitting up, and giving rapid-acting vasodilators (GTN, nifedipine).",
+    "st": null
+  },
+  {
+    "id": "Q151",
+    "ar": "Neuroanaesthesia",
+    "sb": "Neuromonitoring",
+    "q": "During scoliosis surgery with motor evoked potential monitoring, which anaesthetic technique is most appropriate?",
+    "o": [
+      "Volatile at 1.5 MAC with full neuromuscular block",
+      "Nitrous oxide and volatile at 1 MAC",
+      "Ketamine infusion with full neuromuscular block",
+      "TIVA (propofol and remifentanil) without ongoing neuromuscular blockade",
+      "Bolus doses of thiopental throughout"
+    ],
+    "a": 3,
+    "why": "Motor evoked potentials are very sensitive to volatile agents and abolished by neuromuscular blockade. TIVA with propofol and remifentanil without relaxant after intubation is standard. Somatosensory evoked potentials tolerate low-dose volatile but also benefit from TIVA. Maintain stable depth, MAP, temperature and haemoglobin, as changes in these alter responses.",
+    "st": "st2-31"
+  },
+  {
+    "id": "Q152",
+    "ar": "Neuroanaesthesia",
+    "sb": "Hydrocephalus",
+    "q": "A 32-year-old with a ventriculoperitoneal shunt presents with headache, vomiting and drowsiness. What is the most likely diagnosis?",
+    "o": [
+      "Migraine",
+      "Overdrainage only",
+      "Shunt blockage causing raised intracranial pressure",
+      "Meningitis is the only cause to consider",
+      "Viral gastroenteritis"
+    ],
+    "a": 2,
+    "why": "Shunt malfunction (proximal obstruction most commonly) presents with symptoms of raised ICP: headache, vomiting, reduced consciousness, papilloedema and, late, Cushing's response. Shunt infection is another important cause. Urgent CT and neurosurgical review; an external ventricular drain may be needed.",
+    "st": "st2-27"
+  },
+  {
+    "id": "Q153",
+    "ar": "Neuroanaesthesia",
+    "sb": "ICP physiology",
+    "q": "Which statement about the normal intracranial pressure waveform is correct?",
+    "o": [
+      "P1 is the dicrotic wave and is normally the highest",
+      "Lundberg A waves are small physiological oscillations",
+      "P1 (percussion wave) is normally highest; when P2 exceeds P1, compliance is reduced",
+      "Lundberg B waves are a normal finding",
+      "P3 represents venous outflow and is always the largest"
+    ],
+    "a": 2,
+    "why": "The ICP waveform has P1 (arterial pulsation), P2 (tidal wave, reflecting brain compliance) and P3 (dicrotic wave). Normally P1 &gt; P2 &gt; P3; when P2 rises above P1, intracranial compliance is reduced. Lundberg A (plateau) waves are sustained rises of 50–100 mmHg for 5–20 minutes and are pathological. Normal adult ICP is 5–15 mmHg.",
+    "st": "st2-32"
+  },
+  {
+    "id": "Q154",
+    "ar": "Neuroanaesthesia",
+    "sb": "Neuroradiology",
+    "q": "During coiling of a ruptured aneurysm under GA, the systolic BP suddenly rises to 200 mmHg with bradycardia, and contrast is seen leaving the vessel. What is the most important immediate drug?",
+    "o": [
+      "Protamine to reverse heparin",
+      "Adrenaline",
+      "Nimodipine bolus",
+      "Mannitol only",
+      "Labetalol"
+    ],
+    "a": 0,
+    "why": "Intraprocedural aneurysm rupture causes a Cushing response from acute ICP rise. Reverse heparin immediately with protamine, inform the neuroradiologist (who will continue coiling to seal the rupture), manage ICP (EVD drainage if present, osmotherapy, short hyperventilation) and arrange urgent CT. Do not treat the hypertension aggressively, as it is maintaining cerebral perfusion.",
+    "st": "st2-26"
+  },
+  {
+    "id": "Q155",
+    "ar": "Neuroanaesthesia",
+    "sb": "Guillain–Barré syndrome",
+    "q": "A patient with Guillain–Barré syndrome on the ward has a vital capacity of 14 mL/kg and weakening cough. What is the most appropriate step?",
+    "o": [
+      "Repeat VC in 24 hours",
+      "Start pyridostigmine",
+      "Admit to ICU for elective intubation and ventilation",
+      "Start non-invasive ventilation",
+      "Give IV methylprednisolone"
+    ],
+    "a": 2,
+    "why": "The '20/30/40 rule': VC &lt; 20 mL/kg, maximum inspiratory pressure weaker than −30 cmH2O, or maximum expiratory pressure &lt; 40 cmH2O predicts respiratory failure. Bulbar weakness, rapid progression and autonomic instability also favour early elective intubation. NIV is unsuitable with bulbar weakness. Treatment is IV immunoglobulin or plasma exchange; steroids are ineffective. Avoid suxamethonium.",
+    "st": null
+  },
+  {
+    "id": "Q156",
+    "ar": "Neuroanaesthesia",
+    "sb": "Cervical spine surgery",
+    "q": "After anterior cervical discectomy, a patient in recovery becomes stridulous with a swelling in the neck. What should you do first?",
+    "o": [
+      "Give nebulised adrenaline and observe",
+      "Arrange a CT scan of the neck",
+      "Give IV dexamethasone",
+      "Reintubate immediately without opening the wound",
+      "Open the wound (cut skin and deep sutures) at the bedside to release the haematoma, and call for help"
+    ],
+    "a": 4,
+    "why": "A neck haematoma causes venous and lymphatic congestion and airway oedema. The immediate step, as after thyroidectomy (SCOOP: skin exposure, cut sutures, open skin, open muscles, pack), is to open the wound to decompress, then secure the airway — expect a difficult intubation from oedema.",
+    "st": "st2-20"
+  },
+  {
+    "id": "Q157",
+    "ar": "Neuroanaesthesia",
+    "sb": "Epilepsy surgery",
+    "q": "A patient on long-term carbamazepine and phenytoin is having a craniotomy. What effect do these drugs have on non-depolarising neuromuscular blockers?",
+    "o": [
+      "They cause hyperkalaemia with rocuronium",
+      "They prolong the action of rocuronium",
+      "They reverse neuromuscular block",
+      "They cause resistance, shortening the duration of aminosteroid relaxants",
+      "They have no effect"
+    ],
+    "a": 3,
+    "why": "Chronic enzyme-inducing antiepileptics (phenytoin, carbamazepine) increase hepatic metabolism and upregulate acetylcholine receptors, causing resistance to aminosteroid relaxants, so larger or more frequent doses are needed. Acute phenytoin administration, by contrast, can potentiate block. Monitor neuromuscular function quantitatively.",
+    "st": "st2-29"
+  }
+]

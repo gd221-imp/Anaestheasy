@@ -1,0 +1,122 @@
+[
+  {
+    "q": "Which test is essential in women of childbearing age before appendicectomy?",
+    "o": [
+      "TFT",
+      "Pregnancy test",
+      "HbA1c",
+      "Lipids",
+      "Troponin"
+    ],
+    "a": 1,
+    "why": "In the recipe investigations."
+  },
+  {
+    "q": "Why is RSI used for appendicectomy?",
+    "o": [
+      "Elective case",
+      "Treated as a full stomach",
+      "Faster surgery",
+      "Better analgesia",
+      "Surgeon request"
+    ],
+    "a": 1,
+    "why": "Ileus and vomiting."
+  },
+  {
+    "q": "Which antiemetics are given in the recipe?",
+    "o": [
+      "Cyclizine only",
+      "Ondansetron and dexamethasone",
+      "Metoclopramide only",
+      "None",
+      "Droperidol only"
+    ],
+    "a": 1,
+    "why": "PONV prophylaxis."
+  },
+  {
+    "q": "In a pregnant patient needing appendicectomy, what laparoscopic pressure is advised?",
+    "o": [
+      "20 mmHg",
+      "Under about 12 mmHg",
+      "25 mmHg",
+      "15–20 mmHg",
+      "No limit"
+    ],
+    "a": 1,
+    "why": "With open (Hasson) entry."
+  },
+  {
+    "q": "Which analgesic is avoided in pregnancy?",
+    "o": [
+      "Paracetamol",
+      "NSAIDs",
+      "Fentanyl",
+      "Morphine",
+      "Local anaesthetic"
+    ],
+    "a": 1,
+    "why": "Premature ductus closure."
+  },
+  {
+    "q": "Which reversal agent binds progesterone and needs consideration in pregnancy?",
+    "o": [
+      "Neostigmine",
+      "Sugammadex",
+      "Atropine",
+      "Glycopyrronium",
+      "Edrophonium"
+    ],
+    "a": 1,
+    "why": "Not an absolute contraindication."
+  },
+  {
+    "q": "What is the approximate incidence of non-obstetric surgery in pregnancy?",
+    "o": [
+      "0.1%",
+      "Around 1–2%",
+      "25%",
+      "50%",
+      "1%"
+    ],
+    "a": 1,
+    "why": "E.g. laparoscopic appendicectomy."
+  },
+  {
+    "q": "Which tocolytic is a calcium channel blocker?",
+    "o": [
+      "Atosiban",
+      "Nifedipine",
+      "Terbutaline",
+      "GTN",
+      "Magnesium"
+    ],
+    "a": 1,
+    "why": "Causes arteriolar vasodilation."
+  },
+  {
+    "q": "Which delayed anaesthetic complication follows laparoscopy?",
+    "o": [
+      "MH",
+      "Shoulder-tip pain",
+      "PDPH",
+      "Laryngospasm",
+      "Diplopia"
+    ],
+    "a": 1,
+    "why": "Also PONV."
+  },
+  {
+    "q": "What should be checked pre-op in a septic young patient?",
+    "o": [
+      "BMI",
+      "Fluids, lactate and that antibiotics are given",
+      "Lipids",
+      "Thyroid",
+      "Vitamin D"
+    ],
+    "a": 1,
+    "why": "May be septic and dry."
+  }
+]

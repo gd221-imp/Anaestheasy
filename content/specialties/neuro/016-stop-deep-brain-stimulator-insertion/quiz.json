@@ -1,0 +1,122 @@
+[
+  {
+    "q": "Which group of antiemetics must be avoided in Parkinson’s disease?",
+    "o": [
+      "5-HT3 antagonists (ondansetron)",
+      "Dopamine antagonists (metoclopramide, prochlorperazine, haloperidol)",
+      "Antihistamines (cyclizine)",
+      "Steroids",
+      "NK1 antagonists"
+    ],
+    "a": 1,
+    "why": "Dopamine antagonists worsen Parkinsonism; ondansetron or cyclizine are safer."
+  },
+  {
+    "q": "Which drugs should be avoided during microelectrode recording for DBS?",
+    "o": [
+      "Remifentanil",
+      "Propofol and benzodiazepines",
+      "Dexmedetomidine at low dose",
+      "Local anaesthetic",
+      "Paracetamol"
+    ],
+    "a": 1,
+    "why": "Propofol and benzodiazepines suppress the neuronal signals needed for targeting."
+  },
+  {
+    "q": "What systolic BP is targeted during DBS lead placement?",
+    "o": [
+      "Over 180 mmHg",
+      "Below about 140 mmHg",
+      "Below 80 mmHg",
+      "No target",
+      "Exactly 120 mmHg"
+    ],
+    "a": 1,
+    "why": "Tight BP control reduces intracerebral haemorrhage risk."
+  },
+  {
+    "q": "What is the risk of stopping L-DOPA abruptly?",
+    "o": [
+      "Hypoglycaemia",
+      "Parkinsonism–hyperpyrexia syndrome (NMS-like)",
+      "Hypotension only",
+      "Seizures",
+      "No risk"
+    ],
+    "a": 1,
+    "why": "Withdrawal can cause a neuroleptic malignant-like syndrome; restart medication as soon as possible."
+  },
+  {
+    "q": "Which area loses dopaminergic neurons in Parkinson’s disease?",
+    "o": [
+      "Caudate nucleus",
+      "Pars compacta of the substantia nigra",
+      "Cerebellum",
+      "Motor cortex",
+      "Thalamus"
+    ],
+    "a": 1,
+    "why": "Loss of nigrostriatal dopaminergic neurons causes bradykinesia, rigidity and tremor."
+  },
+  {
+    "q": "Which is a contraindication to DBS?",
+    "o": [
+      "Essential tremor",
+      "Severe cognitive impairment",
+      "Primary dystonia",
+      "Good response to L-DOPA",
+      "Age over 60"
+    ],
+    "a": 1,
+    "why": "Contraindications include severe cognitive impairment, atypical or secondary Parkinsonism and poor response to treatment."
+  },
+  {
+    "q": "What airway equipment must stay with the patient during frame-based DBS?",
+    "o": [
+      "A tracheostomy kit only",
+      "The frame key, a videolaryngoscope and a supraglottic airway",
+      "Nothing special",
+      "A nasal airway only",
+      "A bougie only"
+    ],
+    "a": 1,
+    "why": "The frame limits access: keep the key, a videolaryngoscope and an LMA ready."
+  },
+  {
+    "q": "Which complication is a particular risk with the awake, head-up DBS technique?",
+    "o": [
+      "Malignant hyperthermia",
+      "Venous air embolism",
+      "Pneumothorax",
+      "Hypothermia",
+      "Aspiration only"
+    ],
+    "a": 1,
+    "why": "Head-up position with open burr holes risks venous air embolism."
+  },
+  {
+    "q": "Why is a GA often used at the end of a DBS procedure?",
+    "o": [
+      "For lead testing",
+      "To implant the pulse generator in the chest",
+      "To treat seizures",
+      "To wake the patient",
+      "It is not used"
+    ],
+    "a": 1,
+    "why": "The internal pulse generator is tunnelled to the chest under GA after lead placement."
+  },
+  {
+    "q": "Which autonomic problem in Parkinson’s disease matters at induction?",
+    "o": [
+      "Hypertension",
+      "Postural hypotension",
+      "Bradycardia only",
+      "Hyperthermia",
+      "None"
+    ],
+    "a": 1,
+    "why": "Autonomic dysfunction causes postural hypotension and labile BP."
+  }
+]

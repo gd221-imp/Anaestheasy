@@ -1,0 +1,14 @@
+{
+  "t": "tip",
+  "shape": "clip",
+  "group": "Periop medicine",
+  "title": "Drug-Eluting Stents & Antiplatelet Therapy",
+  "cards": [
+    {
+      "h": "Overview",
+      "b": "file:cards/01-overview.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

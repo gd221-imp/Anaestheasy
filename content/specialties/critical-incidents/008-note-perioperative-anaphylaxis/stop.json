@@ -1,0 +1,25 @@
+{
+  "t": "tip",
+  "shape": "warn",
+  "group": "Critical incidents",
+  "title": "Perioperative Anaphylaxis",
+  "note": true,
+  "cards": [
+    {
+      "h": "Overview",
+      "b": "file:cards/01-overview.html"
+    },
+    {
+      "h": "Management",
+      "b": "file:cards/02-management.html"
+    },
+    {
+      "h": "Investigations and follow-up",
+      "b": "file:cards/03-investigations-and-follow-up.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/04-further-reading.html"
+    }
+  ]
+}

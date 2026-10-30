@@ -1,0 +1,62 @@
+[
+  {
+    "q": "Which test must be done before a gynaecological laparoscopy?",
+    "o": [
+      "Echo",
+      "Lung function",
+      "Clotting screen",
+      "Chest X-ray",
+      "Pregnancy test"
+    ],
+    "a": 4,
+    "why": "Exclude pregnancy before any gynaecological procedure in women of childbearing age."
+  },
+  {
+    "q": "Why is an ETT usually used for laparoscopy?",
+    "o": [
+      "It reduces PONV",
+      "It avoids relaxants",
+      "Pneumoperitoneum and head-down raise airway pressure and aspiration risk",
+      "It is cheaper",
+      "It speeds turnover"
+    ],
+    "a": 2,
+    "why": "Higher airway pressures and head-down tilt make a tracheal tube the safer choice."
+  },
+  {
+    "q": "What should you check before waking a patient given atracurium in a short case?",
+    "o": [
+      "Bispectral index",
+      "Urine output",
+      "Core temperature",
+      "Blood glucose",
+      "Train-of-four"
+    ],
+    "a": 4,
+    "why": "Short cases risk residual block; check TOF and reverse if needed."
+  },
+  {
+    "q": "What is a cause of shoulder-tip pain after laparoscopy?",
+    "o": [
+      "Nasogastric tube",
+      "Arm positioning",
+      "Interscalene block",
+      "Port-site infection",
+      "Residual CO₂ irritating the diaphragm"
+    ],
+    "a": 4,
+    "why": "Residual CO₂ irritates the diaphragm, referring pain to the shoulder via C3–5."
+  },
+  {
+    "q": "When is a long-acting opioid such as oxycodone best given in a short laparoscopy?",
+    "o": [
+      "The night before",
+      "At induction only",
+      "About 40 minutes before the end",
+      "Not at all",
+      "After extubation"
+    ],
+    "a": 2,
+    "why": "Timing it towards the end gives analgesia in recovery without slowing emergence."
+  }
+]

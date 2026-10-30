@@ -1,0 +1,122 @@
+[
+  {
+    "q": "How does gastroschisis differ from exomphalos?",
+    "o": [
+      "Gastroschisis is covered by peritoneum",
+      "Gastroschisis is not covered by peritoneum; exomphalos is and has more associated anomalies",
+      "They are identical",
+      "Exomphalos is never covered",
+      "Gastroschisis is always syndromic"
+    ],
+    "a": 1,
+    "why": "Exomphalos is associated with other congenital abnormalities."
+  },
+  {
+    "q": "How is the exposed bowel protected before surgery?",
+    "o": [
+      "Left open",
+      "Covered with cling film to reduce heat and fluid loss",
+      "Wet gauze only",
+      "Dry dressing",
+      "Ice packs"
+    ],
+    "a": 1,
+    "why": "Also NG decompression and fluid resuscitation."
+  },
+  {
+    "q": "What causes raised airway pressures during closure?",
+    "o": [
+      "Bronchospasm",
+      "Raised intra-abdominal pressure from a tight closure",
+      "Pneumothorax only",
+      "Tube kinking",
+      "Light anaesthesia"
+    ],
+    "a": 1,
+    "why": "Use a staged closure (silo) if pressures are high."
+  },
+  {
+    "q": "What surgical complication follows a too-tight closure?",
+    "o": [
+      "Hernia",
+      "Abdominal compartment syndrome",
+      "Stricture",
+      "Fistula",
+      "Diaphragm palsy"
+    ],
+    "a": 1,
+    "why": "Bowel ischaemia, renal impairment and ventilation problems."
+  },
+  {
+    "q": "What is the usual destination after closure?",
+    "o": [
+      "Home",
+      "NICU, ventilated",
+      "Ward",
+      "HDU without ventilation",
+      "Day unit"
+    ],
+    "a": 1,
+    "why": "An epidural may allow earlier extubation."
+  },
+  {
+    "q": "What is the term neonatal fluid regime on day 1 (NICE NG29)?",
+    "o": [
+      "150 ml/kg/day",
+      "50–60 ml/kg/day 10% glucose",
+      "200 ml/kg/day",
+      "10 ml/kg/day",
+      "100 ml/kg/day 0.9% saline"
+    ],
+    "a": 1,
+    "why": "Rising to 120–150 ml/kg/day by days 5–28."
+  },
+  {
+    "q": "Why are neonates prone to hypoglycaemia?",
+    "o": [
+      "High glycogen stores",
+      "Low glycogen stores plus fasting",
+      "Insulin resistance",
+      "High cortisol",
+      "They are not"
+    ],
+    "a": 1,
+    "why": "Monitor glucose and feed early."
+  },
+  {
+    "q": "What is a delayed surgical complication of gastroschisis?",
+    "o": [
+      "Hypospadias",
+      "Short gut and prolonged TPN",
+      "Cleft palate",
+      "Hydrocephalus",
+      "Squint"
+    ],
+    "a": 1,
+    "why": "Also silo infection and adhesive obstruction."
+  },
+  {
+    "q": "Which induction technique is used?",
+    "o": [
+      "Gas with LMA",
+      "RSI",
+      "Awake spinal",
+      "Sedation",
+      "Facemask only"
+    ],
+    "a": 1,
+    "why": "With ETT, arterial line and warming."
+  },
+  {
+    "q": "What is a key delayed anaesthetic complication?",
+    "o": [
+      "PONV",
+      "Line sepsis",
+      "Emergence delirium",
+      "Post-op apnoea only",
+      "Urinary retention"
+    ],
+    "a": 1,
+    "why": "Prolonged ventilation is also common."
+  }
+]

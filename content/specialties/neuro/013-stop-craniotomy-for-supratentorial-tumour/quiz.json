@@ -1,0 +1,122 @@
+[
+  {
+    "q": "During craniotomy the brain is tight. Which measure is appropriate?",
+    "o": [
+      "Increase volatile to 2 MAC",
+      "Osmotherapy, brief mild hyperventilation and deepening TIVA",
+      "Head-down tilt",
+      "Increase PEEP",
+      "Give a fluid bolus"
+    ],
+    "a": 1,
+    "why": "Brain relaxation: mannitol or hypertonic saline, brief hyperventilation, deepen anaesthesia, head up and keep venous drainage free."
+  },
+  {
+    "q": "What volatile concentration is generally used if a volatile is chosen for craniotomy?",
+    "o": [
+      "Over 1.5 MAC",
+      "Below 1 MAC",
+      "Exactly 2 MAC",
+      "Volatile is contraindicated",
+      "Any concentration"
+    ],
+    "a": 1,
+    "why": "Below 1 MAC limits cerebral vasodilatation and rises in CBF and ICP."
+  },
+  {
+    "q": "How is hypertension at head pinning prevented?",
+    "o": [
+      "Nothing can prevent it",
+      "Local anaesthetic infiltration or a remifentanil bolus before pinning",
+      "Hyperventilation",
+      "Mannitol",
+      "Atropine"
+    ],
+    "a": 1,
+    "why": "Pinning is very stimulating; prepare with LA or remifentanil."
+  },
+  {
+    "q": "Which is NOT part of normal physiology targets during craniotomy?",
+    "o": [
+      "Normocapnia",
+      "Normothermia",
+      "Normoglycaemia",
+      "Deliberate hyperglycaemia",
+      "Normal sodium"
+    ],
+    "a": 3,
+    "why": "Aim for normocapnia, normothermia and normoglycaemia; hyperglycaemia worsens ischaemic injury."
+  },
+  {
+    "q": "Why are NSAIDs a relative contraindication after neurosurgery?",
+    "o": [
+      "Renal toxicity only",
+      "Bleeding risk",
+      "They cause seizures",
+      "They increase ICP",
+      "They interact with dexamethasone"
+    ],
+    "a": 1,
+    "why": "NSAIDs increase bleeding risk; analgesia uses scalp block, paracetamol, codeine or small morphine doses."
+  },
+  {
+    "q": "What is the first step in assessing delayed recovery after GA?",
+    "o": [
+      "CT head immediately",
+      "A neuro assessment and ABG",
+      "Give naloxone to everyone",
+      "Wait 2 hours",
+      "Re-intubate"
+    ],
+    "a": 1,
+    "why": "Steps: neuro assessment, ABG, review the anaesthetic chart, consider reversal, then CT head."
+  },
+  {
+    "q": "What are the components of the normal ICP waveform?",
+    "o": [
+      "P1 percussion (arterial), P2 tidal (compliance), P3 dicrotic",
+      "P1 venous, P2 arterial",
+      "A, B and C waves",
+      "Only one peak",
+      "P1 dicrotic, P2 percussion"
+    ],
+    "a": 0,
+    "why": "A rising P2 above P1 suggests reduced compliance; A (plateau) waves indicate critically reduced compliance."
+  },
+  {
+    "q": "What is the normal adult ICP?",
+    "o": [
+      "0–5 mmHg",
+      "10–15 mmHg",
+      "20–25 mmHg",
+      "30 mmHg",
+      "40 mmHg"
+    ],
+    "a": 1,
+    "why": "Normal adult ICP is 10–15 mmHg."
+  },
+  {
+    "q": "A third nerve palsy with raised ICP suggests which herniation?",
+    "o": [
+      "Tonsillar",
+      "Uncal (temporal lobe) herniation",
+      "Subfalcine",
+      "Upward",
+      "None"
+    ],
+    "a": 1,
+    "why": "Uncal herniation compresses CN III; a sixth nerve palsy is a false localising sign."
+  },
+  {
+    "q": "Why is a smooth emergence without coughing important after craniotomy?",
+    "o": [
+      "To avoid PONV",
+      "Coughing and hypertension raise ICP and risk haematoma",
+      "To speed discharge",
+      "To reduce pain",
+      "Not important"
+    ],
+    "a": 1,
+    "why": "Avoid coughing and hypertension at emergence; early neuro assessment follows."
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "q": "What mouth opening defines severe trismus?",
+    "o": [
+      "Under 10 mm",
+      "20–30 mm",
+      "10–20 mm",
+      "Over 40 mm",
+      "30–40 mm"
+    ],
+    "a": 0,
+    "why": "Mild 20–30 mm, moderate 10–20 mm, severe under 10 mm."
+  },
+  {
+    "q": "Why may trismus from infection improve after induction?",
+    "o": [
+      "Muscle relaxants always help",
+      "Some trismus is due to pain and spasm which may relax, but mechanical swelling will not",
+      "It never improves",
+      "Due to oedema",
+      "Due to steroids"
+    ],
+    "a": 1,
+    "why": "Do not rely on it improving."
+  },
+  {
+    "q": "What is a feared complication of instrumenting an intraoral abscess?",
+    "o": [
+      "Bleeding only",
+      "Rupture with pus soiling the airway",
+      "Laryngospasm only",
+      "Pneumothorax",
+      "Bradycardia"
+    ],
+    "a": 1,
+    "why": "Aspiration risk."
+  },
+  {
+    "q": "Which spreading infection involves the submandibular and sublingual spaces?",
+    "o": [
+      "Quinsy",
+      "Ludwig angina",
+      "Epiglottitis",
+      "Croup",
+      "Mediastinitis"
+    ],
+    "a": 1,
+    "why": "A threat to the airway."
+  },
+  {
+    "q": "What alternative to a nasal ETT is used in Le Fort II/III?",
+    "o": [
+      "Nasal RAE",
+      "Submental or retromolar ETT, or tracheostomy",
+      "LMA",
+      "Blind nasal",
+      "Uncuffed nasal"
+    ],
+    "a": 1,
+    "why": "Avoid nasal in base of skull injury."
+  },
+  {
+    "q": "Where should induction take place?",
+    "o": [
+      "Anaesthetic room",
+      "In theatre with the surgeon scrubbed and ready",
+      "ED",
+      "Ward",
+      "Recovery"
+    ],
+    "a": 1,
+    "why": "With DAS trolley and front-of-neck kit."
+  },
+  {
+    "q": "Which post-op destination is likely?",
+    "o": [
+      "Day unit",
+      "ICU, possibly intubated",
+      "Ward",
+      "Home",
+      "Rehab"
+    ],
+    "a": 1,
+    "why": "May need to stay intubated."
+  },
+  {
+    "q": "Which comorbidity should be asked about in dental abscess?",
+    "o": [
+      "Asthma",
+      "Diabetes mellitus",
+      "Hypothyroidism",
+      "Gout",
+      "Migraine"
+    ],
+    "a": 1,
+    "why": "Diabetes worsens infection."
+  },
+  {
+    "q": "Which delayed anaesthetic complication may follow?",
+    "o": [
+      "Hyperkalaemia",
+      "Post-extubation airway obstruction from oedema",
+      "MH",
+      "PDPH",
+      "Urinary retention"
+    ],
+    "a": 1,
+    "why": "Also sepsis."
+  },
+  {
+    "q": "What should be available for difficult airway management?",
+    "o": [
+      "None",
+      "Fibreoptic scope, videolaryngoscope and front-of-neck access kit",
+      "Only a Mac blade",
+      "Bougie only",
+      "LMA only"
+    ],
+    "a": 1,
+    "why": "Plan A to D."
+  }
+]

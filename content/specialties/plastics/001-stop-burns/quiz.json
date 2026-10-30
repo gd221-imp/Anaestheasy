@@ -1,0 +1,122 @@
+[
+  {
+    "q": "Why is suxamethonium avoided after 24 hours in burns?",
+    "o": [
+      "Prolonged block",
+      "Hyperkalaemia from upregulated extrajunctional receptors",
+      "Malignant hyperthermia",
+      "Bradycardia",
+      "It is ineffective"
+    ],
+    "a": 1,
+    "why": "Non-depolarising relaxants need higher doses."
+  },
+  {
+    "q": "What urine output target guides burns resuscitation?",
+    "o": [
+      "0.1 ml/kg/h",
+      "0.5–1 ml/kg/h",
+      "3 ml/kg/h",
+      "2 L/day",
+      "None"
+    ],
+    "a": 1,
+    "why": "The Parkland formula is a starting point."
+  },
+  {
+    "q": "What does the Parkland formula calculate?",
+    "o": [
+      "Maintenance fluid",
+      "4 ml × weight × %TBSA over 24 h, half in the first 8 h",
+      "Blood loss",
+      "Calorie need",
+      "Colloid need"
+    ],
+    "a": 1,
+    "why": "From time of injury."
+  },
+  {
+    "q": "How is cyanide poisoning treated?",
+    "o": [
+      "Methylene blue",
+      "Hydroxocobalamin 5 g IV over 15 minutes",
+      "Atropine",
+      "Naloxone",
+      "Calcium"
+    ],
+    "a": 1,
+    "why": "Cyanide binds cytochrome oxidase."
+  },
+  {
+    "q": "How does CO poisoning affect the oxyhaemoglobin curve?",
+    "o": [
+      "Right shift",
+      "Left shift",
+      "No change",
+      "Flattens it only",
+      "Sigmoid becomes linear"
+    ],
+    "a": 1,
+    "why": "Reduces oxygen delivery; give FiO2 1.0."
+  },
+  {
+    "q": "Which full-thickness burn feature is typical?",
+    "o": [
+      "Painful with blisters",
+      "White, painless and dry",
+      "Red and wet",
+      "Pink and blistered",
+      "Erythema only"
+    ],
+    "a": 1,
+    "why": "Through dermis into subcutaneous fat."
+  },
+  {
+    "q": "How is SpO2 monitored when fingers are burned?",
+    "o": [
+      "Not monitored",
+      "Probe on tongue, nose or lips",
+      "Toe only",
+      "ABG only",
+      "Ear only"
+    ],
+    "a": 1,
+    "why": "ECG electrodes may be replaced by skin staples."
+  },
+  {
+    "q": "Which sign suggests inhalational injury?",
+    "o": [
+      "Leg burns",
+      "Singed nasal hairs, soot in sputum and voice change",
+      "Hand burns",
+      "Fever",
+      "Tachycardia only"
+    ],
+    "a": 1,
+    "why": "Consider early intubation."
+  },
+  {
+    "q": "What is escharotomy for?",
+    "o": [
+      "Cosmetic",
+      "Circumferential full-thickness burns restricting limb perfusion or chest movement",
+      "Infection",
+      "Pain",
+      "Grafting"
+    ],
+    "a": 1,
+    "why": "Fasciotomy for compartment syndrome."
+  },
+  {
+    "q": "What minimum ETT size allows bronchoscopy in burns?",
+    "o": [
+      "6.0",
+      "Size 8 or more",
+      "5.0",
+      "7.0",
+      "Any"
+    ],
+    "a": 1,
+    "why": "For diagnostic bronchoscopy and washout."
+  }
+]

@@ -1,0 +1,40 @@
+{
+  "t": "recipe",
+  "shape": "eye",
+  "group": "Ophthalmology",
+  "title": "Vitreoretinal Surgery",
+  "op": true,
+  "cards": [
+    {
+      "h": "Anaesthetic recipe",
+      "b": "file:cards/01-anaesthetic-recipe.html",
+      "recipe": true
+    },
+    {
+      "h": "The Eye",
+      "primaryRef": "ana35"
+    },
+    {
+      "h": "Effect of Drugs on the Eye",
+      "primaryRef": "pha30"
+    },
+    {
+      "h": "Regional Anaesthesia for Eye Surgery",
+      "noteRef": "Regional Anaesthesia for Eye Surgery"
+    },
+    {
+      "h": "Sample WPBA",
+      "b": "file:cards/05-sample-wpba.html",
+      "wpba": true
+    },
+    {
+      "h": "Curriculum",
+      "links": [
+        "curric:8",
+        "curric:9",
+        "curric:10"
+      ]
+    }
+  ],
+  "q": "file:quiz.json"
+}

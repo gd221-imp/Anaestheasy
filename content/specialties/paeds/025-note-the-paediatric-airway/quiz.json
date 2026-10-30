@@ -1,0 +1,12 @@
+[
+  {
+    "q": "What size cuffed ETT would you choose for a 4-year-old?",
+    "o": [
+      "4.5",
+      "5.5",
+      "3.5"
+    ],
+    "a": 0,
+    "why": "Cuffed tube = age/4 + 3.5 = 1 + 3.5 = 4.5 mm."
+  }
+]

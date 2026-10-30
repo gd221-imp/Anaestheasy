@@ -1,0 +1,122 @@
+[
+  {
+    "q": "Which block is used for knee replacement in the recipe?",
+    "o": [
+      "Femoral",
+      "Adductor canal block with periarticular infiltration",
+      "Interscalene",
+      "Popliteal only",
+      "Psoas"
+    ],
+    "a": 1,
+    "why": "Motor-sparing."
+  },
+  {
+    "q": "Which block is considered for hip replacement?",
+    "o": [
+      "Adductor canal",
+      "PENG or fascia iliaca",
+      "Ankle block",
+      "TAP",
+      "ESP"
+    ],
+    "a": 1,
+    "why": "Pericapsular nerve group block."
+  },
+  {
+    "q": "What is the pathophysiology of bone cement implantation syndrome?",
+    "o": [
+      "Allergy",
+      "Raised PA pressure and V/Q mismatch causing RV strain and reduced output",
+      "LV failure",
+      "Hypovolaemia",
+      "Vagal reflex"
+    ],
+    "a": 1,
+    "why": "Grade 3 is cardiovascular collapse needing CPR."
+  },
+  {
+    "q": "Which is a patient risk factor for BCIS?",
+    "o": [
+      "Young age",
+      "ASA 3–4, pulmonary hypertension and pre-existing cardiac disease",
+      "Female sex",
+      "Obesity only",
+      "Smoking"
+    ],
+    "a": 1,
+    "why": "Also osteoporosis and diuretic use."
+  },
+  {
+    "q": "How is BCIS managed?",
+    "o": [
+      "Ignore",
+      "FiO2 1.0, help, fluid and vasopressors or inotropes",
+      "Beta-blocker",
+      "Diuretic",
+      "Stop ventilation"
+    ],
+    "a": 1,
+    "why": "Support the right ventricle."
+  },
+  {
+    "q": "Which ERAS step applies to THR?",
+    "o": [
+      "GA with intrathecal opioid",
+      "Spinal preferred, IV dexamethasone, TXA and early mobilisation",
+      "Prolonged bed rest",
+      "Avoid TXA",
+      "Long fasting"
+    ],
+    "a": 1,
+    "why": "Per the ERAS note."
+  },
+  {
+    "q": "What is the classic triad of fat embolism?",
+    "o": [
+      "Fever, rash, jaundice",
+      "Respiratory failure, neurological change and petechial rash",
+      "Bradycardia, hypotension, hypoxia",
+      "Chest pain, cough, haemoptysis",
+      "Headache, vomiting, seizures"
+    ],
+    "a": 1,
+    "why": "Onset 24–48 hours."
+  },
+  {
+    "q": "What is the earliest symptom of compartment syndrome?",
+    "o": [
+      "Pulselessness",
+      "Pain on passive stretch",
+      "Paralysis",
+      "Pallor",
+      "Numbness"
+    ],
+    "a": 1,
+    "why": "Weakness is late."
+  },
+  {
+    "q": "Which delayed surgical complication is specific to hip replacement?",
+    "o": [
+      "Ileus",
+      "Dislocation",
+      "Hypocalcaemia",
+      "Stroke",
+      "PDPH"
+    ],
+    "a": 1,
+    "why": "Also infection and loosening."
+  },
+  {
+    "q": "Which drug reduces blood loss?",
+    "o": [
+      "Heparin",
+      "Tranexamic acid",
+      "Aspirin",
+      "Clopidogrel",
+      "Desmopressin always"
+    ],
+    "a": 1,
+    "why": "TXA is in the equipment list."
+  }
+]

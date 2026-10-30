@@ -1,0 +1,26 @@
+{
+  "t": "tip",
+  "shape": "star",
+  "group": "Miscellaneous",
+  "title": "Electroconvulsive Therapy",
+  "cards": [
+    {
+      "h": "(Not under MHA)",
+      "b": "file:cards/01-not-under-mha.html"
+    },
+    {
+      "h": "Key points",
+      "b": "file:cards/02-key-points.html"
+    },
+    {
+      "h": "Physiological consequences",
+      "b": "file:cards/03-physiological-consequences.html"
+    },
+    {
+      "h": "Pre-op",
+      "b": "file:cards/04-pre-op.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

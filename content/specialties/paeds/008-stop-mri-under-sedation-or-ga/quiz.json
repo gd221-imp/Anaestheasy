@@ -1,0 +1,122 @@
+[
+  {
+    "q": "Where is a child induced for MRI under GA?",
+    "o": [
+      "Inside the scanner bore",
+      "In the anaesthetic room outside the magnet",
+      "In recovery",
+      "On the ward",
+      "In the control room"
+    ],
+    "a": 1,
+    "why": "Then transfer with MR-conditional equipment."
+  },
+  {
+    "q": "What is the main immediate safety hazard specific to MRI?",
+    "o": [
+      "Hypothermia only",
+      "Projectile injury from ferromagnetic objects",
+      "Radiation",
+      "Hyperkalaemia",
+      "Laser burns"
+    ],
+    "a": 1,
+    "why": "Also burns from monitoring leads or implants."
+  },
+  {
+    "q": "Which sedation level allows normal response to verbal commands with ABC unaffected?",
+    "o": [
+      "Deep",
+      "Minimal",
+      "Moderate",
+      "General anaesthesia",
+      "Dissociative"
+    ],
+    "a": 1,
+    "why": "Minimal sedation needs no fasting; moderate responds to stimulus; deep needs repeated painful stimulus."
+  },
+  {
+    "q": "Which is a contraindication to sedation (rather than GA) for MRI?",
+    "o": [
+      "Age 5",
+      "Risk of aspiration or raised ICP",
+      "Anxiety",
+      "Learning disability",
+      "Long scan"
+    ],
+    "a": 1,
+    "why": "A (aspiration), B (respiratory failure), D (raised ICP, poorly controlled epilepsy)."
+  },
+  {
+    "q": "What equipment is needed in the MRI scanner room?",
+    "o": [
+      "Standard monitors",
+      "MR-conditional monitoring, pumps and anaesthetic machine",
+      "Any equipment if taped",
+      "No monitoring",
+      "Ferromagnetic gas cylinders"
+    ],
+    "a": 1,
+    "why": "With long circuits, extension lines and ear protection."
+  },
+  {
+    "q": "What is a key anaesthetic hazard during MRI?",
+    "o": [
+      "Easy access to the child",
+      "Limited access to the child during the scan",
+      "Hyperthermia only",
+      "Excess light",
+      "Bleeding"
+    ],
+    "a": 1,
+    "why": "Monitoring is remote from the control room."
+  },
+  {
+    "q": "If MRI is for suspected NAI, which training level is the safeguarding lead?",
+    "o": [
+      "Level 1",
+      "Level 3",
+      "Level 2",
+      "Level 0",
+      "Level 5"
+    ],
+    "a": 1,
+    "why": "Level 3 applies to all clinicians who work with children (including paediatric anaesthetists); named professionals are level 4."
+  },
+  {
+    "q": "You notice concerning bruises on an anaesthetised child. What should you do?",
+    "o": [
+      "Photograph them",
+      "Inform the duty consultant and on-call paediatrician, document, and do not prolong the GA",
+      "Confront the parents in recovery alone",
+      "Ignore",
+      "Call the police from theatre immediately"
+    ],
+    "a": 1,
+    "why": "Do not photograph; the paediatrician and anaesthetist discuss with parents afterwards."
+  },
+  {
+    "q": "Which sedative is mentioned for selected children in MRI?",
+    "o": [
+      "Propofol infusion only",
+      "Dexmedetomidine or chloral hydrate",
+      "Ketamine IM always",
+      "Thiopentone",
+      "Etomidate"
+    ],
+    "a": 1,
+    "why": "For selected children; otherwise LMA/ETT with volatile or TIVA."
+  },
+  {
+    "q": "Which is a delayed complication of sedation for MRI?",
+    "o": [
+      "Pneumothorax",
+      "Failed sedation needing repeat attempts",
+      "Projectile injury",
+      "Burns",
+      "Hearing loss"
+    ],
+    "a": 1,
+    "why": "Also emergence delirium."
+  }
+]

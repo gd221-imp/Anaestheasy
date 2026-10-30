@@ -1,0 +1,22 @@
+{
+  "t": "tip",
+  "shape": "heart",
+  "group": "Cardiac",
+  "title": "LVADs & Inotropes",
+  "cards": [
+    {
+      "h": "LVADs 'unload the LV'",
+      "b": "file:cards/01-lvads-unload-the-lv.html"
+    },
+    {
+      "h": "The Inotropes",
+      "b": "file:cards/02-the-inotropes.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/03-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

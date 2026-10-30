@@ -1,0 +1,122 @@
+[
+  {
+    "q": "What Cobb angle usually warrants surgical correction?",
+    "o": [
+      "Over 10°",
+      "Over 25°",
+      "Over 40°",
+      "Over 100° only",
+      "Any angle"
+    ],
+    "a": 2,
+    "why": "Over 40° is severe and usually needs surgery; cardiorespiratory compromise increases beyond about 65–100°."
+  },
+  {
+    "q": "What type of lung defect does severe scoliosis cause?",
+    "o": [
+      "Obstructive",
+      "Restrictive",
+      "Mixed obstructive only",
+      "None",
+      "Diffusion defect only"
+    ],
+    "a": 1,
+    "why": "Restrictive lung disease, progressing to respiratory failure, pulmonary hypertension and RV failure in severe curves."
+  },
+  {
+    "q": "What is the commonest cause of scoliosis?",
+    "o": [
+      "Neuromuscular disease",
+      "Adolescent idiopathic scoliosis",
+      "Congenital vertebral anomalies",
+      "Trauma",
+      "Tumour"
+    ],
+    "a": 1,
+    "why": "About 65% are adolescent idiopathic."
+  },
+  {
+    "q": "During scoliosis correction, MEPs are lost after rod distraction. BP and temperature are normal. What should happen?",
+    "o": [
+      "Ignore and continue",
+      "Tell the surgeon, check physiology, and consider releasing the correction or a wake-up test",
+      "Give more volatile",
+      "Give a muscle relaxant",
+      "Finish quickly"
+    ],
+    "a": 1,
+    "why": "A focal signal loss after a surgical step suggests cord injury: reverse the manoeuvre, optimise MAP and consider a wake-up test."
+  },
+  {
+    "q": "What has neuromonitoring done to the risk of cord injury in scoliosis surgery?",
+    "o": [
+      "No change",
+      "Reduced it from around 5% to 0.5%",
+      "Increased it",
+      "Eliminated it",
+      "Only reduced nerve root injury"
+    ],
+    "a": 1,
+    "why": "IONM has reduced the risk of spinal cord injury from about 5% to 0.5%."
+  },
+  {
+    "q": "Which neuromuscular disease causing scoliosis is associated with cardiomyopathy?",
+    "o": [
+      "Cerebral palsy",
+      "Duchenne muscular dystrophy",
+      "Spina bifida",
+      "Myasthenia gravis",
+      "Guillain–Barré"
+    ],
+    "a": 1,
+    "why": "Duchenne muscular dystrophy causes cardiomyopathy; assess with echo before surgery."
+  },
+  {
+    "q": "The ETT is dislodged while the patient is prone. What is the immediate management?",
+    "o": [
+      "Turn the patient supine immediately before anything else",
+      "Call for help, insert an LMA to oxygenate, then intubate through it with a fibreoptic scope if needed",
+      "Bag-mask ventilation in the prone position for the rest of the case",
+      "Blind nasal intubation",
+      "Wait for the case to end"
+    ],
+    "a": 1,
+    "why": "Call for help; an LMA can be placed prone to restore oxygenation, then a tube passed over a fibreoptic scope."
+  },
+  {
+    "q": "What is the inheritance of myotonic dystrophy?",
+    "o": [
+      "Autosomal recessive",
+      "Autosomal dominant (chromosome 19)",
+      "X-linked",
+      "Mitochondrial",
+      "Sporadic"
+    ],
+    "a": 1,
+    "why": "Autosomal dominant; myotonia, distal weakness, cardiac conduction defects, cataracts and frontal balding."
+  },
+  {
+    "q": "Which drug can trigger myotonic contractures in myotonic dystrophy?",
+    "o": [
+      "Propofol",
+      "Neostigmine",
+      "Paracetamol",
+      "Sugammadex",
+      "Ondansetron"
+    ],
+    "a": 1,
+    "why": "Triggers include neostigmine, cold, shivering, pain and stimulation; patients are sensitive to sedatives."
+  },
+  {
+    "q": "In Lambert–Eaton myasthenic syndrome, what happens to strength with repeated effort?",
+    "o": [
+      "It worsens",
+      "It temporarily improves",
+      "No change",
+      "Paralysis",
+      "Myotonia"
+    ],
+    "a": 1,
+    "why": "Antibodies to presynaptic calcium channels; repeated stimulation increases calcium and ACh release, so strength briefly improves. Often paraneoplastic (small cell lung cancer)."
+  }
+]

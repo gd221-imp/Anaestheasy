@@ -1,0 +1,38 @@
+{
+  "t": "tip",
+  "shape": "belly",
+  "group": "Obstetrics",
+  "title": "Pregnancy & Incidental Surgery",
+  "cards": [
+    {
+      "h": "Overview",
+      "b": "file:cards/01-overview.html"
+    },
+    {
+      "h": "Timing considerations",
+      "b": "file:cards/02-timing-considerations.html"
+    },
+    {
+      "h": "General principles",
+      "b": "file:cards/03-general-principles.html"
+    },
+    {
+      "h": "Risks to the fetus",
+      "b": "file:cards/04-risks-to-the-fetus.html"
+    },
+    {
+      "h": "Anaesthetic approach (for surgery after around 24 weeks)",
+      "b": "file:cards/05-anaesthetic-approach-for-surgery-after-around-24.html"
+    },
+    {
+      "h": "Management of threatened pre-term labour - tocolytic options",
+      "b": "file:cards/06-management-of-threatened-pre-term-labour-tocolyt.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/07-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

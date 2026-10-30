@@ -1,0 +1,28 @@
+{
+  "t": "recipe",
+  "shape": "face",
+  "group": "Pain",
+  "title": "Trigeminal Nerve Radiofrequency Ablation",
+  "op": true,
+  "cards": [
+    {
+      "h": "Anaesthetic recipe",
+      "b": "file:cards/01-anaesthetic-recipe.html",
+      "recipe": true
+    },
+    {
+      "h": "Sample WPBA",
+      "b": "file:cards/02-sample-wpba.html",
+      "wpba": true
+    },
+    {
+      "h": "Curriculum",
+      "links": [
+        "curric:9",
+        "curric:12",
+        "curric:13"
+      ]
+    }
+  ],
+  "q": "file:quiz.json"
+}

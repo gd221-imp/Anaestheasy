@@ -1,0 +1,122 @@
+[
+  {
+    "q": "What is the leading cause of trauma in infants?",
+    "o": [
+      "RTC",
+      "Non-accidental injury",
+      "Falls",
+      "Sport",
+      "Burns"
+    ],
+    "a": 1,
+    "why": "Toddlers: falls; older children: pedestrian or cyclist RTCs."
+  },
+  {
+    "q": "What should be checked before and after manipulation?",
+    "o": [
+      "Temperature",
+      "Neurovascular status of the limb",
+      "Glucose",
+      "Urine output",
+      "Pupils"
+    ],
+    "a": 1,
+    "why": "Compartment syndrome is a delayed risk."
+  },
+  {
+    "q": "What does SCIWORA mean?",
+    "o": [
+      "Spinal cord injury with obvious radiological abnormality",
+      "Spinal cord injury without radiographic abnormality",
+      "A type of skull fracture",
+      "Spinal shock",
+      "A cord compression syndrome in adults"
+    ],
+    "a": 1,
+    "why": "More common in children because of ligamentous laxity and a large head."
+  },
+  {
+    "q": "Why do children have fewer rib fractures but more internal injury?",
+    "o": [
+      "Stiff ribs",
+      "A more compliant chest wall",
+      "Thicker muscle",
+      "Smaller organs",
+      "Higher BP"
+    ],
+    "a": 1,
+    "why": "Energy transfers to underlying organs."
+  },
+  {
+    "q": "A child with a forearm fracture ate 1 hour ago. Surgery is urgent for vascular compromise. What is appropriate?",
+    "o": [
+      "Wait 6 hours",
+      "RSI with an ETT",
+      "LMA",
+      "Sedation",
+      "Facemask"
+    ],
+    "a": 1,
+    "why": "Not-fasted patients needing urgent surgery need RSI."
+  },
+  {
+    "q": "Which safeguarding feature should prompt concern?",
+    "o": [
+      "A consistent history",
+      "Delayed presentation or inconsistent history",
+      "A witnessed fall",
+      "Prompt attendance",
+      "Engaged parent"
+    ],
+    "a": 1,
+    "why": "Also detached parent–child interaction."
+  },
+  {
+    "q": "Which category is NOT a category of abuse?",
+    "o": [
+      "Physical",
+      "Financial",
+      "Emotional",
+      "Neglect",
+      "Sexual"
+    ],
+    "a": 1,
+    "why": "Physical, emotional, sexual, neglect and fabricated or induced illness."
+  },
+  {
+    "q": "Which legislation underpins child protection in the note?",
+    "o": [
+      "Mental Capacity Act 2005",
+      "Children Act 2004",
+      "Human Tissue Act",
+      "Data Protection Act",
+      "Equality Act"
+    ],
+    "a": 1,
+    "why": "Children Act 1989 and 2004."
+  },
+  {
+    "q": "What is the usual destination after manipulation?",
+    "o": [
+      "PICU",
+      "Day case if appropriate",
+      "HDU",
+      "Ward for 1 week",
+      "Rehab"
+    ],
+    "a": 1,
+    "why": "With neurovascular observations."
+  },
+  {
+    "q": "In the paediatric primary survey, which is a late sign of shock?",
+    "o": [
+      "Tachycardia",
+      "Hypotension",
+      "Prolonged CRT",
+      "Cool peripheries",
+      "Tachypnoea"
+    ],
+    "a": 1,
+    "why": "Children compensate well until late."
+  }
+]

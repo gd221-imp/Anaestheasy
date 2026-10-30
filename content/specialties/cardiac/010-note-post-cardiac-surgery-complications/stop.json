@@ -1,0 +1,30 @@
+{
+  "t": "tip",
+  "shape": "heart",
+  "group": "Cardiac",
+  "title": "Post-Cardiac Surgery Complications",
+  "cards": [
+    {
+      "h": "General approach",
+      "b": "file:cards/01-general-approach.html"
+    },
+    {
+      "h": "Tamponade",
+      "b": "file:cards/02-tamponade.html"
+    },
+    {
+      "h": "Pulmonary Hypertension",
+      "b": "file:cards/03-pulmonary-hypertension.html"
+    },
+    {
+      "h": "Cardiac Arrest",
+      "b": "file:cards/04-cardiac-arrest.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/05-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

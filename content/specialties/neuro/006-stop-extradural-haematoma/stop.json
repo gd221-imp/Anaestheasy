@@ -1,0 +1,47 @@
+{
+  "t": "recipe",
+  "shape": "brain",
+  "group": "Neuro",
+  "title": "Extradural Haematoma",
+  "op": true,
+  "cards": [
+    {
+      "h": "Anaesthetic recipe",
+      "b": "file:cards/01-anaesthetic-recipe.html",
+      "recipe": true
+    },
+    {
+      "h": "The Brain: Anatomy, Blood Flow & Intracranial Pressure",
+      "primaryRef": "phs42"
+    },
+    {
+      "h": "Blood Supply to the Brain",
+      "primaryRef": "ana11"
+    },
+    {
+      "h": "Extradural Haematoma",
+      "noteRef": "Extradural Haematoma"
+    },
+    {
+      "h": "Traumatic Brain Injury",
+      "noteRef": "Traumatic Brain Injury"
+    },
+    {
+      "h": "Raised ICP & Subarachnoid Haemorrhage",
+      "noteRef": "Raised ICP & Subarachnoid Haemorrhage"
+    },
+    {
+      "h": "Sample WPBA",
+      "b": "file:cards/07-sample-wpba.html",
+      "wpba": true
+    },
+    {
+      "h": "Curriculum",
+      "links": [
+        "curric:9",
+        "curric:11"
+      ]
+    }
+  ],
+  "q": "file:quiz.json"
+}

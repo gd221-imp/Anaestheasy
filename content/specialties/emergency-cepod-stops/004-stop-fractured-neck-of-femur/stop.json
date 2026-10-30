@@ -1,0 +1,52 @@
+{
+  "t": "recipe",
+  "shape": "warn",
+  "group": "CEPOD",
+  "title": "Fractured Neck of Femur",
+  "op": true,
+  "cards": [
+    {
+      "h": "Anaesthetic recipe",
+      "b": "file:cards/01-anaesthetic-recipe.html",
+      "recipe": true
+    },
+    {
+      "h": "The Hip Joint & Fascia Iliaca Compartment",
+      "primaryRef": "ana32"
+    },
+    {
+      "h": "Lower Limb Nerve Supply — Lumbar & Sacral Plexus",
+      "primaryRef": "ana12"
+    },
+    {
+      "h": "Lumbosacral Plexus, Femoral & Sciatic Nerves",
+      "primaryRef": "ana23"
+    },
+    {
+      "h": "Fractured Neck of Femur",
+      "noteRef": "Fractured Neck of Femur"
+    },
+    {
+      "h": "Aortic Stenosis",
+      "noteRef": "Aortic Stenosis"
+    },
+    {
+      "h": "Bone Cement Implantation Syndrome",
+      "noteRef": "Bone Cement Implantation Syndrome"
+    },
+    {
+      "h": "Sample WPBA",
+      "b": "file:cards/08-sample-wpba.html",
+      "wpba": true
+    },
+    {
+      "h": "Curriculum",
+      "links": [
+        "curric:8",
+        "curric:9",
+        "curric:10"
+      ]
+    }
+  ],
+  "q": "file:quiz.json"
+}

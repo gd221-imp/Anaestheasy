@@ -1,0 +1,62 @@
+[
+  {
+    "q": "Which electrolyte is most important to check before and after PD catheter insertion?",
+    "o": [
+      "Potassium",
+      "Calcium",
+      "Magnesium",
+      "Sodium",
+      "Phosphate"
+    ],
+    "a": 0,
+    "why": "Patients with renal failure are often hyperkalaemic; a venous gas at the end helps."
+  },
+  {
+    "q": "Which relaxant suits patients with renal failure?",
+    "o": [
+      "Atracurium",
+      "Gallamine",
+      "Suxamethonium regardless of potassium",
+      "Pancuronium",
+      "Vecuronium infusions"
+    ],
+    "a": 0,
+    "why": "Atracurium is cleared by Hofmann degradation and ester hydrolysis, not the kidney."
+  },
+  {
+    "q": "Which arm should you avoid for cannulas and BP cuffs?",
+    "o": [
+      "Left arm always",
+      "The arm with an AV fistula",
+      "Right arm always",
+      "Either",
+      "Dominant arm"
+    ],
+    "a": 1,
+    "why": "Protect a working fistula from cannulation, cuffs and pressure."
+  },
+  {
+    "q": "Which analgesic should be avoided in renal failure?",
+    "o": [
+      "Ondansetron",
+      "NSAIDs",
+      "Paracetamol",
+      "Fentanyl",
+      "Local anaesthetic infiltration"
+    ],
+    "a": 1,
+    "why": "NSAIDs can harm residual renal function; morphine metabolites also accumulate."
+  },
+  {
+    "q": "How is PD catheter insertion usually managed?",
+    "o": [
+      "Under sedation only",
+      "Two-week admission",
+      "Always HDU",
+      "Always ICU",
+      "Day case or short stay"
+    ],
+    "a": 4,
+    "why": "Quick laparoscopic procedure, usually a day case."
+  }
+]

@@ -1,0 +1,34 @@
+{
+  "t": "tip",
+  "shape": "clip",
+  "group": "Periop medicine",
+  "title": "CPET & Perioperative Risk Assessment",
+  "cards": [
+    {
+      "h": "Overview",
+      "b": "file:cards/01-overview.html"
+    },
+    {
+      "h": "Assessing peri-op risk",
+      "b": "file:cards/02-assessing-peri-op-risk.html"
+    },
+    {
+      "h": "Risk prediction models = individualised risk",
+      "b": "file:cards/03-risk-prediction-models-individualised-risk.html"
+    },
+    {
+      "h": "CPET",
+      "b": "file:cards/04-cpet.html"
+    },
+    {
+      "h": "Absolute contraindications to CPET",
+      "b": "file:cards/05-absolute-contraindications-to-cpet.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/06-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

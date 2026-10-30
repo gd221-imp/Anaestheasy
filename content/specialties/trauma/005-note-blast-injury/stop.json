@@ -1,0 +1,18 @@
+{
+  "t": "tip",
+  "shape": "cross",
+  "group": "Orthopaedics and Trauma",
+  "title": "Blast Injury",
+  "cards": [
+    {
+      "h": "Overview",
+      "b": "file:cards/01-overview.html"
+    },
+    {
+      "h": "Classification",
+      "b": "file:cards/02-classification.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

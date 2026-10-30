@@ -1,0 +1,26 @@
+{
+  "t": "tip",
+  "shape": "scalpel",
+  "group": "General surgery",
+  "title": "Food Bolus Obstruction, Oesophageal Achalasia & TPN",
+  "cards": [
+    {
+      "h": "Overview",
+      "b": "file:cards/01-overview.html"
+    },
+    {
+      "h": "Oesophageal achalasia",
+      "b": "file:cards/02-oesophageal-achalasia.html"
+    },
+    {
+      "h": "Total Parenteral Nutrition (TPN)",
+      "b": "file:cards/03-total-parenteral-nutrition-tpn.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/04-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

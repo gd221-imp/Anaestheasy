@@ -1,0 +1,28 @@
+<h4>the null hypothesis</h4>
+<p>'there is no difference between study groups with respect to the variable of interest.'</p>
+<ul>
+<li>p-value &lt;0.05 = significant, &lt;0.01 = highly significant → i.e. an altered result occurs by chance &lt;1% of the time.</li>
+<li>nowadays, with computers, p-values should be quoted precisely rather than just as 'statistically significant'.</li>
+<li>something can be statistically significant but not clinically significant.</li>
+<li>confidence intervals should always be quoted alongside p-values.</li>
+</ul>
+<h4>Study power - 2x2 table of truth vs test result</h4>
+<p>Null hypothesis is True | Null hypothesis is False</p>
+<p>p-value&lt;0.05 (Yes) | Type I error (alpha)  | correct</p>
+<p>p-value&lt;0.05 (No)  | correct               | Type II error (beta)</p>
+<ul>
+<li>Type I error → 'found a difference when there is no real difference' - occurs by random chance → reduced by lowering the p-value threshold.</li>
+<li>Type II error → 'missed a real difference' - often due to an inadequate sample size.</li>
+</ul>
+<p>power of a test = (1-beta) x 100% (the probability of avoiding a type II error); for publication, power may need to be &gt;80%.</p>
+<p>power calculations should be done before a study, to decide on the minimum clinically significant difference (from pilot data or previous research), which is then used to define the control mean + SD needed.</p>
+<h4>Multiple comparisons</h4>
+<ul>
+<li>increases the type I error rate (the chance of finding a false positive in 20 samples at p=0.05 is 1 in 20).</li>
+<li>for multiple t-tests, apply Bonferroni's correction, where the significant p-value threshold becomes p&lt;0.05/n (n=number of comparisons).</li>
+<li>or use ANOVA with post-hoc testing if p&lt;0.01.</li>
+</ul>
+<h4>One vs two-tailed tests</h4>
+<p>*'one-tailed' → only interested in whether one mean is greater than the other → usually inappropriate.</p>
+<p>*'two-tailed' → either group may have the higher mean.</p>
+<p>A result can appear opposite to expectation even with a genuine significant difference, due to chance - so you need good reason/certainty to accept an unexpected result if it seems unlikely or wasn't hypothesised in advance.</p>

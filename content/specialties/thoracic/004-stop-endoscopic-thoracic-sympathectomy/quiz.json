@@ -1,0 +1,122 @@
+[
+  {
+    "q": "For palmar hyperhidrosis, which level of the sympathetic chain is usually divided?",
+    "o": [
+      "T1",
+      "T2–T3",
+      "T5–T6",
+      "T8–T10",
+      "L1–L2"
+    ],
+    "a": 1,
+    "why": "T2–3 for palmar hyperhidrosis, T2–4 for axillary, and T2–5 for angina or other indications."
+  },
+  {
+    "q": "After thoracic sympathectomy a patient has ptosis and miosis on one side. What has happened?",
+    "o": [
+      "Phrenic nerve injury",
+      "Horner’s syndrome from injury at the stellate (T1) level",
+      "Third nerve palsy",
+      "Brachial plexus injury",
+      "Recurrent laryngeal nerve palsy"
+    ],
+    "a": 1,
+    "why": "Horner’s syndrome is a recognised delayed complication when the dissection reaches the stellate ganglion."
+  },
+  {
+    "q": "During ETS with intrathoracic CO2 insufflation, BP falls suddenly and airway pressures rise. What is the most likely cause?",
+    "o": [
+      "Anaphylaxis",
+      "Tension pneumothorax from insufflation",
+      "Vasovagal reaction",
+      "Light anaesthesia",
+      "Hypocalcaemia"
+    ],
+    "a": 1,
+    "why": "Insufflation can cause tension pneumothorax, surgical emphysema and reduced venous return with hypotension. Release the gas and treat."
+  },
+  {
+    "q": "Which airway technique is often the first choice for bilateral ETS?",
+    "o": [
+      "Double-lumen tube",
+      "Single-lumen tube with intrathoracic CO2 insufflation",
+      "LMA with spontaneous breathing",
+      "Bronchial blocker on each side",
+      "Tracheostomy"
+    ],
+    "a": 1,
+    "why": "A single-lumen tube with CO2 insufflation is often first choice; a DLT gives the best access but adds atelectasis, shunt and hypoxaemia risk when both sides are operated on."
+  },
+  {
+    "q": "Which is an ABSOLUTE indication for one-lung ventilation?",
+    "o": [
+      "Oesophagectomy",
+      "Thoracic aortic aneurysm repair",
+      "Isolating a lung to prevent contamination from massive haemorrhage",
+      "VATS lobectomy",
+      "Lateral spinal surgery"
+    ],
+    "a": 2,
+    "why": "Absolute indications are lung isolation to prevent contamination (haemorrhage, empyema), controlling ventilation distribution (bronchopleural fistula, bullae) and unilateral lung lavage."
+  },
+  {
+    "q": "What size double-lumen tube is usually chosen for an adult male?",
+    "o": [
+      "32–35 Ch",
+      "35–37 Ch",
+      "39–41 Ch",
+      "43–45 Ch",
+      "28 Ch"
+    ],
+    "a": 2,
+    "why": "By height: male under 170 cm 39 Fr, over 170 cm 41 Fr; female under 160 cm 35 Fr, over 160 cm 37 Fr. Position is confirmed clinically and then by bronchoscopy."
+  },
+  {
+    "q": "What is a disadvantage of a bronchial blocker compared with a DLT?",
+    "o": [
+      "It needs a tube exchange",
+      "No suction or CPAP to the isolated lung and more likely to migrate",
+      "It cannot be used in difficult airways",
+      "It is larger and more rigid",
+      "It cannot isolate the left lung"
+    ],
+    "a": 1,
+    "why": "Blockers go through an existing ETT (no exchange) but migrate more easily and do not allow suction or CPAP to the isolated lung."
+  },
+  {
+    "q": "Which nerve injury is associated with the lateral position?",
+    "o": [
+      "Femoral nerve",
+      "Common peroneal nerve",
+      "Obturator nerve",
+      "Sciatic nerve",
+      "Lateral cutaneous nerve of thigh"
+    ],
+    "a": 1,
+    "why": "The lateral position risks radial, common peroneal, brachial plexus and saphenous injuries, as well as eye and ear injury."
+  },
+  {
+    "q": "After turning lateral, peak airway pressure on one-lung ventilation rises from 25 to 40 cmH2O. What is the most likely cause?",
+    "o": [
+      "Asthma",
+      "DLT malposition",
+      "Obesity",
+      "Anaphylaxis",
+      "Hypothermia"
+    ],
+    "a": 1,
+    "why": "Tube malposition is common after turning. Check with the bronchoscope. The narrow DLT lumen can also be obstructed."
+  },
+  {
+    "q": "What is the commonest long-term complaint after sympathectomy for hyperhidrosis?",
+    "o": [
+      "Persistent pneumothorax",
+      "Compensatory sweating elsewhere",
+      "Chronic pain",
+      "Horner’s syndrome",
+      "Bradycardia"
+    ],
+    "a": 1,
+    "why": "Compensatory sweating elsewhere on the body is a common delayed complication and should be part of consent."
+  }
+]

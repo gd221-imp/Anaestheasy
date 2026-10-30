@@ -1,0 +1,48 @@
+{
+  "t": "recipe",
+  "shape": "belly",
+  "group": "Obstetrics",
+  "title": "Pregnant Woman with Cardiac Disease: Delivery and Caesarean Section",
+  "op": true,
+  "cards": [
+    {
+      "h": "Anaesthetic recipe",
+      "b": "file:cards/01-anaesthetic-recipe.html",
+      "recipe": true
+    },
+    {
+      "h": "The Cardiac Cycle",
+      "primaryRef": "phs0"
+    },
+    {
+      "h": "Drugs Acting on the Uterus",
+      "primaryRef": "pha27"
+    },
+    {
+      "h": "Cardiac Disease in Pregnancy",
+      "noteRef": "Cardiac Disease in Pregnancy"
+    },
+    {
+      "h": "Peripartum Cardiomyopathy",
+      "noteRef": "Peripartum Cardiomyopathy"
+    },
+    {
+      "h": "Maternal Physiology",
+      "noteRef": "Maternal Physiology"
+    },
+    {
+      "h": "Sample WPBA",
+      "b": "file:cards/07-sample-wpba.html",
+      "wpba": true
+    },
+    {
+      "h": "Curriculum",
+      "links": [
+        "curric:8",
+        "curric:9",
+        "curric:10"
+      ]
+    }
+  ],
+  "q": "file:quiz.json"
+}

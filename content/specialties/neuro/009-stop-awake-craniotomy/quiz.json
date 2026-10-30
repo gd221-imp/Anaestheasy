@@ -1,0 +1,122 @@
+[
+  {
+    "q": "Which is the main indication for awake craniotomy?",
+    "o": [
+      "Any brain tumour",
+      "Resection near eloquent cortex (speech or motor)",
+      "Raised ICP",
+      "Trauma",
+      "Children under 10"
+    ],
+    "a": 1,
+    "why": "Awake testing allows maximal safe resection near eloquent areas; it is also used for epilepsy surgery and DBS."
+  },
+  {
+    "q": "Which is an absolute contraindication to awake craniotomy?",
+    "o": [
+      "Mild anxiety",
+      "Raised ICP or inability to lie still and cooperate",
+      "Age over 60",
+      "Obesity (BMI 30)",
+      "Diabetes"
+    ],
+    "a": 1,
+    "why": "Absolute: patient refusal, inability to cooperate or lie still, raised ICP."
+  },
+  {
+    "q": "Which nerve is NOT included in a scalp block?",
+    "o": [
+      "Supraorbital",
+      "Auriculotemporal",
+      "Greater occipital",
+      "Facial nerve",
+      "Zygomaticotemporal"
+    ],
+    "a": 3,
+    "why": "The 7 nerves: supraorbital, supratrochlear, zygomaticotemporal, auriculotemporal, greater auricular, greater occipital, lesser occipital."
+  },
+  {
+    "q": "During cortical mapping, the patient has a focal seizure. What is the first treatment?",
+    "o": [
+      "IV phenytoin loading",
+      "Ask the surgeon to irrigate the cortex with ice-cold saline",
+      "Intubate immediately",
+      "IV lorazepam 4 mg",
+      "Stop all monitoring"
+    ],
+    "a": 1,
+    "why": "Ice-cold saline on the brain surface usually stops it; small doses of propofol or midazolam if needed (they suppress the ECoG)."
+  },
+  {
+    "q": "What is an advantage of dexmedetomidine for awake craniotomy?",
+    "o": [
+      "It causes deep anaesthesia",
+      "Sedation with little respiratory depression",
+      "It is a good analgesic alone",
+      "It prevents seizures",
+      "No cardiovascular effects"
+    ],
+    "a": 1,
+    "why": "Dexmedetomidine (alpha-2 agonist, about 8× more selective than clonidine) sedates with little respiratory depression; it can cause bradycardia and hypotension."
+  },
+  {
+    "q": "What is the main airway risk during the asleep phase of an asleep–awake–asleep technique?",
+    "o": [
+      "Laryngospasm on intubation only",
+      "Airway obstruction and hypoventilation with limited head access",
+      "Bronchospasm",
+      "Vocal cord palsy",
+      "None"
+    ],
+    "a": 1,
+    "why": "The head is fixed in pins; have an LMA ready and a plan for airway rescue."
+  },
+  {
+    "q": "What is the definition of status epilepticus used for treatment?",
+    "o": [
+      "A seizure over 1 minute",
+      "A seizure over 5 minutes, or repeated seizures without recovery",
+      "A seizure over 60 minutes",
+      "Two seizures in a day",
+      "Any focal seizure"
+    ],
+    "a": 1,
+    "why": "Treat seizures lasting over 5 minutes; long-term harm is more likely after about 30 minutes."
+  },
+  {
+    "q": "What is the first-line treatment for status epilepticus in hospital?",
+    "o": [
+      "Phenytoin",
+      "IV lorazepam 0.1 mg/kg (e.g. 4 mg), repeated once",
+      "Levetiracetam",
+      "Thiopental",
+      "Magnesium"
+    ],
+    "a": 1,
+    "why": "First line is a benzodiazepine; second line levetiracetam, phenytoin or valproate; third line GA or phenobarbital."
+  },
+  {
+    "q": "Which second-line drug is given as 60 mg/kg IV over 15 minutes for status epilepticus?",
+    "o": [
+      "Phenytoin",
+      "Levetiracetam",
+      "Valproate",
+      "Phenobarbital",
+      "Diazepam"
+    ],
+    "a": 1,
+    "why": "Levetiracetam 60 mg/kg (max 4.5 g); phenytoin 15–18 mg/kg; valproate 40 mg/kg."
+  },
+  {
+    "q": "What happens after about 60 minutes of continuous seizure activity?",
+    "o": [
+      "Compensation improves",
+      "Decompensation: hypotension, hypoxia, hypoglycaemia, rhabdomyolysis and cerebral oedema",
+      "No change",
+      "Seizures stop spontaneously",
+      "Hypothermia"
+    ],
+    "a": 1,
+    "why": "Autoregulation fails, with acidosis, hyperkalaemia, rhabdomyolysis and neuronal death."
+  }
+]

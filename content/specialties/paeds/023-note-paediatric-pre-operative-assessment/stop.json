@@ -1,0 +1,58 @@
+{
+  "t": "tip",
+  "shape": "dummy",
+  "group": "Paeds",
+  "title": "Paediatric Pre-operative Assessment",
+  "cards": [
+    {
+      "h": "Aims",
+      "b": "file:cards/01-aims.html"
+    },
+    {
+      "h": "History",
+      "b": "file:cards/02-history.html"
+    },
+    {
+      "h": "Examination",
+      "b": "file:cards/03-examination.html"
+    },
+    {
+      "h": "Spotting the sick child (A to E)",
+      "b": "file:cards/04-spotting-the-sick-child-a-to-e.html"
+    },
+    {
+      "h": "Apnoea",
+      "b": "file:cards/05-apnoea.html"
+    },
+    {
+      "h": "Investigations",
+      "b": "file:cards/06-investigations.html"
+    },
+    {
+      "h": "Fasting",
+      "b": "file:cards/07-fasting.html"
+    },
+    {
+      "h": "Managing fluids",
+      "b": "file:cards/08-managing-fluids.html"
+    },
+    {
+      "h": "Planning",
+      "b": "file:cards/09-planning.html"
+    },
+    {
+      "h": "Revise from your notes",
+      "links": [
+        "stop:Upper Respiratory Tract Infection",
+        "stop:ADHD & Childhood Fasting Guidelines",
+        "stop:Meningococcal Septicaemia & Consent (Gillick Competence)",
+        "stop:Day Case Surgery",
+        "stop:Paediatric Premedication",
+        "stop:Cerebral Palsy",
+        "stop:Autistic Spectrum Disorder & Failed IV Access"
+      ]
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

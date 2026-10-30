@@ -1,0 +1,26 @@
+{
+  "t": "tip",
+  "shape": "bone",
+  "group": "Orthopaedics and Trauma",
+  "title": "Regional Anaesthesia - Brachial Plexus & Ankle Block",
+  "cards": [
+    {
+      "h": "Benefits of regional over GA",
+      "b": "file:cards/01-benefits-of-regional-over-ga.html"
+    },
+    {
+      "h": "Interscalene",
+      "b": "file:cards/02-interscalene.html"
+    },
+    {
+      "h": "Ankle Block - 5 nerves",
+      "b": "file:cards/03-ankle-block-5-nerves.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/04-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

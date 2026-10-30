@@ -1,0 +1,122 @@
+[
+  {
+    "q": "During rigid bronchoscopy you use a Manujet (low-frequency manual jet). Which statement is correct?",
+    "o": [
+      "It allows continuous EtCO2 monitoring",
+      "Exhalation is passive and there is a risk of barotrauma",
+      "It delivers volatile anaesthetic reliably",
+      "It delivers a precise FiO2",
+      "It works by active expiration"
+    ],
+    "a": 1,
+    "why": "Manual jet ventilation (around 4 atm) relies on passive exhalation; you cannot measure EtCO2 or control FiO2, and barotrauma is a risk if outflow is obstructed."
+  },
+  {
+    "q": "Which is NOT a mechanism of gas exchange during high-frequency jet ventilation?",
+    "o": [
+      "Bulk flow",
+      "Taylor dispersion",
+      "Pendelluft",
+      "Simple diffusion",
+      "The Haldane effect"
+    ],
+    "a": 4,
+    "why": "Gas exchange during HFJV occurs by bulk flow, Taylor dispersion, pendelluft, cardiogenic mixing and simple diffusion."
+  },
+  {
+    "q": "A patient with massive haemoptysis from the right lung is being stabilised. How should they be positioned?",
+    "o": [
+      "Left side down",
+      "Right side down",
+      "Supine flat",
+      "Prone",
+      "Trendelenburg"
+    ],
+    "a": 1,
+    "why": "Position the bleeding lung down to stop blood soiling the good lung."
+  },
+  {
+    "q": "What is the preferred initial airway approach in massive haemoptysis?",
+    "o": [
+      "A small DLT inserted immediately",
+      "A large uncut single-lumen ETT with a flexible bronchoscope",
+      "A supraglottic airway",
+      "Nasal intubation",
+      "Tracheostomy under local anaesthetic"
+    ],
+    "a": 1,
+    "why": "An uncut ETT plus flexible bronchoscopy allows suction, placement of a bronchial blocker, or advancing the tube into the clear lung. A DLT is hard to place during bleeding and its lumens are often too small for a scope."
+  },
+  {
+    "q": "Where do the bronchial arteries to the left lung usually arise?",
+    "o": [
+      "The pulmonary artery",
+      "The descending thoracic aorta (two arteries)",
+      "The left subclavian artery",
+      "The internal mammary artery",
+      "The coeliac axis"
+    ],
+    "a": 1,
+    "why": "Two bronchial arteries supply the left lung from the descending thoracic aorta; one supplies the right lung, usually from a right bronchial or intercostal artery."
+  },
+  {
+    "q": "Which is a recognised non-surgical method to control massive haemoptysis?",
+    "o": [
+      "IV adrenaline infusion",
+      "Bronchial artery embolisation",
+      "High PEEP",
+      "Nebulised salbutamol",
+      "Heparin infusion"
+    ],
+    "a": 1,
+    "why": "Options include bronchial blocker tamponade for 24 hours, cold saline lavage in small aliquots, bronchial artery embolisation, topical adrenaline and rigid bronchoscopic techniques."
+  },
+  {
+    "q": "A patient on TB treatment needs anaesthesia. Which drug is a potent liver enzyme inducer?",
+    "o": [
+      "Isoniazid",
+      "Rifampicin",
+      "Ethambutol",
+      "Pyrazinamide",
+      "Pyridoxine"
+    ],
+    "a": 1,
+    "why": "Rifampicin induces enzymes (affecting many anaesthetic drugs); isoniazid inhibits them."
+  },
+  {
+    "q": "A patient with an airway stent in place returns for repeat bronchoscopy. How should the airway be managed?",
+    "o": [
+      "Blind intubation with a bougie",
+      "An LMA first, then intubate over a fibreoptic scope if needed",
+      "Rigid bronchoscopy is mandatory",
+      "Nasal intubation",
+      "Avoid all airway devices"
+    ],
+    "a": 1,
+    "why": "Use an LMA first and intubate under fibreoptic guidance if needed, to avoid dislodging the stent."
+  },
+  {
+    "q": "Which is a contraindication to high-flow nasal oxygen for apnoeic oxygenation during airway surgery?",
+    "o": [
+      "Obesity",
+      "Laser surgery",
+      "Laryngeal biopsy",
+      "Short procedure",
+      "Spontaneous breathing"
+    ],
+    "a": 1,
+    "why": "Contraindications include laser surgery (fire risk), base of skull fracture, facial trauma, epistaxis, nasal obstruction and uncorrected coagulopathy."
+  },
+  {
+    "q": "During rigid bronchoscopy with jet ventilation, how is anaesthesia best maintained?",
+    "o": [
+      "Sevoflurane via the jet",
+      "TIVA with depth monitoring",
+      "Nitrous oxide via the side-arm",
+      "Intermittent ketamine alone",
+      "Local anaesthetic only"
+    ],
+    "a": 1,
+    "why": "Volatile delivery is unreliable with an open shared airway, so TIVA (propofol and remifentanil) with depth monitoring is used, given awareness risk."
+  }
+]

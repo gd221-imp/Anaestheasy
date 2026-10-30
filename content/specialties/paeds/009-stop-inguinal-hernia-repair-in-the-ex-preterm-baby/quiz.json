@@ -1,0 +1,122 @@
+[
+  {
+    "q": "Until what post-conceptional age are ex-premature babies at increased risk of post-op apnoea?",
+    "o": [
+      "44 weeks",
+      "60 weeks",
+      "40 weeks",
+      "1 year",
+      "80 weeks"
+    ],
+    "a": 1,
+    "why": "Need apnoea monitoring and an inpatient bed if under 60 weeks PCA."
+  },
+  {
+    "q": "Which factor worsens apnoea risk in ex-prems?",
+    "o": [
+      "High Hb",
+      "Anaemia",
+      "Caffeine",
+      "Normothermia",
+      "Regional anaesthesia"
+    ],
+    "a": 1,
+    "why": "Also hypoxia, hypothermia, hypoglycaemia, sepsis and opioids; caffeine reduces risk."
+  },
+  {
+    "q": "What did the GAS trial find?",
+    "o": [
+      "GA reduced IQ at 5 years",
+      "No difference in neurodevelopment at 2 years or IQ at 5 years between awake regional and under 1 hour of sevoflurane",
+      "Regional caused more apnoea",
+      "GA caused learning disability",
+      "It was stopped early for harm"
+    ],
+    "a": 1,
+    "why": "Infants under 60 weeks PMA having hernia repair."
+  },
+  {
+    "q": "What did the MASK study find with multiple exposures before age 3?",
+    "o": [
+      "No differences at all",
+      "Small reductions in processing speed and fine motor skills, and more parent-reported behaviour problems",
+      "Large IQ reduction",
+      "Increased autism",
+      "Improved IQ"
+    ],
+    "a": 1,
+    "why": "Single exposure showed no difference in IQ."
+  },
+  {
+    "q": "What did the 2016 FDA warning concern?",
+    "o": [
+      "Any GA at any age",
+      "Repeated or lengthy (over 3 h) GA in children under 3 or pregnant women in the third trimester",
+      "Propofol only",
+      "Regional anaesthesia",
+      "Over 12s"
+    ],
+    "a": 1,
+    "why": "This prompted the human studies that followed."
+  },
+  {
+    "q": "What is the approximate blood volume of a neonate?",
+    "o": [
+      "70 ml/kg",
+      "90 ml/kg",
+      "50 ml/kg",
+      "120 ml/kg",
+      "60 ml/kg"
+    ],
+    "a": 1,
+    "why": "Around 90 ml/kg with HbF 80% at birth."
+  },
+  {
+    "q": "Why are neonates prone to hypothermia?",
+    "o": [
+      "They shiver vigorously",
+      "High BSA:volume ratio and no shivering",
+      "High fat stores",
+      "Low metabolic rate",
+      "Thick skin"
+    ],
+    "a": 1,
+    "why": "They rely on brown fat (non-shivering thermogenesis), which is reduced in prems."
+  },
+  {
+    "q": "What is the APRICOT in-hospital mortality rate?",
+    "o": [
+      "1 in 100",
+      "About 1 in 1,000",
+      "1 in 100,000",
+      "1 in 20",
+      "1 in 10,000"
+    ],
+    "a": 1,
+    "why": "Severe critical incidents occurred in about 1 in 20 anaesthetics."
+  },
+  {
+    "q": "Why is cardiac output heart-rate dependent in neonates?",
+    "o": [
+      "High stroke volume reserve",
+      "Relatively fixed stroke volume",
+      "Low heart rate",
+      "Highly compliant ventricles",
+      "Adult-like myocardium"
+    ],
+    "a": 1,
+    "why": "Bradycardia drops cardiac output."
+  },
+  {
+    "q": "Which regional techniques are used for ex-prem hernia repair?",
+    "o": [
+      "Femoral block",
+      "Spinal or caudal",
+      "Paravertebral",
+      "Interscalene",
+      "Penile block"
+    ],
+    "a": 1,
+    "why": "Awake spinal or caudal is an option; regional suits unilateral repair."
+  }
+]

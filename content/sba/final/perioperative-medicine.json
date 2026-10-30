@@ -1,0 +1,274 @@
+[
+  {
+    "id": "Q181",
+    "ar": "Perioperative medicine",
+    "sb": "CPET",
+    "q": "A 70-year-old man is assessed for an oesophagectomy. His CPET shows an anaerobic threshold of 9 mL/kg/min and a peak VO2 of 13 mL/kg/min. How should these results be interpreted?",
+    "o": [
+      "Results are invalid unless peak VO2 exceeds 25",
+      "He should have a pneumonectomy instead",
+      "Low risk; proceed without further discussion",
+      "CPET cannot be used before oesophagectomy",
+      "Increased risk of postoperative complications and mortality; discuss in MDT and consider prehabilitation"
+    ],
+    "a": 4,
+    "why": "An anaerobic threshold below about 10–11 mL/kg/min and peak VO2 below about 15 mL/kg/min are associated with higher morbidity and mortality after major abdominal surgery. Results inform shared decision-making, planning of critical care, and prehabilitation (exercise, nutrition, psychological support and correction of anaemia).",
+    "st": null
+  },
+  {
+    "id": "Q182",
+    "ar": "Perioperative medicine",
+    "sb": "Functional assessment",
+    "q": "Which is the most accurate bedside measure of functional capacity that correlates with CPET?",
+    "o": [
+      "Self-reported ability to climb two flights of stairs",
+      "Body mass index",
+      "NYHA class",
+      "ASA grade",
+      "Duke Activity Status Index (DASI)"
+    ],
+    "a": 4,
+    "why": "The METS study (2018) showed that subjective assessment of functional capacity was inaccurate, whereas the DASI questionnaire predicted postoperative cardiac complications and correlated with peak VO2 (a DASI of about 34 or less indicates increased risk). NT-proBNP also added prognostic value. The incremental shuttle walk test and 6-minute walk test are other objective options.",
+    "st": null
+  },
+  {
+    "id": "Q183",
+    "ar": "Perioperative medicine",
+    "sb": "Preoperative anaemia",
+    "q": "A 64-year-old is scheduled for colorectal cancer surgery in 4 weeks. Hb 102 g/L, ferritin 18 µg/L, transferrin saturation 12%. What is the best management?",
+    "o": [
+      "IV iron now",
+      "Transfuse 2 units the day before surgery",
+      "No treatment",
+      "Oral iron for 3 months and postpone surgery",
+      "Erythropoietin alone"
+    ],
+    "a": 0,
+    "why": "This is iron-deficiency anaemia (ferritin &lt; 30 µg/L, TSAT &lt; 20%). With less than 6 weeks before surgery, IV iron is preferred (CPOC and international consensus) because oral iron acts slowly and is poorly tolerated. Investigate the cause. Preoperative anaemia is associated with transfusion, complications and mortality; transfusion is not a treatment for anaemia before elective surgery.",
+    "st": null
+  },
+  {
+    "id": "Q184",
+    "ar": "Perioperative medicine",
+    "sb": "Frailty",
+    "q": "Which tool is recommended in the UK to screen older surgical patients for frailty?",
+    "o": [
+      "Clinical Frailty Scale",
+      "Glasgow Coma Scale",
+      "STOP-BANG",
+      "Lee's Revised Cardiac Risk Index",
+      "APACHE II"
+    ],
+    "a": 0,
+    "why": "The Clinical Frailty Scale (Rockwood, 1–9) is quick and widely used (score of 5 or more indicates frailty). Fried's phenotype (weight loss, exhaustion, low activity, slow walking, weak grip) and the Edmonton Frail Scale are alternatives. Frailty predicts complications, delirium, longer stay and mortality, and should prompt comprehensive geriatric assessment.",
+    "st": null
+  },
+  {
+    "id": "Q185",
+    "ar": "Perioperative medicine",
+    "sb": "ERAS",
+    "q": "Which of the following is a recommended element of an enhanced recovery programme for elective colorectal surgery?",
+    "o": [
+      "Routine nasogastric tube after surgery",
+      "Liberal intraoperative fluids",
+      "Preoperative carbohydrate loading drinks",
+      "Prolonged preoperative fasting from midnight",
+      "Routine mechanical bowel preparation"
+    ],
+    "a": 2,
+    "why": "ERAS includes preoperative education, carbohydrate loading (up to 2 hours before), minimal fasting, avoidance of routine bowel preparation and drains, goal-directed or balanced fluids, opioid-sparing multimodal analgesia, PONV prophylaxis, normothermia, early feeding and early mobilisation. Routine nasogastric tubes are avoided.",
+    "st": "st2-117"
+  },
+  {
+    "id": "Q186",
+    "ar": "Perioperative medicine",
+    "sb": "Obstructive sleep apnoea",
+    "q": "A patient with severe OSA (AHI 40) uses CPAP at home and is having a laparoscopic cholecystectomy. What is the most important postoperative measure?",
+    "o": [
+      "Admit to ICU routinely",
+      "Give a long-acting opioid at night",
+      "Bring and use their CPAP machine postoperatively, minimise opioids and monitor oxygen saturation",
+      "Discharge as a day case without any conditions",
+      "Withhold CPAP for 24 hours after surgery"
+    ],
+    "a": 2,
+    "why": "Patients with known OSA should bring their CPAP and use it whenever sleeping postoperatively. Use opioid-sparing analgesia, avoid sedatives, nurse semi-upright and monitor saturation. Day surgery is possible if OSA is well controlled with CPAP and opioid requirements are low (SAMBA/CPOC guidance).",
+    "st": null
+  },
+  {
+    "id": "Q187",
+    "ar": "Perioperative medicine",
+    "sb": "Drug-eluting stents",
+    "q": "A patient had a drug-eluting stent inserted for stable angina 3 months ago and takes aspirin and clopidogrel. He needs an elective hernia repair. What is the most appropriate plan?",
+    "o": [
+      "Stop both antiplatelets for a week and proceed",
+      "Switch to warfarin",
+      "Proceed on both antiplatelets with a spinal anaesthetic",
+      "Postpone elective surgery until at least 6 months of dual antiplatelet therapy is complete, after discussion with cardiology",
+      "Stop clopidogrel 7 days before and proceed"
+    ],
+    "a": 3,
+    "why": "ESC 2022 guidance: delay elective non-cardiac surgery until the recommended minimum DAPT period after PCI (usually 6 months after elective PCI, 12 months after acute coronary syndrome; 1 month is a minimum for time-sensitive surgery). Premature stopping of DAPT risks stent thrombosis. Continue aspirin perioperatively where possible. Decisions involve the cardiologist and surgeon.",
+    "st": null
+  },
+  {
+    "id": "Q188",
+    "ar": "Perioperative medicine",
+    "sb": "Revised Cardiac Risk Index",
+    "q": "Which of the following is one of the six factors in Lee's Revised Cardiac Risk Index?",
+    "o": [
+      "Smoking",
+      "Atrial fibrillation",
+      "Age over 70 years",
+      "Hypertension",
+      "Preoperative creatinine &gt; 177 µmol/L (2 mg/dL)"
+    ],
+    "a": 4,
+    "why": "RCRI factors: high-risk surgery (intraperitoneal, intrathoracic or suprainguinal vascular), ischaemic heart disease, heart failure, cerebrovascular disease, diabetes on insulin, and creatinine &gt; 177 µmol/L. Age, hypertension and AF are not included. Risk of major cardiac events rises with the number of factors.",
+    "st": null
+  },
+  {
+    "id": "Q189",
+    "ar": "Perioperative medicine",
+    "sb": "Emergency laparotomy (NELA)",
+    "q": "A patient has a NELA-predicted mortality of 12% for emergency laparotomy. According to NELA standards, which arrangement is recommended?",
+    "o": [
+      "Surgery by a trainee without consultant presence",
+      "Consultant surgeon and consultant anaesthetist present in theatre, and planned postoperative critical care admission",
+      "Delay surgery until the next elective list",
+      "Avoid risk scoring as it is not validated",
+      "Postoperative ward care with hourly observations"
+    ],
+    "a": 1,
+    "why": "NELA recommends documented risk assessment before surgery. Patients with predicted mortality ≥ 5% should have consultant surgeon and anaesthetist present and be admitted to critical care afterwards. Other standards: CT reported before surgery, timely antibiotics in sepsis, theatre within the time appropriate to urgency, and elderly frail patients reviewed by a geriatrician.",
+    "st": "core-1"
+  },
+  {
+    "id": "Q190",
+    "ar": "Perioperative medicine",
+    "sb": "Postoperative pulmonary complications",
+    "q": "Which is the strongest patient-related risk factor for postoperative pulmonary complications in the ARISCAT score?",
+    "o": [
+      "Diabetes",
+      "Male sex",
+      "Preoperative SpO2 of 90% or below",
+      "Obesity",
+      "Smoking within the last year"
+    ],
+    "a": 2,
+    "why": "ARISCAT uses age, preoperative SpO2 (≤ 90% scores highest among patient factors), respiratory infection in the last month, preoperative anaemia, upper abdominal or intrathoracic incision, surgery &gt; 2 hours and emergency surgery. Upper abdominal/intrathoracic incision is also heavily weighted. Prevention: lung-protective ventilation, avoiding residual block, analgesia, early mobilisation and chest physiotherapy.",
+    "st": null
+  },
+  {
+    "id": "Q191",
+    "ar": "Perioperative medicine",
+    "sb": "Smoking",
+    "q": "A smoker stops smoking 12 hours before surgery. Which benefit occurs within this time?",
+    "o": [
+      "Reduced wound infection rate",
+      "Improved ciliary function",
+      "Fall in carboxyhaemoglobin, improving oxygen delivery",
+      "Improved small airway function",
+      "Reduced sputum production"
+    ],
+    "a": 2,
+    "why": "COHb has a half-life of about 4–6 hours on air, so 12–24 hours of abstinence lowers COHb and nicotine's sympathomimetic effects. Improved ciliary function and sputum take weeks, and reduced wound and pulmonary complications need about 4–8 weeks. Brief advice (Ask, Advise, Act) should be given at every contact.",
+    "st": null
+  },
+  {
+    "id": "Q192",
+    "ar": "Perioperative medicine",
+    "sb": "Delirium and dementia",
+    "q": "An 82-year-old with mild dementia is having a hip fracture repair. Which measure most reduces the risk of postoperative delirium?",
+    "o": [
+      "Deep general anaesthesia",
+      "Prolonged urinary catheterisation",
+      "Routine prophylactic haloperidol",
+      "Multicomponent non-drug interventions (orientation, glasses and hearing aids, sleep, hydration, analgesia, early mobilisation)",
+      "Benzodiazepine premedication"
+    ],
+    "a": 3,
+    "why": "NICE CG103: multicomponent interventions (orientation, cognitive stimulation, sensory aids, hydration, nutrition, sleep hygiene, pain control, early mobilisation, avoiding unnecessary catheters and drugs) reduce delirium incidence. Avoid benzodiazepines and anticholinergics. Processed EEG guidance to avoid excessive depth is reasonable, though trial evidence is mixed.",
+    "st": null
+  },
+  {
+    "id": "Q193",
+    "ar": "Perioperative medicine",
+    "sb": "Inadvertent hypothermia",
+    "q": "According to NICE CG65, which statement is correct?",
+    "o": [
+      "Temperature need not be measured in recovery",
+      "Patients should be actively warmed only if surgery lasts more than 3 hours",
+      "Temperature should be at least 36.0 °C before induction, and forced-air warming used for operations over 30 minutes",
+      "Warming of IV fluids is only needed for 2 litres or more",
+      "Hypothermia is defined as below 34 °C"
+    ],
+    "a": 2,
+    "why": "NICE CG65 (updated 2016): inadvertent perioperative hypothermia is a core temperature below 36.0 °C. Do not induce unless temperature is ≥ 36.0 °C (unless urgent). Use forced-air warming from induction for operations over 30 minutes (or under 30 minutes in high-risk patients), warm IV fluids of 500 mL or more and irrigation fluids, and measure temperature every 30 minutes and in recovery.",
+    "st": null
+  },
+  {
+    "id": "Q194",
+    "ar": "Perioperative medicine",
+    "sb": "PONV",
+    "q": "A 35-year-old non-smoking woman with previous PONV is having a laparoscopic gynaecological operation and will need postoperative opioids. What is her simplified Apfel score and estimated PONV risk?",
+    "o": [
+      "1; about 20%",
+      "2; about 40%",
+      "3; about 60%",
+      "4; about 80%",
+      "4; about 60%"
+    ],
+    "a": 3,
+    "why": "Apfel risk factors: female sex, non-smoker, history of PONV or motion sickness, and postoperative opioids. Each adds about 20%: 0 = 10%, 1 = 20%, 2 = 40%, 3 = 60%, 4 = 80%. She has all four. Use multimodal prophylaxis (e.g. dexamethasone plus ondansetron plus a third agent) and consider TIVA.",
+    "st": null
+  },
+  {
+    "id": "Q195",
+    "ar": "Perioperative medicine",
+    "sb": "Steroids",
+    "q": "A patient taking prednisolone 10 mg daily for 2 years is having a hemicolectomy. According to the 2020 AAGBI/Society for Endocrinology guideline, what steroid cover is recommended?",
+    "o": [
+      "Stop prednisolone 3 days before surgery",
+      "No extra cover; continue usual dose",
+      "Hydrocortisone 100 mg IV at induction, then 200 mg/24 h by infusion (or 50 mg 6-hourly) until able to take oral, then double the usual dose for 48 hours",
+      "Hydrocortisone 25 mg IV only",
+      "Dexamethasone 4 mg once only"
+    ],
+    "a": 2,
+    "why": "For patients on ≥ 5 mg prednisolone equivalent for over 4 weeks having major surgery: hydrocortisone 100 mg IV at induction, then a continuous infusion of 200 mg/24 hours (or 50 mg IV/IM 6-hourly), continuing until eating and drinking, then double the usual oral dose for 48 hours (up to a week after major surgery). Dexamethasone given for PONV does not provide adequate mineralocorticoid cover.",
+    "st": null
+  },
+  {
+    "id": "Q276",
+    "ar": "Perioperative medicine",
+    "sb": "COPD",
+    "q": "A patient with COPD has an FEV1/FVC ratio of 0.55 and FEV1 of 45% predicted. What is the GOLD grade of airflow limitation?",
+    "o": [
+      "GOLD 2 (moderate)",
+      "GOLD 1 (mild)",
+      "GOLD 4 (very severe)",
+      "GOLD 3 (severe)",
+      "Not COPD because the ratio is above 0.5"
+    ],
+    "a": 3,
+    "why": "COPD requires post-bronchodilator FEV1/FVC &lt; 0.7. Grading by FEV1 % predicted: GOLD 1 ≥ 80%, GOLD 2 50–79%, GOLD 3 30–49%, GOLD 4 &lt; 30%. Before surgery, optimise inhalers, treat exacerbations, stop smoking, offer pulmonary rehabilitation, and consider regional techniques and postoperative support.",
+    "st": null
+  },
+  {
+    "id": "Q277",
+    "ar": "Perioperative medicine",
+    "sb": "Delayed recovery",
+    "q": "A patient has not woken 45 minutes after a routine laparotomy under TIVA. TOF ratio is 1.0, temperature 36.4 °C, glucose 5.2 mmol/L, sodium 138 mmol/L. Pupils are pinpoint and respiratory rate is 6. What is the most likely cause?",
+    "o": [
+      "Residual neuromuscular block",
+      "Hypoglycaemia",
+      "Hypothermia",
+      "Opioid excess",
+      "Central anticholinergic syndrome"
+    ],
+    "a": 3,
+    "why": "Systematic approach to delayed emergence: drugs (opioids, benzodiazepines, residual anaesthetic, residual block), metabolic (glucose, sodium, temperature, CO2, hepatic or renal failure, hypothyroidism), and neurological events (stroke, raised ICP). Pinpoint pupils and bradypnoea suggest opioid excess: give naloxone in titrated doses. Normal TOF excludes residual block. Central anticholinergic syndrome causes dilated pupils.",
+    "st": null
+  }
+]

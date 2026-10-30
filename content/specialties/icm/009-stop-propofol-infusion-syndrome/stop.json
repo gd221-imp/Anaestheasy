@@ -1,0 +1,33 @@
+{
+  "t": "tip",
+  "shape": "mon",
+  "group": "ICM",
+  "title": "Propofol Infusion Syndrome",
+  "cards": [
+    {
+      "h": "Overview",
+      "b": "file:cards/01-overview.html"
+    },
+    {
+      "h": "Safe propofol dose",
+      "b": "file:cards/02-safe-propofol-dose.html"
+    },
+    {
+      "h": "Pathophysiology",
+      "b": "file:cards/03-pathophysiology.html"
+    },
+    {
+      "h": "Risk factors",
+      "b": "file:cards/04-risk-factors.html"
+    },
+    {
+      "h": "Prevention",
+      "b": "file:cards/05-prevention.html"
+    },
+    {
+      "h": "Management",
+      "b": "file:cards/06-management.html"
+    }
+  ],
+  "q": "file:quiz.json"
+}

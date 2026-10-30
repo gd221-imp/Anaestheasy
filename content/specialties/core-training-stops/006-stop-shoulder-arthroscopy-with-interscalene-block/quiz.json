@@ -1,0 +1,122 @@
+[
+  {
+    "q": "What is the incidence of phrenic nerve block after interscalene block?",
+    "o": [
+      "About 10%",
+      "Near 100%",
+      "About 50%",
+      "Rare",
+      "1%"
+    ],
+    "a": 1,
+    "why": "Low volumes reduce it."
+  },
+  {
+    "q": "Which nerve territory is often spared by interscalene block?",
+    "o": [
+      "Axillary",
+      "Ulnar (C8–T1)",
+      "Musculocutaneous",
+      "Radial",
+      "Suprascapular"
+    ],
+    "a": 1,
+    "why": "Ulnar-sparing."
+  },
+  {
+    "q": "Which side effect of interscalene block presents with ptosis and miosis?",
+    "o": [
+      "Phrenic palsy",
+      "Horner’s syndrome",
+      "RLN palsy",
+      "LAST",
+      "Pneumothorax"
+    ],
+    "a": 1,
+    "why": "Stellate ganglion spread."
+  },
+  {
+    "q": "When does an interscalene block typically wear off?",
+    "o": [
+      "1 hour",
+      "12–24 hours",
+      "3 days",
+      "1 week",
+      "30 minutes"
+    ],
+    "a": 1,
+    "why": "Plan for rebound pain."
+  },
+  {
+    "q": "At what level of the brachial plexus is interscalene performed?",
+    "o": [
+      "Cords",
+      "Roots/trunks",
+      "Branches",
+      "Divisions",
+      "Terminal nerves"
+    ],
+    "a": 1,
+    "why": "Supraclavicular at trunks/divisions, infraclavicular at cords, axillary at branches."
+  },
+  {
+    "q": "Which block carries the highest pneumothorax risk?",
+    "o": [
+      "Interscalene",
+      "Supraclavicular",
+      "Axillary",
+      "Infraclavicular",
+      "Wrist"
+    ],
+    "a": 1,
+    "why": "Close to the pleura."
+  },
+  {
+    "q": "What is the Bezold–Jarisch reflex management?",
+    "o": [
+      "Beta-blocker",
+      "Fluid, vasopressor, anticholinergic and reduce the head-up tilt",
+      "Head-up more",
+      "Remove block",
+      "Diuretic"
+    ],
+    "a": 1,
+    "why": "Occurs in the beach-chair position."
+  },
+  {
+    "q": "Which connective tissue disorder causes joint dislocation risk on positioning and reduced LA efficacy?",
+    "o": [
+      "Marfan",
+      "Ehlers–Danlos",
+      "RA",
+      "Lupus",
+      "Ankylosing spondylitis"
+    ],
+    "a": 1,
+    "why": "Also bleeding tendency."
+  },
+  {
+    "q": "Where should NIBP be measured?",
+    "o": [
+      "Operative arm",
+      "Non-operative arm",
+      "Leg only",
+      "Neck",
+      "Not needed"
+    ],
+    "a": 1,
+    "why": "Correct for height difference."
+  },
+  {
+    "q": "Which patients may not tolerate an interscalene block?",
+    "o": [
+      "Young athletes",
+      "Those with poor respiratory reserve",
+      "Diabetics",
+      "Smokers only",
+      "Obese only"
+    ],
+    "a": 1,
+    "why": "Phrenic palsy reduces FVC."
+  }
+]

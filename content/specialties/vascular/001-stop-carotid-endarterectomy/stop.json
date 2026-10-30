@@ -1,0 +1,48 @@
+{
+  "t": "recipe",
+  "shape": "drop",
+  "group": "Vascular",
+  "title": "Carotid Endarterectomy",
+  "op": true,
+  "cards": [
+    {
+      "h": "Anaesthetic recipe",
+      "b": "file:cards/01-anaesthetic-recipe.html",
+      "recipe": true
+    },
+    {
+      "h": "Cervical Plexus",
+      "primaryRef": "ana25"
+    },
+    {
+      "h": "Blood Supply to the Brain",
+      "primaryRef": "ana11"
+    },
+    {
+      "h": "Carotid Endarterectomy",
+      "noteRef": "Carotid Endarterectomy"
+    },
+    {
+      "h": "Cardiogenic Shock",
+      "noteRef": "Cardiogenic Shock"
+    },
+    {
+      "h": "Stroke",
+      "noteRef": "Stroke"
+    },
+    {
+      "h": "Sample WPBA",
+      "b": "file:cards/07-sample-wpba.html",
+      "wpba": true
+    },
+    {
+      "h": "Curriculum",
+      "links": [
+        "curric:8",
+        "curric:9",
+        "curric:10"
+      ]
+    }
+  ],
+  "q": "file:quiz.json"
+}

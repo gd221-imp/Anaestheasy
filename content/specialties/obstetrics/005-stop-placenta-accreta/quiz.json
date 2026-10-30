@@ -1,0 +1,122 @@
+[
+  {
+    "q": "What does FIGO grade 3 placenta accreta spectrum (percreta) mean?",
+    "o": [
+      "Placenta attached to the myometrium",
+      "Placenta invading through to the serosa or beyond (e.g. bladder)",
+      "Placenta praevia",
+      "Retained placenta",
+      "Abruption"
+    ],
+    "a": 1,
+    "why": "Grade 1 accreta, grade 2 increta, grade 3 percreta (to serosa, bladder or beyond)."
+  },
+  {
+    "q": "What is the main risk factor for placenta accreta?",
+    "o": [
+      "Primiparity",
+      "Previous caesarean section",
+      "Young age",
+      "Low BMI",
+      "Twin pregnancy only"
+    ],
+    "a": 1,
+    "why": "Previous LSCS, other uterine surgery, IVF and age over 35 are risk factors."
+  },
+  {
+    "q": "When is delivery usually planned for placenta accreta spectrum?",
+    "o": [
+      "At 28 weeks",
+      "At 34–36 weeks in a specialist centre",
+      "At 40 weeks",
+      "At 42 weeks",
+      "In spontaneous labour"
+    ],
+    "a": 1,
+    "why": "Planned at 34–36 weeks with an MDT, IR balloons and preparation for hysterectomy."
+  },
+  {
+    "q": "What proportion of uterine blood flow comes via the ovarian arteries?",
+    "o": [
+      "None",
+      "About 35%",
+      "About 90%",
+      "About 5%",
+      "100%"
+    ],
+    "a": 1,
+    "why": "The uterine arteries (from the internal iliacs) and ovarian arteries (from the aorta, about 35%) both supply the uterus."
+  },
+  {
+    "q": "What is the classic presentation of placenta praevia?",
+    "o": [
+      "Painful bleeding with a hard uterus",
+      "Painless bright red vaginal bleeding",
+      "No bleeding",
+      "Fever",
+      "Hypertension"
+    ],
+    "a": 1,
+    "why": "Painless bleeding, classically around 32 weeks; abruption is painful with a hypertonic uterus."
+  },
+  {
+    "q": "What is Sher stage 3 placental abruption?",
+    "o": [
+      "Small retroplacental clot",
+      "Intrauterine fetal death, with or without coagulopathy",
+      "Painful uterus with live fetus",
+      "Placenta praevia",
+      "No bleeding"
+    ],
+    "a": 1,
+    "why": "Stage 3 means fetal death; coagulopathy is common, so check fibrinogen."
+  },
+  {
+    "q": "Which test guides anti-D dose after abruption in an Rh-negative mother?",
+    "o": [
+      "Coombs test",
+      "Kleihauer–Betke test",
+      "TEG",
+      "Fibrinogen",
+      "Platelet count"
+    ],
+    "a": 1,
+    "why": "Kleihauer quantifies fetomaternal haemorrhage."
+  },
+  {
+    "q": "In massive obstetric haemorrhage, which fibrinogen level is targeted?",
+    "o": [
+      "Over 0.5 g/L",
+      "Over 2 g/L",
+      "Over 5 g/L",
+      "Not measured",
+      "Under 1 g/L"
+    ],
+    "a": 1,
+    "why": "Fibrinogen falls early in obstetric haemorrhage; keep it over 2 g/L, guided by TEG or ROTEM."
+  },
+  {
+    "q": "What is the most common cause of puerperal sepsis?",
+    "o": [
+      "E. coli",
+      "Group A streptococcus",
+      "Staph epidermidis",
+      "Candida",
+      "Pseudomonas"
+    ],
+    "a": 1,
+    "why": "Group A strep; send blood cultures and a throat swab and start broad-spectrum antibiotics promptly (follow local guidelines)."
+  },
+  {
+    "q": "In a woman with accreta, why is regional often converted to GA?",
+    "o": [
+      "Pain relief is inadequate for skin incision",
+      "Prolonged surgery, massive haemorrhage and hysterectomy",
+      "Spinal is contraindicated in all accreta",
+      "Patient choice only",
+      "To allow cell salvage"
+    ],
+    "a": 1,
+    "why": "Long surgery with massive bleeding often makes conversion to GA necessary; plan large-bore access and an arterial line."
+  }
+]

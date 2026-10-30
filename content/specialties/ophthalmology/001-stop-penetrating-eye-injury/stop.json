@@ -1,0 +1,43 @@
+{
+  "t": "recipe",
+  "shape": "eye",
+  "group": "Ophthalmology",
+  "title": "Penetrating Eye Injury",
+  "op": true,
+  "cards": [
+    {
+      "h": "Anaesthetic recipe",
+      "b": "file:cards/01-anaesthetic-recipe.html",
+      "recipe": true
+    },
+    {
+      "h": "The Eye",
+      "primaryRef": "ana35"
+    },
+    {
+      "h": "Effect of Drugs on the Eye",
+      "primaryRef": "pha30"
+    },
+    {
+      "h": "Penetrating Eye Injury",
+      "noteRef": "Penetrating Eye Injury"
+    },
+    {
+      "h": "Gunshot Injury",
+      "noteRef": "Gunshot Injury"
+    },
+    {
+      "h": "Sample WPBA",
+      "b": "file:cards/06-sample-wpba.html",
+      "wpba": true
+    },
+    {
+      "h": "Curriculum",
+      "links": [
+        "curric:8",
+        "curric:9"
+      ]
+    }
+  ],
+  "q": "file:quiz.json"
+}

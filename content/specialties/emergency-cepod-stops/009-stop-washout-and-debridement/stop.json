@@ -1,0 +1,39 @@
+{
+  "t": "recipe",
+  "shape": "warn",
+  "group": "CEPOD",
+  "title": "Washout and Debridement",
+  "op": true,
+  "cards": [
+    {
+      "h": "Anaesthetic recipe",
+      "b": "file:cards/01-anaesthetic-recipe.html",
+      "recipe": true
+    },
+    {
+      "h": "Antimicrobials - Antibacterial Agents",
+      "primaryRef": "pha32"
+    },
+    {
+      "h": "Peri-operative Infection",
+      "noteRef": "Peri-operative Infection"
+    },
+    {
+      "h": "Necrotising Fasciitis & Toxic Shock Syndrome",
+      "noteRef": "Necrotising Fasciitis & Toxic Shock Syndrome"
+    },
+    {
+      "h": "Sample WPBA",
+      "b": "file:cards/05-sample-wpba.html",
+      "wpba": true
+    },
+    {
+      "h": "Curriculum",
+      "links": [
+        "curric:8",
+        "curric:9"
+      ]
+    }
+  ],
+  "q": "file:quiz.json"
+}

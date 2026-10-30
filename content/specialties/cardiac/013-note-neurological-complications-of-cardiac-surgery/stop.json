@@ -1,0 +1,26 @@
+{
+  "t": "tip",
+  "shape": "heart",
+  "group": "Cardiac",
+  "title": "Neurological Complications of Cardiac Surgery",
+  "cards": [
+    {
+      "h": "Central",
+      "b": "file:cards/01-central.html"
+    },
+    {
+      "h": "Risk factors",
+      "b": "file:cards/02-risk-factors.html"
+    },
+    {
+      "h": "Measures taken",
+      "b": "file:cards/03-measures-taken.html"
+    },
+    {
+      "h": "Post-cardiac surgery aims",
+      "b": "file:cards/04-post-cardiac-surgery-aims.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

@@ -1,0 +1,122 @@
+[
+  {
+    "q": "A patient with a ruptured AAA is conscious with a systolic BP of 80 mmHg. What is the resuscitation target before the aorta is clamped?",
+    "o": [
+      "Restore systolic BP to 140 mmHg",
+      "Permissive hypotension: a talking patient with systolic around 70–90",
+      "MAP of 100",
+      "No fluids until in theatre",
+      "Normal BP with vasopressors"
+    ],
+    "a": 1,
+    "why": "Permissive hypotension limits bleeding until the clamp is on; activate major haemorrhage and have blood running before induction."
+  },
+  {
+    "q": "When should anaesthesia be induced for open repair of a ruptured AAA?",
+    "o": [
+      "In the anaesthetic room, before transfer",
+      "On the table, with the patient prepped and draped and the surgeon scrubbed",
+      "After an arterial line, CVC and epidural are placed",
+      "After CT angiography",
+      "Once BP is normal"
+    ],
+    "a": 1,
+    "why": "Induction can cause catastrophic collapse: loss of abdominal muscle tone releases the tamponade and PPV reduces preload. Induce only when the surgeon is ready to clamp."
+  },
+  {
+    "q": "What are the effects of aortic cross-clamping?",
+    "o": [
+      "Proximal hypotension and distal hypertension",
+      "Proximal hypertension (raised afterload) and distal ischaemic vasodilatation",
+      "No change above the clamp",
+      "Bradycardia only",
+      "Increased renal blood flow below the clamp"
+    ],
+    "a": 1,
+    "why": "Afterload rises above the clamp (risking MI and arrhythmia); manage by deepening anaesthesia or GTN. Below the clamp, ischaemia causes vasodilatation."
+  },
+  {
+    "q": "What happens when the aortic cross-clamp is released?",
+    "o": [
+      "Sudden hypertension",
+      "Sudden fall in afterload with hypotension, acidosis and hyperkalaemia",
+      "No haemodynamic change",
+      "Bradycardia from vagal reflex",
+      "Increased SVR"
+    ],
+    "a": 1,
+    "why": "Reperfusion of the ischaemic bed lowers SVR and releases lactate and potassium; give vasopressors and ask the surgeon to release each limb slowly."
+  },
+  {
+    "q": "After repair of a ruptured AAA, a ventilated patient becomes oliguric with rising airway pressures and a tense abdomen. Bladder pressure is 25 mmHg. What is the diagnosis?",
+    "o": [
+      "Graft infection",
+      "Abdominal compartment syndrome",
+      "Pulmonary embolism",
+      "Myocardial infarction",
+      "Hypovolaemia"
+    ],
+    "a": 1,
+    "why": "Abdominal compartment syndrome is pressure over 20 mmHg with new organ dysfunction (intra-abdominal hypertension is over 12 mmHg). It follows massive resuscitation and retroperitoneal haematoma."
+  },
+  {
+    "q": "After thoracoabdominal aneurysm repair, a patient has paraplegia with loss of pain and temperature but preserved vibration and proprioception. What has happened?",
+    "o": [
+      "Cauda equina syndrome",
+      "Anterior spinal cord syndrome from loss of the artery of Adamkiewicz",
+      "Brown-Séquard syndrome",
+      "Central cord syndrome",
+      "Epidural haematoma"
+    ],
+    "a": 1,
+    "why": "Anterior spinal artery syndrome spares the dorsal columns (vibration, proprioception)."
+  },
+  {
+    "q": "What is the in-hospital mortality of ruptured AAA?",
+    "o": [
+      "Around 5%",
+      "Around 15%",
+      "Around 40%",
+      "Around 70%",
+      "Around 95%"
+    ],
+    "a": 2,
+    "why": "In-hospital mortality is around 40%; overall mortality including pre-hospital deaths is around 80%."
+  },
+  {
+    "q": "Which Stanford type of aortic dissection is a surgical emergency?",
+    "o": [
+      "Type A: any involvement of the ascending aorta",
+      "Type B: distal to the left subclavian",
+      "Both are always managed medically",
+      "Type B only if hypertensive",
+      "Neither"
+    ],
+    "a": 0,
+    "why": "Stanford A involves the ascending aorta and needs emergency surgery; type B is generally managed medically with BP and heart rate control unless complicated."
+  },
+  {
+    "q": "What is the \"lethal triad\" in massive haemorrhage?",
+    "o": [
+      "Hypoxia, hypercapnia, hypotension",
+      "Coagulopathy, acidosis and hypothermia",
+      "Hyperkalaemia, hypocalcaemia, hypothermia",
+      "Tachycardia, hypotension, oliguria",
+      "Anaemia, thrombocytopenia, hypofibrinogenaemia"
+    ],
+    "a": 1,
+    "why": "Coagulopathy, acidosis and hypothermia worsen each other; warm everything and correct them early."
+  },
+  {
+    "q": "Which complication of massive transfusion is caused by citrate in blood products?",
+    "o": [
+      "Hyperkalaemia",
+      "Hypocalcaemia",
+      "Hypernatraemia",
+      "Hypothermia",
+      "Alkalosis only"
+    ],
+    "a": 1,
+    "why": "Citrate binds calcium, causing hypocalcaemia and myocardial depression; give calcium."
+  }
+]

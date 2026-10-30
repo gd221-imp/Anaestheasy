@@ -1,0 +1,122 @@
+[
+  {
+    "q": "According to Hagen–Poiseuille, which factor most affects flow through the flap vessel?",
+    "o": [
+      "Length",
+      "Radius (to the fourth power)",
+      "Viscosity",
+      "Pressure",
+      "Temperature"
+    ],
+    "a": 1,
+    "why": "Maintain MAP and avoid vasoconstriction."
+  },
+  {
+    "q": "What are the aims for flap perfusion?",
+    "o": [
+      "Cold, dry, hypertensive",
+      "Warm, well filled, pain-free and normotensive",
+      "Hypotension",
+      "Fluid restriction",
+      "High haematocrit"
+    ],
+    "a": 1,
+    "why": "Normothermia and normovolaemia."
+  },
+  {
+    "q": "Which is an absolute contraindication to free flap?",
+    "o": [
+      "Smoking",
+      "Hypercoagulable state (e.g. uncontrolled sickle cell, polycythaemia)",
+      "Obesity",
+      "Renal failure",
+      "Factor V Leiden"
+    ],
+    "a": 1,
+    "why": "Others are relative."
+  },
+  {
+    "q": "What surgical problem causes venous congestion of a flap?",
+    "o": [
+      "Arterial spasm",
+      "Haematoma, kinking or compression of the vein",
+      "Hypotension",
+      "Hyperthermia",
+      "Anaemia"
+    ],
+    "a": 1,
+    "why": "Poor positioning causes oedema."
+  },
+  {
+    "q": "What effect does previous neck radiotherapy have?",
+    "o": [
+      "Easier intubation",
+      "Fibrosis causing difficult mask ventilation and laryngoscopy",
+      "No effect",
+      "Bleeding only",
+      "Better healing"
+    ],
+    "a": 1,
+    "why": "Assess carefully."
+  },
+  {
+    "q": "What airway is often needed post-op?",
+    "o": [
+      "LMA",
+      "Tracheostomy",
+      "Nasal airway",
+      "Facemask",
+      "None"
+    ],
+    "a": 1,
+    "why": "Airway obstruction from swelling."
+  },
+  {
+    "q": "Which withdrawal syndrome may complicate recovery?",
+    "o": [
+      "Opioid",
+      "Alcohol withdrawal and delirium",
+      "Benzodiazepine always",
+      "Nicotine only",
+      "Caffeine"
+    ],
+    "a": 1,
+    "why": "Common in head and neck cancer."
+  },
+  {
+    "q": "What head position reduces bleeding?",
+    "o": [
+      "Head-down",
+      "15–20° head-up",
+      "Flat",
+      "Prone",
+      "Lateral"
+    ],
+    "a": 1,
+    "why": "Venous drainage."
+  },
+  {
+    "q": "Which flap observation suggests arterial insufficiency?",
+    "o": [
+      "Dark, congested, fast CRT",
+      "Pale, cool, slow capillary refill",
+      "Warm and pink",
+      "Bleeding dark blood on pinprick",
+      "Swollen"
+    ],
+    "a": 1,
+    "why": "Venous congestion gives a dusky, fast-refilling flap."
+  },
+  {
+    "q": "Which metabolic risk exists in malnourished head and neck patients?",
+    "o": [
+      "Hyperkalaemia",
+      "Refeeding syndrome",
+      "Hypercalcaemia",
+      "Hypernatraemia",
+      "Ketoacidosis"
+    ],
+    "a": 1,
+    "why": "Plan nutrition."
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "q": "Where should a pelvic binder be placed?",
+    "o": [
+      "Iliac crests",
+      "At the level of the greater trochanters",
+      "Umbilicus",
+      "Thighs",
+      "Knees"
+    ],
+    "a": 1,
+    "why": "Provides tamponade."
+  },
+  {
+    "q": "What is the approximate pelvic volume for haemorrhage?",
+    "o": [
+      "200 ml",
+      "About 1.5 L or more",
+      "50 ml",
+      "5 L always",
+      "500 ml"
+    ],
+    "a": 1,
+    "why": "Mostly venous plexus bleeding."
+  },
+  {
+    "q": "Which classification uses direction of force?",
+    "o": [
+      "Tile",
+      "Young and Burgess",
+      "Garden",
+      "Weber",
+      "Schatzker"
+    ],
+    "a": 1,
+    "why": "AP compression, lateral compression, vertical shear, combined."
+  },
+  {
+    "q": "Which nerve is at risk in acetabular fixation?",
+    "o": [
+      "Femoral",
+      "Sciatic",
+      "Ulnar",
+      "Radial",
+      "Phrenic"
+    ],
+    "a": 1,
+    "why": "Check post-op."
+  },
+  {
+    "q": "Which complication follows crush injury?",
+    "o": [
+      "Hypokalaemia",
+      "Rhabdomyolysis and AKI",
+      "Hypercalcaemia",
+      "Polycythaemia",
+      "Alkalosis"
+    ],
+    "a": 1,
+    "why": "Also reperfusion injury and compartment syndrome."
+  },
+  {
+    "q": "When is pharmacological VTE prophylaxis started?",
+    "o": [
+      "Immediately on arrival",
+      "Once bleeding is controlled",
+      "Never",
+      "After 2 weeks",
+      "Only if DVT found"
+    ],
+    "a": 1,
+    "why": "High VTE risk after pelvic trauma."
+  },
+  {
+    "q": "Which delayed surgical complication is specific?",
+    "o": [
+      "Ileus",
+      "Heterotopic ossification",
+      "Hernia",
+      "Stricture",
+      "Fistula"
+    ],
+    "a": 1,
+    "why": "Also post-traumatic arthritis."
+  },
+  {
+    "q": "Which transfusion strategy is used intra-op?",
+    "o": [
+      "Fixed ratio only",
+      "Viscoelastic-guided",
+      "Crystalloid only",
+      "No transfusion",
+      "Albumin"
+    ],
+    "a": 1,
+    "why": "Plus TXA."
+  },
+  {
+    "q": "How many units are crossmatched for definitive pelvic fixation per note?",
+    "o": [
+      "None",
+      "4–6 units",
+      "1 unit",
+      "20 units",
+      "Group and save only"
+    ],
+    "a": 1,
+    "why": "Plus cell salvage."
+  },
+  {
+    "q": "Why are NSAIDs avoided post-op?",
+    "o": [
+      "Ineffective",
+      "Bleeding and AKI risk",
+      "Delirium",
+      "PONV",
+      "Allergy"
+    ],
+    "a": 1,
+    "why": "After major trauma."
+  }
+]

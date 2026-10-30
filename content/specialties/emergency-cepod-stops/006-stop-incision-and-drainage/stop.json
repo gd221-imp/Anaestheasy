@@ -1,0 +1,43 @@
+{
+  "t": "recipe",
+  "shape": "warn",
+  "group": "CEPOD",
+  "title": "Incision and Drainage",
+  "op": true,
+  "cards": [
+    {
+      "h": "Anaesthetic recipe",
+      "b": "file:cards/01-anaesthetic-recipe.html",
+      "recipe": true
+    },
+    {
+      "h": "IV Induction Agents",
+      "primaryRef": "pha18"
+    },
+    {
+      "h": "GIT Metabolic Pathways & Glucose Homeostasis",
+      "primaryRef": "phs30"
+    },
+    {
+      "h": "Necrotising Fasciitis & Toxic Shock Syndrome",
+      "noteRef": "Necrotising Fasciitis & Toxic Shock Syndrome"
+    },
+    {
+      "h": "Diabetic Ketoacidosis",
+      "noteRef": "Diabetic Ketoacidosis"
+    },
+    {
+      "h": "Sample WPBA",
+      "b": "file:cards/06-sample-wpba.html",
+      "wpba": true
+    },
+    {
+      "h": "Curriculum",
+      "links": [
+        "curric:8",
+        "curric:9"
+      ]
+    }
+  ],
+  "q": "file:quiz.json"
+}

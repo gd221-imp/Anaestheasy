@@ -1,0 +1,18 @@
+{
+  "t": "tip",
+  "shape": "cross",
+  "group": "Orthopaedics and Trauma",
+  "title": "Rhabdomyolysis",
+  "cards": [
+    {
+      "h": "34yo male, leg injury.",
+      "b": "file:cards/01-34yo-male-leg-injury.html"
+    },
+    {
+      "h": "Causes",
+      "b": "file:cards/02-causes.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

@@ -1,0 +1,122 @@
+[
+  {
+    "q": "Why are neuromuscular blockers avoided after intubation?",
+    "o": [
+      "Speed",
+      "Facial nerve monitoring",
+      "Cost",
+      "PONV",
+      "Bleeding"
+    ],
+    "a": 1,
+    "why": "Remifentanil helps prevent movement."
+  },
+  {
+    "q": "What is Frey syndrome?",
+    "o": [
+      "Facial palsy",
+      "Gustatory sweating over the parotid area",
+      "Salivary fistula",
+      "Ear numbness",
+      "Trismus"
+    ],
+    "a": 1,
+    "why": "From aberrant reinnervation of sweat glands."
+  },
+  {
+    "q": "Which sensory loss commonly follows parotidectomy?",
+    "o": [
+      "Tongue",
+      "Ear lobe (great auricular nerve)",
+      "Lip",
+      "Chin",
+      "Forehead"
+    ],
+    "a": 1,
+    "why": "Great auricular nerve."
+  },
+  {
+    "q": "What should be documented before surgery?",
+    "o": [
+      "Hearing",
+      "Facial nerve function",
+      "Vision",
+      "Taste",
+      "Smell"
+    ],
+    "a": 1,
+    "why": "Baseline."
+  },
+  {
+    "q": "Which delayed complication is surgical?",
+    "o": [
+      "PONV",
+      "Salivary fistula",
+      "Hypotension",
+      "Movement",
+      "Laryngospasm"
+    ],
+    "a": 1,
+    "why": "Also Frey syndrome."
+  },
+  {
+    "q": "Which immediate anaesthetic issue arises without relaxant?",
+    "o": [
+      "Hypertension",
+      "Patient movement",
+      "Hyperkalaemia",
+      "MH",
+      "Bradycardia"
+    ],
+    "a": 1,
+    "why": "Use adequate depth and remifentanil."
+  },
+  {
+    "q": "Which position is used?",
+    "o": [
+      "Prone",
+      "Head-up, head turned",
+      "Lateral",
+      "Lithotomy",
+      "Trendelenburg"
+    ],
+    "a": 1,
+    "why": "Reduces bleeding."
+  },
+  {
+    "q": "What is the airway usually like?",
+    "o": [
+      "Very difficult",
+      "Usually straightforward",
+      "Always needs AFOI",
+      "Needs tracheostomy",
+      "Unknown"
+    ],
+    "a": 1,
+    "why": "Per the recipe."
+  },
+  {
+    "q": "Which ETT is used?",
+    "o": [
+      "Double lumen",
+      "Reinforced ETT or LMA",
+      "MLT",
+      "Nasal",
+      "Uncuffed"
+    ],
+    "a": 1,
+    "why": "Head turned."
+  },
+  {
+    "q": "Which HIV regimen component is used as PrEP?",
+    "o": [
+      "Raltegravir",
+      "Emtricitabine and tenofovir",
+      "Zidovudine alone",
+      "Rilpivirine",
+      "Lopinavir"
+    ],
+    "a": 1,
+    "why": "Two NRTIs."
+  }
+]

@@ -1,0 +1,30 @@
+{
+  "t": "tip",
+  "shape": "clip",
+  "group": "Periop medicine",
+  "title": "Cardiac Implantable Electronic Devices (CIEDs)",
+  "cards": [
+    {
+      "h": "Perioperative concerns",
+      "b": "file:cards/01-perioperative-concerns.html"
+    },
+    {
+      "h": "PPM (Permanent Pacemaker)",
+      "b": "file:cards/02-ppm-permanent-pacemaker.html"
+    },
+    {
+      "h": "CRT-D",
+      "b": "file:cards/03-crt-d.html"
+    },
+    {
+      "h": "ICD",
+      "b": "file:cards/04-icd.html"
+    },
+    {
+      "h": "Implantable Loop Recorder",
+      "b": "file:cards/05-implantable-loop-recorder.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

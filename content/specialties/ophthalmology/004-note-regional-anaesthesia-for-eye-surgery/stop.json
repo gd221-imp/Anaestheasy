@@ -1,0 +1,30 @@
+{
+  "t": "tip",
+  "shape": "eye",
+  "group": "Ophthalmology",
+  "title": "Regional Anaesthesia for Eye Surgery",
+  "cards": [
+    {
+      "h": "Topical",
+      "b": "file:cards/01-topical.html"
+    },
+    {
+      "h": "Regional",
+      "b": "file:cards/02-regional.html"
+    },
+    {
+      "h": "Sub-Tenon's block",
+      "b": "file:cards/03-sub-tenon-s-block.html"
+    },
+    {
+      "h": "Retrobulbar block (intraconal)",
+      "b": "file:cards/04-retrobulbar-block-intraconal.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/05-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

@@ -1,0 +1,450 @@
+[
+  {
+    "id": "Q073",
+    "ar": "Obstetrics",
+    "sb": "Pre-eclampsia",
+    "q": "A 30-year-old woman at 36 weeks has a BP of 168/112 mmHg on repeated readings, proteinuria and a headache. She has asthma. What is the most appropriate first-line antihypertensive?",
+    "o": [
+      "Oral nifedipine (modified release)",
+      "IV labetalol",
+      "Oral methyldopa",
+      "Sublingual glyceryl trinitrate",
+      "IV hydralazine as a single large bolus"
+    ],
+    "a": 0,
+    "why": "NICE NG133: treat severe hypertension (≥ 160/110) urgently. Labetalol is first line but is contraindicated in asthma; oral nifedipine is the alternative, with IV hydralazine if oral treatment fails (with a fluid preload of up to 500 mL in the HDU setting). Aim for BP ≤ 135/85. Give magnesium sulphate if severe features or eclampsia.",
+    "st": null
+  },
+  {
+    "id": "Q074",
+    "ar": "Obstetrics",
+    "sb": "Magnesium sulphate",
+    "q": "A woman receiving a magnesium sulphate infusion for severe pre-eclampsia becomes drowsy with a respiratory rate of 8 breaths/min and absent patellar reflexes. What is the immediate treatment after stopping the infusion and supporting ventilation?",
+    "o": [
+      "Calcium gluconate 10% 10 mL IV over 10 minutes",
+      "Naloxone 400 micrograms IV",
+      "Physostigmine",
+      "Sodium bicarbonate 8.4% 50 mL",
+      "Furosemide 40 mg IV"
+    ],
+    "a": 0,
+    "why": "Loss of reflexes (around 5 mmol/L) precedes respiratory depression (around 6–7.5 mmol/L) and cardiac arrest (&gt; 12 mmol/L). Stop the infusion, support airway and breathing, and give 10 mL of 10% calcium gluconate IV. The Collaborative Eclampsia Trial regimen is 4 g IV over 5–15 minutes then 1 g/h for 24 hours; monitor reflexes, respiratory rate and urine output (accumulates in oliguria).",
+    "st": null
+  },
+  {
+    "id": "Q075",
+    "ar": "Obstetrics",
+    "sb": "Hypertensive disorders",
+    "q": "Which statement correctly defines pre-eclampsia according to NICE NG133?",
+    "o": [
+      "Hypertension at any gestation with proteinuria",
+      "New hypertension after 20 weeks with significant proteinuria only",
+      "New hypertension after 20 weeks with proteinuria or other maternal organ dysfunction or uteroplacental dysfunction",
+      "Hypertension after 34 weeks with headache",
+      "Proteinuria without hypertension after 20 weeks"
+    ],
+    "a": 2,
+    "why": "NICE (2019) defines pre-eclampsia as new-onset hypertension (&gt; 140/90) after 20 weeks with one or more of: proteinuria (urinary protein:creatinine ratio ≥ 30 mg/mmol), maternal organ dysfunction (renal, liver, neurological, haematological such as low platelets or haemolysis) or uteroplacental dysfunction (fetal growth restriction). Proteinuria is no longer required. Women at high risk take aspirin 75–150 mg from 12 weeks.",
+    "st": null
+  },
+  {
+    "id": "Q076",
+    "ar": "Obstetrics",
+    "sb": "Testing the block for CS",
+    "q": "Before an elective caesarean section under spinal anaesthesia, which block is recommended by the OAA/RCoA (2022) consensus as indicating adequate anaesthesia?",
+    "o": [
+      "Loss of cold sensation to T10 bilaterally",
+      "Loss of cold sensation to L1 only",
+      "Loss of light touch to T5 bilaterally and loss of cold sensation to T4",
+      "Absent ankle reflexes",
+      "Loss of pinprick to T10 and motor block of the hips"
+    ],
+    "a": 2,
+    "why": "The 2022 consensus statement on intraoperative pain during caesarean section recommends testing and documenting both the upper level of cold sensation (to T4) and light touch (to T5), bilaterally, plus a lower level including sacral dermatomes and motor block, before starting. Pain during surgery must be acknowledged and treated, with conversion to GA offered when necessary.",
+    "st": "core-15"
+  },
+  {
+    "id": "Q077",
+    "ar": "Obstetrics",
+    "sb": "Intraoperative pain at CS",
+    "q": "Twenty minutes into a caesarean section under spinal anaesthesia (block previously tested to T4 cold), the woman reports sharp pain during peritoneal closure. What is the most appropriate response?",
+    "o": [
+      "Give 1 g of paracetamol and continue",
+      "Acknowledge the pain, ask the surgeon to pause, and offer escalating analgesia including conversion to general anaesthesia",
+      "Infiltrate more local anaesthetic into the wound only",
+      "Reassure her that pressure sensation is normal and continue",
+      "Give midazolam to reduce anxiety"
+    ],
+    "a": 1,
+    "why": "Pain during CS is a leading cause of obstetric anaesthetic litigation. Acknowledge it, pause surgery, document, and offer stepwise options (inhaled nitrous oxide, IV opioid such as fentanyl or alfentanil, local infiltration, epidural top-up if a CSE), and offer GA if pain persists. Do not sedate in place of analgesia. Follow up afterwards and offer debrief.",
+    "st": "core-15"
+  },
+  {
+    "id": "Q078",
+    "ar": "Obstetrics",
+    "sb": "Remifentanil PCA",
+    "q": "A woman in labour who cannot have an epidural is starting remifentanil PCA. Which safety requirement is essential?",
+    "o": [
+      "Use only in the second stage",
+      "A background infusion to avoid breakthrough pain",
+      "Bolus dose of 2 micrograms/kg with a 1-minute lockout",
+      "Prior intramuscular pethidine to reduce dose requirements",
+      "Continuous one-to-one midwifery care, continuous SpO2 monitoring and a dedicated cannula"
+    ],
+    "a": 4,
+    "why": "Remifentanil PCA can cause apnoea and desaturation. Requirements include one-to-one midwifery care, continuous pulse oximetry and respiratory rate monitoring, supplementary oxygen available, a dedicated IV line with an anti-reflux valve, no recent systemic opioids, and an anaesthetist readily available. Typical regimens use boluses of about 20–40 micrograms with a 2-minute lockout and no background infusion.",
+    "st": "core-12"
+  },
+  {
+    "id": "Q079",
+    "ar": "Obstetrics",
+    "sb": "Post-dural puncture headache",
+    "q": "A woman has a postural headache 2 days after an accidental dural puncture with a 16G Tuohy needle. Simple analgesia has not helped. Which treatment has the best evidence for relief?",
+    "o": [
+      "Bed rest for 48 hours",
+      "Intravenous fluids 3 L/day",
+      "Epidural blood patch",
+      "Caffeine 300 mg orally",
+      "Sumatriptan"
+    ],
+    "a": 2,
+    "why": "Epidural blood patch (about 20 mL of autologous blood, stopping if back or leg pain develops) relieves symptoms in most women, though about a third may need a second patch. Bed rest and aggressive fluids are not supported. Caffeine has weak evidence. Red flags for other causes: focal neurology, seizures, non-postural headache, fever (consider cortical vein thrombosis, subdural haematoma, pre-eclampsia, meningitis).",
+    "st": "core-13"
+  },
+  {
+    "id": "Q080",
+    "ar": "Obstetrics",
+    "sb": "Postpartum headache",
+    "q": "Five days after delivery, a woman has a headache that is now constant rather than postural, followed by a focal seizure. She had an epidural for labour. What is the most likely diagnosis?",
+    "o": [
+      "Caffeine withdrawal",
+      "Cortical vein (cerebral venous sinus) thrombosis",
+      "Sinusitis",
+      "Post-dural puncture headache",
+      "Migraine"
+    ],
+    "a": 1,
+    "why": "The puerperium is prothrombotic; cerebral venous thrombosis presents with headache, seizures and focal deficits. A PDPH that changes character (loss of postural component) may also indicate a subdural haematoma from CSF hypotension. Both need urgent imaging (MR venography or CT venogram).",
+    "st": "core-13"
+  },
+  {
+    "id": "Q081",
+    "ar": "Obstetrics",
+    "sb": "Postpartum nerve injury",
+    "q": "A woman reports numbness over the anterolateral thigh with normal power the day after a long second stage in lithotomy. What is the most likely nerve involved?",
+    "o": [
+      "L4 nerve root",
+      "Common peroneal nerve",
+      "Obturator nerve",
+      "Femoral nerve",
+      "Lateral cutaneous nerve of the thigh"
+    ],
+    "a": 4,
+    "why": "Meralgia paraesthetica (lateral cutaneous nerve of the thigh, L2–3) is the commonest postpartum nerve injury, due to compression under the inguinal ligament; it is purely sensory. Obstetric causes of nerve palsy (fetal head compression of the lumbosacral trunk, lithotomy, prolonged pushing) are far more common than neuraxial causes. Motor deficits, bilateral signs or back pain with fever need urgent MRI to exclude haematoma or abscess.",
+    "st": "core-13"
+  },
+  {
+    "id": "Q082",
+    "ar": "Obstetrics",
+    "sb": "Obstetric haemorrhage",
+    "q": "After delivery of the placenta at CS, there is ongoing bleeding from an atonic uterus despite oxytocin. The woman has severe asthma. Which uterotonic should be avoided?",
+    "o": [
+      "Tranexamic acid",
+      "Misoprostol",
+      "Oxytocin infusion",
+      "Ergometrine",
+      "Carboprost (15-methyl prostaglandin F2α)"
+    ],
+    "a": 4,
+    "why": "Carboprost can cause severe bronchospasm and is relatively contraindicated in asthma. Ergometrine is avoided in hypertension and pre-eclampsia. Misoprostol (800 micrograms) is an alternative. Tranexamic acid 1 g IV within 3 hours reduces death from bleeding (WOMAN trial). Escalate to balloon tamponade, compression sutures, interventional radiology or hysterectomy.",
+    "st": "st2-87"
+  },
+  {
+    "id": "Q083",
+    "ar": "Obstetrics",
+    "sb": "Obstetric haemorrhage",
+    "q": "During a major obstetric haemorrhage, a viscoelastic test shows a FIBTEM A5 of 8 mm. What is the most appropriate product?",
+    "o": [
+      "Fresh frozen plasma 15 mL/kg",
+      "No product needed",
+      "Prothrombin complex concentrate",
+      "Platelets",
+      "Fibrinogen concentrate or cryoprecipitate"
+    ],
+    "a": 4,
+    "why": "Fibrinogen falls early in obstetric haemorrhage and a level below 2 g/L predicts progression to severe bleeding. OBS-UK guidance uses FIBTEM A5 &lt; 12 mm (roughly fibrinogen &lt; 2 g/L) as a trigger for fibrinogen replacement while bleeding continues. FFP is given if PT/APTT are prolonged or viscoelastic tests show clotting factor deficiency, not routinely early.",
+    "st": "st2-87"
+  },
+  {
+    "id": "Q084",
+    "ar": "Obstetrics",
+    "sb": "Placenta accreta",
+    "q": "A woman with two previous caesarean sections has an anterior placenta praevia. MRI suggests placenta accreta spectrum. What is the most important element of planning?",
+    "o": [
+      "Planned delivery in a specialist centre with a multidisciplinary team, blood products and cell salvage available",
+      "Plan for vaginal delivery",
+      "Routine spinal anaesthesia for all cases",
+      "Avoid any imaging until delivery",
+      "Delivery at 40 weeks to allow lung maturity"
+    ],
+    "a": 0,
+    "why": "Placenta accreta spectrum carries a high risk of massive haemorrhage. RCOG guidance: deliver in a specialist centre with an MDT (obstetrician, anaesthetist, haematology, interventional radiology, urology), usually at 35–36+6 weeks, with cross-matched blood, cell salvage and critical care available. Neuraxial or general anaesthesia (or neuraxial converted to GA) may be used depending on the plan.",
+    "st": "st2-88"
+  },
+  {
+    "id": "Q085",
+    "ar": "Obstetrics",
+    "sb": "Amniotic fluid embolism",
+    "q": "During labour, a woman suddenly becomes hypoxic and hypotensive, then develops a massive coagulopathy. Which feature best fits the UK Obstetric Surveillance System (UKOSS) criteria for amniotic fluid embolism?",
+    "o": [
+      "Fever and rash before collapse",
+      "Isolated postpartum haemorrhage",
+      "Acute collapse with hypotension, respiratory compromise, coagulopathy or seizures in labour or within 30 minutes of delivery, with no other clear cause",
+      "Fetal squamous cells in maternal blood are required for diagnosis",
+      "Collapse 3 days after delivery"
+    ],
+    "a": 2,
+    "why": "AFE is a clinical diagnosis of exclusion: acute maternal collapse with one or more of fetal compromise, cardiac arrest, arrhythmia, coagulopathy, hypotension, haemorrhage, premonitory symptoms, seizure or shortness of breath, occurring in labour or within half an hour of delivery, without another cause. Management is supportive: resuscitation, perimortem CS if arrested after 20 weeks, and early aggressive treatment of coagulopathy.",
+    "st": null
+  },
+  {
+    "id": "Q086",
+    "ar": "Obstetrics",
+    "sb": "Maternal cardiac arrest",
+    "q": "A woman at 32 weeks has a cardiac arrest on the antenatal ward. CPR is started with manual left uterine displacement. When should resuscitative hysterotomy (perimortem caesarean) be performed?",
+    "o": [
+      "After the first adrenaline dose has been given and failed",
+      "Only if the fetus is alive",
+      "After 20 minutes of CPR",
+      "Only in theatre",
+      "If there is no return of circulation within 4 minutes, aiming for delivery by 5 minutes"
+    ],
+    "a": 4,
+    "why": "In pregnancy beyond 20 weeks, the gravid uterus compresses the aorta and vena cava. If there is no return of spontaneous circulation after 4 minutes, deliver the baby at the site of arrest, aiming to complete it within 5 minutes; this improves maternal resuscitation. It is performed regardless of fetal viability.",
+    "st": null
+  },
+  {
+    "id": "Q087",
+    "ar": "Obstetrics",
+    "sb": "Obstetric airway",
+    "q": "During a category 1 caesarean section under GA, a first attempt at intubation with a videolaryngoscope fails. Oxygenation by facemask is adequate. According to the OAA/DAS obstetric guideline, what is the maximum number of intubation attempts?",
+    "o": [
+      "Four",
+      "One",
+      "Three by any operator",
+      "Unlimited while saturation is above 90%",
+      "Two (a third only by a more experienced anaesthetist)"
+    ],
+    "a": 4,
+    "why": "The OAA/DAS (2015) obstetric guideline allows a maximum of two attempts (a third only by a more experienced anaesthetist). Then declare failed intubation, insert a second-generation supraglottic airway, and decide (using Table 1 of the guideline) whether to wake the patient or proceed with surgery. Reduce or remove cricoid pressure if it impedes laryngoscopy or SAD insertion.",
+    "st": "st2-92"
+  },
+  {
+    "id": "Q088",
+    "ar": "Obstetrics",
+    "sb": "GA for caesarean",
+    "q": "Which drug combination is most appropriate for rapid sequence induction for a category 1 caesarean section in a healthy woman?",
+    "o": [
+      "Ketamine and vecuronium",
+      "Propofol and rocuronium 1–1.2 mg/kg, with sugammadex available",
+      "Thiopental and atracurium",
+      "Midazolam and suxamethonium",
+      "Propofol alone"
+    ],
+    "a": 1,
+    "why": "Modern UK practice (and the 2018 OAA survey data) supports propofol for induction and either suxamethonium or rocuronium 1–1.2 mg/kg (with sugammadex 16 mg/kg immediately available) for neuromuscular blockade. Thiopental is no longer widely available in the UK. Consider a short-acting opioid (e.g. alfentanil) to blunt the pressor response in pre-eclampsia.",
+    "st": "st2-92"
+  },
+  {
+    "id": "Q089",
+    "ar": "Obstetrics",
+    "sb": "Jehovah's Witness",
+    "q": "A Jehovah's Witness having an elective caesarean section has signed an advance decision refusing blood. Which blood conservation technique is most likely to be acceptable to her?",
+    "o": [
+      "Fresh frozen plasma",
+      "Packed red cells from a relative",
+      "Platelet transfusion",
+      "Pre-operative autologous donation stored for later use",
+      "Intraoperative cell salvage with the circuit kept in continuity with her circulation"
+    ],
+    "a": 4,
+    "why": "Many Jehovah's Witnesses accept cell salvage if the blood stays in continuity with the circulation, and some accept fractions (e.g. fibrinogen concentrate, albumin). Stored autologous blood is usually refused. Discuss each product individually, document, and plan with optimisation of haemoglobin (IV iron), tranexamic acid and early senior involvement.",
+    "st": null
+  },
+  {
+    "id": "Q090",
+    "ar": "Obstetrics",
+    "sb": "Cell salvage at CS",
+    "q": "Cell salvage is used during a caesarean section in a Rhesus-negative woman whose baby's blood group is unknown. What is required after reinfusion?",
+    "o": [
+      "Nothing additional",
+      "Routine platelet transfusion",
+      "Kleihauer test of maternal blood and anti-D if the baby is Rh-positive",
+      "Steroid cover",
+      "Repeat cross-match of blood"
+    ],
+    "a": 2,
+    "why": "Salvaged blood may contain fetal red cells. If the baby is RhD-positive, take a Kleihauer (or flow cytometry) sample about 40 minutes after reinfusion and give anti-D according to the volume of fetomaternal haemorrhage. A leucocyte depletion filter is used to reduce contamination; it can cause hypotension via bradykinin release.",
+    "st": "st2-87"
+  },
+  {
+    "id": "Q091",
+    "ar": "Obstetrics",
+    "sb": "Intrauterine death",
+    "q": "A woman is admitted for induction of labour after an intrauterine death at 36 weeks. Which investigation is most important before neuraxial analgesia?",
+    "o": [
+      "Urine toxicology",
+      "Liver function tests",
+      "Thyroid function tests",
+      "Coagulation screen and platelets, because of the risk of DIC",
+      "Echocardiogram"
+    ],
+    "a": 3,
+    "why": "Fetal death, especially if prolonged (more than 4 weeks) or associated with abruption or sepsis, can trigger DIC. Check platelets, clotting and fibrinogen before neuraxial blocks. Also consider sepsis (avoid neuraxial if systemically septic) and offer good analgesia, sensitive communication and bereavement support.",
+    "st": null
+  },
+  {
+    "id": "Q092",
+    "ar": "Obstetrics",
+    "sb": "Peripartum cardiomyopathy",
+    "q": "A woman 2 weeks after delivery presents with breathlessness and oedema. Echo shows a dilated left ventricle with ejection fraction 30%. Which criterion is required for a diagnosis of peripartum cardiomyopathy?",
+    "o": [
+      "Positive troponin",
+      "Pulmonary hypertension",
+      "Pre-existing valvular disease",
+      "Onset before 20 weeks gestation",
+      "LV systolic dysfunction (EF &lt; 45%) towards the end of pregnancy or in the months after delivery with no other identifiable cause"
+    ],
+    "a": 4,
+    "why": "ESC definition: idiopathic heart failure due to LV systolic dysfunction (EF nearly always &lt; 45%) presenting towards the end of pregnancy or in the months after delivery, with no other cause. Risk factors: older age, multiparity, multiple pregnancy, pre-eclampsia, African ancestry. Treatment is standard heart failure therapy (avoiding ACE inhibitors antenatally), anticoagulation if EF very low, and bromocriptine in some cases.",
+    "st": "st2-90"
+  },
+  {
+    "id": "Q093",
+    "ar": "Obstetrics",
+    "sb": "Non-obstetric surgery in pregnancy",
+    "q": "A woman at 22 weeks needs a laparoscopic appendicectomy. What is the most important consideration to protect the fetus?",
+    "o": [
+      "Maintain maternal oxygenation, normocapnia and BP, with left lateral tilt",
+      "Use nitrous oxide to reduce volatile requirement",
+      "Avoid all anaesthetic drugs in the second trimester",
+      "Give prophylactic tocolytics to all patients",
+      "Postpone surgery until after delivery"
+    ],
+    "a": 0,
+    "why": "Fetal well-being depends on uteroplacental perfusion, which is not autoregulated: avoid maternal hypotension, hypoxia, hypo- or hypercapnia, and aortocaval compression (uterine displacement from about 20 weeks). No anaesthetic drug in normal use is proven teratogenic. Urgent surgery should not be delayed. Monitor the fetus before and after (and during if viable and feasible), and discuss with obstetricians.",
+    "st": "st2-89"
+  },
+  {
+    "id": "Q094",
+    "ar": "Obstetrics",
+    "sb": "Obesity in pregnancy",
+    "q": "A woman with a BMI of 52 is seen in the antenatal anaesthetic clinic at 32 weeks. What is the most appropriate advice?",
+    "o": [
+      "Advise weight loss before delivery",
+      "Avoid neuraxial techniques because of difficulty",
+      "Plan elective caesarean section to avoid labour",
+      "Remifentanil PCA is the analgesic of choice",
+      "Early labour epidural once in established labour, with early IV access and senior anaesthetic involvement"
+    ],
+    "a": 4,
+    "why": "Obesity increases the risks of failed neuraxial block, difficult airway, aspiration and emergency CS. An early, well-tested epidural can be extended for operative delivery and avoids GA. Plan IV access, ultrasound for neuraxial placement if needed, suitable equipment (beds, cuffs), thromboprophylaxis, and alert senior staff when she is admitted in labour.",
+    "st": null
+  },
+  {
+    "id": "Q095",
+    "ar": "Obstetrics",
+    "sb": "Pulmonary hypertension in pregnancy",
+    "q": "A woman with pulmonary arterial hypertension is pregnant. Which period carries the highest risk of maternal death?",
+    "o": [
+      "First trimester",
+      "The first days to weeks after delivery",
+      "Labour",
+      "Second trimester",
+      "Pre-conception"
+    ],
+    "a": 1,
+    "why": "Mortality in PAH in pregnancy remains high (historically 20–50%, lower in specialist centres), with most deaths in the early postpartum period from right heart failure, as autotransfusion and fluid shifts overwhelm the RV, and from pulmonary hypertensive crises and thromboembolism. Care should be in a specialist centre with planned delivery, careful neuraxial anaesthesia and postpartum critical care.",
+    "st": "st2-90"
+  },
+  {
+    "id": "Q096",
+    "ar": "Obstetrics",
+    "sb": "CTG and urgency",
+    "q": "A CTG shows a baseline of 150 bpm, variability less than 5 bpm for 90 minutes and late decelerations with over half of contractions. How is this CTG classified (NICE 2017)?",
+    "o": [
+      "Normal",
+      "Need for urgent intervention only if there is bradycardia",
+      "Unclassifiable",
+      "Suspicious",
+      "Pathological"
+    ],
+    "a": 4,
+    "why": "Under NICE (2017/2022) features are reassuring, non-reassuring or abnormal. Reduced variability (&lt; 5 bpm) for over 50 minutes is abnormal, and late decelerations with over 50% of contractions for 30 minutes are abnormal (non-reassuring if less). One abnormal or two non-reassuring features make the CTG pathological. A prolonged bradycardia (&lt; 100 bpm for &gt; 3 minutes) needs urgent intervention.",
+    "st": "core-14"
+  },
+  {
+    "id": "Q097",
+    "ar": "Obstetrics",
+    "sb": "Maternal sepsis",
+    "q": "A woman 3 days after a caesarean section has a temperature of 38.6 °C, heart rate 125, respiratory rate 26 and BP 90/50. What is the most likely organism if this is a severe puerperal sepsis with rapid deterioration?",
+    "o": [
+      "Escherichia coli",
+      "Listeria monocytogenes",
+      "Candida albicans",
+      "Group A Streptococcus (Streptococcus pyogenes)",
+      "Staphylococcus epidermidis"
+    ],
+    "a": 3,
+    "why": "Genital tract sepsis remains a leading direct cause of maternal death in MBRRACE reports; Group A Streptococcus causes the most rapidly progressive and fatal cases, often with toxic shock. E. coli is the commonest organism overall. Give broad-spectrum IV antibiotics (including clindamycin for toxin suppression if GAS is suspected) within an hour, with source control.",
+    "st": null
+  },
+  {
+    "id": "Q098",
+    "ar": "Obstetrics",
+    "sb": "Labour analgesia",
+    "q": "Which nerve roots carry pain from the first stage of labour?",
+    "o": [
+      "S2–S4 via the pudendal nerves",
+      "T10–L1 visceral afferents accompanying sympathetic fibres",
+      "L2–L4 somatic fibres",
+      "C5–C7",
+      "T4–T6"
+    ],
+    "a": 1,
+    "why": "First-stage pain comes from cervical dilatation and uterine contraction, carried by visceral C fibres with the sympathetic chain to T10–L1. Second-stage pain adds somatic pain from the vagina and perineum via the pudendal nerve (S2–S4). An epidural must therefore cover T10–S4 for the whole of labour.",
+    "st": "core-12"
+  },
+  {
+    "id": "Q099",
+    "ar": "Obstetrics",
+    "sb": "Congenital heart disease in pregnancy",
+    "q": "A woman with a repaired tetralogy of Fallot and moderate pulmonary regurgitation is in labour. What is the most appropriate analgesic plan?",
+    "o": [
+      "Early, slowly titrated low-dose epidural analgesia",
+      "Entonox only",
+      "Avoid neuraxial analgesia completely",
+      "Single-shot spinal with high-dose bupivacaine",
+      "General anaesthesia for vaginal delivery"
+    ],
+    "a": 0,
+    "why": "Most women with repaired congenital heart disease benefit from early, slowly established low-dose epidural analgesia, which reduces the catecholamine surge and cardiac workload of labour while avoiding sudden changes in SVR. Plan with the cardiology and obstetric MDT, consider an assisted second stage, and monitor closely after delivery for fluid shifts.",
+    "st": "st2-90"
+  },
+  {
+    "id": "Q281",
+    "ar": "Obstetrics",
+    "sb": "Placental drug transfer",
+    "q": "Which neuromuscular blocking drug crosses the placenta least, due to its properties?",
+    "o": [
+      "Atracurium crosses freely",
+      "Vecuronium crosses more than fentanyl",
+      "Rocuronium",
+      "All non-depolarising relaxants cross freely",
+      "Suxamethonium and non-depolarising relaxants cross minimally because they are highly ionised and poorly lipid-soluble"
+    ],
+    "a": 4,
+    "why": "Drugs cross the placenta mainly by passive diffusion, favoured by low molecular weight (&lt; 500 Da), high lipid solubility, low ionisation and low protein binding. Neuromuscular blockers are quaternary ammonium compounds, highly ionised, and cross minimally. Local anaesthetics and opioids cross readily; ion trapping of local anaesthetics occurs in an acidotic fetus.",
+    "st": "st2-89"
+  }
+]

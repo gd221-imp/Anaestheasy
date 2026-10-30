@@ -1,0 +1,56 @@
+{
+  "t": "recipe",
+  "shape": "heart",
+  "group": "Cardiac",
+  "title": "Adult with Acquired Cardiac Disease for Non-cardiac Surgery",
+  "op": true,
+  "cards": [
+    {
+      "h": "Acquired cardiac recipe",
+      "b": "file:cards/01-acquired-cardiac-recipe.html",
+      "recipe": true
+    },
+    {
+      "h": "Pulmonary hypertension recipe",
+      "b": "file:cards/02-pulmonary-hypertension-recipe.html",
+      "recipe": true
+    },
+    {
+      "h": "Coronary Circulation",
+      "primaryRef": "phs12"
+    },
+    {
+      "h": "Cardiovascular Pharmacology",
+      "primaryRef": "pha23"
+    },
+    {
+      "h": "Ischaemic Heart Disease",
+      "noteRef": "Ischaemic Heart Disease"
+    },
+    {
+      "h": "Drug-Eluting Stents & Antiplatelet Therapy",
+      "noteRef": "Drug-Eluting Stents & Antiplatelet Therapy"
+    },
+    {
+      "h": "Heart Failure & Cardiomyopathy",
+      "noteRef": "Heart Failure & Cardiomyopathy"
+    },
+    {
+      "h": "Cardiac Implantable Electronic Devices (CIEDs)",
+      "noteRef": "Cardiac Implantable Electronic Devices (CIEDs)"
+    },
+    {
+      "h": "Sample WPBA",
+      "b": "file:cards/09-sample-wpba.html",
+      "wpba": true
+    },
+    {
+      "h": "Curriculum",
+      "links": [
+        "curric:8",
+        "curric:9"
+      ]
+    }
+  ],
+  "q": "file:quiz.json"
+}

@@ -1,0 +1,47 @@
+{
+  "t": "recipe",
+  "shape": "brain",
+  "group": "Neuro",
+  "title": "Scoliosis & Prone Positioning",
+  "op": true,
+  "cards": [
+    {
+      "h": "Anaesthetic recipe",
+      "b": "file:cards/01-anaesthetic-recipe.html",
+      "recipe": true
+    },
+    {
+      "h": "The Vertebral Column",
+      "primaryRef": "ana19"
+    },
+    {
+      "h": "Depth of Anaesthesia",
+      "primaryRef": "phy32"
+    },
+    {
+      "h": "Scoliosis & Prone Positioning",
+      "noteRef": "Scoliosis & Prone Positioning"
+    },
+    {
+      "h": "Myotonic Dystrophy",
+      "noteRef": "Myotonic Dystrophy"
+    },
+    {
+      "h": "Intraoperative Neuromonitoring",
+      "noteRef": "Intraoperative Neuromonitoring"
+    },
+    {
+      "h": "Sample WPBA",
+      "b": "file:cards/07-sample-wpba.html",
+      "wpba": true
+    },
+    {
+      "h": "Curriculum",
+      "links": [
+        "curric:8",
+        "curric:9"
+      ]
+    }
+  ],
+  "q": "file:quiz.json"
+}

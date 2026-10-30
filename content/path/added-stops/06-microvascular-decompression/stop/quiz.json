@@ -1,0 +1,62 @@
+[
+  {
+    "q": "What position is used for microvascular decompression?",
+    "o": [
+      "Park bench (lateral)",
+      "Lithotomy",
+      "Prone",
+      "Supine",
+      "Sitting only"
+    ],
+    "a": 0,
+    "why": "Park bench gives access to the cerebellopontine angle with the head in pins."
+  },
+  {
+    "q": "Which reflex can cause bradycardia when the trigeminal nerve is handled?",
+    "o": [
+      "Hering–Breuer reflex",
+      "Bezold–Jarisch reflex",
+      "Bainbridge reflex",
+      "Cushing reflex",
+      "Trigeminocardiac reflex"
+    ],
+    "a": 4,
+    "why": "Stimulation of the trigeminal nerve can cause sudden bradycardia and hypotension."
+  },
+  {
+    "q": "Why put the cannula on the side of surgery?",
+    "o": [
+      "It faces up once the patient is in park bench",
+      "It is the surgeon's preference",
+      "It reduces infection",
+      "It avoids the brachial plexus",
+      "It is easier to reach the vein"
+    ],
+    "a": 0,
+    "why": "In park bench the operative side is uppermost, so lines stay accessible."
+  },
+  {
+    "q": "Why might fentanyl be used instead of remifentanil at induction?",
+    "o": [
+      "It has no side effects",
+      "It needs no syringe driver",
+      "It is cheaper",
+      "Less hypotension while you are away positioning the patient",
+      "It avoids PONV"
+    ],
+    "a": 3,
+    "why": "A smoother BP during positioning, when you can't easily treat hypotension, helps."
+  },
+  {
+    "q": "Which nerve is at risk in surgery near the cerebellopontine angle?",
+    "o": [
+      "Vestibulocochlear nerve",
+      "Optic nerve",
+      "Hypoglossal only",
+      "Phrenic nerve",
+      "Radial nerve"
+    ],
+    "a": 0,
+    "why": "Hearing loss (VIII) is a recognised risk; facial nerve (VII) too."
+  }
+]

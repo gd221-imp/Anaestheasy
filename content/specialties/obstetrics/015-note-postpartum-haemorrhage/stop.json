@@ -1,0 +1,38 @@
+{
+  "t": "tip",
+  "shape": "belly",
+  "group": "Obstetrics",
+  "title": "Postpartum Haemorrhage",
+  "cards": [
+    {
+      "h": "Overview",
+      "b": "file:cards/01-overview.html"
+    },
+    {
+      "h": "Postpartum haemorrhage affects around 5% of deliveries",
+      "b": "file:cards/02-postpartum-haemorrhage-affects-around-5-of-deliv.html"
+    },
+    {
+      "h": "TONE (accounts for around 80% of cases)",
+      "b": "file:cards/03-tone-accounts-for-around-80-of-cases.html"
+    },
+    {
+      "h": "Key points",
+      "b": "file:cards/04-key-points.html"
+    },
+    {
+      "h": "THROMBIN (coagulopathy)",
+      "b": "file:cards/05-thrombin-coagulopathy.html"
+    },
+    {
+      "h": "Uterine inversion",
+      "b": "file:cards/06-uterine-inversion.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/07-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

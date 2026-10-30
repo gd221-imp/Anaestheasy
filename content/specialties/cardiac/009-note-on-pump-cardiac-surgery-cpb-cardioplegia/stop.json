@@ -1,0 +1,50 @@
+{
+  "t": "tip",
+  "shape": "heart",
+  "group": "Cardiac",
+  "title": "On-Pump Cardiac Surgery (CPB & Cardioplegia)",
+  "cards": [
+    {
+      "h": "Definition",
+      "b": "file:cards/01-definition.html"
+    },
+    {
+      "h": "The Bypass Circuit (basic flow)",
+      "b": "file:cards/02-the-bypass-circuit-basic-flow.html"
+    },
+    {
+      "h": "Manipulation during CPB",
+      "b": "file:cards/03-manipulation-during-cpb.html"
+    },
+    {
+      "h": "Risks of CPB",
+      "b": "file:cards/04-risks-of-cpb.html"
+    },
+    {
+      "h": "Role of the anaesthetist during CPB",
+      "b": "file:cards/05-role-of-the-anaesthetist-during-cpb.html"
+    },
+    {
+      "h": "Cardioplegia",
+      "b": "file:cards/06-cardioplegia.html"
+    },
+    {
+      "h": "Cardioplegia complications",
+      "b": "file:cards/07-cardioplegia-complications.html"
+    },
+    {
+      "h": "Non-cardioplegic techniques",
+      "b": "file:cards/08-non-cardioplegic-techniques.html"
+    },
+    {
+      "h": "Heparin resistance",
+      "b": "file:cards/09-heparin-resistance.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/10-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

@@ -1,0 +1,18 @@
+{
+  "t": "tip",
+  "shape": "brain",
+  "group": "Neuro",
+  "title": "Spinal Epidural Abscess",
+  "cards": [
+    {
+      "h": "Classic progression",
+      "b": "file:cards/01-classic-progression.html"
+    },
+    {
+      "h": "Pre-op",
+      "b": "file:cards/02-pre-op.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

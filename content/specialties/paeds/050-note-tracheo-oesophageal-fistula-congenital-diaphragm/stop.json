@@ -1,0 +1,38 @@
+{
+  "t": "tip",
+  "shape": "dummy",
+  "group": "Paeds",
+  "title": "Tracheo-oesophageal Fistula & Congenital Diaphragmatic Hernia",
+  "cards": [
+    {
+      "h": "Tracheo-oesophageal Fistula",
+      "b": "file:cards/01-tracheo-oesophageal-fistula.html"
+    },
+    {
+      "h": "Pre-op",
+      "b": "file:cards/02-pre-op.html"
+    },
+    {
+      "h": "Intra-op",
+      "b": "file:cards/03-intra-op.html"
+    },
+    {
+      "h": "Post-op",
+      "b": "file:cards/04-post-op.html"
+    },
+    {
+      "h": "Congenital Diaphragmatic Hernia",
+      "b": "file:cards/05-congenital-diaphragmatic-hernia.html"
+    },
+    {
+      "h": "Pre-op",
+      "b": "file:cards/06-pre-op.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/07-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

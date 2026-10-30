@@ -1,0 +1,48 @@
+{
+  "t": "recipe",
+  "shape": "bone",
+  "group": "Orthopaedics and Trauma",
+  "title": "Shoulder Arthroscopy with Interscalene Block",
+  "op": true,
+  "cards": [
+    {
+      "h": "Anaesthetic recipe",
+      "b": "file:cards/01-anaesthetic-recipe.html",
+      "recipe": true
+    },
+    {
+      "h": "Brachial Plexus",
+      "primaryRef": "ana24"
+    },
+    {
+      "h": "Lung Compliance, Laplace's Law & Work of Breathing",
+      "primaryRef": "phs16"
+    },
+    {
+      "h": "Ehlers-Danlos Syndrome",
+      "noteRef": "Ehlers-Danlos Syndrome"
+    },
+    {
+      "h": "Upper Limb Surgery in Sitting Position",
+      "noteRef": "Upper Limb Surgery in Sitting Position"
+    },
+    {
+      "h": "Regional Anaesthesia - Brachial Plexus & Ankle Block",
+      "noteRef": "Regional Anaesthesia - Brachial Plexus & Ankle Block"
+    },
+    {
+      "h": "Sample WPBA",
+      "b": "file:cards/07-sample-wpba.html",
+      "wpba": true
+    },
+    {
+      "h": "Curriculum",
+      "links": [
+        "curric:8",
+        "curric:9",
+        "curric:10"
+      ]
+    }
+  ],
+  "q": "file:quiz.json"
+}

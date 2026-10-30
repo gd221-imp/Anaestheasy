@@ -1,0 +1,17 @@
+{
+  "t": "tip",
+  "shape": "lung",
+  "group": "Thoracic",
+  "title": "Tracheo-innominate Fistula",
+  "note": true,
+  "cards": [
+    {
+      "h": "Overview",
+      "b": "file:cards/01-overview.html"
+    },
+    {
+      "h": "Management",
+      "b": "file:cards/02-management.html"
+    }
+  ]
+}

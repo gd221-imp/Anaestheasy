@@ -1,0 +1,47 @@
+{
+  "t": "recipe",
+  "shape": "warn",
+  "group": "CEPOD",
+  "title": "UGI Bleed",
+  "op": true,
+  "cards": [
+    {
+      "h": "Anaesthetic recipe",
+      "b": "file:cards/01-anaesthetic-recipe.html",
+      "recipe": true
+    },
+    {
+      "h": "Baroreceptor Reflex & Haemorrhagic Shock",
+      "primaryRef": "phs5"
+    },
+    {
+      "h": "Transfusion Physiology",
+      "primaryRef": "phs46"
+    },
+    {
+      "h": "UGI Bleed",
+      "noteRef": "UGI Bleed"
+    },
+    {
+      "h": "Chronic Liver Disease",
+      "noteRef": "Chronic Liver Disease"
+    },
+    {
+      "h": "Neck Trauma, Oesophageal Trauma & Boerhaave's Syndrome",
+      "noteRef": "Neck Trauma, Oesophageal Trauma & Boerhaave's Syndrome"
+    },
+    {
+      "h": "Sample WPBA",
+      "b": "file:cards/07-sample-wpba.html",
+      "wpba": true
+    },
+    {
+      "h": "Curriculum",
+      "links": [
+        "curric:9",
+        "curric:11"
+      ]
+    }
+  ],
+  "q": "file:quiz.json"
+}

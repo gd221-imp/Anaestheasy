@@ -1,0 +1,98 @@
+[
+  {
+    "id": "Q266",
+    "ar": "Safety, law, ethics & consent",
+    "sb": "Consent (Montgomery)",
+    "q": "Following Montgomery v Lanarkshire Health Board (2015), which risks must be disclosed when consenting a patient?",
+    "o": [
+      "Only risks with an incidence above 1%",
+      "Risks need not be disclosed if the patient does not ask",
+      "Only risks that a responsible body of doctors would disclose",
+      "Any material risk: one a reasonable person in the patient's position would consider significant, or one the doctor knows or should know this patient would consider significant",
+      "Only serious risks such as death"
+    ],
+    "a": 3,
+    "why": "Montgomery replaced the Bolam test for consent with a patient-centred test of material risk, and requires discussion of reasonable alternatives (including no treatment). The therapeutic exception is narrow. GMC guidance on decision making and consent (2020) reflects this. Document the discussion.",
+    "st": null
+  },
+  {
+    "id": "Q267",
+    "ar": "Safety, law, ethics & consent",
+    "sb": "Mental Capacity Act",
+    "q": "Under the Mental Capacity Act 2005, which is one of the four elements a person must be able to do to have capacity for a decision?",
+    "o": [
+      "Agree with the doctor's recommendation",
+      "Be over 18 and have no mental illness",
+      "Understand, retain, use or weigh the information, and communicate the decision",
+      "Have a diagnosis that does not affect cognition",
+      "Remember the conversation the following day"
+    ],
+    "a": 2,
+    "why": "The two-stage test: is there an impairment of mind or brain, and does it mean the person cannot understand the information, retain it long enough, use or weigh it, or communicate a decision? Capacity is decision-specific and time-specific; an unwise decision does not mean lack of capacity. If capacity is lacking, act in the person's best interests (consulting relatives, any LPA or IMCA), choosing the least restrictive option.",
+    "st": null
+  },
+  {
+    "id": "Q268",
+    "ar": "Safety, law, ethics & consent",
+    "sb": "Children and consent",
+    "q": "A 15-year-old who is Gillick competent refuses a life-saving appendicectomy. Her parents consent. What is the legal position in England?",
+    "o": [
+      "Only a court can ever consent for under-18s",
+      "She can be treated only after she turns 16",
+      "Her refusal must always be respected",
+      "Parents (or the court) can consent to treatment in her best interests despite her refusal, though this should be approached with great care and legal advice",
+      "Treatment requires both parents to sign"
+    ],
+    "a": 3,
+    "why": "In England and Wales, a competent child can consent, but refusal by a child under 18 can be overridden by a person with parental responsibility or the court when treatment is in their best interests and life-saving. In practice, seek senior and legal advice and consider a court application. Rules differ in Scotland.",
+    "st": null
+  },
+  {
+    "id": "Q269",
+    "ar": "Safety, law, ethics & consent",
+    "sb": "Substance misuse in doctors",
+    "q": "Which drug is most commonly misused by anaesthetists, according to reviews of impaired practitioners?",
+    "o": [
+      "Benzodiazepines only",
+      "Cannabis",
+      "Opioids (especially fentanyl), followed by propofol and alcohol",
+      "Nitrous oxide only",
+      "Ketamine only"
+    ],
+    "a": 2,
+    "why": "Anaesthetists have access to potent drugs; opioids are most commonly misused, then propofol and alcohol. Warning signs include unusual drug requests or wastage, volunteering for extra lists, mood changes and absence. If concerned, act through the clinical director and occupational health; the AAGBI and Practitioner Health provide confidential support. Patient safety comes first.",
+    "st": null
+  },
+  {
+    "id": "Q270",
+    "ar": "Safety, law, ethics & consent",
+    "sb": "Corneal abrasion",
+    "q": "What is the most common eye injury during general anaesthesia for non-ocular surgery, and the best prevention?",
+    "o": [
+      "Ischaemic optic neuropathy; head-up position",
+      "Retinal artery occlusion; avoid hypotension",
+      "Cortical blindness; avoid hypocapnia",
+      "Chemical injury; avoid skin preparation",
+      "Corneal abrasion; tape the eyelids closed promptly after induction and protect from pressure"
+    ],
+    "a": 4,
+    "why": "Corneal abrasion is the commonest eye injury under GA, caused by lagophthalmos, reduced tear production and direct trauma (masks, watch straps, badges). Tape eyelids closed horizontally after induction, avoid pressure on the eyes, and take care during prone positioning and emergence. Postoperative visual loss (ischaemic optic neuropathy) is rare but associated with prone spinal surgery and cardiac surgery.",
+    "st": null
+  },
+  {
+    "id": "Q283",
+    "ar": "Safety, law, ethics & consent",
+    "sb": "Information governance",
+    "q": "What is the role of a Caldicott Guardian in an NHS organisation?",
+    "o": [
+      "Representing doctors in disciplinary hearings",
+      "Protecting the confidentiality of patient information and enabling appropriate information sharing",
+      "Managing the hospital budget",
+      "Investigating clinical negligence claims",
+      "Approving research ethics"
+    ],
+    "a": 1,
+    "why": "A Caldicott Guardian is a senior person responsible for protecting the confidentiality of patient and service-user information and enabling appropriate information sharing, guided by the eight Caldicott principles (including justifying the purpose, using the minimum necessary, and the duty to share information can be as important as the duty to protect it).",
+    "st": null
+  }
+]

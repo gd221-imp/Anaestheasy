@@ -1,0 +1,43 @@
+{
+  "t": "recipe",
+  "shape": "plaster",
+  "group": "Plastics",
+  "title": "Liposuction",
+  "op": true,
+  "cards": [
+    {
+      "h": "Anaesthetic recipe",
+      "b": "file:cards/01-anaesthetic-recipe.html",
+      "recipe": true
+    },
+    {
+      "h": "Local Anaesthetics",
+      "primaryRef": "pha20"
+    },
+    {
+      "h": "Clearance & Volume of Distribution",
+      "primaryRef": "pha12"
+    },
+    {
+      "h": "Needlestick Injury",
+      "noteRef": "Needlestick Injury"
+    },
+    {
+      "h": "Obstructive Sleep Apnoea & Obesity Hypoventilation Syndrome",
+      "noteRef": "Obstructive Sleep Apnoea & Obesity Hypoventilation Syndrome"
+    },
+    {
+      "h": "Sample WPBA",
+      "b": "file:cards/06-sample-wpba.html",
+      "wpba": true
+    },
+    {
+      "h": "Curriculum",
+      "links": [
+        "curric:8",
+        "curric:9"
+      ]
+    }
+  ],
+  "q": "file:quiz.json"
+}

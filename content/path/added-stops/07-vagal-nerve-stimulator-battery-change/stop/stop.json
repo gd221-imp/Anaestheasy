@@ -1,0 +1,35 @@
+{
+  "t": "recipe",
+  "shape": "brain",
+  "group": "Neuro",
+  "title": "Vagal Nerve Stimulator Battery Change",
+  "op": true,
+  "cards": [
+    {
+      "h": "Anaesthetic recipe",
+      "b": "file:cards/01-anaesthetic-recipe.html",
+      "recipe": true
+    },
+    {
+      "h": "Anaesthesia for Epilepsy Surgery",
+      "noteRef": "Anaesthesia for Epilepsy Surgery"
+    },
+    {
+      "h": "Status Epilepticus",
+      "noteRef": "Status Epilepticus"
+    },
+    {
+      "h": "Sample WPBA",
+      "b": "file:cards/04-sample-wpba.html",
+      "wpba": true
+    },
+    {
+      "h": "Curriculum",
+      "links": [
+        "curric:8",
+        "curric:9"
+      ]
+    }
+  ],
+  "q": "file:quiz.json"
+}

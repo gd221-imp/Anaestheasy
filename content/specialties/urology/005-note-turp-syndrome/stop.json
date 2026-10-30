@@ -1,0 +1,26 @@
+{
+  "t": "tip",
+  "shape": "kidney",
+  "group": "Urology",
+  "title": "TURP Syndrome",
+  "cards": [
+    {
+      "h": "Overview (example: 62yo male, hypertensive, for TURP)",
+      "b": "file:cards/01-overview-example-62yo-male-hypertensive-for-turp.html"
+    },
+    {
+      "h": "CVS effects",
+      "b": "file:cards/02-cvs-effects.html"
+    },
+    {
+      "h": "Treatment",
+      "b": "file:cards/03-treatment.html"
+    },
+    {
+      "h": "Prevention",
+      "b": "file:cards/04-prevention.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

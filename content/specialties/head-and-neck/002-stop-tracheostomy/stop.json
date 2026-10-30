@@ -1,0 +1,43 @@
+{
+  "t": "recipe",
+  "shape": "headn",
+  "group": "Head and neck",
+  "title": "Tracheostomy",
+  "op": true,
+  "cards": [
+    {
+      "h": "Anaesthetic recipe",
+      "b": "file:cards/01-anaesthetic-recipe.html",
+      "recipe": true
+    },
+    {
+      "h": "The Neck (Root of Neck at C6)",
+      "primaryRef": "ana16"
+    },
+    {
+      "h": "Trachea, Main Bronchi & Bronchopulmonary Segments",
+      "primaryRef": "ana2"
+    },
+    {
+      "h": "Tracheostomy",
+      "noteRef": "Tracheostomy"
+    },
+    {
+      "h": "Percutaneous Tracheostomy & Emergencies",
+      "noteRef": "Percutaneous Tracheostomy & Emergencies"
+    },
+    {
+      "h": "Sample WPBA",
+      "b": "file:cards/06-sample-wpba.html",
+      "wpba": true
+    },
+    {
+      "h": "Curriculum",
+      "links": [
+        "curric:9",
+        "curric:14"
+      ]
+    }
+  ],
+  "q": "file:quiz.json"
+}

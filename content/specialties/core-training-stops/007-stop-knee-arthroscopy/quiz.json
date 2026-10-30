@@ -1,0 +1,122 @@
+[
+  {
+    "q": "What is the usual anaesthetic for knee arthroscopy?",
+    "o": [
+      "Spinal always",
+      "GA with LMA",
+      "ETT and relaxant",
+      "Sedation only",
+      "Epidural"
+    ],
+    "a": 1,
+    "why": "Short day case."
+  },
+  {
+    "q": "What should be noted when the tourniquet goes up?",
+    "o": [
+      "Patient weight",
+      "The time",
+      "The BP only",
+      "Surgeon name",
+      "Nothing"
+    ],
+    "a": 1,
+    "why": "Tourniquet time limits."
+  },
+  {
+    "q": "Which analgesic technique is commonly provided by the surgeon?",
+    "o": [
+      "Femoral block",
+      "Intra-articular local anaesthetic",
+      "Spinal",
+      "Epidural",
+      "IV lidocaine"
+    ],
+    "a": 1,
+    "why": "Plus simple analgesia."
+  },
+  {
+    "q": "Which tourniquet-related issue occurs during prolonged inflation?",
+    "o": [
+      "Hypotension",
+      "Tourniquet pain and hypertension",
+      "Bradycardia",
+      "Hypoxia",
+      "Hypoglycaemia"
+    ],
+    "a": 1,
+    "why": "Under GA."
+  },
+  {
+    "q": "Which delayed surgical complication is serious?",
+    "o": [
+      "Stiffness",
+      "Septic arthritis",
+      "Bruising",
+      "Swelling",
+      "Pain"
+    ],
+    "a": 1,
+    "why": "Infection of the joint."
+  },
+  {
+    "q": "Which delayed anaesthetic complication is important?",
+    "o": [
+      "MH",
+      "VTE",
+      "Laryngospasm",
+      "Bronchospasm",
+      "Hypothermia"
+    ],
+    "a": 1,
+    "why": "Assess VTE risk."
+  },
+  {
+    "q": "What happens on tourniquet deflation?",
+    "o": [
+      "Hypertension",
+      "Fall in BP and rise in EtCO2 from metabolites",
+      "Bradycardia only",
+      "No change",
+      "Hypothermia only"
+    ],
+    "a": 1,
+    "why": "Reperfusion of the limb."
+  },
+  {
+    "q": "Which is a contraindication to a tourniquet?",
+    "o": [
+      "Obesity",
+      "Sickle cell disease (relative)",
+      "Diabetes",
+      "Asthma",
+      "Hypertension"
+    ],
+    "a": 1,
+    "why": "Avoid in sickle cell."
+  },
+  {
+    "q": "What is a destination after knee arthroscopy?",
+    "o": [
+      "HDU",
+      "Home same day",
+      "Ward overnight",
+      "ICU",
+      "Rehab"
+    ],
+    "a": 1,
+    "why": "Day case."
+  },
+  {
+    "q": "Which immediate anaesthetic complication may occur with LMA?",
+    "o": [
+      "Aspiration only",
+      "Laryngospasm",
+      "Hypotension",
+      "MH",
+      "Pneumothorax"
+    ],
+    "a": 1,
+    "why": "Light anaesthesia."
+  }
+]

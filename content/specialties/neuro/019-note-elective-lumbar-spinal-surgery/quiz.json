@@ -1,0 +1,12 @@
+[
+  {
+    "q": "Which is the most important step to reduce the risk of postoperative visual loss in prone spinal surgery?",
+    "o": [
+      "Keep pressure off the eyes and avoid prolonged hypotension",
+      "Use a volatile rather than TIVA",
+      "Give a long-acting opioid"
+    ],
+    "a": 0,
+    "why": "Postoperative visual loss is linked to direct pressure on the eye and to prolonged hypotension, anaemia and long prone surgery."
+  }
+]

@@ -1,0 +1,48 @@
+{
+  "t": "recipe",
+  "shape": "brain",
+  "group": "Neuro",
+  "title": "Spinal Cord Stimulator (Neuromodulation)",
+  "op": true,
+  "cards": [
+    {
+      "h": "Anaesthetic recipe",
+      "b": "file:cards/01-anaesthetic-recipe.html",
+      "recipe": true
+    },
+    {
+      "h": "Pain Pathways",
+      "primaryRef": "phs43"
+    },
+    {
+      "h": "The Epidural Space",
+      "primaryRef": "ana18"
+    },
+    {
+      "h": "Spinal Cord Stimulator (Neuromodulation)",
+      "noteRef": "Spinal Cord Stimulator (Neuromodulation)"
+    },
+    {
+      "h": "Migraines",
+      "noteRef": "Migraines"
+    },
+    {
+      "h": "Spinal Cord Stimulator & Diabetic Neuropathy",
+      "noteRef": "Spinal Cord Stimulator & Diabetic Neuropathy"
+    },
+    {
+      "h": "Sample WPBA",
+      "b": "file:cards/07-sample-wpba.html",
+      "wpba": true
+    },
+    {
+      "h": "Curriculum",
+      "links": [
+        "curric:9",
+        "curric:12",
+        "curric:13"
+      ]
+    }
+  ],
+  "q": "file:quiz.json"
+}

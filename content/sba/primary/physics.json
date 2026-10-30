@@ -1,0 +1,2322 @@
+[
+  {
+    "id": "P099",
+    "ar": "Physics",
+    "sb": "SI Units",
+    "tp": "phy0",
+    "q": "Which of these is an SI base unit?",
+    "o": [
+      "Kelvin",
+      "Joule",
+      "Pascal",
+      "Newton",
+      "Watt"
+    ],
+    "a": 0,
+    "why": "The seven SI base units are metre, kilogram, second, ampere, kelvin, mole and candela. Newton, pascal, joule and watt are derived units (e.g. pascal = N/m² = kg·m⁻¹·s⁻²)."
+  },
+  {
+    "id": "P100",
+    "ar": "Physics",
+    "sb": "SI Units",
+    "tp": "phy0",
+    "q": "1 kPa is approximately equal to how many mmHg?",
+    "o": [
+      "10.2",
+      "13.6",
+      "7.5",
+      "1.0",
+      "0.75"
+    ],
+    "a": 2,
+    "why": "1 kPa ≈ 7.5 mmHg, and 1 mmHg ≈ 0.133 kPa. One atmosphere is 101.3 kPa = 760 mmHg ≈ 1033 cmH2O; 1 kPa ≈ 10.2 cmH2O."
+  },
+  {
+    "id": "P101",
+    "ar": "Physics",
+    "sb": "Kinetic Theory of Gases",
+    "tp": "phy1",
+    "q": "According to the kinetic theory of gases, what determines the average kinetic energy of the gas molecules?",
+    "o": [
+      "The number of moles",
+      "Pressure only",
+      "Volume",
+      "Absolute temperature",
+      "Molecular weight only"
+    ],
+    "a": 3,
+    "why": "Mean molecular kinetic energy is proportional to absolute temperature (3/2 kT). At the same temperature, lighter molecules move faster (Graham's law). Pressure results from molecular collisions with the container walls."
+  },
+  {
+    "id": "P102",
+    "ar": "Physics",
+    "sb": "Kinetic Theory of Gases",
+    "tp": "phy1",
+    "q": "At a given temperature, how does the rate of diffusion of a gas relate to its molecular weight (Graham's law)?",
+    "o": [
+      "Inversely proportional to the square root of MW",
+      "Directly proportional to molecular weight",
+      "Independent of molecular weight",
+      "Proportional to the square of molecular weight",
+      "Inversely proportional to molecular weight"
+    ],
+    "a": 0,
+    "why": "Graham's law: rate ∝ 1/√MW. Combined with solubility, this explains why CO2 (more soluble despite a higher MW) diffuses across the alveolar membrane about 20 times faster than O2."
+  },
+  {
+    "id": "P103",
+    "ar": "Physics",
+    "sb": "Newtonian Mechanics &amp; Pressure Measurement",
+    "tp": "phy2",
+    "q": "A gauge reads 137 bar on a full oxygen cylinder. What does gauge pressure represent?",
+    "o": [
+      "Pressure at 0 °C only",
+      "Partial pressure of oxygen at sea level",
+      "Absolute pressure",
+      "Pressure below atmospheric pressure",
+      "Pressure above atmospheric pressure"
+    ],
+    "a": 4,
+    "why": "Gauge pressure = absolute pressure − atmospheric pressure. A full oxygen cylinder shows about 137 bar gauge (about 138 bar absolute). Most anaesthetic pressure readings are gauge pressures."
+  },
+  {
+    "id": "P104",
+    "ar": "Physics",
+    "sb": "Newtonian Mechanics &amp; Pressure Measurement",
+    "tp": "phy2",
+    "q": "Why does a smaller syringe generate higher pressure for the same thumb force?",
+    "o": [
+      "Volume is inversely proportional to force",
+      "Pressure = force / area",
+      "Pressure = force × area",
+      "Larger syringes leak",
+      "Smaller syringes have more friction"
+    ],
+    "a": 1,
+    "why": "Pressure = force/area, so a smaller plunger area produces a higher pressure. This is why small syringes are used to clear blocked cannulae but can generate pressures high enough to injure nerves or rupture catheters."
+  },
+  {
+    "id": "P105",
+    "ar": "Physics",
+    "sb": "Gas Laws",
+    "tp": "phy3",
+    "q": "An oxygen cylinder is moved from a cold store to a warm room. Its volume is fixed. Which gas law describes the rise in pressure?",
+    "o": [
+      "Boyle's law",
+      "Henry's law",
+      "Charles' law",
+      "Gay-Lussac's (third gas) law",
+      "Dalton's law"
+    ],
+    "a": 3,
+    "why": "Gay-Lussac's law: at constant volume, pressure is proportional to absolute temperature. Boyle's law relates pressure and volume at constant temperature; Charles' law relates volume and temperature at constant pressure."
+  },
+  {
+    "id": "P106",
+    "ar": "Physics",
+    "sb": "Gas Laws",
+    "tp": "phy3",
+    "q": "What does Dalton's law state?",
+    "o": [
+      "Gas volume is proportional to temperature",
+      "Equal volumes contain equal numbers of molecules",
+      "Total pressure is the sum of the partial pressures",
+      "Dissolved gas is proportional to partial pressure",
+      "Flow is proportional to the pressure gradient"
+    ],
+    "a": 2,
+    "why": "Dalton's law of partial pressures underpins calculations such as PiO2 = FiO2 × (PB − PH2O). Henry's law concerns dissolved gas; Avogadro's hypothesis concerns molecule number."
+  },
+  {
+    "id": "P107",
+    "ar": "Physics",
+    "sb": "Gases in Solution",
+    "tp": "phy4",
+    "q": "Henry's law states that, at constant temperature, the amount of gas dissolved in a liquid is proportional to which quantity?",
+    "o": [
+      "Its molecular weight",
+      "The viscosity of the liquid",
+      "The surface area of the liquid",
+      "Its partial pressure above the liquid",
+      "The square root of the temperature"
+    ],
+    "a": 3,
+    "why": "Henry's law explains why dissolved oxygen (0.0225 mL/dL/kPa, or 0.003 mL/dL/mmHg) rises linearly with PaO2, which is the basis for hyperbaric oxygen therapy."
+  },
+  {
+    "id": "P108",
+    "ar": "Physics",
+    "sb": "Gases in Solution",
+    "tp": "phy4",
+    "q": "How does the solubility of a gas in a liquid change as the temperature rises?",
+    "o": [
+      "It increases",
+      "It decreases",
+      "It depends only on pressure",
+      "It increases then decreases",
+      "It is unchanged"
+    ],
+    "a": 1,
+    "why": "Gas solubility falls with increasing temperature. In hypothermia, gases are more soluble, which is relevant to blood gas temperature correction (alpha-stat vs pH-stat) and slower volatile washout."
+  },
+  {
+    "id": "P109",
+    "ar": "Physics",
+    "sb": "Density, Viscosity &amp; Flow",
+    "tp": "phy5",
+    "q": "According to the Hagen–Poiseuille equation, halving the radius of a tube with laminar flow changes flow by what factor?",
+    "o": [
+      "No change",
+      "Quarters it",
+      "Reduces it to one-eighth",
+      "Reduces it to one-sixteenth",
+      "Halves it"
+    ],
+    "a": 3,
+    "why": "Q = πPr⁴/8ηl, so flow is proportional to r⁴; halving the radius reduces flow to 1/16. This is why short, wide cannulae deliver the fastest flow rates."
+  },
+  {
+    "id": "P110",
+    "ar": "Physics",
+    "sb": "Density, Viscosity &amp; Flow",
+    "tp": "phy5",
+    "q": "Which property of a gas mainly determines flow in laminar conditions?",
+    "o": [
+      "Partial pressure",
+      "Density",
+      "Molecular weight",
+      "Solubility",
+      "Viscosity"
+    ],
+    "a": 4,
+    "why": "Laminar flow depends on viscosity (Hagen–Poiseuille); turbulent flow depends mainly on density. Heliox (low density) improves flow through narrowed airways where flow is turbulent."
+  },
+  {
+    "id": "P111",
+    "ar": "Physics",
+    "sb": "Gas Storage",
+    "tp": "phy6",
+    "q": "What colour is the shoulder of a medical oxygen cylinder in the UK?",
+    "o": [
+      "Black",
+      "White",
+      "Blue and white quarters",
+      "Grey",
+      "Blue"
+    ],
+    "a": 1,
+    "why": "Oxygen cylinders have a white shoulder (body black on older cylinders, white on newer ones). Nitrous oxide is blue; Entonox has blue and white quarters on the shoulder; air has black and white quarters; CO2 is grey."
+  },
+  {
+    "id": "P112",
+    "ar": "Physics",
+    "sb": "Gas Storage",
+    "tp": "phy6",
+    "q": "Why does the pressure gauge on a nitrous oxide cylinder not reflect the amount of N2O remaining until the cylinder is nearly empty?",
+    "o": [
+      "N2O dissolves into the cylinder wall",
+      "N2O is stored at a very low pressure",
+      "N2O is stored above its critical temperature",
+      "The gauge is calibrated in the wrong units",
+      "N2O is stored as liquid with vapour above it"
+    ],
+    "a": 4,
+    "why": "N2O's critical temperature (36.5 °C) is above room temperature, so it is stored as a liquid with vapour at its saturated vapour pressure (about 44 bar at 20 °C). Pressure stays constant until all the liquid has vaporised; the contents are judged by weight."
+  },
+  {
+    "id": "P113",
+    "ar": "Physics",
+    "sb": "Gas and Vapour, Vaporisers &amp; Humidity",
+    "tp": "phy7",
+    "q": "What defines a vapour, as opposed to a gas?",
+    "o": [
+      "Any substance with a molecular weight over 100",
+      "A liquid dissolved in a carrier gas",
+      "A gaseous substance above its critical temperature",
+      "A gaseous substance below its critical temperature",
+      "A substance with a boiling point below 0 °C"
+    ],
+    "a": 3,
+    "why": "A vapour is a substance in the gaseous phase below its critical temperature, so it can be liquefied by pressure alone. Above the critical temperature it is a gas and cannot be liquefied however much pressure is applied."
+  },
+  {
+    "id": "P114",
+    "ar": "Physics",
+    "sb": "Gas and Vapour, Vaporisers &amp; Humidity",
+    "tp": "phy7",
+    "q": "Why does the Tec 6 desflurane vaporiser heat the agent to 39 °C?",
+    "o": [
+      "Heating prevents condensation in the circuit",
+      "Heating increases desflurane's potency",
+      "Heating sterilises the liquid agent",
+      "Heating lowers its blood:gas coefficient",
+      "Its boiling point (23.5 °C) is near room temperature"
+    ],
+    "a": 4,
+    "why": "Desflurane boils at 23.5 °C, so small temperature changes would cause large vapour pressure changes. Heating and pressurising it (to about 2 atm) gives a predictable vapour that is then injected into fresh gas flow. A conventional variable-bypass vaporiser could not be used."
+  },
+  {
+    "id": "P115",
+    "ar": "Physics",
+    "sb": "Solvents &amp; Solutes",
+    "tp": "phy8",
+    "q": "A 1% solution of lidocaine contains how much drug per mL?",
+    "o": [
+      "10 mg",
+      "100 mg",
+      "20 mg",
+      "0.1 mg",
+      "1 mg"
+    ],
+    "a": 0,
+    "why": "A 1% w/v solution contains 1 g per 100 mL = 10 mg/mL. Similarly 1 in 1000 adrenaline = 1 mg/mL and 1 in 200,000 = 5 micrograms/mL."
+  },
+  {
+    "id": "P116",
+    "ar": "Physics",
+    "sb": "Solvents &amp; Solutes",
+    "tp": "phy8",
+    "q": "What concentration in micrograms per mL is a 1 in 200,000 adrenaline solution?",
+    "o": [
+      "0.5",
+      "5",
+      "10",
+      "2",
+      "50"
+    ],
+    "a": 1,
+    "why": "1 in 200,000 = 1 g in 200,000 mL = 1000 mg/200,000 mL = 0.005 mg/mL = 5 micrograms/mL. This concentration is used as a test-dose marker in local anaesthetics."
+  },
+  {
+    "id": "P117",
+    "ar": "Physics",
+    "sb": "Osmosis",
+    "tp": "phy9",
+    "q": "Plasma oncotic pressure is due mainly to which solute?",
+    "o": [
+      "Sodium",
+      "Globulins",
+      "Urea",
+      "Glucose",
+      "Albumin"
+    ],
+    "a": 4,
+    "why": "Colloid oncotic pressure (about 25 mmHg, 3.3 kPa) is due mainly to albumin, which, despite being a small fraction of total osmolality, does not cross capillary walls freely. Sodium contributes most of total plasma osmolality."
+  },
+  {
+    "id": "P118",
+    "ar": "Physics",
+    "sb": "Osmosis",
+    "tp": "phy9",
+    "q": "What is the difference between osmolarity and osmolality?",
+    "o": [
+      "They are identical in all solutions",
+      "Osmolality is per kg of solvent, osmolarity per litre of solution",
+      "Osmolarity is per kg of solvent, osmolality per litre of solution",
+      "Osmolality is measured by refractometry",
+      "Osmolarity applies only to colloids"
+    ],
+    "a": 1,
+    "why": "Osmolality (mOsm/kg solvent) is measured by freezing point depression and is unaffected by temperature or solute volume. Osmolarity (mOsm/L solution) is calculated. Normal plasma osmolality is about 285–295 mOsm/kg."
+  },
+  {
+    "id": "P119",
+    "ar": "Physics",
+    "sb": "Heat Transfer &amp; Temperature",
+    "tp": "phy10",
+    "q": "What is the main route of heat loss from an anaesthetised patient?",
+    "o": [
+      "Respiration",
+      "Evaporation",
+      "Convection",
+      "Radiation",
+      "Conduction"
+    ],
+    "a": 3,
+    "why": "Radiation accounts for about 40% of heat loss, convection about 30%, evaporation about 20% (including respiratory losses) and conduction about 5%. Initial hypothermia after induction is mainly due to redistribution of heat from core to periphery from vasodilatation."
+  },
+  {
+    "id": "P120",
+    "ar": "Physics",
+    "sb": "Heat Transfer &amp; Temperature",
+    "tp": "phy10",
+    "q": "Which phase of perioperative hypothermia causes the initial fall of about 1–1.5 °C in core temperature in the first hour?",
+    "o": [
+      "Linear phase from heat loss exceeding production",
+      "Shivering thermogenesis",
+      "Plateau phase",
+      "Evaporation from the airway",
+      "Redistribution of heat from core to periphery"
+    ],
+    "a": 4,
+    "why": "Anaesthesia-induced vasodilatation redistributes heat to the periphery, causing a rapid core fall. A linear phase (loss exceeds production) follows, then a plateau when vasoconstriction returns. Prewarming reduces redistribution hypothermia."
+  },
+  {
+    "id": "P121",
+    "ar": "Physics",
+    "sb": "Hydrostatics",
+    "tp": "phy11",
+    "q": "A transducer is zeroed and positioned 10 cm below the level of the right atrium. How will the displayed pressure be affected?",
+    "o": [
+      "Reads about 7 mmHg too low",
+      "Reads about 7 mmHg too high",
+      "No effect",
+      "Reads about 13 mmHg too low",
+      "Reads about 10 mmHg too high"
+    ],
+    "a": 1,
+    "why": "A column of fluid exerts pressure: 10 cmH2O ≈ 7.4 mmHg (1 mmHg = 1.36 cmH2O). A transducer below the reference point over-reads; one above it under-reads. Zeroing removes atmospheric pressure; levelling sets the hydrostatic reference."
+  },
+  {
+    "id": "P122",
+    "ar": "Physics",
+    "sb": "Hydrostatics",
+    "tp": "phy11",
+    "q": "Which principle explains why a pressure applied to an enclosed fluid is transmitted undiminished throughout the fluid?",
+    "o": [
+      "Bernoulli's principle",
+      "Laplace's law",
+      "Archimedes' principle",
+      "Pascal's principle",
+      "Fick's law"
+    ],
+    "a": 3,
+    "why": "Pascal's principle explains hydraulic systems and why pressure in a pressurised infusion bag is transmitted along the line. Archimedes' principle concerns buoyancy; Laplace's law relates wall tension to pressure and radius."
+  },
+  {
+    "id": "P123",
+    "ar": "Physics",
+    "sb": "Physiological Models",
+    "tp": "phy12",
+    "q": "After a single IV bolus into a one-compartment model, how many half-lives are needed to eliminate about 97% of the drug?",
+    "o": [
+      "10",
+      "3",
+      "2",
+      "7",
+      "5"
+    ],
+    "a": 4,
+    "why": "After 1 half-life 50% remains, 2: 25%, 3: 12.5%, 4: 6.25%, 5: about 3%. Similarly, approximately five half-lives are needed to reach steady state with a constant infusion."
+  },
+  {
+    "id": "P124",
+    "ar": "Physics",
+    "sb": "Physiological Models",
+    "tp": "phy12",
+    "q": "A time constant (τ) in an exponential washout process is the time taken for the quantity to fall to what proportion of its starting value?",
+    "o": [
+      "37%",
+      "50%",
+      "5%",
+      "13.5%",
+      "63%"
+    ],
+    "a": 0,
+    "why": "After one time constant the value has fallen by 63% to 37% of its starting value; after three it is about 5%. The time constant equals the half-life divided by 0.693, or, in a breathing system, volume divided by flow."
+  },
+  {
+    "id": "P125",
+    "ar": "Physics",
+    "sb": "Apnoeic Oxygenation",
+    "tp": "phy13",
+    "q": "During apnoeic oxygenation with an open airway, why does oxygen continue to enter the lungs?",
+    "o": [
+      "O2 uptake far exceeds CO2 output into the alveoli",
+      "Surfactant actively transports oxygen inwards",
+      "Hypoxic pulmonary vasoconstriction draws gas in",
+      "Cardiac oscillations pump gas into the lungs",
+      "CO2 diffuses into the alveoli faster than O2 leaves"
+    ],
+    "a": 0,
+    "why": "During apnoea, most CO2 stays in blood (high solubility), so oxygen removal creates a pressure gradient drawing gas (aventilatory mass flow) into the lungs. PaCO2 rises by about 0.4–0.5 kPa/min (3–6 mmHg/min)."
+  },
+  {
+    "id": "P126",
+    "ar": "Physics",
+    "sb": "Apnoeic Oxygenation",
+    "tp": "phy13",
+    "q": "In a healthy, preoxygenated adult, approximately how quickly does PaCO2 rise during apnoea?",
+    "o": [
+      "About 1.5 kPa, then 0.4 kPa/min",
+      "About 5 kPa/min throughout",
+      "About 2 kPa/min throughout",
+      "It does not rise with oxygen",
+      "About 0.05 kPa/min throughout"
+    ],
+    "a": 0,
+    "why": "PaCO2 rises roughly 1.5 kPa (about 10 mmHg) in the first minute, then about 0.4 kPa (3 mmHg) per minute. High-flow nasal oxygen extends safe apnoea time but does not prevent hypercapnia."
+  },
+  {
+    "id": "P127",
+    "ar": "Physics",
+    "sb": "Subatomic Processes (Thermodynamics &amp; Acid-Base)",
+    "tp": "phy14",
+    "q": "Using the Henderson–Hasselbalch equation, what is the pH of plasma with HCO3⁻ 24 mmol/L and PaCO2 5.3 kPa?",
+    "o": [
+      "7.50",
+      "7.30",
+      "7.40",
+      "7.45",
+      "7.35"
+    ],
+    "a": 2,
+    "why": "pH = 6.1 + log([HCO3⁻]/(0.23 × PaCO2 in kPa)) = 6.1 + log(24/1.2) = 6.1 + log 20 ≈ 6.1 + 1.3 = 7.4."
+  },
+  {
+    "id": "P128",
+    "ar": "Physics",
+    "sb": "Subatomic Processes (Thermodynamics &amp; Acid-Base)",
+    "tp": "phy14",
+    "q": "The second law of thermodynamics states that, in an isolated system, which quantity always tends to increase?",
+    "o": [
+      "Free energy",
+      "Entropy",
+      "Internal energy",
+      "Enthalpy",
+      "Temperature"
+    ],
+    "a": 1,
+    "why": "Entropy (disorder) increases in spontaneous processes in an isolated system. The first law is conservation of energy. Biological systems maintain order by using energy, generating entropy in the environment."
+  },
+  {
+    "id": "P129",
+    "ar": "Physics",
+    "sb": "Electromagnetic Spectrum &amp; Light",
+    "tp": "phy15",
+    "q": "In the electromagnetic spectrum, which radiation has a longer wavelength than visible light?",
+    "o": [
+      "X-rays",
+      "Gamma rays",
+      "Ultraviolet",
+      "Infrared",
+      "Cosmic rays"
+    ],
+    "a": 3,
+    "why": "In order of increasing wavelength: gamma, X-ray, ultraviolet, visible, infrared, microwave, radio. Infrared absorption is used for CO2 and volatile agent analysis."
+  },
+  {
+    "id": "P130",
+    "ar": "Physics",
+    "sb": "Electromagnetic Spectrum &amp; Light",
+    "tp": "phy15",
+    "q": "The Beer–Lambert laws describe the absorption of light by a solution. What does Beer's law state?",
+    "o": [
+      "Absorption is proportional to the concentration of the solute",
+      "Absorption depends on temperature",
+      "Light intensity is unchanged by the solution",
+      "Absorption depends on the thickness of the layer",
+      "Absorption is inversely proportional to wavelength"
+    ],
+    "a": 0,
+    "why": "Beer's law: absorption is proportional to concentration. Lambert's law: absorption is proportional to the path length (thickness). Together they underlie pulse oximetry and infrared gas analysis."
+  },
+  {
+    "id": "P131",
+    "ar": "Physics",
+    "sb": "Pulse Oximetry",
+    "tp": "phy16",
+    "q": "At which wavelengths does a pulse oximeter measure light absorption?",
+    "o": [
+      "460 and 560 nm",
+      "530 and 590 nm",
+      "660 and 940 nm",
+      "800 and 805 nm",
+      "1200 and 1600 nm"
+    ],
+    "a": 2,
+    "why": "Red light at 660 nm is absorbed more by deoxyhaemoglobin; infrared at 940 nm is absorbed more by oxyhaemoglobin. The isosbestic point is about 805 nm. The ratio of pulsatile absorption at the two wavelengths is compared with calibration data."
+  },
+  {
+    "id": "P132",
+    "ar": "Physics",
+    "sb": "Pulse Oximetry",
+    "tp": "phy16",
+    "q": "In significant carbon monoxide poisoning, what does a standard pulse oximeter typically show?",
+    "o": [
+      "Falsely low SpO2",
+      "An accurate SpO2",
+      "No reading at all",
+      "A fixed reading of 85%",
+      "Falsely high SpO2"
+    ],
+    "a": 4,
+    "why": "Carboxyhaemoglobin absorbs at 660 nm much like oxyhaemoglobin, so the oximeter overestimates true saturation. Methaemoglobin drives SpO2 towards 85%. Co-oximetry measures each haemoglobin species directly."
+  },
+  {
+    "id": "P133",
+    "ar": "Physics",
+    "sb": "Lasers",
+    "tp": "phy17",
+    "q": "Which laser is most commonly used for laryngeal surgery and is absorbed strongly by water?",
+    "o": [
+      "Nd:YAG",
+      "CO2",
+      "Ruby",
+      "KTP",
+      "Argon"
+    ],
+    "a": 1,
+    "why": "The CO2 laser (10,600 nm, far infrared) is absorbed by water within a very small depth, allowing precise cutting with little penetration. Nd:YAG (1064 nm) penetrates more deeply. Laser-resistant tubes, low FiO2 and saline-filled cuffs reduce fire risk."
+  },
+  {
+    "id": "P134",
+    "ar": "Physics",
+    "sb": "Lasers",
+    "tp": "phy17",
+    "q": "What does 'laser' stand for?",
+    "o": [
+      "Linear Amplification of Spontaneous Emitted Rays",
+      "Light Amplified by Spontaneous Energy Release",
+      "Light Absorption by Selective Emission of Radiation",
+      "Light Amplification by Stimulated Emission of Radiation",
+      "Luminous Activation by Simulated Electromagnetic Radiation"
+    ],
+    "a": 3,
+    "why": "Laser light is monochromatic, coherent (in phase) and collimated (parallel). Classes 3B and 4 pose eye and skin hazards, so laser-specific eye protection matched to the wavelength is required."
+  },
+  {
+    "id": "P135",
+    "ar": "Physics",
+    "sb": "Electricity &amp; Magnetism (Circuits)",
+    "tp": "phy18",
+    "q": "In a circuit, two resistors of 10 Ω and 10 Ω are connected in parallel. What is the total resistance?",
+    "o": [
+      "10 Ω",
+      "5 Ω",
+      "1 Ω",
+      "20 Ω",
+      "0.5 Ω"
+    ],
+    "a": 1,
+    "why": "For resistors in parallel, 1/R = 1/R1 + 1/R2 = 1/10 + 1/10 = 1/5, so R = 5 Ω. In series, resistances add (20 Ω)."
+  },
+  {
+    "id": "P136",
+    "ar": "Physics",
+    "sb": "Electricity &amp; Magnetism (Circuits)",
+    "tp": "phy18",
+    "q": "Ohm's law describes the relationship between which quantities?",
+    "o": [
+      "Power = current × resistance",
+      "Voltage = current × resistance",
+      "Capacitance = charge × voltage",
+      "Energy = charge / voltage",
+      "Current = voltage × resistance"
+    ],
+    "a": 1,
+    "why": "V = IR. Power = VI = I²R. Energy = power × time. Capacitance = charge/voltage."
+  },
+  {
+    "id": "P137",
+    "ar": "Physics",
+    "sb": "Defibrillation",
+    "tp": "phy19",
+    "q": "Why is a biphasic waveform preferred in modern defibrillators?",
+    "o": [
+      "Success at lower energy",
+      "It avoids the need for pads",
+      "It needs higher energy",
+      "It is cheaper to produce",
+      "It works only on asystole"
+    ],
+    "a": 0,
+    "why": "Biphasic waveforms reverse current direction partway through the shock and achieve equal or higher first-shock success at lower energies (typically 120–200 J) than monophasic waveforms (360 J), with less myocardial damage."
+  },
+  {
+    "id": "P138",
+    "ar": "Physics",
+    "sb": "Defibrillation",
+    "tp": "phy19",
+    "q": "Why is the defibrillator's delivered energy less than the stored energy?",
+    "o": [
+      "The pads absorb all of the stored energy",
+      "The battery leaks charge while charging",
+      "Delivered energy is actually always higher",
+      "Losses in the inductor, circuit and chest wall",
+      "The capacitor stores less than is displayed"
+    ],
+    "a": 3,
+    "why": "Some stored energy is dissipated in the internal circuit, including the inductor used to prolong current flow and shape the waveform, and in transthoracic impedance. Modern devices compensate for impedance."
+  },
+  {
+    "id": "P139",
+    "ar": "Physics",
+    "sb": "Amplifiers and Interference",
+    "tp": "phy20",
+    "q": "What does the common mode rejection ratio of a differential amplifier describe?",
+    "o": [
+      "The frequency range it amplifies",
+      "The maximum voltage it can display",
+      "Its input impedance",
+      "Its ability to amplify only signals common to both inputs",
+      "Its ability to reject interference that appears equally on both inputs"
+    ],
+    "a": 4,
+    "why": "ECG and EEG amplifiers are differential: they amplify the difference between inputs and reject signals common to both, such as mains interference. A high CMRR (e.g. 100,000:1) is desirable."
+  },
+  {
+    "id": "P140",
+    "ar": "Physics",
+    "sb": "Amplifiers and Interference",
+    "tp": "phy20",
+    "q": "Which frequency of interference is most commonly seen on an ECG in the UK and is removed by a notch filter?",
+    "o": [
+      "400 Hz",
+      "1 kHz",
+      "10 Hz",
+      "50 Hz",
+      "60 Hz"
+    ],
+    "a": 3,
+    "why": "UK mains supply is 50 Hz (60 Hz in North America). A notch filter at 50 Hz removes mains interference but can distort signals of similar frequency."
+  },
+  {
+    "id": "P141",
+    "ar": "Physics",
+    "sb": "Excitable Tissues &amp; Biological Potentials",
+    "tp": "phy21",
+    "q": "What is the approximate resting membrane potential of a ventricular myocyte?",
+    "o": [
+      "−120 mV",
+      "−60 mV",
+      "−40 mV",
+      "−90 mV",
+      "+30 mV"
+    ],
+    "a": 3,
+    "why": "The resting potential of ventricular myocytes (about −90 mV) is close to the potassium equilibrium potential because the resting membrane is most permeable to K⁺. Pacemaker cells have a less negative, unstable potential (about −60 mV)."
+  },
+  {
+    "id": "P142",
+    "ar": "Physics",
+    "sb": "Excitable Tissues &amp; Biological Potentials",
+    "tp": "phy21",
+    "q": "The Nernst equation calculates which value?",
+    "o": [
+      "The resting membrane potential from multiple ions",
+      "The equilibrium potential for a single ion",
+      "The capacitance of the membrane",
+      "The threshold potential",
+      "The conduction velocity"
+    ],
+    "a": 1,
+    "why": "The Nernst equation gives the equilibrium potential for one ion from its concentration gradient. The Goldman–Hodgkin–Katz equation combines multiple ions and their permeabilities to give the resting membrane potential."
+  },
+  {
+    "id": "P143",
+    "ar": "Physics",
+    "sb": "Magnetism &amp; Current",
+    "tp": "phy22",
+    "q": "What is induced when a magnetic field through a coil changes?",
+    "o": [
+      "A static charge",
+      "An electromotive force (Faraday's law)",
+      "A permanent magnetic field",
+      "Resistance",
+      "Infrared radiation"
+    ],
+    "a": 1,
+    "why": "Faraday's law of induction: a changing magnetic flux induces an EMF. This underpins transformers, the isolation transformer in theatre and the electromagnetic flowmeter."
+  },
+  {
+    "id": "P144",
+    "ar": "Physics",
+    "sb": "Magnetism &amp; Current",
+    "tp": "phy22",
+    "q": "What is the role of an isolation transformer in operating theatre electrical supply?",
+    "o": [
+      "To connect every device directly to earth",
+      "To convert AC supply to DC for monitors",
+      "To isolate the patient circuit from earth",
+      "To increase the supply voltage to equipment",
+      "To reduce the mains frequency to 25 Hz"
+    ],
+    "a": 2,
+    "why": "An isolation transformer separates the secondary (patient) circuit from earth, so a single fault or contact does not allow current to flow to earth through the patient. A line isolation monitor alarms if isolation is lost."
+  },
+  {
+    "id": "P145",
+    "ar": "Physics",
+    "sb": "Nuclear Magnetism &amp; MRI",
+    "tp": "phy23",
+    "q": "In MRI, what is the main source of the signal?",
+    "o": [
+      "Neutrons released from the nucleus",
+      "Outer-shell electrons changing orbit",
+      "X-ray photons passing through tissue",
+      "Hydrogen nuclei precessing in the field",
+      "Reflected high-frequency ultrasound waves"
+    ],
+    "a": 3,
+    "why": "Hydrogen nuclei align in the static field (typically 1.5–3 T) and precess at the Larmor frequency. A radiofrequency pulse tips them; as they relax (T1, T2), they emit a radiofrequency signal used to form the image."
+  },
+  {
+    "id": "P146",
+    "ar": "Physics",
+    "sb": "Nuclear Magnetism &amp; MRI",
+    "tp": "phy23",
+    "q": "Which hazard in the MRI suite is caused by the static magnetic field?",
+    "o": [
+      "Projectile ferromagnetic objects",
+      "Hearing damage from gradient switching",
+      "Peripheral nerve stimulation",
+      "Hypothermia",
+      "Burns from radiofrequency energy"
+    ],
+    "a": 0,
+    "why": "The static field (always on) turns ferromagnetic objects into projectiles. RF pulses cause heating and burns; rapidly switching gradients cause noise (requiring ear protection) and peripheral nerve stimulation."
+  },
+  {
+    "id": "P147",
+    "ar": "Physics",
+    "sb": "Electricity &amp; Electrical Safety",
+    "tp": "phy24",
+    "q": "Which current density at the myocardium is generally quoted as enough to cause microshock ventricular fibrillation?",
+    "o": [
+      "1 mA",
+      "100 microamps",
+      "100 mA",
+      "10 mA",
+      "1 A"
+    ],
+    "a": 1,
+    "why": "Currents of about 100 µA applied directly to the heart (e.g. via a central line or pacing wire) can cause VF (microshock). Macroshock currents through the body cause VF at about 100 mA. Class CF equipment has leakage under 10 µA (normal condition)."
+  },
+  {
+    "id": "P148",
+    "ar": "Physics",
+    "sb": "Electricity &amp; Electrical Safety",
+    "tp": "phy24",
+    "q": "Which equipment classification is suitable for direct cardiac connection?",
+    "o": [
+      "Type B",
+      "Type BF",
+      "Class III",
+      "Type CF",
+      "Class I"
+    ],
+    "a": 3,
+    "why": "Type CF (cardiac floating) equipment has the lowest permitted leakage current (10 µA in normal conditions) and is suitable for direct cardiac connection. Class I, II and III describe protection against electric shock (earthing, double insulation, safety extra-low voltage)."
+  },
+  {
+    "id": "P149",
+    "ar": "Physics",
+    "sb": "O2 Analysis: Paramagnetism &amp; Fuel Cell",
+    "tp": "phy25",
+    "q": "Why does a paramagnetic oxygen analyser work?",
+    "o": [
+      "Oxygen reacts with a lead anode",
+      "Oxygen has a high thermal conductivity",
+      "Oxygen is repelled by a magnetic field",
+      "Oxygen absorbs infrared light strongly",
+      "Oxygen is attracted into a magnetic field"
+    ],
+    "a": 4,
+    "why": "Oxygen's two unpaired electrons make it paramagnetic, so it is attracted into a magnetic field. Analysers measure the resulting pressure difference or dumbbell rotation. They are fast enough for breath-by-breath analysis."
+  },
+  {
+    "id": "P150",
+    "ar": "Physics",
+    "sb": "O2 Analysis: Paramagnetism &amp; Fuel Cell",
+    "tp": "phy25",
+    "q": "What is a disadvantage of the fuel cell (galvanic) oxygen analyser?",
+    "o": [
+      "It responds in under 10 ms",
+      "It has a limited life because the anode is consumed",
+      "It needs a power supply",
+      "It is affected by nitrous oxide paramagnetism",
+      "It cannot measure oxygen above 30%"
+    ],
+    "a": 1,
+    "why": "The fuel cell generates current from oxygen reacting with a lead anode, which is consumed (life about 1 year). It is slow (response about 20–30 s), so not suitable for breath-by-breath use, but needs no external power."
+  },
+  {
+    "id": "P151",
+    "ar": "Physics",
+    "sb": "Breathing Systems (Mapleson Circuits)",
+    "tp": "phy26",
+    "q": "Which Mapleson system is most efficient for spontaneous ventilation?",
+    "o": [
+      "Mapleson D",
+      "Mapleson C",
+      "Mapleson A",
+      "Mapleson F",
+      "Mapleson E"
+    ],
+    "a": 2,
+    "why": "Mapleson A (e.g. Magill, Lack) needs fresh gas flow about equal to alveolar ventilation (about 70 mL/kg/min) in spontaneous ventilation but is inefficient for controlled ventilation. Mapleson D (e.g. Bain) is most efficient for controlled ventilation."
+  },
+  {
+    "id": "P152",
+    "ar": "Physics",
+    "sb": "Breathing Systems (Mapleson Circuits)",
+    "tp": "phy26",
+    "q": "In the Bain circuit (a coaxial Mapleson D), where does fresh gas flow?",
+    "o": [
+      "Through the outer tube towards the patient",
+      "Through a valve at the machine end",
+      "Through soda lime",
+      "Through the inner tube to the patient end",
+      "Directly into the reservoir bag"
+    ],
+    "a": 3,
+    "why": "In the Bain system, fresh gas flows in the inner tube to the patient end; exhaled gas leaves via the outer tube to the expiratory valve and bag. Disconnection of the inner tube creates a large dead space; the Pethick test checks it."
+  },
+  {
+    "id": "P153",
+    "ar": "Physics",
+    "sb": "Circle System",
+    "tp": "phy27",
+    "q": "In a circle system using low fresh gas flows, which statement is correct?",
+    "o": [
+      "Inspired concentration always equals the dial setting",
+      "The circuit cannot be used with sevoflurane",
+      "Fresh gas flow must exceed minute ventilation",
+      "Inspired concentrations can differ from the dial setting",
+      "CO2 absorption becomes unnecessary"
+    ],
+    "a": 3,
+    "why": "At low flows, rebreathing means circuit gas contains exhaled gas, so inspired concentrations of oxygen and volatile depend on uptake and differ from the dial setting. Gas monitoring is essential."
+  },
+  {
+    "id": "P154",
+    "ar": "Physics",
+    "sb": "Circle System",
+    "tp": "phy27",
+    "q": "Why is a vaporiser outside the circle (VOC) preferred to one inside it (VIC)?",
+    "o": [
+      "VOC delivers higher maximum concentrations",
+      "VOC is cheaper to manufacture",
+      "VIC cannot be used with oxygen-rich gas",
+      "VIC concentrations can rise dangerously with IPPV",
+      "VOC requires no calibration or servicing"
+    ],
+    "a": 3,
+    "why": "Modern plenum vaporisers are placed in the fresh gas line (VOC) and deliver a known concentration. A vaporiser in the circle (low-resistance, draw-over type) would be traversed by every breath, and concentrations could build up during controlled ventilation."
+  },
+  {
+    "id": "P155",
+    "ar": "Physics",
+    "sb": "Central Gas Supply &amp; Gas Cylinders",
+    "tp": "phy28",
+    "q": "What is the typical pipeline pressure of oxygen in a UK hospital?",
+    "o": [
+      "13.7 bar",
+      "137 bar",
+      "1 bar",
+      "4 bar (400 kPa)",
+      "7 bar"
+    ],
+    "a": 3,
+    "why": "Medical gas pipelines supply oxygen, N2O and air at about 4 bar (400 kPa). Surgical air for tools is about 7 bar. Cylinder oxygen is stored at about 137 bar."
+  },
+  {
+    "id": "P156",
+    "ar": "Physics",
+    "sb": "Central Gas Supply &amp; Gas Cylinders",
+    "tp": "phy28",
+    "q": "What prevents a nitrous oxide cylinder from being fitted to the oxygen yoke of an anaesthetic machine?",
+    "o": [
+      "A one-way valve",
+      "The pin index safety system",
+      "Colour coding alone",
+      "Schrader valves",
+      "Diameter index safety system on cylinders"
+    ],
+    "a": 1,
+    "why": "The pin index system uses pins on the yoke matching holes on the cylinder valve (O2: 2 and 5; N2O: 3 and 5). Pipelines use non-interchangeable Schrader probes. Colour coding helps but is not a physical safeguard."
+  },
+  {
+    "id": "P157",
+    "ar": "Physics",
+    "sb": "The Anaesthetic Machine",
+    "tp": "phy29",
+    "q": "What is the function of the second-stage pressure regulator on an anaesthetic machine?",
+    "o": [
+      "To warm gas before it reaches the patient",
+      "To reduce cylinder pressure to about 4 bar",
+      "To supply the emergency oxygen flush",
+      "To give a constant low pressure to the flowmeters",
+      "To prevent delivery of hypoxic mixtures"
+    ],
+    "a": 3,
+    "why": "First-stage regulators reduce cylinder pressure to slightly below pipeline pressure (about 4 bar). Second-stage regulators smooth fluctuations, delivering a constant pressure to the flowmeters."
+  },
+  {
+    "id": "P158",
+    "ar": "Physics",
+    "sb": "The Anaesthetic Machine",
+    "tp": "phy29",
+    "q": "Why is the oxygen flowmeter positioned downstream (last) in a bank of flowmeters on older machines?",
+    "o": [
+      "Oxygen gives the highest flow in that position",
+      "Its tube is the largest in the bank",
+      "Oxygen is the lightest gas in the bank",
+      "It allows N2O to reach the patient first",
+      "A cracked upstream tube then loses another gas, not O2"
+    ],
+    "a": 4,
+    "why": "Placing oxygen last (nearest the outlet) means a cracked upstream tube loses another gas rather than oxygen. Modern machines also have mechanical or electronic oxygen–nitrous oxide ratio links to prevent delivery of under 25% oxygen."
+  },
+  {
+    "id": "P159",
+    "ar": "Physics",
+    "sb": "Anaesthetic Machine Check",
+    "tp": "phy30",
+    "q": "According to AAGBI/AoA guidance, when should the full anaesthetic machine check be performed?",
+    "o": [
+      "Only if an alarm sounds",
+      "Before every patient, in full",
+      "Only after servicing",
+      "At the start of every operating session",
+      "Every week"
+    ],
+    "a": 3,
+    "why": "A full check is done at the start of each session, with brief checks before each case (breathing system, vaporisers, ventilator and alternative means of ventilation). The 2019 guidance also highlights the 'two-bag test' for the breathing system."
+  },
+  {
+    "id": "P160",
+    "ar": "Physics",
+    "sb": "Anaesthetic Machine Check",
+    "tp": "phy30",
+    "q": "What is the purpose of the 'two-bag test' during the machine check?",
+    "o": [
+      "To check vaporiser output accuracy",
+      "To check suction is working",
+      "To test the circuit and valves with a test lung",
+      "To test the oxygen failure alarm",
+      "To calibrate the gas analyser"
+    ],
+    "a": 2,
+    "why": "A test lung (second bag) is attached to the patient port and ventilated to confirm gas flow through the circuit, function of the valves and ventilator, and absence of obstruction, which leak tests alone may miss."
+  },
+  {
+    "id": "P161",
+    "ar": "Physics",
+    "sb": "Patient Monitoring: Invasive &amp; Non-invasive BP",
+    "tp": "phy31",
+    "q": "An oscillometric non-invasive blood pressure device measures which value most accurately?",
+    "o": [
+      "Central venous pressure",
+      "Pulse pressure",
+      "Systolic pressure",
+      "Mean arterial pressure",
+      "Diastolic pressure"
+    ],
+    "a": 3,
+    "why": "Maximal oscillation corresponds to MAP. Systolic and diastolic values are derived by algorithm. Cuff width should be about 40% of arm circumference: a cuff too small over-reads; too large under-reads."
+  },
+  {
+    "id": "P162",
+    "ar": "Physics",
+    "sb": "Patient Monitoring: Invasive &amp; Non-invasive BP",
+    "tp": "phy31",
+    "q": "Why does the arterial pressure waveform become more peaked (higher systolic) when measured at the dorsalis pedis compared with the aortic root?",
+    "o": [
+      "Wave reflection and stiffer distal arteries",
+      "The transducer being placed lower",
+      "A rise in mean arterial pressure distally",
+      "Increased damping in distal vessels",
+      "Lower blood viscosity in small arteries"
+    ],
+    "a": 0,
+    "why": "Distal amplification: systolic pressure rises and diastolic falls slightly towards the periphery due to reflected waves and less compliant arteries; mean pressure falls slightly."
+  },
+  {
+    "id": "P163",
+    "ar": "Physics",
+    "sb": "Depth of Anaesthesia",
+    "tp": "phy32",
+    "q": "What does the bispectral index (BIS) value range for general anaesthesia typically target?",
+    "o": [
+      "60–80",
+      "80–100",
+      "40–60",
+      "0–20",
+      "20–40"
+    ],
+    "a": 2,
+    "why": "BIS 40–60 is the typical target for general anaesthesia; 100 is awake. NICE supports processed EEG monitoring with TIVA and in patients at higher risk of awareness or adverse outcomes."
+  },
+  {
+    "id": "P164",
+    "ar": "Physics",
+    "sb": "Depth of Anaesthesia",
+    "tp": "phy32",
+    "q": "Which drug is least reliably reflected by a processed EEG index such as BIS?",
+    "o": [
+      "Desflurane",
+      "Ketamine",
+      "Sevoflurane",
+      "Thiopental",
+      "Propofol"
+    ],
+    "a": 1,
+    "why": "Ketamine and nitrous oxide (and xenon) act on NMDA receptors and can increase high-frequency EEG activity, so BIS may not fall despite unconsciousness. Neuromuscular blockers can also lower BIS by reducing EMG artefact."
+  },
+  {
+    "id": "P165",
+    "ar": "Physics",
+    "sb": "Regional Anaesthesia",
+    "tp": "phy33",
+    "q": "What is the typical current used by a peripheral nerve stimulator for nerve location, suggesting the needle is close to the nerve but not intraneural?",
+    "o": [
+      "Response at 0.2 mA or below",
+      "Response at 0.3–0.5 mA, none at 0.2 mA",
+      "Response only at 10 mA",
+      "Response only at 5 mA",
+      "No response at any current"
+    ],
+    "a": 1,
+    "why": "A motor response at 0.3–0.5 mA (pulse width 0.1 ms) indicates proximity. A response at 0.2 mA or lower suggests intraneural placement. Ultrasound is now the primary technique, with stimulation as an adjunct."
+  },
+  {
+    "id": "P166",
+    "ar": "Physics",
+    "sb": "Regional Anaesthesia",
+    "tp": "phy33",
+    "q": "High opening injection pressure during a nerve block (above about 15 psi) suggests which problem?",
+    "o": [
+      "Intravascular injection",
+      "Needle tip against or within a nerve fascicle",
+      "The local anaesthetic is too warm",
+      "Needle in the correct perineural plane",
+      "Air in the syringe"
+    ],
+    "a": 1,
+    "why": "High opening pressure (above about 15 psi, 103 kPa) is associated with intrafascicular injection and nerve injury in animal studies. Inline pressure monitors or 'syringe feel' are used to avoid forceful injection."
+  },
+  {
+    "id": "P167",
+    "ar": "Physics",
+    "sb": "Renal Replacement Therapy",
+    "tp": "phy34",
+    "q": "In continuous veno-venous haemofiltration (CVVH), solute removal occurs mainly by which mechanism?",
+    "o": [
+      "Osmosis",
+      "Diffusion",
+      "Active transport",
+      "Convection (solvent drag)",
+      "Adsorption only"
+    ],
+    "a": 3,
+    "why": "Haemofiltration removes solutes by convection: water is driven across the membrane by a pressure gradient, carrying solutes with it, which is effective for middle molecules. Haemodialysis uses diffusion down a concentration gradient against dialysate."
+  },
+  {
+    "id": "P168",
+    "ar": "Physics",
+    "sb": "Renal Replacement Therapy",
+    "tp": "phy34",
+    "q": "Which anticoagulant for the RRT circuit causes a fall in ionised calcium within the filter?",
+    "o": [
+      "Low molecular weight heparin",
+      "Citrate",
+      "Unfractionated heparin",
+      "Epoprostenol",
+      "Argatroban"
+    ],
+    "a": 1,
+    "why": "Citrate chelates calcium in the circuit, preventing clotting; calcium is replaced post-filter. In liver failure, citrate accumulates, causing a high total-to-ionised calcium ratio and metabolic acidosis."
+  },
+  {
+    "id": "P169",
+    "ar": "Physics",
+    "sb": "Capnography",
+    "tp": "phy35",
+    "q": "A capnograph trace shows a sloping 'shark fin' upstroke and phase III. What does this suggest?",
+    "o": [
+      "Bronchospasm",
+      "Malignant hyperthermia",
+      "Oesophageal intubation",
+      "Rebreathing",
+      "Cardiac arrest"
+    ],
+    "a": 0,
+    "why": "Obstructive disease causes uneven emptying of alveoli with different time constants, so phase II slopes and phase III rises steeply (shark fin). Rebreathing raises the baseline; oesophageal intubation produces no sustained trace."
+  },
+  {
+    "id": "P170",
+    "ar": "Physics",
+    "sb": "Capnography",
+    "tp": "phy35",
+    "q": "How does the normal end-tidal CO2 relate to PaCO2 in healthy ventilated adults?",
+    "o": [
+      "They are always identical",
+      "EtCO2 is higher by 0.5 kPa in all cases",
+      "EtCO2 exceeds PaCO2 by 2 kPa",
+      "EtCO2 is lower by 5 kPa",
+      "EtCO2 is about 0.5–1 kPa lower than PaCO2"
+    ],
+    "a": 4,
+    "why": "Alveolar dead space dilutes end-tidal gas, giving a gradient of about 0.5–1 kPa (4–8 mmHg). It widens with increased dead space (PE, low cardiac output, emphysema). In pregnancy the gradient may be close to zero."
+  },
+  {
+    "id": "P171",
+    "ar": "Physics",
+    "sb": "Arterial Blood Gases",
+    "tp": "phy36",
+    "q": "Which electrode in a blood gas analyser measures PO2?",
+    "o": [
+      "Fuel cell",
+      "Silver/silver chloride reference electrode",
+      "Clark (polarographic) electrode",
+      "Glass pH electrode",
+      "Severinghaus electrode"
+    ],
+    "a": 2,
+    "why": "The Clark electrode has a platinum cathode and silver/silver chloride anode with a 0.6 V polarising voltage; current is proportional to PO2. The Severinghaus electrode measures PCO2 via pH change in a bicarbonate solution behind a CO2-permeable membrane."
+  },
+  {
+    "id": "P172",
+    "ar": "Physics",
+    "sb": "Arterial Blood Gases",
+    "tp": "phy36",
+    "q": "If an air bubble is left in an arterial blood gas sample, how is the result affected?",
+    "o": [
+      "PaO2 tends towards 21 kPa; PaCO2 falls",
+      "PaO2 falls and PaCO2 rises",
+      "PaO2 and PaCO2 both rise",
+      "Only the pH changes",
+      "No effect if analysed quickly"
+    ],
+    "a": 0,
+    "why": "Gases equilibrate with the bubble (room air: PO2 about 21 kPa, PCO2 near 0), so PaO2 moves towards 21 kPa and PaCO2 falls. Delays allow continuing metabolism, lowering PaO2 and raising PaCO2."
+  },
+  {
+    "id": "P173",
+    "ar": "Physics",
+    "sb": "Pollution &amp; Scavenging",
+    "tp": "phy37",
+    "q": "What is the UK workplace exposure limit (8-hour time-weighted average) for nitrous oxide?",
+    "o": [
+      "1000 ppm",
+      "10 ppm",
+      "100 ppm",
+      "50 ppm",
+      "500 ppm"
+    ],
+    "a": 2,
+    "why": "UK COSHH workplace exposure limits (8-h TWA): nitrous oxide 100 ppm, isoflurane 50 ppm, enflurane 50 ppm, halothane 10 ppm. Sevoflurane and desflurane have no UK limit; 20 ppm is often used as a guide."
+  },
+  {
+    "id": "P174",
+    "ar": "Physics",
+    "sb": "Pollution &amp; Scavenging",
+    "tp": "phy37",
+    "q": "Which type of scavenging system is most common in UK theatres?",
+    "o": [
+      "Charcoal canister on the expiratory limb only",
+      "Open circuit with high room air changes",
+      "Passive tubing vented through a window",
+      "Water trap venting to the floor drain",
+      "Active system with a fan and receiving unit"
+    ],
+    "a": 4,
+    "why": "Active scavenging (AGSS) uses a fan creating negative pressure, a receiving reservoir and air break, with a flow of about 75–130 L/min. It must have positive and negative pressure relief to protect the patient."
+  },
+  {
+    "id": "P175",
+    "ar": "Physics",
+    "sb": "Statistics: Data, Correlation &amp; Descriptive Statistics",
+    "tp": "phy38",
+    "q": "Which measure of central tendency is most appropriate for heavily skewed data?",
+    "o": [
+      "Standard deviation",
+      "Range",
+      "Mean",
+      "Mode",
+      "Median"
+    ],
+    "a": 4,
+    "why": "The median is less affected by outliers and skew, usually reported with the interquartile range. The mean and standard deviation suit normally distributed data. The mode is the most frequent value."
+  },
+  {
+    "id": "P176",
+    "ar": "Physics",
+    "sb": "Statistics: Data, Correlation &amp; Descriptive Statistics",
+    "tp": "phy38",
+    "q": "A correlation coefficient (r) of −0.9 between two variables indicates what?",
+    "o": [
+      "A strong negative linear relationship",
+      "A weak negative relationship",
+      "That one variable causes the other",
+      "A strong positive relationship",
+      "No relationship"
+    ],
+    "a": 0,
+    "why": "r ranges from −1 to +1; values near ±1 indicate strong linear association. Correlation does not imply causation. r² gives the proportion of variance explained (here 0.81)."
+  },
+  {
+    "id": "P177",
+    "ar": "Physics",
+    "sb": "Statistics: Probability, Distributions &amp; Statistical Inference",
+    "tp": "phy39",
+    "q": "In a normal distribution, approximately what proportion of values lies within ±1.96 standard deviations of the mean?",
+    "o": [
+      "90%",
+      "99%",
+      "99.7%",
+      "95%",
+      "68%"
+    ],
+    "a": 3,
+    "why": "About 68% lies within ±1 SD, 95% within ±1.96 SD and 99.7% within ±3 SD. The standard error of the mean is SD/√n and is used to calculate confidence intervals."
+  },
+  {
+    "id": "P178",
+    "ar": "Physics",
+    "sb": "Statistics: Probability, Distributions &amp; Statistical Inference",
+    "tp": "phy39",
+    "q": "What is a type I error?",
+    "o": [
+      "Using the wrong statistical test",
+      "Having too small a sample",
+      "A systematic measurement error",
+      "Rejecting a true null hypothesis (false positive)",
+      "Failing to reject a false null hypothesis"
+    ],
+    "a": 3,
+    "why": "Type I (alpha) error: a false positive, concluding there is a difference when there is not; its probability is set by the significance level (usually 0.05). Type II (beta) error: a false negative. Power = 1 − beta."
+  },
+  {
+    "id": "P179",
+    "ar": "Physics",
+    "sb": "Statistics: Interpreting Results (p-values &amp; Power)",
+    "tp": "phy40",
+    "q": "What does a p-value of 0.03 mean?",
+    "o": [
+      "The study has 97% power",
+      "The treatment works in 97% of patients",
+      "There is a 3% chance the null hypothesis is true",
+      "Chance of data this extreme if H0 is true is 3%",
+      "The effect size of the treatment is 3%"
+    ],
+    "a": 3,
+    "why": "The p-value is the probability of observing data at least as extreme as those seen, assuming the null hypothesis is true. It does not measure effect size or the probability that the hypothesis is true."
+  },
+  {
+    "id": "P180",
+    "ar": "Physics",
+    "sb": "Statistics: Interpreting Results (p-values &amp; Power)",
+    "tp": "phy40",
+    "q": "Which change increases the power of a study?",
+    "o": [
+      "A lower alpha (e.g. 0.01)",
+      "A smaller sample size",
+      "A smaller effect size to detect",
+      "A larger sample size",
+      "Greater variability in the data"
+    ],
+    "a": 3,
+    "why": "Power increases with larger sample size, larger effect size, higher alpha and lower variability. Studies are usually designed for 80–90% power."
+  },
+  {
+    "id": "P181",
+    "ar": "Physics",
+    "sb": "Clinical Trials &amp; Systematic Reviews",
+    "tp": "phy41",
+    "q": "In a meta-analysis forest plot, what does the diamond represent?",
+    "o": [
+      "The study with the largest sample",
+      "The line of no effect",
+      "Publication bias",
+      "The pooled estimate and its confidence interval",
+      "Heterogeneity"
+    ],
+    "a": 3,
+    "why": "The diamond's centre is the pooled effect estimate and its width the confidence interval. Squares represent individual studies (size reflects weight). The vertical line is no effect (1 for ratios, 0 for differences)."
+  },
+  {
+    "id": "P182",
+    "ar": "Physics",
+    "sb": "Clinical Trials &amp; Systematic Reviews",
+    "tp": "phy41",
+    "q": "What is the main purpose of randomisation in a clinical trial?",
+    "o": [
+      "To allow a per-protocol analysis",
+      "To increase the sample size",
+      "To reduce the cost of the trial",
+      "To balance confounders between groups",
+      "To make blinding possible"
+    ],
+    "a": 3,
+    "why": "Randomisation balances confounders (known and unknown) between groups, minimising selection bias. Allocation concealment protects randomisation; blinding reduces performance and detection bias."
+  },
+  {
+    "id": "P183",
+    "ar": "Physics",
+    "sb": "Exponential Relationships &amp; Logarithms",
+    "tp": "phy42",
+    "q": "Which process is an example of exponential decay (a 'washout' curve)?",
+    "o": [
+      "Bacterial growth in nutrient excess",
+      "Plasma concentration after a bolus in a one-compartment model",
+      "Linear increase in volume with time",
+      "Constant-rate filling of a syringe",
+      "Zero-order elimination of alcohol at high levels"
+    ],
+    "a": 1,
+    "why": "First-order elimination after a bolus decreases exponentially: the rate is proportional to the amount present. Zero-order kinetics (saturated enzymes, e.g. ethanol, phenytoin at high doses) gives linear decline; bacterial growth is a 'tear-away' exponential."
+  },
+  {
+    "id": "P184",
+    "ar": "Physics",
+    "sb": "Exponential Relationships &amp; Logarithms",
+    "tp": "phy42",
+    "q": "What is the natural log (ln) of 2, used in the relationship between half-life and the rate constant?",
+    "o": [
+      "0.301",
+      "2.303",
+      "0.5",
+      "0.693",
+      "1.0"
+    ],
+    "a": 3,
+    "why": "t½ = ln2/k = 0.693/k, and t½ = 0.693 × Vd/Cl. log10 2 = 0.301; ln 10 = 2.303."
+  },
+  {
+    "id": "P185",
+    "ar": "Physics",
+    "sb": "Physical Measurement &amp; Calibration",
+    "tp": "phy43",
+    "q": "A measuring device gives readings clustered close together but consistently 10% above the true value. How is it best described?",
+    "o": [
+      "Accurate and precise",
+      "Accurate but not precise",
+      "Linear but not sensitive",
+      "Neither accurate nor precise",
+      "Precise but not accurate"
+    ],
+    "a": 4,
+    "why": "Precision (reproducibility) refers to close agreement between repeated measurements; accuracy refers to closeness to the true value. A consistent offset is a systematic error (bias) correctable by calibration."
+  },
+  {
+    "id": "P186",
+    "ar": "Physics",
+    "sb": "Physical Measurement &amp; Calibration",
+    "tp": "phy43",
+    "q": "Gradual change in the output of a measuring device over time despite a constant input is called what?",
+    "o": [
+      "Hysteresis",
+      "Resonance",
+      "Linearity",
+      "Damping",
+      "Drift"
+    ],
+    "a": 4,
+    "why": "Drift is change over time (zero drift or gain drift). Hysteresis is when the reading depends on whether the input is rising or falling. Regular calibration (e.g. two-point) reduces drift error."
+  },
+  {
+    "id": "P187",
+    "ar": "Physics",
+    "sb": "Simple Mechanics",
+    "tp": "phy44",
+    "q": "Work done is defined as what?",
+    "o": [
+      "Mass × acceleration",
+      "Energy / time",
+      "Pressure × time",
+      "Force × distance",
+      "Power × distance"
+    ],
+    "a": 3,
+    "why": "Work (joules) = force × distance. In gases, work = pressure × volume change, which is the basis for the work of breathing from pressure–volume loops. Power = work/time (watts)."
+  },
+  {
+    "id": "P188",
+    "ar": "Physics",
+    "sb": "Simple Mechanics",
+    "tp": "phy44",
+    "q": "What is the SI unit of power?",
+    "o": [
+      "Newton",
+      "Coulomb",
+      "Joule",
+      "Pascal",
+      "Watt"
+    ],
+    "a": 4,
+    "why": "1 watt = 1 joule per second. Electrical power = voltage × current. Cardiac work per beat is roughly stroke volume × mean arterial pressure."
+  },
+  {
+    "id": "P189",
+    "ar": "Physics",
+    "sb": "Gas Laws",
+    "tp": "phy45",
+    "q": "A gas cylinder at constant temperature has its volume halved. According to Boyle's law, what happens to its pressure?",
+    "o": [
+      "It halves",
+      "It is unchanged",
+      "It doubles",
+      "It increases by √2",
+      "It quadruples"
+    ],
+    "a": 2,
+    "why": "Boyle's law: at constant temperature, PV is constant, so halving volume doubles pressure. This underlies the calculation of cylinder contents and how bellows and spirometers work."
+  },
+  {
+    "id": "P190",
+    "ar": "Physics",
+    "sb": "Gas Laws",
+    "tp": "phy45",
+    "q": "The ideal gas equation is PV = nRT. What does n represent?",
+    "o": [
+      "Avogadro's number",
+      "Number of molecules",
+      "Molecular weight",
+      "Number of moles",
+      "Gas constant"
+    ],
+    "a": 3,
+    "why": "n is the number of moles; R is the universal gas constant (8.314 J/K/mol). One mole of ideal gas occupies 22.4 L at STP (0 °C, 101.3 kPa)."
+  },
+  {
+    "id": "P191",
+    "ar": "Physics",
+    "sb": "Flow - Laminar &amp; Turbulent",
+    "tp": "phy46",
+    "q": "Above what approximate Reynolds number does flow in a straight tube become turbulent?",
+    "o": [
+      "2",
+      "20",
+      "20,000",
+      "2000",
+      "200"
+    ],
+    "a": 3,
+    "why": "Re = ρvd/η. Below about 2000 flow is laminar; above about 4000 it is turbulent; in between it is transitional. Turbulent flow is proportional to √pressure gradient and depends on density."
+  },
+  {
+    "id": "P192",
+    "ar": "Physics",
+    "sb": "Flow - Laminar &amp; Turbulent",
+    "tp": "phy46",
+    "q": "In turbulent flow, how is flow related to the pressure gradient?",
+    "o": [
+      "Proportional to the square of the pressure gradient",
+      "Independent of pressure gradient",
+      "Inversely proportional",
+      "Directly proportional",
+      "Proportional to the square root of the pressure gradient"
+    ],
+    "a": 4,
+    "why": "In turbulent flow, doubling flow requires a fourfold increase in pressure gradient, so resistance rises with flow. In laminar flow, flow is directly proportional to the pressure gradient."
+  },
+  {
+    "id": "P193",
+    "ar": "Physics",
+    "sb": "Bernoulli, Venturi &amp; Coanda Effects",
+    "tp": "phy47",
+    "q": "A Venturi oxygen mask works because, at a constriction, the velocity of oxygen rises and which change occurs?",
+    "o": [
+      "Viscosity falls to zero",
+      "Temperature rises",
+      "Pressure rises, pushing air out",
+      "Density rises",
+      "Pressure falls, entraining room air"
+    ],
+    "a": 4,
+    "why": "Bernoulli principle: at a constriction, velocity increases and pressure falls, entraining air through side ports. The fixed-performance mask delivers a set FiO2 if the total flow exceeds the patient's peak inspiratory flow."
+  },
+  {
+    "id": "P194",
+    "ar": "Physics",
+    "sb": "Bernoulli, Venturi &amp; Coanda Effects",
+    "tp": "phy47",
+    "q": "What is the Coanda effect?",
+    "o": [
+      "The cooling of a gas as it expands",
+      "The entrainment of air by a jet",
+      "A gas becoming turbulent at a constriction",
+      "The tendency of a fluid jet to follow a curved surface",
+      "The attraction of oxygen to a magnet"
+    ],
+    "a": 3,
+    "why": "A fluid jet tends to attach to an adjacent surface, so flow at a bifurcation may favour one branch. It is relevant to fluidic logic ventilators and to unequal distribution of flow in some anatomical bifurcations."
+  },
+  {
+    "id": "P195",
+    "ar": "Physics",
+    "sb": "Heat and Temperature",
+    "tp": "phy48",
+    "q": "What is the triple point of water used to define?",
+    "o": [
+      "Critical temperature",
+      "The kelvin scale (273.16 K)",
+      "Specific heat capacity",
+      "The Celsius scale zero",
+      "The boiling point at sea level"
+    ],
+    "a": 1,
+    "why": "The triple point of water, where solid, liquid and vapour coexist, is at 273.16 K (0.01 °C) and 0.6 kPa, and historically defined the kelvin. 0 °C = 273.15 K."
+  },
+  {
+    "id": "P196",
+    "ar": "Physics",
+    "sb": "Heat and Temperature",
+    "tp": "phy48",
+    "q": "Specific heat capacity is defined as the energy required to do what?",
+    "o": [
+      "Convert 1 kg of liquid to vapour",
+      "Raise the temperature of a substance by 1 K",
+      "Raise the temperature of 1 kg of a substance by 1 K",
+      "Raise the temperature of 1 mole by 1 °C at constant volume",
+      "Melt 1 kg of solid"
+    ],
+    "a": 2,
+    "why": "Specific heat capacity is in J/kg/K (water about 4.18 kJ/kg/K; blood about 3.6; the body about 3.5). Heat capacity refers to a whole object. Latent heat is the energy for a phase change without temperature change."
+  },
+  {
+    "id": "P197",
+    "ar": "Physics",
+    "sb": "Humidity",
+    "tp": "phy49",
+    "q": "What is relative humidity?",
+    "o": [
+      "Mass of water vapour per volume of gas",
+      "The temperature at which dew forms",
+      "Actual vapour mass as a % of the saturated mass",
+      "The water held in a heat and moisture exchanger",
+      "The water vapour pressure at 37 °C"
+    ],
+    "a": 2,
+    "why": "Absolute humidity is the mass of water vapour per volume (g/m³). Relative humidity is actual/saturated at that temperature (%). Gas saturated at 37 °C contains about 44 g/m³ (SVP 6.3 kPa)."
+  },
+  {
+    "id": "P198",
+    "ar": "Physics",
+    "sb": "Humidity",
+    "tp": "phy49",
+    "q": "Which instrument measures humidity by detecting the temperature at which condensation forms?",
+    "o": [
+      "Transducer",
+      "Mass spectrometer",
+      "Regnault's (dew point) hygrometer",
+      "Hair hygrometer",
+      "Wet and dry bulb hygrometer"
+    ],
+    "a": 2,
+    "why": "Regnault's hygrometer cools a silver tube until dew forms; the dew point then gives the SVP of the air. The wet and dry bulb hygrometer uses evaporative cooling; the hair hygrometer uses hair length change (30–90% RH)."
+  },
+  {
+    "id": "P199",
+    "ar": "Physics",
+    "sb": "Latent Heat &amp; Isotherms",
+    "tp": "phy50",
+    "q": "Why does a nitrous oxide cylinder become cold and form frost during high flow use?",
+    "o": [
+      "Latent heat of vaporisation",
+      "Expansion against the regulator",
+      "Radiation to the environment",
+      "Joule heating",
+      "Adiabatic compression"
+    ],
+    "a": 0,
+    "why": "Liquid N2O vaporising absorbs latent heat from the remaining liquid and the cylinder, cooling it and lowering its vapour pressure. Water vapour then condenses and freezes on the outside."
+  },
+  {
+    "id": "P200",
+    "ar": "Physics",
+    "sb": "Latent Heat &amp; Isotherms",
+    "tp": "phy50",
+    "q": "Above which temperature can a gas not be liquefied, whatever pressure is applied?",
+    "o": [
+      "Its triple point",
+      "Its critical temperature",
+      "Its pseudocritical temperature",
+      "Its dew point",
+      "Its boiling point"
+    ],
+    "a": 1,
+    "why": "The critical temperature for oxygen is −119 °C, so it is a gas at room temperature; for N2O it is 36.5 °C and for CO2 31 °C. The pseudocritical temperature of Entonox (−5.5 to −7 °C) is the temperature below which separation can occur."
+  },
+  {
+    "id": "P201",
+    "ar": "Physics",
+    "sb": "Solubility and Diffusion",
+    "tp": "phy51",
+    "q": "Which factor in Fick's law of diffusion explains why emphysema reduces gas transfer?",
+    "o": [
+      "Increased membrane thickness",
+      "Reduced molecular weight",
+      "Increased solubility",
+      "Reduced partial pressure gradient only",
+      "Reduced surface area for diffusion"
+    ],
+    "a": 4,
+    "why": "Fick's law: diffusion rate ∝ (area × concentration gradient × solubility)/(thickness × √MW). Emphysema destroys alveolar walls, reducing area; fibrosis increases thickness."
+  },
+  {
+    "id": "P202",
+    "ar": "Physics",
+    "sb": "Solubility and Diffusion",
+    "tp": "phy51",
+    "q": "What does the blood:gas partition coefficient of a volatile agent determine?",
+    "o": [
+      "Its potency",
+      "Its boiling point",
+      "Its molecular weight",
+      "The speed of onset and offset",
+      "Its metabolism"
+    ],
+    "a": 3,
+    "why": "A low blood:gas partition coefficient (desflurane 0.42, sevoflurane 0.65) means the alveolar concentration rises quickly towards the inspired concentration, so induction and emergence are rapid. The oil:gas coefficient relates to potency (Meyer–Overton)."
+  },
+  {
+    "id": "P203",
+    "ar": "Physics",
+    "sb": "Osmosis",
+    "tp": "phy52",
+    "q": "Which fluid is hypotonic in vivo once its glucose has been metabolised?",
+    "o": [
+      "Hartmann's solution",
+      "5% glucose",
+      "0.9% sodium chloride",
+      "4% albumin",
+      "Plasma-Lyte 148"
+    ],
+    "a": 1,
+    "why": "5% glucose is isosmolar in the bag (about 278 mOsm/L), but glucose is rapidly metabolised, leaving free water that distributes throughout total body water. Hypotonic fluids risk hyponatraemia, especially in children."
+  },
+  {
+    "id": "P204",
+    "ar": "Physics",
+    "sb": "Osmosis",
+    "tp": "phy52",
+    "q": "How is osmolality measured in a laboratory?",
+    "o": [
+      "By flame photometry",
+      "By freezing point depression",
+      "By ion-selective electrodes",
+      "By refractometry",
+      "By conductivity"
+    ],
+    "a": 1,
+    "why": "Colligative properties (freezing point depression, vapour pressure reduction, boiling point elevation, osmotic pressure) depend on the number of particles. Osmometers usually use freezing point depression (1 osmol/kg lowers it by 1.86 °C)."
+  },
+  {
+    "id": "P205",
+    "ar": "Physics",
+    "sb": "Resistance",
+    "tp": "phy53",
+    "q": "Which is the correct unit of resistance?",
+    "o": [
+      "Siemens",
+      "Henry",
+      "Ohm",
+      "Farad",
+      "Tesla"
+    ],
+    "a": 2,
+    "why": "Resistance is measured in ohms (Ω); capacitance in farads; inductance in henrys; conductance in siemens; magnetic flux density in tesla."
+  },
+  {
+    "id": "P206",
+    "ar": "Physics",
+    "sb": "Resistance",
+    "tp": "phy53",
+    "q": "What is a Wheatstone bridge used for in anaesthetic monitoring?",
+    "o": [
+      "Isolating patient circuits from earth",
+      "Filtering 50 Hz interference from the ECG",
+      "Detecting tiny resistance changes in strain gauges",
+      "Generating and shaping defibrillation shocks",
+      "Converting alternating current to direct current"
+    ],
+    "a": 2,
+    "why": "A Wheatstone bridge detects small resistance changes accurately. Strain gauges in pressure transducers and some temperature sensors (thermistors, resistance thermometers) use it."
+  },
+  {
+    "id": "P207",
+    "ar": "Physics",
+    "sb": "Capacitors",
+    "tp": "phy54",
+    "q": "What is a capacitor?",
+    "o": [
+      "A step-down transformer for monitors",
+      "Two conductors separated by an insulator",
+      "A coil of wire opposing changes in current",
+      "A device converting light to electricity",
+      "A resistor that varies with temperature"
+    ],
+    "a": 1,
+    "why": "A capacitor stores charge (Q = CV) and energy (½CV²). It passes AC more readily than DC (impedance falls with frequency). Defibrillators store energy in capacitors."
+  },
+  {
+    "id": "P208",
+    "ar": "Physics",
+    "sb": "Capacitors",
+    "tp": "phy54",
+    "q": "Why can a capacitor create a hazard of leakage current in medical equipment?",
+    "o": [
+      "It generates a strong magnetic field",
+      "Capacitive coupling lets AC leak without contact",
+      "It conducts direct current freely",
+      "It heats tissues by dielectric loss",
+      "It increases circuit resistance"
+    ],
+    "a": 1,
+    "why": "Stray capacitance between mains circuits and equipment cases or leads allows AC leakage current to flow to the patient, which matters for microshock risk with cardiac-connected equipment."
+  },
+  {
+    "id": "P209",
+    "ar": "Physics",
+    "sb": "Inductance",
+    "tp": "phy55",
+    "q": "How does an inductor behave in a circuit?",
+    "o": [
+      "It has no effect on alternating current",
+      "Its impedance falls as frequency rises",
+      "It opposes change in current; impedance rises with frequency",
+      "It converts current into visible light",
+      "It stores charge between two separated plates"
+    ],
+    "a": 2,
+    "why": "An inductor (coil) opposes changes in current by generating a back EMF. Its impedance rises with frequency. Defibrillators use an inductor to prolong current flow and shape the waveform."
+  },
+  {
+    "id": "P210",
+    "ar": "Physics",
+    "sb": "Inductance",
+    "tp": "phy55",
+    "q": "What is the unit of inductance?",
+    "o": [
+      "Ohm",
+      "Coulomb",
+      "Farad",
+      "Weber",
+      "Henry"
+    ],
+    "a": 4,
+    "why": "Inductance is measured in henrys. Magnetic flux is measured in webers; flux density in teslas; charge in coulombs."
+  },
+  {
+    "id": "P211",
+    "ar": "Physics",
+    "sb": "Defibrillators",
+    "tp": "phy56",
+    "q": "What energy is stored in a defibrillator capacitor of 32 µF charged to 5000 V?",
+    "o": [
+      "160 J",
+      "200 J",
+      "400 J",
+      "800 J",
+      "80 J"
+    ],
+    "a": 2,
+    "why": "E = ½CV² = 0.5 × 32 × 10⁻⁶ × (5000)² = 0.5 × 32 × 10⁻⁶ × 25 × 10⁶ = 400 J. Delivered energy is lower because of losses in the inductor and circuit."
+  },
+  {
+    "id": "P212",
+    "ar": "Physics",
+    "sb": "Defibrillators",
+    "tp": "phy56",
+    "q": "When performing synchronised cardioversion, why must the shock be synchronised to the R wave?",
+    "o": [
+      "To prevent skin burns under the pads",
+      "To increase cardiac output after the shock",
+      "To reduce the energy needed for success",
+      "To avoid shocking on the T wave (R on T)",
+      "To avoid interference with the ECG trace"
+    ],
+    "a": 3,
+    "why": "A shock during ventricular repolarisation (relative refractory period on the T wave) can precipitate VF (R on T). Synchronisation is used for organised rhythms with a pulse (AF, flutter, SVT, VT with a pulse), not for VF or pulseless VT."
+  },
+  {
+    "id": "P213",
+    "ar": "Physics",
+    "sb": "Resonance &amp; Damping",
+    "tp": "phy57",
+    "q": "An arterial line trace shows excessive overshoot and ringing after a fast flush. What is the most likely problem?",
+    "o": [
+      "A clot in the cannula",
+      "Overdamping from an air bubble",
+      "A kinked cannula",
+      "Transducer placed too high",
+      "Underdamping (resonance)"
+    ],
+    "a": 4,
+    "why": "Underdamping causes overshoot, falsely high systolic and falsely low diastolic pressures. Overdamping (air bubbles, clots, kinks, compliant tubing) flattens the trace, lowering systolic and raising diastolic. Mean pressure is relatively preserved in both."
+  },
+  {
+    "id": "P214",
+    "ar": "Physics",
+    "sb": "Resonance &amp; Damping",
+    "tp": "phy57",
+    "q": "What is the optimal damping coefficient for an arterial pressure measurement system?",
+    "o": [
+      "0.64",
+      "2.0",
+      "0.1",
+      "1.0",
+      "0.3"
+    ],
+    "a": 0,
+    "why": "Optimal damping (about 0.64) gives the fastest response with minimal overshoot (about 7%) for a range of frequencies. Critical damping (1.0) gives no overshoot but a slower response. The natural frequency should be well above the frequencies of the arterial waveform's harmonics."
+  },
+  {
+    "id": "P215",
+    "ar": "Physics",
+    "sb": "Pulse Oximetry",
+    "tp": "phy58",
+    "q": "Which factor causes pulse oximetry to under-read (falsely low SpO2)?",
+    "o": [
+      "Bilirubin",
+      "Anaemia alone",
+      "Carboxyhaemoglobin",
+      "Intravenous methylene blue",
+      "Fetal haemoglobin"
+    ],
+    "a": 3,
+    "why": "Methylene blue (and indocyanine green, isosulfan blue) absorbs at 660 nm, transiently lowering SpO2. Carboxyhaemoglobin over-reads; bilirubin and fetal haemoglobin have little effect. Skin pigmentation can cause over-reading, an important equity issue."
+  },
+  {
+    "id": "P216",
+    "ar": "Physics",
+    "sb": "Pulse Oximetry",
+    "tp": "phy58",
+    "q": "What is the approximate delay between a change in alveolar oxygenation and a change in finger pulse oximetry?",
+    "o": [
+      "About 10–20 s (longer with vasoconstriction)",
+      "Immediate",
+      "It changes before alveolar change",
+      "5 minutes",
+      "30 minutes"
+    ],
+    "a": 0,
+    "why": "Circulation time to the finger introduces a lag of roughly 10–20 s, longer with vasoconstriction or low cardiac output. Ear and forehead probes respond faster."
+  },
+  {
+    "id": "P217",
+    "ar": "Physics",
+    "sb": "Capnography",
+    "tp": "phy59",
+    "q": "A sudden fall of end-tidal CO2 to near zero in a ventilated patient is most likely to be caused by which event?",
+    "o": [
+      "Malignant hyperthermia",
+      "Bronchospasm",
+      "Exhausted soda lime",
+      "Disconnection or complete obstruction",
+      "Hypoventilation"
+    ],
+    "a": 3,
+    "why": "Abrupt loss of EtCO2 indicates disconnection, ventilator failure, complete obstruction, oesophageal tube displacement or circulatory arrest. A gradual fall suggests falling cardiac output or increased dead space (e.g. PE)."
+  },
+  {
+    "id": "P218",
+    "ar": "Physics",
+    "sb": "Capnography",
+    "tp": "phy59",
+    "q": "Infrared capnometers measure CO2 using absorption at approximately which wavelength?",
+    "o": [
+      "1.0 µm",
+      "660 nm",
+      "940 nm",
+      "4.3 µm",
+      "10.6 µm"
+    ],
+    "a": 3,
+    "why": "CO2 absorbs infrared at about 4.3 µm. Nitrous oxide absorbs nearby (about 4.5 µm), and collision broadening can cause slight interference, which modern analysers correct for."
+  },
+  {
+    "id": "P219",
+    "ar": "Physics",
+    "sb": "CO2 Absorption (Soda Lime)",
+    "tp": "phy60",
+    "q": "What is the main constituent of soda lime?",
+    "o": [
+      "Sodium hydroxide",
+      "Calcium carbonate",
+      "Calcium hydroxide",
+      "Potassium hydroxide",
+      "Barium hydroxide"
+    ],
+    "a": 2,
+    "why": "Soda lime is about 80% calcium hydroxide, with water (about 15%) and sodium hydroxide (about 3–4%, the catalyst). The reaction produces carbonate, water and heat. Newer absorbents omit strong bases to reduce compound A and carbon monoxide formation."
+  },
+  {
+    "id": "P220",
+    "ar": "Physics",
+    "sb": "CO2 Absorption (Soda Lime)",
+    "tp": "phy60",
+    "q": "Which agent is most associated with carbon monoxide production when passed over desiccated strong-base absorbent?",
+    "o": [
+      "Nitrous oxide",
+      "Sevoflurane",
+      "Desflurane",
+      "Xenon",
+      "Propofol"
+    ],
+    "a": 2,
+    "why": "Desflurane (and enflurane, isoflurane) can produce CO with dry absorbents containing strong bases, highest with desflurane. Sevoflurane can produce compound A, especially at low flows and with warm absorbent."
+  },
+  {
+    "id": "P221",
+    "ar": "Physics",
+    "sb": "Cardiac Output Measurement",
+    "tp": "phy61",
+    "q": "Which principle underlies the thermodilution measurement of cardiac output?",
+    "o": [
+      "Doppler shift",
+      "Ohm's law",
+      "Bernoulli equation",
+      "Stewart–Hamilton equation",
+      "Fick principle"
+    ],
+    "a": 3,
+    "why": "Cold injectate is injected into the right atrium and the temperature change is measured in the pulmonary artery. Cardiac output is inversely proportional to the area under the temperature–time curve (Stewart–Hamilton)."
+  },
+  {
+    "id": "P222",
+    "ar": "Physics",
+    "sb": "Cardiac Output Measurement",
+    "tp": "phy61",
+    "q": "In the Fick method, cardiac output equals oxygen consumption divided by what?",
+    "o": [
+      "Inspired oxygen fraction",
+      "Haemoglobin concentration",
+      "Venous oxygen saturation",
+      "Arteriovenous oxygen content difference",
+      "Arterial oxygen content"
+    ],
+    "a": 3,
+    "why": "CO = VO2/(CaO2 − CvO2). For example, 250 mL/min ÷ 50 mL/L = 5 L/min. Mixed venous sampling from the pulmonary artery is needed for the direct Fick method."
+  },
+  {
+    "id": "P223",
+    "ar": "Physics",
+    "sb": "NMB Monitoring",
+    "tp": "phy62",
+    "q": "During partial non-depolarising neuromuscular block, what does train-of-four stimulation show?",
+    "o": [
+      "Equal twitches",
+      "Increased fourth twitch",
+      "Post-tetanic fade absent",
+      "No response at any depth",
+      "Fade with a reduced TOF ratio"
+    ],
+    "a": 4,
+    "why": "Non-depolarising block causes fade (presynaptic receptor block reduces acetylcholine release on repeated stimulation). A TOF ratio of at least 0.9 at the adductor pollicis is needed for adequate recovery. Phase I depolarising block shows no fade."
+  },
+  {
+    "id": "P224",
+    "ar": "Physics",
+    "sb": "NMB Monitoring",
+    "tp": "phy62",
+    "q": "Which test is useful when TOF count is zero, to assess depth of profound block?",
+    "o": [
+      "Tetanus at 50 Hz alone",
+      "Double burst stimulation",
+      "Post-tetanic count",
+      "Train-of-four ratio",
+      "Single twitch"
+    ],
+    "a": 2,
+    "why": "A post-tetanic count (single twitches after 5 s of 50 Hz tetanus) quantifies deep block. A PTC of 1–2 is a deep block and guides sugammadex 4 mg/kg. Double burst stimulation helps detect fade manually."
+  },
+  {
+    "id": "P225",
+    "ar": "Physics",
+    "sb": "Diathermy",
+    "tp": "phy63",
+    "q": "Why does bipolar diathermy carry a lower risk of burns at remote sites than monopolar diathermy?",
+    "o": [
+      "It uses a larger return plate",
+      "It uses direct rather than alternating current",
+      "Current flows only between the forceps tips",
+      "It does not generate any heat",
+      "It uses lower frequencies than monopolar"
+    ],
+    "a": 2,
+    "why": "In bipolar diathermy, current flows only between the two forceps tips. Monopolar current passes through the patient to the return electrode; a poorly attached plate concentrates current density and can cause burns."
+  },
+  {
+    "id": "P226",
+    "ar": "Physics",
+    "sb": "Diathermy",
+    "tp": "phy63",
+    "q": "Why does diathermy current at about 0.5–1 MHz not cause ventricular fibrillation?",
+    "o": [
+      "It is very low voltage",
+      "High frequency does not depolarise cells",
+      "It is direct current",
+      "The return plate blocks it",
+      "It only flows over the skin"
+    ],
+    "a": 1,
+    "why": "Excitable tissues respond best to frequencies around 50 Hz; very high frequencies alternate too fast to depolarise membranes, so they cause heating rather than stimulation."
+  },
+  {
+    "id": "P227",
+    "ar": "Physics",
+    "sb": "Cleaning, Disinfection &amp; Sterilisation",
+    "tp": "phy64",
+    "q": "What is the difference between disinfection and sterilisation?",
+    "o": [
+      "They are the same",
+      "Disinfection kills all organisms including spores; sterilisation does not",
+      "Disinfection uses heat only",
+      "Sterilisation kills all organisms including spores; disinfection kills most but not all",
+      "Sterilisation only removes visible soil"
+    ],
+    "a": 3,
+    "why": "Cleaning removes debris; disinfection kills most vegetative organisms but not necessarily spores; sterilisation destroys all organisms including spores. Prions resist conventional sterilisation, so single-use equipment is used where possible."
+  },
+  {
+    "id": "P228",
+    "ar": "Physics",
+    "sb": "Cleaning, Disinfection &amp; Sterilisation",
+    "tp": "phy64",
+    "q": "What conditions are typically used for steam sterilisation in an autoclave?",
+    "o": [
+      "160 °C dry heat for 30 seconds",
+      "121 °C for 15 minutes or 134 °C for 3 minutes",
+      "60 °C for 1 hour",
+      "37 °C for 24 hours",
+      "100 °C for 1 minute"
+    ],
+    "a": 1,
+    "why": "Autoclaving uses saturated steam under pressure at 121 °C for 15 min or 134 °C for 3 min. Heat-sensitive items use ethylene oxide, low-temperature hydrogen peroxide plasma or gamma irradiation."
+  },
+  {
+    "id": "P229",
+    "ar": "Physics",
+    "sb": "Water Phase Diagram",
+    "tp": "phy65",
+    "q": "On a pressure–temperature phase diagram for water, what does the line between liquid and vapour represent?",
+    "o": [
+      "Sublimation curve",
+      "Critical temperature line",
+      "Saturated vapour pressure curve",
+      "Melting curve",
+      "Triple point"
+    ],
+    "a": 2,
+    "why": "Along the liquid–vapour line both phases coexist; it shows how boiling point rises with pressure. It ends at the critical point (374 °C, 22 MPa for water). The three lines meet at the triple point."
+  },
+  {
+    "id": "P230",
+    "ar": "Physics",
+    "sb": "Water Phase Diagram",
+    "tp": "phy65",
+    "q": "Why does water boil at a lower temperature at high altitude?",
+    "o": [
+      "Water's SVP is higher at altitude",
+      "Gravity is weaker at altitude",
+      "Lower ambient pressure lowers the boiling point",
+      "Water is less dense at altitude",
+      "There is less oxygen at altitude"
+    ],
+    "a": 2,
+    "why": "Boiling occurs when SVP equals ambient pressure. At lower barometric pressure, a lower temperature is enough, so water boils below 100 °C at altitude."
+  },
+  {
+    "id": "P231",
+    "ar": "Physics",
+    "sb": "Surface Tension",
+    "tp": "phy66",
+    "q": "According to Laplace's law for a sphere, how does the pressure inside a bubble relate to its radius when wall tension is constant?",
+    "o": [
+      "P = T × r",
+      "P = 2T/r",
+      "P = T/2r",
+      "P = 2T × r",
+      "P = T/r"
+    ],
+    "a": 1,
+    "why": "For a sphere, P = 2T/r (for a cylinder, P = T/r). Without surfactant, small alveoli would empty into large ones. Surfactant reduces surface tension more in small alveoli, stabilising them."
+  },
+  {
+    "id": "P232",
+    "ar": "Physics",
+    "sb": "Surface Tension",
+    "tp": "phy66",
+    "q": "Which physiological substance reduces surface tension at the alveolar air–liquid interface?",
+    "o": [
+      "Surfactant",
+      "Albumin",
+      "Bicarbonate",
+      "Fibrinogen",
+      "Mucus"
+    ],
+    "a": 0,
+    "why": "Surfactant from type II pneumocytes lowers surface tension, increases compliance, stabilises alveoli and reduces transudation. Deficiency causes neonatal respiratory distress syndrome."
+  },
+  {
+    "id": "P233",
+    "ar": "Physics",
+    "sb": "Methods of Measuring Temperature",
+    "tp": "phy67",
+    "q": "Which temperature measurement device produces a voltage at the junction of two dissimilar metals?",
+    "o": [
+      "Platinum resistance thermometer",
+      "Thermistor",
+      "Thermocouple",
+      "Mercury thermometer",
+      "Infrared tympanic thermometer"
+    ],
+    "a": 2,
+    "why": "The Seebeck effect: a thermocouple (e.g. copper/constantan) produces a voltage proportional to temperature difference between measuring and reference junctions. A thermistor's resistance changes non-linearly with temperature (usually falling)."
+  },
+  {
+    "id": "P234",
+    "ar": "Physics",
+    "sb": "Methods of Measuring Temperature",
+    "tp": "phy67",
+    "q": "Which site most closely reflects core temperature for intraoperative monitoring?",
+    "o": [
+      "Fingertip",
+      "Axilla",
+      "Rectum during rapid change",
+      "Forehead skin",
+      "Distal oesophagus"
+    ],
+    "a": 4,
+    "why": "Distal oesophageal, nasopharyngeal, pulmonary artery and tympanic membrane temperatures reflect core temperature well. Rectal and bladder readings lag during rapid change. NICE recommends monitoring core temperature for procedures over 30 minutes."
+  },
+  {
+    "id": "P235",
+    "ar": "Physics",
+    "sb": "Methods of Measuring Pressure",
+    "tp": "phy68",
+    "q": "Which device measures pressure by the deformation of a curved, flattened tube that straightens as pressure rises?",
+    "o": [
+      "Aneroid barometer",
+      "Bourdon gauge",
+      "Strain gauge",
+      "Manometer",
+      "Piezoelectric transducer"
+    ],
+    "a": 1,
+    "why": "The Bourdon gauge on cylinders and pipelines uses a coiled tube that uncoils under pressure, moving a pointer. An aneroid gauge uses a sealed bellows; a manometer uses a liquid column; strain gauges change resistance with deformation."
+  },
+  {
+    "id": "P236",
+    "ar": "Physics",
+    "sb": "Methods of Measuring Pressure",
+    "tp": "phy68",
+    "q": "Why is mercury rather than water used in a manometer for measuring arterial blood pressure?",
+    "o": [
+      "It evaporates less in the cold",
+      "Its high density keeps the column short",
+      "It is more compressible than water",
+      "It has a lower viscosity than water",
+      "It is less toxic than water"
+    ],
+    "a": 1,
+    "why": "Mercury is 13.6 times denser than water, so pressures of 100–200 mmHg need a column of a reasonable height. A water manometer would need a column about 1.4–2.7 m high."
+  },
+  {
+    "id": "P237",
+    "ar": "Physics",
+    "sb": "Methods of Measuring Blood Pressure",
+    "tp": "phy69",
+    "q": "Using a sphygmomanometer and stethoscope, which Korotkoff sound marks systolic pressure?",
+    "o": [
+      "Phase IV (muffling)",
+      "Phase V (disappearance)",
+      "Phase III",
+      "Phase II",
+      "Phase I (first clear tapping)"
+    ],
+    "a": 4,
+    "why": "Phase I (first appearance of tapping) indicates systolic pressure; phase V (disappearance) indicates diastolic pressure in adults. Phase IV may be used when sounds persist to zero (pregnancy, hyperdynamic states)."
+  },
+  {
+    "id": "P238",
+    "ar": "Physics",
+    "sb": "Methods of Measuring Blood Pressure",
+    "tp": "phy69",
+    "q": "Using a non-invasive BP cuff that is too narrow for the patient's arm will cause what error?",
+    "o": [
+      "Over-reading",
+      "It measures only diastolic pressure",
+      "No error",
+      "Under-reading",
+      "Random error only"
+    ],
+    "a": 0,
+    "why": "A narrow cuff needs higher pressure to occlude the artery, so it over-reads; a wide cuff under-reads. The bladder width should be about 40% of arm circumference and the length about 80%."
+  },
+  {
+    "id": "P239",
+    "ar": "Physics",
+    "sb": "Methods of Measuring Respiratory Volumes/Flow",
+    "tp": "phy70",
+    "q": "Which device measures flow by measuring the pressure drop across a fixed resistance?",
+    "o": [
+      "Pneumotachograph",
+      "Vitalograph",
+      "Wright respirometer",
+      "Hot-wire anemometer",
+      "Rotameter"
+    ],
+    "a": 0,
+    "why": "The pneumotachograph measures the pressure difference across a laminar resistance, which is proportional to flow; integration gives volume. It must be heated to prevent condensation. The Wright respirometer uses a rotating vane and over-reads at high flows."
+  },
+  {
+    "id": "P240",
+    "ar": "Physics",
+    "sb": "Methods of Measuring Respiratory Volumes/Flow",
+    "tp": "phy70",
+    "q": "A rotameter (variable orifice flowmeter) on an anaesthetic machine works on which principle?",
+    "o": [
+      "Ultrasonic transit time",
+      "Variable pressure difference, fixed orifice",
+      "Constant pressure difference, variable orifice",
+      "Thermal conductivity",
+      "Constant pressure and constant orifice"
+    ],
+    "a": 2,
+    "why": "The bobbin rises until the pressure drop across it (equal to its weight per unit area) balances the flow through the widening annulus. At low flows, flow is laminar (viscosity dependent); at high flows, turbulent (density dependent). Each tube is calibrated for its gas."
+  },
+  {
+    "id": "P241",
+    "ar": "Physics",
+    "sb": "Methods of Gas Analysis",
+    "tp": "phy71",
+    "q": "Which method of gas analysis can identify and measure gases by separating ions by mass-to-charge ratio?",
+    "o": [
+      "Infrared spectroscopy",
+      "Paramagnetic analysis",
+      "Mass spectrometry",
+      "Raman spectroscopy",
+      "Piezoelectric quartz crystal"
+    ],
+    "a": 2,
+    "why": "Mass spectrometry ionises gas, accelerates ions and separates them by mass/charge in a magnetic field. It can measure all gases including N2 and O2 but is expensive. Raman scattering is used in some multigas analysers."
+  },
+  {
+    "id": "P242",
+    "ar": "Physics",
+    "sb": "Methods of Gas Analysis",
+    "tp": "phy71",
+    "q": "Why can a standard infrared gas analyser not measure oxygen?",
+    "o": [
+      "O2 absorbs only ultraviolet light",
+      "O2 is symmetrical and does not absorb infrared",
+      "O2 is paramagnetic, which distorts the signal",
+      "O2 reacts chemically with the sample cell",
+      "O2 concentration is too high to measure"
+    ],
+    "a": 1,
+    "why": "Infrared absorption requires molecules with two or more different atoms (dipole changes). O2, N2 and xenon do not absorb infrared, so oxygen is measured paramagnetically or by fuel cell."
+  },
+  {
+    "id": "P419",
+    "ar": "Physics",
+    "sb": "Cardiac Output Measurement",
+    "tp": "phy61",
+    "q": "Fick principle: cardiac output equals O₂ consumption divided by which value?",
+    "o": [
+      "Arterial O₂ content alone",
+      "Haemoglobin × 1.34",
+      "Arterial minus mixed venous O₂ content",
+      "Mixed venous O₂ content alone",
+      "Arterial minus mixed venous CO₂ content"
+    ],
+    "a": 2,
+    "why": "Q = VO₂ / (CaO₂ − CvO₂). For example, 250 mL/min ÷ 50 mL/L = 5 L/min. A mixed venous sample from the pulmonary artery is needed for the direct Fick method."
+  }
+]

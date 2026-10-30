@@ -1,0 +1,122 @@
+[
+  {
+    "q": "For a trial of instrumental delivery in theatre, what block is aimed for?",
+    "o": [
+      "T10 only",
+      "A dense block to T4 so conversion to caesarean is immediate",
+      "Sacral only",
+      "Pudendal block only",
+      "L1"
+    ],
+    "a": 1,
+    "why": "Aim for a caesarean-ready block to T4, either by extending the epidural or with a spinal/CSE."
+  },
+  {
+    "q": "What is the normal baseline fetal heart rate on CTG?",
+    "o": [
+      "90–110 bpm",
+      "110–160 bpm",
+      "160–180 bpm",
+      "60–100 bpm",
+      "120–200 bpm"
+    ],
+    "a": 1,
+    "why": "Normal baseline is 110–160 bpm with variability of 5–25 bpm."
+  },
+  {
+    "q": "What defines a fetal heart rate acceleration?",
+    "o": [
+      "A rise of over 5 bpm for 5 s",
+      "A rise of over 15 bpm for 15 s or more",
+      "Any rise during a contraction",
+      "A rise over 30 bpm for 1 minute",
+      "A fall then rise"
+    ],
+    "a": 1,
+    "why": "Accelerations (over 15 bpm for 15 s or more) are a sign of fetal wellbeing."
+  },
+  {
+    "q": "Which CTG finding needs urgent intervention?",
+    "o": [
+      "Baseline 150",
+      "A prolonged deceleration over 3 minutes",
+      "Variability 10 bpm",
+      "Accelerations",
+      "Early decelerations"
+    ],
+    "a": 1,
+    "why": "Acute bradycardia or a prolonged deceleration over 3 minutes needs urgent action."
+  },
+  {
+    "q": "What fetal blood sample pH is normal?",
+    "o": [
+      "Over 7.25",
+      "7.20–7.25",
+      "Under 7.20",
+      "Over 7.45",
+      "Under 7.10"
+    ],
+    "a": 0,
+    "why": "Over 7.25 is normal, 7.20–7.25 borderline, under 7.20 abnormal."
+  },
+  {
+    "q": "Which dermatomes carry first stage labour pain?",
+    "o": [
+      "S2–4",
+      "T10–L1",
+      "T4–T6",
+      "L4–S1",
+      "C5–C8"
+    ],
+    "a": 1,
+    "why": "First stage visceral pain travels via T10–L1; second stage perineal pain via the pudendal nerve (S2–4)."
+  },
+  {
+    "q": "What remifentanil PCA bolus and lockout are typical in labour?",
+    "o": [
+      "200 mcg with 10 min lockout",
+      "Around 20–40 mcg with a 2-minute lockout",
+      "1 mg with no lockout",
+      "5 mcg with 30 min lockout",
+      "Infusion only"
+    ],
+    "a": 1,
+    "why": "Needs 1:1 midwife care, continuous SpO2 and a dedicated line."
+  },
+  {
+    "q": "What is a common epidural top-up mixture for rapid extension to caesarean?",
+    "o": [
+      "0.1% bupivacaine 5 ml",
+      "2% lidocaine with adrenaline (and bicarbonate)",
+      "Saline",
+      "Morphine alone",
+      "Ketamine"
+    ],
+    "a": 1,
+    "why": "2% lidocaine with adrenaline and bicarbonate gives a fast, dense block."
+  },
+  {
+    "q": "Which neonatal injury is associated with instrumental (ventouse) delivery?",
+    "o": [
+      "Clavicle fracture only",
+      "Subgaleal haemorrhage or cephalhaematoma",
+      "Pneumothorax",
+      "Cleft palate",
+      "Hip dysplasia"
+    ],
+    "a": 1,
+    "why": "Cephalhaematoma and subgaleal bleeding are recognised after ventouse; failed instrumental increases PPH risk."
+  },
+  {
+    "q": "Which systemic opioid can be given by midwives under exemption for labour?",
+    "o": [
+      "Fentanyl IV",
+      "Pethidine 1 mg/kg IM",
+      "Remifentanil",
+      "Alfentanil",
+      "Morphine PCA"
+    ],
+    "a": 1,
+    "why": "Pethidine (with its active metabolite norpethidine) delays gastric emptying."
+  }
+]

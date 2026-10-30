@@ -1,0 +1,18 @@
+{
+  "t": "tip",
+  "shape": "brain",
+  "group": "Neuro",
+  "title": "Delayed Emergence Following Neurosurgery",
+  "cards": [
+    {
+      "h": "Pharmacological causes",
+      "b": "file:cards/01-pharmacological-causes.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/02-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

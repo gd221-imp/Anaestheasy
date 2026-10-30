@@ -1,0 +1,22 @@
+{
+  "t": "tip",
+  "shape": "heart",
+  "group": "Cardiac",
+  "title": "Infective Endocarditis",
+  "cards": [
+    {
+      "h": "Definition",
+      "b": "file:cards/01-definition.html"
+    },
+    {
+      "h": "Modified Duke Criteria",
+      "b": "file:cards/02-modified-duke-criteria.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/03-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

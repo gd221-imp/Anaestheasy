@@ -1,0 +1,43 @@
+{
+  "t": "recipe",
+  "shape": "headn",
+  "group": "Head and neck",
+  "title": "Laryngeal Laser Surgery",
+  "op": true,
+  "cards": [
+    {
+      "h": "Anaesthetic recipe",
+      "b": "file:cards/01-anaesthetic-recipe.html",
+      "recipe": true
+    },
+    {
+      "h": "Lasers",
+      "primaryRef": "phy17"
+    },
+    {
+      "h": "The Larynx",
+      "primaryRef": "ana15"
+    },
+    {
+      "h": "Laryngeal Laser Surgery",
+      "noteRef": "Laryngeal Laser Surgery"
+    },
+    {
+      "h": "Airway Fire",
+      "noteRef": "Airway Fire"
+    },
+    {
+      "h": "Sample WPBA",
+      "b": "file:cards/06-sample-wpba.html",
+      "wpba": true
+    },
+    {
+      "h": "Curriculum",
+      "links": [
+        "curric:8",
+        "curric:9"
+      ]
+    }
+  ],
+  "q": "file:quiz.json"
+}

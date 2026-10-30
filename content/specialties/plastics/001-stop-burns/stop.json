@@ -1,0 +1,48 @@
+{
+  "t": "recipe",
+  "shape": "plaster",
+  "group": "Plastics",
+  "title": "Burns",
+  "op": true,
+  "cards": [
+    {
+      "h": "Anaesthetic recipe",
+      "b": "file:cards/01-anaesthetic-recipe.html",
+      "recipe": true
+    },
+    {
+      "h": "Heat Transfer & Temperature",
+      "primaryRef": "phy10"
+    },
+    {
+      "h": "Transfusion Physiology",
+      "primaryRef": "phs46"
+    },
+    {
+      "h": "Burns",
+      "noteRef": "Burns"
+    },
+    {
+      "h": "Electrical Injury",
+      "noteRef": "Electrical Injury"
+    },
+    {
+      "h": "Drowning",
+      "noteRef": "Drowning"
+    },
+    {
+      "h": "Sample WPBA",
+      "b": "file:cards/07-sample-wpba.html",
+      "wpba": true
+    },
+    {
+      "h": "Curriculum",
+      "links": [
+        "curric:9",
+        "curric:11",
+        "curric:14"
+      ]
+    }
+  ],
+  "q": "file:quiz.json"
+}

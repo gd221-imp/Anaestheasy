@@ -1,0 +1,326 @@
+{
+  "Appendicectomy": {
+    "0|Equipment": [
+      "Can consider any cannula to start, then a 16G once asleep"
+    ],
+    "0|Induction": [
+      "Can consider fentanyl about 200 mcg, propofol about 150 mg and rocuronium 1 mg/kg"
+    ],
+    "0|Maintenance": [
+      "Can consider magnesium 2–3 g in the fluids; dexamethasone 6.6 mg; ondansetron 4 mg towards the end",
+      "Can consider fentanyl to about 300 mcg in total",
+      "Can consider an alternative opioid plan: alfentanil 2 mg at induction, fentanyl 150 mcg before skin, morphine 10 mg as the appendix comes out",
+      "Can consider for TIVA, a three-way tap on the propofol line so you can hand-bolus from the pump syringe; remove it once settled"
+    ],
+    "0|Analgesia": [
+      "Can consider fentanyl 0–200 mcg in recovery; Oramorph 10–30 mg 2-hourly as needed"
+    ]
+  },
+  "Incision and Drainage": {
+    "0|Induction": [
+      "Can consider alfentanil 250–500 mcg as the short-acting opioid"
+    ],
+    "0|Maintenance": [
+      "Can consider TIVA: propofol TCI about 8 mcg/ml to induce, then about 5 mcg/ml once the LMA is in",
+      "Can consider alfentanil 500 mcg about 30 seconds before the incision, and loading with fentanyl or morphine"
+    ],
+    "0|Analgesia": [
+      "Can consider regular paracetamol and NSAID; dihydrocodeine and oral morphine as needed"
+    ]
+  },
+  "Laparoscopic Cholecystectomy": {
+    "0|Induction": [
+      "Can consider TIVA with remifentanil TCI (Minto) built up to 6 ng/ml, then propofol TCI (Marsh) 6 mcg/ml after two minutes; atracurium; depth of anaesthesia monitoring"
+    ],
+    "0|Maintenance": [
+      "Can consider fentanyl about 350 mcg through the case",
+      "Can consider alfentanil alone, as a TCI at 100 ng/ml or a 1.5–3 mg bolus then 4–6 ml/h of 500 mcg/ml"
+    ],
+    "0|Analgesia": [
+      "Can consider fentanyl 0–200 mcg in recovery; codeine or tramadol to go home"
+    ]
+  },
+  "Knee Arthroscopy": {
+    "0|Induction": [
+      "Can consider fentanyl 150 mcg at induction and 100 mcg before skin; propofol TCI; dexamethasone 6.6 mg and ondansetron 4 mg"
+    ],
+    "0|Analgesia": [
+      "Can consider an adductor canal block for bigger knee procedures such as ACL reconstruction",
+      "Can consider codeine with paracetamol and an NSAID to take home"
+    ]
+  },
+  "Shoulder Arthroscopy with Interscalene Block": {
+    "0|Optimise": [
+      "Can consider telling the patient to start oral analgesia before the block wears off"
+    ],
+    "0|Induction": [
+      "Can consider propofol TCI at about 1 mcg/ml for comfort while blocking",
+      "Can consider an interscalene with 1% lidocaine to skin, a 50 mm needle and 10 ml 0.5% bupivacaine",
+      "Can consider tranexamic acid and antibiotics; flexible LMA, or armoured ETT with relaxant"
+    ],
+    "0|Analgesia": [
+      "Can consider paracetamol QDS, ibuprofen QDS and dihydrocodeine 30 mg QDS"
+    ]
+  },
+  "Primary Hip or Knee Replacement": {
+    "0|Induction": [
+      "Can consider a spinal of 2.5–2.8 ml 0.5% heavy bupivacaine without opioid, with propofol TCI sedation at about 0.5–1 mcg/ml if wanted",
+      "Can consider dexamethasone 6.6 mg; antibiotics; tranexamic acid"
+    ],
+    "0|Maintenance": [
+      "Can consider avoiding a tourniquet for knees: it doesn't reduce total blood loss and adds swelling",
+      "Can consider local infiltration into the joint (knee) or wound (hip)"
+    ],
+    "0|Analgesia": [
+      "Can consider avoiding intrathecal opioid (retention, itch, respiratory depression), or low-dose intrathecal diamorphine",
+      "Can consider avoiding NSAIDs if on regular aspirin"
+    ],
+    "0|Destination": [
+      "Can consider avoiding post-op IV fluids; eat, drink and mobilise early"
+    ]
+  },
+  "Cervical Cerclage": {
+    "0|Induction": [
+      "Can consider a short-acting spinal: 2% hyperbaric prilocaine up to 2.5 ml"
+    ],
+    "0|Analgesia": [
+      "Can consider avoiding NSAIDs"
+    ]
+  },
+  "Category 1 Caesarean Section under GA": {
+    "0|Induction": [
+      "Can consider an RSI with alfentanil 1–2 mg, propofol about 180 mg (second syringe ready) and rocuronium 1.2 mg/kg; videolaryngoscope",
+      "Can consider the category 1 sign-in and time-out with the abdomen prepped and draped before induction, so incision follows intubation straight away",
+      "Can consider thiopental and suxamethonium (used in most obstetric GAs in the DREAMY study), but use the drugs you know best"
+    ],
+    "0|Maintenance": [
+      "Can consider morphine 10 mg after delivery; dexamethasone 6.6 mg and ondansetron 4 mg",
+      "Can consider sugammadex for reversal (likely needed)"
+    ],
+    "0|Analgesia": [
+      "Can consider morphine 1–10 mg in recovery; paracetamol 1 g QDS, ibuprofen 400 mg QDS, dihydrocodeine 30 mg QDS, Oramorph as needed",
+      "Can consider lactulose, ondansetron and naloxone as needed"
+    ]
+  },
+  "Lower Segment Caesarean Section": {
+    "0|Induction": [
+      "Can consider a spinal of 2.5 ml 0.5% heavy bupivacaine with 300 mcg diamorphine",
+      "Can consider an epidural top-up instead: mix 18 ml 2% lidocaine, 2 ml 8.4% bicarbonate and 1 ml 1:10,000 adrenaline; give 3 ml and check the ankles move at 30 seconds (not intrathecal), 3 ml more and check for IV symptoms at 1 minute, then the rest; around 15 ml is usually enough",
+      "Can consider for category 1 under spinal: one attempt of no more than 3 minutes on a timer; 3 ml 0.5% heavy bupivacaine (or 2.5 ml plus fentanyl 25 mcg); knife to skin once the block reaches T10 on both sides and is still rising"
+    ],
+    "0|Optimise": [
+      "Can consider using the booking or antenatal clinic BP as the baseline",
+      "Can consider for category 1: sodium citrate, IV omeprazole 40 mg and metoclopramide 10 mg; left tilt and oxygen while others site IV access"
+    ],
+    "0|Maintenance": [
+      "Can consider starting phenylephrine around 20 ml/h (15–30), changing by 5–10 ml/h to keep systolic at or above 90% of baseline",
+      "Can consider dexamethasone 6.6 mg"
+    ],
+    "0|Emergence": [
+      "Can consider recording the block before starting (cold to T4, light touch to T5, unable to straight-leg raise, warm feet), plus maternal comfort and any extra analgesia offered, with times",
+      "Can consider epidural diamorphine or morphine 3 mg at the end, flushed with 2 ml saline"
+    ],
+    "0|Analgesia": [
+      "Can consider rectal diclofenac 100 mg from the surgeon if blood loss allows, then ibuprofen 400 mg QDS once it has worn off",
+      "Can consider paracetamol 1 g QDS, dihydrocodeine 30 mg QDS, Oramorph 20 mg 2-hourly as needed",
+      "Can consider lactulose and ondansetron 4 mg as needed",
+      "Can consider TAP blocks if no intrathecal opioid was given"
+    ]
+  },
+  "Obstetric operations": {
+    "0|Induction": [
+      "Can consider a spinal of 2.5 ml 0.5% heavy bupivacaine with 300 mcg diamorphine",
+      "Can consider an epidural top-up instead: mix 18 ml 2% lidocaine, 2 ml 8.4% bicarbonate and 1 ml 1:10,000 adrenaline; give 3 ml and check the ankles move at 30 seconds (not intrathecal), 3 ml more and check for IV symptoms at 1 minute, then the rest; around 15 ml is usually enough",
+      "Can consider for category 1 under spinal: one attempt of no more than 3 minutes on a timer; 3 ml 0.5% heavy bupivacaine (or 2.5 ml plus fentanyl 25 mcg); knife to skin once the block reaches T10 on both sides and is still rising"
+    ],
+    "0|Optimise": [
+      "Can consider using the booking or antenatal clinic BP as the baseline",
+      "Can consider for category 1: sodium citrate, IV omeprazole 40 mg and metoclopramide 10 mg; left tilt and oxygen while others site IV access"
+    ],
+    "0|Maintenance": [
+      "Can consider starting phenylephrine around 20 ml/h (15–30), changing by 5–10 ml/h to keep systolic at or above 90% of baseline",
+      "Can consider dexamethasone 6.6 mg"
+    ],
+    "0|Emergence": [
+      "Can consider recording the block before starting (cold to T4, light touch to T5, unable to straight-leg raise, warm feet), plus maternal comfort and any extra analgesia offered, with times",
+      "Can consider epidural diamorphine or morphine 3 mg at the end, flushed with 2 ml saline"
+    ],
+    "0|Analgesia": [
+      "Can consider rectal diclofenac 100 mg from the surgeon if blood loss allows, then ibuprofen 400 mg QDS once it has worn off",
+      "Can consider paracetamol 1 g QDS, dihydrocodeine 30 mg QDS, Oramorph 20 mg 2-hourly as needed",
+      "Can consider lactulose and ondansetron 4 mg as needed",
+      "Can consider TAP blocks if no intrathecal opioid was given"
+    ]
+  },
+  "Elective Lumbar Spinal Surgery": {
+    "0|Maintenance": [
+      "Can consider morphine up to 20 mg, ketamine 0.1 mg/kg and clonidine"
+    ],
+    "0|Analgesia": [
+      "Can consider a morphine PCA, explained before surgery"
+    ]
+  },
+  "Stereotactic Brain Biopsy": {
+    "0|Induction": [
+      "Can consider where to induce for ergonomics: on the trolley then turn, on the table then turn, or head away from the machine"
+    ],
+    "0|Maintenance": [
+      "Can consider giving dexamethasone only after the samples are taken and confirmed",
+      "Can consider a pause while the sample is checked"
+    ],
+    "0|Emergence": [
+      "Can consider allowing time for hair washing at the end"
+    ],
+    "0|Analgesia": [
+      "Can consider Oramorph as needed"
+    ]
+  },
+  "Ventriculoperitoneal Shunt Insertion": {
+    "0|Equipment": [
+      "Can consider a forced-air warmer positioned as for an open abdomen"
+    ],
+    "0|Maintenance": [
+      "Can consider morphine about 7 mg",
+      "Can consider volatile with fentanyl boluses, about 350 mcg in total"
+    ],
+    "0|Analgesia": [
+      "Can consider Oramorph as needed"
+    ]
+  },
+  "Thrombectomy (Ischaemic Stroke)": {
+    "0|Equipment": [
+      "Can consider placing the arterial line after induction (if GA) while the groin is prepped"
+    ],
+    "0|Maintenance": [
+      "Can consider MAP 70–90 mmHg on metaraminol, agreed with the neuroradiologist; remifentanil with sevoflurane or TIVA"
+    ],
+    "0|Destination": [
+      "Can consider agreeing the post-reperfusion BP target with the stroke team (ENCHANTED2: intensive lowering below 120 mmHg did worse)"
+    ]
+  },
+  "Carotid Endarterectomy": {
+    "0|Induction": [
+      "Can consider GA with a small dose of propofol, atracurium and an RAE tube; plan for a long circuit and the head away from the machine"
+    ],
+    "0|Maintenance": [
+      "Can consider keeping MAP within 20% of normal on metaraminol, with low-normal EtCO₂"
+    ]
+  },
+  "Endovascular Aneurysm Repair (EVAR)": {
+    "0|Equipment": [
+      "Can consider small and large cannulae and the arterial line placed awake; processed EEG"
+    ],
+    "0|Induction": [
+      "Can consider giving antibiotics slowly, as they can drop the BP"
+    ],
+    "0|Maintenance": [
+      "Can consider a metaraminol infusion",
+      "Can consider heparin 5000 units when asked; start a 90-minute timer and give 2000 units more if not finished; tell the team once it has circulated (about 2 minutes)",
+      "Can consider not reversing the heparin (usual practice)"
+    ],
+    "0|Destination": [
+      "Can consider limb observations; usually HDU"
+    ]
+  },
+  "Cystectomy": {
+    "0|Induction": [
+      "Can consider a small cannula awake and a large one asleep; arterial line once asleep",
+      "Can consider tying or taping the tube loosely to allow for facial swelling",
+      "Can consider a throat pack, as gastric contents can pool in steep head-down"
+    ],
+    "0|Maintenance": [
+      "Can consider propofol and remifentanil TIVA with relaxant (the robot is rigid) and a metaraminol infusion",
+      "Can consider keeping fluids dry: about 2 L for the case",
+      "Can consider morphine 0.1 mg/kg; magnesium; dexamethasone 6.6 mg and ondansetron 4 mg"
+    ],
+    "0|Analgesia": [
+      "Can consider a spinal with diamorphine (mainly adds intra-op hypotension), or modified-release oral opioid instead of PCA",
+      "Can consider laxatives; early eating and drinking"
+    ]
+  },
+  "Nephrectomy (Including IVC Extension)": {
+    "0|Induction": [
+      "Can consider for smaller robotic cases, a spinal with 2 ml 0.5% heavy bupivacaine and 500 mcg diamorphine; 16G in the upper arm"
+    ],
+    "0|Maintenance": [
+      "Can consider that hypotension is likely when the table is broken in the lateral position",
+      "Can consider magnesium 3 g; dexamethasone 6.6 mg"
+    ],
+    "0|Analgesia": [
+      "Can consider modified-release oral morphine twice daily with immediate-release as needed"
+    ]
+  },
+  "Renal Transplant": {
+    "0|Optimise": [
+      "Can consider labelling the fistula arm and recording dry and current weight"
+    ],
+    "0|Induction": [
+      "Can consider propofol about 150 mg, fentanyl 250 mcg and atracurium 50 mg"
+    ],
+    "0|Maintenance": [
+      "Can consider keeping the patient fully relaxed",
+      "Can consider aiming for systolic above 110 and MAP above 70 from reperfusion (expect a dip)",
+      "Can consider about 2 L of fluid and fentanyl to about 500 mcg in total",
+      "Can consider mannitol 0.5 g/kg (20%) over 10 minutes when the surgeon asks, mainly for deceased-donor kidneys",
+      "Can consider TIVA with propofol and remifentanil, which needs only about 250 mcg fentanyl"
+    ],
+    "0|Destination": [
+      "Can consider replacing IV fluids to match the previous hour's urine output",
+      "Can consider telling the renal team when the patient is in recovery",
+      "Can consider metaraminol and ICU if hypotension persists after fluid"
+    ]
+  },
+  "Free Flap Breast Reconstruction (DIEP)": {
+    "0|Induction": [
+      "Can consider a cannula on the opposite side to the surgery and a temperature probe",
+      "Can consider magnesium 3 g; tranexamic acid 1 g; repeat antibiotics in a long case"
+    ],
+    "0|Maintenance": [
+      "Can consider limiting total IV fluids to around 1.5–2 L",
+      "Can consider good relaxation for the flap harvest",
+      "Can consider that hypotension is likely when the patient is sat up",
+      "Can consider surgeon TAP blocks at the start and end, and oxycodone 10 mg"
+    ],
+    "0|Analgesia": [
+      "Can consider oxycodone 5–10 mg 2-hourly as needed",
+      "Can consider chewing gum and laxatives"
+    ]
+  },
+  "Microlaryngoscopy for Laryngeal Lesion": {
+    "0|Induction": [
+      "Can consider rocuronium 20–30 mg",
+      "Can consider a subglottic jet catheter: tip at the cords, then advance about 8 cm"
+    ],
+    "0|Emergence": [
+      "Can consider reversal (often sugammadex), then a re-look and suction",
+      "Can consider removing the jet catheter and mask-ventilating, or jetting until breathing"
+    ],
+    "0|Analgesia": [
+      "Can consider spraying the cords: it helps comfort but means no drinking for an hour"
+    ]
+  },
+  "Electroconvulsive Therapy": {
+    "0|Optimise": [
+      "Can consider checking previous ECT charts for doses"
+    ],
+    "0|Induction": [
+      "Can consider alfentanil 250–500 mcg (blunts the sympathetic surge), propofol 0.75–2.5 mg/kg and suxamethonium 0.5–1 mg/kg",
+      "Can consider methohexital, which lowers the seizure threshold but is rarely used now (cost)"
+    ],
+    "0|Maintenance": [
+      "Can consider hyperventilating before the stimulus"
+    ]
+  },
+  "TOE-Guided Cardioversion": {
+    "0|Investigations (Ix)": [
+      "Can consider also checking FBC, U&E, thyroid function, INR, ECG and echo"
+    ],
+    "0|Induction": [
+      "Can consider pads on, defibrillator on, energy chosen and sync on before any drugs",
+      "Can consider alfentanil about 500 mcg and propofol 0.5–1 mg/kg; propofol TCI if several shocks are likely"
+    ],
+    "0|Optimise": [
+      "Can consider warning the patient that recall is common: it is brief but very stimulating"
+    ]
+  }
+}

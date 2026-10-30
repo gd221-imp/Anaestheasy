@@ -1,0 +1,122 @@
+[
+  {
+    "q": "What happens in phase II of the Valsalva manoeuvre?",
+    "o": [
+      "BP rises",
+      "BP falls as venous return is impaired, with reflex tachycardia",
+      "BP overshoots",
+      "Bradycardia",
+      "No change"
+    ],
+    "a": 1,
+    "why": "Phase IV shows an overshoot with bradycardia."
+  },
+  {
+    "q": "What happens in phase IV?",
+    "o": [
+      "BP falls",
+      "BP overshoots above baseline with reflex bradycardia",
+      "Tachycardia",
+      "Apnoea",
+      "Hypoxia"
+    ],
+    "a": 1,
+    "why": "Increased venous return into a vasoconstricted circulation."
+  },
+  {
+    "q": "An absent phase IV overshoot suggests:",
+    "o": [
+      "Normal",
+      "Autonomic dysfunction (e.g. diabetic neuropathy)",
+      "Hypertension",
+      "Aortic stenosis",
+      "Dehydration only"
+    ],
+    "a": 1,
+    "why": "Used to test autonomic function."
+  },
+  {
+    "q": "Which ETT is used for nasal surgery?",
+    "o": [
+      "North-facing nasal",
+      "South-facing oral RAE",
+      "LMA only",
+      "Double lumen",
+      "MLT"
+    ],
+    "a": 1,
+    "why": "With a throat pack."
+  },
+  {
+    "q": "Why is a throat pack used?",
+    "o": [
+      "Analgesia",
+      "To prevent blood entering the stomach or airway",
+      "To hold the tube",
+      "To prevent laryngospasm",
+      "Routine only"
+    ],
+    "a": 1,
+    "why": "Remove and check before extubation."
+  },
+  {
+    "q": "Which topical agent can cause hypertension and arrhythmia?",
+    "o": [
+      "Lidocaine",
+      "Cocaine or adrenaline solution",
+      "Saline",
+      "Bupivacaine",
+      "Steroid"
+    ],
+    "a": 1,
+    "why": "Systemic absorption."
+  },
+  {
+    "q": "Why is PONV common after nasal surgery?",
+    "o": [
+      "Opioids only",
+      "Swallowed blood",
+      "Volatile only",
+      "Positioning",
+      "Anxiety"
+    ],
+    "a": 1,
+    "why": "Give prophylaxis."
+  },
+  {
+    "q": "Which patients struggle with nasal packs post-op?",
+    "o": [
+      "Young",
+      "Those with OSA (mouth breathing only)",
+      "Diabetics",
+      "Smokers",
+      "Asthmatics"
+    ],
+    "a": 1,
+    "why": "Nasal obstruction."
+  },
+  {
+    "q": "Why is TIVA favoured in FESS?",
+    "o": [
+      "Cheaper",
+      "Better surgical field with less bleeding",
+      "Faster",
+      "Less PONV only",
+      "Needed for monitoring"
+    ],
+    "a": 1,
+    "why": "Facilitates controlled hypotension."
+  },
+  {
+    "q": "Which surgical complication relates to the skull base?",
+    "o": [
+      "Synechiae",
+      "CSF leak",
+      "Septal perforation",
+      "Infection",
+      "Hyposmia"
+    ],
+    "a": 1,
+    "why": "Also orbital injury."
+  }
+]

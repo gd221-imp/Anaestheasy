@@ -1,0 +1,178 @@
+[
+  {
+    "id": "Q009",
+    "ar": "Critical incidents",
+    "sb": "Anaphylaxis (NAP6)",
+    "q": "According to the Sixth National Audit Project (NAP6), which drug group was the most common identified cause of perioperative anaphylaxis in the UK?",
+    "o": [
+      "Patent Blue dye",
+      "Antibiotics",
+      "Latex",
+      "Neuromuscular blocking agents",
+      "Chlorhexidine"
+    ],
+    "a": 1,
+    "why": "In NAP6 (2018) antibiotics were the commonest cause (about 47% of identified causes), with teicoplanin and co-amoxiclav prominent. Neuromuscular blockers were second (about a third), then chlorhexidine and Patent Blue. Latex was a rare cause. Hypotension was the commonest presenting feature, and some patients had no rash at all.",
+    "st": null
+  },
+  {
+    "id": "Q010",
+    "ar": "Critical incidents",
+    "sb": "Anaphylaxis",
+    "q": "Ten minutes after induction and a dose of co-amoxiclav, a 50-year-old woman's systolic pressure falls to 55 mmHg with a heart rate of 130. There is no rash or wheeze. You suspect anaphylaxis and call for help. What is the most appropriate initial dose of adrenaline?",
+    "o": [
+      "5 micrograms per minute by infusion",
+      "1 mg intravenously",
+      "500 micrograms intramuscularly",
+      "10 micrograms intravenously as a single dose",
+      "50 micrograms intravenously, repeated as needed"
+    ],
+    "a": 4,
+    "why": "In an anaesthetised, monitored adult with IV access, the AAGBI/Resuscitation Council guidance is IV adrenaline 50 micrograms (0.5 mL of 1:10,000), repeated and titrated; start an infusion if several boluses are needed. IM 500 micrograms is for situations without IV access or monitoring. 1 mg IV is the cardiac arrest dose. Absence of rash does not exclude anaphylaxis — hypotension alone was the commonest presentation in NAP6.",
+    "st": null
+  },
+  {
+    "id": "Q011",
+    "ar": "Critical incidents",
+    "sb": "Anaphylaxis follow-up",
+    "q": "A patient has a suspected anaphylactic reaction during induction. You treat it successfully. When should mast cell tryptase samples ideally be taken?",
+    "o": [
+      "Only if the patient required more than one dose of adrenaline",
+      "At 6 hours and 48 hours",
+      "At 1 hour and at 24 hours",
+      "As soon as resuscitation allows, at 1–2 hours, and at least 24 hours later",
+      "One sample immediately only"
+    ],
+    "a": 3,
+    "why": "AAGBI guidance: take the first sample as soon as feasible after starting treatment (without delaying resuscitation), a second ideally 1–2 hours after the start of the reaction (no later than 4 hours), and a third at least 24 hours later or in follow-up clinic as a baseline. Refer all suspected cases to a specialist allergy clinic and report to the MHRA via Yellow Card.",
+    "st": null
+  },
+  {
+    "id": "Q012",
+    "ar": "Critical incidents",
+    "sb": "Malignant hyperthermia",
+    "q": "During a laparoscopic appendicectomy, a 22-year-old man develops a rising end-tidal CO2 despite increased minute ventilation, tachycardia and masseter rigidity. Malignant hyperthermia is suspected. You stop volatile agents. What is the initial dose of dantrolene?",
+    "o": [
+      "10 mg/kg",
+      "2.5 mg/kg",
+      "1 mg/kg",
+      "0.5 mg/kg",
+      "5 mg/kg"
+    ],
+    "a": 1,
+    "why": "The AAGBI MH crisis guideline recommends an initial dantrolene bolus of 2.5 mg/kg IV, then 1 mg/kg boluses as required up to 10 mg/kg. Other steps: call for help, stop triggers, hyperventilate with high-flow 100% oxygen, switch to TIVA, active cooling, treat hyperkalaemia and arrhythmias, monitor for rhabdomyolysis and compartment syndrome, and refer to the UK MH Investigation Unit (Leeds).",
+    "st": null
+  },
+  {
+    "id": "Q013",
+    "ar": "Critical incidents",
+    "sb": "Malignant hyperthermia",
+    "q": "Which statement about the genetics and testing of malignant hyperthermia susceptibility is correct?",
+    "o": [
+      "Genetic testing has replaced muscle biopsy in all cases",
+      "Most families have a mutation in the RYR1 gene and testing is by in vitro contracture testing of a muscle biopsy",
+      "A normal creatine kinase excludes susceptibility",
+      "Suxamethonium alone cannot trigger a reaction without a volatile agent",
+      "It is autosomal recessive, so siblings of a susceptible patient have a 25% risk"
+    ],
+    "a": 1,
+    "why": "MH susceptibility is autosomal dominant; most families carry an RYR1 mutation (some CACNA1S or STAC3). The gold standard diagnostic test in the UK is the in vitro contracture test using halothane and caffeine on a quadriceps biopsy. Genetic testing can confirm susceptibility when a known causative variant is found but cannot exclude it. CK is often raised but is neither sensitive nor specific. Both volatiles and suxamethonium are triggers.",
+    "st": null
+  },
+  {
+    "id": "Q014",
+    "ar": "Critical incidents",
+    "sb": "Aspiration",
+    "q": "During maintenance of anaesthesia with a second-generation supraglottic airway, you notice gastric fluid in the drain tube. Saturation is 96% and airway pressures are normal. What is the most appropriate immediate action?",
+    "o": [
+      "Remove the supraglottic airway and suction the pharynx with the patient awake",
+      "Sit the patient up and allow them to wake",
+      "Tilt head down, suction, deepen anaesthesia and intubate the trachea with cricoid pressure",
+      "Give IV ranitidine and continue",
+      "Perform immediate bronchoscopy before securing the airway"
+    ],
+    "a": 2,
+    "why": "Suspected regurgitation: call for help, head-down or lateral tilt, suction the pharynx, maintain anaesthesia (awakening may provoke laryngospasm and more aspiration), and secure the airway with a cuffed tube. Suction the trachea before positive pressure ventilation if possible, then consider bronchoscopy. Antacid drugs after the event do not alter outcome.",
+    "st": null
+  },
+  {
+    "id": "Q015",
+    "ar": "Critical incidents",
+    "sb": "Accidental awareness",
+    "q": "According to NAP5, which factor was most strongly associated with accidental awareness under general anaesthesia?",
+    "o": [
+      "Use of sevoflurane rather than desflurane",
+      "Use of a supraglottic airway",
+      "Female sex",
+      "Total intravenous anaesthesia without processed EEG monitoring and with neuromuscular blockade",
+      "Spinal anaesthesia with sedation"
+    ],
+    "a": 3,
+    "why": "NAP5 found the highest-risk settings were neuromuscular blockade (most distressing experiences involved paralysis), obstetric GA, cardiothoracic surgery, TIVA (particularly without depth monitoring, with interrupted delivery) and the induction/emergence periods. The overall incidence was about 1 in 19,000. NICE recommends processed EEG monitoring when TIVA is combined with neuromuscular blockade.",
+    "st": null
+  },
+  {
+    "id": "Q016",
+    "ar": "Critical incidents",
+    "sb": "Wrong-site block",
+    "q": "You are about to perform a femoral nerve block on an anaesthetised patient for a left knee arthroplasty. Which practice most directly reduces the risk of a wrong-sided block?",
+    "o": [
+      "Placing the block after surgical skin preparation",
+      "Using ultrasound for all blocks",
+      "A 'Stop Before You Block' check with the assistant immediately before needle insertion",
+      "Performing all blocks awake",
+      "Marking the side with a surgical marker the night before"
+    ],
+    "a": 2,
+    "why": "Wrong-site block is a never event. The 'Stop Before You Block' initiative (RA-UK/RCoA/SAFE) requires the anaesthetist and assistant to check the surgical mark and side immediately before needle insertion, because the WHO sign-in may have happened some time earlier and positioning can disorientate. Marking and ultrasound alone do not prevent the error.",
+    "st": null
+  },
+  {
+    "id": "Q017",
+    "ar": "Critical incidents",
+    "sb": "Intra-arterial injection",
+    "q": "Shortly after you inject propofol and cyclizine through a cannula in the antecubital fossa, the patient complains of severe burning pain down the forearm and the hand blanches. You suspect intra-arterial injection. What should you do first?",
+    "o": [
+      "Inject phentolamine subcutaneously around the cannula",
+      "Remove the cannula immediately",
+      "Leave the cannula in place and flush it with saline",
+      "Perform a stellate ganglion block",
+      "Apply ice packs to the hand"
+    ],
+    "a": 2,
+    "why": "Leave the cannula in situ: it gives a route for intra-arterial treatment (saline flush, vasodilators such as papaverine or a local anaesthetic, heparin) and confirms the diagnosis. Then consider anticoagulation, sympathectomy (stellate ganglion or brachial plexus block), analgesia and early vascular surgical review. Cooling worsens vasospasm.",
+    "st": null
+  },
+  {
+    "id": "Q018",
+    "ar": "Critical incidents",
+    "sb": "Drug errors",
+    "q": "Which measure has the strongest evidence for reducing intravenous drug administration errors in anaesthesia?",
+    "o": [
+      "Drawing up all drugs at the start of the list",
+      "Storing drugs alphabetically",
+      "Colour-coded syringe labels alone",
+      "Pre-filled syringes plus barcode scanning with auditory and visual confirmation",
+      "Double-checking every drug with a second anaesthetist"
+    ],
+    "a": 3,
+    "why": "Systematic reviews and RCTs support a 'multimodal' approach: pre-filled syringes, barcode or other machine-readable labelling with automated read-back, standardised drug trays, and labelling to ISO standards. Colour coding alone can cause errors between drugs of the same class. Independent double-checking helps for high-risk infusions but is impractical for every bolus in theatre.",
+    "st": null
+  },
+  {
+    "id": "Q019",
+    "ar": "Critical incidents",
+    "sb": "Dental damage",
+    "q": "In recovery, a patient tells you that an upper central incisor was knocked out during intubation. The tooth has been found intact in the airway trolley. It is a permanent tooth and has been out of the mouth for 20 minutes. What should you do?",
+    "o": [
+      "Discard the tooth and document the incident",
+      "Rinse it briefly in saline, holding the crown, reimplant it in the socket and arrange urgent dental review",
+      "Arrange a chest X-ray before any other action",
+      "Store it dry in a sterile pot for the dentist the next day",
+      "Scrub the root clean before reimplanting"
+    ],
+    "a": 1,
+    "why": "An avulsed permanent tooth has the best prognosis if reimplanted within 60 minutes. Handle it by the crown, rinse briefly without scrubbing the root (to preserve periodontal ligament cells), and reimplant or store in milk or saline if that is not possible; then arrange urgent dental review. Imaging is only needed if the tooth is missing. Primary (deciduous) teeth are not reimplanted. Apologise and document under duty of candour.",
+    "st": null
+  }
+]

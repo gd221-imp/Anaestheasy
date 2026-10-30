@@ -1,0 +1,48 @@
+{
+  "t": "recipe",
+  "shape": "lung",
+  "group": "Thoracic",
+  "title": "VATS Procedures: Lobectomy, Decortication and Lung Volume Reduction",
+  "op": true,
+  "cards": [
+    {
+      "h": "Anaesthetic recipe",
+      "b": "file:cards/01-anaesthetic-recipe.html",
+      "recipe": true
+    },
+    {
+      "h": "Tracheobronchial Tree & Bronchopulmonary Segments",
+      "primaryRef": "ana46"
+    },
+    {
+      "h": "The Pleura",
+      "primaryRef": "ana43"
+    },
+    {
+      "h": "Lung Volume Reduction Surgery",
+      "noteRef": "Lung Volume Reduction Surgery"
+    },
+    {
+      "h": "Bronchopleural Fistula",
+      "noteRef": "Bronchopleural Fistula"
+    },
+    {
+      "h": "Thoracotomy: Pain & Postoperative Pulmonary Complications",
+      "noteRef": "Thoracotomy: Pain & Postoperative Pulmonary Complications"
+    },
+    {
+      "h": "Sample WPBA",
+      "b": "file:cards/07-sample-wpba.html",
+      "wpba": true
+    },
+    {
+      "h": "Curriculum",
+      "links": [
+        "curric:8",
+        "curric:9",
+        "curric:10"
+      ]
+    }
+  ],
+  "q": "file:quiz.json"
+}

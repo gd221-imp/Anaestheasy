@@ -1,0 +1,122 @@
+[
+  {
+    "q": "Which donor factor is associated with increased risk of primary graft dysfunction after lung transplant?",
+    "o": [
+      "Ischaemic time over 5.5 hours",
+      "Donor age under 40",
+      "Female donor",
+      "Short ventilation time",
+      "Blood group O"
+    ],
+    "a": 0,
+    "why": "An ischaemic time over 5.5 hours increases the risk of primary graft dysfunction (PGD)."
+  },
+  {
+    "q": "How does primary graft dysfunction typically present?",
+    "o": [
+      "Within 72 hours as an acute lung injury picture",
+      "After 6 months as bronchiolitis obliterans",
+      "As a pneumothorax",
+      "As bradycardia",
+      "As fever only"
+    ],
+    "a": 0,
+    "why": "PGD appears by 72 hours with an ALI picture; treat supportively, escalating to inhaled nitric oxide or VV-ECMO."
+  },
+  {
+    "q": "How should the pulmonary artery clamp be released at reperfusion of the new lung?",
+    "o": [
+      "Rapidly, with FiO2 0.3",
+      "Slowly, with increased FiO2 and a fluid bolus",
+      "Only after extubation",
+      "With a vasodilator infusion",
+      "With high PEEP of 20"
+    ],
+    "a": 1,
+    "why": "Release the PA clamp slowly, increase FiO2 and give a fluid bolus."
+  },
+  {
+    "q": "During single-lung transplant, the pulmonary artery is clamped and the patient becomes hypotensive with a dilated RV. What is the cause?",
+    "o": [
+      "Hypovolaemia",
+      "Acute RV failure from the rise in PVR",
+      "Anaphylaxis",
+      "Tamponade",
+      "Air embolism"
+    ],
+    "a": 1,
+    "why": "PA clamping raises RV afterload; support with inotropes, inhaled nitric oxide or ECMO."
+  },
+  {
+    "q": "Which indication most often needs a bilateral lung transplant?",
+    "o": [
+      "COPD",
+      "Idiopathic pulmonary fibrosis",
+      "Cystic fibrosis",
+      "Sarcoidosis",
+      "Alpha-1 antitrypsin with unilateral disease"
+    ],
+    "a": 2,
+    "why": "Suppurative diseases (CF, bronchiectasis) need bilateral transplant so infection cannot spread from a remaining native lung."
+  },
+  {
+    "q": "Which ventilation strategy is used to test the newly implanted lung?",
+    "o": [
+      "Tidal volume 8–10 ml/kg, no PEEP",
+      "Tidal volume 3–4 ml/kg, PEEP 8–10, target SpO2 above 90%",
+      "High-frequency oscillation",
+      "FiO2 1.0, PEEP 0",
+      "Spontaneous breathing only"
+    ],
+    "a": 1,
+    "why": "Protective one-lung ventilation of the new lung: PEEP 8–10, tidal volume 3–4 ml/kg, SpO2 above 90%, limit FiO2 and fluids."
+  },
+  {
+    "q": "What is the inheritance and basic defect in cystic fibrosis?",
+    "o": [
+      "Autosomal dominant; sodium channel",
+      "Autosomal recessive; CFTR chloride channel",
+      "X-linked; potassium channel",
+      "Mitochondrial; ATP synthase",
+      "Autosomal recessive; calcium channel"
+    ],
+    "a": 1,
+    "why": "Autosomal recessive CFTR chloride channel defect causing viscous secretions in the lungs and pancreas."
+  },
+  {
+    "q": "Which organism most commonly colonises the airways of adults with cystic fibrosis?",
+    "o": [
+      "Streptococcus pneumoniae",
+      "Pseudomonas aeruginosa",
+      "E. coli",
+      "Klebsiella",
+      "Legionella"
+    ],
+    "a": 1,
+    "why": "Pseudomonas aeruginosa is typical; Staph aureus, Haemophilus, Stenotrophomonas and Aspergillus are also seen."
+  },
+  {
+    "q": "A teenager has a Nuss (MIRPE) procedure for pectus excavatum. Which requirement differs from a modified Ravitch repair?",
+    "o": [
+      "No airway needed",
+      "Lung isolation and arm abduction",
+      "Cardiopulmonary bypass",
+      "Prone positioning",
+      "Awake technique"
+    ],
+    "a": 1,
+    "why": "The thoracoscopic Nuss procedure needs lung isolation and arm abduction; the open Ravitch does not need a DLT."
+  },
+  {
+    "q": "What fluid strategy is used after implantation of the donor lung?",
+    "o": [
+      "Liberal crystalloid to maintain CVP above 15",
+      "Fluid restriction to reduce the risk of primary graft dysfunction",
+      "Colloid loading",
+      "Albumin 20% for all",
+      "No change from usual"
+    ],
+    "a": 1,
+    "why": "Restrict fluids after implantation to reduce the risk of PGD."
+  }
+]

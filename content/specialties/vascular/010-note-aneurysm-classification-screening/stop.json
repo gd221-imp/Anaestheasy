@@ -1,0 +1,26 @@
+{
+  "t": "tip",
+  "shape": "drop",
+  "group": "Vascular",
+  "title": "Aneurysm Classification & Screening",
+  "cards": [
+    {
+      "h": "Overview",
+      "b": "file:cards/01-overview.html"
+    },
+    {
+      "h": "Screening",
+      "b": "file:cards/02-screening.html"
+    },
+    {
+      "h": "Definitions",
+      "b": "file:cards/03-definitions.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/04-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

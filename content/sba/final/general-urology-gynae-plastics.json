@@ -1,0 +1,130 @@
+[
+  {
+    "id": "Q221",
+    "ar": "General, urology, gynae & plastics",
+    "sb": "TURP syndrome",
+    "q": "During TURP under spinal anaesthesia with glycine 1.5% irrigation, the patient becomes confused and bradycardic and complains of visual disturbance. Sodium is 117 mmol/L. What is the most appropriate treatment?",
+    "o": [
+      "Fluid restriction only, regardless of symptoms",
+      "Glycine supplements",
+      "0.9% saline 2 litres rapidly",
+      "Stop surgery, then hypertonic saline (e.g. 2.7% or 3%) titrated to symptoms, avoiding a rise above about 10 mmol/L in 24 hours",
+      "Furosemide alone"
+    ],
+    "a": 3,
+    "why": "TURP syndrome: absorption of hypotonic irrigant causes hyponatraemia, fluid overload, and glycine toxicity (visual disturbance, encephalopathy) and ammonia. Stop resection, finish quickly, give hypertonic saline for severe neurological symptoms and furosemide for overload. Bipolar resection with saline irrigation reduces the risk. Spinal anaesthesia helps early detection of confusion.",
+    "st": "core-19"
+  },
+  {
+    "id": "Q222",
+    "ar": "General, urology, gynae & plastics",
+    "sb": "Phaeochromocytoma",
+    "q": "Which indicates adequate preoperative alpha-blockade before phaeochromocytoma resection?",
+    "o": [
+      "Rising haematocrit",
+      "Tachycardia of 120 bpm",
+      "Seated BP below 130/80 mmHg with mild postural hypotension and nasal stuffiness",
+      "Resting BP 160/100 mmHg",
+      "Weight gain from fluid restriction"
+    ],
+    "a": 2,
+    "why": "Alpha-blockade (phenoxybenzamine or doxazosin) for 10–14 days, with liberal salt and fluid to restore volume, then beta-blockade for tachycardia only after alpha-blockade (to avoid unopposed alpha vasoconstriction). Signs of adequacy: BP &lt; 130/80 seated with orthostatic fall (not below 80/45), nasal congestion, and a falling haematocrit. After tumour removal expect hypotension and hypoglycaemia.",
+    "st": "st2-141"
+  },
+  {
+    "id": "Q223",
+    "ar": "General, urology, gynae & plastics",
+    "sb": "Carcinoid syndrome",
+    "q": "During resection of a small bowel carcinoid with liver metastases, the patient develops flushing, bronchospasm and severe hypotension. Which drug is most appropriate?",
+    "o": [
+      "Ephedrine",
+      "Octreotide 100 micrograms IV",
+      "Histamine antagonist alone",
+      "Adrenaline",
+      "Ondansetron alone"
+    ],
+    "a": 1,
+    "why": "Carcinoid crisis results from release of serotonin, kallikrein, histamine and other mediators. Octreotide (a somatostatin analogue) inhibits release and is the treatment of choice (bolus 20–100 micrograms IV and infusion). Catecholamines can worsen mediator release, although vasopressin or phenylephrine may be used for hypotension. Avoid drugs that release histamine. Right-sided valve fibrosis (carcinoid heart disease) may be present.",
+    "st": null
+  },
+  {
+    "id": "Q224",
+    "ar": "General, urology, gynae & plastics",
+    "sb": "Robotic surgery",
+    "q": "During robotic radical prostatectomy in steep Trendelenburg with pneumoperitoneum, which complication is particularly associated with this setup?",
+    "o": [
+      "Facial, airway and cerebral oedema, raised intraocular pressure and possible ischaemic optic neuropathy",
+      "Air embolism from the arterial line",
+      "Hypercalcaemia",
+      "Bradycardia from the spinal anaesthetic",
+      "Hypothermia from irrigation alone"
+    ],
+    "a": 0,
+    "why": "Steep head-down tilt with pneumoperitoneum for hours raises venous pressure in the head, causing facial and laryngeal oedema (check for cuff leak before extubation), raised ICP and IOP, rare posterior ischaemic optic neuropathy, reduced FRC and atelectasis, high airway pressures and endobronchial migration of the tube. The patient cannot be reached once docked, so secure lines and position carefully.",
+    "st": "st2-123"
+  },
+  {
+    "id": "Q225",
+    "ar": "General, urology, gynae & plastics",
+    "sb": "Splenectomy",
+    "q": "A patient is having an elective splenectomy. When should vaccinations against encapsulated organisms ideally be given?",
+    "o": [
+      "At least 2 weeks before elective surgery (or 2 weeks after emergency surgery)",
+      "On the day of surgery",
+      "Vaccines are not needed if lifelong penicillin is taken",
+      "Six months after surgery",
+      "Only if fever develops later"
+    ],
+    "a": 0,
+    "why": "Asplenic patients are at risk of overwhelming post-splenectomy infection from encapsulated bacteria (Streptococcus pneumoniae, Haemophilus influenzae b, Neisseria meningitidis). Vaccinate at least 2 weeks before elective splenectomy or 2 weeks after emergency surgery, give annual influenza vaccine, and offer lifelong antibiotic prophylaxis (especially in the first 2 years).",
+    "st": "st3-2"
+  },
+  {
+    "id": "Q226",
+    "ar": "General, urology, gynae & plastics",
+    "sb": "Laparoscopy physiology",
+    "q": "Which cardiovascular effect is typical when the abdomen is insufflated to 15 mmHg with CO2?",
+    "o": [
+      "Profound tachycardia in all patients",
+      "Rise in venous return in hypovolaemic patients",
+      "Rise in systemic vascular resistance and MAP, with reduced cardiac output if preload is low",
+      "Fall in systemic vascular resistance",
+      "No cardiovascular change"
+    ],
+    "a": 2,
+    "why": "Pneumoperitoneum increases SVR (mechanical compression and neurohumoral release of vasopressin and catecholamines), raises MAP and may reduce cardiac output, particularly when hypovolaemic or head-up. Peritoneal stretch can cause vagal bradycardia. CO2 absorption causes hypercarbia. Other risks: gas embolism, surgical emphysema, capnothorax.",
+    "st": "core-16"
+  },
+  {
+    "id": "Q227",
+    "ar": "General, urology, gynae & plastics",
+    "sb": "Hodgkin's lymphoma",
+    "q": "A patient with Hodgkin's lymphoma who has had bleomycin chemotherapy is having surgery. Which perioperative measure is most important?",
+    "o": [
+      "Give prophylactic steroids",
+      "Avoid regional anaesthesia",
+      "Avoid all neuromuscular blockers",
+      "Use the lowest FiO2 that maintains adequate saturation and avoid fluid overload",
+      "Use FiO2 1.0 throughout"
+    ],
+    "a": 3,
+    "why": "Bleomycin causes pulmonary fibrosis, and high inspired oxygen and fluid overload can precipitate acute lung injury. Use the lowest FiO2 for SpO2 about 88–92% where safe, careful fluid balance, and assess lung function. Also look for anthracycline cardiomyopathy (doxorubicin) and mediastinal mass effects.",
+    "st": "st2-106"
+  },
+  {
+    "id": "Q275",
+    "ar": "General, urology, gynae & plastics",
+    "sb": "Bariatric surgery",
+    "q": "For a patient with a BMI of 52 having a laparoscopic sleeve gastrectomy, which weight should be used to dose propofol for induction?",
+    "o": [
+      "Ideal body weight minus 20%",
+      "A fixed 200 mg dose",
+      "Total body weight",
+      "Adjusted body weight for all drugs",
+      "Lean body weight"
+    ],
+    "a": 4,
+    "why": "Society for Obesity and Bariatric Anaesthesia guidance: induction propofol by lean body weight (titrated), maintenance propofol infusion by adjusted body weight, rocuronium by ideal or lean body weight, suxamethonium by total body weight, sugammadex by actual or adjusted weight, and opioids by lean body weight. Ramped positioning and CPAP/high-flow preoxygenation extend safe apnoea time.",
+    "st": "st2-116"
+  }
+]

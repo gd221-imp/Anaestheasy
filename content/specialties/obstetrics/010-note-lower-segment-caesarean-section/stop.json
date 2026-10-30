@@ -1,0 +1,58 @@
+{
+  "t": "tip",
+  "shape": "belly",
+  "group": "Obstetrics",
+  "title": "Lower Segment Caesarean Section",
+  "cards": [
+    {
+      "h": "Overview",
+      "b": "file:cards/01-overview.html"
+    },
+    {
+      "h": "Checking block adequacy",
+      "b": "file:cards/02-checking-block-adequacy.html"
+    },
+    {
+      "h": "Improving an initially inadequate block",
+      "b": "file:cards/03-improving-an-initially-inadequate-block.html"
+    },
+    {
+      "h": "Risk factors for regional failure",
+      "b": "file:cards/04-risk-factors-for-regional-failure.html"
+    },
+    {
+      "h": "Managing pain during LSCS under spinal",
+      "b": "file:cards/05-managing-pain-during-lscs-under-spinal.html"
+    },
+    {
+      "h": "GA for LSCS",
+      "b": "file:cards/06-ga-for-lscs.html"
+    },
+    {
+      "h": "NAP-5 findings",
+      "b": "file:cards/07-nap-5-findings.html"
+    },
+    {
+      "h": "Aspiration risk factors bundle",
+      "b": "file:cards/08-aspiration-risk-factors-bundle.html"
+    },
+    {
+      "h": "Pre-op",
+      "b": "file:cards/09-pre-op.html"
+    },
+    {
+      "h": "Intra-op",
+      "b": "file:cards/10-intra-op.html"
+    },
+    {
+      "h": "Complication rates (approximate)",
+      "b": "file:cards/11-complication-rates-approximate.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/12-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

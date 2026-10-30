@@ -1,0 +1,54 @@
+{
+  "t": "tip",
+  "shape": "plaster",
+  "group": "Plastics",
+  "title": "Burns",
+  "cards": [
+    {
+      "h": "Overview",
+      "b": "file:cards/01-overview.html"
+    },
+    {
+      "h": "Classification",
+      "b": "file:cards/02-classification.html"
+    },
+    {
+      "h": "Airway Rx",
+      "b": "file:cards/03-airway-rx.html"
+    },
+    {
+      "h": "ABCDE Rx",
+      "b": "file:cards/04-abcde-rx.html"
+    },
+    {
+      "h": "Criteria for referral",
+      "b": "file:cards/05-criteria-for-referral.html"
+    },
+    {
+      "h": "Indications for surgery",
+      "b": "file:cards/06-indications-for-surgery.html"
+    },
+    {
+      "h": "The anaesthetic",
+      "b": "file:cards/07-the-anaesthetic.html"
+    },
+    {
+      "h": "Complications",
+      "b": "file:cards/08-complications.html"
+    },
+    {
+      "h": "Inhalational injury",
+      "b": "file:cards/09-inhalational-injury.html"
+    },
+    {
+      "h": "General anaesthesia",
+      "b": "file:cards/10-general-anaesthesia.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/11-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

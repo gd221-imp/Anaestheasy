@@ -1,0 +1,47 @@
+{
+  "t": "recipe",
+  "shape": "scalpel",
+  "group": "General surgery",
+  "title": "Liver Resection",
+  "op": true,
+  "cards": [
+    {
+      "h": "Anaesthetic recipe",
+      "b": "file:cards/01-anaesthetic-recipe.html",
+      "recipe": true
+    },
+    {
+      "h": "Liver Anatomy, Blood Supply & Metabolic Functions",
+      "primaryRef": "phs34"
+    },
+    {
+      "h": "Coagulation Cascade & Clotting Factors",
+      "primaryRef": "phs47"
+    },
+    {
+      "h": "Acute Fatty Liver of Pregnancy & Point-of-Care Coagulation Testing",
+      "noteRef": "Acute Fatty Liver of Pregnancy & Point-of-Care Coagulation Testing"
+    },
+    {
+      "h": "Chronic Liver Disease",
+      "noteRef": "Chronic Liver Disease"
+    },
+    {
+      "h": "CPET & Perioperative Risk Assessment",
+      "noteRef": "CPET & Perioperative Risk Assessment"
+    },
+    {
+      "h": "Sample WPBA",
+      "b": "file:cards/07-sample-wpba.html",
+      "wpba": true
+    },
+    {
+      "h": "Curriculum",
+      "links": [
+        "curric:8",
+        "curric:9"
+      ]
+    }
+  ],
+  "q": "file:quiz.json"
+}

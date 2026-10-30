@@ -1,0 +1,122 @@
+[
+  {
+    "q": "Which block is first choice for most eye surgery?",
+    "o": [
+      "Retrobulbar",
+      "Sub-Tenon’s",
+      "Peribulbar",
+      "Facial nerve block",
+      "GA"
+    ],
+    "a": 1,
+    "why": "Blunt cannula with lower risk of globe perforation."
+  },
+  {
+    "q": "Which patient factor is a contraindication to regional eye blocks?",
+    "o": [
+      "Age over 80",
+      "Inability to lie flat or cooperate",
+      "Diabetes",
+      "Hypertension",
+      "Previous cataract"
+    ],
+    "a": 1,
+    "why": "Also refusal, allergy, local sepsis and coagulopathy."
+  },
+  {
+    "q": "What does topical anaesthesia block?",
+    "o": [
+      "Motor and sensory supply",
+      "Sensory supply of cornea and conjunctiva only (CN V)",
+      "Optic nerve",
+      "Extraocular muscles",
+      "Facial nerve"
+    ],
+    "a": 1,
+    "why": "No akinesia."
+  },
+  {
+    "q": "Which serious complication follows retrobulbar block?",
+    "o": [
+      "Ptosis only",
+      "Brainstem anaesthesia from spread along the optic nerve sheath",
+      "Chemosis only",
+      "Diplopia only",
+      "Hypertension"
+    ],
+    "a": 1,
+    "why": "Can cause apnoea and cardiovascular instability."
+  },
+  {
+    "q": "Which globe feature raises perforation risk with a sharp-needle block?",
+    "o": [
+      "Short axial length",
+      "Long axial length (staphyloma)",
+      "Small pupil",
+      "Cataract",
+      "Previous glaucoma surgery"
+    ],
+    "a": 1,
+    "why": "High myopes have long eyes."
+  },
+  {
+    "q": "What volume is injected for a sub-Tenon’s block?",
+    "o": [
+      "0.5 ml",
+      "3.5–5 ml",
+      "15 ml",
+      "30 ml",
+      "1 ml"
+    ],
+    "a": 1,
+    "why": "A mix of lidocaine and bupivacaine."
+  },
+  {
+    "q": "Is fasting needed for cataract surgery under LA?",
+    "o": [
+      "Yes, 6 hours",
+      "No fasting needed under LA or sedation (local policy)",
+      "Yes, 12 hours",
+      "Clear fluids only for 24 h",
+      "Only for diabetics"
+    ],
+    "a": 1,
+    "why": "Per the note."
+  },
+  {
+    "q": "Which complication of sub-Tenon’s is common but minor?",
+    "o": [
+      "Globe perforation",
+      "Chemosis or subconjunctival haemorrhage",
+      "Brainstem anaesthesia",
+      "Retrobulbar haemorrhage",
+      "Blindness"
+    ],
+    "a": 1,
+    "why": "Usually harmless."
+  },
+  {
+    "q": "What is the afferent limb of the oculocardiac reflex?",
+    "o": [
+      "Vagus",
+      "Trigeminal (via ciliary ganglion)",
+      "Optic",
+      "Facial",
+      "Oculomotor"
+    ],
+    "a": 1,
+    "why": "Efferent is the vagus."
+  },
+  {
+    "q": "For a retrobulbar block, which gaze position is now recommended?",
+    "o": [
+      "Primary (neutral) gaze",
+      "Up and in",
+      "Down and out",
+      "Up and out",
+      "Eyes closed"
+    ],
+    "a": 0,
+    "why": "The traditional Atkinson \"up and in\" position stretches the optic nerve into the needle path; neutral gaze is safer. Sub-Tenon’s uses \"look up and out\"."
+  }
+]

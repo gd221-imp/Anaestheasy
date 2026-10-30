@@ -1,0 +1,25 @@
+{
+  "t": "tip",
+  "shape": "mon",
+  "group": "ICM",
+  "title": "Airway Fire",
+  "cards": [
+    {
+      "h": "Requires 3 components",
+      "b": "file:cards/01-requires-3-components.html"
+    },
+    {
+      "h": "Key points",
+      "b": "file:cards/02-key-points.html"
+    },
+    {
+      "h": "Prevention during a procedure",
+      "b": "file:cards/03-prevention-during-a-procedure.html"
+    },
+    {
+      "h": "Management of an airway fire",
+      "b": "file:cards/04-management-of-an-airway-fire.html"
+    }
+  ],
+  "q": "file:quiz.json"
+}

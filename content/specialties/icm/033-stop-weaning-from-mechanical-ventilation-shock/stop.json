@@ -1,0 +1,33 @@
+{
+  "t": "tip",
+  "shape": "mon",
+  "group": "ICM",
+  "title": "Weaning from Mechanical Ventilation & Shock",
+  "cards": [
+    {
+      "h": "Pre-requisites for weaning",
+      "b": "file:cards/01-pre-requisites-for-weaning.html"
+    },
+    {
+      "h": "Reasons for difficulty weaning",
+      "b": "file:cards/02-reasons-for-difficulty-weaning.html"
+    },
+    {
+      "h": "Post-extubation airway oedema",
+      "b": "file:cards/03-post-extubation-airway-oedema.html"
+    },
+    {
+      "h": "Spontaneous breathing trial",
+      "b": "file:cards/04-spontaneous-breathing-trial.html"
+    },
+    {
+      "h": "Shock",
+      "b": "file:cards/05-shock.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/06-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json"
+}

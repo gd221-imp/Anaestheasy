@@ -1,0 +1,42 @@
+{
+  "t": "tip",
+  "shape": "cross",
+  "group": "Orthopaedics and Trauma",
+  "title": "Fractured Neck of Femur",
+  "cards": [
+    {
+      "h": "Overview",
+      "b": "file:cards/01-overview.html"
+    },
+    {
+      "h": "Surgical techniques",
+      "b": "file:cards/02-surgical-techniques.html"
+    },
+    {
+      "h": "Pre-op",
+      "b": "file:cards/03-pre-op.html"
+    },
+    {
+      "h": "Intra-op",
+      "b": "file:cards/04-intra-op.html"
+    },
+    {
+      "h": "Why did they fall? (A-E causes)",
+      "b": "file:cards/05-why-did-they-fall-a-e-causes.html"
+    },
+    {
+      "h": "Reasons to delay surgery",
+      "b": "file:cards/06-reasons-to-delay-surgery.html"
+    },
+    {
+      "h": "Risk factors for increased 30-day mortality",
+      "b": "file:cards/07-risk-factors-for-increased-30-day-mortality.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/08-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

@@ -1,0 +1,914 @@
+[
+  {
+    "id": "Q048",
+    "ar": "Intensive care",
+    "sb": "ARDS",
+    "q": "A 45-year-old woman with pneumococcal pneumonia is ventilated on ICU. She weighs 90 kg and is 160 cm tall (predicted body weight 52 kg). PaO2/FiO2 is 12 kPa on PEEP 10 cmH2O. Which tidal volume is most appropriate?",
+    "o": [
+      "About 720 mL",
+      "About 630 mL",
+      "About 540 mL",
+      "About 300 mL",
+      "About 450 mL"
+    ],
+    "a": 3,
+    "why": "Lung-protective ventilation uses about 6 mL/kg predicted (not actual) body weight, aiming for plateau pressure ≤ 30 cmH2O and driving pressure ideally ≤ 15 cmH2O. 6 × 52 ≈ 312 mL. A PaO2/FiO2 of 12 kPa (90 mmHg) is severe ARDS by the Berlin definition (≤ 13.3 kPa; moderate 13.3–26.6; mild 26.7–40), so early prone positioning is indicated (P/F &lt; 20 kPa).",
+    "st": "st2-36"
+  },
+  {
+    "id": "Q049",
+    "ar": "Intensive care",
+    "sb": "Prone ventilation",
+    "q": "Which statement about prone positioning in ARDS is supported by the PROSEVA trial?",
+    "o": [
+      "It should only be used as a rescue therapy after ECMO",
+      "It improves oxygenation but has no effect on mortality",
+      "It requires the patient to be off neuromuscular blockade",
+      "It reduced mortality when used early for at least 16 hours a day in severe ARDS (P/F &lt; 150 mmHg)",
+      "It is most effective when used for 4 hours a day"
+    ],
+    "a": 3,
+    "why": "PROSEVA (2013) enrolled patients with P/F &lt; 150 mmHg on FiO2 ≥ 0.6 and PEEP ≥ 5 and proned them early for long sessions (average about 17 hours a day), showing a large reduction in 28- and 90-day mortality. Complications include pressure injuries, tube displacement and facial oedema.",
+    "st": "st2-36"
+  },
+  {
+    "id": "Q050",
+    "ar": "Intensive care",
+    "sb": "APRV",
+    "q": "A patient on airway pressure release ventilation has a rising PaCO2 with adequate oxygenation. Which adjustment will most effectively increase CO2 clearance?",
+    "o": [
+      "Increase FiO2",
+      "Increase P high",
+      "Shorten T high (more releases per minute) or lengthen T low slightly",
+      "Reduce P low to −5 cmH2O",
+      "Increase T high"
+    ],
+    "a": 2,
+    "why": "In APRV, CO2 is cleared during the brief releases to P low and by spontaneous breathing. Increasing release frequency (shorter T high) or allowing slightly more expiratory time (longer T low, guided by the expiratory flow curve) increases clearance; raising P high increases the release volume too. Increasing T high reduces release frequency and worsens clearance.",
+    "st": "st2-36"
+  },
+  {
+    "id": "Q051",
+    "ar": "Intensive care",
+    "sb": "Sepsis",
+    "q": "According to the Sepsis-3 definitions, which feature defines septic shock in a patient with sepsis after adequate fluid resuscitation?",
+    "o": [
+      "Lactate &gt; 4 mmol/L alone",
+      "Vasopressors needed to keep MAP ≥ 65 mmHg and lactate &gt; 2 mmol/L",
+      "qSOFA score of 2 or more",
+      "Mixed venous saturation &lt; 70%",
+      "Systolic BP &lt; 90 mmHg alone"
+    ],
+    "a": 1,
+    "why": "Sepsis-3 (2016): sepsis is life-threatening organ dysfunction (SOFA rise ≥ 2) caused by a dysregulated response to infection. Septic shock requires vasopressors to maintain MAP ≥ 65 mmHg and a lactate &gt; 2 mmol/L despite adequate fluids; hospital mortality exceeds 40%. qSOFA is a bedside prompt, not a definition.",
+    "st": "st2-45"
+  },
+  {
+    "id": "Q052",
+    "ar": "Intensive care",
+    "sb": "Toxic shock",
+    "q": "A 19-year-old woman presents with fever, a diffuse erythematous rash, diarrhoea and hypotension. She has a tampon in situ. What is the most important additional antibiotic to add to beta-lactam therapy?",
+    "o": [
+      "Metronidazole",
+      "Clindamycin",
+      "Gentamicin",
+      "Ciprofloxacin",
+      "Vancomycin"
+    ],
+    "a": 1,
+    "why": "Toxic shock syndrome (staphylococcal or streptococcal) is toxin-mediated. Clindamycin (or linezolid) suppresses toxin synthesis and is added to a beta-lactam. Remove the source (tampon), resuscitate and consider IV immunoglobulin in severe streptococcal disease. Desquamation of palms and soles follows 1–2 weeks later.",
+    "st": "st2-67"
+  },
+  {
+    "id": "Q053",
+    "ar": "Intensive care",
+    "sb": "Ventilator-associated pneumonia",
+    "q": "Which intervention in a ventilator care bundle has the strongest evidence for reducing ventilator-associated pneumonia?",
+    "o": [
+      "Use of uncuffed tracheal tubes",
+      "Routine daily changes of ventilator circuits",
+      "Routine chlorhexidine mouthwash in cardiac and non-cardiac patients alike",
+      "Subglottic secretion drainage with head-of-bed elevation to 30–45°",
+      "Prophylactic proton pump inhibitors for all patients"
+    ],
+    "a": 3,
+    "why": "Bundles include head elevation 30–45°, daily sedation holds and assessment for extubation, subglottic secretion drainage, cuff pressure maintenance (20–30 cmH2O), and avoiding unnecessary circuit changes. Subglottic drainage has the most consistent evidence for reducing VAP. Chlorhexidine oral care has been questioned outside cardiac surgery; stress ulcer prophylaxis may increase VAP.",
+    "st": "st2-39"
+  },
+  {
+    "id": "Q054",
+    "ar": "Intensive care",
+    "sb": "Refeeding syndrome",
+    "q": "A 32-year-old woman with a BMI of 15 is admitted to ICU after an overdose. She has eaten little for 2 weeks. According to NICE CG32, how should enteral feeding be started?",
+    "o": [
+      "At full calculated requirement immediately to reverse catabolism",
+      "Delay all feeding for 7 days",
+      "At no more than 5–10 kcal/kg/day, increasing slowly, with thiamine and electrolyte replacement",
+      "Parenteral nutrition is preferred",
+      "Only after phosphate is normal for 48 hours"
+    ],
+    "a": 2,
+    "why": "She meets high-risk criteria (BMI &lt; 16, little intake &gt; 10 days). NICE: start at no more than 10 kcal/kg/day (5 kcal/kg/day if extremely high risk, e.g. BMI &lt; 14 or negligible intake &gt; 15 days), increase slowly over 4–7 days, give thiamine and B vitamins before and during feeding, and replace potassium, phosphate and magnesium. Refeeding causes intracellular shift of phosphate, potassium and magnesium as insulin rises.",
+    "st": "st2-42"
+  },
+  {
+    "id": "Q055",
+    "ar": "Intensive care",
+    "sb": "Nutrition",
+    "q": "A ventilated patient on ICU is haemodynamically stable on a low-dose vasopressor and has no contraindication to enteral feeding. According to ESPEN guidance, when should feeding start?",
+    "o": [
+      "After 72 hours via parenteral nutrition to avoid aspiration",
+      "After 7 days, once off all vasopressors",
+      "Within 48 hours, via the enteral route, at a gradually increasing rate",
+      "Only once bowel sounds are present",
+      "Immediately at full calculated energy via parenteral nutrition"
+    ],
+    "a": 2,
+    "why": "ESPEN (2019/2023) recommends early enteral nutrition within 48 hours in critically ill adults who can eat or be fed enterally, building up gradually (hypocaloric in the first days to avoid overfeeding), rather than early parenteral nutrition. Bowel sounds are not required. Delay in uncontrolled shock, uncontrolled hypoxaemia or acidosis, or active GI bleeding.",
+    "st": "st2-41"
+  },
+  {
+    "id": "Q056",
+    "ar": "Intensive care",
+    "sb": "Renal replacement therapy",
+    "q": "Which statement about continuous renal replacement therapy on ICU is correct?",
+    "o": [
+      "An effluent dose of 40 mL/kg/h improves survival compared with 25 mL/kg/h",
+      "Haemofiltration clears solutes mainly by diffusion",
+      "Regional citrate anticoagulation reduces bleeding compared with systemic heparin",
+      "The femoral site is always preferred for a dialysis catheter",
+      "Citrate is safe in severe liver failure"
+    ],
+    "a": 2,
+    "why": "Citrate chelates calcium in the circuit, giving regional anticoagulation with fewer bleeding complications and longer filter life; calcium is replaced systemically. Citrate accumulates in severe liver failure (raised total-to-ionised calcium ratio). Haemofiltration works by convection, dialysis by diffusion. RENAL and ATN trials showed no benefit of intensities above about 20–25 mL/kg/h. The right internal jugular is the preferred site.",
+    "st": "st2-43"
+  },
+  {
+    "id": "Q057",
+    "ar": "Intensive care",
+    "sb": "Abdominal compartment syndrome",
+    "q": "According to WSACS definitions, which finding defines abdominal compartment syndrome?",
+    "o": [
+      "Sustained intra-abdominal pressure &gt; 20 mmHg with new organ dysfunction",
+      "Bladder pressure &gt; 15 mmHg on a single reading",
+      "Intra-abdominal pressure of 12 mmHg",
+      "Abdominal perfusion pressure of 70 mmHg",
+      "Any degree of abdominal distension with oliguria"
+    ],
+    "a": 0,
+    "why": "Intra-abdominal hypertension is a sustained IAP ≥ 12 mmHg (graded I–IV). Abdominal compartment syndrome is sustained IAP &gt; 20 mmHg (with or without APP &lt; 60 mmHg) with new organ dysfunction. IAP is measured via the bladder at end-expiration, supine, zeroed at the mid-axillary line. Treatment includes sedation, drainage, decompression and fluid balance; decompressive laparotomy if refractory.",
+    "st": "st2-63"
+  },
+  {
+    "id": "Q058",
+    "ar": "Intensive care",
+    "sb": "ICU-acquired weakness",
+    "q": "A patient ventilated for 3 weeks with septic shock has flaccid, symmetrical limb weakness with relative sparing of the facial muscles. Which is the strongest modifiable risk factor for ICU-acquired weakness?",
+    "o": [
+      "Early mobilisation",
+      "Use of propofol",
+      "Enteral feeding",
+      "Female sex",
+      "Hyperglycaemia"
+    ],
+    "a": 4,
+    "why": "Risk factors include sepsis and multiorgan failure, duration of ventilation and immobility, hyperglycaemia, corticosteroids and neuromuscular blockers. Glycaemic control and early mobilisation are modifiable and reduce incidence. Critical illness polyneuropathy and myopathy often coexist; diagnosis uses the MRC sum score (&lt; 48/60), nerve conduction studies and sometimes biopsy.",
+    "st": "st2-47"
+  },
+  {
+    "id": "Q059",
+    "ar": "Intensive care",
+    "sb": "Delirium",
+    "q": "Which tool is recommended for screening ventilated ICU patients for delirium?",
+    "o": [
+      "CAM-ICU",
+      "Abbreviated Mental Test Score",
+      "4AT",
+      "Glasgow Coma Scale",
+      "Mini-Mental State Examination"
+    ],
+    "a": 0,
+    "why": "CAM-ICU and the ICDSC are validated in ventilated patients and are recommended by the PADIS guidelines. CAM-ICU requires an acute change or fluctuation in mental status plus inattention, plus either disorganised thinking or an altered level of consciousness (RASS not 0). The 4AT is used on wards. Non-drug measures (sleep, orientation, early mobility, glasses and hearing aids) are first line.",
+    "st": "st2-51"
+  },
+  {
+    "id": "Q060",
+    "ar": "Intensive care",
+    "sb": "Propofol infusion syndrome",
+    "q": "A young man with traumatic brain injury has been sedated with high-dose propofol for 4 days. He develops worsening metabolic acidosis, rising lactate, rhabdomyolysis and a new right bundle branch block with coved ST elevation in V1–V3. What is the most important action?",
+    "o": [
+      "Give sodium bicarbonate and continue propofol",
+      "Stop propofol and give supportive treatment",
+      "Start carnitine supplementation as the main treatment",
+      "Start dantrolene",
+      "Increase the propofol to suppress ICP rises"
+    ],
+    "a": 1,
+    "why": "Propofol-related infusion syndrome is associated with doses above 4 mg/kg/h for over 48 hours, catecholamines, steroids, carbohydrate depletion and TBI. Features: metabolic acidosis, rhabdomyolysis, hyperkalaemia, lipaemia, AKI, Brugada-type ECG and cardiovascular collapse. Stop propofol immediately; support with RRT and, if needed, ECMO.",
+    "st": "st2-44"
+  },
+  {
+    "id": "Q061",
+    "ar": "Intensive care",
+    "sb": "Brainstem death testing",
+    "q": "Before brainstem death testing, the apnoea test is performed. Which requirement is correct according to the UK Code of Practice?",
+    "o": [
+      "The test can be done with the patient disconnected from oxygen",
+      "A single test by one consultant is sufficient",
+      "Starting PaCO2 at least 4.5 kPa, then no respiratory effort for 5 minutes with a PaCO2 rise of at least 1.0 kPa",
+      "Starting PaCO2 at least 6.0 kPa and pH below 7.40, then no respiratory effort for 5 minutes with PaCO2 rising by at least 0.5 kPa",
+      "PaCO2 must exceed 10 kPa"
+    ],
+    "a": 3,
+    "why": "UK practice: pre-oxygenate, ensure starting PaCO2 ≥ 6.0 kPa and pH &lt; 7.40 (in chronic CO2 retainers, raise PaCO2 to above 6.5 kPa and pH &lt; 7.40), then observe for 5 minutes for any respiratory effort, confirming a rise in PaCO2 of at least 0.5 kPa. Oxygenation is maintained (e.g. CPAP via a circuit). Two doctors, registered for more than 5 years, at least one a consultant, perform two sets of tests.",
+    "st": "st2-48"
+  },
+  {
+    "id": "Q062",
+    "ar": "Intensive care",
+    "sb": "Donor optimisation",
+    "q": "A brainstem-dead potential organ donor has polyuria of 400 mL/h, serum sodium 156 mmol/L and hypotension despite fluids. Which drug is most appropriate first?",
+    "o": [
+      "Noradrenaline",
+      "Dopamine",
+      "Furosemide",
+      "Vasopressin infusion",
+      "Hydrocortisone alone"
+    ],
+    "a": 3,
+    "why": "Diabetes insipidus is common after brainstem death. Vasopressin treats DI and provides vasopressor support, reducing catecholamine requirements; desmopressin can be added for persistent polyuria. NHSBT donor optimisation bundles also include methylprednisolone, liothyronine in selected cases, insulin to control glucose, and lung-protective ventilation.",
+    "st": "st2-48"
+  },
+  {
+    "id": "Q063",
+    "ar": "Intensive care",
+    "sb": "Status epilepticus",
+    "q": "An adult remains in convulsive status epilepticus 10 minutes after two doses of IV lorazepam 4 mg. Which second-line drug is recommended by the ESETT trial evidence and current UK guidance?",
+    "o": [
+      "Levetiracetam, sodium valproate or fosphenytoin, which are similarly effective",
+      "Phenytoin only, as it is superior",
+      "Propofol infusion without intubation",
+      "Repeat lorazepam",
+      "IV magnesium"
+    ],
+    "a": 0,
+    "why": "ESETT (2019) found levetiracetam, fosphenytoin and valproate equally effective (about half stopped seizing). NICE (2022) and APLS now favour levetiracetam first because of ease of administration and fewer adverse effects. If seizures continue (refractory status), anaesthetise with propofol, thiopentone or midazolam, intubate and arrange EEG monitoring.",
+    "st": null
+  },
+  {
+    "id": "Q064",
+    "ar": "Intensive care",
+    "sb": "Paracetamol overdose",
+    "q": "A 28-year-old woman took 30 g of paracetamol 36 hours ago. She is encephalopathic. Which result is part of the King's College criteria for liver transplant referral in paracetamol-induced acute liver failure?",
+    "o": [
+      "Platelet count &lt; 100",
+      "Arterial pH &lt; 7.30 after adequate fluid resuscitation",
+      "Serum paracetamol level above the treatment line",
+      "Bilirubin &gt; 50 µmol/L",
+      "ALT &gt; 1000 IU/L"
+    ],
+    "a": 1,
+    "why": "King's College criteria (paracetamol): arterial pH &lt; 7.30 or lactate &gt; 3 mmol/L after resuscitation; or all three of INR &gt; 6.5 (PT &gt; 100 s), creatinine &gt; 300 µmol/L and grade 3–4 encephalopathy. A lactate &gt; 3.5 mmol/L at 4 hours is also used in modified criteria. Transaminase levels do not predict outcome.",
+    "st": "st2-56"
+  },
+  {
+    "id": "Q065",
+    "ar": "Intensive care",
+    "sb": "Liver failure",
+    "q": "A patient with acute liver failure has grade 3 encephalopathy and an arterial ammonia of 180 µmol/L. Which measure is most appropriate to reduce the risk of intracranial hypertension?",
+    "o": [
+      "Allow permissive hypercapnia",
+      "Give fresh frozen plasma to correct the INR",
+      "Fluid restriction to 1 litre per day",
+      "Lactulose via nasogastric tube",
+      "Intubate, sedate, keep sodium 145–150 mmol/L and start early renal replacement therapy"
+    ],
+    "a": 4,
+    "why": "High ammonia (&gt; 150–200 µmol/L) predicts cerebral oedema. Management: intubate for grade 3–4 encephalopathy, target normocapnia, induce mild hypernatraemia (145–150 mmol/L), early continuous RRT to lower ammonia, and avoid hypotension and fever. Lactulose is for chronic liver disease. Do not correct INR routinely: it is a prognostic marker and patients are often in rebalanced haemostasis.",
+    "st": "st2-60"
+  },
+  {
+    "id": "Q066",
+    "ar": "Intensive care",
+    "sb": "HLH",
+    "q": "A 35-year-old man on ICU with EBV infection has persistent fever, splenomegaly, pancytopenia, ferritin 25,000 µg/L and raised triglycerides. What is the most likely diagnosis?",
+    "o": [
+      "Still's disease without complications",
+      "Septic shock with DIC",
+      "Drug reaction with eosinophilia (DRESS)",
+      "Haemophagocytic lymphohistiocytosis",
+      "Thrombotic thrombocytopenic purpura"
+    ],
+    "a": 3,
+    "why": "HLH is a hyperinflammatory syndrome of uncontrolled macrophage and T-cell activation, often triggered by infection (EBV), malignancy or autoimmune disease. Features: fever, splenomegaly, cytopenias, very high ferritin, hypertriglyceridaemia and/or low fibrinogen, raised soluble CD25, haemophagocytosis in marrow. The HScore estimates probability. Treatment: high-dose corticosteroids, IV immunoglobulin, anakinra, etoposide, and treating the trigger.",
+    "st": "st2-64"
+  },
+  {
+    "id": "Q067",
+    "ar": "Intensive care",
+    "sb": "Acute pancreatitis",
+    "q": "A patient with severe acute pancreatitis has CT-confirmed infected walled-off necrosis 4 weeks after onset. What is the preferred initial management?",
+    "o": [
+      "Immediate ERCP",
+      "Open necrosectomy",
+      "Step-up approach: antibiotics then percutaneous or endoscopic drainage",
+      "Total parenteral nutrition and observation",
+      "Prophylactic antifungals only"
+    ],
+    "a": 2,
+    "why": "The PANTER and TENSION trials support a step-up approach: antibiotics, then percutaneous or endoscopic transluminal drainage, then minimally invasive necrosectomy only if needed. Intervention is ideally delayed until about 4 weeks so collections become walled off. Early enteral feeding is preferred to TPN. ERCP is only for cholangitis or persisting biliary obstruction.",
+    "st": "st2-49"
+  },
+  {
+    "id": "Q068",
+    "ar": "Intensive care",
+    "sb": "Diabetic ketoacidosis",
+    "q": "An adult with DKA has glucose 32 mmol/L, pH 7.05, potassium 4.8 mmol/L. According to JBDS guidance, what is the correct initial insulin regimen?",
+    "o": [
+      "Subcutaneous long-acting insulin only",
+      "Fixed-rate IV insulin at 0.1 units/kg/hour",
+      "Variable-rate insulin infusion according to glucose",
+      "Withhold insulin until potassium is checked again",
+      "Fixed-rate IV insulin at 0.05 units/kg/hour plus a 10-unit bolus"
+    ],
+    "a": 1,
+    "why": "JBDS: fixed-rate IV insulin infusion at 0.1 units/kg/h (no bolus), continue long-acting basal insulin, fluids (0.9% saline), and add potassium to fluids if K+ is 3.5–5.5 mmol/L. Add 10% glucose when glucose falls below 14 mmol/L. Aim for ketones to fall by 0.5 mmol/L/h and bicarbonate to rise by 3 mmol/L/h. Withhold insulin only if K+ &lt; 3.5.",
+    "st": "st2-40"
+  },
+  {
+    "id": "Q069",
+    "ar": "Intensive care",
+    "sb": "Tricyclic overdose",
+    "q": "A 30-year-old has taken an amitriptyline overdose. QRS is 140 ms and BP 80/45 mmHg. What is the first-line treatment?",
+    "o": [
+      "Lidocaine as first-line",
+      "Sodium bicarbonate 8.4% 50–100 mL IV",
+      "Physostigmine",
+      "Amiodarone",
+      "Flumazenil"
+    ],
+    "a": 1,
+    "why": "Tricyclics block cardiac sodium channels. Hypertonic sodium bicarbonate (sodium load plus alkalinisation, target pH 7.45–7.55) narrows the QRS and treats arrhythmias and hypotension. Avoid class Ia/Ic antiarrhythmics and flumazenil (seizures). Lipid emulsion is considered in refractory arrest. Hyperventilation can help in intubated patients.",
+    "st": "st2-56"
+  },
+  {
+    "id": "Q070",
+    "ar": "Intensive care",
+    "sb": "Meningitis/encephalitis",
+    "q": "A 40-year-old presents with fever, confusion and focal seizures. CSF shows lymphocytes 120 × 10^6/L, protein mildly raised, glucose normal. MRI shows temporal lobe changes. What is the most appropriate immediate treatment?",
+    "o": [
+      "IV aciclovir",
+      "Antituberculous therapy",
+      "IV ceftriaxone alone",
+      "IV dexamethasone alone",
+      "Oral valaciclovir"
+    ],
+    "a": 0,
+    "why": "Lymphocytic CSF with normal glucose and temporal lobe involvement suggests herpes simplex encephalitis. Start IV aciclovir 10 mg/kg 8-hourly immediately (adjust for renal function) while awaiting HSV PCR; delay increases mortality. Low CSF glucose would raise suspicion of bacterial or TB meningitis.",
+    "st": "st2-61"
+  },
+  {
+    "id": "Q071",
+    "ar": "Intensive care",
+    "sb": "Transfer",
+    "q": "A ventilated patient needs a 90-minute transfer. Minute volume is 8 L/min on FiO2 0.6 with a ventilator using no driving gas. How much oxygen should you take, according to the usual rule of doubling expected use?",
+    "o": [
+      "About 1730 L",
+      "About 2600 L",
+      "About 4320 L",
+      "About 860 L",
+      "About 340 L"
+    ],
+    "a": 3,
+    "why": "Oxygen use = minute volume × FiO2 × time (if driving gas is not used) = 8 × 0.6 × 90 = 432 L. Doubling for safety gives about 864 L. If the ventilator uses oxygen as driving gas, add that consumption. A full CD cylinder holds 460 L; carry at least the calculated amount plus a reserve.",
+    "st": null
+  },
+  {
+    "id": "Q072",
+    "ar": "Intensive care",
+    "sb": "Scoring systems",
+    "q": "Which statement about NEWS2 is correct?",
+    "o": [
+      "It replaces APACHE II for ICU mortality prediction",
+      "An aggregate score of 5 or more, or 3 in any single parameter, should prompt urgent clinical review",
+      "It includes a separate oxygen saturation scale for all patients on oxygen",
+      "A score of 1 always triggers a critical care referral",
+      "It uses heart rate, BP, temperature and urine output"
+    ],
+    "a": 1,
+    "why": "NEWS2 scores respiratory rate, SpO2 (with Scale 2 for patients with confirmed hypercapnic respiratory failure), supplemental oxygen, systolic BP, pulse, level of consciousness (including new confusion) and temperature. A total of 5–6, or 3 in a single parameter, prompts urgent review; 7 or more prompts emergency assessment by a critical care team. It is a track-and-trigger tool, not a mortality model.",
+    "st": "st2-46"
+  },
+  {
+    "id": "Q284",
+    "ar": "Intensive care",
+    "sb": "Long-term venous access",
+    "q": "A patient with pancreatitis needs parenteral nutrition for an expected 3 weeks. Which line is most appropriate?",
+    "o": [
+      "Femoral non-tunnelled central line",
+      "Intraosseous needle",
+      "Midline catheter",
+      "Short peripheral cannula",
+      "Peripherally inserted central catheter (PICC) with a dedicated lumen for parenteral nutrition"
+    ],
+    "a": 4,
+    "why": "Parenteral nutrition is hyperosmolar and needs central venous access with a dedicated lumen handled aseptically. For several weeks, a PICC or tunnelled line is preferred to short-term non-tunnelled CVCs (infection risk). Femoral lines have higher infection and thrombosis rates. Midlines end in peripheral veins and are unsuitable for PN.",
+    "st": null
+  },
+  {
+    "id": "Q285",
+    "ar": "Intensive care",
+    "sb": "Venous thromboembolism",
+    "q": "A haemodynamically stable ICU patient has a CT-confirmed pulmonary embolism with RV dilatation and a raised troponin (intermediate-high risk). What is the recommended initial management?",
+    "o": [
+      "Surgical embolectomy in all cases",
+      "No anticoagulation",
+      "Therapeutic anticoagulation (LMWH or unfractionated heparin) with close monitoring, reserving rescue thrombolysis for haemodynamic deterioration",
+      "Systemic thrombolysis immediately",
+      "IVC filter as first-line"
+    ],
+    "a": 2,
+    "why": "ESC 2019: high-risk PE (shock) needs reperfusion (systemic thrombolysis, or surgical or catheter-directed therapy if contraindicated). Intermediate-high risk (RV dysfunction plus raised troponin, no shock) is anticoagulated and monitored, with rescue thrombolysis if haemodynamic decompensation occurs (PEITHO showed routine thrombolysis reduced decompensation but increased major bleeding and stroke). Unfractionated heparin is preferred if thrombolysis may be needed.",
+    "st": "st2-53"
+  },
+  {
+    "id": "Q286",
+    "ar": "Intensive care",
+    "sb": "Non-invasive ventilation",
+    "q": "A patient with a COPD exacerbation has pH 7.28, PaCO2 8.9 kPa and PaO2 7.8 kPa on 28% oxygen after an hour of optimal medical therapy. What is the most appropriate next step?",
+    "o": [
+      "Start bilevel NIV",
+      "Intubate immediately",
+      "Increase FiO2 to 60% via a non-rebreathe mask",
+      "Give IV aminophylline and repeat the gas in 4 hours",
+      "Start high-flow nasal oxygen at 60 L/min"
+    ],
+    "a": 0,
+    "why": "BTS/ICS guidance: start NIV for acute hypercapnic respiratory failure in COPD when pH is below 7.35 and PaCO2 above 6.5 kPa despite optimal medical treatment. Typical starting settings are IPAP about 15 cmH2O, titrated up to 20–30 over 10–30 minutes, with EPAP 3–5 cmH2O, targeting SpO2 88–92%. Agree a ceiling-of-treatment plan before starting.",
+    "st": "st2-37"
+  },
+  {
+    "id": "Q287",
+    "ar": "Intensive care",
+    "sb": "Non-invasive ventilation",
+    "q": "In bilevel NIV, increasing which setting most directly improves CO2 clearance?",
+    "o": [
+      "The trigger sensitivity",
+      "FiO2",
+      "The rise time",
+      "EPAP",
+      "The pressure support (IPAP minus EPAP)"
+    ],
+    "a": 4,
+    "why": "Tidal volume and therefore CO2 clearance depend mainly on the pressure difference between IPAP and EPAP. EPAP recruits alveoli, improves oxygenation and offsets intrinsic PEEP, which helps triggering in COPD. FiO2 affects oxygenation only.",
+    "st": "st2-37"
+  },
+  {
+    "id": "Q288",
+    "ar": "Intensive care",
+    "sb": "Non-invasive ventilation",
+    "q": "Which is an absolute contraindication to non-invasive ventilation?",
+    "o": [
+      "Cardiogenic pulmonary oedema",
+      "Obesity hypoventilation syndrome",
+      "Hypercapnic COPD exacerbation",
+      "Undrained pneumothorax",
+      "Pneumonia in an immunocompromised patient"
+    ],
+    "a": 3,
+    "why": "Contraindications include undrained pneumothorax, recent upper GI or facial surgery, facial trauma or burns, vomiting or bowel obstruction, inability to protect the airway, and cardiac or respiratory arrest. COPD, obesity hypoventilation and cardiogenic pulmonary oedema are evidence-based indications.",
+    "st": "st2-37"
+  },
+  {
+    "id": "Q289",
+    "ar": "Intensive care",
+    "sb": "Post-operative ileus",
+    "q": "Which intervention most clearly reduces the duration of post-operative ileus after abdominal surgery?",
+    "o": [
+      "Routine IV erythromycin",
+      "Liberal IV fluid therapy",
+      "Opioid-sparing analgesia",
+      "Routine nasogastric decompression",
+      "Prolonged nil by mouth"
+    ],
+    "a": 2,
+    "why": "ERAS elements that shorten ileus include minimising opioids (thoracic epidural, multimodal analgesia), laparoscopic surgery, avoiding fluid overload, early feeding and mobilisation, and avoiding routine nasogastric tubes. Peripheral mu antagonists such as alvimopan also help where available.",
+    "st": "st2-50"
+  },
+  {
+    "id": "Q290",
+    "ar": "Intensive care",
+    "sb": "Post-operative ileus",
+    "q": "A patient has abdominal distension and absent bowel sounds 5 days after a right hemicolectomy. Which feature most suggests an anastomotic leak rather than simple ileus?",
+    "o": [
+      "Absent flatus",
+      "Distended small bowel loops on X-ray",
+      "Nausea",
+      "Hypokalaemia",
+      "Tachycardia, fever and a rising CRP"
+    ],
+    "a": 4,
+    "why": "Ileus that persists or recurs with tachycardia, fever, rising inflammatory markers, worsening pain or organ dysfunction needs CT to exclude a leak or collection. Hypokalaemia, hypomagnesaemia and opioids are contributors to ileus that should be corrected.",
+    "st": "st2-50"
+  },
+  {
+    "id": "Q291",
+    "ar": "Intensive care",
+    "sb": "Post-operative ileus",
+    "q": "Which electrolyte disturbance commonly contributes to prolonged ileus?",
+    "o": [
+      "Hyperphosphataemia",
+      "Hypokalaemia",
+      "Hypercalcaemia",
+      "Hyperkalaemia",
+      "Hypernatraemia"
+    ],
+    "a": 1,
+    "why": "Hypokalaemia (and hypomagnesaemia) reduces smooth muscle contractility and contributes to ileus, so it should be corrected. Hypercalcaemia can cause constipation but is less often the issue after surgery.",
+    "st": "st2-50"
+  },
+  {
+    "id": "Q292",
+    "ar": "Intensive care",
+    "sb": "Tetanus",
+    "q": "How does tetanospasmin produce the muscle spasms of tetanus?",
+    "o": [
+      "It blocks GABA and glycine release centrally",
+      "It blocks postsynaptic nicotinic receptors",
+      "It blocks acetylcholine release peripherally",
+      "It directly depolarises muscle membranes",
+      "It inhibits acetylcholinesterase activity"
+    ],
+    "a": 0,
+    "why": "Tetanus toxin travels retrogradely to the CNS and cleaves synaptobrevin in inhibitory interneurons, preventing GABA and glycine release. This causes rigidity, spasms and autonomic instability. Botulinum toxin acts peripherally, blocking acetylcholine release and causing flaccid paralysis.",
+    "st": "st2-52"
+  },
+  {
+    "id": "Q293",
+    "ar": "Intensive care",
+    "sb": "Tetanus",
+    "q": "Which drug is used to control spasms and autonomic instability in severe tetanus?",
+    "o": [
+      "Flumazenil",
+      "Neostigmine",
+      "Atropine infusion",
+      "Suxamethonium infusion",
+      "Intravenous magnesium sulphate"
+    ],
+    "a": 4,
+    "why": "Magnesium reduces spasms and autonomic instability and lowers catecholamine release. Other measures: human tetanus immunoglobulin, wound debridement, metronidazole, benzodiazepines, early tracheostomy and, in severe cases, neuromuscular blockade with ventilation. Labetalol or esmolol may be needed for sympathetic storms.",
+    "st": "st2-52"
+  },
+  {
+    "id": "Q294",
+    "ar": "Intensive care",
+    "sb": "Botulism",
+    "q": "A patient with suspected wound botulism has descending symmetrical weakness. Which finding fits botulism rather than Guillain–Barré syndrome?",
+    "o": [
+      "Early cranial nerve palsies, normal sensation",
+      "Ascending weakness starting in the legs",
+      "Raised CSF protein with sensory loss",
+      "Areflexia preceded by bloody diarrhoea",
+      "Fever with marked neck stiffness"
+    ],
+    "a": 0,
+    "why": "Botulism causes descending, symmetrical flaccid paralysis starting with the cranial nerves (diplopia, ptosis, dysphagia), anticholinergic signs such as dilated pupils, and normal sensation. Treat with antitoxin early and supportive ventilation. GBS is usually ascending, with sensory symptoms and raised CSF protein.",
+    "st": "st2-52"
+  },
+  {
+    "id": "Q295",
+    "ar": "Intensive care",
+    "sb": "Airway fire",
+    "q": "During laser laryngeal surgery, flames appear in the airway. What is the first action?",
+    "o": [
+      "Inflate the cuff further",
+      "Deepen anaesthesia and continue surgery",
+      "Pour saline down the tube and continue ventilating",
+      "Stop ventilation, disconnect the oxygen and remove the tracheal tube",
+      "Increase FiO2 to 100%"
+    ],
+    "a": 3,
+    "why": "Immediately stop gas flow, remove the burning tube, pour saline into the airway, then re-establish ventilation with air (avoiding high oxygen), re-intubate if needed, and examine the airway by bronchoscopy. Assess for inhalational injury and consider steroids.",
+    "st": "st2-54"
+  },
+  {
+    "id": "Q296",
+    "ar": "Intensive care",
+    "sb": "Airway fire",
+    "q": "Which change most reduces the risk of airway fire during laser airway surgery?",
+    "o": [
+      "An air-filled tracheal tube cuff",
+      "The lowest possible FiO2, with air not N2O",
+      "A standard PVC tracheal tube",
+      "A higher fresh gas flow",
+      "Nitrous oxide instead of air as carrier"
+    ],
+    "a": 1,
+    "why": "The fire triad is an ignition source (laser, diathermy), fuel (tube, drapes) and an oxidiser (oxygen and nitrous oxide, both of which support combustion). Use a laser-resistant tube with a saline-filled cuff (with methylene blue to detect rupture), the lowest FiO2 possible, wet swabs and good communication.",
+    "st": "st2-54"
+  },
+  {
+    "id": "Q297",
+    "ar": "Intensive care",
+    "sb": "Airway fire",
+    "q": "Which gas supports combustion and should be avoided during laser airway surgery?",
+    "o": [
+      "Xenon",
+      "Nitrous oxide",
+      "Nitrogen",
+      "Carbon dioxide",
+      "Helium"
+    ],
+    "a": 1,
+    "why": "Nitrous oxide decomposes exothermically to release oxygen and supports combustion as strongly as oxygen does. Air–oxygen or helium–oxygen mixtures at low FiO2 are preferred.",
+    "st": "st2-54"
+  },
+  {
+    "id": "Q298",
+    "ar": "Intensive care",
+    "sb": "Cardiac arrest",
+    "q": "During CPR for a shockable rhythm, when is the first dose of adrenaline given under Resuscitation Council UK guidance?",
+    "o": [
+      "After the first shock",
+      "Only if the rhythm becomes non-shockable",
+      "After the third shock",
+      "Immediately before the first shock",
+      "After the fifth shock"
+    ],
+    "a": 2,
+    "why": "In VF/pVT, give adrenaline 1 mg and amiodarone 300 mg after the third shock, then adrenaline every 3–5 minutes (alternate cycles). In non-shockable rhythms, give adrenaline as soon as IV/IO access is achieved.",
+    "st": "st2-57"
+  },
+  {
+    "id": "Q299",
+    "ar": "Intensive care",
+    "sb": "Cardiac arrest",
+    "q": "Which finding at 72 hours or more after cardiac arrest, in the absence of confounders, most strongly predicts poor neurological outcome?",
+    "o": [
+      "A single seizure",
+      "Neuron-specific enolase within normal limits",
+      "A GCS motor score of 5",
+      "Bilaterally absent N20 somatosensory evoked potential waves",
+      "Normal brain CT"
+    ],
+    "a": 3,
+    "why": "ERC/ESICM multimodal prognostication: poor outcome is likely when two or more of the following are present at 72 h or later (with M3 or worse): bilaterally absent pupillary and corneal reflexes, bilaterally absent N20 SSEP waves, highly malignant EEG, NSE above 60 µg/L, status myoclonus within 72 h, or diffuse anoxic injury on CT/MRI. Sedation and hypothermia must be excluded as confounders.",
+    "st": "st2-57"
+  },
+  {
+    "id": "Q300",
+    "ar": "Intensive care",
+    "sb": "Cardiac arrest",
+    "q": "During CPR, end-tidal CO2 suddenly rises from 2 kPa to 5 kPa. What does this most likely indicate?",
+    "o": [
+      "Hyperventilation",
+      "Oesophageal intubation",
+      "Equipment fault only",
+      "Return of spontaneous circulation",
+      "Pulmonary embolism"
+    ],
+    "a": 3,
+    "why": "Waveform capnography confirms tube placement, monitors CPR quality and a sudden rise suggests ROSC. Persistently low EtCO2 after 20 minutes of CPR is associated with poor outcome but should not be used alone to stop resuscitation.",
+    "st": "st2-57"
+  },
+  {
+    "id": "Q301",
+    "ar": "Intensive care",
+    "sb": "Pleural effusion",
+    "q": "Using Light's criteria, which result indicates an exudate?",
+    "o": [
+      "Pleural fluid LDH below one-third of the upper limit of normal serum LDH",
+      "Pleural fluid protein 20 g/L with serum protein 70 g/L",
+      "Pleural fluid LDH/serum LDH ratio above 0.6",
+      "Pleural fluid glucose of 6 mmol/L",
+      "Pleural fluid protein/serum protein ratio of 0.3"
+    ],
+    "a": 2,
+    "why": "Light's criteria: an exudate meets at least one of: pleural/serum protein above 0.5, pleural/serum LDH above 0.6, or pleural LDH above two-thirds of the upper limit of normal serum LDH. Exudates include parapneumonic, malignant and TB effusions; transudates include heart, liver and renal failure.",
+    "st": "st2-58"
+  },
+  {
+    "id": "Q302",
+    "ar": "Intensive care",
+    "sb": "Empyema",
+    "q": "Which pleural fluid finding in a parapneumonic effusion indicates the need for chest drainage?",
+    "o": [
+      "Lymphocyte predominance",
+      "pH below 7.2",
+      "pH 7.45",
+      "Clear straw-coloured fluid",
+      "Glucose of 6 mmol/L"
+    ],
+    "a": 1,
+    "why": "BTS guidance: drain if pleural fluid is frankly purulent or turbid, organisms are seen on Gram stain or culture, or pH is below 7.2 (glucose low and LDH high also support complicated effusion). Intrapleural tPA and DNase (MIST2) may help if drainage is incomplete; consider surgery if this fails.",
+    "st": "st2-58"
+  },
+  {
+    "id": "Q303",
+    "ar": "Intensive care",
+    "sb": "Chylothorax",
+    "q": "Which pleural fluid finding confirms a chylothorax?",
+    "o": [
+      "Haematocrit over 50% of blood",
+      "pH below 7.2",
+      "Triglycerides above 1.24 mmol/L (110 mg/dL)",
+      "High amylase",
+      "Cholesterol crystals with low triglycerides"
+    ],
+    "a": 2,
+    "why": "Chylothorax: milky fluid with triglycerides above 1.24 mmol/L and chylomicrons. Causes include thoracic duct injury after oesophagectomy or cardiothoracic surgery, and lymphoma. Management: drainage, low-fat or medium-chain triglyceride diet or TPN, octreotide, and duct ligation or embolisation if output stays high.",
+    "st": "st2-58"
+  },
+  {
+    "id": "Q304",
+    "ar": "Intensive care",
+    "sb": "Sedation",
+    "q": "What Richmond Agitation–Sedation Scale (RASS) target is usually recommended for most ventilated ICU patients?",
+    "o": [
+      "−4 (deep sedation)",
+      "−3 for all patients",
+      "+2 (agitated)",
+      "0 to −2 (alert to lightly sedated)",
+      "−5 (unrousable)"
+    ],
+    "a": 3,
+    "why": "Light sedation (RASS 0 to −2) with daily sedation holds, analgesia-first approaches and early mobilisation reduces ventilation time and ICU stay. Deeper sedation is reserved for specific indications (severe ARDS with paralysis, raised ICP, status epilepticus).",
+    "st": "st2-59"
+  },
+  {
+    "id": "Q305",
+    "ar": "Intensive care",
+    "sb": "Sedation",
+    "q": "Which sedative allows patients to be rousable and cooperative while causing minimal respiratory depression?",
+    "o": [
+      "Lorazepam",
+      "Propofol",
+      "Dexmedetomidine",
+      "Thiopental",
+      "Midazolam"
+    ],
+    "a": 2,
+    "why": "Dexmedetomidine is a highly selective alpha-2 agonist giving 'cooperative' sedation without respiratory depression. Side effects are bradycardia and hypotension (with transient hypertension on loading). Benzodiazepines are associated with more delirium.",
+    "st": "st2-59"
+  },
+  {
+    "id": "Q306",
+    "ar": "Intensive care",
+    "sb": "Sedation",
+    "q": "Which ICU sedation strategy is associated with more delirium and longer ventilation?",
+    "o": [
+      "Analgesia-first sedation",
+      "Continuous benzodiazepine infusions",
+      "Propofol at light targets",
+      "Daily sedation interruption",
+      "Dexmedetomidine"
+    ],
+    "a": 1,
+    "why": "Benzodiazepine infusions accumulate (especially in renal and hepatic failure and with active metabolites) and are linked to delirium and prolonged ventilation. The ABCDEF bundle promotes analgesia first, spontaneous awakening and breathing trials, choice of light sedation, delirium monitoring, early mobility and family engagement.",
+    "st": "st2-59"
+  },
+  {
+    "id": "Q307",
+    "ar": "Intensive care",
+    "sb": "Diarrhoea",
+    "q": "An ICU patient on broad-spectrum antibiotics develops profuse diarrhoea, a rising white cell count and abdominal distension. What is the most important first investigation?",
+    "o": [
+      "Serum amylase",
+      "Faecal calprotectin",
+      "Plain abdominal X-ray alone",
+      "Urgent colonoscopy",
+      "Stool C. difficile GDH and toxin testing"
+    ],
+    "a": 4,
+    "why": "Test stool for C. difficile (GDH screen with toxin detection). Stop unnecessary antibiotics, isolate the patient and treat with oral vancomycin or fidaxomicin. Severe disease (WCC above 15, rising creatinine, colitis on imaging) may need surgery; ileus or toxic megacolon needs urgent CT and surgical review.",
+    "st": "st2-62"
+  },
+  {
+    "id": "Q308",
+    "ar": "Intensive care",
+    "sb": "Diarrhoea",
+    "q": "Which is the most common cause of diarrhoea in enterally fed ICU patients?",
+    "o": [
+      "Pancreatic insufficiency",
+      "Undiagnosed coeliac disease",
+      "Contamination of the feed",
+      "Clostridioides difficile infection",
+      "Medications, including antibiotics"
+    ],
+    "a": 4,
+    "why": "Medication is the most common cause, so review the drug chart first: antibiotics, laxatives, sorbitol in liquid preparations, magnesium, prokinetics and PPIs. Then consider infection (C. difficile), feed factors (osmolality, rate) and malabsorption. Do not stop enteral feeding reflexively.",
+    "st": "st2-62"
+  },
+  {
+    "id": "Q309",
+    "ar": "Intensive care",
+    "sb": "Diarrhoea",
+    "q": "Severe diarrhoea typically causes which acid–base disturbance?",
+    "o": [
+      "High anion gap metabolic acidosis",
+      "Acute respiratory acidosis",
+      "Normal anion gap metabolic acidosis",
+      "Isolated respiratory alkalosis",
+      "Hypochloraemic metabolic alkalosis"
+    ],
+    "a": 2,
+    "why": "Loss of bicarbonate-rich intestinal fluid causes a normal anion gap metabolic acidosis with hypokalaemia. Vomiting or nasogastric losses cause a hypochloraemic metabolic alkalosis.",
+    "st": "st2-62"
+  },
+  {
+    "id": "Q310",
+    "ar": "Intensive care",
+    "sb": "Heat stroke",
+    "q": "A runner collapses with a core temperature of 41.5 °C and confusion. What is the priority treatment?",
+    "o": [
+      "Dantrolene as first-line treatment",
+      "Paracetamol and close observation",
+      "Antibiotics before any cooling",
+      "Slow passive cooling over hours",
+      "Rapid cooling by cold water immersion"
+    ],
+    "a": 4,
+    "why": "Exertional heat stroke (core temperature above 40 °C with CNS dysfunction) needs immediate rapid cooling ('cool first, transport second'). Cold water immersion is fastest; evaporative cooling, ice packs and cold fluids are alternatives. Antipyretics are ineffective; dantrolene is not recommended. Watch for rhabdomyolysis, AKI, DIC and liver injury.",
+    "st": "st2-66"
+  },
+  {
+    "id": "Q311",
+    "ar": "Intensive care",
+    "sb": "Heat stroke",
+    "q": "Which feature distinguishes classic (non-exertional) heat stroke from exertional heat stroke?",
+    "o": [
+      "It is always caused by drugs",
+      "It never causes CNS dysfunction",
+      "It starts at a core temperature of 38 °C",
+      "It affects frail people in heatwaves",
+      "It affects young athletes exercising"
+    ],
+    "a": 3,
+    "why": "Classic heat stroke affects the elderly, very young and chronically ill during heatwaves, often with anhidrosis; exertional heat stroke affects fit people exercising in heat and they may still sweat. Both need core temperature above 40 °C with CNS dysfunction and rapid cooling.",
+    "st": "st2-66"
+  },
+  {
+    "id": "Q312",
+    "ar": "Intensive care",
+    "sb": "ICU environment",
+    "q": "Which measure is recommended to reduce the adverse effects of the ICU environment on sleep and delirium?",
+    "o": [
+      "Frequent overnight routine observations for all",
+      "Reducing noise and light at night, with earplugs and eye masks",
+      "Deep sedation at night",
+      "Restricting family visits",
+      "Continuous bright lighting"
+    ],
+    "a": 1,
+    "why": "Noise, constant lighting and overnight interventions disrupt sleep and contribute to delirium. Clustering care, night-time dimming, noise reduction, earplugs and eye masks, daytime mobilisation and family involvement are part of non-pharmacological delirium prevention.",
+    "st": "st2-66"
+  },
+  {
+    "id": "Q313",
+    "ar": "Intensive care",
+    "sb": "Weaning",
+    "q": "Which rapid shallow breathing index (respiratory rate divided by tidal volume in litres) predicts weaning failure?",
+    "o": [
+      "Above 105 breaths/min/L",
+      "Exactly 80 breaths/min/L",
+      "Below 50 breaths/min/L",
+      "Below 20 breaths/min/L",
+      "It has no predictive value"
+    ],
+    "a": 0,
+    "why": "An RSBI (f/VT) above 105 breaths/min/L predicts weaning failure. A spontaneous breathing trial of 30–120 minutes on low pressure support or a T-piece is the key test. Failure signs include tachypnoea, tachycardia, hypertension, desaturation, agitation and accessory muscle use.",
+    "st": "st2-68"
+  },
+  {
+    "id": "Q314",
+    "ar": "Intensive care",
+    "sb": "Weaning",
+    "q": "A patient fails a spontaneous breathing trial with rising heart rate, hypertension and new crackles. What is the most likely cause?",
+    "o": [
+      "Hypocalcaemia",
+      "Excess residual sedation",
+      "Weaning-induced pulmonary oedema",
+      "Respiratory muscle weakness alone",
+      "A new pleural effusion"
+    ],
+    "a": 2,
+    "why": "Switching from positive pressure to spontaneous breathing increases venous return and LV afterload, unmasking cardiac dysfunction. A rise in BNP or echo evidence supports it. Treat with diuretics, vasodilators and consider extubation to NIV. Other causes include neuromuscular weakness, high work of breathing and fluid overload.",
+    "st": "st2-68"
+  },
+  {
+    "id": "Q315",
+    "ar": "Intensive care",
+    "sb": "Shock",
+    "q": "Which pattern describes distributive shock (e.g. sepsis) once fluid resuscitated?",
+    "o": [
+      "Low cardiac output, high SVR, high CVP",
+      "High CVP, low cardiac output, equalised diastolic pressures",
+      "Normal or high cardiac output, low SVR",
+      "Low cardiac output, high PCWP",
+      "Low cardiac output, low CVP, high SVR"
+    ],
+    "a": 2,
+    "why": "Distributive shock: low SVR with normal or high cardiac output after resuscitation. Hypovolaemic: low CVP, low CO, high SVR. Cardiogenic: high filling pressures, low CO, high SVR. Obstructive (tamponade, PE, tension pneumothorax): low CO with raised right-sided pressures.",
+    "st": "st2-68"
+  }
+]

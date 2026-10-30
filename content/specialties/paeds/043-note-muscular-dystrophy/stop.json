@@ -1,0 +1,26 @@
+{
+  "t": "tip",
+  "shape": "dummy",
+  "group": "Paeds",
+  "title": "Muscular Dystrophy",
+  "cards": [
+    {
+      "h": "Definition",
+      "b": "file:cards/01-definition.html"
+    },
+    {
+      "h": "Duchenne Muscular Dystrophy",
+      "b": "file:cards/02-duchenne-muscular-dystrophy.html"
+    },
+    {
+      "h": "Anaesthesia",
+      "b": "file:cards/03-anaesthesia.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/04-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

@@ -1,0 +1,21 @@
+{
+  "t": "tip",
+  "shape": "heart",
+  "group": "Cardiac",
+  "title": "Tricuspid Valve Disease",
+  "note": true,
+  "cards": [
+    {
+      "h": "Overview",
+      "b": "file:cards/01-overview.html"
+    },
+    {
+      "h": "Assessment",
+      "b": "file:cards/02-assessment.html"
+    },
+    {
+      "h": "Anaesthetic goals",
+      "b": "file:cards/03-anaesthetic-goals.html"
+    }
+  ]
+}

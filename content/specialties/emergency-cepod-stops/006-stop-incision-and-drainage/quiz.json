@@ -1,0 +1,122 @@
+[
+  {
+    "q": "Which comorbidity should be looked for behind an abscess?",
+    "o": [
+      "Asthma",
+      "Diabetes, sepsis or IV drug use",
+      "Hypothyroidism",
+      "Gout",
+      "Glaucoma"
+    ],
+    "a": 1,
+    "why": "Check glucose."
+  },
+  {
+    "q": "When should anaesthesia be deepened?",
+    "o": [
+      "After incision",
+      "Before the first incision",
+      "Never",
+      "At emergence",
+      "During prep"
+    ],
+    "a": 1,
+    "why": "Very stimulating."
+  },
+  {
+    "q": "Which feature suggests necrotising fasciitis over cellulitis?",
+    "o": [
+      "Mild erythema",
+      "Pain out of proportion to examination",
+      "Localised warmth",
+      "Low fever",
+      "Slow spread"
+    ],
+    "a": 1,
+    "why": "Also bullae and rapid deterioration."
+  },
+  {
+    "q": "What type of necrotising fasciitis is polymicrobial and perineal?",
+    "o": [
+      "Type 2",
+      "Type 1",
+      "Type 3",
+      "Type 4",
+      "Fournier never"
+    ],
+    "a": 1,
+    "why": "Type 2 is group A strep; type 3 is Vibrio."
+  },
+  {
+    "q": "Which antibiotic is added for its anti-toxin effect in necrotising fasciitis or TSS?",
+    "o": [
+      "Amoxicillin",
+      "Clindamycin",
+      "Gentamicin",
+      "Metronidazole",
+      "Vancomycin"
+    ],
+    "a": 1,
+    "why": "Follow local guidelines; inhibits toxin production."
+  },
+  {
+    "q": "What is the intraoperative finding of necrotising fasciitis?",
+    "o": [
+      "Brisk bleeding",
+      "Lack of resistance to blunt dissection and dishwater pus",
+      "Clear fluid",
+      "Normal fascia",
+      "Abscess only"
+    ],
+    "a": 1,
+    "why": "Also no bleeding."
+  },
+  {
+    "q": "How does toxic shock syndrome cause shock?",
+    "o": [
+      "Direct bacteraemia",
+      "A superantigen activating many T-cells, causing cytokine storm",
+      "Endotoxin only",
+      "Allergy",
+      "Hypovolaemia only"
+    ],
+    "a": 1,
+    "why": "Up to 20% of T-cells."
+  },
+  {
+    "q": "What is the DKA insulin regimen?",
+    "o": [
+      "Sliding scale",
+      "Fixed-rate IV insulin 0.1 units/kg/h, continuing long-acting insulin",
+      "SC rapid acting only",
+      "Bolus 10 units",
+      "No insulin"
+    ],
+    "a": 1,
+    "why": "Add glucose once BM falls."
+  },
+  {
+    "q": "What is the target rate of ketone fall in DKA?",
+    "o": [
+      "0.1 mmol/L/h",
+      "0.5 mmol/L/h",
+      "3 mmol/L/h",
+      "5 mmol/L/h",
+      "No target"
+    ],
+    "a": 1,
+    "why": "BM fall of 3 mmol/L/h."
+  },
+  {
+    "q": "What happens to an insulin pump perioperatively if glucose rises above about 12?",
+    "o": [
+      "Increase pump rate",
+      "Stop the pump and switch to IV insulin",
+      "Ignore",
+      "Give SC bolus",
+      "Remove for 24 h"
+    ],
+    "a": 1,
+    "why": "Also if below 4."
+  }
+]

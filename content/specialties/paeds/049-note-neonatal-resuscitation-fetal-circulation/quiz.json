@@ -1,0 +1,22 @@
+[
+  {
+    "q": "What makes the foramen ovale close functionally at birth?",
+    "o": [
+      "Left atrial pressure rising above right atrial pressure",
+      "Rising prostaglandin E₂",
+      "Clamping of the umbilical vein alone"
+    ],
+    "a": 0,
+    "why": "Lung expansion lowers PVR and cord clamping raises SVR, so left atrial pressure exceeds right and pushes the flap closed."
+  },
+  {
+    "q": "Which change does NOT tend to raise pulmonary vascular resistance in a neonate?",
+    "o": [
+      "Hyperoxia and alkalosis",
+      "Hypoxia",
+      "Hypothermia"
+    ],
+    "a": 0,
+    "why": "Hypoxia, hypercapnia, acidosis and cold raise PVR; oxygen and alkalosis lower it."
+  }
+]

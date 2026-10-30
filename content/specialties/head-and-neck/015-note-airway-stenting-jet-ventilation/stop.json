@@ -1,0 +1,34 @@
+{
+  "t": "tip",
+  "shape": "headn",
+  "group": "Head and neck",
+  "title": "Airway Stenting & Jet Ventilation",
+  "cards": [
+    {
+      "h": "Jet ventilation",
+      "b": "file:cards/01-jet-ventilation.html"
+    },
+    {
+      "h": "Supraglottic jet ventilation",
+      "b": "file:cards/02-supraglottic-jet-ventilation.html"
+    },
+    {
+      "h": "Treatment of hypoxia during jet ventilation",
+      "b": "file:cards/03-treatment-of-hypoxia-during-jet-ventilation.html"
+    },
+    {
+      "h": "Cancers requiring tracheobronchial stenting",
+      "b": "file:cards/04-cancers-requiring-tracheobronchial-stenting.html"
+    },
+    {
+      "h": "Dental extractions",
+      "b": "file:cards/05-dental-extractions.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/06-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

@@ -1,0 +1,41 @@
+{
+  "t": "tip",
+  "shape": "dummy",
+  "group": "Paeds",
+  "title": "Anaesthesia and the Developing Brain",
+  "cards": [
+    {
+      "h": "The concern",
+      "b": "file:cards/01-the-concern.html"
+    },
+    {
+      "h": "The FDA warning",
+      "b": "file:cards/02-the-fda-warning.html"
+    },
+    {
+      "h": "Human studies",
+      "b": "file:cards/03-human-studies.html"
+    },
+    {
+      "h": "Who is at highest risk",
+      "b": "file:cards/04-who-is-at-highest-risk.html"
+    },
+    {
+      "h": "Critical incidents: APRICOT and NECTARINE",
+      "b": "file:cards/05-critical-incidents-apricot-and-nectarine.html"
+    },
+    {
+      "h": "Talking to parents",
+      "b": "file:cards/06-talking-to-parents.html"
+    },
+    {
+      "h": "Revise from your notes",
+      "links": [
+        "stop:Anaesthesia for the Ex-Preterm Baby",
+        "stop:Neonatal Resuscitation & Fetal Circulation"
+      ]
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

@@ -1,0 +1,13 @@
+{
+  "t": "tip",
+  "shape": "mon",
+  "group": "ICM",
+  "title": "Other ICU Scoring Systems",
+  "cards": [
+    {
+      "h": "Overview",
+      "b": "file:cards/01-overview.html"
+    }
+  ],
+  "q": "file:quiz.json"
+}

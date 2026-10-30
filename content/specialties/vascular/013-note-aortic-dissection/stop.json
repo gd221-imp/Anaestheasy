@@ -1,0 +1,22 @@
+{
+  "t": "tip",
+  "shape": "drop",
+  "group": "Vascular",
+  "title": "Aortic Dissection",
+  "cards": [
+    {
+      "h": "Overview",
+      "b": "file:cards/01-overview.html"
+    },
+    {
+      "h": "Classification",
+      "b": "file:cards/02-classification.html"
+    },
+    {
+      "h": "Stanford",
+      "b": "file:cards/03-stanford.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

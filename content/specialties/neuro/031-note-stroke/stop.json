@@ -1,0 +1,50 @@
+{
+  "t": "tip",
+  "shape": "brain",
+  "group": "Neuro",
+  "title": "Stroke",
+  "cards": [
+    {
+      "h": "Overview",
+      "b": "file:cards/01-overview.html"
+    },
+    {
+      "h": "Classification",
+      "b": "file:cards/02-classification.html"
+    },
+    {
+      "h": "Risk factors",
+      "b": "file:cards/03-risk-factors.html"
+    },
+    {
+      "h": "Pathophysiology of ischaemic stroke",
+      "b": "file:cards/04-pathophysiology-of-ischaemic-stroke.html"
+    },
+    {
+      "h": "Imaging",
+      "b": "file:cards/05-imaging.html"
+    },
+    {
+      "h": "Treatment of ischaemic stroke",
+      "b": "file:cards/06-treatment-of-ischaemic-stroke.html"
+    },
+    {
+      "h": "Anaesthesia",
+      "b": "file:cards/07-anaesthesia.html"
+    },
+    {
+      "h": "The neurointerventional radiology environment",
+      "b": "file:cards/08-the-neurointerventional-radiology-environment.html"
+    },
+    {
+      "h": "Cerebral hyperperfusion syndrome",
+      "b": "file:cards/09-cerebral-hyperperfusion-syndrome.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/10-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

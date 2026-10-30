@@ -1,0 +1,18 @@
+{
+  "t": "tip",
+  "shape": "headn",
+  "group": "Head and neck",
+  "title": "MLT vs Tubeless (Shared Airway Techniques)",
+  "cards": [
+    {
+      "h": "Overview",
+      "b": "file:cards/01-overview.html"
+    },
+    {
+      "h": "Note",
+      "b": "file:cards/02-note.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

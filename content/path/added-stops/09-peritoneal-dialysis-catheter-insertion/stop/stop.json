@@ -1,0 +1,31 @@
+{
+  "t": "recipe",
+  "shape": "kidney",
+  "group": "Urology",
+  "title": "Peritoneal Dialysis Catheter Insertion",
+  "op": true,
+  "cards": [
+    {
+      "h": "Anaesthetic recipe",
+      "b": "file:cards/01-anaesthetic-recipe.html",
+      "recipe": true
+    },
+    {
+      "h": "Chronic Kidney Disease",
+      "noteRef": "Chronic Kidney Disease"
+    },
+    {
+      "h": "Sample WPBA",
+      "b": "file:cards/03-sample-wpba.html",
+      "wpba": true
+    },
+    {
+      "h": "Curriculum",
+      "links": [
+        "curric:8",
+        "curric:9"
+      ]
+    }
+  ],
+  "q": "file:quiz.json"
+}

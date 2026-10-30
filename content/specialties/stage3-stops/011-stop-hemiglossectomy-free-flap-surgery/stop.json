@@ -1,0 +1,39 @@
+{
+  "t": "recipe",
+  "shape": "headn",
+  "group": "Head and neck",
+  "title": "Hemiglossectomy & Free Flap Surgery",
+  "op": true,
+  "cards": [
+    {
+      "h": "Anaesthetic recipe",
+      "b": "file:cards/01-anaesthetic-recipe.html",
+      "recipe": true
+    },
+    {
+      "h": "Oral Cavity, Pharynx & Larynx",
+      "primaryRef": "ana1"
+    },
+    {
+      "h": "Peripheral Circulation & Lymphatics",
+      "primaryRef": "phs9"
+    },
+    {
+      "h": "Hemiglossectomy & Free Flap Surgery",
+      "noteRef": "Hemiglossectomy & Free Flap Surgery"
+    },
+    {
+      "h": "Sample WPBA",
+      "b": "file:cards/05-sample-wpba.html",
+      "wpba": true
+    },
+    {
+      "h": "Curriculum",
+      "links": [
+        "curric:8",
+        "curric:9"
+      ]
+    }
+  ],
+  "q": "file:quiz.json"
+}

@@ -1,0 +1,18 @@
+{
+  "t": "tip",
+  "shape": "bone",
+  "group": "Orthopaedics and Trauma",
+  "title": "Paget's Disease",
+  "cards": [
+    {
+      "h": "Overview",
+      "b": "file:cards/01-overview.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/02-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

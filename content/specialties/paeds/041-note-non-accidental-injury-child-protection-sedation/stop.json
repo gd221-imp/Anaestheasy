@@ -1,0 +1,34 @@
+{
+  "t": "tip",
+  "shape": "dummy",
+  "group": "Paeds",
+  "title": "Non-Accidental Injury, Child Protection & Sedation",
+  "cards": [
+    {
+      "h": "Overview",
+      "b": "file:cards/01-overview.html"
+    },
+    {
+      "h": "Concerning injuries",
+      "b": "file:cards/02-concerning-injuries.html"
+    },
+    {
+      "h": "Predisposing factors",
+      "b": "file:cards/03-predisposing-factors.html"
+    },
+    {
+      "h": "Key points",
+      "b": "file:cards/04-key-points.html"
+    },
+    {
+      "h": "Sedation",
+      "b": "file:cards/05-sedation.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/06-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

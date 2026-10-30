@@ -1,0 +1,122 @@
+[
+  {
+    "q": "Profound bradycardia occurs during insufflation for a laparoscopic cholecystectomy. What is the first step?",
+    "o": [
+      "Give adrenaline",
+      "Ask the surgeon to release the pneumoperitoneum, then give atropine or glycopyrronium",
+      "Start CPR",
+      "Increase volatile",
+      "Give fluid bolus only"
+    ],
+    "a": 1,
+    "why": "Peritoneal stretch causes a vagal response."
+  },
+  {
+    "q": "What causes shoulder-tip pain after laparoscopy?",
+    "o": [
+      "Positioning",
+      "Diaphragmatic irritation from residual CO2",
+      "Port-site pain",
+      "Gallbladder bed",
+      "Brachial plexus stretch"
+    ],
+    "a": 1,
+    "why": "Referred via the phrenic nerve (C3–5)."
+  },
+  {
+    "q": "Which is a contraindication to laparoscopy?",
+    "o": [
+      "Obesity",
+      "Raised ICP or severe heart failure",
+      "Previous surgery",
+      "Age over 70",
+      "Diabetes"
+    ],
+    "a": 1,
+    "why": "Also retinal detachment, right-to-left shunt and uncorrected hypovolaemia."
+  },
+  {
+    "q": "What is the respiratory effect of pneumoperitoneum?",
+    "o": [
+      "Increased FRC",
+      "Reduced FRC and compliance with raised airway pressures",
+      "Lower PaCO2",
+      "No effect",
+      "Increased compliance"
+    ],
+    "a": 1,
+    "why": "Usually intubated and ventilated."
+  },
+  {
+    "q": "Sudden hypotension, desaturation and a fall in EtCO2 during insufflation suggest:",
+    "o": [
+      "Bronchospasm",
+      "CO2 gas embolism",
+      "Anaphylaxis only",
+      "Pneumothorax only",
+      "Light anaesthesia"
+    ],
+    "a": 1,
+    "why": "Stop insufflation, FiO2 1.0, head-down left lateral."
+  },
+  {
+    "q": "According to the Atlanta criteria, pancreatitis is diagnosed with 2 of 3 including:",
+    "o": [
+      "Raised CRP",
+      "Lipase or amylase over 3 times the upper limit of normal",
+      "Fever",
+      "Raised WCC",
+      "Jaundice"
+    ],
+    "a": 1,
+    "why": "Plus typical pain or imaging."
+  },
+  {
+    "q": "What Glasgow score indicates severe pancreatitis?",
+    "o": [
+      "1 or more",
+      "3 or more",
+      "6 or more",
+      "8 or more",
+      "Any"
+    ],
+    "a": 1,
+    "why": "Glasgow (Imrie) score 3 or more."
+  },
+  {
+    "q": "What defines severe acute pancreatitis (revised Atlanta)?",
+    "o": [
+      "Any organ failure",
+      "Organ failure persisting beyond 48 hours",
+      "Raised amylase",
+      "Pseudocyst",
+      "Need for surgery"
+    ],
+    "a": 1,
+    "why": "Moderate is transient organ failure or local complications."
+  },
+  {
+    "q": "Which delayed complication is surgical after cholecystectomy?",
+    "o": [
+      "PONV",
+      "Bile leak",
+      "Shoulder-tip pain",
+      "Surgical emphysema",
+      "Bradycardia"
+    ],
+    "a": 1,
+    "why": "Also retained stones and port-site hernia."
+  },
+  {
+    "q": "What is the hemodynamic effect of reverse Trendelenburg in laparoscopy?",
+    "o": [
+      "Hypertension",
+      "Hypotension from reduced venous return",
+      "Bradycardia only",
+      "No effect",
+      "Raised CVP"
+    ],
+    "a": 1,
+    "why": "Combined with pneumoperitoneum."
+  }
+]

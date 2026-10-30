@@ -1,0 +1,22 @@
+{
+  "t": "tip",
+  "shape": "dummy",
+  "group": "Paeds",
+  "title": "Grommets",
+  "cards": [
+    {
+      "h": "Overview",
+      "b": "file:cards/01-overview.html"
+    },
+    {
+      "h": "The anaesthetic",
+      "b": "file:cards/02-the-anaesthetic.html"
+    },
+    {
+      "h": "Complications",
+      "b": "file:cards/03-complications.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

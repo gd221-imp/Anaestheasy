@@ -1,0 +1,26 @@
+{
+  "t": "tip",
+  "shape": "dummy",
+  "group": "Paeds",
+  "title": "Autistic Spectrum Disorder & Failed IV Access",
+  "cards": [
+    {
+      "h": "Autistic Spectrum Disorder - anaesthetic considerations",
+      "b": "file:cards/01-autistic-spectrum-disorder-anaesthetic-considera.html"
+    },
+    {
+      "h": "The SPACE framework",
+      "b": "file:cards/02-the-space-framework.html"
+    },
+    {
+      "h": "Failed IV access in children - options",
+      "b": "file:cards/03-failed-iv-access-in-children-options.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/04-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

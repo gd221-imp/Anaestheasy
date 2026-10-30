@@ -1,0 +1,18 @@
+[
+  {
+    "id": "Q023",
+    "ar": "Anatomy",
+    "sb": "Vagus nerve",
+    "q": "A patient is having a left vagal nerve stimulator inserted for refractory epilepsy. The electrode is wrapped around the vagus in the neck. Within the carotid sheath, where does the vagus nerve normally lie?",
+    "o": [
+      "Posterior to and between the common carotid artery and internal jugular vein",
+      "Anterior to the internal jugular vein",
+      "Lateral to the internal jugular vein",
+      "Medial to the common carotid artery",
+      "Anterior to the common carotid artery"
+    ],
+    "a": 0,
+    "why": "In the carotid sheath the common/internal carotid artery lies medially, the internal jugular vein laterally and the vagus nerve posteriorly between them. The left side is used for stimulators because the right vagus supplies more fibres to the sinoatrial node, so right-sided stimulation causes more bradycardia. Stimulation can cause hoarseness and cough via the recurrent laryngeal nerve.",
+    "st": null
+  }
+]

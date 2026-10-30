@@ -1,0 +1,122 @@
+[
+  {
+    "q": "What frequency is high-frequency jet ventilation?",
+    "o": [
+      "8–30 per minute",
+      "120–300 per minute",
+      "1000 per minute",
+      "60 per minute",
+      "10 per minute"
+    ],
+    "a": 1,
+    "why": "Low-frequency (Sanders) is 8–30/min."
+  },
+  {
+    "q": "Which mechanisms drive gas exchange in HFJV?",
+    "o": [
+      "Bulk flow only",
+      "Taylor dispersion, Pendelluft, cardiogenic mixing and diffusion",
+      "Convection only",
+      "Diffusion only",
+      "Shunting"
+    ],
+    "a": 1,
+    "why": "Plus bulk flow."
+  },
+  {
+    "q": "What determines minute ventilation in jet ventilation?",
+    "o": [
+      "FiO2",
+      "Driving pressure, rate and inspiratory time",
+      "PEEP only",
+      "Tube size only",
+      "Patient effort"
+    ],
+    "a": 1,
+    "why": "Increase these if hypoxic."
+  },
+  {
+    "q": "What is a disadvantage of subglottic jet ventilation?",
+    "o": [
+      "Vocal cord flutter",
+      "Barotrauma risk and no airway protection",
+      "Poor access",
+      "Volatile delivery",
+      "Easy ETCO2"
+    ],
+    "a": 1,
+    "why": "Also no EtCO2."
+  },
+  {
+    "q": "What is the main danger if outflow is obstructed?",
+    "o": [
+      "Hypoxia only",
+      "Barotrauma, pneumothorax and surgical emphysema",
+      "Bradycardia",
+      "Hypothermia",
+      "Awareness"
+    ],
+    "a": 1,
+    "why": "Gas trapping."
+  },
+  {
+    "q": "Why is TIVA needed?",
+    "o": [
+      "Cheaper",
+      "Volatile cannot be delivered reliably via jet",
+      "Less PONV only",
+      "Better relaxation",
+      "Required by law"
+    ],
+    "a": 1,
+    "why": "Risk of awareness."
+  },
+  {
+    "q": "Which delayed stent complication occurs?",
+    "o": [
+      "Hernia",
+      "Stent migration or granulation and re-stenosis",
+      "Ileus",
+      "PDPH",
+      "Dislocation"
+    ],
+    "a": 1,
+    "why": "Also mucus plugging."
+  },
+  {
+    "q": "Which cancer commonly causes extrinsic airway compression?",
+    "o": [
+      "Prostate",
+      "Oesophageal, thyroid or lymphoma",
+      "Skin",
+      "Bladder",
+      "Kidney"
+    ],
+    "a": 1,
+    "why": "Primary lung cancer causes intrinsic obstruction."
+  },
+  {
+    "q": "What is the first step for hypoxia during jet ventilation?",
+    "o": [
+      "Give more TIVA",
+      "Return to conventional ventilation or check jet alignment and increase driving pressure",
+      "Extubate",
+      "Stop all ventilation",
+      "Give bronchodilator"
+    ],
+    "a": 1,
+    "why": "Then increase rate or inspiratory time."
+  },
+  {
+    "q": "What advantage does supraglottic jet ventilation have?",
+    "o": [
+      "Airway protection",
+      "Optimal surgical access",
+      "EtCO2 monitoring",
+      "Volatile delivery",
+      "No cord movement"
+    ],
+    "a": 1,
+    "why": "But the cords may flutter."
+  }
+]

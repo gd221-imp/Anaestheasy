@@ -1,0 +1,29 @@
+{
+  "t": "tip",
+  "shape": "mon",
+  "group": "ICM",
+  "title": "Venous Thromboembolism (PE) Management",
+  "cards": [
+    {
+      "h": "Risk factors",
+      "b": "file:cards/01-risk-factors.html"
+    },
+    {
+      "h": "PE probability scoring",
+      "b": "file:cards/02-pe-probability-scoring.html"
+    },
+    {
+      "h": "Key points",
+      "b": "file:cards/03-key-points.html"
+    },
+    {
+      "h": "Classification",
+      "b": "file:cards/04-classification.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/05-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json"
+}

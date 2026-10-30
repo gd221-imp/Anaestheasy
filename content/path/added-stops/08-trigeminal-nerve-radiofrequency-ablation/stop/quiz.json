@@ -1,0 +1,62 @@
+[
+  {
+    "q": "Why might anaesthesia be lightened during trigeminal ablation?",
+    "o": [
+      "So the patient can respond during sensory testing",
+      "To check blood pressure",
+      "To reduce PONV",
+      "To speed turnover",
+      "To allow intubation"
+    ],
+    "a": 0,
+    "why": "Some surgeons test the needle position with the patient responding before lesioning."
+  },
+  {
+    "q": "Which drug is first line for trigeminal neuralgia?",
+    "o": [
+      "Amitriptyline",
+      "Morphine",
+      "Paracetamol",
+      "Carbamazepine",
+      "Gabapentin"
+    ],
+    "a": 3,
+    "why": "Carbamazepine; check sodium as it can cause hyponatraemia."
+  },
+  {
+    "q": "What can happen with needle placement through the foramen ovale?",
+    "o": [
+      "Tachycardia",
+      "Hyperthermia",
+      "Polyuria",
+      "Bradycardia from the trigeminocardiac reflex",
+      "Bronchospasm"
+    ],
+    "a": 3,
+    "why": "Trigeminal stimulation can cause sudden bradycardia; atropine should be ready."
+  },
+  {
+    "q": "What advice is given if the cornea is numb after ablation?",
+    "o": [
+      "Wear a sling",
+      "Lie flat for 24 hours",
+      "Avoid eating",
+      "None needed",
+      "Protect the eye"
+    ],
+    "a": 4,
+    "why": "A numb cornea can be damaged without the patient noticing."
+  },
+  {
+    "q": "Why induce on the table before rotating it?",
+    "o": [
+      "It reduces PONV",
+      "It is quicker to clean",
+      "The airway is distant once the table is turned",
+      "It improves the X-ray",
+      "It is the only option"
+    ],
+    "a": 2,
+    "why": "Secure the airway before the head end moves away from you."
+  }
+]

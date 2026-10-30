@@ -1,0 +1,48 @@
+{
+  "t": "recipe",
+  "shape": "drop",
+  "group": "Vascular",
+  "title": "Thrombectomy (Ischaemic Stroke)",
+  "op": true,
+  "cards": [
+    {
+      "h": "Anaesthetic recipe",
+      "b": "file:cards/01-anaesthetic-recipe.html",
+      "recipe": true
+    },
+    {
+      "h": "Circle of Willis",
+      "primaryRef": "ana22"
+    },
+    {
+      "h": "The Brain: Anatomy, Blood Flow & Intracranial Pressure",
+      "primaryRef": "phs42"
+    },
+    {
+      "h": "Thrombectomy (Ischaemic Stroke)",
+      "noteRef": "Thrombectomy (Ischaemic Stroke)"
+    },
+    {
+      "h": "Stroke",
+      "noteRef": "Stroke"
+    },
+    {
+      "h": "Neuroprotection & Neuroradiology Anaesthesia",
+      "noteRef": "Neuroprotection & Neuroradiology Anaesthesia"
+    },
+    {
+      "h": "Sample WPBA",
+      "b": "file:cards/07-sample-wpba.html",
+      "wpba": true
+    },
+    {
+      "h": "Curriculum",
+      "links": [
+        "curric:9",
+        "curric:11",
+        "curric:12"
+      ]
+    }
+  ],
+  "q": "file:quiz.json"
+}

@@ -1,0 +1,58 @@
+{
+  "t": "tip",
+  "shape": "brain",
+  "group": "Neuro",
+  "title": "Raised ICP & Subarachnoid Haemorrhage",
+  "cards": [
+    {
+      "h": "The ICP waveform is triphasic (P1, P2, P3)",
+      "b": "file:cards/01-the-icp-waveform-is-triphasic-p1-p2-p3.html"
+    },
+    {
+      "h": "Subarachnoid Haemorrhage",
+      "b": "file:cards/02-subarachnoid-haemorrhage.html"
+    },
+    {
+      "h": "Clinical features",
+      "b": "file:cards/03-clinical-features.html"
+    },
+    {
+      "h": "Grading",
+      "b": "file:cards/04-grading.html"
+    },
+    {
+      "h": "Complications",
+      "b": "file:cards/05-complications.html"
+    },
+    {
+      "h": "Cerebral vasospasm",
+      "b": "file:cards/06-cerebral-vasospasm.html"
+    },
+    {
+      "h": "Outcomes",
+      "b": "file:cards/07-outcomes.html"
+    },
+    {
+      "h": "Management",
+      "b": "file:cards/08-management.html"
+    },
+    {
+      "h": "Endovascular coiling",
+      "b": "file:cards/09-endovascular-coiling.html"
+    },
+    {
+      "h": "Anaesthesia for aneurysm surgery",
+      "b": "file:cards/10-anaesthesia-for-aneurysm-surgery.html"
+    },
+    {
+      "h": "Pathophysiology of raised ICP and herniation",
+      "b": "file:cards/11-pathophysiology-of-raised-icp-and-herniation.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/12-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

@@ -1,0 +1,12 @@
+[
+  {
+    "q": "What are the current UK fasting times for clear fluids in children?",
+    "o": [
+      "Up to 1 hour before induction",
+      "2 hours",
+      "4 hours"
+    ],
+    "a": 0,
+    "why": "The 2018 APA consensus (\"6-4-1\": solids/formula 6 h, breast milk 4 h, clear fluids to 1 h; US/Miller still uses 6-4-2) encourages clear fluids until 1 hour before induction."
+  }
+]

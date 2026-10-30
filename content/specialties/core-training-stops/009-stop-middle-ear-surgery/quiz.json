@@ -1,0 +1,122 @@
+[
+  {
+    "q": "Why is nitrous oxide avoided in middle ear surgery?",
+    "o": [
+      "Causes hypertension",
+      "It diffuses into the closed middle ear faster than nitrogen leaves, raising pressure and lifting the graft",
+      "Causes bleeding",
+      "MH trigger",
+      "Delays waking"
+    ],
+    "a": 1,
+    "why": "Also increases PONV."
+  },
+  {
+    "q": "Why are long-acting relaxants avoided after intubation?",
+    "o": [
+      "Faster waking",
+      "To allow facial nerve monitoring",
+      "Less PONV",
+      "Lower cost",
+      "To reduce bleeding"
+    ],
+    "a": 1,
+    "why": "Remifentanil helps immobility."
+  },
+  {
+    "q": "Why is controlled hypotension requested?",
+    "o": [
+      "To reduce PONV",
+      "To improve the surgical field in a vascular confined area",
+      "To speed surgery",
+      "For nerve monitoring",
+      "Never"
+    ],
+    "a": 1,
+    "why": "Within safe limits."
+  },
+  {
+    "q": "Why is PONV particularly undesirable?",
+    "o": [
+      "Delays discharge only",
+      "Straining and vomiting risk the graft or reconstruction",
+      "Causes bleeding only",
+      "Not important",
+      "Causes awareness"
+    ],
+    "a": 1,
+    "why": "Use multimodal prophylaxis."
+  },
+  {
+    "q": "What is a risk of adrenaline infiltration?",
+    "o": [
+      "Hypotension",
+      "Arrhythmia",
+      "Bradycardia",
+      "Bronchospasm",
+      "Hypoglycaemia"
+    ],
+    "a": 1,
+    "why": "Watch the ECG."
+  },
+  {
+    "q": "Which is an example of middle ear surgery?",
+    "o": [
+      "Septoplasty",
+      "Stapedectomy",
+      "Tonsillectomy",
+      "Thyroidectomy",
+      "FESS"
+    ],
+    "a": 1,
+    "why": "Also myringoplasty and cochlear implant."
+  },
+  {
+    "q": "How is the head positioned?",
+    "o": [
+      "Neutral",
+      "Turned away from the operative side",
+      "Extended",
+      "Flexed",
+      "Prone"
+    ],
+    "a": 1,
+    "why": "Secure the ETT carefully."
+  },
+  {
+    "q": "Which delayed surgical complication is common?",
+    "o": [
+      "Ileus",
+      "Vertigo or tinnitus",
+      "Hernia",
+      "PDPH",
+      "Hypocalcaemia"
+    ],
+    "a": 1,
+    "why": "Also hearing loss."
+  },
+  {
+    "q": "Which nerve is at risk?",
+    "o": [
+      "Trigeminal",
+      "Facial",
+      "Vagus",
+      "Phrenic",
+      "Hypoglossal"
+    ],
+    "a": 1,
+    "why": "Facial nerve injury."
+  },
+  {
+    "q": "Which maintenance technique is in the recipe?",
+    "o": [
+      "Volatile with N2O",
+      "TIVA",
+      "Ketamine",
+      "Spinal",
+      "Sedation"
+    ],
+    "a": 1,
+    "why": "TIVA, no N2O."
+  }
+]

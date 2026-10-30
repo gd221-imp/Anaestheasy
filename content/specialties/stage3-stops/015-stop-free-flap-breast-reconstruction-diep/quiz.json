@@ -1,0 +1,122 @@
+[
+  {
+    "q": "Which vessels supply a DIEP flap?",
+    "o": [
+      "Superior epigastric",
+      "Deep inferior epigastric perforators",
+      "Internal mammary only",
+      "Femoral",
+      "Circumflex iliac"
+    ],
+    "a": 1,
+    "why": "Anastomosed to internal mammary vessels."
+  },
+  {
+    "q": "What are the four flap goals summarised in the recipe?",
+    "o": [
+      "Cold, dry, still, tight",
+      "Warm, well filled, pain-free and calm",
+      "Hypotensive, dry, cold, sedated",
+      "Hypertensive, wet, hot",
+      "None"
+    ],
+    "a": 1,
+    "why": "Avoid vasoconstriction."
+  },
+  {
+    "q": "Which analgesic catheters are planned?",
+    "o": [
+      "Interscalene",
+      "TAP or rectus sheath catheters",
+      "Femoral",
+      "Caudal",
+      "Paravertebral only"
+    ],
+    "a": 1,
+    "why": "For the abdominal donor site."
+  },
+  {
+    "q": "Which delayed surgical complication affects the donor site?",
+    "o": [
+      "Pneumothorax",
+      "Abdominal wall hernia",
+      "Lymphoedema",
+      "Ptosis",
+      "Stroke"
+    ],
+    "a": 1,
+    "why": "Also fat necrosis."
+  },
+  {
+    "q": "How often are flap observations done initially?",
+    "o": [
+      "Daily",
+      "Hourly",
+      "Weekly",
+      "Every 6 hours",
+      "Not done"
+    ],
+    "a": 1,
+    "why": "Colour, CRT, temperature, Doppler."
+  },
+  {
+    "q": "Which immediate anaesthetic issue compromises the flap?",
+    "o": [
+      "Hyperthermia",
+      "Hypotension or hypothermia",
+      "Hypercapnia",
+      "Bradycardia only",
+      "Awareness"
+    ],
+    "a": 1,
+    "why": "Maintain perfusion."
+  },
+  {
+    "q": "How should vasopressors be used?",
+    "o": [
+      "Never",
+      "Cautiously, after optimising filling",
+      "Liberally",
+      "Only adrenaline",
+      "Only before induction"
+    ],
+    "a": 1,
+    "why": "Avoid excessive vasoconstriction."
+  },
+  {
+    "q": "Which fluid strategy is used?",
+    "o": [
+      "Restrictive always",
+      "Goal-directed fluids",
+      "Liberal crystalloid",
+      "Colloid only",
+      "None"
+    ],
+    "a": 1,
+    "why": "Cardiac output monitoring."
+  },
+  {
+    "q": "Which relative contraindication to free flap is common in breast patients?",
+    "o": [
+      "Young age",
+      "Smoking or obesity",
+      "Previous mastectomy",
+      "Breastfeeding",
+      "Hypertension"
+    ],
+    "a": 1,
+    "why": "Increase failure risk."
+  },
+  {
+    "q": "Which delayed anaesthetic complication follows long procedures?",
+    "o": [
+      "MH",
+      "VTE",
+      "PDPH",
+      "Laryngospasm",
+      "Hypercalcaemia"
+    ],
+    "a": 1,
+    "why": "Also PONV."
+  }
+]

@@ -1,0 +1,30 @@
+{
+  "t": "tip",
+  "shape": "bone",
+  "group": "Orthopaedics and Trauma",
+  "title": "Bone Cement Implantation Syndrome",
+  "cards": [
+    {
+      "h": "Classification",
+      "b": "file:cards/01-classification.html"
+    },
+    {
+      "h": "Risk factors",
+      "b": "file:cards/02-risk-factors.html"
+    },
+    {
+      "h": "Prevention",
+      "b": "file:cards/03-prevention.html"
+    },
+    {
+      "h": "Fat Embolism",
+      "b": "file:cards/04-fat-embolism.html"
+    },
+    {
+      "h": "Compartment Syndrome",
+      "b": "file:cards/05-compartment-syndrome.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

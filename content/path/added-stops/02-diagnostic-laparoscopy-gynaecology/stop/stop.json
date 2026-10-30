@@ -1,0 +1,35 @@
+{
+  "t": "recipe",
+  "shape": "belly",
+  "group": "Gynaecology",
+  "title": "Diagnostic Laparoscopy (Gynaecology)",
+  "op": true,
+  "cards": [
+    {
+      "h": "Anaesthetic recipe",
+      "b": "file:cards/01-anaesthetic-recipe.html",
+      "recipe": true
+    },
+    {
+      "h": "Day Case Surgery",
+      "noteRef": "Day Case Surgery"
+    },
+    {
+      "h": "Robotic vs Laparoscopic vs Open Surgery",
+      "noteRef": "Robotic vs Laparoscopic vs Open Surgery"
+    },
+    {
+      "h": "Sample WPBA",
+      "b": "file:cards/04-sample-wpba.html",
+      "wpba": true
+    },
+    {
+      "h": "Curriculum",
+      "links": [
+        "curric:8",
+        "curric:9"
+      ]
+    }
+  ],
+  "q": "file:quiz.json"
+}

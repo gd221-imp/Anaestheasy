@@ -1,0 +1,122 @@
+[
+  {
+    "q": "Which block is used for open inguinal hernia repair?",
+    "o": [
+      "Femoral",
+      "Ilioinguinal (and iliohypogastric) block or surgeon infiltration",
+      "Interscalene",
+      "Popliteal",
+      "Penile"
+    ],
+    "a": 1,
+    "why": "With an LMA."
+  },
+  {
+    "q": "What should be checked as a cause of the hernia?",
+    "o": [
+      "Asthma",
+      "Chronic cough or constipation",
+      "Diabetes",
+      "Hypertension",
+      "Anaemia"
+    ],
+    "a": 1,
+    "why": "Raised intra-abdominal pressure."
+  },
+  {
+    "q": "Which anaesthetic immediate complication is linked to LMA during surgical stimulation?",
+    "o": [
+      "Hypertension",
+      "Laryngospasm",
+      "Bronchospasm only",
+      "Aspiration only",
+      "Hypoxia from atelectasis"
+    ],
+    "a": 1,
+    "why": "Ensure adequate depth."
+  },
+  {
+    "q": "Why is LA toxicity a risk?",
+    "o": [
+      "Spinal used",
+      "Block plus surgeon infiltration can exceed the maximum dose",
+      "High protein binding",
+      "Long surgery",
+      "Not a risk"
+    ],
+    "a": 1,
+    "why": "Calculate total doses."
+  },
+  {
+    "q": "Which delayed surgical complication is common?",
+    "o": [
+      "Ileus",
+      "Chronic groin pain",
+      "Pneumothorax",
+      "Stroke",
+      "Hypocalcaemia"
+    ],
+    "a": 1,
+    "why": "Also recurrence."
+  },
+  {
+    "q": "Which factor favours inpatient over day case?",
+    "o": [
+      "Short procedure",
+      "Need for IV analgesia post-op",
+      "Healthy patient",
+      "Nearby home",
+      "Carer present"
+    ],
+    "a": 1,
+    "why": "Also risk of haemorrhage."
+  },
+  {
+    "q": "Which delayed anaesthetic complication may delay discharge?",
+    "o": [
+      "Laryngospasm",
+      "Urinary retention",
+      "Bradycardia",
+      "Hypertension",
+      "Hypoxia"
+    ],
+    "a": 1,
+    "why": "Also PONV."
+  },
+  {
+    "q": "Which drugs suit day-case hernia repair?",
+    "o": [
+      "Long-acting opioids",
+      "Short-acting drugs with good antiemetics",
+      "Morphine PCA",
+      "Ketamine infusion",
+      "Volatile only"
+    ],
+    "a": 1,
+    "why": "Quick recovery."
+  },
+  {
+    "q": "What social factor excludes day-case surgery?",
+    "o": [
+      "Lives 30 minutes away",
+      "No responsible adult or more than 1 hour from hospital",
+      "Has a phone",
+      "Lives with family",
+      "Car available"
+    ],
+    "a": 1,
+    "why": "Day case social criteria."
+  },
+  {
+    "q": "Which nerve is at risk of injury in inguinal surgery?",
+    "o": [
+      "Femoral",
+      "Ilioinguinal",
+      "Sciatic",
+      "Obturator",
+      "Pudendal"
+    ],
+    "a": 1,
+    "why": "Contributes to chronic groin pain."
+  }
+]

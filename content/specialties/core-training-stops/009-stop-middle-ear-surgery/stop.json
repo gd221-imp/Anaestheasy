@@ -1,0 +1,39 @@
+{
+  "t": "recipe",
+  "shape": "headn",
+  "group": "Head and neck",
+  "title": "Middle Ear Surgery",
+  "op": true,
+  "cards": [
+    {
+      "h": "Anaesthetic recipe",
+      "b": "file:cards/01-anaesthetic-recipe.html",
+      "recipe": true
+    },
+    {
+      "h": "Nausea & Vomiting",
+      "primaryRef": "phs38"
+    },
+    {
+      "h": "Inhalational Anaesthetic Pharmacokinetics",
+      "primaryRef": "pha9"
+    },
+    {
+      "h": "Middle Ear Surgery",
+      "noteRef": "Middle Ear Surgery"
+    },
+    {
+      "h": "Sample WPBA",
+      "b": "file:cards/05-sample-wpba.html",
+      "wpba": true
+    },
+    {
+      "h": "Curriculum",
+      "links": [
+        "curric:8",
+        "curric:9"
+      ]
+    }
+  ],
+  "q": "file:quiz.json"
+}

@@ -1,0 +1,47 @@
+{
+  "t": "recipe",
+  "shape": "brain",
+  "group": "Neuro",
+  "title": "Posterior Fossa Surgery",
+  "op": true,
+  "cards": [
+    {
+      "h": "Anaesthetic recipe",
+      "b": "file:cards/01-anaesthetic-recipe.html",
+      "recipe": true
+    },
+    {
+      "h": "Skull Base",
+      "primaryRef": "ana21"
+    },
+    {
+      "h": "The Brain: Anatomy, Blood Flow & Intracranial Pressure",
+      "primaryRef": "phs42"
+    },
+    {
+      "h": "Posterior Fossa Surgery",
+      "noteRef": "Posterior Fossa Surgery"
+    },
+    {
+      "h": "Delayed Emergence Following Neurosurgery",
+      "noteRef": "Delayed Emergence Following Neurosurgery"
+    },
+    {
+      "h": "CSF Physiology & Hydrocephalus",
+      "noteRef": "CSF Physiology & Hydrocephalus"
+    },
+    {
+      "h": "Sample WPBA",
+      "b": "file:cards/07-sample-wpba.html",
+      "wpba": true
+    },
+    {
+      "h": "Curriculum",
+      "links": [
+        "curric:8",
+        "curric:9"
+      ]
+    }
+  ],
+  "q": "file:quiz.json"
+}

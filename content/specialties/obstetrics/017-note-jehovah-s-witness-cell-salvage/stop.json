@@ -1,0 +1,30 @@
+{
+  "t": "tip",
+  "shape": "belly",
+  "group": "Obstetrics",
+  "title": "Jehovah's Witness & Cell Salvage",
+  "cards": [
+    {
+      "h": "Overview",
+      "b": "file:cards/01-overview.html"
+    },
+    {
+      "h": "Optimising the options for a patient declining blood products",
+      "b": "file:cards/02-optimising-the-options-for-a-patient-declining-b.html"
+    },
+    {
+      "h": "Cell salvage",
+      "b": "file:cards/03-cell-salvage.html"
+    },
+    {
+      "h": "Advantages",
+      "b": "file:cards/04-advantages.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/05-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

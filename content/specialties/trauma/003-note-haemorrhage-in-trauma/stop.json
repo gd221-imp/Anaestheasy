@@ -1,0 +1,34 @@
+{
+  "t": "tip",
+  "shape": "cross",
+  "group": "Orthopaedics and Trauma",
+  "title": "Haemorrhage in Trauma",
+  "cards": [
+    {
+      "h": "Sources",
+      "b": "file:cards/01-sources.html"
+    },
+    {
+      "h": "Classification (ATLS)",
+      "b": "file:cards/02-classification-atls.html"
+    },
+    {
+      "h": "Management",
+      "b": "file:cards/03-management.html"
+    },
+    {
+      "h": "Massive transfusion",
+      "b": "file:cards/04-massive-transfusion.html"
+    },
+    {
+      "h": "Complications of massive blood transfusion",
+      "b": "file:cards/05-complications-of-massive-blood-transfusion.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/06-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

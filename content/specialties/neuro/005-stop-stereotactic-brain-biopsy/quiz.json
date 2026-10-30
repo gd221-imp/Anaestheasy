@@ -1,0 +1,122 @@
+[
+  {
+    "q": "What is the main airway concern during frame-based stereotactic surgery?",
+    "o": [
+      "Large tongue",
+      "The frame limits airway access: have the frame key and a plan ready",
+      "Bronchospasm",
+      "Nasal bleeding",
+      "None"
+    ],
+    "a": 1,
+    "why": "The frame limits mask and laryngoscope access; keep the frame key with the patient and plan airway rescue."
+  },
+  {
+    "q": "What are the advantages of frameless stereotaxy?",
+    "o": [
+      "Shorter setup and more airway access",
+      "Less normal brain damage and a smaller craniotomy",
+      "No image guidance",
+      "No need for GA",
+      "Lower cost always"
+    ],
+    "a": 1,
+    "why": "Frameless techniques reduce normal brain damage and use smaller craniotomies, but bring more equipment and reduced airway access."
+  },
+  {
+    "q": "Which is a contraindication to stereotactic biopsy under local anaesthetic and sedation?",
+    "o": [
+      "Age over 70",
+      "Significant OSA or a chronic cough",
+      "Hypertension",
+      "Diabetes",
+      "Previous craniotomy"
+    ],
+    "a": 1,
+    "why": "Inability to lie still or comply, movement disorders, chronic cough, significant OSA, difficult airway and severe anxiety all argue against LA and sedation."
+  },
+  {
+    "q": "What is the most important complication to watch for after brain biopsy?",
+    "o": [
+      "PONV only",
+      "Intracranial haemorrhage",
+      "Pneumothorax",
+      "DVT within 1 hour",
+      "Hypothermia"
+    ],
+    "a": 1,
+    "why": "Haemorrhage at the biopsy site causes new deficits or reduced GCS; do neuro observations."
+  },
+  {
+    "q": "A patient for brain biopsy has a drug-eluting stent placed 3 months ago and takes aspirin and clopidogrel. What is the best approach?",
+    "o": [
+      "Stop both and proceed tomorrow",
+      "Liaise with cardiology; consider continuing aspirin with bridging if surgery cannot be delayed",
+      "Proceed on both",
+      "Stop aspirin only",
+      "Cancel surgery permanently"
+    ],
+    "a": 1,
+    "why": "Discuss with cardiology; intracranial surgery has high bleeding risk but stent thrombosis is a major risk within 6 months."
+  },
+  {
+    "q": "What inheritance pattern does neurofibromatosis have?",
+    "o": [
+      "Autosomal recessive",
+      "Autosomal dominant",
+      "X-linked",
+      "Mitochondrial",
+      "Sporadic only"
+    ],
+    "a": 1,
+    "why": "NF is autosomal dominant; type 1 causes peripheral neurofibromas, type 2 bilateral vestibular schwannomas."
+  },
+  {
+    "q": "Why should BP be checked for secondary causes in neurofibromatosis?",
+    "o": [
+      "NF causes Conn’s",
+      "Associated phaeochromocytoma, renal artery stenosis or coarctation",
+      "NF causes hypotension",
+      "It is not relevant",
+      "NF causes thyrotoxicosis"
+    ],
+    "a": 1,
+    "why": "Hypertension in NF may be from phaeochromocytoma, renal artery stenosis or coarctation."
+  },
+  {
+    "q": "A patient is slow to wake after craniotomy. Which metabolic cause should be excluded first?",
+    "o": [
+      "Hypercalcaemia",
+      "Hypoglycaemia",
+      "Hypermagnesaemia",
+      "Hyperphosphataemia",
+      "Hypokalaemia"
+    ],
+    "a": 1,
+    "why": "Check glucose early; also sodium, temperature, residual drugs, raised ICP, seizures (including non-convulsive) and pneumocephalus."
+  },
+  {
+    "q": "Which drug can unmask myasthenia gravis and delay emergence?",
+    "o": [
+      "Paracetamol",
+      "Aminoglycoside antibiotics",
+      "Ondansetron",
+      "Dexamethasone",
+      "Ceftriaxone"
+    ],
+    "a": 1,
+    "why": "Magnesium, aminoglycosides and lithium can worsen myasthenic or Lambert–Eaton weakness."
+  },
+  {
+    "q": "What causes hypertension at pin or frame application, and how is it prevented?",
+    "o": [
+      "Hypoxia; give oxygen",
+      "Intense stimulation; use local anaesthetic infiltration or remifentanil beforehand",
+      "Hypovolaemia; give fluid",
+      "Raised ICP; give mannitol",
+      "Pain is not a factor"
+    ],
+    "a": 1,
+    "why": "Pinning is very stimulating; infiltrate local anaesthetic or deepen with remifentanil first."
+  }
+]

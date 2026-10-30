@@ -1,0 +1,62 @@
+[
+  {
+    "q": "What happens when the patient is sat up to check symmetry?",
+    "o": [
+      "Hypotension",
+      "Bronchospasm",
+      "Hyperthermia",
+      "Hyperkalaemia",
+      "Hypertension"
+    ],
+    "a": 0,
+    "why": "Venous pooling causes hypotension; secure the airway and pad well before sitting up."
+  },
+  {
+    "q": "Why give tranexamic acid in breast reduction?",
+    "o": [
+      "To reduce PONV",
+      "To reduce bleeding and haematoma",
+      "To prevent VTE",
+      "To speed emergence",
+      "To lower BP"
+    ],
+    "a": 1,
+    "why": "Breast reduction is vascular surgery with a risk of haematoma."
+  },
+  {
+    "q": "Why is TIVA often chosen for breast surgery?",
+    "o": [
+      "It is cheaper",
+      "It needs no monitoring",
+      "It reduces PONV in a high-risk group",
+      "It avoids needing an airway",
+      "It shortens surgery"
+    ],
+    "a": 2,
+    "why": "Young women having breast surgery are at high PONV risk."
+  },
+  {
+    "q": "What arm position should be avoided?",
+    "o": [
+      "Arms padded",
+      "Arms on boards at 80 degrees",
+      "Abduction beyond 90 degrees",
+      "Arms by the sides",
+      "Arms secured"
+    ],
+    "a": 2,
+    "why": "Over-abduction risks brachial plexus injury."
+  },
+  {
+    "q": "Which regional techniques can help in breast surgery?",
+    "o": [
+      "Femoral block",
+      "PECS or erector spinae blocks",
+      "Sciatic block",
+      "Caudal block",
+      "Interscalene block"
+    ],
+    "a": 1,
+    "why": "Chest wall blocks reduce opioid requirements."
+  }
+]

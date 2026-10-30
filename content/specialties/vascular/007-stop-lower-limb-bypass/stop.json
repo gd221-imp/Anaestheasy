@@ -1,0 +1,48 @@
+{
+  "t": "recipe",
+  "shape": "drop",
+  "group": "Vascular",
+  "title": "Lower Limb Bypass",
+  "op": true,
+  "cards": [
+    {
+      "h": "Anaesthetic recipe",
+      "b": "file:cards/01-anaesthetic-recipe.html",
+      "recipe": true
+    },
+    {
+      "h": "Peripheral Circulation & Lymphatics",
+      "primaryRef": "phs9"
+    },
+    {
+      "h": "Coagulation Cascade & Clotting Factors",
+      "primaryRef": "phs47"
+    },
+    {
+      "h": "Rhabdomyolysis",
+      "noteRef": "Rhabdomyolysis"
+    },
+    {
+      "h": "Spinal Cord Stimulator & Diabetic Neuropathy",
+      "noteRef": "Spinal Cord Stimulator & Diabetic Neuropathy"
+    },
+    {
+      "h": "Chronic Kidney Disease",
+      "noteRef": "Chronic Kidney Disease"
+    },
+    {
+      "h": "Sample WPBA",
+      "b": "file:cards/07-sample-wpba.html",
+      "wpba": true
+    },
+    {
+      "h": "Curriculum",
+      "links": [
+        "curric:8",
+        "curric:9",
+        "curric:10"
+      ]
+    }
+  ],
+  "q": "file:quiz.json"
+}

@@ -1,0 +1,122 @@
+[
+  {
+    "q": "Which block is commonly used for hypospadias repair?",
+    "o": [
+      "Interscalene",
+      "Caudal (or penile) block",
+      "Femoral",
+      "Paravertebral",
+      "TAP"
+    ],
+    "a": 1,
+    "why": "Some surgeons avoid caudals; discuss beforehand."
+  },
+  {
+    "q": "Which drug treats bladder spasm after hypospadias repair?",
+    "o": [
+      "Hyoscine",
+      "Oxybutynin",
+      "Morphine",
+      "Ondansetron",
+      "Ketamine"
+    ],
+    "a": 1,
+    "why": "Bladder spasm causes pain around the catheter."
+  },
+  {
+    "q": "Which is a delayed surgical complication?",
+    "o": [
+      "Hernia",
+      "Urethral fistula",
+      "Testicular atrophy",
+      "Hydrocele",
+      "Varicocele"
+    ],
+    "a": 1,
+    "why": "Also meatal stenosis and wound breakdown."
+  },
+  {
+    "q": "Which caudal complication is immediate?",
+    "o": [
+      "Leg weakness the next day",
+      "Dural puncture or intravascular injection",
+      "Urinary retention",
+      "PONV",
+      "Itch"
+    ],
+    "a": 1,
+    "why": "Leg weakness and retention are delayed."
+  },
+  {
+    "q": "What volume of local anaesthetic is usually given for a sacral caudal (Armitage)?",
+    "o": [
+      "0.1 ml/kg",
+      "0.5 ml/kg",
+      "2 ml/kg",
+      "5 ml/kg",
+      "10 ml/kg"
+    ],
+    "a": 1,
+    "why": "0.5 ml/kg sacral, 1 ml/kg lumbar, 1.25 ml/kg mid-thoracic."
+  },
+  {
+    "q": "Which landmark is used for a caudal?",
+    "o": [
+      "L4/5 interspace",
+      "The sacral hiatus between the sacral cornua",
+      "Iliac crest",
+      "Coccyx tip",
+      "S1 foramen"
+    ],
+    "a": 1,
+    "why": "Feel the click through the sacrococcygeal membrane."
+  },
+  {
+    "q": "Which factor favours inpatient over day-case care?",
+    "o": [
+      "Short surgery",
+      "Need for IV analgesia post-op",
+      "Healthy child",
+      "Living nearby",
+      "Predictable surgery"
+    ],
+    "a": 1,
+    "why": "Also prolonged surgery and risk of haemorrhage."
+  },
+  {
+    "q": "What is the maximum bupivacaine dose for caudal in children?",
+    "o": [
+      "1 mg/kg",
+      "2.5 mg/kg",
+      "5 mg/kg",
+      "7 mg/kg",
+      "0.5 mg/kg"
+    ],
+    "a": 1,
+    "why": "Bupivacaine 2.5 mg/kg."
+  },
+  {
+    "q": "What should be checked before discharge after a caudal?",
+    "o": [
+      "Passing urine and leg power",
+      "Platelets",
+      "CXR",
+      "Glucose",
+      "Temperature only"
+    ],
+    "a": 0,
+    "why": "Urinary retention and leg weakness after a caudal."
+  },
+  {
+    "q": "Which is the main airway device for hypospadias repair?",
+    "o": [
+      "ETT always",
+      "LMA",
+      "Tracheostomy",
+      "Facemask",
+      "Nasal tube"
+    ],
+    "a": 1,
+    "why": "Gas or IV induction with an LMA."
+  }
+]

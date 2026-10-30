@@ -1,0 +1,122 @@
+[
+  {
+    "q": "A patient with mitral stenosis develops fast AF and becomes breathless. Why does tachycardia cause decompensation?",
+    "o": [
+      "It increases afterload",
+      "It shortens diastole, reducing filling across the stenotic valve",
+      "It increases mitral regurgitation",
+      "It reduces pulmonary pressures",
+      "It causes hypercalcaemia"
+    ],
+    "a": 1,
+    "why": "MS is a fixed cardiac output state. Tachycardia shortens diastolic filling time, raising LA pressure and causing pulmonary oedema. Control the rate."
+  },
+  {
+    "q": "Which is the most common cause of mitral stenosis?",
+    "o": [
+      "Degenerative calcification",
+      "Rheumatic heart disease",
+      "Endocarditis",
+      "Congenital parachute valve",
+      "Carcinoid"
+    ],
+    "a": 1,
+    "why": "Rheumatic heart disease is the commonest cause; patients often present in AF. Dyspnoea does not always match the severity of stenosis."
+  },
+  {
+    "q": "Three days after an inferior MI, a patient develops acute severe mitral regurgitation. Which papillary muscle has most likely ruptured, and why?",
+    "o": [
+      "Anterolateral; single supply from the RCA",
+      "Posteromedial; single supply from the RCA",
+      "Anterolateral; dual supply from LAD and LCx",
+      "Posteromedial; dual supply from LAD and LCx",
+      "Neither: papillary muscles do not rupture"
+    ],
+    "a": 1,
+    "why": "The posteromedial papillary muscle has a single blood supply (usually from the RCA), so it is vulnerable after inferior MI. The anterolateral muscle has a dual supply (LAD/LCx)."
+  },
+  {
+    "q": "On TOE, which finding indicates severe mitral regurgitation?",
+    "o": [
+      "Jet area 2 cm²",
+      "Vena contracta ≥0.7 cm or a central jet over 40% of LA area",
+      "Jet area 4 cm²",
+      "Valve area 4–5 cm²",
+      "Normal LA size"
+    ],
+    "a": 1,
+    "why": "Severe MR: vena contracta ≥0.7 cm, central jet over 40% of LA area (over 10 cm²), regurgitant volume ≥60 ml, regurgitant fraction ≥50% or EROA ≥0.4 cm²; also assess PA pressure."
+  },
+  {
+    "q": "Why is TOE performed before cardioversion in a patient with AF for more than 48 hours who is not anticoagulated?",
+    "o": [
+      "To measure ejection fraction",
+      "To exclude left atrial (appendage) thrombus",
+      "To check the oesophagus for varices",
+      "To guide pad placement",
+      "To assess the aortic valve"
+    ],
+    "a": 1,
+    "why": "Thrombus can form in the LA appendage after 48 hours of AF; cardioversion could dislodge it and cause a stroke."
+  },
+  {
+    "q": "What is the most appropriate anaesthetic approach for an elective TOE-guided cardioversion?",
+    "o": [
+      "Spinal anaesthesia",
+      "Short-acting rapid-onset agent, fasted patient, full monitoring",
+      "Long-acting volatile with an ETT",
+      "No sedation",
+      "Ketamine infusion"
+    ],
+    "a": 1,
+    "why": "An elective cardioversion is a short procedure: fasted, full AAGBI monitoring, a rapid-onset short-acting agent (e.g. propofol), pads applied before induction."
+  },
+  {
+    "q": "Cardioversion fails after three synchronised biphasic shocks in an unstable patient. What is the next step?",
+    "o": [
+      "Adenosine 6 mg",
+      "Amiodarone 300 mg IV, then repeat the shock",
+      "Digoxin 500 mcg",
+      "Verapamil 5 mg",
+      "Stop and send to ward"
+    ],
+    "a": 1,
+    "why": "After up to three failed shocks, give amiodarone 300 mg IV (loading) and repeat the shock."
+  },
+  {
+    "q": "A patient with a pacemaker develops low cardiac output after their device was set to VVI pacing. What is the likely problem?",
+    "o": [
+      "Pacemaker syndrome from loss of AV synchrony",
+      "Lead fracture",
+      "Hyperkalaemia",
+      "Failure to sense",
+      "Battery depletion"
+    ],
+    "a": 0,
+    "why": "Pacemaker syndrome is loss of AV synchrony with reduced cardiac output; it is treated by switching to a dual-chamber (DDD) mode."
+  },
+  {
+    "q": "Which is an indication for a permanent pacemaker?",
+    "o": [
+      "First-degree heart block",
+      "Asymptomatic right bundle branch block",
+      "Third-degree (complete) AV block",
+      "Sinus arrhythmia",
+      "Isolated ventricular ectopics"
+    ],
+    "a": 2,
+    "why": "Indications include 2:1 and third-degree AV block, alternating bundle branch block, syncope with bifascicular block and symptomatic sinus node disease."
+  },
+  {
+    "q": "What is the term for a pacemaker’s ability to detect intrinsic cardiac activity?",
+    "o": [
+      "Capture",
+      "Sensitivity",
+      "Threshold",
+      "Impedance",
+      "Hysteresis"
+    ],
+    "a": 1,
+    "why": "Sensitivity is the ability to detect intrinsic activity; capture is successful depolarisation of the myocardium after a pacing stimulus."
+  }
+]

@@ -1,0 +1,130 @@
+[
+  {
+    "id": "Q001",
+    "ar": "Airway",
+    "sb": "Awake tracheal intubation",
+    "q": "A 58-year-old man with a large oropharyngeal tumour is scheduled for an awake fibreoptic intubation. He weighs 80 kg. You plan topicalisation with lidocaine using a spray-as-you-go technique, a nebuliser and a mucosal atomiser. According to the Difficult Airway Society guideline for awake tracheal intubation, what is the maximum total dose of topical lidocaine you should use?",
+    "o": [
+      "320 mg",
+      "900 mg",
+      "720 mg",
+      "560 mg",
+      "240 mg"
+    ],
+    "a": 2,
+    "why": "The DAS ATI guideline (2020) recommends that topical lidocaine should not exceed 9 mg/kg lean body weight. For 80 kg this is 720 mg. Monitor for toxicity (perioral tingling, tinnitus, agitation) and remember that nebulised and atomised doses are absorbed less completely than the delivered dose suggests, which is why the ceiling is higher than for infiltration.",
+    "st": "st2-125"
+  },
+  {
+    "id": "Q002",
+    "ar": "Airway",
+    "sb": "Awake tracheal intubation",
+    "q": "During an awake fibreoptic intubation under remifentanil sedation, the patient coughs violently every time the scope tip passes the vocal cords. The cords are visible and the scope is in a good position. Which nerve has been inadequately anaesthetised?",
+    "o": [
+      "Glossopharyngeal nerve",
+      "Lingual nerve",
+      "External branch of the superior laryngeal nerve",
+      "Recurrent laryngeal nerve",
+      "Internal branch of the superior laryngeal nerve"
+    ],
+    "a": 3,
+    "why": "Sensation below the vocal cords (subglottis and trachea) is supplied by the recurrent laryngeal nerve. It is blocked by translaryngeal (cricothyroid membrane) injection or by spraying lidocaine through the scope onto and below the cords. The internal branch of the superior laryngeal nerve supplies the larynx above the cords, the glossopharyngeal nerve the posterior third of the tongue and oropharynx (gag), and the external branch is motor to cricothyroid.",
+    "st": "st2-125"
+  },
+  {
+    "id": "Q003",
+    "ar": "Airway",
+    "sb": "Extubation",
+    "q": "A 64-year-old man has had a long, difficult anterior cervical fusion with significant intraoperative fluid. He was a grade 3 laryngoscopy view, intubated with a videolaryngoscope. At the end of surgery a cuff-leak test shows no audible leak. He is cardiovascularly stable. What is the most appropriate extubation strategy?",
+    "o": [
+      "Awake extubation followed by nebulised adrenaline in recovery",
+      "Delay extubation, sit up, give dexamethasone and reassess on ICU",
+      "Deep extubation in the lateral position",
+      "Extubate awake over a supraglottic airway (Bailey manoeuvre)",
+      "Immediate elective surgical tracheostomy"
+    ],
+    "a": 1,
+    "why": "DAS extubation guidelines classify this as an at-risk extubation: known difficult airway plus probable airway oedema (absent cuff leak, cervical surgery). Options are to postpone extubation, use an airway exchange catheter, or perform a tracheostomy. Where the cause is likely to be reversible oedema, postponing extubation with head-up positioning and steroids, then reassessing, is the usual first step. Deep extubation and the Bailey manoeuvre are reserved for low-risk airways where coughing must be avoided.",
+    "st": null
+  },
+  {
+    "id": "Q004",
+    "ar": "Airway",
+    "sb": "Oesophageal intubation",
+    "q": "After a rapid sequence induction in the emergency department you see the tube pass through the cords. The capnograph shows a small, low-amplitude trace that diminishes over five breaths and then disappears. Oxygen saturation is 93% and falling. What should you do next?",
+    "o": [
+      "Remove the tracheal tube and oxygenate by facemask or supraglottic airway",
+      "Assume the trace is due to low cardiac output and continue ventilating",
+      "Perform videolaryngoscopy to confirm tube position before any other action",
+      "Check for bilateral chest movement and breath sounds before deciding",
+      "Increase the fresh gas flow and recheck the capnograph"
+    ],
+    "a": 0,
+    "why": "The 2022 Project for Universal Management of Airways / RCoA-endorsed guidance on preventing unrecognised oesophageal intubation is 'No trace = wrong place'. A sustained exhaled CO2 waveform is required; a trace that fades over several breaths indicates oesophageal placement until proven otherwise. Clinical signs and direct visualisation are unreliable, and even in cardiac arrest CPR produces a detectable trace. Remove the tube and reoxygenate.",
+    "st": null
+  },
+  {
+    "id": "Q005",
+    "ar": "Airway",
+    "sb": "Tracheostomy emergencies",
+    "q": "You are called to a ward to a patient with a percutaneous tracheostomy formed four days ago who is in respiratory distress. There is no chest movement with breathing and a suction catheter will not pass. The inner cannula has been removed. What is the next step according to the National Tracheostomy Safety Project algorithm?",
+    "o": [
+      "Change the tracheostomy tube over a bougie",
+      "Deflate the tracheostomy cuff",
+      "Remove the tracheostomy tube",
+      "Insert a supraglottic airway",
+      "Attempt oral intubation"
+    ],
+    "a": 1,
+    "why": "In the NTSP algorithm for a patent upper airway: call for help, apply oxygen to face and stoma, remove speaking valve/inner cannula, attempt to pass a suction catheter. If the catheter does not pass, deflate the cuff — the patient may then breathe around the tube. If there is still no improvement, remove the tracheostomy tube, then assess breathing and use the oral or stoma route for oxygenation and intubation.",
+    "st": "st2-55"
+  },
+  {
+    "id": "Q006",
+    "ar": "Airway",
+    "sb": "Intubation on ICU",
+    "q": "A 70-year-old woman with pneumonia needs intubation on the ICU. Which combination of features gives her the highest MACOCHA score and therefore the greatest predicted risk of difficult intubation?",
+    "o": [
+      "Mallampati 3, obstructive sleep apnoea, reduced mouth opening",
+      "SpO2 below 80%, coma, non-anaesthetist operator",
+      "Mallampati 3, cervical spine immobility, SpO2 below 80%",
+      "Coma, reduced mouth opening, obstructive sleep apnoea",
+      "Non-anaesthetist operator, cervical spine immobility, coma"
+    ],
+    "a": 0,
+    "why": "MACOCHA scores Mallampati 3–4 (5 points), OSA (2), reduced cervical mobility (1), mouth opening &lt; 3 cm (1), coma (1), severe hypoxaemia SpO2 &lt; 80% (1) and non-anaesthetist operator (1); a score of 3 or more predicts difficulty. Option A scores 8, C scores 7, B 3, D 4, E 3. Mallampati and OSA carry the most weight.",
+    "st": null
+  },
+  {
+    "id": "Q007",
+    "ar": "Airway",
+    "sb": "Airway stenting",
+    "q": "A 66-year-old man with a malignant mid-tracheal stenosis is listed for rigid bronchoscopy and stent insertion. He is stridulous on exertion but can lie flat. Which ventilation technique is most appropriate during rigid bronchoscopy?",
+    "o": [
+      "Spontaneous ventilation via a cuffed tracheal tube placed above the lesion",
+      "Apnoeic oxygenation with high-flow nasal oxygen alone",
+      "High-frequency oscillatory ventilation via a cricothyroid cannula",
+      "Low-frequency jet ventilation via the side port of the rigid bronchoscope",
+      "Volume-controlled ventilation via a laryngeal mask airway"
+    ],
+    "a": 3,
+    "why": "Rigid bronchoscopy is typically managed with TIVA, neuromuscular blockade and jet ventilation (manual Sanders injector or automated) through the bronchoscope, which gives the surgeon an open lumen. Spontaneous ventilation is sometimes kept for induction in a critical stenosis, but intraoperative ventilation is via the scope. Apnoeic techniques alone do not clear CO2 for a prolonged procedure.",
+    "st": "st3-10"
+  },
+  {
+    "id": "Q008",
+    "ar": "Airway",
+    "sb": "Heliox",
+    "q": "A patient with tracheal compression from a thyroid mass becomes stridulous on the ward while awaiting surgery. Heliox (79% helium, 21% oxygen) is started. What is the main reason it reduces the work of breathing?",
+    "o": [
+      "It relaxes bronchial smooth muscle",
+      "It lowers the Reynolds number, favouring laminar flow through the narrowing",
+      "It has a lower viscosity than air, reducing resistance to laminar flow",
+      "It improves alveolar diffusion of oxygen",
+      "It increases the oxygen-carrying capacity of blood"
+    ],
+    "a": 1,
+    "why": "At a stenosis flow is turbulent, and turbulent resistance depends on gas density. Helium's low density lowers the Reynolds number (density × velocity × diameter ÷ viscosity), so flow becomes more laminar and resistance falls. Helium's viscosity is actually slightly higher than air. The limit is the FiO2 of only 0.21–0.3, so it is a bridge to definitive management.",
+    "st": null
+  }
+]

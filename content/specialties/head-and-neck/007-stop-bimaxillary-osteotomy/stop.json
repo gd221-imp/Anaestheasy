@@ -1,0 +1,43 @@
+{
+  "t": "recipe",
+  "shape": "headn",
+  "group": "Head and neck",
+  "title": "Bimaxillary Osteotomy",
+  "op": true,
+  "cards": [
+    {
+      "h": "Anaesthetic recipe",
+      "b": "file:cards/01-anaesthetic-recipe.html",
+      "recipe": true
+    },
+    {
+      "h": "Nasal Anatomy",
+      "primaryRef": "ana0"
+    },
+    {
+      "h": "The Nose (Blood Supply)",
+      "primaryRef": "ana13"
+    },
+    {
+      "h": "Bimaxillary Osteotomy, Pharyngeal Pouch & Fractured Mandible",
+      "noteRef": "Bimaxillary Osteotomy, Pharyngeal Pouch & Fractured Mandible"
+    },
+    {
+      "h": "Dental Damage",
+      "noteRef": "Dental Damage"
+    },
+    {
+      "h": "Sample WPBA",
+      "b": "file:cards/06-sample-wpba.html",
+      "wpba": true
+    },
+    {
+      "h": "Curriculum",
+      "links": [
+        "curric:8",
+        "curric:9"
+      ]
+    }
+  ],
+  "q": "file:quiz.json"
+}

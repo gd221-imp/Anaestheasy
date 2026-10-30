@@ -1,0 +1,46 @@
+{
+  "t": "tip",
+  "shape": "brain",
+  "group": "Neuro",
+  "title": "Transphenoidal Surgery (Pituitary)",
+  "cards": [
+    {
+      "h": "Overview",
+      "b": "file:cards/01-overview.html"
+    },
+    {
+      "h": "Anterior lobe hormones",
+      "b": "file:cards/02-anterior-lobe-hormones.html"
+    },
+    {
+      "h": "Key points",
+      "b": "file:cards/03-key-points.html"
+    },
+    {
+      "h": "Acromegaly - anaesthetic considerations by system",
+      "b": "file:cards/04-acromegaly-anaesthetic-considerations-by-system.html"
+    },
+    {
+      "h": "Cushing's disease",
+      "b": "file:cards/05-cushing-s-disease.html"
+    },
+    {
+      "h": "Surgical approach",
+      "b": "file:cards/06-surgical-approach.html"
+    },
+    {
+      "h": "Improving surgical conditions",
+      "b": "file:cards/07-improving-surgical-conditions.html"
+    },
+    {
+      "h": "Anaesthesia for trans-sphenoidal surgery",
+      "b": "file:cards/08-anaesthesia-for-trans-sphenoidal-surgery.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/09-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

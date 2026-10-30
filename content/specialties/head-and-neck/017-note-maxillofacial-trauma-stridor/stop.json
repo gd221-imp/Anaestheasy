@@ -1,0 +1,38 @@
+{
+  "t": "tip",
+  "shape": "headn",
+  "group": "Head and neck",
+  "title": "Maxillofacial Trauma & Stridor",
+  "cards": [
+    {
+      "h": "Overview",
+      "b": "file:cards/01-overview.html"
+    },
+    {
+      "h": "Le Fort fracture classification",
+      "b": "file:cards/02-le-fort-fracture-classification.html"
+    },
+    {
+      "h": "Challenges of intubation",
+      "b": "file:cards/03-challenges-of-intubation.html"
+    },
+    {
+      "h": "Extubation",
+      "b": "file:cards/04-extubation.html"
+    },
+    {
+      "h": "Stridor",
+      "b": "file:cards/05-stridor.html"
+    },
+    {
+      "h": "Anaesthetic options for a difficult stridulous airway",
+      "b": "file:cards/06-anaesthetic-options-for-a-difficult-stridulous-a.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/07-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

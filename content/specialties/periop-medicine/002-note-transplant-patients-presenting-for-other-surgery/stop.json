@@ -1,0 +1,18 @@
+{
+  "t": "tip",
+  "shape": "clip",
+  "group": "Periop medicine",
+  "title": "Transplant Patients Presenting for Other Surgery",
+  "cards": [
+    {
+      "h": "Overview",
+      "b": "file:cards/01-overview.html"
+    },
+    {
+      "h": "Key points",
+      "b": "file:cards/02-key-points.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

@@ -1,0 +1,52 @@
+{
+  "t": "recipe",
+  "shape": "heart",
+  "group": "Cardiac",
+  "title": "Heart Transplant",
+  "op": true,
+  "cards": [
+    {
+      "h": "Transplant recipe",
+      "b": "file:cards/01-transplant-recipe.html",
+      "recipe": true
+    },
+    {
+      "h": "Post-transplant recipe",
+      "b": "file:cards/02-post-transplant-recipe.html",
+      "recipe": true
+    },
+    {
+      "h": "Autonomic & Hormonal Regulation of Cardiac Function",
+      "primaryRef": "phs11"
+    },
+    {
+      "h": "Cardiovascular Pharmacology",
+      "primaryRef": "pha23"
+    },
+    {
+      "h": "Anaesthesia for Heart Transplant Surgery",
+      "noteRef": "Anaesthesia for Heart Transplant Surgery"
+    },
+    {
+      "h": "LVADs & Inotropes",
+      "noteRef": "LVADs & Inotropes"
+    },
+    {
+      "h": "Heart Transplant (Post-Transplant Patient)",
+      "noteRef": "Heart Transplant (Post-Transplant Patient)"
+    },
+    {
+      "h": "Sample WPBA",
+      "b": "file:cards/08-sample-wpba.html",
+      "wpba": true
+    },
+    {
+      "h": "Curriculum",
+      "links": [
+        "curric:8",
+        "curric:9"
+      ]
+    }
+  ],
+  "q": "file:quiz.json"
+}

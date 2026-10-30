@@ -1,0 +1,18 @@
+{
+  "t": "tip",
+  "shape": "headn",
+  "group": "Head and neck",
+  "title": "Middle Ear Surgery",
+  "cards": [
+    {
+      "h": "Examples",
+      "b": "file:cards/01-examples.html"
+    },
+    {
+      "h": "Key anaesthetic considerations",
+      "b": "file:cards/02-key-anaesthetic-considerations.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

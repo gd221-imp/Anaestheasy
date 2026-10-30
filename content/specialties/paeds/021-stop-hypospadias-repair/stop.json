@@ -1,0 +1,40 @@
+{
+  "t": "recipe",
+  "shape": "dummy",
+  "group": "Paeds",
+  "title": "Hypospadias Repair",
+  "op": true,
+  "cards": [
+    {
+      "h": "Anaesthetic recipe",
+      "b": "file:cards/01-anaesthetic-recipe.html",
+      "recipe": true
+    },
+    {
+      "h": "The Caudal Space",
+      "primaryRef": "ana20"
+    },
+    {
+      "h": "Local Anaesthetics",
+      "primaryRef": "pha20"
+    },
+    {
+      "h": "Day Case Surgery",
+      "noteRef": "Day Case Surgery"
+    },
+    {
+      "h": "Sample WPBA",
+      "b": "file:cards/05-sample-wpba.html",
+      "wpba": true
+    },
+    {
+      "h": "Curriculum",
+      "links": [
+        "curric:8",
+        "curric:9",
+        "curric:10"
+      ]
+    }
+  ],
+  "q": "file:quiz.json"
+}

@@ -1,0 +1,22 @@
+{
+  "t": "tip",
+  "shape": "dummy",
+  "group": "Paeds",
+  "title": "ADHD & Childhood Fasting Guidelines",
+  "cards": [
+    {
+      "h": "ADHD - anaesthetic considerations",
+      "b": "file:cards/01-adhd-anaesthetic-considerations.html"
+    },
+    {
+      "h": "Childhood fasting guidelines (APA 2018 consensus - \"6-4-1\": clear fluids up to 1 hour)",
+      "b": "file:cards/02-childhood-fasting-guidelines-apa-2018-consensus.html"
+    },
+    {
+      "h": "Rationale",
+      "b": "file:cards/03-rationale.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

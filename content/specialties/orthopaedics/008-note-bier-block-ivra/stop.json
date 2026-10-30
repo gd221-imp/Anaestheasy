@@ -1,0 +1,22 @@
+{
+  "t": "tip",
+  "shape": "bone",
+  "group": "Orthopaedics and Trauma",
+  "title": "Bier Block (IVRA)",
+  "cards": [
+    {
+      "h": "Overview",
+      "b": "file:cards/01-overview.html"
+    },
+    {
+      "h": "Advantages",
+      "b": "file:cards/02-advantages.html"
+    },
+    {
+      "h": "LA options",
+      "b": "file:cards/03-la-options.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

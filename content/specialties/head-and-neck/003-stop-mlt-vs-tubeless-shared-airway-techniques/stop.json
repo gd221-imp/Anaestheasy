@@ -1,0 +1,43 @@
+{
+  "t": "recipe",
+  "shape": "headn",
+  "group": "Head and neck",
+  "title": "MLT vs Tubeless (Shared Airway Techniques)",
+  "op": true,
+  "cards": [
+    {
+      "h": "Anaesthetic recipe",
+      "b": "file:cards/01-anaesthetic-recipe.html",
+      "recipe": true
+    },
+    {
+      "h": "The Larynx",
+      "primaryRef": "ana15"
+    },
+    {
+      "h": "Apnoeic Oxygenation",
+      "primaryRef": "phy13"
+    },
+    {
+      "h": "MLT vs Tubeless (Shared Airway Techniques)",
+      "noteRef": "MLT vs Tubeless (Shared Airway Techniques)"
+    },
+    {
+      "h": "Airway Fire",
+      "noteRef": "Airway Fire"
+    },
+    {
+      "h": "Sample WPBA",
+      "b": "file:cards/06-sample-wpba.html",
+      "wpba": true
+    },
+    {
+      "h": "Curriculum",
+      "links": [
+        "curric:8",
+        "curric:9"
+      ]
+    }
+  ],
+  "q": "file:quiz.json"
+}

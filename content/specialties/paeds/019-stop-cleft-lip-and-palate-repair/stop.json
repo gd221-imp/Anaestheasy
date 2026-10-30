@@ -1,0 +1,43 @@
+{
+  "t": "recipe",
+  "shape": "dummy",
+  "group": "Paeds",
+  "title": "Cleft Lip and Palate Repair",
+  "op": true,
+  "cards": [
+    {
+      "h": "Anaesthetic recipe",
+      "b": "file:cards/01-anaesthetic-recipe.html",
+      "recipe": true
+    },
+    {
+      "h": "Oral Cavity, Pharynx & Larynx",
+      "primaryRef": "ana1"
+    },
+    {
+      "h": "Paediatric vs Adult Anatomical Differences",
+      "primaryRef": "ana5"
+    },
+    {
+      "h": "Upper Respiratory Tract Infection",
+      "noteRef": "Upper Respiratory Tract Infection"
+    },
+    {
+      "h": "The Paediatric Airway",
+      "noteRef": "The Paediatric Airway"
+    },
+    {
+      "h": "Sample WPBA",
+      "b": "file:cards/06-sample-wpba.html",
+      "wpba": true
+    },
+    {
+      "h": "Curriculum",
+      "links": [
+        "curric:8",
+        "curric:9"
+      ]
+    }
+  ],
+  "q": "file:quiz.json"
+}

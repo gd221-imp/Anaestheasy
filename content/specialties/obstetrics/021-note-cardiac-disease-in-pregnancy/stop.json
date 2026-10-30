@@ -1,0 +1,30 @@
+{
+  "t": "tip",
+  "shape": "belly",
+  "group": "Obstetrics",
+  "title": "Cardiac Disease in Pregnancy",
+  "cards": [
+    {
+      "h": "Congenital heart disease in pregnancy",
+      "b": "file:cards/01-congenital-heart-disease-in-pregnancy.html"
+    },
+    {
+      "h": "Key points",
+      "b": "file:cards/02-key-points.html"
+    },
+    {
+      "h": "Mitral stenosis in pregnancy",
+      "b": "file:cards/03-mitral-stenosis-in-pregnancy.html"
+    },
+    {
+      "h": "Management principles",
+      "b": "file:cards/04-management-principles.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/05-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

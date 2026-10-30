@@ -1,0 +1,29 @@
+{
+  "t": "tip",
+  "shape": "mon",
+  "group": "ICM",
+  "title": "Anorexia Nervosa & Refeeding Syndrome",
+  "cards": [
+    {
+      "h": "Overview",
+      "b": "file:cards/01-overview.html"
+    },
+    {
+      "h": "Anaesthetic considerations by system",
+      "b": "file:cards/02-anaesthetic-considerations-by-system.html"
+    },
+    {
+      "h": "Practical points",
+      "b": "file:cards/03-practical-points.html"
+    },
+    {
+      "h": "Refeeding syndrome",
+      "b": "file:cards/04-refeeding-syndrome.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/05-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json"
+}

@@ -1,0 +1,122 @@
+[
+  {
+    "q": "What mortality is associated with severe TBI?",
+    "o": [
+      "About 0.1%",
+      "About 10%",
+      "About 40%",
+      "About 80%",
+      "About 1%"
+    ],
+    "a": 2,
+    "why": "Mild about 0.1%, moderate about 10%, severe about 40%."
+  },
+  {
+    "q": "Which is a primary brain injury?",
+    "o": [
+      "Cerebral oedema",
+      "Diffuse axonal injury",
+      "Hypoxia",
+      "Raised ICP",
+      "Infection"
+    ],
+    "a": 1,
+    "why": "Primary injuries happen at impact (fracture, contusion, haematoma, DAI); secondary injuries (oedema, ischaemia, hypoxia, hypotension) are what we prevent."
+  },
+  {
+    "q": "What PaO2 and PaCO2 are targeted in tier 1 TBI management?",
+    "o": [
+      "PaO2 over 10 kPa, PaCO2 4.5–5 kPa",
+      "PaO2 over 20 kPa, PaCO2 3 kPa",
+      "PaO2 8 kPa, PaCO2 6 kPa",
+      "Any",
+      "PaO2 over 13 kPa, PaCO2 3.5 kPa"
+    ],
+    "a": 0,
+    "why": "Tier 1: PaO2 over 10 kPa, PaCO2 4.5–5 kPa, CPP 60–70 mmHg."
+  },
+  {
+    "q": "Which hypertonic saline dose is used for raised ICP in TBI (tier 2)?",
+    "o": [
+      "0.9% saline 1 L",
+      "5% hypertonic saline 3 ml/kg, targeting sodium 150–155",
+      "3% saline 20 ml/kg",
+      "8.4% bicarbonate",
+      "Dextrose 10%"
+    ],
+    "a": 1,
+    "why": "Hypertonic saline (or 20% mannitol 0.5 g/kg) is a tier 2 option after repeat CT."
+  },
+  {
+    "q": "What does barbiturate coma for refractory ICP aim for on EEG?",
+    "o": [
+      "Isoelectric for hours",
+      "Around 50% burst suppression",
+      "Normal alpha",
+      "Spindles",
+      "No monitoring"
+    ],
+    "a": 1,
+    "why": "Tier 3 options include decompressive craniectomy or barbiturate coma targeting about 50% burst suppression."
+  },
+  {
+    "q": "What is a recognised late complication of decompressive craniectomy?",
+    "o": [
+      "Pneumothorax",
+      "Syndrome of the trephined or subdural hygroma",
+      "Cauda equina",
+      "Diabetes mellitus",
+      "Hypothyroidism"
+    ],
+    "a": 1,
+    "why": "Delayed complications include infection, hydrocephalus, subdural hygroma and syndrome of the trephined."
+  },
+  {
+    "q": "Which level of transfer care applies to a ventilated patient with organ support?",
+    "o": [
+      "Level 0",
+      "Level 1",
+      "Level 2",
+      "Level 3",
+      "Level 0.5"
+    ],
+    "a": 3,
+    "why": "Level 3 patients need advanced respiratory support or support of 2 or more organs."
+  },
+  {
+    "q": "Why is a metaraminol infusion useful during transfer?",
+    "o": [
+      "It is an analgesic",
+      "It reduces the number of pumps and lines needed for BP support",
+      "It reduces ICP",
+      "It treats seizures",
+      "It is required by law"
+    ],
+    "a": 1,
+    "why": "Minimise pumps and secure access; metaraminol can be run peripherally."
+  },
+  {
+    "q": "What sodium disorders follow TBI?",
+    "o": [
+      "Only hypernatraemia",
+      "SIADH, cerebral salt wasting and cranial DI",
+      "Never any",
+      "Only hyperkalaemia",
+      "Only hypocalcaemia"
+    ],
+    "a": 1,
+    "why": "Monitor sodium and osmolality; TBI accounts for about 20% of neurosurgical sodium disorders."
+  },
+  {
+    "q": "What is the role of seizure prophylaxis after TBI?",
+    "o": [
+      "Never used",
+      "Per local policy, early seizures are treated and prophylaxis is often given",
+      "Always for 2 years",
+      "Only in children",
+      "Steroids prevent seizures"
+    ],
+    "a": 1,
+    "why": "Follow local policy; treat seizures promptly to reduce CMRO2 and ICP."
+  }
+]

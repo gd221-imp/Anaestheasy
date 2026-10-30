@@ -1,0 +1,26 @@
+{
+  "t": "tip",
+  "shape": "headn",
+  "group": "Head and neck",
+  "title": "Bimaxillary Osteotomy, Pharyngeal Pouch & Fractured Mandible",
+  "cards": [
+    {
+      "h": "Overview",
+      "b": "file:cards/01-overview.html"
+    },
+    {
+      "h": "Pharyngeal Pouch (Zenker's diverticulum)",
+      "b": "file:cards/02-pharyngeal-pouch-zenker-s-diverticulum.html"
+    },
+    {
+      "h": "Fractured Mandible",
+      "b": "file:cards/03-fractured-mandible.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/04-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

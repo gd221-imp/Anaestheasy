@@ -1,0 +1,34 @@
+{
+  "t": "tip",
+  "shape": "headn",
+  "group": "Head and neck",
+  "title": "Thyroidectomy, Thyroid Physiology & Thyroid Storm",
+  "cards": [
+    {
+      "h": "Overview",
+      "b": "file:cards/01-overview.html"
+    },
+    {
+      "h": "Complications",
+      "b": "file:cards/02-complications.html"
+    },
+    {
+      "h": "Thyroid hormone synthesis",
+      "b": "file:cards/03-thyroid-hormone-synthesis.html"
+    },
+    {
+      "h": "Graves' disease",
+      "b": "file:cards/04-graves-disease.html"
+    },
+    {
+      "h": "Thyroid storm",
+      "b": "file:cards/05-thyroid-storm.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/06-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

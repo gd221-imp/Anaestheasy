@@ -1,0 +1,122 @@
+[
+  {
+    "q": "Which Le Fort fracture separates the face from the skull base?",
+    "o": [
+      "Le Fort I",
+      "Le Fort III",
+      "Le Fort II",
+      "Le Fort 0",
+      "Mandibular"
+    ],
+    "a": 1,
+    "why": "Craniofacial disjunction."
+  },
+  {
+    "q": "Why is nasal intubation avoided in Le Fort II and III fractures?",
+    "o": [
+      "Bleeding only",
+      "Risk of passing the tube intracranially through a base of skull fracture",
+      "Nasal tubes kink",
+      "Oedema",
+      "Patient preference"
+    ],
+    "a": 1,
+    "why": "Consider submental intubation or tracheostomy instead."
+  },
+  {
+    "q": "What is heliox used for in stridor?",
+    "o": [
+      "Bronchodilation",
+      "Lower density, promoting laminar flow",
+      "Raising FiO2",
+      "Sedation",
+      "Reducing oedema"
+    ],
+    "a": 1,
+    "why": "It reduces Reynolds number."
+  },
+  {
+    "q": "What dose of nebulised adrenaline is used in adult stridor?",
+    "o": [
+      "0.1 ml of 1:10,000",
+      "1–5 ml of 1:1000",
+      "10 ml 1:1000",
+      "1 mg IV",
+      "50 mcg IM"
+    ],
+    "a": 1,
+    "why": "Vasoconstricts mucosa as a temporising measure."
+  },
+  {
+    "q": "Which technique overcomes the \"aperture\" problem in a difficult airway?",
+    "o": [
+      "Blind nasal",
+      "Awake videolaryngoscopy",
+      "LMA",
+      "Gas induction",
+      "Retrograde"
+    ],
+    "a": 1,
+    "why": "No view if a base-of-tongue tumour."
+  },
+  {
+    "q": "What is the rescue plan for a very high-risk stridulous airway?",
+    "o": [
+      "Hope",
+      "Front-of-neck access, with a cricothyroid cannula placed under LA before induction",
+      "Nasal airway",
+      "Repeated DL",
+      "Wake up"
+    ],
+    "a": 1,
+    "why": "Surgical cricothyroidotomy is the rescue."
+  },
+  {
+    "q": "Which nerve injury is a delayed complication of maxillofacial trauma?",
+    "o": [
+      "Facial",
+      "Infraorbital or inferior alveolar",
+      "Phrenic",
+      "Ulnar",
+      "Recurrent laryngeal"
+    ],
+    "a": 1,
+    "why": "Also malocclusion and infection."
+  },
+  {
+    "q": "What must be at the bedside if the jaw is wired?",
+    "o": [
+      "Laryngoscope",
+      "Wire cutters",
+      "Tracheostomy kit only",
+      "Suction only",
+      "Nothing"
+    ],
+    "a": 1,
+    "why": "For airway emergencies."
+  },
+  {
+    "q": "In a major incident, what is a P1 triage category?",
+    "o": [
+      "Can wait",
+      "Immediate life-saving intervention",
+      "Dead",
+      "Urgent within 4 hours",
+      "Walking wounded"
+    ],
+    "a": 1,
+    "why": "P2 is urgent (2–4 h), P3 can delay, P4 expectant."
+  },
+  {
+    "q": "Which neck zone lies between the cricoid and angle of the mandible?",
+    "o": [
+      "Zone I",
+      "Zone II",
+      "Zone III",
+      "Zone IV",
+      "Zone 0"
+    ],
+    "a": 1,
+    "why": "Zone II is most accessible surgically."
+  }
+]

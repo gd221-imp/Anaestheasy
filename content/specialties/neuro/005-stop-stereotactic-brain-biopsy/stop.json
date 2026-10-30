@@ -1,0 +1,43 @@
+{
+  "t": "recipe",
+  "shape": "brain",
+  "group": "Neuro",
+  "title": "Stereotactic Brain Biopsy",
+  "op": true,
+  "cards": [
+    {
+      "h": "Anaesthetic recipe",
+      "b": "file:cards/01-anaesthetic-recipe.html",
+      "recipe": true
+    },
+    {
+      "h": "The Brain: Anatomy, Blood Flow & Intracranial Pressure",
+      "primaryRef": "phs42"
+    },
+    {
+      "h": "Stereotactic Brain Biopsy",
+      "noteRef": "Stereotactic Brain Biopsy"
+    },
+    {
+      "h": "Delayed Emergence Following Neurosurgery",
+      "noteRef": "Delayed Emergence Following Neurosurgery"
+    },
+    {
+      "h": "Neurofibromatosis",
+      "noteRef": "Neurofibromatosis"
+    },
+    {
+      "h": "Sample WPBA",
+      "b": "file:cards/06-sample-wpba.html",
+      "wpba": true
+    },
+    {
+      "h": "Curriculum",
+      "links": [
+        "curric:8",
+        "curric:9"
+      ]
+    }
+  ],
+  "q": "file:quiz.json"
+}

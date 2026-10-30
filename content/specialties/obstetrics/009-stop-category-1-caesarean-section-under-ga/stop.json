@@ -1,0 +1,48 @@
+{
+  "t": "recipe",
+  "shape": "belly",
+  "group": "Obstetrics",
+  "title": "Category 1 Caesarean Section under GA",
+  "op": true,
+  "cards": [
+    {
+      "h": "Anaesthetic recipe",
+      "b": "file:cards/01-anaesthetic-recipe.html",
+      "recipe": true
+    },
+    {
+      "h": "Apnoeic Oxygenation",
+      "primaryRef": "phy13"
+    },
+    {
+      "h": "IV Induction Agents",
+      "primaryRef": "pha18"
+    },
+    {
+      "h": "Airway Management in Pregnancy",
+      "noteRef": "Airway Management in Pregnancy"
+    },
+    {
+      "h": "Cord Prolapse & Categories of LSCS",
+      "noteRef": "Cord Prolapse & Categories of LSCS"
+    },
+    {
+      "h": "Awareness (AAGA)",
+      "noteRef": "Awareness (AAGA)"
+    },
+    {
+      "h": "Sample WPBA",
+      "b": "file:cards/07-sample-wpba.html",
+      "wpba": true
+    },
+    {
+      "h": "Curriculum",
+      "links": [
+        "curric:8",
+        "curric:9",
+        "curric:11"
+      ]
+    }
+  ],
+  "q": "file:quiz.json"
+}

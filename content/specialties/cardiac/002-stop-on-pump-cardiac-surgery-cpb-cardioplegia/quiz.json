@@ -1,0 +1,122 @@
+[
+  {
+    "q": "Before going onto cardiopulmonary bypass, what heparin dose and ACT target are used?",
+    "o": [
+      "100 u/kg, ACT above 200 s",
+      "200 u/kg, ACT above 300 s",
+      "300 u/kg, ACT above 480 s",
+      "500 u/kg, ACT above 600 s",
+      "300 u/kg, ACT 2× baseline"
+    ],
+    "a": 2,
+    "why": "Heparin 300–400 u/kg (corrected body weight) aiming for ACT above 400–480 s (normal 80–120 s) or 3× baseline, rechecked every 30 minutes."
+  },
+  {
+    "q": "After 400 u/kg heparin, the ACT is only 260 s. The patient has been on a heparin infusion for a week. What is the most likely cause?",
+    "o": [
+      "Factor V Leiden",
+      "Antithrombin III deficiency",
+      "Protein C deficiency",
+      "Thrombocytopenia",
+      "Hypothermia"
+    ],
+    "a": 1,
+    "why": "Heparin resistance (around 20% of CPB cases) is most commonly due to antithrombin III deficiency, congenital or acquired (prolonged heparin, liver failure, renal loss, DIC). Treat with antithrombin concentrate or FFP."
+  },
+  {
+    "q": "How does high-potassium cardioplegia protect the myocardium?",
+    "o": [
+      "It arrests the heart in systole",
+      "It arrests the heart in diastole by preventing repolarisation",
+      "It increases intracellular calcium",
+      "It lowers the heart rate to around 30/min",
+      "It causes coronary vasoconstriction"
+    ],
+    "a": 1,
+    "why": "Raised K+ arrests the heart in diastole, cutting myocardial oxygen demand. Mg2+ is antiarrhythmic, low Ca2+ reduces contraction, bicarbonate buffers acidosis and mannitol reduces oedema."
+  },
+  {
+    "q": "A patient with severe aortic regurgitation is having CABG on bypass. How is cardioplegia best delivered?",
+    "o": [
+      "Antegrade into the aortic root only",
+      "Retrograde via the coronary sinus",
+      "Intravenously before cross-clamping",
+      "Directly into the left ventricle",
+      "It is not needed in aortic regurgitation"
+    ],
+    "a": 1,
+    "why": "Antegrade delivery via the aortic root needs adequate root pressure and a competent aortic valve. With significant AR, cardioplegia runs into the LV, so retrograde via the coronary sinus is used."
+  },
+  {
+    "q": "During hypothermic bypass, which acid–base strategy best preserves cerebral autoregulation in an adult?",
+    "o": [
+      "pH-stat",
+      "Alpha-stat",
+      "Adding CO2 to the oxygenator",
+      "Bicarbonate infusion to pH 7.35 at 37°C",
+      "Hyperventilation to PaCO2 3.5 kPa"
+    ],
+    "a": 1,
+    "why": "Alpha-stat does not correct for temperature, allowing relative alkalosis during cooling and preserving autoregulation. pH-stat adds CO2, causing cerebral vasodilation and loss of autoregulation."
+  },
+  {
+    "q": "On cardiopulmonary bypass the PaCO2 is 6.8 kPa. Which change will lower it?",
+    "o": [
+      "Increase the FiO2 on the oxygenator",
+      "Increase the sweep gas flow through the oxygenator",
+      "Increase the pump flow rate",
+      "Start ventilating the lungs",
+      "Warm the patient"
+    ],
+    "a": 1,
+    "why": "In the membrane oxygenator, raising FiO2 raises PaO2 and raising gas (sweep) flow lowers PaCO2. MAP is set by pump flow and SVR."
+  },
+  {
+    "q": "Shortly after protamine is given at the end of bypass, PA pressure rises sharply and systemic BP falls. What is the most likely mechanism?",
+    "o": [
+      "Residual heparin effect",
+      "Catastrophic pulmonary vasoconstriction",
+      "Air embolism",
+      "Hypocalcaemia",
+      "Hypothermia"
+    ],
+    "a": 1,
+    "why": "Protamine reactions include systemic hypotension, anaphylactoid reactions and severe pulmonary vasoconstriction with RV failure, as well as bleeding."
+  },
+  {
+    "q": "After CABG with long saphenous vein harvest, a patient reports numbness over the medial lower leg. Which nerve is most likely injured?",
+    "o": [
+      "Common peroneal",
+      "Sural",
+      "Saphenous",
+      "Femoral",
+      "Tibial"
+    ],
+    "a": 2,
+    "why": "Peripheral nerve injuries after cardiac surgery include saphenous and infrapatellar injury at vein harvest sites, as well as brachial plexus, ulnar, phrenic and recurrent laryngeal injuries."
+  },
+  {
+    "q": "Which intra-operative measure reduces the risk of neurological injury after cardiac surgery?",
+    "o": [
+      "Rapid rewarming at the end of bypass",
+      "Avoiding rapid rewarming",
+      "Allowing MAP to drift to 40 mmHg on bypass",
+      "Withholding glucose control",
+      "Using pH-stat in all adults"
+    ],
+    "a": 1,
+    "why": "Avoid fast rewarming, maintain CPP and haemodynamic stability, avoid disturbing aortic plaque, control glucose and acid–base, and consider NIRS and BIS."
+  },
+  {
+    "q": "Which haemodynamic goals are appropriate when anaesthetising a patient with severe aortic regurgitation?",
+    "o": [
+      "Slow heart rate, high SVR",
+      "Fast heart rate, reduced SVR, maintained contractility",
+      "Slow heart rate, reduced preload",
+      "High SVR with a phenylephrine infusion",
+      "Avoid sinus rhythm"
+    ],
+    "a": 1,
+    "why": "“Fast and loose”: a higher heart rate shortens diastole (less regurgitation) and a lower SVR favours forward flow. Maintain contractility and sinus rhythm."
+  }
+]

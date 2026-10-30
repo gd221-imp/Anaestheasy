@@ -1,0 +1,50 @@
+[
+  {
+    "id": "Q020",
+    "ar": "Day surgery",
+    "sb": "Day-case spinal",
+    "q": "A fit 35-year-old man is having a day-case knee arthroscopy under spinal anaesthesia. Which intrathecal drug is most suitable to allow early discharge?",
+    "o": [
+      "Hyperbaric bupivacaine 0.5% 3 mL",
+      "Plain ropivacaine 0.75% 3 mL",
+      "Isobaric levobupivacaine 0.5% 3 mL with diamorphine 500 micrograms",
+      "Hyperbaric bupivacaine 0.5% 2.5 mL with diamorphine 300 micrograms",
+      "Hyperbaric prilocaine 2% 50 mg"
+    ],
+    "a": 4,
+    "why": "Short-acting agents (hyperbaric prilocaine 2% or chloroprocaine 1%) give 1–1.5 hours of surgical block with rapid recovery of motor function and voiding, which suits day surgery. Standard-dose bupivacaine delays ambulation and voiding. Intrathecal diamorphine needs respiratory monitoring for several hours and is avoided in day-case spinals.",
+    "st": null
+  },
+  {
+    "id": "Q021",
+    "ar": "Day surgery",
+    "sb": "Diabetes",
+    "q": "A 60-year-old man with type 2 diabetes on metformin, gliclazide and dapagliflozin is listed first on a morning day-case list for an inguinal hernia repair. His HbA1c is 62 mmol/mol. How should his medicines be managed?",
+    "o": [
+      "Continue all three and start a variable-rate insulin infusion",
+      "Omit all three on the morning of surgery only",
+      "Cancel surgery because his HbA1c is above 48 mmol/mol",
+      "Omit metformin for 48 hours before surgery",
+      "Take metformin, omit gliclazide on the morning, omit dapagliflozin the day before and the day of surgery"
+    ],
+    "a": 4,
+    "why": "CPOC (2023) guidance: metformin can be continued unless renal function is impaired or contrast is planned; sulphonylureas are omitted on the morning of surgery (risk of hypoglycaemia while fasting); SGLT2 inhibitors are omitted the day before and the day of surgery because of the risk of euglycaemic ketoacidosis. Elective surgery is usually postponed if HbA1c exceeds 69 mmol/mol (8.5%), so 62 is acceptable.",
+    "st": null
+  },
+  {
+    "id": "Q022",
+    "ar": "Day surgery",
+    "sb": "Cataract on warfarin",
+    "q": "A 78-year-old man in atrial fibrillation on warfarin is listed for day-case cataract surgery under sub-Tenon's block. His INR this morning is 2.6. What is the most appropriate plan?",
+    "o": [
+      "Proceed under peribulbar block with a sharp needle",
+      "Proceed only under general anaesthesia",
+      "Proceed under sub-Tenon's block",
+      "Give vitamin K and proceed the next day",
+      "Postpone until warfarin has been stopped for five days"
+    ],
+    "a": 2,
+    "why": "RCOphth/RCoA guidance: patients on warfarin can continue it for cataract surgery provided the INR is within the therapeutic range (checked within 24 hours). Sub-Tenon's and topical techniques carry a lower risk of haemorrhage than sharp-needle blocks. Stopping warfarin increases thromboembolic risk without benefit.",
+    "st": null
+  }
+]

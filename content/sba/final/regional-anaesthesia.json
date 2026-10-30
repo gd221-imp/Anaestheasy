@@ -1,0 +1,402 @@
+[
+  {
+    "id": "Q158",
+    "ar": "Regional anaesthesia",
+    "sb": "Interscalene block",
+    "q": "A patient with moderate COPD needs an arthroscopic rotator cuff repair. Which block gives good analgesia with the lowest risk of hemidiaphragmatic paresis?",
+    "o": [
+      "Superficial cervical plexus block",
+      "Combined suprascapular and axillary nerve blocks",
+      "Infraclavicular block",
+      "Interscalene block with 20 mL",
+      "Axillary brachial plexus block"
+    ],
+    "a": 1,
+    "why": "Interscalene blocks cause phrenic nerve block in nearly all patients, which may be poorly tolerated with respiratory disease. Suprascapular nerve block (supplying most of the shoulder joint) plus axillary nerve block, or a superior trunk block with low volumes, provides useful analgesia with much less diaphragmatic impairment. Infraclavicular and axillary blocks do not reliably cover the shoulder.",
+    "st": "core-21"
+  },
+  {
+    "id": "Q159",
+    "ar": "Regional anaesthesia",
+    "sb": "Brachial plexus anatomy",
+    "q": "At which level of the brachial plexus does the supraclavicular approach deposit local anaesthetic?",
+    "o": [
+      "Ventral rami of C3–C4",
+      "Trunks and divisions",
+      "Cords",
+      "Roots",
+      "Terminal branches"
+    ],
+    "a": 1,
+    "why": "Interscalene: roots/trunks (C5–C7, often sparing C8–T1 and the ulnar nerve). Supraclavicular: trunks and divisions, where the plexus is compact, giving dense block of the whole arm ('spinal of the arm'). Infraclavicular: cords around the axillary artery. Axillary: terminal branches (musculocutaneous often needs a separate injection).",
+    "st": "st2-81"
+  },
+  {
+    "id": "Q160",
+    "ar": "Regional anaesthesia",
+    "sb": "Hip fracture analgesia",
+    "q": "An 88-year-old with a hip fracture has pain 8/10 despite paracetamol and IV morphine. What is the most appropriate next step according to NICE CG124 and the AAGBI hip fracture guideline?",
+    "o": [
+      "Increase morphine until pain is controlled",
+      "Fascia iliaca compartment block (or femoral nerve block)",
+      "Epidural analgesia on the ward",
+      "Add an NSAID",
+      "Wait for spinal anaesthesia in theatre"
+    ],
+    "a": 1,
+    "why": "NICE recommends paracetamol and opioids, and adding a nerve block (fascia iliaca or femoral) if analgesia is inadequate; NSAIDs are not recommended in older patients. The supra-inguinal fascia iliaca approach reaches the femoral, lateral cutaneous and sometimes obturator nerves. Pericapsular (PENG) block is an alternative. Blocks reduce opioid use and delirium.",
+    "st": "core-4"
+  },
+  {
+    "id": "Q161",
+    "ar": "Regional anaesthesia",
+    "sb": "Ankle block",
+    "q": "For an ankle block for forefoot surgery, which nerve is a branch of the femoral nerve?",
+    "o": [
+      "Deep peroneal nerve",
+      "Superficial peroneal nerve",
+      "Tibial nerve",
+      "Sural nerve",
+      "Saphenous nerve"
+    ],
+    "a": 4,
+    "why": "Four of the five nerves in an ankle block are branches of the sciatic nerve (tibial, deep and superficial peroneal, sural). The saphenous nerve is the terminal branch of the femoral nerve and supplies the medial ankle and foot. The tibial nerve supplies the sole and is the most important for forefoot surgery; block it first because it is the largest and slowest to take effect.",
+    "st": "st2-80"
+  },
+  {
+    "id": "Q162",
+    "ar": "Regional anaesthesia",
+    "sb": "TAP block",
+    "q": "In a transversus abdominis plane block, between which two layers is local anaesthetic injected?",
+    "o": [
+      "Internal oblique and transversus abdominis",
+      "External oblique and internal oblique",
+      "Skin and external oblique",
+      "Rectus abdominis and posterior rectus sheath",
+      "Transversus abdominis and transversalis fascia"
+    ],
+    "a": 0,
+    "why": "The TAP lies between internal oblique and transversus abdominis, where the anterior rami of T6–L1 run. TAP blocks give somatic analgesia of the anterolateral abdominal wall (no visceral analgesia). Lateral approaches cover roughly T10–L1 (lower abdomen); subcostal approaches cover upper abdominal dermatomes. Rectus sheath blocks suit midline incisions.",
+    "st": "st2-78"
+  },
+  {
+    "id": "Q163",
+    "ar": "Regional anaesthesia",
+    "sb": "LA toxicity",
+    "q": "Shortly after an axillary block with 30 mL of 0.5% levobupivacaine, a 60 kg patient becomes agitated, then has a seizure and ventricular tachycardia with a pulse. According to the AAGBI guideline, what is the initial lipid emulsion dose?",
+    "o": [
+      "Propofol 2 mg/kg in place of lipid",
+      "10% lipid 1 mL/kg only",
+      "20% lipid emulsion 1.5 mL/kg IV bolus over 1 minute, then infusion at 15 mL/kg/h",
+      "20% lipid 10 mL/kg bolus",
+      "Lipid only if cardiac arrest occurs"
+    ],
+    "a": 2,
+    "why": "AAGBI (2010, endorsed by RA-UK): 20% lipid emulsion 1.5 mL/kg over 1 minute, then 15 mL/kg/h; repeat the bolus up to twice at 5-minute intervals and double the infusion rate if instability persists; maximum cumulative 12 mL/kg. Treat seizures with a benzodiazepine, support the airway, and continue CPR for prolonged periods if arrest occurs; amiodarone is preferred to lidocaine for arrhythmias. Propofol is not a substitute.",
+    "st": "st2-82"
+  },
+  {
+    "id": "Q164",
+    "ar": "Regional anaesthesia",
+    "sb": "Nerve injury",
+    "q": "A patient has persistent numbness and weakness in the hand a week after an interscalene block. What is the most appropriate management?",
+    "o": [
+      "Immediate MRI of the cervical spine in all cases",
+      "Reassure; most resolve so no follow-up is needed",
+      "Start steroids",
+      "Repeat the block to treat the neuropathy",
+      "Document, examine, inform the patient, arrange neurological follow-up and consider nerve conduction studies at about 3 weeks"
+    ],
+    "a": 4,
+    "why": "Most post-block neurological symptoms are transient (resolving within weeks to months), and permanent injury is rare. Persistent deficits need examination, documentation, honest discussion, and referral to a neurologist. Nerve conduction studies and EMG are most informative after about 3 weeks and can show pre-existing pathology. Urgent imaging is needed for progressive deficits or suspected haematoma.",
+    "st": null
+  },
+  {
+    "id": "Q165",
+    "ar": "Regional anaesthesia",
+    "sb": "Ultrasound physics",
+    "q": "Which ultrasound probe and frequency is best for a superficial interscalene block?",
+    "o": [
+      "Low-frequency (2–5 MHz) curvilinear",
+      "Phased array 2 MHz",
+      "Low-frequency linear at 3 MHz",
+      "High-frequency (10–15 MHz) linear",
+      "Any probe; frequency does not affect image quality"
+    ],
+    "a": 3,
+    "why": "Higher frequencies give better axial resolution but penetrate less (attenuation rises with frequency). Superficial structures (brachial plexus, vessels for cannulation) are best imaged with a high-frequency linear probe. Deep structures (sciatic in large patients, neuraxial, abdominal) need lower-frequency curvilinear probes. Phased-array probes are used for echocardiography.",
+    "st": null
+  },
+  {
+    "id": "Q166",
+    "ar": "Regional anaesthesia",
+    "sb": "Compartment syndrome and RA",
+    "q": "A 20-year-old has a closed tibial shaft fracture fixed with an intramedullary nail. Which analgesic plan best reflects the 2021 consensus on regional anaesthesia and compartment syndrome?",
+    "o": [
+      "Avoid all regional techniques",
+      "Epidural with high-concentration local anaesthetic",
+      "Opioids only, with no monitoring needed",
+      "Dense continuous popliteal block with 0.5% bupivacaine for 72 hours",
+      "Use regional anaesthesia if appropriate, with dilute local anaesthetic, clear communication, and compartment monitoring by a trained team"
+    ],
+    "a": 4,
+    "why": "The multidisciplinary consensus (Anaesthesia 2021) found no evidence that regional anaesthesia delays diagnosis of acute compartment syndrome if monitored appropriately. Use lower concentrations and volumes, avoid dense prolonged blocks in high-risk patients, communicate with the surgical team, monitor regularly, and remember that breakthrough pain in a blocked limb is a red flag.",
+    "st": null
+  },
+  {
+    "id": "Q167",
+    "ar": "Regional anaesthesia",
+    "sb": "Obstetric neuraxial ultrasound",
+    "q": "Ultrasound before a labour epidural in a woman with a BMI of 48 is most useful for which purpose?",
+    "o": [
+      "Measuring CSF pressure",
+      "Detecting the dural puncture",
+      "Real-time visualisation of the Tuohy needle entering the epidural space",
+      "Identifying the midline, the interspace level and the depth to the epidural space",
+      "Replacing loss of resistance"
+    ],
+    "a": 3,
+    "why": "Pre-procedural neuraxial ultrasound (paramedian sagittal oblique and transverse views) identifies the midline, interspace and estimated depth to the ligamentum flavum/dura, improving first-pass success when landmarks are difficult. Ultrasound tends to underestimate depth slightly because the probe compresses tissues. Loss of resistance remains the endpoint.",
+    "st": "core-13"
+  },
+  {
+    "id": "Q168",
+    "ar": "Regional anaesthesia",
+    "sb": "Lower limb blocks",
+    "q": "For total knee arthroplasty, why is an adductor canal block often preferred to a femoral nerve block?",
+    "o": [
+      "It avoids the need for any other analgesia",
+      "It provides better analgesia of the posterior knee",
+      "It blocks the obturator nerve completely",
+      "It is quicker to perform with nerve stimulation",
+      "It largely preserves quadriceps strength, allowing earlier mobilisation"
+    ],
+    "a": 4,
+    "why": "The adductor canal contains the saphenous nerve and nerve to vastus medialis (mostly sensory), so quadriceps strength is better preserved than with a femoral nerve block, reducing falls and allowing early mobilisation. It does not cover the posterior knee; IPACK or periarticular infiltration is often added.",
+    "st": "st2-80"
+  },
+  {
+    "id": "Q322",
+    "ar": "Regional anaesthesia",
+    "sb": "Plan A blocks",
+    "q": "Which block is one of the RA-UK 'Plan A' blocks every anaesthetist should be able to perform?",
+    "o": [
+      "Lumbar plexus block",
+      "Paravertebral block",
+      "Stellate ganglion block",
+      "Infraclavicular block",
+      "Erector spinae plane block"
+    ],
+    "a": 4,
+    "why": "The seven RA-UK Plan A blocks (2021) are interscalene, axillary brachial plexus, erector spinae plane, rectus sheath, femoral, adductor canal and popliteal sciatic. They were chosen to cover most surgical sites with a manageable set of safe, teachable blocks.",
+    "st": "st2-78"
+  },
+  {
+    "id": "Q323",
+    "ar": "Regional anaesthesia",
+    "sb": "Plan A blocks",
+    "q": "What does the 'Stop Before You Block' check aim to prevent?",
+    "o": [
+      "Infection",
+      "Pneumothorax",
+      "Wrong-side nerve blocks",
+      "Intraneural injection",
+      "Local anaesthetic toxicity"
+    ],
+    "a": 2,
+    "why": "Stop Before You Block is a moment immediately before needle insertion when the anaesthetist and assistant confirm the site and side against the consent form and surgical marking. Wrong-side blocks are a never event.",
+    "st": "st2-78"
+  },
+  {
+    "id": "Q324",
+    "ar": "Regional anaesthesia",
+    "sb": "Ultrasound basics",
+    "q": "Why can a nerve appear to vanish when the probe is tilted slightly?",
+    "o": [
+      "Acoustic shadowing",
+      "Anisotropy",
+      "Posterior acoustic enhancement",
+      "Mirror image artefact",
+      "Reverberation"
+    ],
+    "a": 1,
+    "why": "Anisotropy: the echogenicity of nerves and tendons depends on the angle of the beam, so small tilts change brightness. Optimise with PART (pressure, alignment, rotation, tilt). Shadowing occurs behind bone; enhancement occurs behind fluid-filled structures such as vessels.",
+    "st": "st2-79"
+  },
+  {
+    "id": "Q325",
+    "ar": "Regional anaesthesia",
+    "sb": "Ultrasound basics",
+    "q": "Which ultrasound control places the narrowest part of the beam at the target depth to improve lateral resolution?",
+    "o": [
+      "Gain",
+      "Focus (focal zone)",
+      "Colour Doppler",
+      "Dynamic range",
+      "Frame rate"
+    ],
+    "a": 1,
+    "why": "Set the depth so the target sits mid-screen, place the focal zone at the target, then adjust gain for overall brightness. Higher frequencies give better resolution but less penetration; deep targets may need a lower-frequency curvilinear probe.",
+    "st": "st2-79"
+  },
+  {
+    "id": "Q326",
+    "ar": "Regional anaesthesia",
+    "sb": "Ultrasound basics",
+    "q": "On ultrasound, how do arteries and veins typically differ?",
+    "o": [
+      "Veins pulsate and resist compression",
+      "Arteries pulsate; veins compress",
+      "Veins cast an acoustic shadow",
+      "Arteries compress easily",
+      "Both appear hyperechoic"
+    ],
+    "a": 1,
+    "why": "Arteries are round, pulsatile and resist compression; veins are compressible and may change with respiration. Colour Doppler confirms flow. Checking for vessels along the needle path reduces the risk of intravascular injection.",
+    "st": "st2-79"
+  },
+  {
+    "id": "Q327",
+    "ar": "Regional anaesthesia",
+    "sb": "Lower limb blocks",
+    "q": "An iPACK block is added to an adductor canal block for knee replacement. What does it target?",
+    "o": [
+      "Posterior knee capsule articular branches",
+      "The saphenous nerve at the ankle",
+      "The obturator nerve in the obturator canal",
+      "The common peroneal nerve at the fibular head",
+      "The femoral nerve in the femoral triangle"
+    ],
+    "a": 0,
+    "why": "iPACK (infiltration between popliteal artery and capsule of the knee) blocks posterior articular branches from the sciatic and obturator nerves, improving posterior knee analgesia without foot drop. Adductor canal blocks the saphenous nerve and nerve to vastus medialis, sparing most quadriceps strength.",
+    "st": "st2-80"
+  },
+  {
+    "id": "Q328",
+    "ar": "Regional anaesthesia",
+    "sb": "Lower limb blocks",
+    "q": "What is the main safety concern after a femoral nerve block for knee surgery?",
+    "o": [
+      "Horner's syndrome",
+      "Phrenic nerve palsy",
+      "Urinary retention",
+      "Pneumothorax",
+      "Falls from quadriceps weakness"
+    ],
+    "a": 4,
+    "why": "Femoral nerve block causes quadriceps weakness, increasing the risk of falls, which is why adductor canal blocks are preferred for knee arthroplasty. Patients need clear instructions, a knee brace or supervision when mobilising.",
+    "st": "st2-80"
+  },
+  {
+    "id": "Q329",
+    "ar": "Regional anaesthesia",
+    "sb": "Lower limb blocks",
+    "q": "For foot surgery, a popliteal sciatic block alone leaves which area unblocked?",
+    "o": [
+      "The heel",
+      "The lateral border of the foot",
+      "The dorsum of the foot",
+      "The sole of the foot",
+      "The saphenous (medial) territory"
+    ],
+    "a": 4,
+    "why": "The sciatic nerve supplies the leg below the knee except the medial side, which is supplied by the saphenous nerve (from the femoral). A saphenous block at the adductor canal or below the knee completes the block, and also covers a calf tourniquet better.",
+    "st": "st2-80"
+  },
+  {
+    "id": "Q330",
+    "ar": "Regional anaesthesia",
+    "sb": "Upper limb blocks",
+    "q": "Which block is most reliable for forearm and hand surgery and carries a risk of pneumothorax?",
+    "o": [
+      "Supraclavicular block",
+      "Suprascapular block",
+      "Axillary block",
+      "Interscalene block",
+      "Superficial cervical plexus block"
+    ],
+    "a": 0,
+    "why": "The supraclavicular block targets the compact trunks/divisions ('spinal anaesthesia of the arm') with fast, dense onset, but the pleura lies close beneath, so the needle tip must be seen throughout. It also causes phrenic palsy in up to about half of patients. Axillary blocks avoid both risks.",
+    "st": "st2-81"
+  },
+  {
+    "id": "Q331",
+    "ar": "Regional anaesthesia",
+    "sb": "Upper limb blocks",
+    "q": "After an interscalene block, a patient develops hoarseness and ptosis. What is the explanation?",
+    "o": [
+      "Local anaesthetic systemic toxicity",
+      "Pneumothorax",
+      "Ischaemic stroke",
+      "Recurrent laryngeal and sympathetic spread",
+      "Intrathecal injection"
+    ],
+    "a": 3,
+    "why": "Common, benign side effects of interscalene block are ipsilateral phrenic palsy (nearly 100%), Horner's syndrome and hoarseness from recurrent laryngeal nerve spread. Serious complications include intrathecal, epidural or vertebral artery injection and nerve injury.",
+    "st": "st2-81"
+  },
+  {
+    "id": "Q332",
+    "ar": "Regional anaesthesia",
+    "sb": "Upper limb blocks",
+    "q": "For shoulder surgery in a patient with severe COPD, which block gives analgesia with less risk of phrenic nerve palsy than an interscalene block?",
+    "o": [
+      "Axillary brachial plexus block",
+      "Suprascapular (± axillary) nerve block",
+      "Lumbar plexus block",
+      "Wrist block",
+      "A second interscalene block"
+    ],
+    "a": 1,
+    "why": "Diaphragm-sparing alternatives include suprascapular nerve block (± axillary nerve block), a lower-volume or extended interscalene technique, or a superior trunk block. They provide useful analgesia with far less hemidiaphragmatic paresis.",
+    "st": "st2-81"
+  },
+  {
+    "id": "Q333",
+    "ar": "Regional anaesthesia",
+    "sb": "LA toxicity",
+    "q": "During lipid emulsion treatment for LA toxicity, cardiovascular instability persists after the first bolus and infusion. What is the next step?",
+    "o": [
+      "Give lidocaine for the arrhythmias",
+      "Give vasopressin 40 units alone",
+      "Repeat boluses and double the infusion rate",
+      "Switch to 10% lipid emulsion",
+      "Stop lipid and give propofol"
+    ],
+    "a": 2,
+    "why": "AAGBI: 20% lipid 1.5 mL/kg over 1 minute, then 15 mL/kg/h. If unstable after 5 minutes, give up to two further boluses 5 minutes apart and double the rate to 30 mL/kg/h. Do not exceed 12 mL/kg in total. Continue CPR (it may be prolonged) and consider cardiopulmonary bypass.",
+    "st": "st2-82"
+  },
+  {
+    "id": "Q334",
+    "ar": "Regional anaesthesia",
+    "sb": "LA toxicity",
+    "q": "During cardiac arrest from LA toxicity, which drug should be avoided for arrhythmias?",
+    "o": [
+      "Lidocaine",
+      "Lipid emulsion",
+      "Magnesium",
+      "Adrenaline at low doses",
+      "Amiodarone"
+    ],
+    "a": 0,
+    "why": "Lidocaine is a local anaesthetic and should not be used as an antiarrhythmic in LA toxicity. Also avoid calcium channel and beta-blockers. Amiodarone is suggested; adrenaline doses of 1 µg/kg or less may be preferred.",
+    "st": "st2-82"
+  },
+  {
+    "id": "Q335",
+    "ar": "Regional anaesthesia",
+    "sb": "LA toxicity",
+    "q": "Which factor increases the risk of local anaesthetic systemic toxicity?",
+    "o": [
+      "Very vascular sites such as intercostal blocks",
+      "Injection with adrenaline",
+      "Ultrasound guidance",
+      "Incremental injection with aspiration",
+      "Using ropivacaine instead of bupivacaine"
+    ],
+    "a": 0,
+    "why": "Absorption is highest from intercostal, caudal and epidural sites, then brachial plexus and femoral/sciatic. Risk is increased in the elderly, neonates, pregnancy, cardiac or hepatic disease and with low muscle mass. Ultrasound, adrenaline-containing solutions and incremental injection reduce risk.",
+    "st": "st2-82"
+  }
+]

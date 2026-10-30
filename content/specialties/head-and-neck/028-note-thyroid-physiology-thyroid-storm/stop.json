@@ -1,0 +1,22 @@
+{
+  "t": "tip",
+  "shape": "headn",
+  "group": "Head and neck",
+  "title": "Thyroid Physiology & Thyroid Storm",
+  "note": true,
+  "cards": [
+    {
+      "h": "Thyroid hormone synthesis",
+      "b": "file:cards/01-thyroid-hormone-synthesis.html"
+    },
+    {
+      "h": "Graves' disease",
+      "b": "file:cards/02-graves-disease.html"
+    },
+    {
+      "h": "Thyroid storm",
+      "b": "file:cards/03-thyroid-storm.html"
+    }
+  ],
+  "q": "file:quiz.json"
+}

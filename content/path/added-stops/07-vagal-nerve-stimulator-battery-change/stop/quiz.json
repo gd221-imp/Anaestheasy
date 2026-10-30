@@ -1,0 +1,62 @@
+[
+  {
+    "q": "What is the most important pre-op check before a VNS battery change?",
+    "o": [
+      "Haemoglobin",
+      "Coagulation screen",
+      "Echo",
+      "That usual antiepileptics have been taken",
+      "Lung function"
+    ],
+    "a": 3,
+    "why": "Missing antiepileptics risks perioperative seizures."
+  },
+  {
+    "q": "Where is a VNS battery usually sited?",
+    "o": [
+      "Scalp",
+      "Abdomen",
+      "Thigh",
+      "Upper chest wall, like an ICD",
+      "Lower back"
+    ],
+    "a": 3,
+    "why": "The generator sits in the upper chest with the lead to the left vagus nerve."
+  },
+  {
+    "q": "Which side effect of VNS stimulation is common?",
+    "o": [
+      "Ptosis",
+      "Hoarseness",
+      "Facial palsy",
+      "Diplopia",
+      "Hearing loss"
+    ],
+    "a": 1,
+    "why": "Vagal stimulation affects the recurrent laryngeal branch, causing hoarseness or cough."
+  },
+  {
+    "q": "Which airway suits a VNS battery change?",
+    "o": [
+      "Awake fibreoptic intubation",
+      "LMA",
+      "Double-lumen tube",
+      "Tracheostomy",
+      "Nasal ETT"
+    ],
+    "a": 1,
+    "why": "A short case under GA with an LMA and TIVA is typical."
+  },
+  {
+    "q": "What should you ask about seizures at pre-op?",
+    "o": [
+      "Only the date of diagnosis",
+      "Diet",
+      "Driving licence number",
+      "Only family history",
+      "Type, frequency and whether they stop by themselves"
+    ],
+    "a": 4,
+    "why": "Knowing the usual pattern helps you recognise and treat a perioperative seizure."
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "q": "What airway is usually used for bimaxillary osteotomy?",
+    "o": [
+      "Oral RAE",
+      "Nasal ETT",
+      "LMA",
+      "Tracheostomy always",
+      "Facemask"
+    ],
+    "a": 1,
+    "why": "Allows the surgeon to check occlusion."
+  },
+  {
+    "q": "Why is controlled hypotension used?",
+    "o": [
+      "Reduce PONV",
+      "Reduce bleeding and improve the surgical field",
+      "Reduce pain",
+      "Speed emergence",
+      "Prevent awareness"
+    ],
+    "a": 1,
+    "why": "Arterial line recommended."
+  },
+  {
+    "q": "Which nerve is at risk in mandibular osteotomy?",
+    "o": [
+      "Facial",
+      "Inferior alveolar",
+      "Lingual only",
+      "Infraorbital",
+      "Hypoglossal"
+    ],
+    "a": 1,
+    "why": "Causes lip numbness."
+  },
+  {
+    "q": "What should be at the bedside if intermaxillary fixation is used?",
+    "o": [
+      "Laryngoscope",
+      "Wire cutters",
+      "Gas cylinder",
+      "Bougie",
+      "Defibrillator"
+    ],
+    "a": 1,
+    "why": "PONV with fixed jaws risks aspiration."
+  },
+  {
+    "q": "Which item must be removed at the end?",
+    "o": [
+      "Arterial line",
+      "Throat pack",
+      "ETT always",
+      "Urinary catheter",
+      "Cannula"
+    ],
+    "a": 1,
+    "why": "Check and document."
+  },
+  {
+    "q": "A tooth is knocked out at intubation. What should you do?",
+    "o": [
+      "Discard it",
+      "Reimplant or store in milk/saline; if lost, search to exclude aspiration",
+      "Ignore",
+      "Give antibiotics only",
+      "Wait for dentist"
+    ],
+    "a": 1,
+    "why": "Refer to the dentist and complete an incident form."
+  },
+  {
+    "q": "Which delayed surgical complication may follow?",
+    "o": [
+      "Laryngospasm",
+      "Malocclusion or relapse",
+      "Hypocalcaemia",
+      "Ptosis",
+      "Stroke"
+    ],
+    "a": 1,
+    "why": "Also infection."
+  },
+  {
+    "q": "Which Le Fort osteotomy is combined with a mandibular osteotomy?",
+    "o": [
+      "Le Fort III",
+      "Le Fort I",
+      "Le Fort II",
+      "Le Fort IV",
+      "None"
+    ],
+    "a": 1,
+    "why": "Bimaxillary means maxilla plus mandible."
+  },
+  {
+    "q": "Which immediate anaesthetic complication relates to the airway?",
+    "o": [
+      "Bronchospasm",
+      "Nasal tube damage or displacement",
+      "Malignant hyperthermia",
+      "Hyperkalaemia",
+      "PDPH"
+    ],
+    "a": 1,
+    "why": "Shared airway with the surgeon."
+  },
+  {
+    "q": "What is the main extubation concern?",
+    "o": [
+      "Hypothermia",
+      "Facial swelling and limited access with possible fixation",
+      "Awareness",
+      "Hypertension",
+      "Pain only"
+    ],
+    "a": 1,
+    "why": "Plan extubation carefully."
+  }
+]

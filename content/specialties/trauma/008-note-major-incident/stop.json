@@ -1,0 +1,34 @@
+{
+  "t": "tip",
+  "shape": "cross",
+  "group": "Orthopaedics and Trauma",
+  "title": "Major Incident",
+  "cards": [
+    {
+      "h": "Definition",
+      "b": "file:cards/01-definition.html"
+    },
+    {
+      "h": "Components of a Major Incident plan",
+      "b": "file:cards/02-components-of-a-major-incident-plan.html"
+    },
+    {
+      "h": "Consolidation",
+      "b": "file:cards/03-consolidation.html"
+    },
+    {
+      "h": "Triage priorities",
+      "b": "file:cards/04-triage-priorities.html"
+    },
+    {
+      "h": "Command & control structure",
+      "b": "file:cards/05-command-control-structure.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/06-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

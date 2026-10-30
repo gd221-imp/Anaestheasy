@@ -1,0 +1,25 @@
+{
+  "t": "tip",
+  "shape": "clip",
+  "group": "Periop medicine",
+  "title": "Perioperative Diabetes Management",
+  "note": true,
+  "cards": [
+    {
+      "h": "Pre-op",
+      "b": "file:cards/01-pre-op.html"
+    },
+    {
+      "h": "Targets and VRIII",
+      "b": "file:cards/02-targets-and-vriii.html"
+    },
+    {
+      "h": "Newer drugs",
+      "b": "file:cards/03-newer-drugs.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/04-further-reading.html"
+    }
+  ]
+}

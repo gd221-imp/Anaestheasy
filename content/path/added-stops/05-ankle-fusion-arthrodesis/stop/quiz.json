@@ -1,0 +1,62 @@
+[
+  {
+    "q": "Which block gives most of the analgesia for ankle surgery?",
+    "o": [
+      "Interscalene block",
+      "Lumbar plexus block",
+      "Femoral block",
+      "Popliteal sciatic block",
+      "Obturator block"
+    ],
+    "a": 3,
+    "why": "The sciatic nerve supplies most of the ankle and foot below the knee."
+  },
+  {
+    "q": "Which extra block covers the medial ankle?",
+    "o": [
+      "Sural nerve block",
+      "Radial nerve block",
+      "Saphenous nerve block",
+      "Ilioinguinal block",
+      "Genitofemoral block"
+    ],
+    "a": 2,
+    "why": "The saphenous nerve supplies skin over the medial malleolus."
+  },
+  {
+    "q": "What should patients be told before the block wears off?",
+    "o": [
+      "Keep the leg dependent",
+      "Remove the cast",
+      "Start oral analgesia before it wears off",
+      "Avoid eating",
+      "Stop all analgesia"
+    ],
+    "a": 2,
+    "why": "Rebound pain after bone surgery can be severe; plan analgesia in advance."
+  },
+  {
+    "q": "What is the maximum dose of bupivacaine without adrenaline?",
+    "o": [
+      "1 mg/kg",
+      "5 mg/kg",
+      "7 mg/kg",
+      "2 mg/kg",
+      "10 mg/kg"
+    ],
+    "a": 3,
+    "why": "2 mg/kg (about 150 mg in adults); combine doses with infiltration carefully."
+  },
+  {
+    "q": "Which comorbidity often affects foot and ankle surgery patients?",
+    "o": [
+      "Diabetes with neuropathy",
+      "Marfan syndrome",
+      "Myasthenia gravis",
+      "Phaeochromocytoma",
+      "Porphyria"
+    ],
+    "a": 0,
+    "why": "Diabetic neuropathy matters for wound healing and documenting baseline sensation."
+  }
+]

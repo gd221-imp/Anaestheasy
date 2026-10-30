@@ -1,0 +1,122 @@
+[
+  {
+    "q": "Which induction is used for a vomiting child with appendicitis?",
+    "o": [
+      "Gas induction with LMA",
+      "RSI or modified RSI with a cuffed ETT",
+      "Sedation",
+      "Spinal",
+      "Awake intubation"
+    ],
+    "a": 1,
+    "why": "Vomiting and peritonitis increase aspiration risk."
+  },
+  {
+    "q": "Which regional technique is used for laparoscopic appendicectomy?",
+    "o": [
+      "Caudal",
+      "Port-site local anaesthetic or TAP blocks",
+      "Spinal",
+      "Penile block",
+      "Femoral block"
+    ],
+    "a": 1,
+    "why": "TAP or local infiltration."
+  },
+  {
+    "q": "What fluid bolus is given if needed?",
+    "o": [
+      "20 ml/kg colloid",
+      "10 ml/kg crystalloid",
+      "50 ml/kg",
+      "2 ml/kg",
+      "100 ml fixed"
+    ],
+    "a": 1,
+    "why": "Then maintenance fluids."
+  },
+  {
+    "q": "Which sign suggests a sick child in circulation?",
+    "o": [
+      "CRT under 2 s",
+      "Capillary refill over 2 seconds",
+      "Warm peripheries",
+      "HR within normal range",
+      "Normal wet nappies"
+    ],
+    "a": 1,
+    "why": "Hypotension is a late sign."
+  },
+  {
+    "q": "Which features suggest meningococcal septicaemia?",
+    "o": [
+      "Blanching rash",
+      "Fever with non-blanching purpuric rash and shock",
+      "Urticaria",
+      "Vesicles",
+      "Eczema"
+    ],
+    "a": 1,
+    "why": "Give broad-spectrum antibiotics without delay, following local guidelines."
+  },
+  {
+    "q": "What organism causes meningococcal disease?",
+    "o": [
+      "Strep pneumoniae",
+      "Neisseria meningitidis (gram-negative diplococcus)",
+      "Staph aureus",
+      "H influenzae",
+      "E. coli"
+    ],
+    "a": 1,
+    "why": "Public health notification and contact prophylaxis are needed."
+  },
+  {
+    "q": "What is the paediatric 4-2-1 maintenance rate for a 15 kg child?",
+    "o": [
+      "30 ml/h",
+      "50 ml/h",
+      "60 ml/h",
+      "15 ml/h",
+      "100 ml/h"
+    ],
+    "a": 1,
+    "why": "40 + 10 = 50 ml/h."
+  },
+  {
+    "q": "What evaporative loss is estimated during open abdominal surgery?",
+    "o": [
+      "0.5 ml/kg/h",
+      "5–10 ml/kg/h",
+      "50 ml/kg/h",
+      "1 ml/kg/day",
+      "None"
+    ],
+    "a": 1,
+    "why": "Add fasting deficit, maintenance, other losses and blood loss."
+  },
+  {
+    "q": "Which delayed surgical complication follows appendicectomy?",
+    "o": [
+      "Hypospadias",
+      "Intra-abdominal collection",
+      "Meatal stenosis",
+      "Testicular atrophy",
+      "Squint"
+    ],
+    "a": 1,
+    "why": "Also wound infection and ileus."
+  },
+  {
+    "q": "Which drug check is particularly important for paediatric RSI?",
+    "o": [
+      "Not needed",
+      "Checking drug doses against weight",
+      "Only the ETT size",
+      "Surgeon’s name",
+      "Theatre temperature"
+    ],
+    "a": 1,
+    "why": "Paediatric RSI drugs and doses are checked beforehand."
+  }
+]

@@ -1,0 +1,34 @@
+{
+  "t": "tip",
+  "shape": "heart",
+  "group": "Cardiac",
+  "title": "Ischaemic Heart Disease",
+  "cards": [
+    {
+      "h": "History",
+      "b": "file:cards/01-history.html"
+    },
+    {
+      "h": "Investigations",
+      "b": "file:cards/02-investigations.html"
+    },
+    {
+      "h": "Lee's Revised Cardiac Risk Index",
+      "b": "file:cards/03-lee-s-revised-cardiac-risk-index.html"
+    },
+    {
+      "h": "Angina",
+      "b": "file:cards/04-angina.html"
+    },
+    {
+      "h": "Note",
+      "b": "file:cards/05-note.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/06-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

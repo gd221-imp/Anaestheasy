@@ -1,0 +1,354 @@
+[
+  {
+    "id": "Q026",
+    "ar": "Cardiothoracic",
+    "sb": "Anticoagulation for bypass",
+    "q": "Before going onto cardiopulmonary bypass a patient receives 300 units/kg of unfractionated heparin, but the activated clotting time is only 290 seconds. A further 100 units/kg brings it to 320 seconds. He has been on a heparin infusion for unstable angina for five days. What is the most likely explanation?",
+    "o": [
+      "Factor XII deficiency",
+      "Hypothermia",
+      "Antithrombin deficiency",
+      "Heparin-induced thrombocytopenia",
+      "Haemodilution from the pump prime"
+    ],
+    "a": 2,
+    "why": "Heparin works by potentiating antithrombin. Heparin resistance (failure to reach an ACT of about 400–480 s) is most often due to acquired antithrombin deficiency after prolonged heparin infusion, sepsis or high platelet counts. It is treated with antithrombin concentrate or FFP. HIT causes thrombocytopenia and thrombosis rather than resistance; hypothermia and haemodilution prolong the ACT.",
+    "st": "st2-1"
+  },
+  {
+    "id": "Q027",
+    "ar": "Cardiothoracic",
+    "sb": "Aortic stenosis",
+    "q": "A 76-year-old woman with severe aortic stenosis (valve area 0.7 cm², normal LV function) needs an urgent laparotomy. Which haemodynamic goal is most important during induction?",
+    "o": [
+      "Reduce afterload with a vasodilator to improve forward flow",
+      "Allow a tachycardia to maintain cardiac output",
+      "Use high-dose propofol to minimise the pressor response",
+      "Maintain systemic vascular resistance and sinus rhythm with a normal-to-slow heart rate",
+      "Keep the patient relatively hypovolaemic to avoid pulmonary oedema"
+    ],
+    "a": 3,
+    "why": "In severe AS cardiac output is relatively fixed and the hypertrophied ventricle depends on adequate diastolic pressure for coronary perfusion. Maintain preload and SVR (treat hypotension promptly with a vasoconstrictor such as phenylephrine or metaraminol), keep sinus rhythm (atrial kick contributes significantly to filling) and avoid tachycardia, which shortens diastole.",
+    "st": "st2-4"
+  },
+  {
+    "id": "Q028",
+    "ar": "Cardiothoracic",
+    "sb": "TAVI",
+    "q": "A frail 84-year-old man is having a transfemoral transcatheter aortic valve implantation (TAVI) under local anaesthesia and light sedation. Immediately after valve deployment he becomes bradycardic and hypotensive and the ECG shows complete heart block. What is the most appropriate immediate step?",
+    "o": [
+      "Give a fluid bolus of 1 litre",
+      "Start an adrenaline infusion and call the cardiac surgeons",
+      "Pace via the temporary transvenous wire placed for rapid pacing",
+      "Convert to general anaesthesia and intubate",
+      "Give atropine 3 mg and observe"
+    ],
+    "a": 2,
+    "why": "Conduction disturbances, especially complete heart block, are common after TAVI because the valve frame sits close to the conduction tissue. A temporary pacing wire (used for rapid ventricular pacing during deployment) is already in place and should be used to pace. Some patients need a permanent pacemaker. Other important TAVI complications include coronary occlusion, annular rupture, tamponade, vascular injury and stroke.",
+    "st": "st2-3"
+  },
+  {
+    "id": "Q029",
+    "ar": "Cardiothoracic",
+    "sb": "Cardiac tamponade",
+    "q": "Six hours after CABG a patient becomes hypotensive with rising CVP, falling urine output and reduced chest drain output. Which echocardiographic or haemodynamic finding most supports cardiac tamponade?",
+    "o": [
+      "A high cardiac output with low systemic vascular resistance",
+      "Severe new mitral regurgitation",
+      "A large left ventricular outflow tract gradient",
+      "A dilated, poorly contracting left ventricle",
+      "Equalisation of CVP and pulmonary artery wedge pressure with diastolic collapse of a cardiac chamber"
+    ],
+    "a": 4,
+    "why": "Tamponade restricts diastolic filling, so diastolic pressures equalise (RA ≈ RV diastolic ≈ PA diastolic ≈ PAWP) and chambers collapse in diastole (RA, RV, or a localised clot compressing the left atrium after cardiac surgery). Pulsus paradoxus may be present. After surgery tamponade is often localised, so transoesophageal echo may be needed. Treatment is re-exploration or resternotomy.",
+    "st": "st2-3"
+  },
+  {
+    "id": "Q030",
+    "ar": "Cardiothoracic",
+    "sb": "Cardioplegia",
+    "q": "Which statement best describes how standard high-potassium crystalloid cardioplegia (e.g. St Thomas' solution) arrests the heart?",
+    "o": [
+      "It works only by hypothermia and the potassium is incidental",
+      "It blocks L-type calcium channels, arresting the heart in systole",
+      "It hyperpolarises the membrane, preventing depolarisation",
+      "It inhibits the sodium–potassium ATPase directly",
+      "It depolarises the membrane, inactivating fast sodium channels and arresting the heart in diastole"
+    ],
+    "a": 4,
+    "why": "High extracellular potassium (about 16–20 mmol/L) raises the resting membrane potential (depolarisation) to around −50 mV, which inactivates fast sodium channels so action potentials cannot be generated: the heart arrests in diastole. Hypothermia further lowers oxygen demand. Magnesium and buffers in the solution provide additional protection. Retrograde delivery via the coronary sinus is used when aortic regurgitation or severe coronary disease limits antegrade delivery.",
+    "st": "st2-1"
+  },
+  {
+    "id": "Q031",
+    "ar": "Cardiothoracic",
+    "sb": "Off-pump CABG",
+    "q": "During off-pump CABG the surgeon lifts the heart to graft the circumflex territory and the blood pressure falls from 110/60 to 65/40 mmHg. What is the most appropriate first response?",
+    "o": [
+      "Ask the surgeon to briefly reposition the heart, put the patient head-down and give fluid",
+      "Give esmolol to slow the heart",
+      "Give glyceryl trinitrate to improve coronary flow",
+      "Go straight onto cardiopulmonary bypass",
+      "Start a dobutamine infusion"
+    ],
+    "a": 0,
+    "why": "Verticalising the heart for lateral and posterior grafts distorts the atria and ventricles and impairs filling, causing hypotension. Initial management is Trendelenburg tilt, volume, vasoconstrictor, and asking the surgeon to adjust the stabiliser or briefly return the heart. Persistent instability, ischaemia or arrhythmia may need conversion to on-pump surgery.",
+    "st": "st2-0"
+  },
+  {
+    "id": "Q032",
+    "ar": "Cardiothoracic",
+    "sb": "Intra-aortic balloon pump",
+    "q": "An intra-aortic balloon pump is correctly timed on a 1:1 ratio in a patient with cardiogenic shock. Which of the following is an absolute contraindication to its use?",
+    "o": [
+      "Ventricular septal rupture",
+      "Recent thrombolysis",
+      "Severe peripheral vascular disease",
+      "Moderate-to-severe aortic regurgitation",
+      "Left main stem stenosis"
+    ],
+    "a": 3,
+    "why": "Diastolic inflation in significant aortic regurgitation would worsen regurgitant flow and LV distension, so AR is an absolute contraindication, along with aortic dissection. Peripheral vascular disease and coagulopathy are relative contraindications. VSD rupture and left main disease are indications. Correct timing: inflation at the dicrotic notch, deflation just before systole (R wave).",
+    "st": "st2-3"
+  },
+  {
+    "id": "Q033",
+    "ar": "Cardiothoracic",
+    "sb": "LVAD",
+    "q": "A 54-year-old man with a continuous-flow left ventricular assist device needs an emergency laparotomy. The non-invasive BP cuff is not reading reliably. Which monitoring target is most appropriate?",
+    "o": [
+      "Pulse oximetry plethysmograph amplitude",
+      "Mean arterial pressure about 70–80 mmHg measured by Doppler or arterial line",
+      "A palpable radial pulse",
+      "Systolic BP 100–120 mmHg on a non-invasive cuff",
+      "Heart rate 60–80 bpm"
+    ],
+    "a": 1,
+    "why": "Continuous-flow LVADs produce little or no pulsatility, so cuff pressures and pulse oximetry may fail. Measure MAP with an arterial line (ultrasound-guided) or Doppler, aiming for about 70–80 mmHg; LVAD flow depends on preload and is very sensitive to afterload. Keep the right ventricle working (avoid hypoxia, hypercarbia and acidosis), manage anticoagulation with the cardiac team, and keep the device connected to power.",
+    "st": "st2-3"
+  },
+  {
+    "id": "Q034",
+    "ar": "Cardiothoracic",
+    "sb": "Atrial fibrillation",
+    "q": "A 70-year-old man develops new atrial fibrillation at 140 bpm on day 2 after a laparotomy. BP 118/70, no chest pain or heart failure, potassium 3.4 mmol/L, magnesium 0.6 mmol/L. What is the most appropriate first step?",
+    "o": [
+      "Flecainide 2 mg/kg IV",
+      "Digoxin loading as first-line therapy",
+      "Synchronised DC cardioversion",
+      "Correct potassium and magnesium, treat precipitants, then rate control",
+      "Immediate therapeutic anticoagulation with a DOAC"
+    ],
+    "a": 3,
+    "why": "Postoperative AF is commonly provoked by electrolyte disturbance, sepsis, hypovolaemia, pain and hypoxia. In a stable patient, correct K+ (aim 4–5 mmol/L) and Mg2+, treat the trigger, then use rate control (beta-blocker first line; amiodarone or digoxin as alternatives). Anticoagulation decisions use CHA2DS2-VASc against the surgical bleeding risk. Flecainide is contraindicated in structural or ischaemic heart disease.",
+    "st": "st2-6"
+  },
+  {
+    "id": "Q035",
+    "ar": "Cardiothoracic",
+    "sb": "Mitral stenosis",
+    "q": "A 40-year-old woman with moderate rheumatic mitral stenosis is having a hysterectomy. Which change is most likely to precipitate pulmonary oedema?",
+    "o": [
+      "Atrial fibrillation with a ventricular rate of 130 bpm",
+      "Bradycardia of 55 bpm",
+      "A modest fall in systemic vascular resistance",
+      "Maintenance of sinus rhythm with a normal preload",
+      "Use of phenylephrine to treat hypotension"
+    ],
+    "a": 0,
+    "why": "In mitral stenosis LV filling occurs through a narrowed valve and needs time. Tachycardia shortens diastole and loss of atrial contraction removes the atrial kick, so left atrial pressure rises sharply, causing pulmonary oedema. Goals: slow heart rate, sinus rhythm, adequate preload, maintained SVR and avoidance of hypoxia, hypercarbia and acidosis (which raise pulmonary vascular resistance).",
+    "st": "st2-4"
+  },
+  {
+    "id": "Q036",
+    "ar": "Cardiothoracic",
+    "sb": "Dilated cardiomyopathy",
+    "q": "A 50-year-old man with dilated cardiomyopathy (ejection fraction 20%) needs an urgent nephrectomy. Which haemodynamic aim is most appropriate?",
+    "o": [
+      "Aim for a heart rate of 50 bpm to prolong diastole",
+      "Increase afterload to maintain coronary perfusion",
+      "Avoid all inotropes",
+      "Avoid myocardial depression and increases in afterload while maintaining preload and sinus rhythm",
+      "Use deep volatile anaesthesia to lower oxygen demand"
+    ],
+    "a": 3,
+    "why": "In DCM the dilated ventricle is afterload-sensitive and contractility is poor. Aim to avoid negative inotropy, avoid rises in SVR, maintain adequate preload and sinus rhythm, and keep a normal-to-slightly-high heart rate because stroke volume is relatively fixed. Inotropes (e.g. dobutamine, milrinone) and invasive monitoring are often needed. Check ICD settings beforehand.",
+    "st": "st2-4"
+  },
+  {
+    "id": "Q037",
+    "ar": "Cardiothoracic",
+    "sb": "Heart transplant recipient",
+    "q": "A patient who had an orthotopic heart transplant eight years ago develops bradycardia (38 bpm) and hypotension under general anaesthesia. Which drug is least likely to be effective?",
+    "o": [
+      "Ephedrine",
+      "Adrenaline",
+      "Isoprenaline",
+      "Atropine",
+      "Dobutamine"
+    ],
+    "a": 3,
+    "why": "The transplanted heart is denervated, so vagally mediated drugs and reflexes do not act: atropine and glycopyrrolate have no effect on heart rate, and neostigmine rarely causes bradycardia (though reinnervation can occur partly over years). Directly acting beta-agonists (isoprenaline, adrenaline, dobutamine) work. Ephedrine acts partly indirectly so its effect is reduced but present. Cardiac output depends on preload, as the heart cannot reflexly increase its rate quickly.",
+    "st": "st2-2"
+  },
+  {
+    "id": "Q038",
+    "ar": "Cardiothoracic",
+    "sb": "Implantable devices",
+    "q": "A patient with an implantable cardioverter–defibrillator (ICD) is having a laparotomy with monopolar diathermy. The device has not yet been reprogrammed. What is the most appropriate approach?",
+    "o": [
+      "Place a magnet over the ICD to suspend tachyarrhythmia therapies, with external defibrillation pads attached",
+      "Place a magnet over it to switch the pacemaker to an asynchronous mode",
+      "Use bipolar diathermy only and leave the ICD unchanged",
+      "Cancel surgery until the device is removed",
+      "Proceed without changes; ICDs are not affected by diathermy"
+    ],
+    "a": 0,
+    "why": "Diathermy may be sensed as VF, causing inappropriate shocks. For most ICDs a magnet suspends anti-tachycardia therapy but does not change pacing mode (unlike a pacemaker, where a magnet usually triggers asynchronous pacing). Ideally the device is reprogrammed by a cardiac physiologist; with a magnet or reprogramming, external defibrillator pads must be attached and the device reactivated afterwards. Use bipolar diathermy where possible and keep the return electrode away from the device.",
+    "st": null
+  },
+  {
+    "id": "Q039",
+    "ar": "Cardiothoracic",
+    "sb": "One-lung ventilation",
+    "q": "During one-lung ventilation for a right upper lobectomy, saturation falls to 86% on FiO2 1.0. The double-lumen tube position has been confirmed with a fibreoptic scope and the ventilated lung has been recruited. What is the most effective next step?",
+    "o": [
+      "Increase PEEP to 15 cmH2O on the dependent lung",
+      "Increase the tidal volume to 10 mL/kg",
+      "Apply CPAP (about 5 cmH2O) to the non-dependent, operative lung",
+      "Give an intravenous vasodilator",
+      "Switch to volatile anaesthesia at 2 MAC"
+    ],
+    "a": 2,
+    "why": "After checking FiO2, tube position, secretions and cardiac output, and recruiting the ventilated lung with optimal PEEP, CPAP to the operative lung adds oxygen uptake from shunted blood. Other steps include intermittent two-lung ventilation or clamping the pulmonary artery to the operative lung. Excessive tidal volumes or PEEP divert blood to the non-ventilated lung, worsening shunt. Volatiles above 1 MAC impair hypoxic pulmonary vasoconstriction.",
+    "st": "st2-7"
+  },
+  {
+    "id": "Q040",
+    "ar": "Cardiothoracic",
+    "sb": "Lung resection assessment",
+    "q": "A 68-year-old man is being assessed for a right lower lobectomy. His predicted postoperative FEV1 and DLCO are both 35% of predicted. According to BTS guidance, what is the next most appropriate investigation?",
+    "o": [
+      "Repeat spirometry after bronchodilator",
+      "No further tests; he is unsuitable for surgery",
+      "Ventilation–perfusion scan only",
+      "Cardiopulmonary exercise testing",
+      "Arterial blood gas"
+    ],
+    "a": 3,
+    "why": "BTS lung cancer surgery guidance: if ppoFEV1 and ppoDLCO are both above 40% the patient is at low risk; if either is below 30–40% (or there is doubt), formal exercise testing is recommended. A VO2 peak above 15 mL/kg/min suggests acceptable risk; below 10 mL/kg/min suggests high risk. Low ppo values alone do not exclude surgery.",
+    "st": "st2-7"
+  },
+  {
+    "id": "Q041",
+    "ar": "Cardiothoracic",
+    "sb": "Pneumonectomy",
+    "q": "Which factor is most associated with post-pneumonectomy pulmonary oedema?",
+    "o": [
+      "Left-sided pneumonectomy",
+      "Use of a thoracic epidural",
+      "Short duration of surgery",
+      "Low tidal volume one-lung ventilation",
+      "Excessive perioperative fluid administration"
+    ],
+    "a": 4,
+    "why": "Post-pneumonectomy pulmonary oedema (a form of acute lung injury) has a high mortality. Risk factors include right pneumonectomy, high perioperative fluid volumes (traditionally keep positive balance below about 20 mL/kg in the first 24 hours), high ventilatory pressures/volumes on the remaining lung, and impaired lymphatic drainage. Protective ventilation and restrictive fluids are recommended.",
+    "st": "st2-7"
+  },
+  {
+    "id": "Q042",
+    "ar": "Cardiothoracic",
+    "sb": "Rigid bronchoscopy",
+    "q": "During rigid bronchoscopy under TIVA with manual jet ventilation, the patient's chest progressively distends and the blood pressure falls. What is the most likely cause?",
+    "o": [
+      "Barotrauma from inadequate expiratory time causing air trapping",
+      "Hypoventilation causing hypercarbia",
+      "Inadequate depth of anaesthesia",
+      "Venous air embolism",
+      "Bronchospasm from the propofol"
+    ],
+    "a": 0,
+    "why": "Jet ventilation relies on passive expiration through the open bronchoscope. If exhalation is obstructed (bronchoscope wedged, insufficient expiratory time, high driving pressure), gas is trapped, causing dynamic hyperinflation, barotrauma, pneumothorax and cardiovascular compromise. Stop jetting, allow full exhalation and look for pneumothorax.",
+    "st": "st2-12"
+  },
+  {
+    "id": "Q043",
+    "ar": "Cardiothoracic",
+    "sb": "Pulmonary hypertension / RV failure",
+    "q": "A patient with severe pulmonary arterial hypertension becomes hypotensive after induction. Which intervention is most appropriate to support the right ventricle?",
+    "o": [
+      "Fluid bolus of 1 litre to increase RV preload",
+      "Glyceryl trinitrate infusion",
+      "Noradrenaline to restore systemic pressure and RV coronary perfusion",
+      "Hypoventilation to reduce intrathoracic pressure",
+      "High PEEP to recruit the lungs"
+    ],
+    "a": 2,
+    "why": "The failing RV depends on systemic pressure for coronary perfusion; systemic hypotension starts a spiral of RV ischaemia. Noradrenaline (or vasopressin, which does not raise PVR) restores perfusion pressure; add inodilators or inhaled pulmonary vasodilators (nitric oxide, prostacyclin) as needed. Avoid fluid overload of a dilated RV, hypoxia, hypercarbia, acidosis, high airway pressures and systemic vasodilators.",
+    "st": "st2-4"
+  },
+  {
+    "id": "Q044",
+    "ar": "Cardiothoracic",
+    "sb": "Boerhaave syndrome",
+    "q": "A 60-year-old man presents after forceful vomiting with chest pain and subcutaneous emphysema in the neck. Which investigation best confirms an oesophageal perforation?",
+    "o": [
+      "Serum amylase",
+      "CT of the chest with oral water-soluble contrast",
+      "Plain chest X-ray",
+      "Barium swallow",
+      "Upper GI endoscopy"
+    ],
+    "a": 1,
+    "why": "CT with oral (water-soluble) contrast is the investigation of choice, showing extraluminal air, contrast leak and mediastinal or pleural collections. Plain X-ray may be normal early. Barium is avoided because it causes mediastinitis if it leaks. Management includes nil by mouth, broad-spectrum antibiotics and antifungals, drainage and surgical or endoscopic repair; mortality rises sharply with delay.",
+    "st": null
+  },
+  {
+    "id": "Q045",
+    "ar": "Cardiothoracic",
+    "sb": "Endoscopic thoracic sympathectomy",
+    "q": "A 25-year-old woman is having bilateral thoracoscopic sympathectomy for palmar hyperhidrosis. Which complication is specific to this operation?",
+    "o": [
+      "Hypertensive crisis",
+      "Recurrent laryngeal nerve palsy",
+      "Horner's syndrome",
+      "Phrenic nerve palsy",
+      "Chylothorax requiring thoracotomy in most cases"
+    ],
+    "a": 2,
+    "why": "Sympathectomy at T2–T3 can injure the stellate ganglion (T1 component), causing ipsilateral Horner's syndrome. Compensatory sweating elsewhere is the most common long-term problem. Other issues include pneumothorax, bleeding from intercostal vessels and bradycardia. It is usually done with a double-lumen tube or with apnoeic or low-volume ventilation and CO2 insufflation.",
+    "st": "st2-10"
+  },
+  {
+    "id": "Q046",
+    "ar": "Cardiothoracic",
+    "sb": "Cardiac output monitoring",
+    "q": "Which cardiac output monitor relies on transpulmonary thermodilution to calibrate its pulse contour analysis?",
+    "o": [
+      "Thoracic bioimpedance",
+      "LiDCOrapid",
+      "FloTrac/Vigileo",
+      "PiCCO",
+      "Oesophageal Doppler"
+    ],
+    "a": 3,
+    "why": "PiCCO uses transpulmonary thermodilution (cold saline via a central line, thermistor in a femoral or brachial arterial catheter) to calibrate continuous pulse contour analysis, and also gives global end-diastolic volume and extravascular lung water. LiDCO plus used lithium dilution for calibration; LiDCOrapid and FloTrac are uncalibrated. Oesophageal Doppler measures descending aortic flow velocity.",
+    "st": null
+  },
+  {
+    "id": "Q047",
+    "ar": "Cardiothoracic",
+    "sb": "CABG complications",
+    "q": "What is the most common neurological complication after coronary artery bypass grafting?",
+    "o": [
+      "Postoperative cognitive dysfunction",
+      "Spinal cord ischaemia",
+      "Recurrent laryngeal nerve palsy",
+      "Brachial plexus injury",
+      "Major ischaemic stroke"
+    ],
+    "a": 0,
+    "why": "Postoperative cognitive dysfunction is common (reported in up to half of patients early, falling over months). Stroke occurs in about 1–3% and is associated with aortic atheroma, AF and age. Brachial plexus injury from sternal retraction and recurrent laryngeal or phrenic nerve injury also occur but are less frequent.",
+    "st": "st2-1"
+  }
+]

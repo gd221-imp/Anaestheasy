@@ -1,0 +1,39 @@
+{
+  "t": "recipe",
+  "shape": "heart",
+  "group": "Cardiac",
+  "title": "Adult with Congenital Heart Disease for Non-cardiac Surgery",
+  "op": true,
+  "cards": [
+    {
+      "h": "Anaesthetic recipe",
+      "b": "file:cards/01-anaesthetic-recipe.html",
+      "recipe": true
+    },
+    {
+      "h": "The Cardiac Cycle",
+      "primaryRef": "phs0"
+    },
+    {
+      "h": "Autonomic & Hormonal Regulation of Cardiac Function",
+      "primaryRef": "phs11"
+    },
+    {
+      "h": "Adult Congenital Heart Disease",
+      "noteRef": "Adult Congenital Heart Disease"
+    },
+    {
+      "h": "Sample WPBA",
+      "b": "file:cards/05-sample-wpba.html",
+      "wpba": true
+    },
+    {
+      "h": "Curriculum",
+      "links": [
+        "curric:8",
+        "curric:9"
+      ]
+    }
+  ],
+  "q": "file:quiz.json"
+}

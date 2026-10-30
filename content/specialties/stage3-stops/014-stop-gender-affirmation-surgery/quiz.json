@@ -1,0 +1,122 @@
+[
+  {
+    "q": "Which hormone therapy raises VTE risk?",
+    "o": [
+      "Testosterone",
+      "Oestrogen",
+      "Progesterone only",
+      "Thyroxine",
+      "Insulin"
+    ],
+    "a": 1,
+    "why": "Consider timing with the specialist team."
+  },
+  {
+    "q": "Which positioning injury risk exists?",
+    "o": [
+      "Prone",
+      "Prolonged lithotomy",
+      "Beach-chair",
+      "Lateral",
+      "Sitting"
+    ],
+    "a": 1,
+    "why": "Long procedures."
+  },
+  {
+    "q": "Which drugs are used in people assigned male at birth?",
+    "o": [
+      "Testosterone",
+      "Oestrogen with spironolactone or finasteride",
+      "Insulin",
+      "Steroids",
+      "Thyroxine"
+    ],
+    "a": 1,
+    "why": "Assigned female at birth: testosterone."
+  },
+  {
+    "q": "Which surgical complication may occur?",
+    "o": [
+      "Hernia only",
+      "Rectal or urethral injury",
+      "Stroke",
+      "Pneumothorax",
+      "Dislocation"
+    ],
+    "a": 1,
+    "why": "Also fistula."
+  },
+  {
+    "q": "What is the karyotype in Klinefelter syndrome?",
+    "o": [
+      "45X",
+      "47XXY",
+      "47XYY",
+      "46XX",
+      "47XXX"
+    ],
+    "a": 1,
+    "why": "Low testosterone, gynaecomastia and increased VTE risk."
+  },
+  {
+    "q": "What delayed risk is linked to oestrogen therapy?",
+    "o": [
+      "Osteoporosis",
+      "VTE",
+      "Polycythaemia",
+      "Hypokalaemia",
+      "Hyperglycaemia"
+    ],
+    "a": 1,
+    "why": "VTE prophylaxis."
+  },
+  {
+    "q": "Which delayed complication relates to psychological care?",
+    "o": [
+      "Delirium",
+      "Psychological distress",
+      "Hearing loss",
+      "Seizure",
+      "Pain only"
+    ],
+    "a": 1,
+    "why": "Supportive care."
+  },
+  {
+    "q": "Which side effect of testosterone may matter perioperatively?",
+    "o": [
+      "Anaemia",
+      "Polycythaemia",
+      "Hypokalaemia",
+      "Thrombocytopenia",
+      "Hyponatraemia"
+    ],
+    "a": 1,
+    "why": "Raised haematocrit."
+  },
+  {
+    "q": "What is the analgesia/VTE plan in the recipe?",
+    "o": [
+      "None",
+      "Analgesia with VTE prophylaxis",
+      "NSAID only",
+      "Epidural always",
+      "PCA only"
+    ],
+    "a": 1,
+    "why": "Per recipe."
+  },
+  {
+    "q": "How should patients be addressed?",
+    "o": [
+      "By birth sex",
+      "By their affirmed name and pronouns",
+      "By surname only",
+      "By hospital number",
+      "Not discussed"
+    ],
+    "a": 1,
+    "why": "Respectful care."
+  }
+]

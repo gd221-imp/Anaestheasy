@@ -1,0 +1,25 @@
+{
+  "t": "tip",
+  "shape": "mon",
+  "group": "ICM",
+  "title": "Sedation in Critical Care",
+  "cards": [
+    {
+      "h": "Overview",
+      "b": "file:cards/01-overview.html"
+    },
+    {
+      "h": "An ideal sedative agent would be",
+      "b": "file:cards/02-an-ideal-sedative-agent-would-be.html"
+    },
+    {
+      "h": "Managing sedation on ICU",
+      "b": "file:cards/03-managing-sedation-on-icu.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/04-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json"
+}

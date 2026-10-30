@@ -1,0 +1,12 @@
+[
+  {
+    "q": "What is the first step if bradycardia occurs during squint surgery?",
+    "o": [
+      "Ask the surgeon to stop the stimulus",
+      "Give adrenaline",
+      "Deepen with volatile only"
+    ],
+    "a": 0,
+    "why": "Stop the stimulus first; then atropine (20 mcg/kg) or glycopyrronium if it persists."
+  }
+]

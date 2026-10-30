@@ -1,0 +1,34 @@
+{
+  "t": "tip",
+  "shape": "dummy",
+  "group": "Paeds",
+  "title": "Gastroschisis, Inguinal Hernia, Intussusception & Necrotising Enterocolitis",
+  "cards": [
+    {
+      "h": "Overview",
+      "b": "file:cards/01-overview.html"
+    },
+    {
+      "h": "Management",
+      "b": "file:cards/02-management.html"
+    },
+    {
+      "h": "Airway choice",
+      "b": "file:cards/03-airway-choice.html"
+    },
+    {
+      "h": "Inguinal hernia",
+      "b": "file:cards/04-inguinal-hernia.html"
+    },
+    {
+      "h": "Intussusception",
+      "b": "file:cards/05-intussusception.html"
+    },
+    {
+      "h": "Necrotising Enterocolitis",
+      "b": "file:cards/06-necrotising-enterocolitis.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

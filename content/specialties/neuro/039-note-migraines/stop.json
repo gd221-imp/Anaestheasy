@@ -1,0 +1,26 @@
+{
+  "t": "tip",
+  "shape": "brain",
+  "group": "Neuro",
+  "title": "Migraines",
+  "cards": [
+    {
+      "h": "Female to male ratio around 2",
+      "b": "file:cards/01-female-to-male-ratio-around-2.html"
+    },
+    {
+      "h": "Treatment",
+      "b": "file:cards/02-treatment.html"
+    },
+    {
+      "h": "Migraine vs TIA",
+      "b": "file:cards/03-migraine-vs-tia.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/04-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

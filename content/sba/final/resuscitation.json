@@ -1,0 +1,34 @@
+[
+  {
+    "id": "Q024",
+    "ar": "Resuscitation",
+    "sb": "Adult tachyarrhythmia",
+    "q": "In recovery, a 68-year-old man develops a regular broad-complex tachycardia at 170 per minute. He is drowsy, BP 72/40 mmHg and peripherally shut down. What is the immediate management?",
+    "o": [
+      "Adenosine 6 mg IV rapid bolus",
+      "Vagal manoeuvres",
+      "Amiodarone 300 mg IV over 10–20 minutes",
+      "Magnesium 2 g IV",
+      "Synchronised DC cardioversion, up to three attempts"
+    ],
+    "a": 4,
+    "why": "Resuscitation Council UK tachycardia algorithm: adverse features (shock, syncope, myocardial ischaemia, heart failure) mean synchronised DC cardioversion, up to three attempts (under sedation or anaesthesia if conscious). If unsuccessful, give amiodarone 300 mg over 10–20 minutes and repeat the shock. Drug treatment first is for stable patients.",
+    "st": null
+  },
+  {
+    "id": "Q025",
+    "ar": "Resuscitation",
+    "sb": "Temperature control after arrest",
+    "q": "A 55-year-old man is admitted to ICU after an out-of-hospital VF arrest with return of circulation after 15 minutes. He remains comatose. What does current ERC/ESICM guidance (2021 onwards) recommend for temperature control?",
+    "o": [
+      "Rewarm to 38 °C to improve neutrophil function",
+      "Actively prevent fever (temperature above 37.7 °C) for at least 72 hours",
+      "Cool to 32–34 °C for 12 hours",
+      "Cool to 33 °C for 24 hours in all patients",
+      "No temperature management is needed"
+    ],
+    "a": 1,
+    "why": "After the TTM2 trial, the 2021 ERC/ESICM post-resuscitation guidelines (and the 2022 ESICM update) recommend continuous temperature monitoring and active prevention of fever (&gt; 37.7 °C) for at least 72 hours in patients who remain comatose. Routine cooling to 33 °C showed no benefit over fever prevention. Avoid hyperthermia.",
+    "st": null
+  }
+]

@@ -1,0 +1,298 @@
+[
+  {
+    "name": "Elective lists",
+    "file": "001-elective-lists.html"
+  },
+  {
+    "name": "The CEPOD list",
+    "file": "002-the-cepod-list.html"
+  },
+  {
+    "name": "The IACOA",
+    "file": "003-the-iacoa.html"
+  },
+  {
+    "name": "Off-Pump Cardiac Surgery",
+    "file": "004-off-pump-cardiac-surgery.html"
+  },
+  {
+    "name": "On-Pump Cardiac Surgery (CPB & Cardioplegia)",
+    "file": "005-on-pump-cardiac-surgery-cpb-cardioplegia.html"
+  },
+  {
+    "name": "Anaesthesia for Heart Transplant Surgery",
+    "file": "006-anaesthesia-for-heart-transplant-surgery.html"
+  },
+  {
+    "name": "Other Cardiac Procedures",
+    "file": "007-other-cardiac-procedures.html"
+  },
+  {
+    "name": "Lung Volume Reduction Surgery",
+    "file": "008-lung-volume-reduction-surgery.html"
+  },
+  {
+    "name": "Bronchoscopy & Ventilation",
+    "file": "009-bronchoscopy-ventilation.html"
+  },
+  {
+    "name": "Endoscopic Thoracic Sympathectomy",
+    "file": "010-endoscopic-thoracic-sympathectomy.html"
+  },
+  {
+    "name": "Lung Transplant",
+    "file": "011-lung-transplant.html"
+  },
+  {
+    "name": "Carotid Endarterectomy",
+    "file": "012-carotid-endarterectomy.html"
+  },
+  {
+    "name": "Endovascular Aneurysm Repair (EVAR)",
+    "file": "013-endovascular-aneurysm-repair-evar.html"
+  },
+  {
+    "name": "Ruptured AAA",
+    "file": "014-ruptured-aaa.html"
+  },
+  {
+    "name": "Thrombectomy (Ischaemic Stroke)",
+    "file": "015-thrombectomy-ischaemic-stroke.html"
+  },
+  {
+    "name": "C-Spine Surgery",
+    "file": "016-c-spine-surgery.html"
+  },
+  {
+    "name": "Transphenoidal Surgery (Pituitary)",
+    "file": "017-transphenoidal-surgery-pituitary.html"
+  },
+  {
+    "name": "Posterior Fossa Surgery",
+    "file": "018-posterior-fossa-surgery.html"
+  },
+  {
+    "name": "Stereotactic Brain Biopsy",
+    "file": "019-stereotactic-brain-biopsy.html"
+  },
+  {
+    "name": "Extradural Haematoma",
+    "file": "020-extradural-haematoma.html"
+  },
+  {
+    "name": "Awake Craniotomy",
+    "file": "021-awake-craniotomy.html"
+  },
+  {
+    "name": "Anaesthesia for Epilepsy Surgery",
+    "file": "022-anaesthesia-for-epilepsy-surgery.html"
+  },
+  {
+    "name": "Spinal Cord Stimulator (Neuromodulation)",
+    "file": "023-spinal-cord-stimulator-neuromodulation.html"
+  },
+  {
+    "name": "Scoliosis & Prone Positioning",
+    "file": "024-scoliosis-prone-positioning.html"
+  },
+  {
+    "name": "Percutaneous Tracheostomy & Emergencies",
+    "file": "025-percutaneous-tracheostomy-emergencies.html"
+  },
+  {
+    "name": "Obstetric operations",
+    "file": "026-obstetric-operations.html"
+  },
+  {
+    "name": "Lower Segment Caesarean Section",
+    "file": "027-lower-segment-caesarean-section.html"
+  },
+  {
+    "name": "Placenta Accreta",
+    "file": "028-placenta-accreta.html"
+  },
+  {
+    "name": "Pregnancy & Incidental Surgery",
+    "file": "029-pregnancy-incidental-surgery.html"
+  },
+  {
+    "name": "Inhaled Foreign Body & Sickle Cell Disease",
+    "file": "030-inhaled-foreign-body-sickle-cell-disease.html"
+  },
+  {
+    "name": "Oesophageal Foreign Body",
+    "file": "031-oesophageal-foreign-body.html"
+  },
+  {
+    "name": "Pyloric Stenosis",
+    "file": "032-pyloric-stenosis.html"
+  },
+  {
+    "name": "Gastroschisis, Inguinal Hernia, Intussusception & Necrotising Enterocolitis",
+    "file": "033-gastroschisis-inguinal-hernia-intussusception-ne.html"
+  },
+  {
+    "name": "Tracheo-oesophageal Fistula & Congenital Diaphragmatic Hernia",
+    "file": "034-tracheo-oesophageal-fistula-congenital-diaphragm.html"
+  },
+  {
+    "name": "Mediastinal Mass",
+    "file": "035-mediastinal-mass.html"
+  },
+  {
+    "name": "Bariatric Surgery",
+    "file": "036-bariatric-surgery.html"
+  },
+  {
+    "name": "Hyperthermic Intraperitoneal Chemotherapy (HIPEC) & Cytoreductive Surgery",
+    "file": "037-hyperthermic-intraperitoneal-chemotherapy-hipec.html"
+  },
+  {
+    "name": "UGI Bleed",
+    "file": "038-ugi-bleed.html"
+  },
+  {
+    "name": "Nissen's Fundoplication / Splenectomy / Liver Transplant / Laparotomy for Cancer",
+    "file": "039-nissen-s-fundoplication-splenectomy-liver-transp.html"
+  },
+  {
+    "name": "Whipple's Procedure & Oesophagectomy",
+    "file": "040-whipple-s-procedure-oesophagectomy.html"
+  },
+  {
+    "name": "Food Bolus Obstruction, Oesophageal Achalasia & TPN",
+    "file": "041-food-bolus-obstruction-oesophageal-achalasia-tpn.html"
+  },
+  {
+    "name": "TURP Syndrome",
+    "file": "042-turp-syndrome.html"
+  },
+  {
+    "name": "Percutaneous Nephrolithotomy (PCNL)",
+    "file": "043-percutaneous-nephrolithotomy-pcnl.html"
+  },
+  {
+    "name": "Cystectomy",
+    "file": "044-cystectomy.html"
+  },
+  {
+    "name": "Renal Transplant",
+    "file": "045-renal-transplant.html"
+  },
+  {
+    "name": "Revision Hip Surgery",
+    "file": "046-revision-hip-surgery.html"
+  },
+  {
+    "name": "Upper Limb Surgery in Sitting Position",
+    "file": "047-upper-limb-surgery-in-sitting-position.html"
+  },
+  {
+    "name": "Fractured Neck of Femur",
+    "file": "048-fractured-neck-of-femur.html"
+  },
+  {
+    "name": "Awake Fibreoptic Intubation, Stridor, Epiglottitis & Croup",
+    "file": "049-awake-fibreoptic-intubation-stridor-epiglottitis.html"
+  },
+  {
+    "name": "Tracheostomy",
+    "file": "050-tracheostomy.html"
+  },
+  {
+    "name": "Paediatric Tracheostomy",
+    "file": "051-paediatric-tracheostomy.html"
+  },
+  {
+    "name": "Airway Stenting & Jet Ventilation",
+    "file": "052-airway-stenting-jet-ventilation.html"
+  },
+  {
+    "name": "MLT vs Tubeless (Shared Airway Techniques)",
+    "file": "053-mlt-vs-tubeless-shared-airway-techniques.html"
+  },
+  {
+    "name": "Maxillofacial Trauma & Stridor",
+    "file": "054-maxillofacial-trauma-stridor.html"
+  },
+  {
+    "name": "Intra-oral Abscess",
+    "file": "055-intra-oral-abscess.html"
+  },
+  {
+    "name": "Hemiglossectomy & Free Flap Surgery",
+    "file": "056-hemiglossectomy-free-flap-surgery.html"
+  },
+  {
+    "name": "Thyroidectomy, Thyroid Physiology & Thyroid Storm",
+    "file": "057-thyroidectomy-thyroid-physiology-thyroid-storm.html"
+  },
+  {
+    "name": "Bimaxillary Osteotomy, Pharyngeal Pouch & Fractured Mandible",
+    "file": "058-bimaxillary-osteotomy-pharyngeal-pouch-fractured.html"
+  },
+  {
+    "name": "Laryngeal Laser Surgery",
+    "file": "059-laryngeal-laser-surgery.html"
+  },
+  {
+    "name": "Middle Ear Surgery",
+    "file": "060-middle-ear-surgery.html"
+  },
+  {
+    "name": "Cholesteatoma",
+    "file": "061-cholesteatoma.html"
+  },
+  {
+    "name": "Rhinological Surgery & Valsalva Manoeuvre",
+    "file": "062-rhinological-surgery-valsalva-manoeuvre.html"
+  },
+  {
+    "name": "Burns",
+    "file": "063-burns.html"
+  },
+  {
+    "name": "Gender Affirmation Surgery",
+    "file": "064-gender-affirmation-surgery.html"
+  },
+  {
+    "name": "Penetrating Eye Injury",
+    "file": "065-penetrating-eye-injury.html"
+  },
+  {
+    "name": "Ophthalmic Surgery (inc. Cataract Surgery)",
+    "file": "066-ophthalmic-surgery-inc-cataract-surgery.html"
+  },
+  {
+    "name": "Electroconvulsive Therapy",
+    "file": "067-electroconvulsive-therapy.html"
+  },
+  {
+    "name": "Phaeochromocytoma",
+    "file": "068-phaeochromocytoma.html"
+  },
+  {
+    "name": "Elective Lumbar Spinal Surgery",
+    "file": "069-elective-lumbar-spinal-surgery.html"
+  },
+  {
+    "name": "Tonsillectomy & Adenotonsillectomy",
+    "file": "070-tonsillectomy-adenotonsillectomy.html"
+  },
+  {
+    "name": "Grommets",
+    "file": "071-grommets.html"
+  },
+  {
+    "name": "Circumcision",
+    "file": "072-circumcision.html"
+  },
+  {
+    "name": "Orchidopexy",
+    "file": "073-orchidopexy.html"
+  },
+  {
+    "name": "Strabismus Surgery",
+    "file": "074-strabismus-surgery.html"
+  }
+]

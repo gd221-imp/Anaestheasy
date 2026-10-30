@@ -1,0 +1,122 @@
+[
+  {
+    "q": "What block level is needed for third-degree tear repair under spinal?",
+    "o": [
+      "T4",
+      "T10 with good sacral cover",
+      "C8",
+      "L5 only",
+      "No block needed"
+    ],
+    "a": 1,
+    "why": "Sacral cover is essential; T10 is enough."
+  },
+  {
+    "q": "What is a common complication after spinal for perineal repair?",
+    "o": [
+      "Hypertension",
+      "Urinary retention",
+      "Pneumothorax",
+      "Seizures",
+      "Hyperkalaemia"
+    ],
+    "a": 1,
+    "why": "Bladder care is essential after neuraxial block."
+  },
+  {
+    "q": "Which nerve carries second stage and perineal pain?",
+    "o": [
+      "Genitofemoral",
+      "Pudendal (S2–4)",
+      "Obturator",
+      "Ilioinguinal",
+      "Femoral"
+    ],
+    "a": 1,
+    "why": "The pudendal nerve is less well covered by a lumbar epidural alone."
+  },
+  {
+    "q": "What is bupivacaine’s main advantage over lidocaine for labour epidural infusions?",
+    "o": [
+      "Faster onset",
+      "Longer action with less tachyphylaxis",
+      "No motor block at any dose",
+      "Lower cardiotoxicity",
+      "No placental transfer"
+    ],
+    "a": 1,
+    "why": "Lidocaine shows tachyphylaxis; ropivacaine has an improved safety profile with lower potency."
+  },
+  {
+    "q": "Which intrathecal opioid has the greatest CSF spread and risk of delayed respiratory depression?",
+    "o": [
+      "Fentanyl",
+      "Diamorphine",
+      "Morphine",
+      "Sufentanil",
+      "Alfentanil"
+    ],
+    "a": 2,
+    "why": "Morphine has low lipid solubility, spreads further in CSF and has a higher risk of delayed respiratory depression."
+  },
+  {
+    "q": "What is the occupational exposure limit for nitrous oxide?",
+    "o": [
+      "Under 1 ppm",
+      "Under 100 ppm",
+      "Under 1,000 ppm",
+      "No limit",
+      "Under 10%"
+    ],
+    "a": 1,
+    "why": "Keep exposure under 100 ppm; Entonox is 50:50 N2O and oxygen."
+  },
+  {
+    "q": "Which component of a tear defines third-degree?",
+    "o": [
+      "Skin only",
+      "Involvement of the anal sphincter complex",
+      "Rectal mucosa",
+      "Vaginal wall only",
+      "Labia"
+    ],
+    "a": 1,
+    "why": "Third-degree tears involve the anal sphincter; fourth-degree also involve the rectal mucosa."
+  },
+  {
+    "q": "What is PCEA’s main advantage?",
+    "o": [
+      "Faster onset",
+      "Less motor block and less total local anaesthetic, with higher satisfaction",
+      "No monitoring needed",
+      "Avoids catheter",
+      "Cheaper"
+    ],
+    "a": 1,
+    "why": "Patient-controlled epidural analgesia reduces motor block and total dose."
+  },
+  {
+    "q": "What skin prep is used for neuraxial procedures?",
+    "o": [
+      "2% chlorhexidine in water",
+      "0.5% chlorhexidine in 70% alcohol",
+      "Povidone iodine only",
+      "Alcohol only",
+      "Nothing"
+    ],
+    "a": 1,
+    "why": "Use 0.5% chlorhexidine in alcohol, allowed to dry, to limit neurotoxicity risk."
+  },
+  {
+    "q": "After delivery, how long does raised aspiration risk persist?",
+    "o": [
+      "1 hour",
+      "At least 24–48 hours postpartum",
+      "No raised risk",
+      "1 week",
+      "6 weeks"
+    ],
+    "a": 1,
+    "why": "Reflux and delayed emptying persist for at least 24–48 hours; use aspiration prophylaxis."
+  }
+]

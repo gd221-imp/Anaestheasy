@@ -1,0 +1,47 @@
+{
+  "t": "recipe",
+  "shape": "lung",
+  "group": "Thoracic",
+  "title": "Lung Transplant",
+  "op": true,
+  "cards": [
+    {
+      "h": "Anaesthetic recipe",
+      "b": "file:cards/01-anaesthetic-recipe.html",
+      "recipe": true
+    },
+    {
+      "h": "Pulmonary Circulation & West's Lung Zones",
+      "primaryRef": "phs13"
+    },
+    {
+      "h": "Non-Respiratory Functions of the Lungs",
+      "primaryRef": "phs28"
+    },
+    {
+      "h": "Lung Transplant",
+      "noteRef": "Lung Transplant"
+    },
+    {
+      "h": "Cystic Fibrosis",
+      "noteRef": "Cystic Fibrosis"
+    },
+    {
+      "h": "Bronchiectasis",
+      "noteRef": "Bronchiectasis"
+    },
+    {
+      "h": "Sample WPBA",
+      "b": "file:cards/07-sample-wpba.html",
+      "wpba": true
+    },
+    {
+      "h": "Curriculum",
+      "links": [
+        "curric:8",
+        "curric:9"
+      ]
+    }
+  ],
+  "q": "file:quiz.json"
+}

@@ -1,0 +1,43 @@
+{
+  "t": "recipe",
+  "shape": "scalpel",
+  "group": "General surgery",
+  "title": "Anterior Resection (Colorectal Surgery with ERAS)",
+  "op": true,
+  "cards": [
+    {
+      "h": "Anaesthetic recipe",
+      "b": "file:cards/01-anaesthetic-recipe.html",
+      "recipe": true
+    },
+    {
+      "h": "Endocrine Stress Response",
+      "primaryRef": "phs50"
+    },
+    {
+      "h": "Peripheral Circulation & Lymphatics",
+      "primaryRef": "phs9"
+    },
+    {
+      "h": "ERAS & Prehabilitation",
+      "noteRef": "ERAS & Prehabilitation"
+    },
+    {
+      "h": "Post-op Ileus",
+      "noteRef": "Post-op Ileus"
+    },
+    {
+      "h": "Sample WPBA",
+      "b": "file:cards/06-sample-wpba.html",
+      "wpba": true
+    },
+    {
+      "h": "Curriculum",
+      "links": [
+        "curric:8",
+        "curric:9"
+      ]
+    }
+  ],
+  "q": "file:quiz.json"
+}

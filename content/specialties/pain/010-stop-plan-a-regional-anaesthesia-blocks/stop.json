@@ -1,0 +1,25 @@
+{
+  "t": "tip",
+  "shape": "uss",
+  "group": "Regional",
+  "title": "Plan A Regional Anaesthesia Blocks",
+  "cards": [
+    {
+      "h": "\"Plan A\" blocks",
+      "b": "file:cards/01-plan-a-blocks.html"
+    },
+    {
+      "h": "Example blocks commonly cited in this category",
+      "b": "file:cards/02-example-blocks-commonly-cited-in-this-category.html"
+    },
+    {
+      "h": "Rationale",
+      "b": "file:cards/03-rationale.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/04-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json"
+}

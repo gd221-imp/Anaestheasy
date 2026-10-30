@@ -1,0 +1,50 @@
+{
+  "t": "tip",
+  "shape": "dummy",
+  "group": "Paeds",
+  "title": "Tonsillectomy & Adenotonsillectomy",
+  "cards": [
+    {
+      "h": "Indications",
+      "b": "file:cards/01-indications.html"
+    },
+    {
+      "h": "OSA",
+      "b": "file:cards/02-osa.html"
+    },
+    {
+      "h": "Severe OSA and premedication",
+      "b": "file:cards/03-severe-osa-and-premedication.html"
+    },
+    {
+      "h": "Severe OSA post-op analgesia strategy",
+      "b": "file:cards/04-severe-osa-post-op-analgesia-strategy.html"
+    },
+    {
+      "h": "The anaesthetic (example: 6yr old male, tonsillectomy for OSA)",
+      "b": "file:cards/05-the-anaesthetic-example-6yr-old-male-tonsillecto.html"
+    },
+    {
+      "h": "Post-tonsillectomy haemorrhage = surgical emergency",
+      "b": "file:cards/06-post-tonsillectomy-haemorrhage-surgical-emergenc.html"
+    },
+    {
+      "h": "Bleeding tonsil: positioning for transfer",
+      "b": "file:cards/07-bleeding-tonsil-positioning-for-transfer.html"
+    },
+    {
+      "h": "Day case and referral (APAGBI)",
+      "b": "file:cards/08-day-case-and-referral-apagbi.html"
+    },
+    {
+      "h": "Complications",
+      "b": "file:cards/09-complications.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/10-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

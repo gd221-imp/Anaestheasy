@@ -1,0 +1,43 @@
+# Who must approve changes to each part of Pathway.
+# GitHub asks the listed people to review any pull request that touches these paths.
+# Replace the placeholders with real GitHub usernames (e.g. @jsmith), then remove the leading "# ".
+# The last matching line wins, so the catch-all comes first.
+
+# * @DAVID
+
+# Workstream 1: Foundation and Core training
+# /content/path/stages/01-foundation.js        @DAVID @OWNER1
+# /content/path/stages/02-core-training.js     @DAVID @OWNER1
+# /content/specialties/core-training-stops/    @DAVID @OWNER1
+# /content/path/preop-stop/                    @DAVID @OWNER1
+
+# Workstream 2: Primary FRCA
+# /content/primary/                            @DAVID @OWNER2
+# /content/sba/primary/                        @DAVID @OWNER2
+
+# Workstream 3: Final FRCA A
+# /content/specialties/cardiac/                @DAVID @OWNER3
+# /content/specialties/thoracic/               @DAVID @OWNER3
+# /content/specialties/vascular/               @DAVID @OWNER3
+# /content/specialties/neuro/                  @DAVID @OWNER3
+# /content/specialties/icm/                    @DAVID @OWNER3
+# /content/specialties/pain/                   @DAVID @OWNER3
+
+# Workstream 4: Final FRCA B
+# /content/specialties/obstetrics/             @DAVID @OWNER4
+# /content/specialties/paeds/                  @DAVID @OWNER4
+# /content/sba/final/                          @DAVID @OWNER4
+
+# Workstream 5: Recipes and WPBAs
+# /content/recipes/                            @DAVID @OWNER5
+# /content/wpba/                               @DAVID @OWNER5
+
+# Workstream 6: Stage 3, Consultant and careers
+# /content/path/stages/04-stage-3.js           @DAVID @OWNER6
+# /content/path/stages/05-consultant.js        @DAVID @OWNER6
+# /content/specialties/stage3-stops/           @DAVID @OWNER6
+
+# Workstream 8: Technical
+# /app/                                        @DAVID @OWNER8
+# /tools/                                      @DAVID @OWNER8
+# /.github/                                    @DAVID @OWNER8

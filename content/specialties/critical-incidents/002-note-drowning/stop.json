@@ -1,0 +1,38 @@
+{
+  "t": "tip",
+  "shape": "warn",
+  "group": "Critical incidents",
+  "title": "Drowning",
+  "cards": [
+    {
+      "h": "Overview",
+      "b": "file:cards/01-overview.html"
+    },
+    {
+      "h": "Classification",
+      "b": "file:cards/02-classification.html"
+    },
+    {
+      "h": "Pathophysiology",
+      "b": "file:cards/03-pathophysiology.html"
+    },
+    {
+      "h": "Key points",
+      "b": "file:cards/04-key-points.html"
+    },
+    {
+      "h": "Treatment",
+      "b": "file:cards/05-treatment.html"
+    },
+    {
+      "h": "Re-warming",
+      "b": "file:cards/06-re-warming.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/07-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

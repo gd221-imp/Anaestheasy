@@ -1,0 +1,26 @@
+{
+  "t": "tip",
+  "shape": "cross",
+  "group": "Orthopaedics and Trauma",
+  "title": "Pelvic Injury",
+  "cards": [
+    {
+      "h": "The anatomy",
+      "b": "file:cards/01-the-anatomy.html"
+    },
+    {
+      "h": "Classification (Young & Burgess) - direction of force for injury",
+      "b": "file:cards/02-classification-young-burgess-direction-of-force.html"
+    },
+    {
+      "h": "Treatment",
+      "b": "file:cards/03-treatment.html"
+    },
+    {
+      "h": "Definitive pelvic fixation",
+      "b": "file:cards/04-definitive-pelvic-fixation.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

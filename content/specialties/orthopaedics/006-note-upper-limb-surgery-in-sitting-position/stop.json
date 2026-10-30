@@ -1,0 +1,26 @@
+{
+  "t": "tip",
+  "shape": "bone",
+  "group": "Orthopaedics and Trauma",
+  "title": "Upper Limb Surgery in Sitting Position",
+  "cards": [
+    {
+      "h": "Risks and considerations (beach-chair position)",
+      "b": "file:cards/01-risks-and-considerations-beach-chair-position.html"
+    },
+    {
+      "h": "Airway access → ETT (armoured or south-facing RAE).",
+      "b": "file:cards/02-airway-access-ett-armoured-or-south-facing-rae.html"
+    },
+    {
+      "h": "Bezold-Jarisch reflex",
+      "b": "file:cards/03-bezold-jarisch-reflex.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/04-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

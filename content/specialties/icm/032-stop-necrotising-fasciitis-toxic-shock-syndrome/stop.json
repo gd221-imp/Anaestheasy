@@ -1,0 +1,37 @@
+{
+  "t": "tip",
+  "shape": "mon",
+  "group": "ICM",
+  "title": "Necrotising Fasciitis & Toxic Shock Syndrome",
+  "cards": [
+    {
+      "h": "Overview",
+      "b": "file:cards/01-overview.html"
+    },
+    {
+      "h": "Vs cellulitis",
+      "b": "file:cards/02-vs-cellulitis.html"
+    },
+    {
+      "h": "Clinical picture",
+      "b": "file:cards/03-clinical-picture.html"
+    },
+    {
+      "h": "Causes by type",
+      "b": "file:cards/04-causes-by-type.html"
+    },
+    {
+      "h": "Management",
+      "b": "file:cards/05-management.html"
+    },
+    {
+      "h": "Toxic shock syndrome",
+      "b": "file:cards/06-toxic-shock-syndrome.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/07-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json"
+}

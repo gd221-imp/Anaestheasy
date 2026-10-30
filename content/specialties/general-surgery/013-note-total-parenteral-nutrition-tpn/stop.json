@@ -1,0 +1,14 @@
+{
+  "t": "tip",
+  "shape": "scalpel",
+  "group": "General surgery",
+  "title": "Total Parenteral Nutrition (TPN)",
+  "note": true,
+  "cards": [
+    {
+      "h": "Total Parenteral Nutrition (TPN)",
+      "b": "file:cards/01-total-parenteral-nutrition-tpn.html"
+    }
+  ],
+  "q": "file:quiz.json"
+}

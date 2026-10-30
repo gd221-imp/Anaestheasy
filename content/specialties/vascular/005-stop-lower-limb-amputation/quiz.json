@@ -1,0 +1,122 @@
+[
+  {
+    "q": "What is the strongest predictor of phantom limb pain after amputation?",
+    "o": [
+      "Patient age",
+      "Pain in the limb before amputation",
+      "Type of anaesthetic",
+      "Level of education",
+      "Diabetes"
+    ],
+    "a": 1,
+    "why": "Pre-amputation pain is the strongest predictor; others include proximal or bilateral amputation and poorly controlled acute pain."
+  },
+  {
+    "q": "Which intervention may reduce the incidence of phantom limb pain?",
+    "o": [
+      "Avoiding all regional anaesthesia",
+      "Peri-operative regional analgesia (epidural or perineural catheter)",
+      "High-dose morphine alone",
+      "Early prosthesis fitting on day 1",
+      "Steroids"
+    ],
+    "a": 1,
+    "why": "Pre-emptive or peri-operative regional anaesthesia may reduce incidence. Ketamine may help central sensitisation."
+  },
+  {
+    "q": "What is the difference between phantom limb sensation and phantom limb pain?",
+    "o": [
+      "They are the same",
+      "Sensation is a non-painful awareness of the limb and is common; pain is painful and pathological",
+      "Sensation only occurs after upper limb amputation",
+      "Pain only occurs years later",
+      "Sensation needs treatment with gabapentin"
+    ],
+    "a": 1,
+    "why": "Phantom sensation is very common and not pathological; phantom pain involves peripheral, spinal and cortical mechanisms."
+  },
+  {
+    "q": "Which non-pharmacological treatment is used for phantom limb pain?",
+    "o": [
+      "Mirror therapy",
+      "Cryotherapy",
+      "Hyperbaric oxygen",
+      "Bed rest",
+      "Acupuncture only"
+    ],
+    "a": 0,
+    "why": "Mirror therapy, graded motor imagery, TENS, physiotherapy and psychological support are used."
+  },
+  {
+    "q": "How is chronic post-surgical pain defined?",
+    "o": [
+      "Pain lasting over 2 weeks",
+      "Pain at the surgical site lasting over 3 months, not explained by another cause",
+      "Any pain needing opioids at discharge",
+      "Pain over 6/10 at 24 hours",
+      "Pain after 1 year only"
+    ],
+    "a": 1,
+    "why": "CPSP is pain over 3 months after surgery at the site, not explained by another cause. Severe acute pain is the strongest predictor."
+  },
+  {
+    "q": "A diabetic patient for amputation has a resting heart rate of 110 and a postural BP drop. What does this suggest?",
+    "o": [
+      "Hypovolaemia only",
+      "Cardiac autonomic neuropathy",
+      "Thyrotoxicosis",
+      "Anaemia",
+      "Anxiety"
+    ],
+    "a": 1,
+    "why": "Autonomic neuropathy causes resting tachycardia and postural hypotension, raising intra-operative instability and silent ischaemia risk."
+  },
+  {
+    "q": "Which type of CRPS involves a confirmed nerve injury?",
+    "o": [
+      "Type 1",
+      "Type 2",
+      "Both",
+      "Neither",
+      "Type 3"
+    ],
+    "a": 1,
+    "why": "Type 2 (previously causalgia) has a confirmed nerve injury; type 1 (most common) does not."
+  },
+  {
+    "q": "What is the main reason to use perineural catheters for amputation analgesia?",
+    "o": [
+      "To avoid all opioids",
+      "To give continuous analgesia for several days and possibly reduce phantom pain",
+      "To allow early discharge on day 1",
+      "To prevent infection",
+      "They are mandatory for spinal anaesthesia"
+    ],
+    "a": 1,
+    "why": "A surgeon-placed or ultrasound-guided sciatic catheter gives several days of analgesia; review by the pain team."
+  },
+  {
+    "q": "Which nerve blocks are usually used for below-knee amputation?",
+    "o": [
+      "Femoral (or saphenous) and sciatic",
+      "Interscalene and axillary",
+      "TAP and rectus sheath",
+      "Paravertebral",
+      "Obturator only"
+    ],
+    "a": 0,
+    "why": "Sciatic plus femoral or saphenous blocks cover below-knee amputation."
+  },
+  {
+    "q": "A spinal cord stimulator patient needs surgery. What is the key concern with diathermy?",
+    "o": [
+      "None",
+      "Tissue heating and device damage: discuss with the manufacturer or pain team beforehand",
+      "It causes hypotension",
+      "It causes bradycardia",
+      "It activates the device permanently"
+    ],
+    "a": 1,
+    "why": "Diathermy is generally contraindicated near these devices; plan with the pain team and manufacturer."
+  }
+]

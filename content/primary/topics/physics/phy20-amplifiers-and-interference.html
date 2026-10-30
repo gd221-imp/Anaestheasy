@@ -1,0 +1,25 @@
+<h4>Operational amplifiers</h4>
+<p>↑electrical signal by 10^6, ↑resistance (10^6 ohms) so as to not draw current from the upstream circuit (can also integrate a signal)</p>
+<ul>
+<li><b>Common mode rejection ratio:</b> inverting &amp; non-inverting differential inputs → neutralise upstream circuit noise</li>
+<li>CMRR of 10^4 = a signal of 10000mV is needed before 1mV enters the op amp.</li>
+<li><b>Inputs → single:</b> capacitance coupling → active transducer (from a Wheatstone bridge) - one input monitors, the other inverts</li>
+<li>differential: cancels out common noise, a smaller differential will amplify (a good amplifier = ↑CMRR)</li>
+<li>Gain = ratio of amplifier output to signal output (dB)</li>
+</ul>
+<h4>The ECG</h4>
+<p>[diagram - RA/LA leads → amplifier → pre-amp filter → demodulator → amplifier → output; ECG trace shown with common reference lead]</p>
+<p>Electrical filtering may affect impedance &amp; the ECG signal!</p>
+<h4>Analogue to digital conversion</h4>
+<ul>
+<li>points on the analogue sine wave are sampled @ a chosen frequency</li>
+<li>each sample has a digital value</li>
+<li>a low pass filter smooths the output to a facsimile of the original sine wave.</li>
+</ul>
+<h4>Safety measures</h4>
+<ul>
+<li>floating circuit → no earthing</li>
+<li>DC</li>
+<li>opto-isolating circuit → isolated from patient, connected to earthed amplifier</li>
+<li>screening shelters ECG signal carrying leads from capacitance/inductance coupling from mains currents.</li>
+</ul>

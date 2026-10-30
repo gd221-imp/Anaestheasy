@@ -1,0 +1,42 @@
+{
+  "t": "tip",
+  "shape": "brain",
+  "group": "Neuro",
+  "title": "CSF Physiology & Hydrocephalus",
+  "cards": [
+    {
+      "h": "CSF volume",
+      "b": "file:cards/01-csf-volume.html"
+    },
+    {
+      "h": "Hydrocephalus",
+      "b": "file:cards/02-hydrocephalus.html"
+    },
+    {
+      "h": "Clinical presentation of raised ICP",
+      "b": "file:cards/03-clinical-presentation-of-raised-icp.html"
+    },
+    {
+      "h": "Management",
+      "b": "file:cards/04-management.html"
+    },
+    {
+      "h": "VP shunt",
+      "b": "file:cards/05-vp-shunt.html"
+    },
+    {
+      "h": "Anaesthesia for shunt surgery",
+      "b": "file:cards/06-anaesthesia-for-shunt-surgery.html"
+    },
+    {
+      "h": "Key points",
+      "b": "file:cards/07-key-points.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/08-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

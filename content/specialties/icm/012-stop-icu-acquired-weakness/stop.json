@@ -1,0 +1,41 @@
+{
+  "t": "tip",
+  "shape": "mon",
+  "group": "ICM",
+  "title": "ICU-Acquired Weakness",
+  "cards": [
+    {
+      "h": "Overview",
+      "b": "file:cards/01-overview.html"
+    },
+    {
+      "h": "Pathophysiology",
+      "b": "file:cards/02-pathophysiology.html"
+    },
+    {
+      "h": "Clinical picture",
+      "b": "file:cards/03-clinical-picture.html"
+    },
+    {
+      "h": "Risk factors",
+      "b": "file:cards/04-risk-factors.html"
+    },
+    {
+      "h": "Investigations",
+      "b": "file:cards/05-investigations.html"
+    },
+    {
+      "h": "Prevention",
+      "b": "file:cards/06-prevention.html"
+    },
+    {
+      "h": "Prognosis",
+      "b": "file:cards/07-prognosis.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/08-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json"
+}

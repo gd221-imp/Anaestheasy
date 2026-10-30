@@ -1,0 +1,37 @@
+{
+  "t": "tip",
+  "shape": "mon",
+  "group": "ICM",
+  "title": "Diabetic Ketoacidosis",
+  "cards": [
+    {
+      "h": "T1DM",
+      "b": "file:cards/01-t1dm.html"
+    },
+    {
+      "h": "Consider HDU if",
+      "b": "file:cards/02-consider-hdu-if.html"
+    },
+    {
+      "h": "Key points",
+      "b": "file:cards/03-key-points.html"
+    },
+    {
+      "h": "Management",
+      "b": "file:cards/04-management.html"
+    },
+    {
+      "h": "Insulin synthesis and release",
+      "b": "file:cards/05-insulin-synthesis-and-release.html"
+    },
+    {
+      "h": "Perioperative management of an insulin pump",
+      "b": "file:cards/06-perioperative-management-of-an-insulin-pump.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/07-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json"
+}

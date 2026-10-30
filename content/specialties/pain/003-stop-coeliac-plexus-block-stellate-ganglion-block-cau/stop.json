@@ -1,0 +1,21 @@
+{
+  "t": "tip",
+  "shape": "face",
+  "group": "Pain",
+  "title": "Coeliac Plexus Block, Stellate Ganglion Block & Caudal Block",
+  "cards": [
+    {
+      "h": "Overview",
+      "b": "file:cards/01-overview.html"
+    },
+    {
+      "h": "Stellate ganglion block",
+      "b": "file:cards/02-stellate-ganglion-block.html"
+    },
+    {
+      "h": "Caudal block",
+      "b": "file:cards/03-caudal-block.html"
+    }
+  ],
+  "q": "file:quiz.json"
+}

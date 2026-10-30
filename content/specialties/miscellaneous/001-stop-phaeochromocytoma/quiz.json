@@ -1,0 +1,122 @@
+[
+  {
+    "q": "In what order are alpha and beta blockade started before phaeochromocytoma surgery?",
+    "o": [
+      "Beta first",
+      "Alpha first, then beta",
+      "Together",
+      "Beta only",
+      "Neither"
+    ],
+    "a": 1,
+    "why": "Beta first risks unopposed alpha vasoconstriction and crisis."
+  },
+  {
+    "q": "Which alpha-blocker is non-competitive and irreversible?",
+    "o": [
+      "Doxazosin",
+      "Phenoxybenzamine",
+      "Prazosin",
+      "Phentolamine",
+      "Labetalol"
+    ],
+    "a": 1,
+    "why": "Doxazosin is competitive."
+  },
+  {
+    "q": "What is the first-line diagnostic test?",
+    "o": [
+      "Serum adrenaline",
+      "Plasma or urinary metanephrines",
+      "CT",
+      "MIBG",
+      "ACTH"
+    ],
+    "a": 1,
+    "why": "Then imaging and MIBG."
+  },
+  {
+    "q": "Which syndrome is associated with phaeochromocytoma?",
+    "o": [
+      "MEN 1",
+      "MEN 2A/2B",
+      "Cushing",
+      "Conn",
+      "Turner"
+    ],
+    "a": 1,
+    "why": "Also von Hippel–Lindau and neurofibromatosis."
+  },
+  {
+    "q": "What happens after the adrenal vein is ligated?",
+    "o": [
+      "Hypertension",
+      "Sudden hypotension",
+      "Bradycardia only",
+      "Hyperglycaemia",
+      "Nothing"
+    ],
+    "a": 1,
+    "why": "Catecholamine levels fall abruptly; give fluids and vasopressors."
+  },
+  {
+    "q": "Which metabolic problem occurs post-op?",
+    "o": [
+      "Hyperglycaemia",
+      "Hypoglycaemia",
+      "Hyperkalaemia",
+      "Hypernatraemia",
+      "Hypocalcaemia"
+    ],
+    "a": 1,
+    "why": "Loss of catecholamine-driven insulin suppression."
+  },
+  {
+    "q": "Which drugs are useful for intra-op hypertensive crises?",
+    "o": [
+      "Ephedrine",
+      "Phentolamine, magnesium or remifentanil",
+      "Metaraminol",
+      "Ketamine",
+      "Adrenaline"
+    ],
+    "a": 1,
+    "why": "Esmolol or labetalol for tachyarrhythmias."
+  },
+  {
+    "q": "Which drugs should be avoided?",
+    "o": [
+      "Propofol",
+      "Ketamine and desflurane",
+      "Remifentanil",
+      "Rocuronium",
+      "Sevoflurane"
+    ],
+    "a": 1,
+    "why": "They are sympathomimetic."
+  },
+  {
+    "q": "Why is salt and fluid intake encouraged pre-op?",
+    "o": [
+      "To raise BP",
+      "To restore blood volume after chronic vasoconstriction",
+      "To prevent AKI only",
+      "To treat hyponatraemia",
+      "No reason"
+    ],
+    "a": 1,
+    "why": "Postural hypotension shows adequate blockade."
+  },
+  {
+    "q": "Which line is placed before induction?",
+    "o": [
+      "Central only",
+      "Arterial line",
+      "PA catheter",
+      "None",
+      "IO"
+    ],
+    "a": 1,
+    "why": "Induction and tumour handling can cause surges."
+  }
+]

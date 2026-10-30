@@ -1,0 +1,44 @@
+{
+  "t": "recipe",
+  "shape": "star",
+  "group": "Miscellaneous",
+  "title": "Dental Clearance in an Adult with Learning Disability",
+  "op": true,
+  "cards": [
+    {
+      "h": "Anaesthetic recipe",
+      "b": "file:cards/01-anaesthetic-recipe.html",
+      "recipe": true
+    },
+    {
+      "h": "Oral Cavity, Pharynx & Larynx",
+      "primaryRef": "ana1"
+    },
+    {
+      "h": "CNS Pharmacology",
+      "primaryRef": "pha28"
+    },
+    {
+      "h": "Other BJA Ed Articles",
+      "noteRef": "Other BJA Ed Articles"
+    },
+    {
+      "h": "Dementia",
+      "noteRef": "Dementia"
+    },
+    {
+      "h": "Sample WPBA",
+      "b": "file:cards/06-sample-wpba.html",
+      "wpba": true
+    },
+    {
+      "h": "Curriculum",
+      "links": [
+        "curric:1",
+        "curric:8",
+        "curric:9"
+      ]
+    }
+  ],
+  "q": "file:quiz.json"
+}

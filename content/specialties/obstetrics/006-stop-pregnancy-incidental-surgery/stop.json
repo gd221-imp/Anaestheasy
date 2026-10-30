@@ -1,0 +1,47 @@
+{
+  "t": "recipe",
+  "shape": "belly",
+  "group": "Obstetrics",
+  "title": "Pregnancy & Incidental Surgery",
+  "op": true,
+  "cards": [
+    {
+      "h": "Anaesthetic recipe",
+      "b": "file:cards/01-anaesthetic-recipe.html",
+      "recipe": true
+    },
+    {
+      "h": "Fetal Circulation",
+      "primaryRef": "phs7"
+    },
+    {
+      "h": "Pharmacokinetics in Special Patient Groups",
+      "primaryRef": "pha16"
+    },
+    {
+      "h": "Pregnancy & Incidental Surgery",
+      "noteRef": "Pregnancy & Incidental Surgery"
+    },
+    {
+      "h": "Neurological Conditions in Pregnancy (Multiple Sclerosis)",
+      "noteRef": "Neurological Conditions in Pregnancy (Multiple Sclerosis)"
+    },
+    {
+      "h": "Breastfeeding",
+      "noteRef": "Breastfeeding"
+    },
+    {
+      "h": "Sample WPBA",
+      "b": "file:cards/07-sample-wpba.html",
+      "wpba": true
+    },
+    {
+      "h": "Curriculum",
+      "links": [
+        "curric:8",
+        "curric:9"
+      ]
+    }
+  ],
+  "q": "file:quiz.json"
+}

@@ -1,0 +1,122 @@
+[
+  {
+    "q": "What is the classic presentation of an extradural haematoma?",
+    "o": [
+      "Gradual headache over weeks",
+      "Loss of consciousness, a lucid interval, then deterioration",
+      "Thunderclap headache",
+      "Progressive dementia",
+      "Fever and neck stiffness"
+    ],
+    "a": 1,
+    "why": "Usually temporal, from the middle meningeal artery; the lucid interval is followed by rapid decline."
+  },
+  {
+    "q": "Which vessel is most commonly injured in an extradural haematoma?",
+    "o": [
+      "Bridging veins",
+      "Middle meningeal artery",
+      "Middle cerebral artery",
+      "Sagittal sinus",
+      "Basilar artery"
+    ],
+    "a": 1,
+    "why": "A temporal bone fracture often tears the middle meningeal artery."
+  },
+  {
+    "q": "What PaCO2 target is used during surgery for an extradural haematoma?",
+    "o": [
+      "3.0–3.5 kPa",
+      "4.5–5.0 kPa",
+      "6.0–6.5 kPa",
+      "7.0 kPa",
+      "Any value"
+    ],
+    "a": 1,
+    "why": "Normocapnia (4.5–5 kPa); avoid hypoxia and hypotension, which worsen secondary brain injury."
+  },
+  {
+    "q": "Should surgery be delayed to place an arterial line in a deteriorating patient with an extradural haematoma?",
+    "o": [
+      "Yes, always",
+      "No: do not delay surgery to place an arterial line",
+      "Only if over 70",
+      "Only if GCS 15",
+      "Yes, and a CVC as well"
+    ],
+    "a": 1,
+    "why": "Time is critical; do not delay surgery or transfer for invasive lines."
+  },
+  {
+    "q": "How is the severity of TBI classified by GCS?",
+    "o": [
+      "Mild 13–15, moderate 9–12, severe under 9",
+      "Mild 10–15, moderate 6–9, severe under 6",
+      "Mild 14–15, severe under 14",
+      "Moderate 8–12 only",
+      "GCS is not used"
+    ],
+    "a": 0,
+    "why": "Mild 13–15, moderate 9–12, severe 8 or under."
+  },
+  {
+    "q": "What CPP target is used in severe TBI (tier 1)?",
+    "o": [
+      "40–50 mmHg",
+      "60–70 mmHg",
+      "80–90 mmHg",
+      "Over 100 mmHg",
+      "No target"
+    ],
+    "a": 1,
+    "why": "Tier 1: head up 30°, deep sedation, PaCO2 4.5–5 kPa, PaO2 over 10 kPa, ICP monitoring, CPP 60–70 mmHg."
+  },
+  {
+    "q": "ICP remains above 22 mmHg despite tier 1 measures in TBI. What is a tier 2 option?",
+    "o": [
+      "Barbiturate coma",
+      "20% mannitol 0.5 g/kg or hypertonic saline (target Na 150–155)",
+      "Decompressive craniectomy",
+      "Therapeutic hypothermia to 32°C",
+      "Stop sedation"
+    ],
+    "a": 1,
+    "why": "Tier 2 (after repeat CT): optimise PaCO2 to 4–4.5 kPa, mannitol or hypertonic saline. Tier 3: decompressive craniectomy or barbiturate coma."
+  },
+  {
+    "q": "Why should ETT ties be loose in a patient with raised ICP?",
+    "o": [
+      "To allow mouth care",
+      "Tight ties impede jugular venous drainage and raise ICP",
+      "To reduce pressure sores only",
+      "For easier extubation",
+      "It does not matter"
+    ],
+    "a": 1,
+    "why": "Avoid tight ties and keep the neck neutral to aid venous drainage."
+  },
+  {
+    "q": "What did the CRASH-3 trial show?",
+    "o": [
+      "TXA harms TBI patients",
+      "Tranexamic acid reduced head injury death in mild–moderate TBI when given early",
+      "Steroids reduce mortality in TBI",
+      "Hypothermia improves outcome",
+      "Mannitol is better than saline"
+    ],
+    "a": 1,
+    "why": "CRASH-3 supported early TXA in isolated TBI, with benefit in mild–moderate injury."
+  },
+  {
+    "q": "Which effect of altitude matters during air transfer of a ventilated head-injured patient?",
+    "o": [
+      "Trapped gas expands (ETT cuff, pneumothorax)",
+      "Oxygen partial pressure rises",
+      "Temperature rises",
+      "Gas contracts",
+      "No effect"
+    ],
+    "a": 0,
+    "why": "Gas expands at altitude: check cuff pressure and drain pneumothoraces; PaO2 falls."
+  }
+]

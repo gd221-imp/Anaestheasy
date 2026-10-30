@@ -1,0 +1,26 @@
+{
+  "t": "tip",
+  "shape": "star",
+  "group": "Miscellaneous",
+  "title": "Carcinoid Syndrome",
+  "cards": [
+    {
+      "h": "Overview",
+      "b": "file:cards/01-overview.html"
+    },
+    {
+      "h": "Key points",
+      "b": "file:cards/02-key-points.html"
+    },
+    {
+      "h": "Note",
+      "b": "file:cards/03-note.html"
+    },
+    {
+      "h": "Pre-op",
+      "b": "file:cards/04-pre-op.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

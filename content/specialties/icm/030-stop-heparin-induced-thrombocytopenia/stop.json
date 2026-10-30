@@ -1,0 +1,33 @@
+{
+  "t": "tip",
+  "shape": "mon",
+  "group": "ICM",
+  "title": "Heparin Induced Thrombocytopenia",
+  "cards": [
+    {
+      "h": "Deciding on VTE prophylaxis",
+      "b": "file:cards/01-deciding-on-vte-prophylaxis.html"
+    },
+    {
+      "h": "Key points",
+      "b": "file:cards/02-key-points.html"
+    },
+    {
+      "h": "Thrombocytopenia",
+      "b": "file:cards/03-thrombocytopenia.html"
+    },
+    {
+      "h": "HIT",
+      "b": "file:cards/04-hit.html"
+    },
+    {
+      "h": "4Ts score for Type 2 HIT",
+      "b": "file:cards/05-4ts-score-for-type-2-hit.html"
+    },
+    {
+      "h": "Key points",
+      "b": "file:cards/06-key-points.html"
+    }
+  ],
+  "q": "file:quiz.json"
+}

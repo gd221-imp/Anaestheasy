@@ -1,0 +1,122 @@
+[
+  {
+    "q": "What sensory block is checked before caesarean section under spinal?",
+    "o": [
+      "Cold to T10",
+      "Light touch to T5 and cold to T4 bilaterally",
+      "Pinprick to L1",
+      "Cold to T8 on one side",
+      "No testing needed"
+    ],
+    "a": 1,
+    "why": "Light touch to T5 and cold to T4 bilaterally, plus inability to straight leg raise."
+  },
+  {
+    "q": "The patient feels pain during caesarean under spinal. What is a reasonable first step?",
+    "o": [
+      "Ignore it",
+      "Offer nitrous oxide or a short-acting opioid (e.g. alfentanil or fentanyl) and reassess, escalating to GA if needed",
+      "Give a second spinal immediately",
+      "Give 10 mg morphine IV",
+      "Stop the surgery permanently"
+    ],
+    "a": 1,
+    "why": "Acknowledge and treat: N2O, fentanyl 25–50 mcg, alfentanil, or ketamine 10 mg; convert to GA if inadequate."
+  },
+  {
+    "q": "What did NAP5 find about awareness in obstetric GA?",
+    "o": [
+      "It is rarer than in other specialties",
+      "The risk is higher, about 1 in 670",
+      "It never occurs",
+      "Only with TIVA",
+      "Only with thiopental"
+    ],
+    "a": 1,
+    "why": "Obstetric GA carries a higher AAGA risk (about 1 in 670); ensure adequate induction dose and volatile."
+  },
+  {
+    "q": "What aspiration prophylaxis is given before caesarean?",
+    "o": [
+      "Nothing",
+      "An H2 antagonist plus 30 ml 0.3 M sodium citrate (± metoclopramide)",
+      "Omeprazole only on the day",
+      "Ondansetron",
+      "Antacid tablets"
+    ],
+    "a": 1,
+    "why": "Aim for gastric pH over 2.5 and small volume."
+  },
+  {
+    "q": "What is the failed intubation rate in obstetrics (approximately)?",
+    "o": [
+      "1 in 30",
+      "1 in 300",
+      "1 in 3,000",
+      "1 in 30,000",
+      "1 in 10"
+    ],
+    "a": 1,
+    "why": "About 1 in 300, much higher than in non-pregnant patients."
+  },
+  {
+    "q": "When does peripartum cardiomyopathy usually present?",
+    "o": [
+      "First trimester",
+      "Late pregnancy or in the months after delivery (about two-thirds postpartum)",
+      "Only at delivery",
+      "Only in twins",
+      "Years later"
+    ],
+    "a": 1,
+    "why": "It presents at the end of pregnancy or in the months after delivery."
+  },
+  {
+    "q": "Which drug for heart failure is contraindicated in pregnancy but used postpartum?",
+    "o": [
+      "Furosemide",
+      "ACE inhibitors",
+      "Beta-blockers",
+      "LMWH",
+      "Hydralazine"
+    ],
+    "a": 1,
+    "why": "ACE inhibitors are teratogenic and reserved for after delivery."
+  },
+  {
+    "q": "What is the magnesium loading regimen for eclampsia?",
+    "o": [
+      "1 g over 1 hour",
+      "4 g over 5 minutes, then 1 g/h for 24 hours",
+      "10 g IM",
+      "2 g/h",
+      "6 g over 1 hour"
+    ],
+    "a": 1,
+    "why": "Give 4 g over 5 minutes then 1 g/h for 24 hours; a further 2 g for repeat seizures."
+  },
+  {
+    "q": "How is magnesium toxicity treated?",
+    "o": [
+      "Naloxone",
+      "Calcium gluconate 10 ml 10% over 10 minutes",
+      "Sodium bicarbonate",
+      "Dantrolene",
+      "Insulin and dextrose"
+    ],
+    "a": 1,
+    "why": "Signs: loss of reflexes, respiratory depression; give calcium gluconate."
+  },
+  {
+    "q": "Which is a severe feature of pre-eclampsia?",
+    "o": [
+      "Mild ankle oedema",
+      "Severe headache or visual disturbance",
+      "Proteinuria 1+",
+      "BP 140/90 once",
+      "Nausea in first trimester"
+    ],
+    "a": 1,
+    "why": "Severe features include headache, visual disturbance, epigastric pain, clonus and BP of 160/110 or more."
+  }
+]

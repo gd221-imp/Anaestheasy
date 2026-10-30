@@ -1,0 +1,22 @@
+{
+  "t": "tip",
+  "shape": "headn",
+  "group": "Head and neck",
+  "title": "Cholesteatoma",
+  "cards": [
+    {
+      "h": "Definition",
+      "b": "file:cards/01-definition.html"
+    },
+    {
+      "h": "Complications if untreated",
+      "b": "file:cards/02-complications-if-untreated.html"
+    },
+    {
+      "h": "Treatment",
+      "b": "file:cards/03-treatment.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

@@ -1,0 +1,47 @@
+{
+  "t": "recipe",
+  "shape": "heart",
+  "group": "Cardiac",
+  "title": "On-Pump Cardiac Surgery (CPB & Cardioplegia)",
+  "op": true,
+  "cards": [
+    {
+      "h": "Anaesthetic recipe",
+      "b": "file:cards/01-anaesthetic-recipe.html",
+      "recipe": true
+    },
+    {
+      "h": "Aortic Stenosis",
+      "primaryRef": "phs4"
+    },
+    {
+      "h": "Mitral Regurgitation",
+      "primaryRef": "phs3"
+    },
+    {
+      "h": "On-Pump Cardiac Surgery (CPB & Cardioplegia)",
+      "noteRef": "On-Pump Cardiac Surgery (CPB & Cardioplegia)"
+    },
+    {
+      "h": "Neurological Complications of Cardiac Surgery",
+      "noteRef": "Neurological Complications of Cardiac Surgery"
+    },
+    {
+      "h": "Aortic Regurgitation",
+      "noteRef": "Aortic Regurgitation"
+    },
+    {
+      "h": "Sample WPBA",
+      "b": "file:cards/07-sample-wpba.html",
+      "wpba": true
+    },
+    {
+      "h": "Curriculum",
+      "links": [
+        "curric:8",
+        "curric:9"
+      ]
+    }
+  ],
+  "q": "file:quiz.json"
+}

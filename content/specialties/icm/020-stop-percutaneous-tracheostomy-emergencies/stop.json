@@ -1,0 +1,33 @@
+{
+  "t": "tip",
+  "shape": "mon",
+  "group": "ICM",
+  "title": "Percutaneous Tracheostomy & Emergencies",
+  "cards": [
+    {
+      "h": "Indications",
+      "b": "file:cards/01-indications.html"
+    },
+    {
+      "h": "Vs an ETT",
+      "b": "file:cards/02-vs-an-ett.html"
+    },
+    {
+      "h": "TracMan study",
+      "b": "file:cards/03-tracman-study.html"
+    },
+    {
+      "h": "Relative contraindications",
+      "b": "file:cards/04-relative-contraindications.html"
+    },
+    {
+      "h": "Managing tracheostomy displacement/obstruction (NTSP-style algorithm)",
+      "b": "file:cards/05-managing-tracheostomy-displacement-obstruction-n.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/06-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json"
+}

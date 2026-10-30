@@ -1,0 +1,37 @@
+{
+  "t": "tip",
+  "shape": "mon",
+  "group": "ICM",
+  "title": "Diarrhoea in Critical Illness",
+  "cards": [
+    {
+      "h": "Overview",
+      "b": "file:cards/01-overview.html"
+    },
+    {
+      "h": "Causes",
+      "b": "file:cards/02-causes.html"
+    },
+    {
+      "h": "Consequences",
+      "b": "file:cards/03-consequences.html"
+    },
+    {
+      "h": "Management",
+      "b": "file:cards/04-management.html"
+    },
+    {
+      "h": "The intestine has 4 layers",
+      "b": "file:cards/05-the-intestine-has-4-layers.html"
+    },
+    {
+      "h": "Peristalsis serves 2 purposes",
+      "b": "file:cards/06-peristalsis-serves-2-purposes.html"
+    },
+    {
+      "h": "Control",
+      "b": "file:cards/07-control.html"
+    }
+  ],
+  "q": "file:quiz.json"
+}

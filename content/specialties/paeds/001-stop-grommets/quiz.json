@@ -1,0 +1,122 @@
+[
+  {
+    "q": "A 3-year-old for grommets has a clear runny nose, no fever and a clear chest. What is the usual approach?",
+    "o": [
+      "Cancel for 6 weeks",
+      "Usually proceed: mild uncomplicated URTI with a short facemask or LMA case",
+      "Cancel for 2 weeks",
+      "Proceed only with an ETT",
+      "Admit overnight first"
+    ],
+    "a": 1,
+    "why": "A well child with clear coryza and a normal chest can usually proceed, especially for a short case without an ETT."
+  },
+  {
+    "q": "Which feature should prompt postponement of elective surgery in a child with a URTI?",
+    "o": [
+      "Clear nasal discharge",
+      "Fever over 38°C or lower respiratory signs such as wheeze or productive cough",
+      "Sneezing",
+      "Age over 5",
+      "Recent nasal flu vaccine"
+    ],
+    "a": 1,
+    "why": "Fever, lethargy, poor feeding, purulent discharge and chest signs suggest a more significant infection."
+  },
+  {
+    "q": "How long is airway hyperreactivity thought to persist after a URTI?",
+    "o": [
+      "24 hours",
+      "2–4 weeks",
+      "3 months",
+      "6 months",
+      "It does not persist"
+    ],
+    "a": 1,
+    "why": "Risk is greatest in the 2–4 weeks after a URTI; wait at least 2 weeks after resolution, up to 4 after a more severe infection."
+  },
+  {
+    "q": "What does the COLDS score help with?",
+    "o": [
+      "Predicting PONV",
+      "Structuring the decision to proceed with a URTI",
+      "Assessing pain",
+      "Sedation depth",
+      "Airway sizing"
+    ],
+    "a": 1,
+    "why": "Current symptoms, Onset, Lung disease, airway Device and Surgery type; higher scores mean more respiratory adverse events."
+  },
+  {
+    "q": "During gas induction for grommets, laryngospasm develops. What is the first step?",
+    "o": [
+      "Give suxamethonium immediately",
+      "100% oxygen, remove the stimulus, CPAP with a tight mask and jaw thrust",
+      "Remove the facemask",
+      "Give salbutamol",
+      "Extubate"
+    ],
+    "a": 1,
+    "why": "Then deepen with propofol; if persisting, suxamethonium (IV or IM) with atropine for bradycardia."
+  },
+  {
+    "q": "Which is a recognised complication of laryngospasm?",
+    "o": [
+      "Hyperthermia",
+      "Negative pressure pulmonary oedema",
+      "Hyperkalaemia",
+      "Seizures",
+      "Malignant hyperthermia"
+    ],
+    "a": 1,
+    "why": "Forced inspiration against a closed glottis can cause negative pressure pulmonary oedema; also hypoxia, aspiration and bradycardia."
+  },
+  {
+    "q": "Which is a risk factor for laryngospasm in children?",
+    "o": [
+      "Deep anaesthesia",
+      "Passive smoking exposure",
+      "Age over 10",
+      "Use of TIVA",
+      "Fasting"
+    ],
+    "a": 1,
+    "why": "Recent or current URTI, passive smoking, airway surgery and a light plane during stimulation."
+  },
+  {
+    "q": "What is the typical delayed anaesthetic complication after sevoflurane for a short case like grommets?",
+    "o": [
+      "Malignant hyperthermia",
+      "Emergence agitation",
+      "Respiratory depression",
+      "Urinary retention",
+      "Hypoglycaemia"
+    ],
+    "a": 1,
+    "why": "Emergence agitation is common after sevoflurane in young children."
+  },
+  {
+    "q": "What is the usual indication for grommets?",
+    "o": [
+      "Cholesteatoma",
+      "Otitis media with effusion (glue ear)",
+      "Ear wax",
+      "Tinnitus",
+      "Facial palsy"
+    ],
+    "a": 1,
+    "why": "Myringotomy and ventilation tubes for glue ear, often in children with recurrent coryza."
+  },
+  {
+    "q": "Why do children desaturate quickly during airway events?",
+    "o": [
+      "Higher FRC",
+      "Reduced FRC with higher oxygen consumption (6–8 ml/kg/min)",
+      "Lower metabolic rate",
+      "Larger airways",
+      "Higher haemoglobin"
+    ],
+    "a": 1,
+    "why": "Small FRC and high oxygen consumption mean little oxygen reserve."
+  }
+]

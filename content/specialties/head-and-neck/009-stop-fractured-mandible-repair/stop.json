@@ -1,0 +1,43 @@
+{
+  "t": "recipe",
+  "shape": "headn",
+  "group": "Head and neck",
+  "title": "Fractured Mandible Repair",
+  "op": true,
+  "cards": [
+    {
+      "h": "Anaesthetic recipe",
+      "b": "file:cards/01-anaesthetic-recipe.html",
+      "recipe": true
+    },
+    {
+      "h": "Oral Cavity, Pharynx & Larynx",
+      "primaryRef": "ana1"
+    },
+    {
+      "h": "Trigeminal Nerve",
+      "primaryRef": "ana47"
+    },
+    {
+      "h": "Bimaxillary Osteotomy, Pharyngeal Pouch & Fractured Mandible",
+      "noteRef": "Bimaxillary Osteotomy, Pharyngeal Pouch & Fractured Mandible"
+    },
+    {
+      "h": "Dental Damage",
+      "noteRef": "Dental Damage"
+    },
+    {
+      "h": "Sample WPBA",
+      "b": "file:cards/06-sample-wpba.html",
+      "wpba": true
+    },
+    {
+      "h": "Curriculum",
+      "links": [
+        "curric:9",
+        "curric:11"
+      ]
+    }
+  ],
+  "q": "file:quiz.json"
+}

@@ -1,0 +1,62 @@
+{
+  "t": "tip",
+  "shape": "belly",
+  "group": "Obstetrics",
+  "title": "Maternal Physiology",
+  "cards": [
+    {
+      "h": "Overview",
+      "b": "file:cards/01-overview.html"
+    },
+    {
+      "h": "CNS",
+      "b": "file:cards/02-cns.html"
+    },
+    {
+      "h": "Endocrine",
+      "b": "file:cards/03-endocrine.html"
+    },
+    {
+      "h": "Respiratory",
+      "b": "file:cards/04-respiratory.html"
+    },
+    {
+      "h": "Cardiovascular",
+      "b": "file:cards/05-cardiovascular.html"
+    },
+    {
+      "h": "Hepatic",
+      "b": "file:cards/06-hepatic.html"
+    },
+    {
+      "h": "Aortocaval compression",
+      "b": "file:cards/07-aortocaval-compression.html"
+    },
+    {
+      "h": "GI",
+      "b": "file:cards/08-gi.html"
+    },
+    {
+      "h": "Renal",
+      "b": "file:cards/09-renal.html"
+    },
+    {
+      "h": "Uterus",
+      "b": "file:cards/10-uterus.html"
+    },
+    {
+      "h": "Placental transfer of drugs",
+      "b": "file:cards/11-placental-transfer-of-drugs.html"
+    },
+    {
+      "h": "Revise from your notes",
+      "links": [
+        "pha1|ionisation and ion trapping",
+        "pha16|pregnancy",
+        "pha22|pethidine and remifentanil"
+      ]
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

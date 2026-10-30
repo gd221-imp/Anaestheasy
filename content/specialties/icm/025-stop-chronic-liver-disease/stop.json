@@ -1,0 +1,57 @@
+{
+  "t": "tip",
+  "shape": "mon",
+  "group": "ICM",
+  "title": "Chronic Liver Disease",
+  "cards": [
+    {
+      "h": "Overview",
+      "b": "file:cards/01-overview.html"
+    },
+    {
+      "h": "Causes",
+      "b": "file:cards/02-causes.html"
+    },
+    {
+      "h": "Extrahepatic manifestations (by system)",
+      "b": "file:cards/03-extrahepatic-manifestations-by-system.html"
+    },
+    {
+      "h": "Key points",
+      "b": "file:cards/04-key-points.html"
+    },
+    {
+      "h": "Portal hypertension",
+      "b": "file:cards/05-portal-hypertension.html"
+    },
+    {
+      "h": "Scoring systems",
+      "b": "file:cards/06-scoring-systems.html"
+    },
+    {
+      "h": "Hepatorenal syndrome",
+      "b": "file:cards/07-hepatorenal-syndrome.html"
+    },
+    {
+      "h": "Pharmacokinetic issues in liver disease",
+      "b": "file:cards/08-pharmacokinetic-issues-in-liver-disease.html"
+    },
+    {
+      "h": "Hepatic encephalopathy",
+      "b": "file:cards/09-hepatic-encephalopathy.html"
+    },
+    {
+      "h": "Key points",
+      "b": "file:cards/10-key-points.html"
+    },
+    {
+      "h": "Managing a variceal bleed",
+      "b": "file:cards/11-managing-a-variceal-bleed.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/12-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json"
+}

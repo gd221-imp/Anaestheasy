@@ -1,0 +1,21 @@
+{
+  "t": "tip",
+  "shape": "heart",
+  "group": "Cardiac",
+  "title": "Constrictive Pericarditis",
+  "note": true,
+  "cards": [
+    {
+      "h": "Overview",
+      "b": "file:cards/01-overview.html"
+    },
+    {
+      "h": "Anaesthetic goals",
+      "b": "file:cards/02-anaesthetic-goals.html"
+    },
+    {
+      "h": "Pericardiectomy",
+      "b": "file:cards/03-pericardiectomy.html"
+    }
+  ]
+}

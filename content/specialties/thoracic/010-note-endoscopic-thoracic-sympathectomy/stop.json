@@ -1,0 +1,30 @@
+{
+  "t": "tip",
+  "shape": "lung",
+  "group": "Thoracic",
+  "title": "Endoscopic Thoracic Sympathectomy",
+  "cards": [
+    {
+      "h": "Indications",
+      "b": "file:cards/01-indications.html"
+    },
+    {
+      "h": "Anatomy",
+      "b": "file:cards/02-anatomy.html"
+    },
+    {
+      "h": "Surgical procedure",
+      "b": "file:cards/03-surgical-procedure.html"
+    },
+    {
+      "h": "Anaesthesia",
+      "b": "file:cards/04-anaesthesia.html"
+    },
+    {
+      "h": "Complications",
+      "b": "file:cards/05-complications.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

@@ -1,0 +1,30 @@
+{
+  "t": "tip",
+  "shape": "lung",
+  "group": "Thoracic",
+  "title": "Lung Transplant",
+  "cards": [
+    {
+      "h": "Indications",
+      "b": "file:cards/01-indications.html"
+    },
+    {
+      "h": "Intra-op",
+      "b": "file:cards/02-intra-op.html"
+    },
+    {
+      "h": "Primary graft dysfunction",
+      "b": "file:cards/03-primary-graft-dysfunction.html"
+    },
+    {
+      "h": "Surgical correction of chest wall deformities",
+      "b": "file:cards/04-surgical-correction-of-chest-wall-deformities.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/05-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

@@ -1,0 +1,33 @@
+{
+  "t": "tip",
+  "shape": "mon",
+  "group": "ICM",
+  "title": "Haematological Malignancy",
+  "cards": [
+    {
+      "h": "Classification",
+      "b": "file:cards/01-classification.html"
+    },
+    {
+      "h": "Increased infection risk from",
+      "b": "file:cards/02-increased-infection-risk-from.html"
+    },
+    {
+      "h": "Neutropenic sepsis",
+      "b": "file:cards/03-neutropenic-sepsis.html"
+    },
+    {
+      "h": "Chemotherapy agent classes",
+      "b": "file:cards/04-chemotherapy-agent-classes.html"
+    },
+    {
+      "h": "Tumour lysis syndrome",
+      "b": "file:cards/05-tumour-lysis-syndrome.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/06-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json"
+}

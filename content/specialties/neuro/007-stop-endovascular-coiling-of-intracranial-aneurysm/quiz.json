@@ -1,0 +1,122 @@
+[
+  {
+    "q": "What is the most common cause of non-traumatic subarachnoid haemorrhage?",
+    "o": [
+      "AVM",
+      "Ruptured aneurysm",
+      "Hypertensive bleed",
+      "Tumour",
+      "Vasculitis"
+    ],
+    "a": 1,
+    "why": "About 85% of SAH is aneurysmal, 10% AVM."
+  },
+  {
+    "q": "A patient with a thunderclap headache has a normal CT. What test is next if suspicion remains?",
+    "o": [
+      "MRI spine",
+      "Lumbar puncture after 12 hours looking for xanthochromia",
+      "EEG",
+      "Repeat CT in a week",
+      "Carotid Doppler"
+    ],
+    "a": 1,
+    "why": "Xanthochromia (red cell breakdown) takes about 12 hours to develop."
+  },
+  {
+    "q": "What nimodipine regimen is used after SAH?",
+    "o": [
+      "10 mg once daily",
+      "60 mg every 4 hours for 21 days",
+      "120 mg IV once",
+      "30 mg twice daily for 7 days",
+      "Only if vasospasm occurs"
+    ],
+    "a": 1,
+    "why": "Nimodipine 60 mg 4-hourly for 21 days reduces delayed cerebral ischaemia."
+  },
+  {
+    "q": "When is vasospasm most likely after SAH?",
+    "o": [
+      "Within 6 hours",
+      "Days 3–14 (peak 5–7)",
+      "After 1 month",
+      "Only during coiling",
+      "It never occurs after coiling"
+    ],
+    "a": 1,
+    "why": "Delayed cerebral ischaemia and vasospasm occur from around day 3–14; rebleeding and hydrocephalus are early complications."
+  },
+  {
+    "q": "During coiling under GA, the aneurysm ruptures with a sudden rise in BP and fall in heart rate. What should you prepare?",
+    "o": [
+      "Heparin bolus",
+      "Protamine to reverse heparin, BP control and EVD drainage",
+      "Atropine only",
+      "Thrombolysis",
+      "Wake the patient"
+    ],
+    "a": 1,
+    "why": "Reverse heparin with protamine, control BP, drain the EVD and support CPP."
+  },
+  {
+    "q": "What heparin target is used during neurointerventional coiling?",
+    "o": [
+      "ACT above 480 s",
+      "ACT 2–3× baseline (70–100 u/kg)",
+      "No heparin",
+      "APTT ratio 1.5",
+      "ACT 150 s"
+    ],
+    "a": 1,
+    "why": "Heparin 70–100 u/kg aiming for ACT 2–3× baseline."
+  },
+  {
+    "q": "A patient with SAH has T-wave inversion and a raised troponin. What is the likely explanation?",
+    "o": [
+      "Coincidental MI needing PCI",
+      "Neurogenic stunned myocardium from catecholamine surge",
+      "Pulmonary embolism",
+      "Myocarditis",
+      "Lab error"
+    ],
+    "a": 1,
+    "why": "SAH can stun the myocardium (neurogenic), with ECG changes, raised troponin and pulmonary oedema."
+  },
+  {
+    "q": "Which aneurysm location is most common?",
+    "o": [
+      "Basilar tip",
+      "Anterior communicating artery",
+      "Vertebral artery",
+      "Posterior inferior cerebellar artery",
+      "Ophthalmic artery"
+    ],
+    "a": 1,
+    "why": "ACOM about 40%, MCA about 34%, PCOM about 20%."
+  },
+  {
+    "q": "Which clinical sign suggests a posterior communicating artery aneurysm?",
+    "o": [
+      "Sixth nerve palsy",
+      "Isolated third nerve palsy with a dilated pupil",
+      "Horner’s syndrome",
+      "Facial palsy",
+      "Nystagmus"
+    ],
+    "a": 1,
+    "why": "A PCOM aneurysm compresses CN III, causing a dilated pupil."
+  },
+  {
+    "q": "What is an advantage of coiling over surgical clipping?",
+    "o": [
+      "Lower recurrence rate",
+      "Less invasive and better for posterior circulation aneurysms",
+      "Treats every aneurysm shape",
+      "No need for GA",
+      "No need for heparin"
+    ],
+    "a": 1,
+    "why": "Coiling is less invasive and suits posterior circulation aneurysms; clipping has a lower recurrence rate and treats all types."
+  }
+]

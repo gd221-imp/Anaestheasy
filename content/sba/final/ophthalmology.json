@@ -1,0 +1,50 @@
+[
+  {
+    "id": "Q242",
+    "ar": "Ophthalmology",
+    "sb": "Penetrating eye injury",
+    "q": "A 25-year-old who ate an hour ago has a penetrating eye injury needing urgent surgery. What is the most appropriate induction?",
+    "o": [
+      "Delay surgery for 24 hours to allow gastric emptying",
+      "Inhalational induction",
+      "Awake fibreoptic intubation",
+      "Peribulbar block under sedation",
+      "RSI with propofol and rocuronium 1.2 mg/kg (suxamethonium is also acceptable in skilled hands)"
+    ],
+    "a": 4,
+    "why": "Balance aspiration risk against raised IOP. RSI with high-dose rocuronium avoids suxamethonium's small transient IOP rise; many experts still consider suxamethonium acceptable, as the risk of extrusion is mostly theoretical and pain, coughing and crying raise IOP more. Avoid pressure on the eye (facemask), coughing and hypertension. Regional blocks are contraindicated in open globe injury.",
+    "st": "st2-138"
+  },
+  {
+    "id": "Q243",
+    "ar": "Ophthalmology",
+    "sb": "Eye blocks",
+    "q": "Which ophthalmic block has the lowest risk of globe perforation?",
+    "o": [
+      "Peribulbar with a 38 mm needle",
+      "Peribulbar (extraconal)",
+      "Facial nerve block",
+      "Retrobulbar (intraconal)",
+      "Sub-Tenon's with a blunt cannula"
+    ],
+    "a": 4,
+    "why": "Sub-Tenon's block uses a blunt cannula through a conjunctival incision, avoiding sharp needles, so globe perforation and retrobulbar haemorrhage are very rare; chemosis and subconjunctival haemorrhage are common. Sharp-needle blocks carry risks of globe perforation (higher with axial length &gt; 26 mm, previous scleral buckle, staphyloma), retrobulbar haemorrhage, optic nerve injury and brainstem anaesthesia.",
+    "st": "st2-139"
+  },
+  {
+    "id": "Q244",
+    "ar": "Ophthalmology",
+    "sb": "Vitreoretinal surgery",
+    "q": "A patient who had vitreoretinal surgery with an intraocular sulphur hexafluoride (SF6) gas bubble 5 days ago needs an emergency appendicectomy. Which drug must be avoided?",
+    "o": [
+      "Rocuronium",
+      "Propofol",
+      "Sevoflurane",
+      "Fentanyl",
+      "Nitrous oxide"
+    ],
+    "a": 4,
+    "why": "Nitrous oxide diffuses into the intraocular gas bubble faster than SF6 or nitrogen leaves, expanding it and raising IOP, which can cause central retinal artery occlusion and blindness. Avoid N2O for about 10 days after SF6, 6–8 weeks after C3F8, and 5 days after air. Patients usually wear a warning wristband.",
+    "st": "st2-140"
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "t": "tip",
+  "shape": "dummy",
+  "group": "Paeds",
+  "title": "Day Case Surgery",
+  "cards": [
+    {
+      "h": "Overview",
+      "b": "file:cards/01-overview.html"
+    },
+    {
+      "h": "Patient factors",
+      "b": "file:cards/02-patient-factors.html"
+    },
+    {
+      "h": "RCoA organisational recommendations for paediatric day surgery",
+      "b": "file:cards/03-rcoa-organisational-recommendations-for-paediatr.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/04-further-reading.html"
+    }
+  ],
+  "q": "file:quiz.json",
+  "note": true
+}

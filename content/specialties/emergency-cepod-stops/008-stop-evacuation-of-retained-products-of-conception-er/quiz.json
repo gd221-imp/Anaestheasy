@@ -1,0 +1,122 @@
+[
+  {
+    "q": "Why is volatile kept low or TIVA used for ERPC?",
+    "o": [
+      "PONV",
+      "Volatile agents relax the uterus and increase bleeding",
+      "Cost",
+      "Speed",
+      "Awareness"
+    ],
+    "a": 1,
+    "why": "Uterotonics if the surgeon asks."
+  },
+  {
+    "q": "What must be checked and given if rhesus negative?",
+    "o": [
+      "Vitamin K",
+      "Anti-D",
+      "Iron",
+      "Antibiotics",
+      "Folate"
+    ],
+    "a": 1,
+    "why": "Group and save."
+  },
+  {
+    "q": "Which delayed surgical complication is specific?",
+    "o": [
+      "Hernia",
+      "Asherman syndrome",
+      "Fistula",
+      "Ileus",
+      "Stricture"
+    ],
+    "a": 1,
+    "why": "Intrauterine adhesions."
+  },
+  {
+    "q": "Which immediate surgical complication is serious?",
+    "o": [
+      "Asherman",
+      "Uterine perforation",
+      "Infection",
+      "Retained tissue",
+      "Pain"
+    ],
+    "a": 1,
+    "why": "Also haemorrhage."
+  },
+  {
+    "q": "What is the leading cause of direct maternal death in MBRRACE 2018–20 per the note?",
+    "o": [
+      "Haemorrhage",
+      "VTE",
+      "Sepsis",
+      "AFE",
+      "Anaesthesia"
+    ],
+    "a": 1,
+    "why": "Then suicide and sepsis."
+  },
+  {
+    "q": "Which mechanism causes the early phase of amniotic fluid embolism?",
+    "o": [
+      "LV failure",
+      "Pulmonary vasospasm and RV failure",
+      "DIC only",
+      "Hypovolaemia",
+      "Bleeding"
+    ],
+    "a": 1,
+    "why": "Then LV failure and DIC."
+  },
+  {
+    "q": "When should perimortem caesarean be performed in arrest without ROSC?",
+    "o": [
+      "After 30 min",
+      "Within 4 minutes (delivery by 5)",
+      "Never",
+      "After 10 min",
+      "Only after 24 weeks with ROSC"
+    ],
+    "a": 1,
+    "why": "Improves maternal resuscitation."
+  },
+  {
+    "q": "By how much does FRC fall when supine at term?",
+    "o": [
+      "5%",
+      "About 30%",
+      "70%",
+      "0%",
+      "50%"
+    ],
+    "a": 1,
+    "why": "Faster desaturation."
+  },
+  {
+    "q": "What is the key sequela of intrauterine fetal death the longer the fetus remains?",
+    "o": [
+      "Hypertension",
+      "Coagulopathy and sepsis",
+      "Hyperglycaemia",
+      "Seizures",
+      "None"
+    ],
+    "a": 1,
+    "why": "Check coagulation before regional."
+  },
+  {
+    "q": "How should communication be handled after early pregnancy loss?",
+    "o": [
+      "Brief and clinical",
+      "Sensitively, with bereavement support",
+      "Avoid discussion",
+      "Only with partner",
+      "In writing only"
+    ],
+    "a": 1,
+    "why": "Psychological distress is a delayed complication."
+  }
+]

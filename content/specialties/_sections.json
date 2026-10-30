@@ -1,0 +1,86 @@
+[
+  {
+    "key": "Cardiac",
+    "dir": "cardiac"
+  },
+  {
+    "key": "Thoracic",
+    "dir": "thoracic"
+  },
+  {
+    "key": "Vascular",
+    "dir": "vascular"
+  },
+  {
+    "key": "Neuro",
+    "dir": "neuro"
+  },
+  {
+    "key": "ICM",
+    "dir": "icm"
+  },
+  {
+    "key": "Pain",
+    "dir": "pain"
+  },
+  {
+    "key": "Obstetrics",
+    "dir": "obstetrics"
+  },
+  {
+    "key": "Paeds",
+    "dir": "paeds"
+  },
+  {
+    "key": "Periop medicine",
+    "dir": "periop-medicine"
+  },
+  {
+    "key": "General surgery",
+    "dir": "general-surgery"
+  },
+  {
+    "key": "Urology",
+    "dir": "urology"
+  },
+  {
+    "key": "Orthopaedics",
+    "dir": "orthopaedics"
+  },
+  {
+    "key": "Trauma",
+    "dir": "trauma"
+  },
+  {
+    "key": "Head and neck",
+    "dir": "head-and-neck"
+  },
+  {
+    "key": "Plastics",
+    "dir": "plastics"
+  },
+  {
+    "key": "Ophthalmology",
+    "dir": "ophthalmology"
+  },
+  {
+    "key": "Critical incidents",
+    "dir": "critical-incidents"
+  },
+  {
+    "key": "Miscellaneous",
+    "dir": "miscellaneous"
+  },
+  {
+    "key": "__core",
+    "dir": "core-training-stops"
+  },
+  {
+    "key": "__st3",
+    "dir": "stage3-stops"
+  },
+  {
+    "key": "__cepod",
+    "dir": "emergency-cepod-stops"
+  }
+]

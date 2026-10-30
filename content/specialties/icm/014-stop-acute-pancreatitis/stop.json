@@ -1,0 +1,33 @@
+{
+  "t": "tip",
+  "shape": "mon",
+  "group": "ICM",
+  "title": "Acute Pancreatitis",
+  "cards": [
+    {
+      "h": "Causes",
+      "b": "file:cards/01-causes.html"
+    },
+    {
+      "h": "Scoring",
+      "b": "file:cards/02-scoring.html"
+    },
+    {
+      "h": "Diagnosis (Atlanta criteria)",
+      "b": "file:cards/03-diagnosis-atlanta-criteria.html"
+    },
+    {
+      "h": "Severity classification",
+      "b": "file:cards/04-severity-classification.html"
+    },
+    {
+      "h": "Management is largely supportive",
+      "b": "file:cards/05-management-is-largely-supportive.html"
+    },
+    {
+      "h": "Complications",
+      "b": "file:cards/06-complications.html"
+    }
+  ],
+  "q": "file:quiz.json"
+}

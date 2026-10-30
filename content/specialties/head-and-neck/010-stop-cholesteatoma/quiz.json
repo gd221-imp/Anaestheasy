@@ -1,0 +1,122 @@
+[
+  {
+    "q": "What is cholesteatoma?",
+    "o": [
+      "Malignant tumour",
+      "Abnormal squamous epithelium in the middle ear that erodes structures",
+      "Ear wax",
+      "Infection of the external ear",
+      "Polyp"
+    ],
+    "a": 1,
+    "why": "Can be congenital or acquired."
+  },
+  {
+    "q": "Why is nitrous oxide avoided in middle ear surgery?",
+    "o": [
+      "PONV only",
+      "It diffuses into the middle ear, raising pressure and disrupting grafts",
+      "It is a trigger for MH",
+      "It causes bleeding",
+      "Cost"
+    ],
+    "a": 1,
+    "why": "Also increases PONV."
+  },
+  {
+    "q": "Why may muscle relaxation be avoided after intubation?",
+    "o": [
+      "To speed emergence",
+      "To allow facial nerve monitoring",
+      "To reduce bleeding",
+      "To reduce PONV",
+      "For cost"
+    ],
+    "a": 1,
+    "why": "Discuss with the surgeon."
+  },
+  {
+    "q": "Which nerve is at risk?",
+    "o": [
+      "Trigeminal",
+      "Facial",
+      "Vagus",
+      "Hypoglossal",
+      "Optic"
+    ],
+    "a": 1,
+    "why": "Facial nerve injury is a key complication."
+  },
+  {
+    "q": "Why is controlled hypotension requested?",
+    "o": [
+      "To reduce PONV",
+      "To improve the microscopic surgical field",
+      "To prevent awareness",
+      "To help monitoring",
+      "Never used"
+    ],
+    "a": 1,
+    "why": "Bleeding obscures the field."
+  },
+  {
+    "q": "Which intracranial complication can untreated cholesteatoma cause?",
+    "o": [
+      "Subarachnoid haemorrhage",
+      "Meningitis, brain abscess or sigmoid sinus thrombosis",
+      "Pituitary apoplexy",
+      "Stroke only",
+      "Hydrocephalus"
+    ],
+    "a": 1,
+    "why": "By intracranial spread."
+  },
+  {
+    "q": "Which delayed complication is surgical?",
+    "o": [
+      "PONV",
+      "Hearing loss or vertigo",
+      "Laryngospasm",
+      "Awareness",
+      "Hypothermia"
+    ],
+    "a": 1,
+    "why": "Also recurrence."
+  },
+  {
+    "q": "Which anaesthetic technique reduces PONV?",
+    "o": [
+      "Volatile with N2O",
+      "TIVA with antiemetics",
+      "Spinal",
+      "Opioid infusion",
+      "Ketamine"
+    ],
+    "a": 1,
+    "why": "Middle ear surgery is high risk for PONV."
+  },
+  {
+    "q": "Erosion of the ossicles causes:",
+    "o": [
+      "Sensorineural loss",
+      "Conductive hearing loss",
+      "Tinnitus only",
+      "Facial palsy",
+      "Vertigo only"
+    ],
+    "a": 1,
+    "why": "Labyrinth erosion causes SNHL and vertigo."
+  },
+  {
+    "q": "Which surgical procedure is used?",
+    "o": [
+      "Myringotomy",
+      "Mastoidectomy",
+      "Tonsillectomy",
+      "Septoplasty",
+      "Cochlear implant"
+    ],
+    "a": 1,
+    "why": "Surgical excision via mastoidectomy."
+  }
+]

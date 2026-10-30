@@ -1,0 +1,122 @@
+[
+  {
+    "q": "A post-thyroidectomy patient develops stridor and a tense neck swelling. What is first?",
+    "o": [
+      "CT scan",
+      "Open the wound at the bedside to evacuate the haematoma",
+      "Nebulised adrenaline",
+      "Steroids",
+      "Wait for surgeon"
+    ],
+    "a": 1,
+    "why": "Keep suture cutters or staple remover at the bedside."
+  },
+  {
+    "q": "Bilateral recurrent laryngeal nerve injury causes:",
+    "o": [
+      "Hoarse voice only",
+      "Stridor or airway obstruction",
+      "Dysphagia only",
+      "Loss of taste",
+      "Nothing"
+    ],
+    "a": 1,
+    "why": "Unilateral causes a hoarse voice."
+  },
+  {
+    "q": "Which delayed complication results from parathyroid injury?",
+    "o": [
+      "Hypercalcaemia",
+      "Hypocalcaemia",
+      "Hypothyroidism immediately",
+      "Hyperkalaemia",
+      "Hypoglycaemia"
+    ],
+    "a": 1,
+    "why": "Check calcium post-op."
+  },
+  {
+    "q": "In thyroid storm, why is iodine given only after anti-thyroid drugs?",
+    "o": [
+      "It is toxic",
+      "Otherwise it provides substrate for more hormone synthesis",
+      "It causes hypotension",
+      "Drug interaction",
+      "It is slow"
+    ],
+    "a": 1,
+    "why": "Iodine blocks release (Wolff–Chaikoff effect)."
+  },
+  {
+    "q": "Which beta-blocker also blocks peripheral T4 to T3 conversion?",
+    "o": [
+      "Atenolol",
+      "Propranolol",
+      "Esmolol",
+      "Labetalol",
+      "Bisoprolol"
+    ],
+    "a": 1,
+    "why": "Hydrocortisone also blocks conversion."
+  },
+  {
+    "q": "What causes Graves’ disease?",
+    "o": [
+      "TPO antibodies destroying the gland",
+      "TSH-receptor stimulating antibodies",
+      "Iodine deficiency",
+      "Pituitary tumour",
+      "Thyroiditis"
+    ],
+    "a": 1,
+    "why": "Diffuse goitre, exophthalmos and pretibial myxoedema."
+  },
+  {
+    "q": "Which pre-op investigation assesses airway compression from a goitre?",
+    "o": [
+      "Thyroid function",
+      "CT imaging of the neck and thorax",
+      "ECG",
+      "ABG",
+      "Spirometry only"
+    ],
+    "a": 1,
+    "why": "Also check vocal cords."
+  },
+  {
+    "q": "Which ETT may be used for nerve monitoring?",
+    "o": [
+      "Double lumen",
+      "Nerve monitoring (EMG) tube",
+      "MLT",
+      "Uncuffed",
+      "LMA"
+    ],
+    "a": 1,
+    "why": "Reinforced ETT otherwise."
+  },
+  {
+    "q": "Which enzyme organifies iodine?",
+    "o": [
+      "Deiodinase",
+      "Thyroid peroxidase",
+      "Carbonic anhydrase",
+      "Tyrosinase",
+      "Kinase"
+    ],
+    "a": 1,
+    "why": "Forms MIT and DIT."
+  },
+  {
+    "q": "Which feature is typical of thyroid storm?",
+    "o": [
+      "Hypothermia",
+      "Fever, tachycardia and agitation",
+      "Bradycardia",
+      "Hypoglycaemia",
+      "Constipation"
+    ],
+    "a": 1,
+    "why": "Also high-output cardiac failure."
+  }
+]
