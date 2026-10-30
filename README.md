@@ -1,6 +1,6 @@
-# Pathway
+# Anaesthetic Ally
 
-Pathway is a UK anaesthetics training app that takes a doctor from FY1 to their first years as a consultant, one stop at a time. This repository holds its content and code, split so the team can each own a section.
+Anaesthetic Ally is a UK anaesthetics training app that takes a doctor from FY1 to their first years as a consultant, one stop at a time. This repository holds its content and code, split so the team can each own a section.
 
 - **Team brief:** what the app is and who owns what (shared separately).
 - **[WORKSTREAMS.md](WORKSTREAMS.md):** which folders belong to which workstream.

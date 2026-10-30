@@ -1,4 +1,4 @@
-"""One-off: split the single-file Pathway app into app/page.html + content/.
+"""One-off: split the single-file Anaesthetic Ally app into app/page.html + content/.
 Usage: python3 tools/split.py path/to/live-index.html
 Kept in the repo for reference; day-to-day work edits content/ and app/ directly."""
 import json, re, sys, os, shutil
