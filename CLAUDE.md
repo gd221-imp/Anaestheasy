@@ -1,6 +1,6 @@
-# Pathway: instructions for Claude
+# Anaesthetic Ally: instructions for Claude
 
-Pathway is a UK anaesthetics training app (FY1 to new consultant). This repository is the **master copy**. The live app is a claude.ai artifact: https://claude.ai/artifact/Snz4DcZk9eWfBrthiPcjEk
+Anaesthetic Ally is a UK anaesthetics training app (FY1 to new consultant). This repository is the **master copy**. The live app is a claude.ai artifact: https://claude.ai/artifact/Snz4DcZk9eWfBrthiPcjEk
 
 ## Rules for any change
 

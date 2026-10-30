@@ -1,4 +1,4 @@
-# Contributing to Pathway
+# Contributing to Anaesthetic Ally
 
 ## The rules in one line
 
@@ -97,4 +97,4 @@ These are written as code, not JSON. Edit the words inside the backticks (`` `â€
 - **Our own notes come first.** New content fills agreed gaps only.
 - **Local practice** can follow the national position, labelled "Local practice here".
 - **Nothing is lost.** Correct wrong facts, but reword rather than delete useful content.
-- **Education only.** Pathway supports learning, not clinical decision-making.
+- **Education only.** Anaesthetic Ally supports learning, not clinical decision-making.
