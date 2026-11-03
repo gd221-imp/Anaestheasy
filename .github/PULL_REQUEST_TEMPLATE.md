@@ -16,3 +16,4 @@
 - [ ] Books summarised in our own words, not copied; inline references kept
 - [ ] Nothing useful deleted (reworded instead)
 - [ ] I opened the preview from the check run and the stop looks right
+- [ ] This is my own work (or credited and summarised), and I agree to the copyright terms in CONTRIBUTING.md

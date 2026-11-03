@@ -4,6 +4,18 @@
 
 Edit only your own section, send every change as a pull request, and David approves it before it goes into the app.
 
+## Copyright and your contributions
+
+Anaesthetic Ally and everything in this repository is © 2026 Dr David Griffiths, all rights reserved (see [LICENSE](LICENSE)). Do not copy content out of the repository or share it outside the team.
+
+By opening a pull request you confirm that:
+
+- the work is your own, or is credited to its source and summarised in your own words rather than copied;
+- you assign the copyright in your contribution to Dr David Griffiths, so he can publish, change and distribute the app (including on the App Store); and
+- you will be credited as a contributor in the app.
+
+If you do not agree, do not open a pull request; talk to David first.
+
 ## Making a change in the browser (no software needed)
 
 1. Find the file. Use [WORKSTREAMS.md](WORKSTREAMS.md) for your folders, or press `t` on the repository page and type part of the stop's name.
