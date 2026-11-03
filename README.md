@@ -2,6 +2,8 @@
 
 Anaesthetic Ally is a UK anaesthetics training app that takes a doctor from FY1 to their first years as a consultant, one stop at a time. This repository holds its content and code, split so the team can each own a section.
 
+**© 2026 Dr David Griffiths BMBS MMedSc FRCA. All rights reserved.** Nothing here may be copied, reused or redistributed without written permission. See [LICENSE](LICENSE).
+
 - **Team brief:** what the app is and who owns what (shared separately).
 - **[WORKSTREAMS.md](WORKSTREAMS.md):** which folders belong to which workstream.
 - **[CONTRIBUTING.md](CONTRIBUTING.md):** how to make a change, and the house rules.
