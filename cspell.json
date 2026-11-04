@@ -1,0 +1,38 @@
+{
+  "$schema": "https://raw.githubusercontent.com/streetsidesoftware/cspell/main/cspell.schema.json",
+  "version": "0.2",
+  "language": "en-GB",
+  "import": [
+    "@cspell/dict-en-gb/cspell-ext.json",
+    "@cspell/dict-scientific-terms-gb/cspell-ext.json",
+    "@cspell/dict-html/cspell-ext.json",
+    "./.cspell/drug-brand-replacements.json"
+  ],
+  "dictionaries": [
+    "en-gb",
+    "scientific-terms-gb",
+    "html",
+    "uk-anaesthesia"
+  ],
+  "dictionaryDefinitions": [
+    {
+      "name": "uk-anaesthesia",
+      "path": "./.cspell/uk-anaesthesia.txt",
+      "description": "UK Anaesthetic, Critical Care, Pain, and NHS clinical terms"
+    }
+  ],
+  "ignorePaths": [
+    ".git/**",
+    ".githooks/**",
+    ".github/CODEOWNERS",
+    "node_modules/**",
+    "dist/**",
+    "package-lock.json",
+    "**/*.min.js",
+    "**/*.min.css"
+  ],
+  "words": [
+    "Anaestheasy",
+    "Griffiths"
+  ]
+}
