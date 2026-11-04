@@ -48,7 +48,7 @@
     "why": "Corrected on ICU after abbreviated surgery."
   },
   {
-    "q": "Why is the patient prepped and draped before induction?",
+    "q": "Why is the patient prepared and draped before induction?",
     "o": [
       "Infection control",
       "Induction may cause cardiovascular collapse, so surgery can start immediately",

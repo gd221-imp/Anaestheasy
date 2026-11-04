@@ -5,11 +5,14 @@
   "import": [
     "https://cdn.jsdelivr.net/npm/@cspell/dict-en-gb-ise@latest/cspell-ext.json",
     "https://cdn.jsdelivr.net/npm/@cspell/dict-scientific-terms-gb@latest/cspell-ext.json",
-    "./.cspell/drug-brand-replacements.json"
+    "https://cdn.jsdelivr.net/npm/@cspell/dict-medicalterms@latest/cspell-ext.json",
+    "./.cspell/drug-brand-replacements.json",
+    "./.cspell/americanisms.json"
   ],
   "dictionaries": [
     "en-gb",
     "scientific-terms-gb",
+    "medical terms",
     "uk-anaesthesia"
   ],
   "dictionaryDefinitions": [
@@ -58,6 +61,7 @@
   "ignoreRegExpList": [
     "/<[a-zA-Z]+>[a-zA-Z]<\\/[a-zA-Z]+>[a-zA-Z]+/g",
     "/<[^>]+>/g",
-    "/&[a-zA-Z0-9#]+;/g"
+    "/&[a-zA-Z0-9#]+;/g",
+    "/[dD]esmopressin\\s*\\(DDAVP\\)/g"
   ]
 }
