@@ -6,8 +6,8 @@
     "https://cdn.jsdelivr.net/npm/@cspell/dict-en-gb-ise@latest/cspell-ext.json",
     "https://cdn.jsdelivr.net/npm/@cspell/dict-scientific-terms-gb@latest/cspell-ext.json",
     "https://cdn.jsdelivr.net/npm/@cspell/dict-medicalterms@latest/cspell-ext.json",
-    "./.cspell/drug-brand-replacements.json",
-    "./.cspell/americanisms.json"
+    "./.github/cspell/drug-brand-replacements.json",
+    "./.github/cspell/americanisms.json"
   ],
   "dictionaries": [
     "en-gb",
@@ -18,7 +18,7 @@
   "dictionaryDefinitions": [
     {
       "name": "uk-anaesthesia",
-      "path": "./.cspell/uk-anaesthesia.txt",
+      "path": "./.github/cspell/uk-anaesthesia.txt",
       "description": "UK Anaesthetic, Critical Care, Pain, and NHS clinical terms"
     }
   ],
@@ -26,7 +26,6 @@
     ".git/**",
     ".github/**",
     ".githooks/**",
-    ".cspell/**",
     ".pytest_cache/**",
     "**/__pycache__/**",
     ".gitignore",
@@ -51,12 +50,14 @@
   "words": [
     "Anaestheasy",
     "Griffiths",
-    "curric",
     "teamworking",
     "wellbeing",
     "specialties",
     "medicolegal",
-    "WORKSTREAMS"
+    "WORKSTREAMS",
+    "workstream",
+    "CODEOWNERS",
+    "standalone"
   ],
   "ignoreRegExpList": [
     "/<[a-zA-Z]+>[a-zA-Z]<\\/[a-zA-Z]+>[a-zA-Z]+/g",
