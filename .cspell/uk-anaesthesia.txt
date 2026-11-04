@@ -9,6 +9,7 @@
 acetylsalicylate
 alfentanil
 Ametop
+azoles
 bepridil
 Beriplex
 bivacaine
@@ -87,9 +88,12 @@ Fastrach
 FIBTEM
 frova
 Glidescope
+Guedel
 HEPTEM
 INTEM
 lidco
+Macintosh
+Magill
 LMA
 Manujet
 MCF
@@ -105,6 +109,7 @@ Sprotte
 STIM
 TEG
 TOF
+Tuohy
 videolaryngoscope
 videolaryngoscopes
 
@@ -128,6 +133,7 @@ CQC
 CT1
 CT2
 CT3
+DNACPR
 DOPS
 EDAIC
 EPALS
@@ -148,6 +154,7 @@ NAP4
 NAP5
 NAP6
 NAP7
+NELA
 NCEPOD
 OAA
 PQIP
@@ -171,6 +178,7 @@ angio-oedema
 apudoma
 endovascular
 HIPEC
+Lloyd-Davies
 normothermia
 normovolaemia
 PCNL
@@ -178,6 +186,7 @@ TEVAR
 thoracoscopic
 thromboelastometry
 tracheostomy
+Trendelenburg
 TURP
 videolaryngoscopy
 
@@ -185,11 +194,18 @@ videolaryngoscopy
 # Misc
 # ==============================================================================
 ACS
+Aldrete
 APACHE
 APRV
+BINDS
+Bromage
+BUFALO
+Caprini
 CBF
 CICO
 CMRO2
+COLDS
+Cormack
 CPAP
 CPP
 CVP
@@ -201,6 +217,10 @@ HFNO
 ICP
 IOP
 Kataria
+LAST
+Lehane
+Mallampati
+Marsh
 NEWS2
 NYHA
 PaCO2
@@ -215,13 +235,17 @@ PPV
 PVR
 RASS
 RCRI
+Reye's
 Schnider
 ScvO2
+Sellick's
 SIMV
 SvO2
 SVR
 SVT
 SVV
+tachyarrhythmia
+tachyarrhythmias
 TCI
 TIVA
 TTE
