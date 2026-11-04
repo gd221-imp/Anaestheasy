@@ -30,9 +30,11 @@ jobs:
         uses: streetsidesoftware/cspell-action@v6
         with:
           config: cspell.json
-          incremental_files_only: true
+          incremental_files_only: false
           strict: true
           inline: warning
+          suggestions: true
+          treat_flagged_words_as_errors: true
       - name: Build the app
         run: python3 tools/build.py
       - name: Save the built app (download from this run to preview)
