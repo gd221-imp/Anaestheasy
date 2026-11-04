@@ -26,6 +26,10 @@ jobs:
           python-version: '3.12'
       - name: Check content and house rules
         run: python3 tools/check.py
+<<<<<<< HEAD
+      - name: UK Medical spell check (PR only)
+        if: github.event_name == 'pull_request'
+=======
 
   spell-check:
     name: UK Medical spell check (PR only)
@@ -34,12 +38,15 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Run UK Medical & British English spell check
+>>>>>>> 534fb60bb5d6d9dc52206f1359aec6bca91e155f
         uses: streetsidesoftware/cspell-action@v6
         with:
           config: cspell.json
           incremental_files_only: true
           strict: true
           inline: warning
+<<<<<<< HEAD
+=======
 
   build-preview:
     name: Build application and artifact
@@ -50,6 +57,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+>>>>>>> 534fb60bb5d6d9dc52206f1359aec6bca91e155f
       - name: Build the app
         run: python3 tools/build.py
       - name: Save the built app (download from this run to preview)
