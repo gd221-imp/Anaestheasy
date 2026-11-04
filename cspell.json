@@ -4,11 +4,7 @@
   "language": "en-GB",
   "import": [
     "@cspell/dict-en-gb/cspell-ext.json",
-<<<<<<< HEAD
     "https://cdn.jsdelivr.net/npm/@cspell/dict-scientific-terms-gb@latest/cspell-ext.json",
-=======
-    "@cspell/dict-scientific-terms-gb/cspell-ext.json",
->>>>>>> 534fb60bb5d6d9dc52206f1359aec6bca91e155f
     "@cspell/dict-html/cspell-ext.json",
     "./.cspell/drug-brand-replacements.json"
   ],
@@ -28,10 +24,7 @@
   "ignorePaths": [
     ".git/**",
     ".githooks/**",
-<<<<<<< HEAD
     ".cspell/**",
-=======
->>>>>>> 534fb60bb5d6d9dc52206f1359aec6bca91e155f
     ".github/CODEOWNERS",
     "node_modules/**",
     "dist/**",

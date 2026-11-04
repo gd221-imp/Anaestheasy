@@ -16,8 +16,7 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  check-content:
-    name: Content and house rules
+  check:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -26,38 +25,14 @@ jobs:
           python-version: '3.12'
       - name: Check content and house rules
         run: python3 tools/check.py
-<<<<<<< HEAD
       - name: UK Medical spell check (PR only)
         if: github.event_name == 'pull_request'
-=======
-
-  spell-check:
-    name: UK Medical spell check (PR only)
-    if: github.event_name == 'pull_request'
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - name: Run UK Medical & British English spell check
->>>>>>> 534fb60bb5d6d9dc52206f1359aec6bca91e155f
         uses: streetsidesoftware/cspell-action@v6
         with:
           config: cspell.json
           incremental_files_only: true
           strict: true
           inline: warning
-<<<<<<< HEAD
-=======
-
-  build-preview:
-    name: Build application and artifact
-    needs: check-content
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with:
-          python-version: '3.12'
->>>>>>> 534fb60bb5d6d9dc52206f1359aec6bca91e155f
       - name: Build the app
         run: python3 tools/build.py
       - name: Save the built app (download from this run to preview)
@@ -70,28 +45,6 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: dist
-
-  check:
-    name: Check (Overall status)
-    if: always()
-    needs: [check-content, spell-check, build-preview]
-    runs-on: ubuntu-latest
-    steps:
-      - name: Verify all required checks passed
-        run: |
-          if [ "${{ needs.check-content.result }}" != "success" ]; then
-            echo "Error: check-content failed" >&2
-            exit 1
-          fi
-          if [ "${{ needs.build-preview.result }}" != "success" ]; then
-            echo "Error: build-preview failed" >&2
-            exit 1
-          fi
-          if [ "${{ github.event_name }}" = "pull_request" ] && [ "${{ needs.spell-check.result }}" != "success" ]; then
-            echo "Error: spell-check failed on pull request" >&2
-            exit 1
-          fi
-          echo "All required checks passed successfully."
 
   deploy-preview:
     if: github.event_name == 'push' && github.ref == 'refs/heads/main'
