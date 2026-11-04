@@ -35,6 +35,7 @@
     "dist/**",
     "node_modules/**",
     "tools/**",
+    "content/data/DRUGS.json",
     "**/*.min.js",
     "**/*.min.css",
     "**/*.svg",

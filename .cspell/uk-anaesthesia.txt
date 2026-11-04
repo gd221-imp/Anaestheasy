@@ -9,6 +9,7 @@
 acetylsalicylate
 alfentanil
 bepridil
+Beriplex
 bivacaine
 buprenorphine
 carboprost
@@ -23,6 +24,8 @@ crystapen
 DOAC
 doxapram
 droperidol
+EMLA
+Entonox
 flecainide
 flumazenil
 glycopyrrolate
@@ -35,6 +38,7 @@ idarucizumab
 indometacin
 inodilator
 inogatran
+Intralipid
 labetalol
 LMWH
 metaraminol
@@ -45,6 +49,7 @@ naropin
 NMB
 NMDA
 NSAID
+Octaplex
 pabrinex
 PCC
 prasugrel
