@@ -1,22 +1,24 @@
-name: Check and build
+name: Check, build and deploy
 
 on:
   pull_request:
+    types: [opened, reopened, synchronize, closed]
   push:
     branches: [main]
   workflow_dispatch:
 
 permissions:
-  contents: read
-  pages: write
-  id-token: write
+  contents: write
+  pull-requests: write
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
-  cancel-in-progress: true
+  cancel-in-progress: ${{ github.ref != 'refs/heads/main' }}
 
 jobs:
   check:
+    name: Check and build
+    if: github.event_name != 'pull_request' || github.event.action != 'closed'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -32,22 +34,56 @@ jobs:
         with:
           name: pathway-preview
           path: dist/index.html
-      - name: Prepare preview site
-        if: (github.event_name == 'push' || github.event_name == 'workflow_dispatch') && github.ref == 'refs/heads/main'
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: dist
 
-  deploy-preview:
+  deploy-pr-preview:
+    name: Deploy PR Preview
+    needs: [check]
+    if: |
+      always() &&
+      github.event_name == 'pull_request' &&
+      (github.event.pull_request.head.repo.full_name == github.repository) &&
+      (github.event.action == 'closed' || needs.check.result == 'success')
+    runs-on: ubuntu-latest
+    concurrency:
+      group: pr-preview-${{ github.event.number }}
+      cancel-in-progress: false
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        if: github.event.action != 'closed'
+        with:
+          python-version: '3.12'
+      - name: Build the app
+        if: github.event.action != 'closed'
+        run: python3 tools/build.py
+      - name: Deploy PR Preview to gh-pages/pr-preview/
+        uses: rossjrw/pr-preview-action@v1
+        with:
+          source-dir: dist
+          preview-branch: gh-pages
+          umbrella-dir: pr-preview
+          action: auto
+
+  deploy-production:
+    name: Deploy production to GitHub Pages
     if: (github.event_name == 'push' || github.event_name == 'workflow_dispatch') && github.ref == 'refs/heads/main'
     needs: check
     runs-on: ubuntu-latest
     concurrency:
-      group: pages
+      group: deploy-gh-pages-main
       cancel-in-progress: false
-    environment:
-      name: github-pages
-      url: ${{ steps.deploy.outputs.page_url }}
     steps:
-      - id: deploy
-        uses: actions/deploy-pages@v4
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Build the app
+        run: python3 tools/build.py
+      - name: Deploy to gh-pages root
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: dist
+          branch: gh-pages
+          clean: true
+          clean-exclude: pr-preview/
+          force: false
