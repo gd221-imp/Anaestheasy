@@ -17,6 +17,7 @@ concurrency:
 
 jobs:
   check:
+    name: Check and build
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -25,16 +26,6 @@ jobs:
           python-version: '3.12'
       - name: Check content and house rules
         run: python3 tools/check.py
-      - name: UK Medical spell check (PR only)
-        if: github.event_name == 'pull_request'
-        uses: streetsidesoftware/cspell-action@v6
-        with:
-          config: cspell.json
-          incremental_files_only: false
-          strict: true
-          inline: warning
-          suggestions: true
-          treat_flagged_words_as_errors: true
       - name: Build the app
         run: python3 tools/build.py
       - name: Save the built app (download from this run to preview)
@@ -47,6 +38,22 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: dist
+
+  spell-check:
+    name: UK Medical spell check
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run UK Medical & British English spell check
+        uses: streetsidesoftware/cspell-action@v6
+        with:
+          config: cspell.json
+          incremental_files_only: false
+          strict: true
+          inline: warning
+          suggestions: true
+          treat_flagged_words_as_errors: true
 
   deploy-preview:
     if: github.event_name == 'push' && github.ref == 'refs/heads/main'
