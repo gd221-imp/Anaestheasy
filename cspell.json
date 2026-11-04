@@ -33,6 +33,7 @@
     "package.json",
     "package-lock.json",
     "dist/**",
+    "app/**",
     "node_modules/**",
     "tools/**",
     "**/*.min.js",
@@ -48,5 +49,9 @@
   "words": [
     "Anaestheasy",
     "Griffiths"
+  ],
+  "ignoreRegExpList": [
+    "/<[^>]+>/g",
+    "/&[a-zA-Z0-9#]+;/g"
   ]
 }
