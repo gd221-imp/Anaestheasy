@@ -25,9 +25,12 @@ Anaesthetic Ally is a UK anaesthetics training app that takes a doctor from FY1 
 ## Build and preview
 
 ```bash
-python3 tools/check.py   # checks content and house rules, then builds
-python3 tools/build.py   # writes dist/index.html, the whole app in one page
+python3 tools/check.py      # checks content, house rules and JavaScript syntax, then builds
+python3 tools/build.py      # writes dist/index.html, the whole app in one page
+node tools/smoke_test.js    # opens every stop, tab, note and topic in headless Chrome
 ```
+
+The smoke test needs Node 22+ and Google Chrome (set `CHROME_PATH` if Chrome isn't found), and no npm packages. It fails if anything throws an error or shows broken text such as `undefined`, `NaN` or a stray `}`. All three run automatically on every pull request.
 
 Open `dist/index.html` in a browser to see the app. No installs are needed beyond Python 3.
 

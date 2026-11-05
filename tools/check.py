@@ -81,6 +81,49 @@ try:
 except SystemExit as e: err('build', str(e))
 except Exception as e: err('build', f'{type(e).__name__}: {e}')
 
+# 6. JavaScript is valid (a syntax error anywhere means a blank app)
+import shutil, subprocess, tempfile
+MARKER = re.compile(r'^/\*@@([A-Z_0-9]+)@@\*/$', re.M)
+
+def js_syntax(code, label, offset=0):
+    """Run node --check on code; report label:line for the first syntax error."""
+    with tempfile.NamedTemporaryFile('w', suffix='.js', delete=False, encoding='utf-8') as f:
+        f.write(code); tmp = f.name
+    try:
+        r = subprocess.run(['node', '--check', tmp], capture_output=True, text=True, timeout=60)
+    finally:
+        Path(tmp).unlink(missing_ok=True)
+    if r.returncode == 0: return
+    out = r.stderr
+    m = re.search(re.escape(tmp) + r':(\d+)', out)
+    line = int(m.group(1)) - offset if m else '?'
+    msg = next((l.strip() for l in out.splitlines() if re.match(r'\s*\w*Error:', l)), out.strip().splitlines()[-1] if out.strip() else 'syntax error')
+    err(f'{label}:{line}', f'JavaScript {msg}')
+
+def script_only(text):
+    """Keep only what sits inside <script> tags, blanking everything else, so line numbers still match the file."""
+    keep, inside = [], False
+    for l in text.split('\n'):
+        if not inside and '<script' in l:
+            inside = True; keep.append(l.split('>', 1)[1] if '>' in l else ''); continue
+        if inside and '</script>' in l:
+            inside = False; keep.append(l.split('</script>', 1)[0]); continue
+        keep.append(l if inside else '')
+    return '\n'.join(keep)
+
+if not shutil.which('node'):
+    warn('javascript', 'Node.js is not installed, so JavaScript syntax was not checked (it is checked on GitHub)')
+else:
+    for f in json.loads((C / 'path' / 'stages' / '_order.json').read_text(encoding='utf-8')):
+        js_syntax('void [\n' + (C / 'path' / 'stages' / f).read_text(encoding='utf-8') + '\n];', f'content/path/stages/{f}', offset=1)
+    page = (ROOT / 'app' / 'page.html').read_text(encoding='utf-8')
+    js_syntax(MARKER.sub(lambda m: f'const {m.group(1)}=null;', script_only(page)), 'app/page.html')
+    dist = ROOT / 'dist' / 'index.html'
+    if dist.exists() and not errors:
+        built = dist.read_text(encoding='utf-8')
+        for m in MARKER.finditer(built): err('dist/index.html', f'build marker {m.group(0)} was not filled in')
+        js_syntax(script_only(built), 'dist/index.html (built page; check content/ files)')
+
 gh = bool(__import__('os').environ.get('GITHUB_ACTIONS'))
 for w in warnings: print(f'::warning::{w}' if gh else f'WARNING {w}')
 for e in errors: print(f'::error::{e}' if gh else f'ERROR   {e}')
