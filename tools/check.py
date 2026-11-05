@@ -134,6 +134,8 @@ for p, st in stops.items():
             if c['noteRef'] not in linkable: err(rel, f'linked note "{c["noteRef"]}" does not exist (check the exact title)')
         if 'primaryRef' in c and c['primaryRef'] not in primary_ids:
             err(rel, f'linked Primary topic "{c["primaryRef"]}" does not exist')
+        if 'shared' in c and not (C / 'data' / f"{c['shared']}.json").exists():
+            err(rel, f'shared card "{c["shared"]}" does not exist (expected content/data/{c["shared"]}.json)')
         b = c.get('b')
         if isinstance(b, str) and b.startswith('file:') and not (p.parent / b[5:]).exists():
             err(rel, f'card file {b[5:]} is missing')

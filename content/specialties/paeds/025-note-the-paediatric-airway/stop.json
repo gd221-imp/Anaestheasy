@@ -43,6 +43,19 @@
     {
       "h": "Further reading",
       "b": "file:cards/10-further-reading.html"
+    },
+    {
+      "h": "Revise from your notes",
+      "links": [
+        "ana5",
+        "ana6",
+        "ana15",
+        "stop:Awake Fibreoptic Intubation, Stridor, Epiglottitis & Croup",
+        "stop:Rigid Bronchoscopy for Inhaled Foreign Body",
+        "stop:Obstructive Sleep Apnoea & Obesity Hypoventilation Syndrome",
+        "stop:Tonsillectomy & Adenotonsillectomy"
+      ],
+      "extra": true
     }
   ],
   "q": "file:quiz.json",

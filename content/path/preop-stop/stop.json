@@ -19,6 +19,9 @@
       "b": "file:cards/04-investigations.html"
     },
     {
+      "shared": "NG45_CARD"
+    },
+    {
       "h": "Medicines",
       "b": "file:cards/05-medicines.html"
     },

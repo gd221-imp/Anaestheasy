@@ -61,7 +61,7 @@
     ],
     "a": 2,
     "why": "The 2022 consensus statement on intraoperative pain during caesarean section recommends testing and documenting both the upper level of cold sensation (to T4) and light touch (to T5), bilaterally, plus a lower level including sacral dermatomes and motor block, before starting. Pain during surgery must be acknowledged and treated, with conversion to GA offered when necessary.",
-    "st": "core-15"
+    "st": "st2-87"
   },
   {
     "id": "Q077",
@@ -77,7 +77,7 @@
     ],
     "a": 1,
     "why": "Pain during CS is a leading cause of obstetric anaesthetic litigation. Acknowledge it, pause surgery, document, and offer stepwise options (inhaled nitrous oxide, IV opioid such as fentanyl or alfentanil, local infiltration, epidural top-up if a CSE), and offer GA if pain persists. Do not sedate in place of analgesia. Follow up afterwards and offer debrief.",
-    "st": "core-15"
+    "st": "st2-87"
   },
   {
     "id": "Q078",
@@ -93,7 +93,7 @@
     ],
     "a": 4,
     "why": "Remifentanil PCA can cause apnoea and desaturation. Requirements include one-to-one midwifery care, continuous pulse oximetry and respiratory rate monitoring, supplementary oxygen available, a dedicated IV line with an anti-reflux valve, no recent systemic opioids, and an anaesthetist readily available. Typical regimens use boluses of about 20–40 micrograms with a 2-minute lockout and no background infusion.",
-    "st": "core-12"
+    "st": "st2-83"
   },
   {
     "id": "Q079",
@@ -109,7 +109,7 @@
     ],
     "a": 2,
     "why": "Epidural blood patch (about 20 mL of autologous blood, stopping if back or leg pain develops) relieves symptoms in most women, though about a third may need a second patch. Bed rest and aggressive fluids are not supported. Caffeine has weak evidence. Red flags for other causes: focal neurology, seizures, non-postural headache, fever (consider cortical vein thrombosis, subdural haematoma, pre-eclampsia, meningitis).",
-    "st": "core-13"
+    "st": "st2-83"
   },
   {
     "id": "Q080",
@@ -125,7 +125,7 @@
     ],
     "a": 1,
     "why": "The puerperium is prothrombotic; cerebral venous thrombosis presents with headache, seizures and focal deficits. A PDPH that changes character (loss of postural component) may also indicate a subdural haematoma from CSF hypotension. Both need urgent imaging (MR venography or CT venogram).",
-    "st": "core-13"
+    "st": "st2-83"
   },
   {
     "id": "Q081",
@@ -141,7 +141,7 @@
     ],
     "a": 4,
     "why": "Meralgia paraesthetica (lateral cutaneous nerve of the thigh, L2–3) is the commonest postpartum nerve injury, due to compression under the inguinal ligament; it is purely sensory. Obstetric causes of nerve palsy (fetal head compression of the lumbosacral trunk, lithotomy, prolonged pushing) are far more common than neuraxial causes. Motor deficits, bilateral signs or back pain with fever need urgent MRI to exclude haematoma or abscess.",
-    "st": "core-13"
+    "st": "st2-83"
   },
   {
     "id": "Q082",
@@ -381,7 +381,7 @@
     ],
     "a": 4,
     "why": "Under NICE (2017/2022) features are reassuring, non-reassuring or abnormal. Reduced variability (&lt; 5 bpm) for over 50 minutes is abnormal, and late decelerations with over 50% of contractions for 30 minutes are abnormal (non-reassuring if less). One abnormal or two non-reassuring features make the CTG pathological. A prolonged bradycardia (&lt; 100 bpm for &gt; 3 minutes) needs urgent intervention.",
-    "st": "core-14"
+    "st": "st2-83"
   },
   {
     "id": "Q097",
@@ -413,7 +413,7 @@
     ],
     "a": 1,
     "why": "First-stage pain comes from cervical dilatation and uterine contraction, carried by visceral C fibres with the sympathetic chain to T10–L1. Second-stage pain adds somatic pain from the vagina and perineum via the pudendal nerve (S2–S4). An epidural must therefore cover T10–S4 for the whole of labour.",
-    "st": "core-12"
+    "st": "st2-83"
   },
   {
     "id": "Q099",

@@ -20,6 +20,8 @@ def dump(o): return json.dumps(o, ensure_ascii=False).replace('</', '<\\/')
 
 def read_stop(folder):
     st = rj(folder / 'stop.json')
+    # {"shared": "NAME"} stands for the card in content/data/NAME.json, so one card can appear on several stops
+    st['cards'] = [rj(C / 'data' / f"{c['shared']}.json") if isinstance(c, dict) and 'shared' in c else c for c in st.get('cards', [])]
     for c in st.get('cards', []):
         if isinstance(c, dict) and isinstance(c.get('b'), str) and c['b'].startswith('file:'):
             c['b'] = html(folder / c['b'][5:])
