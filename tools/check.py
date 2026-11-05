@@ -277,7 +277,7 @@ else:
         js_syntax('void [\n' + (C / 'path' / 'stages' / f).read_text(encoding='utf-8') + '\n];', f'content/path/stages/{f}', offset=1)
     # each script file on its own (exact file and line), then all of them joined (catches clashes between files)
     sys.path.insert(0, str(ROOT / 'tools')); import build as _build
-    fill = lambda code: MARKER.sub(lambda m: f'const {m.group(1)}=null;', code)
+    fill = lambda code: _build.TEXT.sub('""', MARKER.sub(lambda m: f'const {m.group(1)}=null;', code))
     joined, origin = [], []
     for m in _build.INCLUDE.finditer((ROOT / 'app' / 'page.html').read_text(encoding='utf-8')):
         f = ROOT / 'app' / m.group(1)

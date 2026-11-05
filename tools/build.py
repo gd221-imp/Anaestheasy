@@ -80,8 +80,12 @@ def assemble_page():
     page = (ROOT / 'app' / 'page.html').read_text(encoding='utf-8')
     return INCLUDE.sub(lambda m: rt(ROOT / 'app' / m.group(1)), page)
 
+TEXT = re.compile(r'"/\*@@text ([\w./-]+)@@\*/"')
+
 def build():
     page = assemble_page()
+    # "/*@@text FILE@@*/" becomes app/FILE as a JavaScript string (used for the tax tracker's own stylesheet and markup)
+    page = TEXT.sub(lambda m: json.dumps((ROOT / 'app' / m.group(1)).read_text(encoding='utf-8'), ensure_ascii=False).replace('</', '<\\/'), page)
     out = re.sub(r'^/\*@@([A-Z_0-9]+)@@\*/$', lambda m: build_const(m.group(1)), page, flags=re.M)
     (ROOT / 'dist').mkdir(exist_ok=True)
     (ROOT / 'dist' / 'index.html').write_text(out, encoding='utf-8')
