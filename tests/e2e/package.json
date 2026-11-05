@@ -1,0 +1,12 @@
+{
+  "name": "anaesthetic-ally-e2e",
+  "private": true,
+  "description": "Browser tests for Anaesthetic Ally on an iPhone-sized screen (WebKit on GitHub; Chrome locally)",
+  "scripts": {
+    "test": "playwright test",
+    "test:chrome": "playwright test --project=iphone-chrome"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.56.0"
+  }
+}
