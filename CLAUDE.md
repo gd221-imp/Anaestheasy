@@ -4,7 +4,7 @@ Anaesthetic Ally is a UK anaesthetics training app (FY1 to new consultant). This
 
 ## Rules for any change
 
-- Edit files in `content/` (and `app/page.html` for code), never the built `dist/index.html` and never the live artifact directly.
+- Edit files in `content/` (and `app/` for code: `page.html` is the page shell, `styles.css` the styles, `js/*.js` the app's script in order), never the built `dist/index.html` and never the live artifact directly.
 - Follow the house rules in CONTRIBUTING.md: UK practice first; "Follow local guidelines" with any antibiotic recommendation in a recipe (notes may name antibiotics freely); intrathecal opioid is always diamorphine; cannulas 20G then 16G; complications split into Surgical and Anaesthetic, each with Immediate and Delayed; ideally no more than three linked note topics per stop (a guide, not checked); summarise books, never copy; keep inline references; reword rather than delete useful content.
 - David's own notes come first. Only fill gaps he has approved; never add new clinical content unprompted.
 - Mark a stop reviewed only when David says so.
@@ -18,5 +18,5 @@ See README.md (folders) and WORKSTREAMS.md (who owns what). A stop or note is a 
 ## Publishing to the live app
 
 1. `python3 tools/build.py` → `dist/index.html`.
-2. Read the live artifact first and compare: if it has changes that are not in `main` (made in another chat), bring them in with `tools/split.py` on the downloaded live page in a scratch copy, and open a pull request for them before publishing.
+2. Read the live artifact first and compare it with the fresh `dist/index.html`: if it has changes that are not in `main` (made in another chat), copy them into the matching `content/` or `app/` files by hand and open a pull request for them before publishing. (`tools/split.py` is historical and no longer matches the layout.)
 3. Publish `dist/index.html` to the artifact URL above, keeping its existing runtime capabilities.

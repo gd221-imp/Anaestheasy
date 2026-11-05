@@ -1,0 +1,184 @@
+// ---- ARCP checklist ----
+// Each year: groups of items [id, text, detail?]. Groups with sp:true render as collapsible specialty blocks.
+/*@@ARCP_EVERY@@*/
+/*@@ARCP_YEARS@@*/
+/*@@ARCP_OUTCOMES@@*/
+function arcpItems(Y) {
+  const out = ARCP_EVERY.map(i => Y.y + ":" + i[0]);
+  Y.groups.forEach(g => {
+    (g.items || []).forEach(i => out.push(Y.y + ":" + i[0]));
+    (g.subs || []).forEach(s => s.items.forEach(i => out.push(Y.y + ":" + i[0])));
+  });
+  return out;
+}
+function openARCP() {
+  L = null;
+  sheet.className = "sheet";
+  sheet.style.cssText = col("c4");
+  showPage();
+  const S = store.get("pathway-arcp", {y: "CT1", t: {}});
+  const ticked = k => !!S.t[k];
+  const row = (Y, [id, t, d]) => {
+    const k = Y.y + ":" + id;
+    return `<label class="arow"><input type="checkbox" data-k="${k}"${ticked(k) ? " checked" : ""}><span>${t}${d ? `<small>${d}</small>` : ""}</span></label>`;
+  };
+  const count = keys => keys.filter(ticked).length;
+  const draw = () => {
+    const Y = ARCP_YEARS.find(x => x.y === S.y) || ARCP_YEARS[0];
+    const sg = STAGES.find(x => x.id === Y.st);
+    const all = arcpItems(Y),
+      done = count(all);
+    let h = `<div class="sh-head"><button class="close" aria-label="Back to path">← Path</button><div class="sh-title">ARCP checklist</div></div><div class="sh-body"><div class="page arcp" style="${col(sg.c)}">
+    <div class="kind">RCoA 2021 curriculum</div><h3>ARCP checklist</h3>
+    <p class="tl-intro">Pick your training year to see what your panel will look for. Your ticks stay on this device.</p>
+    <nav class="ayears" aria-label="Training year">${ARCP_YEARS.map(x => `<button data-y="${x.y}" aria-pressed="${x.y === Y.y}" style="${col(STAGES.find(s => s.id === x.st).c)}">${x.y}</button>`).join("")}</nav>
+    <div class="aprog"><div><b>${Y.y}</b> · ${Y.lead}</div><div class="abar"><i style="width:${all.length ? Math.round((100 * done) / all.length) : 0}%"></i></div><small>${done} of ${all.length} ticked</small></div>`;
+    Y.groups.forEach(g => {
+      if (g.sp) {
+        h +=
+          `<h4>${g.h}</h4>${g.note ? `<p class="note">${g.note}</p>` : ""}` +
+          g.subs
+            .map(s => {
+              const ks = s.items.map(i => Y.y + ":" + i[0]),
+                n = count(ks);
+              return `<details class="aspec"><summary><span>${s.h}${s.tc ? ' <em class="atc">Triple C</em>' : ""}</span><small>${n}/${ks.length}</small></summary>${s.items.map(i => row(Y, i)).join("")}</details>`;
+            })
+            .join("");
+        return;
+      }
+      h += `<h4>${g.h}</h4>${g.note ? `<p class="note">${g.note}</p>` : ""}<div class="alist">${g.items.map(i => row(Y, i)).join("")}</div>`;
+    });
+    const sn = {core: "1", st2: "2", st3: "3"}[Y.st] || "1";
+    const kcAll = [];
+    CURRIC_DOMAINS.forEach(d =>
+      ((CURRIC_KC[d.n] || {})[sn] || []).forEach(([l]) => kcAll.push("KC" + sn + ":" + d.n + ":" + l))
+    );
+    const kcDone = count(kcAll),
+      kcLeft = kcAll.length - kcDone;
+    h += `<h4>Stage ${sn} key capabilities</h4><p class="note">Every Stage ${sn} key capability across all 14 domains. Tick each one off once your evidence covers it. Ticks carry across every year of Stage ${sn}, so you can see what's left before your stage sign-off.</p>
+    <div class="aprog"><div><b>${kcDone} of ${kcAll.length}</b> covered · ${kcLeft ? `<b>${kcLeft}</b> still to tick` : "<b>all covered</b>"}</div><div class="abar"><i style="width:${kcAll.length ? Math.round((100 * kcDone) / kcAll.length) : 0}%"></i></div><label class="kcf"><input type="checkbox" id="kcleft"${S.kcLeft ? " checked" : ""}> Show only the ones still to tick</label></div>`;
+    ["Generic professional", "Clinical"].forEach(k => {
+      h += `<h5 class="kch">${k} domains</h5>`;
+      CURRIC_DOMAINS.filter(d => d.k === k).forEach(d => {
+        const L = (CURRIC_KC[d.n] || {})[sn] || [];
+        if (!L.length) return;
+        const ks = L.map(([l]) => "KC" + sn + ":" + d.n + ":" + l),
+          n = count(ks);
+        const show = L.filter(([l]) => !(S.kcLeft && ticked("KC" + sn + ":" + d.n + ":" + l)));
+        h += `<details class="aspec"><summary><span>${d.n}. ${d.t}</span><small${n === ks.length ? ' class="kcall"' : ""}>${n === ks.length ? "✓ " : ""}${n}/${ks.length}</small></summary>${
+          show.length
+            ? show
+                .map(([l, t]) => {
+                  const key = "KC" + sn + ":" + d.n + ":" + l;
+                  return `<label class="arow"><input type="checkbox" data-k="${key}"${ticked(key) ? " checked" : ""}><span><b>${l}</b> ${t}</span></label>`;
+                })
+                .join("")
+            : `<p class="kcdone">All key capabilities in this domain are ticked.</p>`
+        }</details>`;
+      });
+    });
+    h += `<h4>Evidence for every ARCP</h4><p class="note">The same core evidence is needed every year, CT1 to ST7.</p><div class="alist">${ARCP_EVERY.map(i => row(Y, i)).join("")}</div>
+    <p class="note">Mandatory training is a Trust requirement but isn't ARCP evidence. ACCS trainees follow the ACCS checklist until they finish ACCS.</p>
+    <h4>ARCP outcomes</h4><div class="aout">${ARCP_OUTCOMES.map(([n, t]) => `<div><b>${n}</b><span>${t}</span></div>`).join("")}</div>
+    <p class="note">Summarised in our own words from the RCoA 2021 curriculum assessment guidance, the RCoA Stage 1, 2 and 3 training pages, the IAC and IACOA workbooks, and the national anaesthetic ARCP checklist. Your school may ask for more, so check its own guidance. <button class="linkbtn" id="areset">Clear ${Y.y} ticks</button> · <button class="linkbtn" id="kcreset">Clear Stage ${sn} key capability ticks</button></p>
+    </div></div>`;
+    const top = sheet.querySelector(".sh-body")?.scrollTop || 0;
+    const openSp = [...sheet.querySelectorAll(".aspec[open] summary span")].map(x => x.textContent);
+    sheet.innerHTML = h;
+    sheet.querySelectorAll(".aspec").forEach(d => {
+      if (openSp.includes(d.querySelector("summary span").textContent)) d.open = true;
+    });
+    sheet.querySelector(".sh-body").scrollTop = top;
+    sheet.querySelector(".close").onclick = close;
+    sheet.querySelectorAll("[data-y]").forEach(
+      b =>
+        (b.onclick = () => {
+          S.y = b.dataset.y;
+          store.set("pathway-arcp", S);
+          draw();
+          sheet.querySelector(".sh-body").scrollTop = 0;
+        })
+    );
+    sheet.querySelectorAll("input[data-k]").forEach(
+      c =>
+        (c.onchange = () => {
+          if (c.checked) S.t[c.dataset.k] = 1;
+          else delete S.t[c.dataset.k];
+          store.set("pathway-arcp", S);
+          draw();
+        })
+    );
+    sheet.querySelector("#areset").onclick = () => {
+      all.forEach(k => delete S.t[k]);
+      store.set("pathway-arcp", S);
+      draw();
+    };
+    sheet.querySelector("#kcreset").onclick = () => {
+      kcAll.forEach(k => delete S.t[k]);
+      store.set("pathway-arcp", S);
+      draw();
+    };
+    sheet.querySelector("#kcleft").onchange = e => {
+      S.kcLeft = e.target.checked;
+      store.set("pathway-arcp", S);
+      draw();
+    };
+  };
+  draw();
+}
+document.getElementById("arcpBtn").addEventListener("click", openARCP);
+// reset menu
+document.getElementById("menuBtn").addEventListener("click", () => {
+  L = null;
+  sheet.style.cssText = col("c1");
+  sheet.className = "sheet";
+  showPage();
+  sheet.innerHTML = `<div class="sh-head"><button class="close" aria-label="Back to path">← Path</button><div class="sh-title">Progress</div></div><div class="sh-body"><div class="page"><h3>Your progress</h3><p>${state.done.length} of ${ALL.length} stops complete. Retake the placement quiz if your grade, exams or interviews have changed; stops you have already done stay done.</p><div class="confirm"><button class="danger" id="reset">Start from scratch</button><button id="demo">Retake placement quiz</button></div><div class="aboutblk"><h3>Latest news</h3><p>Every Monday\u2019s edition is kept here.</p><button class="cta2" id="newsArchBtn">News archive</button></div><div class="aboutblk"><h3>Upcoming events</h3><p>Anaesthetic conferences in the UK and around the world.</p><button class="cta2" id="eventsBtn">Upcoming events</button></div><div class="aboutblk"><h3>About this app</h3><p><b>For education only.</b> Anaesthetic Ally is a learning tool for anaesthetic trainees. It is not clinical guidance and does not replace local guidelines, product information or senior advice. Drug doses and techniques are examples; check them before use. Always follow local guidelines.</p><p>Anaesthetic Ally is independent. It is not affiliated with, or endorsed by, the Royal College of Anaesthetists, the Association of Anaesthetists, NHS England or any other organisation named in it. FRCA is a qualification of the Royal College of Anaesthetists.</p><p>© 2026 Dr David Griffiths BMBS MMedSc FRCA. All rights reserved. The text, structure and design of this app are his own work, except where a source is credited. Please do not copy or redistribute without permission.</p><h3>Sources and acknowledgements</h3><p>Guidelines, papers, data and services referred to in the app. Facts and data belong to their publishers; tables adapted from them are credited where they appear.</p><ul class="srclist"><li><a href="https://doi.org/10.1093/eurheartj/ehy340" target="_blank" rel="noopener">2018 ESC Guidelines on cardiovascular diseases during pregnancy ↗</a></li><li><a href="https://anro.wm.hee.nhs.uk/Portals/3/FINAL%20RCoA%20CT1%20Anaesthetics%20Applicant%20Guidance%20August%202026%2030_10_25.pdf" target="_blank" rel="noopener">Anaesthetics National Recruitment Office (ANRO): CT1 Anaesthetics applicant guidance, August 2026 ↗</a></li><li><a href="https://anro.wm.hee.nhs.uk/Portals/3/FINAL%20ST4%20Anaesthetics%20Applicant%20Guidance%20Feb%202027.pdf" target="_blank" rel="noopener">Anaesthetics National Recruitment Office (ANRO): ST4 Anaesthetics applicant guidance, February 2027 ↗</a></li><li><a href="https://das.uk.com/guidelines/paediatric-difficult-airway-guidelines" target="_blank" rel="noopener">APA/DAS paediatric difficult airway guidelines ↗</a></li><li><a href="https://database.das.uk.com/files/APA3-CICV-FINAL.pdf" target="_blank" rel="noopener">APA/DAS: can&#x27;t intubate, can&#x27;t oxygenate (CICO) in children (1–8) ↗</a></li><li><a href="https://database.das.uk.com/files/APA2-UnantDiffTracInt-FINAL.pdf" target="_blank" rel="noopener">APA/DAS: unanticipated difficult intubation in children (1–8) ↗</a></li><li><a href="https://anaesthetists.org/Home/Resources-publications/Guidelines/Management-of-glucocorticoids-during-the-peri-operative-period-for-patients-with-adrenal-insufficiency" target="_blank" rel="noopener">Association of Anaesthetists peri-operative glucocorticoid guideline (2020) ↗</a></li><li><a href="https://anaesthetists.org/Home/Resources-publications/Guidelines/Malignant-hyperthermia-crisis" target="_blank" rel="noopener">Association of Anaesthetists: Malignant hyperthermia crisis ↗</a></li><li><a href="https://anaesthetists.org/Home/Resources-publications/Guidelines/Management-of-severe-local-anaesthetic-toxicity" target="_blank" rel="noopener">Association of Anaesthetists: Management of severe local anaesthetic toxicity ↗</a></li><li><a href="https://www.bmj.com/careers/jobs/anaesthesia/united-kingdom/consultant-/permanent/direct-employer/" target="_blank" rel="noopener">BMJ Careers (job adverts, linked not reproduced) ↗</a></li><li><a href="https://bnf.nice.org.uk/" target="_blank" rel="noopener">BNF (British National Formulary) ↗</a></li><li><a href="https://bnfc.nice.org.uk/" target="_blank" rel="noopener">BNF for Children ↗</a></li><li><a href="https://b-s-h.org.uk/media/18619/addendum-for-gl-on-transfusion-for-fetuses-neonates-and-older-children-aug-21-2020.pdf" target="_blank" rel="noopener">BSH: 2020 addendum to transfusion guidelines for fetuses, neonates and older children ↗</a></li><li><a href="https://b-s-h.org.uk/media/2884/2016-neonates-final-v2.pdf" target="_blank" rel="noopener">BSH: guidelines on transfusion for fetuses, neonates and older children (2016) ↗</a></li><li><a href="https://www.acc.org/Latest-in-Cardiology/Journal-Scans/2018/05/21/14/42/Pregnancy-Outcomes-in-Women-With-Heart-Disease" target="_blank" rel="noopener">CARPREG II summary (Silversides et al., JACC 2018) ↗</a></li><li><a href="https://www.cpoc.org.uk/sites/cpoc/files/documents/2022-09/CPOC_AnaemiaGuideline_Summary2022.pdf" target="_blank" rel="noopener">CPOC perioperative anaemia guideline (2022) ↗</a></li><li><a href="https://www.medicines.org.uk/emc" target="_blank" rel="noopener">electronic medicines compendium (SPCs) ↗</a></li><li><a href="https://academic.oup.com/ehjvshd/article/2/1/xwaf005/8539866" target="_blank" rel="noopener">ESC clinical consensus statement: anaesthetic management of adults with CHD undergoing non-cardiac surgery (Eur Heart J Valvular Struct Heart Dis, 2026) ↗</a></li><li><a href="https://fonts.google.com" target="_blank" rel="noopener">Fonts: Bricolage Grotesque, Atkinson Hyperlegible and JetBrains Mono via Google Fonts (SIL Open Font Licence) ↗</a></li><li><a href="https://doi.org/10.1093/eurheartj/ehac270" target="_blank" rel="noopener">Halvorsen S et al. 2022 ESC Guidelines on cardiovascular assessment and management of patients undergoing non-cardiac surgery ↗</a></li><li><a href="https://www.healthjobsuk.com/job_list/Medical_and_dental/s2/Medical_Anaesthesia/d535" target="_blank" rel="noopener">Health Jobs UK (job adverts, linked not reproduced) ↗</a></li><li><a href="https://www.npeu.ox.ac.uk/mbrrace-uk/reports" target="_blank" rel="noopener">MBRRACE-UK reports (2024: Saving Lives, Improving Mothers&#x27; Care) ↗</a></li><li><a href="https://www.nela.org.uk" target="_blank" rel="noopener">National Emergency Laparotomy Audit (NELA) ↗</a></li><li><a href="https://medical.hee.nhs.uk/medical-training-recruitment/medical-specialty-training/competition-ratios" target="_blank" rel="noopener">NHS England: medical specialty recruitment competition ratios (Open Government Licence) ↗</a></li><li><a href="https://www.nice.org.uk/guidance/ng133" target="_blank" rel="noopener">NICE NG133: Hypertension in pregnancy ↗</a></li><li><a href="https://www.nice.org.uk/guidance/ng29/chapter/recommendations" target="_blank" rel="noopener">NICE NG29: IV fluid therapy in children and young people ↗</a></li><li><a href="https://doi.org/10.1016/j.bja.2021.01.005" target="_blank" rel="noopener">Price LC et al. Perioperative management of patients with pulmonary hypertension undergoing non-cardiothoracic, non-obstetric surgery: a systematic review and expert consensus statement. Br J Anaesth 2021;126(4):774–790 ↗</a></li><li><a href="https://www.bjaed.org/article/S2058-5349(22)00120-2/fulltext" target="_blank" rel="noopener">Pulmonary arterial hypertension in pregnancy (BJA Education) ↗</a></li><li><a href="https://doi.org/10.1161/CIR.0000000000001136" target="_blank" rel="noopener">Rajagopal S et al. Evaluation and management of pulmonary hypertension in noncardiac surgery: a scientific statement from the American Heart Association. Circulation 2023;147(17):1317–1343 ↗</a></li><li><a href="https://www.resus.org.uk/library/2021-resuscitation-guidelines" target="_blank" rel="noopener">Resuscitation Council UK: 2021 Resuscitation Guidelines ↗</a></li><li><a href="https://rcoa.ac.uk/training-careers/training-hub/2021-curriculum/2021-curriculum-structure" target="_blank" rel="noopener">Royal College of Anaesthetists: 2021 curriculum ↗</a></li><li><a href="https://rcoa.ac.uk/examinations/2027-launch-new-frca-exams" target="_blank" rel="noopener">Royal College of Anaesthetists: 2027 launch of the new FRCA exams ↗</a></li><li><a href="https://www.rcoa.ac.uk/documents/assessment-strategy-2021-anaesthetics-curriculum/final-frca-examinations" target="_blank" rel="noopener">Royal College of Anaesthetists: Assessment strategy, Final FRCA examinations ↗</a></li><li><a href="https://rcoa.ac.uk/examinations/2027-launch-new-frca-exams/final-frca-exam-pathways" target="_blank" rel="noopener">Royal College of Anaesthetists: Final FRCA exam pathways ↗</a></li><li><a href="https://rcoa.ac.uk/node/1431" target="_blank" rel="noopener">Royal College of Anaesthetists: Final FRCA Written examination ↗</a></li><li><a href="https://www.rcoa.ac.uk/examinations/primary-frca-examination/frca-primary-mcq-examination" target="_blank" rel="noopener">Royal College of Anaesthetists: FRCA Primary MCQ examination ↗</a></li><li><a href="https://rcoa.ac.uk/examinations/primary-frca-examination/frca-primary-soe" target="_blank" rel="noopener">Royal College of Anaesthetists: FRCA Primary SOE ↗</a></li><li><a href="https://www.rcoa.ac.uk/sites/default/files/documents/2020-11/Medical-Workforce-Census-Report-2020.pdf" target="_blank" rel="noopener">Royal College of Anaesthetists: Medical Workforce Census 2020 ↗</a></li><li><a href="https://rcoa.ac.uk/examinations/2027-launch-new-frca-exams/candidate-faqs" target="_blank" rel="noopener">Royal College of Anaesthetists: New FRCA exams candidate FAQs ↗</a></li><li><a href="https://rcoa.ac.uk/examinations/2027-launch-new-frca-exams/planning-new-examinations" target="_blank" rel="noopener">Royal College of Anaesthetists: Planning for the new examinations ↗</a></li><li><a href="https://rcoa.ac.uk/examinations/2027-launch-new-frca-exams/primary-frca-exam-pathways" target="_blank" rel="noopener">Royal College of Anaesthetists: Primary FRCA exam pathways ↗</a></li><li><a href="https://rcoa.ac.uk/examinations/primary-frca-examination/primary-frca-osce" target="_blank" rel="noopener">Royal College of Anaesthetists: Primary FRCA OSCE ↗</a></li></ul></div><!--/about--><p class="note">App version: 232</p></div></div>`;
+  sheet.querySelector(".close").onclick = close;
+  sheet.querySelector("#reset").onclick = () => {
+    state = {done: [], subs: {}, xp: 0, streak: 0};
+    save();
+    try {
+      localStorage.removeItem("pathway-profile");
+    } catch (e) {}
+    close();
+    render();
+    window.scrollTo({top: 0});
+    setTimeout(() => openPlacement(false), 30);
+  };
+  sheet.querySelector("#demo").onclick = () => {
+    close();
+    setTimeout(() => openPlacement(true), 30);
+  };
+  sheet.querySelector("#newsArchBtn").onclick = () => openNewsArchive();
+  sheet.querySelector("#eventsBtn").onclick = () => openEvents();
+});
+
+// jump-back button
+const jump = document.getElementById("jump");
+function curEl() {
+  return document.querySelector(".stop.current");
+}
+function scrollToCurrent(smooth) {
+  const c = curEl();
+  if (c) c.scrollIntoView({block: "center", behavior: smooth ? "smooth" : "auto"});
+}
+jump.onclick = e => {
+  e.stopPropagation();
+  scrollToCurrent(true);
+};
+function checkJump() {
+  const c = curEl();
+  if (!c) {
+    jump.hidden = true;
+    return;
+  }
+  const r = c.getBoundingClientRect();
+  const off = r.bottom < 0 || r.top > innerHeight;
+  jump.hidden = !off;
+  jump.textContent = (r.top > innerHeight ? "↓" : "↑") + " Back to my stop";
+}
+addEventListener("scroll", checkJump, {passive: true});
+
+render();
+checkJump();

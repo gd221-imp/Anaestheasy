@@ -1,0 +1,127 @@
+<div class="wrap">
+  <header>
+    <div>
+      <h1>60% Tax Check</h1>
+      <p class="sub">Adjusted net income against the £100,000 personal allowance taper</p>
+    </div>
+    <div class="tabs" role="group" aria-label="Tax year">
+      <button type="button" data-year="2026-27" aria-pressed="true">2026/27</button>
+      <button type="button" data-year="2027-28" aria-pressed="false">2027/28</button>
+    </div>
+  </header>
+
+  <section class="panel" aria-live="polite">
+    <div class="verdict">
+      <div>
+        <div class="label">Projected adjusted net income</div>
+        <div class="big" id="ani">—</div>
+      </div>
+      <span class="chip safe" id="chip">—</span>
+      <p id="verdictText"></p>
+    </div>
+    <div class="gauge" id="gauge">
+      <div class="marker" id="marker"><b id="markerLabel">—</b><i></i></div>
+      <div class="track"><span class="z1" id="z1"></span><span class="z2" id="z2"></span><span class="z3" id="z3"></span></div>
+      <div class="ticks" id="ticks"></div>
+    </div>
+    <div class="legend">
+      <span style="--sw:var(--accent-soft)">40% band</span>
+      <span style="--sw:var(--danger)">60% effective band (£100,000–£125,140)</span>
+      <span style="--sw:var(--line)">45% band</span>
+    </div>
+    <div class="callout" id="sippBox" hidden></div>
+  </section>
+
+  <section class="panel">
+    <h2>How it adds up</h2>
+    <div class="tablewrap"><table><tbody id="breakdown"></tbody></table></div>
+  </section>
+
+  <section class="panel">
+    <div>
+      <h2>Payslips</h2>
+      <p class="sub">Enter the year-to-date figures from each payslip. The latest one drives the projection.</p>
+    </div>
+    <div class="tablewrap"><table>
+      <thead><tr><th>Month</th><th class="r">Taxable pay YTD</th><th class="r">Pension YTD</th><th></th></tr></thead>
+      <tbody id="slips"></tbody>
+    </table></div>
+    <p class="empty" id="slipsEmpty">No payslips yet. Until you add one, the year is projected from the expected monthly pay below.</p>
+    <form class="row" id="slipForm">
+      <div class="field"><label for="slipMonth">Payslip month</label><select id="slipMonth"></select></div>
+      <div class="field"><label for="slipTaxable">Taxable pay YTD (£)</label><input id="slipTaxable" class="num" inputmode="decimal" required></div>
+      <div class="field"><label for="slipPension">Pension YTD (£)</label><input id="slipPension" class="num" inputmode="decimal"></div>
+      <button class="btn" type="submit">Add payslip</button>
+    </form>
+    <div class="field">
+      <label for="expected">Expected taxable pay per month for the months left (£)</label>
+      <input id="expected" class="num" inputmode="decimal">
+      <span class="hint">Gross monthly pay minus NHS pension</span>
+    </div>
+  </section>
+
+  <section class="panel">
+    <div>
+      <h2>Other work</h2>
+      <p class="sub">Locums, bank shifts, WLIs, teaching and any other earnings.</p>
+    </div>
+    <div class="tablewrap"><table>
+      <tbody id="extras"></tbody>
+    </table></div>
+    <p class="empty" id="extrasEmpty">Nothing added yet.</p>
+    <form class="row" id="extraForm">
+      <div class="field"><label for="exLabel">What</label><input id="exLabel" required></div>
+      <div class="field"><label for="exAmount">Gross (£)</label><input id="exAmount" class="num" inputmode="decimal" required></div>
+      <div class="field"><label for="exKind">Paid how</label>
+        <select id="exKind">
+          <option value="separate">Separate payroll (adds on)</option>
+          <option value="included">Same payroll (already in payslip YTD)</option>
+          <option value="self">Self-employed</option>
+        </select></div>
+      <button class="btn" type="submit">Add</button>
+    </form>
+  </section>
+
+  <section class="panel">
+    <h2>Reliefs and other income</h2>
+    <div class="grid">
+      <div class="field"><label for="fees">Professional fees relief (£)</label><input id="fees" class="num" inputmode="decimal"><span class="hint">GMC, RCoA, AAGBI, defence union</span></div>
+      <div class="field"><label for="interest">Savings interest (£)</label><input id="interest" class="num" inputmode="decimal"><span class="hint">Not ISAs or Premium Bonds</span></div>
+      <div class="field"><label for="sipp">SIPP paid in, net (£)</label><input id="sipp" class="num" inputmode="decimal"><span class="hint">What you paid; 25% is added on top</span></div>
+      <div class="field"><label for="giftaid">Gift Aid donations (£)</label><input id="giftaid" class="num" inputmode="decimal"><span class="hint">What you gave; grossed up by 25%</span></div>
+      <div class="field"><label for="seExp">Self-employed expenses (£)</label><input id="seExp" class="num" inputmode="decimal"><span class="hint">Used instead of the £1,000 allowance if larger</span></div>
+    </div>
+    <h2>Other income</h2>
+    <div class="grid">
+      <div class="field"><label for="rental">Rental profit (£)</label><input id="rental" class="num" inputmode="decimal"><span class="hint">After allowable expenses</span></div>
+      <div class="field"><label for="dividends">Dividends (£)</label><input id="dividends" class="num" inputmode="decimal"><span class="hint">From your own company or shares outside an ISA</span></div>
+      <div class="field"><label for="benefits">Taxable benefits (£)</label><input id="benefits" class="num" inputmode="decimal"><span class="hint">P11D value, e.g. a company car</span></div>
+      <div class="field"><label for="otherInc">Anything else taxable (£)</label><input id="otherInc" class="num" inputmode="decimal"><span class="hint">Royalties, app income, other one-offs</span></div>
+    </div>
+    <h2>Student loan</h2>
+    <div class="grid">
+      <div class="field"><label for="slUG">Undergraduate loan</label>
+        <select id="slUG"><option value="">None</option><option value="1">Plan 1</option><option value="2">Plan 2</option><option value="4">Plan 4 (Scotland)</option><option value="5">Plan 5</option></select>
+        <span class="hint">9% of earnings over the threshold</span></div>
+      <div class="field"><label for="slPG">Postgraduate loan</label>
+        <select id="slPG"><option value="">None</option><option value="pg">Postgraduate Loan</option></select>
+        <span class="hint">6% of earnings over the threshold</span></div>
+    </div>
+    <p class="foot" style="margin:0">Student loan repayments don't change your adjusted net income, but they reduce what you keep from extra work.</p>
+  </section>
+
+  <section class="panel">
+    <h2>Before you take a shift</h2>
+    <div class="row">
+      <div class="field"><label for="whatif">Extra gross pay (£)</label><input id="whatif" class="num" inputmode="decimal" value="1000"></div>
+    </div>
+    <div class="callout" id="whatifOut"></div>
+  </section>
+
+  <div class="status" id="status"></div>
+
+  <footer class="foot">
+    <p>Projection = latest payslip's taxable pay to date + expected pay × months left. Taxable pay on NHS payslips is already after pension contributions.</p>
+    <p>Self-employed income up to £1,000 is covered by the trading allowance. Take-home figures assume 40% / 60% / 45% income tax plus 2% NI, and any student loan you select. Thresholds are frozen at £100,000 and £125,140. This is an estimate, not tax advice.</p>
+  </footer>
+</div>

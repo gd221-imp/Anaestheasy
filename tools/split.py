@@ -1,6 +1,8 @@
-"""One-off: split the single-file Anaesthetic Ally app into app/page.html + content/.
-Usage: python3 tools/split.py path/to/live-index.html
-Kept in the repo for reference; day-to-day work edits content/ and app/ directly."""
+"""HISTORICAL: the one-off script that first split the single-file app into app/page.html + content/.
+It does not know the current layout (fixed stop ids, shared cards, data in content/data/, app/ split into
+styles.css and js/*.js), so do not use it to import changes. To find changes made directly in the live app,
+compare the downloaded live page with a fresh dist/index.html (see CLAUDE.md) and copy them across by hand.
+Usage (historical): python3 tools/split.py path/to/live-index.html"""
 import json, re, sys, os, shutil
 from pathlib import Path
 

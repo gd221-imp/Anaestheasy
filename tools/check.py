@@ -275,8 +275,23 @@ if not shutil.which('node'):
 else:
     for f in json.loads((C / 'path' / 'stages' / '_order.json').read_text(encoding='utf-8')):
         js_syntax('void [\n' + (C / 'path' / 'stages' / f).read_text(encoding='utf-8') + '\n];', f'content/path/stages/{f}', offset=1)
-    page = (ROOT / 'app' / 'page.html').read_text(encoding='utf-8')
-    js_syntax(MARKER.sub(lambda m: f'const {m.group(1)}=null;', script_only(page)), 'app/page.html')
+    # each script file on its own (exact file and line), then all of them joined (catches clashes between files)
+    sys.path.insert(0, str(ROOT / 'tools')); import build as _build
+    fill = lambda code: _build.TEXT.sub('""', MARKER.sub(lambda m: f'const {m.group(1)}=null;', code))
+    joined, origin = [], []
+    for m in _build.INCLUDE.finditer((ROOT / 'app' / 'page.html').read_text(encoding='utf-8')):
+        f = ROOT / 'app' / m.group(1)
+        if not f.exists(): err('app/page.html', f'includes {m.group(1)}, which does not exist'); continue
+        if f.suffix != '.js': continue
+        code = fill(f.read_text(encoding='utf-8'))
+        js_syntax(code, f'app/{m.group(1)}')
+        for n, line in enumerate(code.split('\n'), 1): joined.append(line); origin.append(f'app/{m.group(1)}:{n}')
+    if joined and not errors:
+        before = len(errors); js_syntax('\n'.join(joined), 'app scripts joined')
+        for k in range(before, len(errors)):
+            mm = re.match(r'app scripts joined:(\d+): (.*)', errors[k])
+            if mm and mm.group(1).isdigit() and int(mm.group(1)) <= len(origin): errors[k] = f'{origin[int(mm.group(1)) - 1]}: {mm.group(2)} (when the app files are joined)'
+    if not errors: js_syntax(fill(script_only(_build.assemble_page())), 'app/page.html (assembled)')
     dist = ROOT / 'dist' / 'index.html'
     if dist.exists() and not errors:
         built = dist.read_text(encoding='utf-8')
