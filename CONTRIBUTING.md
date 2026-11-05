@@ -37,7 +37,7 @@ Group related changes into one pull request (for example, one stop or one note).
 - `cards/*.html` — the text of each tab, one HTML block per line.
 - `quiz.json` — the questions at the end of the stop.
 
-The number at the start of the folder name sets the order. To add a stop, copy a similar folder, give it the next number and edit the files. To add a tab, add an entry to `cards` in `stop.json` and a matching `.html` file.
+The number at the start of the folder name sets the order. To add a stop, copy a similar folder, give it the next number and edit the files. **Give the new stop its own `"id"`** at the top of `stop.json`: the stage prefix (`found`, `core`, `st2`, `st3` or `cons`) plus a short name, e.g. `"id": "st2-ruptured-aaa"`. Never change or reuse an existing id: users' saved progress and the SBA links (`"st"` in `content/sba/final/`) depend on it. The checks will tell you if an id is missing, duplicated or linked to a stop that doesn't exist. To add a tab, add an entry to `cards` in `stop.json` and a matching `.html` file.
 
 ### The text of a tab (`.html`)
 

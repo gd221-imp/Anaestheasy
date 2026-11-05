@@ -576,7 +576,9 @@ STAGES.forEach(sg=>sg.stops.forEach(st=>{const ad=RECIPE_ADD[st.title];if(!ad)re
 STAGES.forEach(sg=>sg.stops.forEach(st=>{if(st.title!=="Anterior Resection (Colorectal Surgery with ERAS)")return;const c=st.cards.find(c=>c.recipe||/recipe$/i.test(c.h));if(c&&!/pqip\.org\.uk/.test(c.b))c.b=c.b.replace("<h4>Pre-op</h4>",'<h4>Pre-op</h4><ul class="rintro"><li>Major surgery quality standards and data: <a href="https://pqip.org.uk" target="_blank" rel="noopener">Perioperative Quality Improvement Programme (PQIP)</a></li></ul>')}));
 // flatten
 const ALL=[];
-STAGES.forEach(s=>s.stops.forEach((st,i)=>{st.stage=s;st.id=s.id+"-"+i}));
+// every stop has a fixed id in its source (stop.json or the stage file); saved progress and SBA links depend on it
+const STOP_ID_MISSING=[];
+STAGES.forEach(s=>s.stops.forEach((st,i)=>{st.stage=s;if(!st.id){st.id="tmp-"+s.id+"-"+i;STOP_ID_MISSING.push(st.title)}}));
 // moved stops keep their original ids (saved progress and SBA links depend on them)
 STAGES.forEach(s=>{const k=s.stops.findIndex(st=>st.t==="recipe"&&st.title==="Thrombectomy (Ischaemic Stroke)"&&st.group==="Vascular");if(k<0)return;
   const [m]=s.stops.splice(k,1);m.group="Neuro";m.shape="brain";let last=-1;s.stops.forEach((st,i)=>{if(st.group==="Neuro")last=i});s.stops.splice(last+1,0,m)});
