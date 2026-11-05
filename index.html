@@ -1147,14 +1147,14 @@ function openContents(){
       const grp=st.group||null;
       if(grp!==g){if(g!==undefined)h+=`</div>`;h+=`<div class="cgrp">${grp?`<h5>${grp}</h5>`:""}`;g=grp}
       const idx=ALL.indexOf(st),status=d.has(st.id)?"done":idx===cur?"current":idx>cur?"locked":"done";
-      h+=`<button class="crow ${status}" data-gostop="${st.id}"><i aria-hidden="true">${status==="done"?"✓":status==="current"?"●":""}</i><span>${st.title}}<small class="chit"></small></span></button>`;
+      h+=`<button class="crow ${status}" data-gostop="${st.id}"><i aria-hidden="true">${status==="done"?"✓":status==="current"?"●":""}</i><span>${st.title}<small class="chit"></small></span></button>`;
     });
     h+=`</div></section>`;
     if(sg.id==="st2"&&NOTES.length){
       h+=`<section class="cstage" style="${col("c3")}"><h4 class="cst"><span>Behind the operations</span>Final FRCA notes</h4>`;
       let g2=undefined;
       NOTES.forEach((n,i)=>{const grp=n.group||null;if(grp!==g2){if(g2!==undefined)h+=`</div>`;h+=`<div class="cgrp">${grp?`<h5>${grp}</h5>`:""}`;g2=grp}
-        h+=`<button class="crow" data-gonote="${i}"><i aria-hidden="true"></i><span>${n.title}}<small class="chit"></small></span></button>`});
+        h+=`<button class="crow" data-gonote="${i}"><i aria-hidden="true"></i><span>${n.title}<small class="chit"></small></span></button>`});
       h+=`</div></section>`;
     }
     if(sg.id==="core"){
