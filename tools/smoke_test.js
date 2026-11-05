@@ -1,32 +1,17 @@
 #!/usr/bin/env node
 /* Smoke test: opens dist/index.html in headless Chrome and visits every stop, tab,
    note, Primary topic and top-bar page, failing on any error or broken text.
-   No npm packages: it drives Chrome through its DevTools protocol using Node's
-   built-in fetch and WebSocket (Node 22 or later).
+   No npm packages: Chrome is driven by tools/lib/chrome.js (Node 22 or later).
    Usage: python3 tools/build.py && node tools/smoke_test.js
    Set CHROME_PATH if Chrome is not found automatically. */
 'use strict';
-const { spawn, execFileSync } = require('node:child_process');
-const fs = require('node:fs');
-const os = require('node:os');
-const path = require('node:path');
-const { pathToFileURL } = require('node:url');
+const {openApp} = require('./lib/chrome');
 
-const ROOT = path.resolve(__dirname, '..');
-const DIST = path.join(ROOT, 'dist', 'index.html');
 const GH = !!process.env.GITHUB_ACTIONS;
 const TIMEOUT_MS = 120000;
 
-function fail(msg) { console.log(GH ? `::error::smoke test: ${msg}` : `ERROR   ${msg}`); }
-
-function findChrome() {
-  const names = [process.env.CHROME_PATH, 'google-chrome', 'google-chrome-stable', 'chromium', 'chromium-browser',
-    '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome'].filter(Boolean);
-  for (const n of names) {
-    if (n.includes('/')) { if (fs.existsSync(n)) return n; continue; }
-    try { return execFileSync('which', [n], { encoding: 'utf8' }).trim(); } catch (e) { /* try next */ }
-  }
-  return null;
+function fail(msg) {
+  console.log(GH ? `::error::smoke test: ${msg}` : `ERROR   ${msg}`);
 }
 
 /* Runs inside the app. Returns { counts, problems }. */
@@ -85,66 +70,30 @@ async function traverse() {
 }
 
 async function main() {
-  if (!fs.existsSync(DIST)) { fail('dist/index.html is missing: run python3 tools/build.py first'); process.exit(1); }
-  if (typeof WebSocket === 'undefined') { fail(`needs Node 22 or later (this is ${process.version})`); process.exit(1); }
-  const chrome = findChrome();
-  if (!chrome) { fail('Chrome not found: install Google Chrome or set CHROME_PATH'); process.exit(1); }
-
-  const profile = fs.mkdtempSync(path.join(os.tmpdir(), 'ally-smoke-'));
-  const proc = spawn(chrome, ['--headless=new', '--no-sandbox', '--disable-gpu', '--no-first-run',
-    '--no-default-browser-check', '--disable-extensions', '--remote-debugging-port=0', `--user-data-dir=${profile}`,
-    '--window-size=390,844', 'about:blank'], { stdio: ['ignore', 'ignore', 'pipe'] });
-  const cleanup = () => { try { proc.kill('SIGKILL'); } catch (e) { } try { fs.rmSync(profile, { recursive: true, force: true }); } catch (e) { } };
-  const timer = setTimeout(() => { fail(`timed out after ${TIMEOUT_MS / 1000}s`); cleanup(); process.exit(1); }, TIMEOUT_MS);
-
-  const port = await new Promise((resolve, reject) => {
-    let buf = '';
-    proc.stderr.on('data', d => { buf += d; const m = buf.match(/DevTools listening on ws:\/\/[^:]+:(\d+)\//); if (m) resolve(m[1]); });
-    proc.on('exit', c => reject(new Error(`Chrome exited (${c}): ${buf.slice(-400)}`)));
-  });
-  const targets = await (await fetch(`http://127.0.0.1:${port}/json/list`)).json();
-  const page = targets.find(t => t.type === 'page');
-  const ws = new WebSocket(page.webSocketDebuggerUrl);
-  await new Promise((r, j) => { ws.onopen = r; ws.onerror = j; });
-
-  let id = 0; const pending = new Map(); const runtimeErrors = [];
-  ws.onmessage = ev => {
-    const m = JSON.parse(ev.data);
-    if (m.id && pending.has(m.id)) { pending.get(m.id)(m); pending.delete(m.id); return; }
-    if (m.method === 'Runtime.exceptionThrown') {
-      const d = m.params.exceptionDetails;
-      runtimeErrors.push(`uncaught ${(d.exception && d.exception.description || d.text).split('\n')[0]} (line ${d.lineNumber + 1})`);
-    }
-    if (m.method === 'Runtime.consoleAPICalled' && m.params.type === 'error') {
-      runtimeErrors.push('console error: ' + m.params.args.map(a => a.value ?? a.description ?? '').join(' ').slice(0, 200));
-    }
-  };
-  const send = (method, params = {}) => new Promise(r => { const i = ++id; pending.set(i, r); ws.send(JSON.stringify({ id: i, method, params })); });
-
-  await send('Runtime.enable');
-  await send('Page.enable');
-  await send('Page.navigate', { url: pathToFileURL(DIST).href });
-  for (let i = 0; i < 100; i++) {
-    const r = await send('Runtime.evaluate', { expression: `document.readyState==='complete' && typeof ALL!=='undefined'`, returnByValue: true });
-    if (r.result && r.result.result && r.result.result.value) break;
-    await new Promise(r => setTimeout(r, 100));
-  }
-  await new Promise(r => setTimeout(r, 300));
-
+  const timer = setTimeout(() => {
+    fail(`timed out after ${TIMEOUT_MS / 1000}s`);
+    process.exit(1);
+  }, TIMEOUT_MS);
+  const app = await openApp();
   const t0 = Date.now();
-  const r = await send('Runtime.evaluate', { expression: `(${traverse.toString()})()`, awaitPromise: true, returnByValue: true });
-  const ms = Date.now() - t0;
-  ws.close(); clearTimeout(timer); cleanup();
-
-  if (r.result.exceptionDetails) {
-    fail('the app could not be traversed: ' + (r.result.exceptionDetails.exception?.description || r.result.exceptionDetails.text).split('\n')[0]);
+  let result;
+  try {
+    result = await app.evaluate(traverse);
+  } catch (e) {
+    fail('the app could not be traversed: ' + e.message);
+    app.close();
     process.exit(1);
   }
-  const { counts, problems } = r.result.result.value;
-  const all = [...runtimeErrors, ...problems];
+  const ms = Date.now() - t0;
+  app.close();
+  clearTimeout(timer);
+  const {counts, problems} = result;
+  const all = [...app.errors, ...problems];
   for (const p of all.slice(0, 50)) fail(p);
   if (all.length > 50) fail(`…and ${all.length - 50} more`);
-  console.log(`\nSmoke test: ${counts.stops} stops (${counts.tabs} tabs), ${counts.notes} notes, ${counts.topics} Primary topics, ${counts.pages} pages in ${(ms / 1000).toFixed(1)}s — ${all.length} problem(s)`);
+  console.log(
+    `\nSmoke test: ${counts.stops} stops (${counts.tabs} tabs), ${counts.notes} notes, ${counts.topics} Primary topics, ${counts.pages} pages in ${(ms / 1000).toFixed(1)}s — ${all.length} problem(s)`
+  );
   process.exit(all.length ? 1 : 0);
 }
 
