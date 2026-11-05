@@ -69,5 +69,13 @@
     "/\"[A-Za-z_]+\"(?=\\s*:)/g",
     "/\"[a-z]{2,12}\"(?=\\s*[,\\]])/g",
     "/Society for Obstetric Anesthesia and Perinatology|American Society of Anesthesiologists|ANESTHESIOLOGY \\d{4}/g"
+  ],
+  "overrides": [
+    {
+      "filename": "**/*.md",
+      "ignoreRegExpList": [
+        "/`[^`\\n]+`/g"
+      ]
+    }
   ]
 }
