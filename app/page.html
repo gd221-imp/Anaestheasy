@@ -461,14 +461,14 @@ const stageBonus=st=>{const d=doneSet();return !d.has(st.id)&&st.stage.stops.eve
 /*@@PSBA_BANK@@*/
 const PSBA_TP={};PSBA_BANK.forEach(q=>(PSBA_TP[q.tp]=PSBA_TP[q.tp]||[]).push(q));
 const SBA_BY={};SBA_BANK.forEach(q=>{const k=q.st;if(k&&!/^(core|found)-/.test(k))(SBA_BY[k]=SBA_BY[k]||[]).push(q)});
-const COMP_CARD={h:"Competition ratios",b:`<p>Applications per post in England (round 1 CT1, includes ACCS Anaesthetics; round 2 ST3, then ST4). Hover over a point for the numbers, or open the table below.</p><div class="crlegend"><span><i class="crk1"></i>CT1</span><span><i class="crk2"></i>ST4</span><span><i class="crk2o"></i>ST3 (until 2021)</span></div><svg viewBox="0 0 340 210" class="crsvg" role="img" aria-label="Anaesthetics competition ratios 2019 to 2025: CT1 rose from 2.4 to 12.6 applications per post; ST3 then ST4 stayed between 1.5 and 2.7"><line x1="30" x2="262" y1="184.0" y2="184.0" class="crg"/><text x="24" y="187.5" class="crt" text-anchor="end">0</text><line x1="30" x2="262" y1="134.9" y2="134.9" class="crg"/><text x="24" y="138.4" class="crt" text-anchor="end">4</text><line x1="30" x2="262" y1="85.7" y2="85.7" class="crg"/><text x="24" y="89.2" class="crt" text-anchor="end">8</text><line x1="30" x2="262" y1="36.6" y2="36.6" class="crg"/><text x="24" y="40.1" class="crt" text-anchor="end">12</text><text x="30.0" y="202" class="crt" text-anchor="middle">2019</text><text x="68.7" y="202" class="crt" text-anchor="middle">20</text><text x="107.3" y="202" class="crt" text-anchor="middle">21</text><text x="146.0" y="202" class="crt" text-anchor="middle">22</text><text x="184.7" y="202" class="crt" text-anchor="middle">23</text><text x="223.3" y="202" class="crt" text-anchor="middle">24</text><text x="262.0" y="202" class="crt" text-anchor="middle">2025</text><path d="M30.0 155.2 L68.7 152.1 L107.3 139.6 L146.0 132.5 L184.7 125.3 L223.3 104.2 L262.0 29.7" class="crl1"/><path d="M30.0 165.3 L68.7 157.6 L107.3 151.2" class="crl2"/><path d="M184.7 164.3 L223.3 163.9 L262.0 163.7" class="crl2"/><g class="crp"><circle cx="30.0" cy="155.2" r="12" class="crh"/><circle cx="30.0" cy="155.2" r="4" class="crm1"/><title>CT1 2019: 1,333 applications for 568 posts = 2.35:1</title></g><g class="crp"><circle cx="68.7" cy="152.1" r="12" class="crh"/><circle cx="68.7" cy="152.1" r="4" class="crm1"/><title>CT1 2020: 1,479 applications for 569 posts = 2.60:1</title></g><g class="crp"><circle cx="107.3" cy="139.6" r="12" class="crh"/><circle cx="107.3" cy="139.6" r="4" class="crm1"/><title>CT1 2021: 2,046 applications for 566 posts = 3.61:1</title></g><g class="crp"><circle cx="146.0" cy="132.5" r="12" class="crh"/><circle cx="146.0" cy="132.5" r="4" class="crm1"/><title>CT1 2022: 2,337 applications for 558 posts = 4.19:1</title></g><g class="crp"><circle cx="184.7" cy="125.3" r="12" class="crh"/><circle cx="184.7" cy="125.3" r="4" class="crm1"/><title>CT1 2023: 2,604 applications for 545 posts = 4.78:1</title></g><g class="crp"><circle cx="223.3" cy="104.2" r="12" class="crh"/><circle cx="223.3" cy="104.2" r="4" class="crm1"/><title>CT1 2024: 3,522 applications for 542 posts = 6.50:1</title></g><g class="crp"><circle cx="262.0" cy="29.7" r="12" class="crh"/><circle cx="262.0" cy="29.7" r="4" class="crm1"/><title>CT1 2025: 6,770 applications for 539 posts = 12.56:1</title></g><g class="crp"><circle cx="30.0" cy="165.3" r="12" class="crh"/><circle cx="30.0" cy="165.3" r="4" class="crm2o"/><title>ST3 2019: 575 applications for 377 posts = 1.53:1</title></g><g class="crp"><circle cx="68.7" cy="157.6" r="12" class="crh"/><circle cx="68.7" cy="157.6" r="4" class="crm2o"/><title>ST3 2020: 758 applications for 353 posts = 2.15:1</title></g><g class="crp"><circle cx="107.3" cy="151.2" r="12" class="crh"/><circle cx="107.3" cy="151.2" r="4" class="crm2o"/><title>ST3 2021: 1,056 applications for 396 posts = 2.67:1</title></g><g class="crp"><circle cx="184.7" cy="164.3" r="12" class="crh"/><circle cx="184.7" cy="164.3" r="4" class="crm2"/><title>ST4 2023: 640 applications for 399 posts = 1.60:1</title></g><g class="crp"><circle cx="223.3" cy="163.9" r="12" class="crh"/><circle cx="223.3" cy="163.9" r="4" class="crm2"/><title>ST4 2024: 640 applications for 391 posts = 1.64:1</title></g><g class="crp"><circle cx="262.0" cy="163.7" r="12" class="crh"/><circle cx="262.0" cy="163.7" r="4" class="crm2"/><title>ST4 2025: 699 applications for 423 posts = 1.65:1</title></g><text x="270" y="33.7" class="crd">CT1 12.6:1</text><text x="270" y="167.7" class="crd">ST4 1.65:1</text></svg><div class="crstats"><div><b>12.6:1</b><span>CT1 2025<br>6,770 for 539 posts</span></div><div><b>1.65:1</b><span>ST4 2025<br>699 for 423 posts</span></div><div><b>52%</b><span>of departments advertising a consultant post could not appoint (2020)</span></div></div><p><b>Consultant posts:</b> no national competition ratio is published. In the RCoA 2020 census, 103 of 198 departments that advertised could not appoint, and 278 consultant jobs went unfilled, mostly for lack of (suitable) applicants. The bottleneck is getting into training, not the consultant job at the end.</p><details class="crtab"><summary>Show the numbers as a table</summary><table class="rtab"><tr><th>Year</th><th>CT1</th><th>ST3/ST4</th></tr><tr><td>2019</td><td>1,333 / 568 = <b>2.35</b></td><td>ST3: 575 / 377 = <b>1.53</b></td></tr><tr><td>2020</td><td>1,479 / 569 = <b>2.60</b></td><td>ST3: 758 / 353 = <b>2.15</b></td></tr><tr><td>2021</td><td>2,046 / 566 = <b>3.61</b></td><td>ST3: 1,056 / 396 = <b>2.67</b></td></tr><tr><td>2022</td><td>2,337 / 558 = <b>4.19</b></td><td>Not published (ST3 to ST4 change)</td></tr><tr><td>2023</td><td>2,604 / 545 = <b>4.78</b></td><td>ST4: 640 / 399 = <b>1.60</b></td></tr><tr><td>2024</td><td>3,522 / 542 = <b>6.50</b></td><td>ST4: 640 / 391 = <b>1.64</b></td></tr><tr><td>2025</td><td>6,770 / 539 = <b>12.56</b></td><td>ST4: 699 / 423 = <b>1.65</b></td></tr></table></details><p class="muted">Ratios count applications, not unique applicants, and are for England. Sources: <a href="https://medical.hee.nhs.uk/medical-training-recruitment/medical-specialty-training/competition-ratios" target="_blank" rel="noopener">NHS England competition ratios ↗</a>; <a href="https://www.rcoa.ac.uk/sites/default/files/documents/2020-11/Medical-Workforce-Census-Report-2020.pdf" target="_blank" rel="noopener">RCoA Medical Workforce Census 2020 ↗</a>.</p>`};
-const EXP_CARD_B=`<p>You can claim tax relief from HMRC on professional fees and subscriptions on its approved list, such as the GMC, BMA and Royal College. Tick the ones you pay and Anaesthetic Ally works out the total and the relief, and keeps it up to date as your grade changes.</p><div class="expmount"></div><h4>What you can and can't claim</h4><ul><li>You can claim for the current year and backdate claims for the previous 4 tax years.</li><li>Claim through your HMRC personal tax account; your tax code then goes up so you pay less tax each month.</li><li>Royal College exam fees, including resits, are allowable if you're on a training programme leading to a CCT in that specialty (BMA guidance). Travel and overnight costs for the exam may be too. Revision courses that aren't a contractual requirement are not.</li><li>You can't claim for anything your employer reimburses. In England, resident doctors' Royal College exam fees (first 2 attempts) are reimbursed from April 2026, and College subscriptions are expected to be from April 2027.</li></ul><p class="note">HMRC decides each claim; check the BMA guidance on <a href="https://www.bma.org.uk/pay-and-contracts/tax/tax-claim/claiming-for-professional-expenses" target="_blank" rel="noopener">claiming for professional expenses</a>.</p><p>Sources: <a href="https://www.gov.uk/tax-relief-for-employees/professional-fees-and-subscriptions" target="_blank" rel="noopener">GOV.UK: professional fees and subscriptions</a> · <a href="https://www.gmc-uk.org/registration-and-licensing/managing-your-registration/fees-and-funding/fees-for-doctors" target="_blank" rel="noopener">GMC fees</a> · <a href="https://www.bma.org.uk/join-us/subscription-costs" target="_blank" rel="noopener">BMA subscription costs</a> · <a href="https://rcoa.ac.uk/examinations/reviews-reports/cost-training" target="_blank" rel="noopener">RCoA cost of training</a></p>`;
+/*@@COMP_CARD@@*/
+/*@@EXP_CARD_B@@*/
 const expCard=st=>({h:"Professional expenses",b:EXP_CARD_B.replace('<div class="expmount"></div>',`<div class="expmount" data-exams="${st}"></div>`)});
 const EXP_CARD=expCard("");
-const LOCUM_CARD={h:"Locum shifts",b:`<ul><li><b>Ask for no NHS pension to be taken from your locums.</b> When you register with a bank or locum office, ask them not to deduct NHS pension contributions from locum shifts. Pension deductions on extra shifts can push you into a higher contribution tier and add to your pension growth for annual allowance purposes.</li><li>Check with the trust's pensions or payroll team how they handle it, and weigh up the pension benefit you give up.</li><li>Check whether the shift is paid through the same payroll as your main job or a separate one, and add it to the 60% tax check.</li></ul>`};
-const TAX_CARD={h:"60% tax check",b:`<p>Track your adjusted net income against the £100,000 personal allowance taper, and check a locum or extra shift before you take it. Your figures are saved on this device only and never shared.</p><div class="taxmount"></div>`};
-const FELLOW_CARD={h:"Clinical fellow jobs",b:`<p>Clinical fellow posts in anaesthesia (junior, senior, trust, teaching, research, simulation, QI and perioperative fellowships) from <a href="https://www.healthjobsuk.com/job_list/Medical_and_dental/s2/Medical_Anaesthesia/d535" target="_blank" rel="noopener">Health Jobs UK ↗</a> and <a href="https://www.bmj.com/careers/jobs/anaesthesia/united-kingdom/" target="_blank" rel="noopener">BMJ Careers ↗</a>, refreshed every morning. Filter by region, then tap a post to open it.</p><p>A fellow year can build your portfolio for ST4: teaching, QI, research or simulation time all count. Check the job plan for protected non-clinical time and the on-call commitment.</p><p>Many fellow posts are only on NHS Jobs, which can't be pulled into this feed: <a href="https://www.jobs.nhs.uk/candidate/search/results?keyword=clinical%20fellow%20anaesthetics" target="_blank" rel="noopener">search NHS Jobs for clinical fellow anaesthetics posts ↗</a>. For Scotland, check <a href="https://apply.jobs.scot.nhs.uk/" target="_blank" rel="noopener">NHS Scotland Jobs ↗</a>.</p><div class="jobsfeed" data-feed="fellows"></div>`};
-const JOBS_CARD={h:"Consultant jobs",b:`<p>Consultant anaesthesia adverts from <a href="https://www.healthjobsuk.com/job_list/Medical_and_dental/s2/Medical_Anaesthesia/d535" target="_blank" rel="noopener">Health Jobs UK ↗</a> and <a href="https://www.bmj.com/careers/jobs/anaesthesia/united-kingdom/consultant-/permanent/direct-employer/" target="_blank" rel="noopener">BMJ Careers ↗</a>, refreshed every morning. Filter by region, then tap an advert to open it.</p><p>Most NHS consultant posts in England and Wales are advertised on NHS Jobs, which can't be pulled into this feed. Check it directly: <a href="https://www.jobs.nhs.uk/candidate/search/results?keyword=consultant%20anaesthetist" target="_blank" rel="noopener">search NHS Jobs for consultant anaesthetist posts ↗</a>. NHS Wales posts are advertised there too.</p><p>For Scotland, check <a href="https://apply.jobs.scot.nhs.uk/" target="_blank" rel="noopener">NHS Scotland Jobs ↗</a>. LinkedIn isn't included either.</p><div class="jobsfeed"></div>`};
+/*@@LOCUM_CARD@@*/
+/*@@TAX_CARD@@*/
+/*@@FELLOW_CARD@@*/
+/*@@JOBS_CARD@@*/
 /*@@STAGES@@*/
 
 const SHAPES={
@@ -931,28 +931,9 @@ function goTopic(k){
 document.getElementById("contentsBtn").addEventListener("click",openContents);
 
 // FRCA curriculum page (RCoA 2021 Curriculum for a CCT in Anaesthetics)
-const CURRIC_STAGES=[
- {n:"Stage 1",g:"CT1–CT3",stage:"core",d:"Core training: the IAC, IACOA, on-calls and the Primary FRCA."},
- {n:"Stage 2",g:"ST4–ST5",stage:"st2",d:"Specialty modules across the clinical domains, and the Final FRCA."},
- {n:"Stage 3",g:"ST6–ST7",stage:"st3",d:"Special interest areas, leadership and preparation for CCT."}];
-const CURRIC_DOMAINS=[
- {k:"Generic professional",n:1,t:"Professional behaviours and communication",o:"Shows the professional values and behaviours patients expect of their doctors."},
- {k:"Generic professional",n:2,t:"Management and professional and regulatory requirements",o:"Takes on managerial, administrative and organisational roles."},
- {k:"Generic professional",n:3,t:"Team working",o:"Works effectively within teams to improve patient care."},
- {k:"Generic professional",n:4,t:"Safety and quality improvement",o:"Improves the quality and safety of patient care."},
- {k:"Generic professional",n:5,t:"Safeguarding",o:"Recognises vulnerable people and acts to protect them."},
- {k:"Generic professional",n:6,t:"Education and training",o:"Supports others to develop their professional practice."},
- {k:"Generic professional",n:7,t:"Research and managing data",o:"Contributes to advancing anaesthetic practice through research and data."},
- {k:"Clinical",n:8,t:"Perioperative medicine and health promotion",o:"Delivers safe, multidisciplinary perioperative care and promotes public health."},
- {k:"Clinical",n:9,t:"General anaesthesia",o:"Provides safe and effective general anaesthesia."},
- {k:"Clinical",n:10,t:"Regional anaesthesia",o:"Provides safe and effective regional anaesthesia."},
- {k:"Clinical",n:11,t:"Resuscitation and transfer",o:"Resuscitates, stabilises and safely transfers critically ill patients."},
- {k:"Clinical",n:12,t:"Procedural sedation",o:"Provides safe and effective procedural sedation."},
- {k:"Clinical",n:13,t:"Pain",o:"Manages acute and chronic pain."},
- {k:"Clinical",n:14,t:"Intensive care",o:"Recognises and manages critical illness."}];
-const CURRIC_SIAS={
- clinical:[["Acute inpatient pain","group:Pain"],["Additional intensive care","group:ICM"],["Anaesthesia for bariatric surgery","Bariatric Surgery"],["Anaesthesia for cardiac surgery","group:Cardiac"],["Anaesthesia for complex orthopaedic surgery","group:Orthopaedics and Trauma"],["Anaesthesia for hepato-pancreato-biliary surgery","Whipple's Procedure"],["Anaesthesia for major general surgery","group:General surgery"],["Anaesthesia for neurosurgery","group:Neuro"],["Anaesthesia for ophthalmic surgery","group:Ophthalmology"],["Anaesthesia for patients with complex airway","group:Head and neck"],["Anaesthesia for plastic surgery and burns","group:Plastics"],["Anaesthesia for thoracic surgery","group:Thoracic"],["Anaesthesia for vascular surgery","group:Vascular"],["Anaesthesia in resource-poor environments",null],["Military anaesthesia",null],["Obstetric anaesthesia","group:Obstetrics"],["Paediatric anaesthesia","group:Paeds"],["Pain medicine","group:Pain"],["Perioperative medicine","CPET & Perioperative Risk Assessment"],["Regional anaesthesia","group:Regional"],["Transfer medicine","Interhospital Transfer"],["Trauma and stabilisation","group:Orthopaedics and Trauma"]],
- nonclinical:[["Education and training","Supervising trainees"],["Management and professional and regulatory requirements","Leadership and management"],["Research and managing data",null],["Safety and quality improvement","Clinical governance"]]};
+/*@@CURRIC_STAGES@@*/
+/*@@CURRIC_DOMAINS@@*/
+/*@@CURRIC_SIAS@@*/
 /*@@CURRIC_KC@@*/
 function openCurriculum(){
   L=null;sheet.className="sheet";sheet.style.cssText=col("c4");showPage();
@@ -982,219 +963,9 @@ function goGroup(g){
 document.getElementById("curricBtn").addEventListener("click",openCurriculum);
 // ---- ARCP checklist ----
 // Each year: groups of items [id, text, detail?]. Groups with sp:true render as collapsible specialty blocks.
-const ARCP_EVERY=[
- ["essr","Educational Supervisor's Structured Report (ESSR) completed on the LLP","Built from your evidence and signed off by your Educational Supervisor and College Tutor. Send it to your ES at least 2 weeks before the panel."],
- ["dates","Review period dates are right","It starts the day after your last ARCP ended."],
- ["place","Placements since your last ARCP listed",""],
- ["cv","CV uploaded","Good practice every year, and strongly recommended at the end of ST6."],
- ["pdp","Personal development plan with this year's learning objectives","Objectives in a supervisor meeting record count; say where they are. You can add new ones during the year."],
- ["log","Logbook up to date","Cases since your last ARCP and a cumulative log from the start of core training. The LLP logbook is preferred."],
- ["meet","At least 3 supervisor meetings recorded","LLP meetings, an end-of-placement ESSR or an uploaded school form all count."],
- ["sle","Supervised learning events across the domains","A-CEX, CBD, DOPS, ALMAT and A-QIPAT. There's no fixed minimum, but they should cover the capabilities for your stage."],
- ["mtr","At least 1 Multiple Trainer Report (MTR)","Needs at least 3 trainer responses to be valid."],
- ["msf","1 Multisource feedback (MSF) with at least 12 responses","Plus a separate ICM MSF if you did an intensive care placement this year."],
- ["halo","HALOs completed this year showing on the LLP",""],
- ["qi","Audit or quality improvement involvement","A-QIPAT is a good way to record it; national projects such as NAP or SNAP count. Pitch it at the level expected for your stage."],
- ["nonclin","Non-clinical activities linked to capabilities","Teaching, courses, management and research, recorded as personal activities."],
- ["refl","Reflections","No set number. Focus on what you learnt and what you changed; verbal reflection with a supervisor counts if they record it."],
- ["exam","Exam results entered with the pass letter uploaded","Only if you passed an exam this year."],
- ["triplec","Triple C forms for any specialty areas you completed","Cardiothoracic, neuro, paediatric or obstetric anaesthesia."],
- ["formr","Form R (SOAR in Scotland) uploaded","Covers all your work. Declare any serious incident, discuss it with your ES and reflect on it."],
- ["absence","Absences recorded","Sickness, parental and compassionate leave, and military duties."],
- ["concern","Concerns section filled in","\"NONE\", or say the details are recorded on Form R or SOAR."],
- ["comments","Your own comments","Reflect on progress since the last ARCP and your aims for next year."]];
-const ARCP_YEARS=[
- {y:"CT1",st:"core",lead:"Stage 1, year 1. The key goal is the IAC.",groups:[
-  {h:"Initial Assessment of Competence (IAC)",note:"Usually within 3–6 months. You need it to move from CT1 to CT2. It covers EPA 1 (pre-operative assessment) and EPA 2 (general anaesthesia for ASA 1–2 patients having uncomplicated surgery).",items:[
-   ["iac1","Novice skills and drills in the first 3 months","Including the Quick Reference Handbook \"unknowns\"."],
-   ["iac2","Failed intubation drill on a manikin (DAS guidelines)","Shown individually and signed off by a faculty member who can sign off the IAC."],
-   ["iac3","An SLE for every capability in each cluster","EPA 1 has one cluster. EPA 2 has four: pre-op preparation, intra-op care, post-op care, and emergencies and simulation. All must reach supervision level 2B."],
-   ["iac4","Logbook showing core airway skills","Mask ventilation, supraglottic airways, intubation with direct and video laryngoscopy, and rapid sequence induction, across elective and emergency cases."],
-   ["iac5","IAC MTR from at least 3 consultants",""],
-   ["iac6","Personal activities and reflections",""],
-   ["iac7","IAC signed off","By at least 3 faculty members, with your ES and College Tutor as signatories."]]},
-  {h:"Rest of the year",items:[
-   ["ct1a","Progress with Stage 1 key capabilities in all 14 domains","SLEs, personal activities and reflections across the generic and clinical domains."],
-   ["ct1b","Start working towards the Primary FRCA",""]]}]},
- {y:"CT2",st:"core",lead:"Stage 1, year 2. The key goal is the IACOA.",groups:[
-  {h:"Initial Assessment of Competence in Obstetric Anaesthesia (IACOA)",note:"At least 3 months, usually starting after a year of anaesthesia, and it must be done by the end of 2 years of anaesthetic training. It covers EPA 3 (labour analgesia) and EPA 4 (anaesthesia for ASA 1–2 obstetric surgery, including category 1–3 caesarean section).",items:[
-   ["ia1","Obstetric emergencies and GA for caesarean section in simulation","Including a failed intubation drill on a manikin, signed off by a faculty member who can sign off the IACOA."],
-   ["ia2","An SLE for every capability in each cluster","All clusters must reach supervision level 3 (consultant available by phone or able to attend)."],
-   ["ia3","Logbook showing spinals, epidurals and obstetric airway management","On labour ward, in obstetric theatres and on the antenatal and postnatal wards."],
-   ["ia4","IACOA MTR from at least 3 consultants",""],
-   ["ia5","Personal activities and reflections",""],
-   ["ia6","IACOA signed off","By at least 3 faculty members, with 2 obstetric trainers as signatories."]]},
-  {h:"Rest of the year",items:[
-   ["ct2a","Evidence in every Stage 1 domain","Intensive care can wait if you haven't done it yet."],
-   ["ct2b","Early HALOs where ready","Some, such as procedural sedation, can be approved in CT2."],
-   ["ct2c","Primary FRCA attempts planned or under way",""]]}]},
- {y:"CT3",st:"core",lead:"End of Stage 1. Everything for Stage 1 must be signed off.",groups:[
-  {h:"Completing Stage 1",items:[
-   ["ct3a","All 14 Stage 1 HALOs approved","Each needs SLEs at the expected supervision level, personal activities, reflections and MTR feedback."],
-   ["ct3b","MTRs that cover all 14 domains between them",""],
-   ["ct3c","Primary FRCA passed","MCQ, and OSCE and SOE."],
-   ["ct3d","IAC and IACOA both awarded",""],
-   ["ct3e","Intensive care training for the Stage 1 ICM HALO","RCoA equivalence guidance expects 6 months of ICM in total by the end of Stage 1."],
-   ["ct3f","Stage 1 training certificate signed","By the Regional Adviser or Deputy Regional Adviser, and one other designated trainer."],
-   ["ct3g","ARCP outcome 1",""]]},
-  {h:"Stage 1 clinical experience",sp:true,subs:[
-   {h:"General anaesthesia and airway",items:[
-    ["s1ga1","GA for ASA 1–3 adults having non-complex elective and emergency surgery",""],
-    ["s1ga2","Safe anaesthesia outside theatre for ASA 1–2 adults",""],
-    ["s1ga3","TIVA for non-complex cases",""],
-    ["s1ga4","Direct and video laryngoscopy, supraglottic airways and low-risk extubation",""],
-    ["s1ga5","CICO and front-of-neck access in simulation",""],
-    ["s1ga6","High-flow nasal oxygen for pre-oxygenation",""]]},
-   {h:"Obstetrics",items:[
-    ["s1ob1","Labour epidurals or CSE for ASA 1–3 women",""],
-    ["s1ob2","Neuraxial anaesthesia for operative delivery, including managing an inadequate block",""],
-    ["s1ob3","GA for ASA 1–3 obstetric patients",""]]},
-   {h:"Paediatrics",items:[
-    ["s1pa1","GA for ASA 1–2 children having non-complex surgery","Level of supervision depends on the child's age."],
-    ["s1pa2","Recognises an acutely ill child and starts emergency care",""]]},
-   {h:"Regional anaesthesia",items:[
-    ["s1ra1","Spinal anaesthesia for ASA 1–3 surgical patients",""],
-    ["s1ra2","Simple ultrasound-guided nerve blocks, including femoral or fascia iliaca",""],
-    ["s1ra3","Recognises LA toxicity, high spinal and post-dural puncture headache",""]]},
-   {h:"Intensive care",items:[
-    ["s1icm1","ICU placement completed",""],
-    ["s1icm2","Invasive procedures to support breathing, circulation and kidneys",""],
-    ["s1icm3","ICM MSF completed",""]]},
-   {h:"Resuscitation, transfer, sedation and pain",items:[
-    ["s1rt1","Road transfer of a stable critically ill adult",""],
-    ["s1rt2","Safe conscious sedation with monitoring and aftercare",""],
-    ["s1rt3","Acute pain management and safe use of PCA",""]]}]}]},
- {y:"ST4",st:"st2",lead:"Stage 2, year 1. Show progress across Stage 2.",groups:[
-  {h:"ST4 ARCP",items:[
-   ["st4a","Progress with Stage 2 key capabilities in all domains",""],
-   ["st4b","MTR and satisfactory MSF",""],
-   ["st4c","Final FRCA written","Recommended by now, but not required."],
-   ["st4d","Specialty placements planned so the four Triple C areas are covered by the end of ST5",""]]}]},
- {y:"ST5",st:"st2",lead:"End of Stage 2. All Stage 2 HALOs and the Final FRCA.",groups:[
-  {h:"Completing Stage 2",items:[
-   ["st5a","All 14 Stage 2 HALOs approved",""],
-   ["st5b","MTRs that cover all 14 domains between them","Consider specific MTRs for your cardiothoracic, neuro, paediatric and obstetric placements."],
-   ["st5c","Final FRCA passed","Written and SOE."],
-   ["st5d","Triple C forms for cardiothoracic, neuro, paediatric and obstetric anaesthesia",""],
-   ["st5e","3 months of intensive care training for the Stage 2 ICM HALO",""],
-   ["st5f","Stage 2 training certificate signed","By the Regional Adviser or Deputy Regional Adviser, and one other designated trainer."],
-   ["st5g","ARCP outcome 1",""]]},
-  {h:"Stage 2 specialties",note:"Tick off the experience for each specialty. Cardiac and thoracic share one cardiothoracic Triple C.",sp:true,subs:[
-   {h:"Cardiac",tc:1,items:[
-    ["s2ca1","Anaesthetises ASA 1–3 adults for elective cardiac surgery and cardiology procedures","Under direct supervision."],
-    ["s2ca2","Explains anaesthesia for cardiac surgery on and off bypass",""],
-    ["s2ca3","Applies basic science to cardiac surgery",""],
-    ["s2ca4","Cardiothoracic Triple C signed",""]]},
-   {h:"Thoracic",tc:1,items:[
-    ["s2th1","Anaesthetises adults for non-complex thoracic surgery, including one-lung ventilation","Under direct supervision."],
-    ["s2th2","Explains the principles of thoracic anaesthesia",""]]},
-   {h:"Neuro",tc:1,items:[
-    ["s2ne1","Anaesthesia for simple elective and emergency neurosurgery, spinal surgery and neuroradiology","ASA 1–3 adults."],
-    ["s2ne2","Uses physiology and pharmacology to limit secondary brain injury",""],
-    ["s2ne3","Resuscitates, stabilises and transfers patients with sudden neurological deterioration",""],
-    ["s2ne4","Neuro Triple C signed",""]]},
-   {h:"Obstetrics",tc:1,items:[
-    ["s2ob1","Elective and emergency obstetric anaesthesia, including complicated cases",""],
-    ["s2ob2","Plans care for all pregnant patients with the wider team",""],
-    ["s2ob3","Leads acute obstetric emergencies and manages critical illness in pregnancy",""],
-    ["s2ob4","MTR for the placement (recommended)",""],
-    ["s2ob5","Obstetric Triple C signed",""]]},
-   {h:"Paediatrics",tc:1,items:[
-    ["s2pa1","GA for ASA 1–3 children having non-complex surgery","Supervision depends on the child's age."],
-    ["s2pa2","Explains the principles for complex children and neonatal anaesthesia",""],
-    ["s2pa3","Newborn and paediatric resuscitation; recognises a seriously unwell child",""],
-    ["s2pa4","Arranges road transfers of children",""],
-    ["s2pa5","Adjusts perioperative care for children with comorbidities",""],
-    ["s2pa6","MTR for the placement (recommended)",""],
-    ["s2pa7","Paediatric Triple C signed",""]]},
-   {h:"Intensive care",items:[
-    ["s2ic1","3-month ICM placement completed",""],
-    ["s2ic2","Invasive organ support, sepsis management and investigations in critical illness",""],
-    ["s2ic3","End-of-life care, brainstem death testing and support for potential donors",""],
-    ["s2ic4","Safe discharge planning from intensive care",""],
-    ["s2ic5","ICM MSF completed",""]]},
-   {h:"Head, neck and airway",items:[
-    ["s2hn1","Non-complex shared airway surgery",""],
-    ["s2hn2","Safe strategy for known or possible difficult airways",""],
-    ["s2hn3","Flexible bronchoscopic intubation and intubation through a supraglottic airway",""],
-    ["s2hn4","Manages at-risk extubation; describes awake intubation",""],
-    ["s2hn5","CICO and emergency front-of-neck access",""]]},
-   {h:"General surgery, urology, gynaecology and vascular",items:[
-    ["s2gs1","Laparoscopic, endoscopic and open surgery in ASA 1–3 adults",""],
-    ["s2gs2","Day-case anaesthesia in any setting",""],
-    ["s2gs3","Controls bleeding and manages major haemorrhage",""]]},
-   {h:"Orthopaedics and trauma",items:[
-    ["s2or1","Cares for adult multiple trauma patients from arrival to recovery",""],
-    ["s2or2","Recognises and reduces positioning risks, including in obesity",""],
-    ["s2or3","Ultrasound-guided blocks for lower limb surgery",""]]},
-   {h:"Plastics and burns",items:[
-    ["s2pl1","Explains the problems of burns, poisoning, electrical injury and drowning",""]]},
-   {h:"Ophthalmology",items:[
-    ["s2op1","Explains eye surgery, including penetrating eye injury and intraocular gas",""],
-    ["s2op2","Explains eye blocks for awake ophthalmic surgery",""]]},
-   {h:"Regional anaesthesia",items:[
-    ["s2ra1","Ultrasound-guided brachial plexus blocks",""],
-    ["s2ra2","Ultrasound-guided fascial plane blocks of the chest or abdominal wall",""],
-    ["s2ra3","Manages an inadequate block and explains regional complications",""],
-    ["s2ra4","Regional anaesthesia with abnormal clotting",""]]},
-   {h:"Pain",items:[
-    ["s2pn1","Manages acute pain across the perioperative pathway",""],
-    ["s2pn2","Assesses and starts treatment for chronic cancer and non-cancer pain",""],
-    ["s2pn3","Manages inpatient acute-on-chronic pain and knows when to refer",""],
-    ["s2pn4","Explains risk factors for persistent post-surgical pain",""]]},
-   {h:"Sedation and remote sites",items:[
-    ["s2sd1","Chooses sedation techniques, including TCI, and uses scoring tools",""],
-    ["s2sd2","Safe anaesthesia and sedation outside theatre",""],
-    ["s2sd3","TIVA across all areas of practice",""]]},
-   {h:"Perioperative medicine",items:[
-    ["s2pm1","Plans care for less common cardiovascular, neurological, respiratory, endocrine, haematological and rheumatological disease",""],
-    ["s2pm2","Uses risk scores and CPET appropriately",""],
-    ["s2pm3","Manages anaemia, coagulopathy, nutrition and frailty around surgery",""]]},
-   {h:"Resuscitation and transfer",items:[
-    ["s2rt1","Leads the team for a critically ill patient until handover to critical care",""],
-    ["s2rt2","Urgent and routine road transfers of adults and children",""],
-    ["s2rt3","Discusses resuscitation decisions, including DNACPR",""]]}]}]},
- {y:"ST6",st:"st3",lead:"Stage 3, year 1. Progress across Stage 3 and any special interest areas.",groups:[
-  {h:"ST6 ARCP",items:[
-   ["st6a","Progress with Stage 3 key capabilities in all domains",""],
-   ["st6b","MTR and satisfactory MSF",""],
-   ["st6c","Evidence from any special interest areas (SIAs) done in ST6","An MTR for each SIA."],
-   ["st6d","Updated CV","Strongly recommended at this ARCP."],
-   ["st6e","SIAs for ST7 agreed",""]]}]},
- {y:"ST7",st:"st3",lead:"End of Stage 3 and CCT.",groups:[
-  {h:"Completing Stage 3",items:[
-   ["st7a","All 14 Stage 3 HALOs approved",""],
-   ["st7b","HALOs for your special interest areas",""],
-   ["st7c","At least one SIA, totalling 12 months whole-time equivalent","SIA rotations can be combined. The certificate records time in each."],
-   ["st7d","An MTR for each SIA",""],
-   ["st7e","Triple C evidence for cardiothoracic, neuro, paediatric and obstetric anaesthesia",""],
-   ["st7f","MTRs that cover all 14 domains between them",""],
-   ["st7g","Satisfactory MSF",""],
-   ["st7h","Stage 3 training certificate signed","By the Regional Adviser or Deputy Regional Adviser, and one other designated trainer. It can be signed about 3 months before CCT, once all HALOs are approved."],
-   ["st7i","Final ARCP (outcome 6), dated to your CCT date","Usually held up to 4 months before CCT."],
-   ["st7j","CCT application and GMC Specialist Register","You must be on the Specialist Register before starting a substantive consultant post."],
-   ["st7k","Acting up as a consultant only in the last 3 months","And only once everything else is complete."]]},
-  {h:"Special interest areas",note:"Tick the SIAs you're doing.",sp:true,subs:[
-   {h:"Clinical SIAs",items:CURRIC_SIAS.clinical.map(([n],i)=>["sia"+i,n,""])},
-   {h:"Non-clinical SIAs",items:CURRIC_SIAS.nonclinical.map(([n],i)=>["sian"+i,n,""])}]},
-  {h:"Stage 3 clinical capabilities",sp:true,subs:[
-   {h:"General and emergency",items:[
-    ["s3g1","GA for elective and emergency surgery in general settings, including maternity",""],
-    ["s3g2","Runs lists safely and efficiently",""],
-    ["s3g3","High-risk patients with major comorbidity and potential major bleeding",""],
-    ["s3g4","Critically ill patients returning to theatre from ICU",""]]},
-   {h:"Airway",items:[
-    ["s3a1","Awake tracheal intubation",""],
-    ["s3a2","Anticipated difficult airways and shared airway surgery",""],
-    ["s3a3","Flexible bronchoscopic intubation and at-risk extubation",""]]},
-   {h:"Specialist areas in general settings",items:[
-    ["s3s1","Obstetric anaesthesia in a general maternity unit",""],
-    ["s3s2","Children aged 1 year and over for common procedures",""],
-    ["s3s3","Emergency care of children awaiting transfer to a tertiary unit",""],
-    ["s3s4","Patients with heart disease or previous neurosurgery having other surgery",""],
-    ["s3s5","Severely injured patients through to definitive care",""]]}]}]}
-];
-const ARCP_OUTCOMES=[["1","Satisfactory progress"],["2","Specific capabilities still to develop, without extra training time"],["3","Inadequate progress: extra training time needed"],["4","Released from the training programme"],["5","Incomplete evidence: more needed before a decision"],["6","All capabilities achieved: training complete (CCT)"],["8","Out of programme (research, experience or a career break)"]];
+/*@@ARCP_EVERY@@*/
+/*@@ARCP_YEARS@@*/
+/*@@ARCP_OUTCOMES@@*/
 function arcpItems(Y){const out=ARCP_EVERY.map(i=>Y.y+":"+i[0]);Y.groups.forEach(g=>{(g.items||[]).forEach(i=>out.push(Y.y+":"+i[0]));(g.subs||[]).forEach(s=>s.items.forEach(i=>out.push(Y.y+":"+i[0])))});return out}
 function openARCP(){
   L=null;sheet.className="sheet";sheet.style.cssText=col("c4");showPage();
@@ -1410,21 +1181,13 @@ if(!deepLinked&&!store.get("pathway-profile",null))setTimeout(()=>openPlacement(
 // ---- professional expenses: shared across every Finances stop; total feeds the 60% tax check ----
 const EXP_GRADES=["FY1","FY2","CT1","CT2","CT3","ST4","ST5","ST6","ST7","Consultant"];
 // BMA bands are by years since qualification (rates from 1 Oct 2026, monthly x 12); GMC from 1 Apr 2026
-const BMA_YEAR=[165.96,291.96,291.96,291.96,419.04,419.04,419.04,591,591,591];
-const EXP_ITEMS=[
- {k:"gmc",n:"GMC annual retention fee",d:"Discounted fee for doctors within 5 years of qualifying; full fee after",amt:g=>g<=3?184:481},
- {k:"bma",n:"BMA membership",d:"Banded by years since qualification; standard rate after year 7",amt:g=>BMA_YEAR[g]},
- {k:"rcoa",n:"Royal College of Anaesthetists",d:"Trainee registration or membership. Estimate: about £200 a year; enter your exact fee",amt:g=>g>=2?200:0},
- {k:"ficm",n:"Faculty of Intensive Care Medicine",d:"From Stage 2. Estimate: about £138 a year. Can reduce your FRCA costs",amt:g=>g>=5?138:0},
- {k:"aoa",n:"Association of Anaesthetists",d:"Enter your subscription",amt:g=>0},
- {k:"mdo",n:"Medical defence organisation",d:"MDU, MPS or MDDUS. Estimates from MDU trainee fees (may have risen with inflation); type in your own",amt:g=>[0,0,0,60,84,139,248,348,348,0][g]}
-];
+/*@@EXP_ITEMS@@*/
 const EXP_DEF=()=>({grade:null,rate:null,on:{gmc:true,bma:false,rcoa:false,ficm:false,aoa:false,mdo:false},own:{},custom:[]});
 let EXP=Object.assign(EXP_DEF(),store.get("pathway-expenses",{}));
 const expGradeGuess=()=>{const cur=ALL[Math.min(currentIndex(),ALL.length-1)];const st=cur?cur.stage.id:"found";return {found:0,core:2,st2:5,st3:7,cons:9}[st]??0};
 const expGrade=()=>EXP.grade!=null?EXP.grade:expGradeGuess();
 const expRate=()=>EXP.rate!=null?EXP.rate:(expGrade()<=1?0.2:0.4);
-const expAmt=(it,g)=>EXP.own[it.k]!=null?Number(EXP.own[it.k]):Math.round(it.amt(g)*100)/100;
+const expAmt=(it,g)=>EXP.own[it.k]!=null?Number(EXP.own[it.k]):Math.round(it.amt[g]*100)/100;
 function examSelfPaid(stage){const ex=EXP.exams||{},eng=EXP.england!==false;let t=0;(EXAMS[stage]||[]).forEach(e=>{const n=Math.max(0,parseInt(ex[e.k])||0);t+=(eng?Math.max(0,n-2):n)*e.f});return t}
 function expTotal(stage){const g=expGrade();let t=examSelfPaid(stage);EXP_ITEMS.forEach(it=>{if(EXP.on[it.k])t+=expAmt(it,g)||0});EXP.custom.forEach(c=>{if(c.on)t+=Number(c.amt)||0});return Math.round(t*100)/100}
 function expSave(){store.set("pathway-expenses",EXP);
@@ -1432,8 +1195,7 @@ function expSave(){store.set("pathway-expenses",EXP);
   const curStage=(ALL[Math.min(currentIndex(),ALL.length-1)]||ALL[0]).stage.id;const tot=String(expTotal(curStage));["2026-27","2027-28"].forEach(y=>{const k="pathway-band-"+y;const cur=store.get(k,null)||{};cur.fees=tot;store.set(k,cur)});
   setTimeout(()=>document.querySelectorAll(".expmount").forEach(drawExp),0)}
 const expGBP=v=>"£"+Number(v||0).toLocaleString("en-GB",{minimumFractionDigits:v%1?2:0,maximumFractionDigits:2});
-const EXAMS={core:[{k:"pmcq",n:"Primary FRCA MCQ",f:420},{k:"posce",n:"Primary FRCA OSCE",f:420},{k:"psoe",n:"Primary FRCA SOE",f:380}],
- st2:[{k:"fwr",n:"Final FRCA Written",f:620},{k:"fsoe",n:"Final FRCA SOE",f:735}]};
+/*@@EXAMS@@*/
 function examHTML(stage){
   const L=EXAMS[stage];if(!L)return "";
   const ex=EXP.exams||{},eng=EXP.england!==false;
@@ -1703,32 +1465,9 @@ function openNews(issue,fromArchive){
 }
 
 // ---- upcoming conferences (checked against organisers' sites, 20 Oct 2026; past events hide themselves) ----
-const EVENTS=[
- {n:"Difficult Airway Society Annual Scientific Meeting",o:"DAS",s:"2026-11-11",e:"2026-11-13",p:"ICC Wales, Newport",uk:1,t:"Airway",u:"https://www.das2026.co.uk/"},
- {n:"Link-Network Meeting",o:"Association of Paediatric Anaesthetists (APAGBI)",s:"2026-11-27",e:"2026-11-27",p:"The Studio, Birmingham",uk:1,t:"Paediatrics",u:"https://www.apagbi.org.uk/events/overview"},
- {n:"Anaesthesia Research 2026",o:"Royal College of Anaesthetists",s:"2026-11-26",e:"2026-11-27",p:"National Oceanography Centre, Southampton",uk:1,t:"Research",u:"https://www.rcoa.ac.uk/events/anaesthesia-research-2026-advancing-science-transforming-care"},
- {n:"Winter Scientific Meeting (WSM)",o:"Association of Anaesthetists",s:"2027-01-14",e:"2027-01-15",p:"ICC Olympia, London, and online",uk:1,t:"General",u:"https://anaesthetists.org/CPD-and-events/Conferences"},
- {n:"ANZCA Annual Scientific Meeting",o:"ANZCA",s:"2027-04-30",e:"2027-05-04",p:"Adelaide Convention Centre, Australia",t:"General",u:"https://www.anzca.edu.au/events-and-courses/2027-anzca-annual-scientific-meeting-(asm)"},
- {n:"Anaesthesia 2027 (annual congress)",o:"Royal College of Anaesthetists",s:"2027-05-12",e:"2027-05-14",p:"ICC Wales, Newport, and online",uk:1,t:"General",u:"https://www.rcoa.ac.uk/events/anaesthesia-2027"},
- {n:"SOAP Annual Meeting",o:"Society for Obstetric Anesthesia and Perinatology",s:"2027-05-20",e:"2027-05-23",p:"Westin Rancho Mirage, Palm Springs, USA",t:"Obstetrics",u:"https://www.soap.org/2027-annual-meeting"},
- {n:"Euroanaesthesia 2027",o:"ESAIC",s:"2027-05-29",e:"2027-05-31",p:"Bella Center, Copenhagen, Denmark",t:"General",u:"https://euroanaesthesia.org/2027/"},
- {n:"APAGBI Annual Scientific Meeting",o:"Association of Paediatric Anaesthetists (APAGBI)",s:"2027-06-23",e:"2027-06-25",p:"Mathematical Institute, Oxford",uk:1,t:"Paediatrics",u:"https://www.apagbi.org.uk/events/overview"},
- {n:"GasFest 2027 (festival of learning)",o:"Association of Anaesthetists",s:"2027-09-22",e:"2027-09-24",p:"ICC Birmingham",uk:1,t:"General",u:"https://anaesthetists.org/CPD-and-events/Conferences"},
- {n:"World Congress of Anaesthesiologists (WCA2028)",o:"WFSA",s:"2028-05-07",e:"2028-05-10",p:"Vancouver, Canada",t:"General",u:"https://wcacongress.org/about-wca2028/"}
-];
-const EVENTS_TBC=[
- {n:"OAA Annual Scientific Meeting 2027",o:"Obstetric Anaesthetists' Association",uk:1,t:"Obstetrics",u:"https://www.oaa-anaes.ac.uk/events/overview"},
- {n:"State of the Art (SOA) congress 2027",o:"Intensive Care Society",uk:1,t:"ICM",u:"https://ics.ac.uk/"},
- {n:"ACTACC Annual Scientific Meeting 2027",o:"Association for Cardiothoracic Anaesthesia and Critical Care",uk:1,t:"Cardiothoracic",u:"https://actacc.org/"},
- {n:"NACCS Annual Scientific Meeting 2027",o:"Neuro Anaesthesia and Critical Care Society",uk:1,t:"Neuro",u:"https://naccs.org.uk/"},
- {n:"ESRA Congress 2027",o:"European Society of Regional Anaesthesia and Pain Therapy",t:"Regional",u:"https://esraeurope.org/"},
- {n:"ESICM LIVES 2027",o:"European Society of Intensive Care Medicine",t:"ICM",u:"https://www.esicm.org/"},
- {n:"ANESTHESIOLOGY 2027",o:"American Society of Anesthesiologists",t:"General",u:"https://www.asahq.org/annualmeeting"}
-];
-const EVENT_CALS=[
- ["RCoA events","https://www.rcoa.ac.uk/events"],["Association of Anaesthetists events","https://anaesthetists.org/CPD-and-events/Conferences"],
- ["ESAIC events","https://www.esaic.org/"],["WFSA regional congresses","https://wfsahq.org/member-focus/about-our-members/regional-sections/regional-congresses/"],
- ["ASA meetings calendar","https://www.asahq.org/meetings/calendar"]];
+/*@@EVENTS@@*/
+/*@@EVENTS_TBC@@*/
+/*@@EVENT_CALS@@*/
 let EVF="all";
 function openEvents(){
   L=null;sheet.className="sheet";sheet.style.cssText=col("c1");showPage();
@@ -1896,93 +1635,15 @@ function openDrugs(){
 // ---- Paediatric drug sheet (weight-based) ----
 // d:[lo,hi] dose per kg; u: unit; max: max single dose (same unit); c: concentration per mL (same unit) with prep label cl
 // neo: per-kg dose for neonates; fn(w,ageM) returns {per,label,fixed} for age-dependent doses; src: "R" = RCUK 2026, otherwise APA 2023 guide
-const PAED_RCUK_WT=[[0,3.5],[1,4],[3,5],[6,7],[12,10],[24,12],[36,14],[48,16],[60,18],[72,20],[84,23],[96,26],[120,30],[144,38],[168,50],[216,70]];
-const PAED_SECS=[
- {s:"Cardiac arrest and emergencies",rows:[
-  {n:"Adrenaline (arrest)",d:[10],u:"µg",max:1000,c:100,cl:"1 in 10,000 (100 µg/mL)",g:"IV/IO every 3–5 min. Also 10 µg/kg for bradycardia",src:"R"},
-  {n:"Amiodarone (shockable arrest)",d:[5],u:"mg",max:300,c:30,cl:"300 mg/10 mL",g:"After 3rd shock; repeat after 5th (max 150 mg)",src:"R"},
-  {n:"Defibrillation",d:[4],u:"J",max:360,g:"Escalate to 8 J/kg (max 360 J) if refractory",src:"R"},
-  {n:"Synchronised cardioversion",d:[1],u:"J",max:360,g:"Then 2 J/kg, then 4 J/kg",src:"R"},
-  {n:"Atropine",d:[20],u:"µg",max:600,c:100,cl:"100 µg/mL (600 µg diluted to 6 mL)",g:"10–20 µg/kg for bradycardia"},
-  {n:"Adenosine, first dose",u:"µg",max:12000,c:3000,cl:"3 mg/mL",fn:(w,m)=>m==null?{per:[100,150],label:"100 µg/kg (1–11 years); 150 µg/kg (under 1 year)"}:m<12?{per:[150],label:"150 µg/kg under 1 year"}:m<144?{per:[100],label:"100 µg/kg, 1–11 years"}:{fixed:3000,label:"3 mg, 12–17 years"},
-   g:"Rapid bolus with flush. Increase by 50–100 µg/kg every 1–2 min (12–17 years: 6 mg then 12 mg). Max single dose 500 µg/kg (300 µg/kg neonates), max 12 mg"},
-  {n:"Glucose 10% (hypoglycaemia)",d:[2],u:"mL",neo:2.5,g:"Glucose under 3 mmol/L. Recheck after 5–10 min",src:"R"},
-  {n:"Fluid bolus",d:[10],u:"mL",max:500,g:"Balanced crystalloid; reassess after each; up to 60 mL/kg in sepsis"},
-  {n:"Calcium chloride 10%",d:[0.2],u:"mL",max:10,g:"Slow IV, central or large vein"},
-  {n:"Calcium gluconate 10%",d:[0.5],u:"mL",max:30,g:"IV over 5–10 min",src:"R"},
-  {n:"Magnesium (torsades)",d:[25,50],u:"mg",max:2000,g:"Over 15–20 min"},
-  {n:"Sodium chloride 3%",d:[3],u:"mL",g:"Symptomatic hyponatraemia or raised ICP",src:"R"},
-  {n:"Lipid emulsion 20%, bolus",d:[1.5],u:"mL",g:"Over 1 min; then 15 mL/kg/h; max 12 mL/kg in total (Association of Anaesthetists)"},
-  {n:"Hydrocortisone (adrenal crisis)",d:[2],u:"mg",max:100,g:"IV"}]},
- {s:"Induction and airway",rows:[
-  {n:"Propofol",d:[2,5],u:"mg",c:10,cl:"1% (10 mg/mL)",g:"Titrate; less if unwell"},
-  {n:"Ketamine IV",d:[1,2],u:"mg",c:10,cl:"10 mg/mL (diluted)",g:"Lasts 5–10 min"},
-  {n:"Ketamine IM",d:[5,10],u:"mg",c:50,cl:"50 mg/mL",g:"Onset 3–5 min; lasts 15–30 min"},
-  {n:"Thiopental",d:[5,7],u:"mg",c:25,cl:"2.5% (25 mg/mL)",g:"Neonates 2–4 mg/kg"},
-  {n:"Fentanyl",d:[1,2],u:"µg",c:10,cl:"10 µg/mL (diluted)",g:"Usually 1 µg/kg at induction; up to 2–4 µg/kg"},
-  {n:"Alfentanil",d:[10,20],u:"µg",c:100,cl:"100 µg/mL (diluted)",g:"IV"},
-  {n:"Suxamethonium",d:[2],u:"mg",neo:3,max:150,c:50,cl:"50 mg/mL",g:"3 mg/kg in neonates; IM 4 mg/kg"},
-  {n:"Suxamethonium (laryngospasm) IV",d:[1,2],u:"mg",max:150,c:50,cl:"50 mg/mL",g:"If laryngospasm persists despite CPAP and deepening; give with atropine"},
-  {n:"Suxamethonium (laryngospasm) IM",d:[2,4],u:"mg",max:150,c:50,cl:"50 mg/mL",g:"If there is no IV access"},
-  {n:"Rocuronium",d:[0.6,1],u:"mg",c:10,cl:"10 mg/mL",g:"1 mg/kg for RSI"},
-  {n:"Atracurium",d:[0.5],u:"mg",c:10,cl:"10 mg/mL",g:"IV"},
-  {n:"Glycopyrronium",d:[10],u:"µg",max:400,c:200,cl:"200 µg/mL",g:"IV"}]},
- {s:"Analgesia and PONV",rows:[
-  {n:"Paracetamol IV",par:1,u:"mg",c:10,cl:"10 mg/mL",g:"Every 6 h. Neonates max 30 mg/kg/day"},
-  {n:"Paracetamol oral",d:[15],u:"mg",max:1000,g:"Every 6 h (20 mg/kg oral loading dose is sometimes used)"},
-  {n:"Ibuprofen oral",d:[5,10],u:"mg",max:400,g:"Every 6 h. Not under 3 months or 5 kg"},
-  {n:"Diclofenac",d:[1],u:"mg",max:50,g:"Oral or IV every 8 h; PR 1–2 mg/kg. Max 3 mg/kg/day. Not under 3 months or 5 kg"},
-  {n:"Morphine IV",d:[0.1],u:"mg",max:10,c:1,cl:"1 mg/mL (10 mg in 10 mL)",g:"Titrate in increments"},
-  {n:"Fentanyl intranasal",d:[1.5],u:"µg",max:100,g:"Split between nostrils"},
-  {n:"Clonidine IV",d:[1,2],u:"µg",g:"Watch for sedation and bradycardia"},
-  {n:"Ondansetron",d:[0.15],u:"mg",max:4,c:2,cl:"2 mg/mL",g:"Every 8 h"},
-  {n:"Dexamethasone (PONV)",d:[0.15],u:"mg",max:6.6,c:3.3,cl:"3.3 mg/mL",g:"IV"},
-  {n:"Cyclizine",d:[1],u:"mg",max:50,g:"Every 8 h"}]},
- {s:"Reversal",rows:[
-  {n:"Neostigmine with glycopyrronium (premixed)",d:[0.1],u:"mL",max:5,g:"One ampoule (2.5 mg neostigmine + 500 µg glycopyrronium) diluted to 5 mL; gives 50 µg/kg neostigmine and 10 µg/kg glycopyrronium"},
-  {n:"Sugammadex",d:[2,4],u:"mg",c:100,cl:"100 mg/mL",g:"2 mg/kg moderate block, 4 mg/kg deep"},
-  {n:"Naloxone",d:[1,4],u:"µg",g:"Titrated for opioid side effects"},
-  {n:"Naloxone, overdose",d:[100],u:"µg",max:2000,g:"IV",src:"R"},
-  {n:"Flumazenil",d:[10],u:"µg",max:200,g:"Repeat every minute; max 1 mg in total"}]},
- {s:"Local anaesthetics (maximum doses)",rows:[
-  {n:"Bupivacaine or levobupivacaine",d:[2],u:"mg",c:2.5,cl:"0.25% (2.5 mg/mL)",g:"Max 2 mg/kg in the APA guide (2.5 mg/kg in some other guidance)"},
-  {n:"Lidocaine, plain",d:[3],u:"mg",c:10,cl:"1% (10 mg/mL)",g:"7 mg/kg with adrenaline"},
-  {n:"Ropivacaine",d:[3],u:"mg",c:2,cl:"0.2% (2 mg/mL)",g:"Single shot"},
-  {n:"Caudal, sacral block",d:[0.5],u:"mL",g:"Of 0.25% bupivacaine or weaker"},
-  {n:"Caudal, lumbar block",d:[1],u:"mL",g:"1 mL/kg of 0.25% is 2.5 mg/kg, above 2 mg/kg: use a weaker solution"},
-  {n:"Caudal, lower thoracic block",d:[1.25],u:"mL",g:"Use a weaker solution to stay within the maximum dose"},
-  {n:"Clonidine (caudal adjunct)",d:[1],u:"µg",g:"Added to the caudal"}]},
- {s:"Seizures",rows:[
-  {n:"Midazolam buccal",d:[0.3,0.5],u:"mg",max:10,g:"Or intranasal 0.2 mg/kg"},
-  {n:"Midazolam IV/IO",d:[0.15],u:"mg",max:10,g:"Also as the second benzodiazepine",src:"R"},
-  {n:"Lorazepam IV/IO",d:[0.1],u:"mg",max:4,g:"No more than 2 benzodiazepine doses"},
-  {n:"Levetiracetam IV",d:[40,60],u:"mg",max:4500,g:"Over 5 min. The APA guide gives 30–60 mg/kg (max 3 g)",src:"R"},
-  {n:"Phenytoin IV",d:[20],u:"mg",max:1500,g:"Over 20 min, ECG monitored"},
-  {n:"Phenobarbital IV",d:[20],u:"mg",max:1000,g:"Over 20 min"}]},
- {s:"Asthma and airway",rows:[
-  {n:"Salbutamol nebulised",fn:(w,m)=>m==null?{label:"2.5 mg under 5 years; 5 mg over 5"}:{fixed:m<60?2.5:5,label:m<60?"Under 5 years":"5 years and over"},u:"mg",g:"Every 20 min for 2 h with ipratropium (125 µg under 2 years, 250 µg over)"},
-  {n:"Salbutamol IV bolus",fn:(w,m)=>m==null?{per:[5,15],label:"5 µg/kg under 2 years; 15 µg/kg over 2"}:{per:[m<24?5:15],label:(m<24?"5":"15")+" µg/kg"+(m<24?", under 2 years":", 2 years and over")},u:"µg",max:250,g:"Over 5 min; then 1–5 µg/kg/min"},
-  {n:"Magnesium sulphate",d:[25,40],u:"mg",max:2000,g:"Over 20 min"},
-  {n:"Aminophylline loading",d:[5],u:"mg",g:"Over 20 min, then 1 mg/kg/h. Omit loading if on oral theophylline"},
-  {n:"Hydrocortisone (asthma)",d:[4],u:"mg",max:100,g:"IV every 4 h"},
-  {n:"Prednisolone oral",d:[1],u:"mg",max:40,g:"Asthma"},
-  {n:"Nebulised adrenaline (croup)",d:[400],u:"µg",max:5000,g:"Of 1 in 1,000 (1 mg/mL)"},
-  {n:"Dexamethasone (croup)",d:[0.15,0.25],u:"mg",g:"Oral 0.15 mg/kg; IV 0.25 mg/kg in the APA guide"}]},
- {s:"Premedication",note:"Doses from your Paediatric Premedication note.",rows:[
-  {n:"Midazolam oral",d:[0.5],u:"mg",max:20,g:"Onset 20–30 min; lasts 45–60 min"},
-  {n:"Midazolam intranasal",d:[0.2,0.3],u:"mg",g:"Stings"},
-  {n:"Midazolam buccal",d:[0.3],u:"mg",g:"Premedication"},
-  {n:"Ketamine oral",d:[5,10],u:"mg",g:"Onset 30–60 min; lasts 1–3 h"},
-  {n:"Ketamine intranasal",d:[3,5],u:"mg",g:"Onset 30–60 min"},
-  {n:"Ketamine IM",d:[2,5],u:"mg",g:"For the uncooperative child"},
-  {n:"Dexmedetomidine intranasal",d:[1,2],u:"µg",g:"Onset about 25 min"},
-  {n:"Clonidine oral",d:[4],u:"µg",max:200,g:"Onset 45–60 min; lasts 45–90 min"}]},
- {s:"Infusions",rows:[
-  {n:"Adrenaline infusion",d:[0.05,0.3],u:"µg/min",g:"Sepsis and shock"},
-  {n:"Noradrenaline infusion",d:[0.05,1],u:"µg/min",g:"Start at 0.05 µg/kg/min"},
-  {n:"Remifentanil",d:[0.25,0.5],u:"µg/min",g:"Bolus 0.1–1 µg/kg if needed"},
-  {n:"Tranexamic acid, bolus",d:[15],u:"mg",max:1000,g:"Major haemorrhage; then 2 mg/kg/h"}]}
-];
+/*@@PAED_RCUK_WT@@*/
+/*@@PAED_SECS@@*/
+// Age-dependent paediatric dose rules; a row in PAED_SECS.json names its rule in "fn". fn(w,ageM) returns {per,label,fixed}.
+const PAED_RULES={
+ adenosine:(w,m)=>m==null?{per:[100,150],label:"100 µg/kg (1–11 years); 150 µg/kg (under 1 year)"}:m<12?{per:[150],label:"150 µg/kg under 1 year"}:m<144?{per:[100],label:"100 µg/kg, 1–11 years"}:{fixed:3000,label:"3 mg, 12–17 years"},
+ salbutamolNeb:(w,m)=>m==null?{label:"2.5 mg under 5 years; 5 mg over 5"}:{fixed:m<60?2.5:5,label:m<60?"Under 5 years":"5 years and over"},
+ salbutamolIV:(w,m)=>m==null?{per:[5,15],label:"5 µg/kg under 2 years; 15 µg/kg over 2"}:{per:[m<24?5:15],label:(m<24?"5":"15")+" µg/kg"+(m<24?", under 2 years":", 2 years and over")}
+};
+PAED_SECS.forEach(s=>s.rows.forEach(r=>{if(typeof r.fn==="string")r.fn=PAED_RULES[r.fn]}));
 function paedWeightFromAge(m){const T=PAED_RCUK_WT;if(m<=0)return T[0][1];for(let i=1;i<T.length;i++)if(m<=T[i][0]){const[a,wa]=T[i-1],[b,wb]=T[i];return wa+(wb-wa)*(m-a)/(b-a)}return 70}
 function paedFmt(x){if(x>=100)return String(Math.round(x));if(x>=10)return String(Math.round(x*10)/10);if(x>=1)return String(Math.round(x*100)/100);return String(Math.round(x*1000)/1000)}
 function paedUnit(v,u){if(u==="µg"&&v>=1000)return[v/1000,"mg"];if(u==="mg"&&v>=1000)return[v/1000,"g"];return[v,u]}

@@ -1,0 +1,758 @@
+[
+ {
+  "s": "Cardiac arrest and emergencies",
+  "rows": [
+   {
+    "n": "Adrenaline (arrest)",
+    "d": [
+     10
+    ],
+    "u": "µg",
+    "max": 1000,
+    "c": 100,
+    "cl": "1 in 10,000 (100 µg/mL)",
+    "g": "IV/IO every 3–5 min. Also 10 µg/kg for bradycardia",
+    "src": "R"
+   },
+   {
+    "n": "Amiodarone (shockable arrest)",
+    "d": [
+     5
+    ],
+    "u": "mg",
+    "max": 300,
+    "c": 30,
+    "cl": "300 mg/10 mL",
+    "g": "After 3rd shock; repeat after 5th (max 150 mg)",
+    "src": "R"
+   },
+   {
+    "n": "Defibrillation",
+    "d": [
+     4
+    ],
+    "u": "J",
+    "max": 360,
+    "g": "Escalate to 8 J/kg (max 360 J) if refractory",
+    "src": "R"
+   },
+   {
+    "n": "Synchronised cardioversion",
+    "d": [
+     1
+    ],
+    "u": "J",
+    "max": 360,
+    "g": "Then 2 J/kg, then 4 J/kg",
+    "src": "R"
+   },
+   {
+    "n": "Atropine",
+    "d": [
+     20
+    ],
+    "u": "µg",
+    "max": 600,
+    "c": 100,
+    "cl": "100 µg/mL (600 µg diluted to 6 mL)",
+    "g": "10–20 µg/kg for bradycardia"
+   },
+   {
+    "n": "Adenosine, first dose",
+    "u": "µg",
+    "max": 12000,
+    "c": 3000,
+    "cl": "3 mg/mL",
+    "fn": "adenosine",
+    "g": "Rapid bolus with flush. Increase by 50–100 µg/kg every 1–2 min (12–17 years: 6 mg then 12 mg). Max single dose 500 µg/kg (300 µg/kg neonates), max 12 mg"
+   },
+   {
+    "n": "Glucose 10% (hypoglycaemia)",
+    "d": [
+     2
+    ],
+    "u": "mL",
+    "neo": 2.5,
+    "g": "Glucose under 3 mmol/L. Recheck after 5–10 min",
+    "src": "R"
+   },
+   {
+    "n": "Fluid bolus",
+    "d": [
+     10
+    ],
+    "u": "mL",
+    "max": 500,
+    "g": "Balanced crystalloid; reassess after each; up to 60 mL/kg in sepsis"
+   },
+   {
+    "n": "Calcium chloride 10%",
+    "d": [
+     0.2
+    ],
+    "u": "mL",
+    "max": 10,
+    "g": "Slow IV, central or large vein"
+   },
+   {
+    "n": "Calcium gluconate 10%",
+    "d": [
+     0.5
+    ],
+    "u": "mL",
+    "max": 30,
+    "g": "IV over 5–10 min",
+    "src": "R"
+   },
+   {
+    "n": "Magnesium (torsades)",
+    "d": [
+     25,
+     50
+    ],
+    "u": "mg",
+    "max": 2000,
+    "g": "Over 15–20 min"
+   },
+   {
+    "n": "Sodium chloride 3%",
+    "d": [
+     3
+    ],
+    "u": "mL",
+    "g": "Symptomatic hyponatraemia or raised ICP",
+    "src": "R"
+   },
+   {
+    "n": "Lipid emulsion 20%, bolus",
+    "d": [
+     1.5
+    ],
+    "u": "mL",
+    "g": "Over 1 min; then 15 mL/kg/h; max 12 mL/kg in total (Association of Anaesthetists)"
+   },
+   {
+    "n": "Hydrocortisone (adrenal crisis)",
+    "d": [
+     2
+    ],
+    "u": "mg",
+    "max": 100,
+    "g": "IV"
+   }
+  ]
+ },
+ {
+  "s": "Induction and airway",
+  "rows": [
+   {
+    "n": "Propofol",
+    "d": [
+     2,
+     5
+    ],
+    "u": "mg",
+    "c": 10,
+    "cl": "1% (10 mg/mL)",
+    "g": "Titrate; less if unwell"
+   },
+   {
+    "n": "Ketamine IV",
+    "d": [
+     1,
+     2
+    ],
+    "u": "mg",
+    "c": 10,
+    "cl": "10 mg/mL (diluted)",
+    "g": "Lasts 5–10 min"
+   },
+   {
+    "n": "Ketamine IM",
+    "d": [
+     5,
+     10
+    ],
+    "u": "mg",
+    "c": 50,
+    "cl": "50 mg/mL",
+    "g": "Onset 3–5 min; lasts 15–30 min"
+   },
+   {
+    "n": "Thiopental",
+    "d": [
+     5,
+     7
+    ],
+    "u": "mg",
+    "c": 25,
+    "cl": "2.5% (25 mg/mL)",
+    "g": "Neonates 2–4 mg/kg"
+   },
+   {
+    "n": "Fentanyl",
+    "d": [
+     1,
+     2
+    ],
+    "u": "µg",
+    "c": 10,
+    "cl": "10 µg/mL (diluted)",
+    "g": "Usually 1 µg/kg at induction; up to 2–4 µg/kg"
+   },
+   {
+    "n": "Alfentanil",
+    "d": [
+     10,
+     20
+    ],
+    "u": "µg",
+    "c": 100,
+    "cl": "100 µg/mL (diluted)",
+    "g": "IV"
+   },
+   {
+    "n": "Suxamethonium",
+    "d": [
+     2
+    ],
+    "u": "mg",
+    "neo": 3,
+    "max": 150,
+    "c": 50,
+    "cl": "50 mg/mL",
+    "g": "3 mg/kg in neonates; IM 4 mg/kg"
+   },
+   {
+    "n": "Suxamethonium (laryngospasm) IV",
+    "d": [
+     1,
+     2
+    ],
+    "u": "mg",
+    "max": 150,
+    "c": 50,
+    "cl": "50 mg/mL",
+    "g": "If laryngospasm persists despite CPAP and deepening; give with atropine"
+   },
+   {
+    "n": "Suxamethonium (laryngospasm) IM",
+    "d": [
+     2,
+     4
+    ],
+    "u": "mg",
+    "max": 150,
+    "c": 50,
+    "cl": "50 mg/mL",
+    "g": "If there is no IV access"
+   },
+   {
+    "n": "Rocuronium",
+    "d": [
+     0.6,
+     1
+    ],
+    "u": "mg",
+    "c": 10,
+    "cl": "10 mg/mL",
+    "g": "1 mg/kg for RSI"
+   },
+   {
+    "n": "Atracurium",
+    "d": [
+     0.5
+    ],
+    "u": "mg",
+    "c": 10,
+    "cl": "10 mg/mL",
+    "g": "IV"
+   },
+   {
+    "n": "Glycopyrronium",
+    "d": [
+     10
+    ],
+    "u": "µg",
+    "max": 400,
+    "c": 200,
+    "cl": "200 µg/mL",
+    "g": "IV"
+   }
+  ]
+ },
+ {
+  "s": "Analgesia and PONV",
+  "rows": [
+   {
+    "n": "Paracetamol IV",
+    "par": 1,
+    "u": "mg",
+    "c": 10,
+    "cl": "10 mg/mL",
+    "g": "Every 6 h. Neonates max 30 mg/kg/day"
+   },
+   {
+    "n": "Paracetamol oral",
+    "d": [
+     15
+    ],
+    "u": "mg",
+    "max": 1000,
+    "g": "Every 6 h (20 mg/kg oral loading dose is sometimes used)"
+   },
+   {
+    "n": "Ibuprofen oral",
+    "d": [
+     5,
+     10
+    ],
+    "u": "mg",
+    "max": 400,
+    "g": "Every 6 h. Not under 3 months or 5 kg"
+   },
+   {
+    "n": "Diclofenac",
+    "d": [
+     1
+    ],
+    "u": "mg",
+    "max": 50,
+    "g": "Oral or IV every 8 h; PR 1–2 mg/kg. Max 3 mg/kg/day. Not under 3 months or 5 kg"
+   },
+   {
+    "n": "Morphine IV",
+    "d": [
+     0.1
+    ],
+    "u": "mg",
+    "max": 10,
+    "c": 1,
+    "cl": "1 mg/mL (10 mg in 10 mL)",
+    "g": "Titrate in increments"
+   },
+   {
+    "n": "Fentanyl intranasal",
+    "d": [
+     1.5
+    ],
+    "u": "µg",
+    "max": 100,
+    "g": "Split between nostrils"
+   },
+   {
+    "n": "Clonidine IV",
+    "d": [
+     1,
+     2
+    ],
+    "u": "µg",
+    "g": "Watch for sedation and bradycardia"
+   },
+   {
+    "n": "Ondansetron",
+    "d": [
+     0.15
+    ],
+    "u": "mg",
+    "max": 4,
+    "c": 2,
+    "cl": "2 mg/mL",
+    "g": "Every 8 h"
+   },
+   {
+    "n": "Dexamethasone (PONV)",
+    "d": [
+     0.15
+    ],
+    "u": "mg",
+    "max": 6.6,
+    "c": 3.3,
+    "cl": "3.3 mg/mL",
+    "g": "IV"
+   },
+   {
+    "n": "Cyclizine",
+    "d": [
+     1
+    ],
+    "u": "mg",
+    "max": 50,
+    "g": "Every 8 h"
+   }
+  ]
+ },
+ {
+  "s": "Reversal",
+  "rows": [
+   {
+    "n": "Neostigmine with glycopyrronium (premixed)",
+    "d": [
+     0.1
+    ],
+    "u": "mL",
+    "max": 5,
+    "g": "One ampoule (2.5 mg neostigmine + 500 µg glycopyrronium) diluted to 5 mL; gives 50 µg/kg neostigmine and 10 µg/kg glycopyrronium"
+   },
+   {
+    "n": "Sugammadex",
+    "d": [
+     2,
+     4
+    ],
+    "u": "mg",
+    "c": 100,
+    "cl": "100 mg/mL",
+    "g": "2 mg/kg moderate block, 4 mg/kg deep"
+   },
+   {
+    "n": "Naloxone",
+    "d": [
+     1,
+     4
+    ],
+    "u": "µg",
+    "g": "Titrated for opioid side effects"
+   },
+   {
+    "n": "Naloxone, overdose",
+    "d": [
+     100
+    ],
+    "u": "µg",
+    "max": 2000,
+    "g": "IV",
+    "src": "R"
+   },
+   {
+    "n": "Flumazenil",
+    "d": [
+     10
+    ],
+    "u": "µg",
+    "max": 200,
+    "g": "Repeat every minute; max 1 mg in total"
+   }
+  ]
+ },
+ {
+  "s": "Local anaesthetics (maximum doses)",
+  "rows": [
+   {
+    "n": "Bupivacaine or levobupivacaine",
+    "d": [
+     2
+    ],
+    "u": "mg",
+    "c": 2.5,
+    "cl": "0.25% (2.5 mg/mL)",
+    "g": "Max 2 mg/kg in the APA guide (2.5 mg/kg in some other guidance)"
+   },
+   {
+    "n": "Lidocaine, plain",
+    "d": [
+     3
+    ],
+    "u": "mg",
+    "c": 10,
+    "cl": "1% (10 mg/mL)",
+    "g": "7 mg/kg with adrenaline"
+   },
+   {
+    "n": "Ropivacaine",
+    "d": [
+     3
+    ],
+    "u": "mg",
+    "c": 2,
+    "cl": "0.2% (2 mg/mL)",
+    "g": "Single shot"
+   },
+   {
+    "n": "Caudal, sacral block",
+    "d": [
+     0.5
+    ],
+    "u": "mL",
+    "g": "Of 0.25% bupivacaine or weaker"
+   },
+   {
+    "n": "Caudal, lumbar block",
+    "d": [
+     1
+    ],
+    "u": "mL",
+    "g": "1 mL/kg of 0.25% is 2.5 mg/kg, above 2 mg/kg: use a weaker solution"
+   },
+   {
+    "n": "Caudal, lower thoracic block",
+    "d": [
+     1.25
+    ],
+    "u": "mL",
+    "g": "Use a weaker solution to stay within the maximum dose"
+   },
+   {
+    "n": "Clonidine (caudal adjunct)",
+    "d": [
+     1
+    ],
+    "u": "µg",
+    "g": "Added to the caudal"
+   }
+  ]
+ },
+ {
+  "s": "Seizures",
+  "rows": [
+   {
+    "n": "Midazolam buccal",
+    "d": [
+     0.3,
+     0.5
+    ],
+    "u": "mg",
+    "max": 10,
+    "g": "Or intranasal 0.2 mg/kg"
+   },
+   {
+    "n": "Midazolam IV/IO",
+    "d": [
+     0.15
+    ],
+    "u": "mg",
+    "max": 10,
+    "g": "Also as the second benzodiazepine",
+    "src": "R"
+   },
+   {
+    "n": "Lorazepam IV/IO",
+    "d": [
+     0.1
+    ],
+    "u": "mg",
+    "max": 4,
+    "g": "No more than 2 benzodiazepine doses"
+   },
+   {
+    "n": "Levetiracetam IV",
+    "d": [
+     40,
+     60
+    ],
+    "u": "mg",
+    "max": 4500,
+    "g": "Over 5 min. The APA guide gives 30–60 mg/kg (max 3 g)",
+    "src": "R"
+   },
+   {
+    "n": "Phenytoin IV",
+    "d": [
+     20
+    ],
+    "u": "mg",
+    "max": 1500,
+    "g": "Over 20 min, ECG monitored"
+   },
+   {
+    "n": "Phenobarbital IV",
+    "d": [
+     20
+    ],
+    "u": "mg",
+    "max": 1000,
+    "g": "Over 20 min"
+   }
+  ]
+ },
+ {
+  "s": "Asthma and airway",
+  "rows": [
+   {
+    "n": "Salbutamol nebulised",
+    "fn": "salbutamolNeb",
+    "u": "mg",
+    "g": "Every 20 min for 2 h with ipratropium (125 µg under 2 years, 250 µg over)"
+   },
+   {
+    "n": "Salbutamol IV bolus",
+    "fn": "salbutamolIV",
+    "u": "µg",
+    "max": 250,
+    "g": "Over 5 min; then 1–5 µg/kg/min"
+   },
+   {
+    "n": "Magnesium sulphate",
+    "d": [
+     25,
+     40
+    ],
+    "u": "mg",
+    "max": 2000,
+    "g": "Over 20 min"
+   },
+   {
+    "n": "Aminophylline loading",
+    "d": [
+     5
+    ],
+    "u": "mg",
+    "g": "Over 20 min, then 1 mg/kg/h. Omit loading if on oral theophylline"
+   },
+   {
+    "n": "Hydrocortisone (asthma)",
+    "d": [
+     4
+    ],
+    "u": "mg",
+    "max": 100,
+    "g": "IV every 4 h"
+   },
+   {
+    "n": "Prednisolone oral",
+    "d": [
+     1
+    ],
+    "u": "mg",
+    "max": 40,
+    "g": "Asthma"
+   },
+   {
+    "n": "Nebulised adrenaline (croup)",
+    "d": [
+     400
+    ],
+    "u": "µg",
+    "max": 5000,
+    "g": "Of 1 in 1,000 (1 mg/mL)"
+   },
+   {
+    "n": "Dexamethasone (croup)",
+    "d": [
+     0.15,
+     0.25
+    ],
+    "u": "mg",
+    "g": "Oral 0.15 mg/kg; IV 0.25 mg/kg in the APA guide"
+   }
+  ]
+ },
+ {
+  "s": "Premedication",
+  "note": "Doses from your Paediatric Premedication note.",
+  "rows": [
+   {
+    "n": "Midazolam oral",
+    "d": [
+     0.5
+    ],
+    "u": "mg",
+    "max": 20,
+    "g": "Onset 20–30 min; lasts 45–60 min"
+   },
+   {
+    "n": "Midazolam intranasal",
+    "d": [
+     0.2,
+     0.3
+    ],
+    "u": "mg",
+    "g": "Stings"
+   },
+   {
+    "n": "Midazolam buccal",
+    "d": [
+     0.3
+    ],
+    "u": "mg",
+    "g": "Premedication"
+   },
+   {
+    "n": "Ketamine oral",
+    "d": [
+     5,
+     10
+    ],
+    "u": "mg",
+    "g": "Onset 30–60 min; lasts 1–3 h"
+   },
+   {
+    "n": "Ketamine intranasal",
+    "d": [
+     3,
+     5
+    ],
+    "u": "mg",
+    "g": "Onset 30–60 min"
+   },
+   {
+    "n": "Ketamine IM",
+    "d": [
+     2,
+     5
+    ],
+    "u": "mg",
+    "g": "For the uncooperative child"
+   },
+   {
+    "n": "Dexmedetomidine intranasal",
+    "d": [
+     1,
+     2
+    ],
+    "u": "µg",
+    "g": "Onset about 25 min"
+   },
+   {
+    "n": "Clonidine oral",
+    "d": [
+     4
+    ],
+    "u": "µg",
+    "max": 200,
+    "g": "Onset 45–60 min; lasts 45–90 min"
+   }
+  ]
+ },
+ {
+  "s": "Infusions",
+  "rows": [
+   {
+    "n": "Adrenaline infusion",
+    "d": [
+     0.05,
+     0.3
+    ],
+    "u": "µg/min",
+    "g": "Sepsis and shock"
+   },
+   {
+    "n": "Noradrenaline infusion",
+    "d": [
+     0.05,
+     1
+    ],
+    "u": "µg/min",
+    "g": "Start at 0.05 µg/kg/min"
+   },
+   {
+    "n": "Remifentanil",
+    "d": [
+     0.25,
+     0.5
+    ],
+    "u": "µg/min",
+    "g": "Bolus 0.1–1 µg/kg if needed"
+   },
+   {
+    "n": "Tranexamic acid, bolus",
+    "d": [
+     15
+    ],
+    "u": "mg",
+    "max": 1000,
+    "g": "Major haemorrhage; then 2 mg/kg/h"
+   }
+  ]
+ }
+]

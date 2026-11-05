@@ -1,0 +1,104 @@
+[
+ {
+  "k": "gmc",
+  "n": "GMC annual retention fee",
+  "d": "Discounted fee for doctors within 5 years of qualifying; full fee after",
+  "amt": [
+   184,
+   184,
+   184,
+   184,
+   481,
+   481,
+   481,
+   481,
+   481,
+   481
+  ]
+ },
+ {
+  "k": "bma",
+  "n": "BMA membership",
+  "d": "Banded by years since qualification; standard rate after year 7",
+  "amt": [
+   165.96,
+   291.96,
+   291.96,
+   291.96,
+   419.04,
+   419.04,
+   419.04,
+   591,
+   591,
+   591
+  ]
+ },
+ {
+  "k": "rcoa",
+  "n": "Royal College of Anaesthetists",
+  "d": "Trainee registration or membership. Estimate: about £200 a year; enter your exact fee",
+  "amt": [
+   0,
+   0,
+   200,
+   200,
+   200,
+   200,
+   200,
+   200,
+   200,
+   200
+  ]
+ },
+ {
+  "k": "ficm",
+  "n": "Faculty of Intensive Care Medicine",
+  "d": "From Stage 2. Estimate: about £138 a year. Can reduce your FRCA costs",
+  "amt": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   138,
+   138,
+   138,
+   138,
+   138
+  ]
+ },
+ {
+  "k": "aoa",
+  "n": "Association of Anaesthetists",
+  "d": "Enter your subscription",
+  "amt": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ]
+ },
+ {
+  "k": "mdo",
+  "n": "Medical defence organisation",
+  "d": "MDU, MPS or MDDUS. Estimates from MDU trainee fees (may have risen with inflation); type in your own",
+  "amt": [
+   0,
+   0,
+   0,
+   60,
+   84,
+   139,
+   248,
+   348,
+   348,
+   0
+  ]
+ }
+]

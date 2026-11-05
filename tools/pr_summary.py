@@ -37,7 +37,7 @@ def workstream(path):
     if p[1] == 'primary' or path.startswith('content/sba/primary/'): return 2
     if path.startswith('content/sba/final/'): return 4
     if p[1] in ('recipes', 'wpba'): return 5
-    if path == 'content/data/CURRIC_KC.json': return 6
+    if re.match(r'content/data/(CURRIC|ARCP)_', path): return 6
     return 8
 
 def git(*args): return subprocess.run(['git', *args], capture_output=True, text=True, check=True).stdout

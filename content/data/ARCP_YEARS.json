@@ -1,0 +1,1104 @@
+[
+ {
+  "y": "CT1",
+  "st": "core",
+  "lead": "Stage 1, year 1. The key goal is the IAC.",
+  "groups": [
+   {
+    "h": "Initial Assessment of Competence (IAC)",
+    "note": "Usually within 3–6 months. You need it to move from CT1 to CT2. It covers EPA 1 (pre-operative assessment) and EPA 2 (general anaesthesia for ASA 1–2 patients having uncomplicated surgery).",
+    "items": [
+     [
+      "iac1",
+      "Novice skills and drills in the first 3 months",
+      "Including the Quick Reference Handbook \"unknowns\"."
+     ],
+     [
+      "iac2",
+      "Failed intubation drill on a manikin (DAS guidelines)",
+      "Shown individually and signed off by a faculty member who can sign off the IAC."
+     ],
+     [
+      "iac3",
+      "An SLE for every capability in each cluster",
+      "EPA 1 has one cluster. EPA 2 has four: pre-op preparation, intra-op care, post-op care, and emergencies and simulation. All must reach supervision level 2B."
+     ],
+     [
+      "iac4",
+      "Logbook showing core airway skills",
+      "Mask ventilation, supraglottic airways, intubation with direct and video laryngoscopy, and rapid sequence induction, across elective and emergency cases."
+     ],
+     [
+      "iac5",
+      "IAC MTR from at least 3 consultants",
+      ""
+     ],
+     [
+      "iac6",
+      "Personal activities and reflections",
+      ""
+     ],
+     [
+      "iac7",
+      "IAC signed off",
+      "By at least 3 faculty members, with your ES and College Tutor as signatories."
+     ]
+    ]
+   },
+   {
+    "h": "Rest of the year",
+    "items": [
+     [
+      "ct1a",
+      "Progress with Stage 1 key capabilities in all 14 domains",
+      "SLEs, personal activities and reflections across the generic and clinical domains."
+     ],
+     [
+      "ct1b",
+      "Start working towards the Primary FRCA",
+      ""
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "y": "CT2",
+  "st": "core",
+  "lead": "Stage 1, year 2. The key goal is the IACOA.",
+  "groups": [
+   {
+    "h": "Initial Assessment of Competence in Obstetric Anaesthesia (IACOA)",
+    "note": "At least 3 months, usually starting after a year of anaesthesia, and it must be done by the end of 2 years of anaesthetic training. It covers EPA 3 (labour analgesia) and EPA 4 (anaesthesia for ASA 1–2 obstetric surgery, including category 1–3 caesarean section).",
+    "items": [
+     [
+      "ia1",
+      "Obstetric emergencies and GA for caesarean section in simulation",
+      "Including a failed intubation drill on a manikin, signed off by a faculty member who can sign off the IACOA."
+     ],
+     [
+      "ia2",
+      "An SLE for every capability in each cluster",
+      "All clusters must reach supervision level 3 (consultant available by phone or able to attend)."
+     ],
+     [
+      "ia3",
+      "Logbook showing spinals, epidurals and obstetric airway management",
+      "On labour ward, in obstetric theatres and on the antenatal and postnatal wards."
+     ],
+     [
+      "ia4",
+      "IACOA MTR from at least 3 consultants",
+      ""
+     ],
+     [
+      "ia5",
+      "Personal activities and reflections",
+      ""
+     ],
+     [
+      "ia6",
+      "IACOA signed off",
+      "By at least 3 faculty members, with 2 obstetric trainers as signatories."
+     ]
+    ]
+   },
+   {
+    "h": "Rest of the year",
+    "items": [
+     [
+      "ct2a",
+      "Evidence in every Stage 1 domain",
+      "Intensive care can wait if you haven't done it yet."
+     ],
+     [
+      "ct2b",
+      "Early HALOs where ready",
+      "Some, such as procedural sedation, can be approved in CT2."
+     ],
+     [
+      "ct2c",
+      "Primary FRCA attempts planned or under way",
+      ""
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "y": "CT3",
+  "st": "core",
+  "lead": "End of Stage 1. Everything for Stage 1 must be signed off.",
+  "groups": [
+   {
+    "h": "Completing Stage 1",
+    "items": [
+     [
+      "ct3a",
+      "All 14 Stage 1 HALOs approved",
+      "Each needs SLEs at the expected supervision level, personal activities, reflections and MTR feedback."
+     ],
+     [
+      "ct3b",
+      "MTRs that cover all 14 domains between them",
+      ""
+     ],
+     [
+      "ct3c",
+      "Primary FRCA passed",
+      "MCQ, and OSCE and SOE."
+     ],
+     [
+      "ct3d",
+      "IAC and IACOA both awarded",
+      ""
+     ],
+     [
+      "ct3e",
+      "Intensive care training for the Stage 1 ICM HALO",
+      "RCoA equivalence guidance expects 6 months of ICM in total by the end of Stage 1."
+     ],
+     [
+      "ct3f",
+      "Stage 1 training certificate signed",
+      "By the Regional Adviser or Deputy Regional Adviser, and one other designated trainer."
+     ],
+     [
+      "ct3g",
+      "ARCP outcome 1",
+      ""
+     ]
+    ]
+   },
+   {
+    "h": "Stage 1 clinical experience",
+    "sp": true,
+    "subs": [
+     {
+      "h": "General anaesthesia and airway",
+      "items": [
+       [
+        "s1ga1",
+        "GA for ASA 1–3 adults having non-complex elective and emergency surgery",
+        ""
+       ],
+       [
+        "s1ga2",
+        "Safe anaesthesia outside theatre for ASA 1–2 adults",
+        ""
+       ],
+       [
+        "s1ga3",
+        "TIVA for non-complex cases",
+        ""
+       ],
+       [
+        "s1ga4",
+        "Direct and video laryngoscopy, supraglottic airways and low-risk extubation",
+        ""
+       ],
+       [
+        "s1ga5",
+        "CICO and front-of-neck access in simulation",
+        ""
+       ],
+       [
+        "s1ga6",
+        "High-flow nasal oxygen for pre-oxygenation",
+        ""
+       ]
+      ]
+     },
+     {
+      "h": "Obstetrics",
+      "items": [
+       [
+        "s1ob1",
+        "Labour epidurals or CSE for ASA 1–3 women",
+        ""
+       ],
+       [
+        "s1ob2",
+        "Neuraxial anaesthesia for operative delivery, including managing an inadequate block",
+        ""
+       ],
+       [
+        "s1ob3",
+        "GA for ASA 1–3 obstetric patients",
+        ""
+       ]
+      ]
+     },
+     {
+      "h": "Paediatrics",
+      "items": [
+       [
+        "s1pa1",
+        "GA for ASA 1–2 children having non-complex surgery",
+        "Level of supervision depends on the child's age."
+       ],
+       [
+        "s1pa2",
+        "Recognises an acutely ill child and starts emergency care",
+        ""
+       ]
+      ]
+     },
+     {
+      "h": "Regional anaesthesia",
+      "items": [
+       [
+        "s1ra1",
+        "Spinal anaesthesia for ASA 1–3 surgical patients",
+        ""
+       ],
+       [
+        "s1ra2",
+        "Simple ultrasound-guided nerve blocks, including femoral or fascia iliaca",
+        ""
+       ],
+       [
+        "s1ra3",
+        "Recognises LA toxicity, high spinal and post-dural puncture headache",
+        ""
+       ]
+      ]
+     },
+     {
+      "h": "Intensive care",
+      "items": [
+       [
+        "s1icm1",
+        "ICU placement completed",
+        ""
+       ],
+       [
+        "s1icm2",
+        "Invasive procedures to support breathing, circulation and kidneys",
+        ""
+       ],
+       [
+        "s1icm3",
+        "ICM MSF completed",
+        ""
+       ]
+      ]
+     },
+     {
+      "h": "Resuscitation, transfer, sedation and pain",
+      "items": [
+       [
+        "s1rt1",
+        "Road transfer of a stable critically ill adult",
+        ""
+       ],
+       [
+        "s1rt2",
+        "Safe conscious sedation with monitoring and aftercare",
+        ""
+       ],
+       [
+        "s1rt3",
+        "Acute pain management and safe use of PCA",
+        ""
+       ]
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "y": "ST4",
+  "st": "st2",
+  "lead": "Stage 2, year 1. Show progress across Stage 2.",
+  "groups": [
+   {
+    "h": "ST4 ARCP",
+    "items": [
+     [
+      "st4a",
+      "Progress with Stage 2 key capabilities in all domains",
+      ""
+     ],
+     [
+      "st4b",
+      "MTR and satisfactory MSF",
+      ""
+     ],
+     [
+      "st4c",
+      "Final FRCA written",
+      "Recommended by now, but not required."
+     ],
+     [
+      "st4d",
+      "Specialty placements planned so the four Triple C areas are covered by the end of ST5",
+      ""
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "y": "ST5",
+  "st": "st2",
+  "lead": "End of Stage 2. All Stage 2 HALOs and the Final FRCA.",
+  "groups": [
+   {
+    "h": "Completing Stage 2",
+    "items": [
+     [
+      "st5a",
+      "All 14 Stage 2 HALOs approved",
+      ""
+     ],
+     [
+      "st5b",
+      "MTRs that cover all 14 domains between them",
+      "Consider specific MTRs for your cardiothoracic, neuro, paediatric and obstetric placements."
+     ],
+     [
+      "st5c",
+      "Final FRCA passed",
+      "Written and SOE."
+     ],
+     [
+      "st5d",
+      "Triple C forms for cardiothoracic, neuro, paediatric and obstetric anaesthesia",
+      ""
+     ],
+     [
+      "st5e",
+      "3 months of intensive care training for the Stage 2 ICM HALO",
+      ""
+     ],
+     [
+      "st5f",
+      "Stage 2 training certificate signed",
+      "By the Regional Adviser or Deputy Regional Adviser, and one other designated trainer."
+     ],
+     [
+      "st5g",
+      "ARCP outcome 1",
+      ""
+     ]
+    ]
+   },
+   {
+    "h": "Stage 2 specialties",
+    "note": "Tick off the experience for each specialty. Cardiac and thoracic share one cardiothoracic Triple C.",
+    "sp": true,
+    "subs": [
+     {
+      "h": "Cardiac",
+      "tc": 1,
+      "items": [
+       [
+        "s2ca1",
+        "Anaesthetises ASA 1–3 adults for elective cardiac surgery and cardiology procedures",
+        "Under direct supervision."
+       ],
+       [
+        "s2ca2",
+        "Explains anaesthesia for cardiac surgery on and off bypass",
+        ""
+       ],
+       [
+        "s2ca3",
+        "Applies basic science to cardiac surgery",
+        ""
+       ],
+       [
+        "s2ca4",
+        "Cardiothoracic Triple C signed",
+        ""
+       ]
+      ]
+     },
+     {
+      "h": "Thoracic",
+      "tc": 1,
+      "items": [
+       [
+        "s2th1",
+        "Anaesthetises adults for non-complex thoracic surgery, including one-lung ventilation",
+        "Under direct supervision."
+       ],
+       [
+        "s2th2",
+        "Explains the principles of thoracic anaesthesia",
+        ""
+       ]
+      ]
+     },
+     {
+      "h": "Neuro",
+      "tc": 1,
+      "items": [
+       [
+        "s2ne1",
+        "Anaesthesia for simple elective and emergency neurosurgery, spinal surgery and neuroradiology",
+        "ASA 1–3 adults."
+       ],
+       [
+        "s2ne2",
+        "Uses physiology and pharmacology to limit secondary brain injury",
+        ""
+       ],
+       [
+        "s2ne3",
+        "Resuscitates, stabilises and transfers patients with sudden neurological deterioration",
+        ""
+       ],
+       [
+        "s2ne4",
+        "Neuro Triple C signed",
+        ""
+       ]
+      ]
+     },
+     {
+      "h": "Obstetrics",
+      "tc": 1,
+      "items": [
+       [
+        "s2ob1",
+        "Elective and emergency obstetric anaesthesia, including complicated cases",
+        ""
+       ],
+       [
+        "s2ob2",
+        "Plans care for all pregnant patients with the wider team",
+        ""
+       ],
+       [
+        "s2ob3",
+        "Leads acute obstetric emergencies and manages critical illness in pregnancy",
+        ""
+       ],
+       [
+        "s2ob4",
+        "MTR for the placement (recommended)",
+        ""
+       ],
+       [
+        "s2ob5",
+        "Obstetric Triple C signed",
+        ""
+       ]
+      ]
+     },
+     {
+      "h": "Paediatrics",
+      "tc": 1,
+      "items": [
+       [
+        "s2pa1",
+        "GA for ASA 1–3 children having non-complex surgery",
+        "Supervision depends on the child's age."
+       ],
+       [
+        "s2pa2",
+        "Explains the principles for complex children and neonatal anaesthesia",
+        ""
+       ],
+       [
+        "s2pa3",
+        "Newborn and paediatric resuscitation; recognises a seriously unwell child",
+        ""
+       ],
+       [
+        "s2pa4",
+        "Arranges road transfers of children",
+        ""
+       ],
+       [
+        "s2pa5",
+        "Adjusts perioperative care for children with comorbidities",
+        ""
+       ],
+       [
+        "s2pa6",
+        "MTR for the placement (recommended)",
+        ""
+       ],
+       [
+        "s2pa7",
+        "Paediatric Triple C signed",
+        ""
+       ]
+      ]
+     },
+     {
+      "h": "Intensive care",
+      "items": [
+       [
+        "s2ic1",
+        "3-month ICM placement completed",
+        ""
+       ],
+       [
+        "s2ic2",
+        "Invasive organ support, sepsis management and investigations in critical illness",
+        ""
+       ],
+       [
+        "s2ic3",
+        "End-of-life care, brainstem death testing and support for potential donors",
+        ""
+       ],
+       [
+        "s2ic4",
+        "Safe discharge planning from intensive care",
+        ""
+       ],
+       [
+        "s2ic5",
+        "ICM MSF completed",
+        ""
+       ]
+      ]
+     },
+     {
+      "h": "Head, neck and airway",
+      "items": [
+       [
+        "s2hn1",
+        "Non-complex shared airway surgery",
+        ""
+       ],
+       [
+        "s2hn2",
+        "Safe strategy for known or possible difficult airways",
+        ""
+       ],
+       [
+        "s2hn3",
+        "Flexible bronchoscopic intubation and intubation through a supraglottic airway",
+        ""
+       ],
+       [
+        "s2hn4",
+        "Manages at-risk extubation; describes awake intubation",
+        ""
+       ],
+       [
+        "s2hn5",
+        "CICO and emergency front-of-neck access",
+        ""
+       ]
+      ]
+     },
+     {
+      "h": "General surgery, urology, gynaecology and vascular",
+      "items": [
+       [
+        "s2gs1",
+        "Laparoscopic, endoscopic and open surgery in ASA 1–3 adults",
+        ""
+       ],
+       [
+        "s2gs2",
+        "Day-case anaesthesia in any setting",
+        ""
+       ],
+       [
+        "s2gs3",
+        "Controls bleeding and manages major haemorrhage",
+        ""
+       ]
+      ]
+     },
+     {
+      "h": "Orthopaedics and trauma",
+      "items": [
+       [
+        "s2or1",
+        "Cares for adult multiple trauma patients from arrival to recovery",
+        ""
+       ],
+       [
+        "s2or2",
+        "Recognises and reduces positioning risks, including in obesity",
+        ""
+       ],
+       [
+        "s2or3",
+        "Ultrasound-guided blocks for lower limb surgery",
+        ""
+       ]
+      ]
+     },
+     {
+      "h": "Plastics and burns",
+      "items": [
+       [
+        "s2pl1",
+        "Explains the problems of burns, poisoning, electrical injury and drowning",
+        ""
+       ]
+      ]
+     },
+     {
+      "h": "Ophthalmology",
+      "items": [
+       [
+        "s2op1",
+        "Explains eye surgery, including penetrating eye injury and intraocular gas",
+        ""
+       ],
+       [
+        "s2op2",
+        "Explains eye blocks for awake ophthalmic surgery",
+        ""
+       ]
+      ]
+     },
+     {
+      "h": "Regional anaesthesia",
+      "items": [
+       [
+        "s2ra1",
+        "Ultrasound-guided brachial plexus blocks",
+        ""
+       ],
+       [
+        "s2ra2",
+        "Ultrasound-guided fascial plane blocks of the chest or abdominal wall",
+        ""
+       ],
+       [
+        "s2ra3",
+        "Manages an inadequate block and explains regional complications",
+        ""
+       ],
+       [
+        "s2ra4",
+        "Regional anaesthesia with abnormal clotting",
+        ""
+       ]
+      ]
+     },
+     {
+      "h": "Pain",
+      "items": [
+       [
+        "s2pn1",
+        "Manages acute pain across the perioperative pathway",
+        ""
+       ],
+       [
+        "s2pn2",
+        "Assesses and starts treatment for chronic cancer and non-cancer pain",
+        ""
+       ],
+       [
+        "s2pn3",
+        "Manages inpatient acute-on-chronic pain and knows when to refer",
+        ""
+       ],
+       [
+        "s2pn4",
+        "Explains risk factors for persistent post-surgical pain",
+        ""
+       ]
+      ]
+     },
+     {
+      "h": "Sedation and remote sites",
+      "items": [
+       [
+        "s2sd1",
+        "Chooses sedation techniques, including TCI, and uses scoring tools",
+        ""
+       ],
+       [
+        "s2sd2",
+        "Safe anaesthesia and sedation outside theatre",
+        ""
+       ],
+       [
+        "s2sd3",
+        "TIVA across all areas of practice",
+        ""
+       ]
+      ]
+     },
+     {
+      "h": "Perioperative medicine",
+      "items": [
+       [
+        "s2pm1",
+        "Plans care for less common cardiovascular, neurological, respiratory, endocrine, haematological and rheumatological disease",
+        ""
+       ],
+       [
+        "s2pm2",
+        "Uses risk scores and CPET appropriately",
+        ""
+       ],
+       [
+        "s2pm3",
+        "Manages anaemia, coagulopathy, nutrition and frailty around surgery",
+        ""
+       ]
+      ]
+     },
+     {
+      "h": "Resuscitation and transfer",
+      "items": [
+       [
+        "s2rt1",
+        "Leads the team for a critically ill patient until handover to critical care",
+        ""
+       ],
+       [
+        "s2rt2",
+        "Urgent and routine road transfers of adults and children",
+        ""
+       ],
+       [
+        "s2rt3",
+        "Discusses resuscitation decisions, including DNACPR",
+        ""
+       ]
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "y": "ST6",
+  "st": "st3",
+  "lead": "Stage 3, year 1. Progress across Stage 3 and any special interest areas.",
+  "groups": [
+   {
+    "h": "ST6 ARCP",
+    "items": [
+     [
+      "st6a",
+      "Progress with Stage 3 key capabilities in all domains",
+      ""
+     ],
+     [
+      "st6b",
+      "MTR and satisfactory MSF",
+      ""
+     ],
+     [
+      "st6c",
+      "Evidence from any special interest areas (SIAs) done in ST6",
+      "An MTR for each SIA."
+     ],
+     [
+      "st6d",
+      "Updated CV",
+      "Strongly recommended at this ARCP."
+     ],
+     [
+      "st6e",
+      "SIAs for ST7 agreed",
+      ""
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "y": "ST7",
+  "st": "st3",
+  "lead": "End of Stage 3 and CCT.",
+  "groups": [
+   {
+    "h": "Completing Stage 3",
+    "items": [
+     [
+      "st7a",
+      "All 14 Stage 3 HALOs approved",
+      ""
+     ],
+     [
+      "st7b",
+      "HALOs for your special interest areas",
+      ""
+     ],
+     [
+      "st7c",
+      "At least one SIA, totalling 12 months whole-time equivalent",
+      "SIA rotations can be combined. The certificate records time in each."
+     ],
+     [
+      "st7d",
+      "An MTR for each SIA",
+      ""
+     ],
+     [
+      "st7e",
+      "Triple C evidence for cardiothoracic, neuro, paediatric and obstetric anaesthesia",
+      ""
+     ],
+     [
+      "st7f",
+      "MTRs that cover all 14 domains between them",
+      ""
+     ],
+     [
+      "st7g",
+      "Satisfactory MSF",
+      ""
+     ],
+     [
+      "st7h",
+      "Stage 3 training certificate signed",
+      "By the Regional Adviser or Deputy Regional Adviser, and one other designated trainer. It can be signed about 3 months before CCT, once all HALOs are approved."
+     ],
+     [
+      "st7i",
+      "Final ARCP (outcome 6), dated to your CCT date",
+      "Usually held up to 4 months before CCT."
+     ],
+     [
+      "st7j",
+      "CCT application and GMC Specialist Register",
+      "You must be on the Specialist Register before starting a substantive consultant post."
+     ],
+     [
+      "st7k",
+      "Acting up as a consultant only in the last 3 months",
+      "And only once everything else is complete."
+     ]
+    ]
+   },
+   {
+    "h": "Special interest areas",
+    "note": "Tick the SIAs you're doing.",
+    "sp": true,
+    "subs": [
+     {
+      "h": "Clinical SIAs",
+      "items": [
+       [
+        "sia0",
+        "Acute inpatient pain",
+        ""
+       ],
+       [
+        "sia1",
+        "Additional intensive care",
+        ""
+       ],
+       [
+        "sia2",
+        "Anaesthesia for bariatric surgery",
+        ""
+       ],
+       [
+        "sia3",
+        "Anaesthesia for cardiac surgery",
+        ""
+       ],
+       [
+        "sia4",
+        "Anaesthesia for complex orthopaedic surgery",
+        ""
+       ],
+       [
+        "sia5",
+        "Anaesthesia for hepato-pancreato-biliary surgery",
+        ""
+       ],
+       [
+        "sia6",
+        "Anaesthesia for major general surgery",
+        ""
+       ],
+       [
+        "sia7",
+        "Anaesthesia for neurosurgery",
+        ""
+       ],
+       [
+        "sia8",
+        "Anaesthesia for ophthalmic surgery",
+        ""
+       ],
+       [
+        "sia9",
+        "Anaesthesia for patients with complex airway",
+        ""
+       ],
+       [
+        "sia10",
+        "Anaesthesia for plastic surgery and burns",
+        ""
+       ],
+       [
+        "sia11",
+        "Anaesthesia for thoracic surgery",
+        ""
+       ],
+       [
+        "sia12",
+        "Anaesthesia for vascular surgery",
+        ""
+       ],
+       [
+        "sia13",
+        "Anaesthesia in resource-poor environments",
+        ""
+       ],
+       [
+        "sia14",
+        "Military anaesthesia",
+        ""
+       ],
+       [
+        "sia15",
+        "Obstetric anaesthesia",
+        ""
+       ],
+       [
+        "sia16",
+        "Paediatric anaesthesia",
+        ""
+       ],
+       [
+        "sia17",
+        "Pain medicine",
+        ""
+       ],
+       [
+        "sia18",
+        "Perioperative medicine",
+        ""
+       ],
+       [
+        "sia19",
+        "Regional anaesthesia",
+        ""
+       ],
+       [
+        "sia20",
+        "Transfer medicine",
+        ""
+       ],
+       [
+        "sia21",
+        "Trauma and stabilisation",
+        ""
+       ]
+      ]
+     },
+     {
+      "h": "Non-clinical SIAs",
+      "items": [
+       [
+        "sian0",
+        "Education and training",
+        ""
+       ],
+       [
+        "sian1",
+        "Management and professional and regulatory requirements",
+        ""
+       ],
+       [
+        "sian2",
+        "Research and managing data",
+        ""
+       ],
+       [
+        "sian3",
+        "Safety and quality improvement",
+        ""
+       ]
+      ]
+     }
+    ]
+   },
+   {
+    "h": "Stage 3 clinical capabilities",
+    "sp": true,
+    "subs": [
+     {
+      "h": "General and emergency",
+      "items": [
+       [
+        "s3g1",
+        "GA for elective and emergency surgery in general settings, including maternity",
+        ""
+       ],
+       [
+        "s3g2",
+        "Runs lists safely and efficiently",
+        ""
+       ],
+       [
+        "s3g3",
+        "High-risk patients with major comorbidity and potential major bleeding",
+        ""
+       ],
+       [
+        "s3g4",
+        "Critically ill patients returning to theatre from ICU",
+        ""
+       ]
+      ]
+     },
+     {
+      "h": "Airway",
+      "items": [
+       [
+        "s3a1",
+        "Awake tracheal intubation",
+        ""
+       ],
+       [
+        "s3a2",
+        "Anticipated difficult airways and shared airway surgery",
+        ""
+       ],
+       [
+        "s3a3",
+        "Flexible bronchoscopic intubation and at-risk extubation",
+        ""
+       ]
+      ]
+     },
+     {
+      "h": "Specialist areas in general settings",
+      "items": [
+       [
+        "s3s1",
+        "Obstetric anaesthesia in a general maternity unit",
+        ""
+       ],
+       [
+        "s3s2",
+        "Children aged 1 year and over for common procedures",
+        ""
+       ],
+       [
+        "s3s3",
+        "Emergency care of children awaiting transfer to a tertiary unit",
+        ""
+       ],
+       [
+        "s3s4",
+        "Patients with heart disease or previous neurosurgery having other surgery",
+        ""
+       ],
+       [
+        "s3s5",
+        "Severely injured patients through to definitive care",
+        ""
+       ]
+      ]
+     }
+    ]
+   }
+  ]
+ }
+]

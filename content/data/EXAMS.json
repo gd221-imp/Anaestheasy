@@ -1,0 +1,31 @@
+{
+ "core": [
+  {
+   "k": "pmcq",
+   "n": "Primary FRCA MCQ",
+   "f": 420
+  },
+  {
+   "k": "posce",
+   "n": "Primary FRCA OSCE",
+   "f": 420
+  },
+  {
+   "k": "psoe",
+   "n": "Primary FRCA SOE",
+   "f": 380
+  }
+ ],
+ "st2": [
+  {
+   "k": "fwr",
+   "n": "Final FRCA Written",
+   "f": 620
+  },
+  {
+   "k": "fsoe",
+   "n": "Final FRCA SOE",
+   "f": 735
+  }
+ ]
+}

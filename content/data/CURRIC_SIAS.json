@@ -1,0 +1,110 @@
+{
+ "clinical": [
+  [
+   "Acute inpatient pain",
+   "group:Pain"
+  ],
+  [
+   "Additional intensive care",
+   "group:ICM"
+  ],
+  [
+   "Anaesthesia for bariatric surgery",
+   "Bariatric Surgery"
+  ],
+  [
+   "Anaesthesia for cardiac surgery",
+   "group:Cardiac"
+  ],
+  [
+   "Anaesthesia for complex orthopaedic surgery",
+   "group:Orthopaedics and Trauma"
+  ],
+  [
+   "Anaesthesia for hepato-pancreato-biliary surgery",
+   "Whipple's Procedure"
+  ],
+  [
+   "Anaesthesia for major general surgery",
+   "group:General surgery"
+  ],
+  [
+   "Anaesthesia for neurosurgery",
+   "group:Neuro"
+  ],
+  [
+   "Anaesthesia for ophthalmic surgery",
+   "group:Ophthalmology"
+  ],
+  [
+   "Anaesthesia for patients with complex airway",
+   "group:Head and neck"
+  ],
+  [
+   "Anaesthesia for plastic surgery and burns",
+   "group:Plastics"
+  ],
+  [
+   "Anaesthesia for thoracic surgery",
+   "group:Thoracic"
+  ],
+  [
+   "Anaesthesia for vascular surgery",
+   "group:Vascular"
+  ],
+  [
+   "Anaesthesia in resource-poor environments",
+   null
+  ],
+  [
+   "Military anaesthesia",
+   null
+  ],
+  [
+   "Obstetric anaesthesia",
+   "group:Obstetrics"
+  ],
+  [
+   "Paediatric anaesthesia",
+   "group:Paeds"
+  ],
+  [
+   "Pain medicine",
+   "group:Pain"
+  ],
+  [
+   "Perioperative medicine",
+   "CPET & Perioperative Risk Assessment"
+  ],
+  [
+   "Regional anaesthesia",
+   "group:Regional"
+  ],
+  [
+   "Transfer medicine",
+   "Interhospital Transfer"
+  ],
+  [
+   "Trauma and stabilisation",
+   "group:Orthopaedics and Trauma"
+  ]
+ ],
+ "nonclinical": [
+  [
+   "Education and training",
+   "Supervising trainees"
+  ],
+  [
+   "Management and professional and regulatory requirements",
+   "Leadership and management"
+  ],
+  [
+   "Research and managing data",
+   null
+  ],
+  [
+   "Safety and quality improvement",
+   "Clinical governance"
+  ]
+ ]
+}
