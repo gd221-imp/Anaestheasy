@@ -39,15 +39,25 @@ for bank in ('final', 'primary'):
             ids.add(q.get('id'))
 
 # 3. House rules in the text
+# Recipes are the only place antibiotics are recommended, so the "Follow local guidelines" rule applies to them alone
+# (pharmacology and microbiology notes may name antibiotics freely).
+recipe_files = {p.resolve() for p in (C / 'recipes').glob('*.html')}
+for sj in C.rglob('stop.json'):
+    try: cards = json.loads(sj.read_text(encoding='utf-8')).get('cards', [])
+    except Exception: continue
+    for c in cards:
+        if isinstance(c, dict) and c.get('recipe') and isinstance(c.get('b'), str) and c['b'].startswith('file:'):
+            recipe_files.add((sj.parent / c['b'][5:]).resolve())
 for p in C.rglob('*.html'):
     rel = p.relative_to(ROOT)
     t = p.read_text(encoding='utf-8')
     if re.search(r'intrathecal morphine|\bIT morphine', t, re.I):
         err(rel, 'house rule: intrathecal opioid is always diamorphine, never intrathecal morphine')
+    if p.resolve() not in recipe_files: continue
     for line in t.split('\n'):
         if re.search(ABX, line, re.I) and not re.search(r'local (guideline|polic|protocol|antimicrobial)', line, re.I):
             plain = re.sub(r'<[^>]+>', '', line)[:110]
-            warn(rel, f'antibiotic named without "Follow local guidelines": {plain}')
+            warn(rel, f'recipe names an antibiotic without "Follow local guidelines": {plain}')
 
 # 4. Links between stops, notes and Primary topics
 stop_files = list(C.rglob('stop.json'))
