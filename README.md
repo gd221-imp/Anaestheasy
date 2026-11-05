@@ -28,11 +28,12 @@ Anaesthetic Ally is a UK anaesthetics training app that takes a doctor from FY1 
 python3 tools/check.py      # checks content, house rules and JavaScript syntax, then builds
 python3 tools/build.py      # writes dist/index.html, the whole app in one page
 node tools/smoke_test.js    # opens every stop, tab, note and topic in headless Chrome
+node --test tests/*.test.js # checks the paeds, fluid, fee and starting-quiz calculators
 ```
 
 **Links to a stop:** add `#stop=<id>` (and optionally `&tab=<tab name>`) to the app's address to open a stop at a given tab, e.g. `dist/index.html#stop=st2-15&tab=Anaesthetic%20recipe`. `#note=<title>` and `#topic=<Primary id>` work the same way. The review summary on each pull request uses these to link straight to what changed.
 
-The smoke test needs Node 22+ and Google Chrome (set `CHROME_PATH` if Chrome isn't found), and no npm packages. It fails if anything throws an error or shows broken text such as `undefined`, `NaN` or a stray `}`. All three run automatically on every pull request.
+The smoke test needs Node 22+ and Google Chrome (set `CHROME_PATH` if Chrome isn't found), and no npm packages. It fails if anything throws an error or shows broken text such as `undefined`, `NaN` or a stray `}`. The calculator tests (`tests/calculators.test.js`) check each calculator against the rule the app states on screen, e.g. paracetamol 10 mg/kg up to 10 kg, then 15 mg/kg, then 1 g; if one fails, the numbers and the stated rule disagree. All of these run automatically on every pull request.
 
 Open `dist/index.html` in a browser to see the app. No installs are needed beyond Python 3.
 

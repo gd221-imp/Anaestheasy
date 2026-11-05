@@ -36,6 +36,7 @@
     "app/**",
     "node_modules/**",
     "tools/**",
+    "tests/**",
     "**/*.min.js",
     "**/*.min.css",
     "**/*.svg",
