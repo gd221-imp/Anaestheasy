@@ -73,8 +73,15 @@ def build_const(name):
         o = rj(C / 'data' / f'{name}.json')
     return f'const {name}={dump(o)};'
 
-def build():
+INCLUDE = re.compile(r'^/\*@@include ([\w./-]+)@@\*/$', re.M)
+
+def assemble_page():
+    """app/page.html with each /*@@include FILE@@*/ line replaced by app/FILE (the stylesheet and the app's scripts)."""
     page = (ROOT / 'app' / 'page.html').read_text(encoding='utf-8')
+    return INCLUDE.sub(lambda m: rt(ROOT / 'app' / m.group(1)), page)
+
+def build():
+    page = assemble_page()
     out = re.sub(r'^/\*@@([A-Z_0-9]+)@@\*/$', lambda m: build_const(m.group(1)), page, flags=re.M)
     (ROOT / 'dist').mkdir(exist_ok=True)
     (ROOT / 'dist' / 'index.html').write_text(out, encoding='utf-8')
