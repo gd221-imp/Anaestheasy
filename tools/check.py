@@ -10,10 +10,15 @@ errors, warnings = [], []
 def err(p, msg): errors.append(f'{p}: {msg}')
 def warn(p, msg): warnings.append(f'{p}: {msg}')
 
+# index the content tree once; every check below reads from this list
+FILES = sorted(p for p in C.rglob('*') if p.is_file())
+def files(suffix=None, name=None):
+    return [p for p in FILES if (suffix is None or p.suffix == suffix) and (name is None or p.name == name)]
+
 ABX = r'\b(co-amoxiclav|amoxicillin|ampicillin|piperacillin|tazocin|meropenem|gentamicin|vancomycin|teicoplanin|clindamycin|metronidazole|flucloxacillin|benzylpenicillin|cefuroxime|ceftriaxone|cefotaxime|cefazolin|cephalosporin|aciclovir|linezolid)\b'
 
 # 1. JSON files parse
-for p in C.rglob('*.json'):
+for p in files('.json'):
     try: json.loads(p.read_text(encoding='utf-8'))
     except Exception as e: err(p.relative_to(ROOT), f'invalid JSON ({e})')
 
@@ -24,7 +29,7 @@ def check_quiz(p, qs):
             err(p, f'question {n} needs q, o and a'); continue
         if not (0 <= q['a'] < len(q['o'])):
             err(p, f'question {n}: answer index {q["a"]} is outside its {len(q["o"])} options')
-for p in C.rglob('quiz.json'):
+for p in files(name='quiz.json'):
     try: check_quiz(p.relative_to(ROOT), json.loads(p.read_text(encoding='utf-8')))
     except Exception: pass
 ids = set()
@@ -42,18 +47,70 @@ for bank in ('final', 'primary'):
 # Recipes are the only place antibiotics are recommended, so the "Follow local guidelines" rule applies to them alone
 # (pharmacology and microbiology notes may name antibiotics freely).
 recipe_files = {p.resolve() for p in (C / 'recipes').glob('*.html')}
-for sj in C.rglob('stop.json'):
+for sj in files(name='stop.json'):
     try: cards = json.loads(sj.read_text(encoding='utf-8')).get('cards', [])
     except Exception: continue
     for c in cards:
         if isinstance(c, dict) and c.get('recipe') and isinstance(c.get('b'), str) and c['b'].startswith('file:'):
             recipe_files.add((sj.parent / c['b'][5:]).resolve())
-for p in C.rglob('*.html'):
+from html.parser import HTMLParser
+VOID = {'br', 'hr', 'img', 'input', 'meta', 'link', 'col', 'area', 'base', 'wbr', 'source'}
+class TagBalance(HTMLParser):
+    def __init__(self): super().__init__(convert_charrefs=True); self.stack, self.problems = [], []
+    def handle_starttag(self, tag, attrs):
+        if tag not in VOID: self.stack.append((tag, self.getpos()[0]))
+    def handle_endtag(self, tag):
+        if tag in VOID: return
+        if self.stack and self.stack[-1][0] == tag: self.stack.pop(); return
+        if any(t == tag for t, _ in self.stack):
+            while self.stack[-1][0] != tag:
+                t, n = self.stack.pop(); self.problems.append(f'line {n}: <{t}> is never closed')
+            self.stack.pop()
+        else: self.problems.append(f'line {self.getpos()[0]}: </{tag}> has no matching <{tag}>')
+def tag_problems(text):
+    b = TagBalance(); b.feed(text); b.close()
+    return b.problems + [f'line {n}: <{t}> is never closed' for t, n in b.stack]
+
+CANNULA = re.compile(r'\b(14|16|20)\s?G\b')
+def cannula_order(line):
+    """House rule: 20G then 16G. True if a 14G/16G cannula is listed before a 20G one on the same line."""
+    sizes = [m.group(1) for m in CANNULA.finditer(line)]
+    return '20' in sizes and any(s in ('14', '16') for s in sizes[:sizes.index('20')])
+
+# Complications in a recipe: Surgical then Anaesthetic, each with Immediate then Delayed
+def complications_problem(t):
+    m = re.search(r'<p class="subh">Complications</p>\s*([\s\S]*?)(?=<p class="subh">(?!Immediate</p>|Delayed</p>)|<h4>|<h3|$)', t)
+    if not m: return 'has no Complications field'
+    parts = re.split(r'<p class="csub"><b>(Surgical|Anaesthetic)</b></p>', m.group(1))
+    if parts[1::2] != ['Surgical', 'Anaesthetic']: return 'Complications should be split into Surgical then Anaesthetic'
+    for head, body in zip(parts[1::2], parts[2::2]):
+        if re.findall(r'<p class="subh">(Immediate|Delayed)</p>', body) != ['Immediate', 'Delayed']:
+            return f'{head} complications should have Immediate then Delayed'
+    return None
+todo_path = ROOT / 'tools' / 'complications_todo.json'
+complications_todo = set(json.loads(todo_path.read_text(encoding='utf-8'))) if todo_path.exists() else set()
+still_todo = []
+
+for p in files('.js') + files('.json'):
+    t = p.read_text(encoding='utf-8')
+    if re.search(r'intrathecal morphine|\bIT morphine', t, re.I):
+        err(p.relative_to(ROOT), 'house rule: intrathecal opioid is always diamorphine, never intrathecal morphine')
+    if p.suffix == '.js':
+        for n, line in enumerate(t.split('\n'), 1):
+            if cannula_order(line): err(f'{p.relative_to(ROOT)}:{n}', 'house rule: list cannulas 20G then 16G')
+for p in files('.html'):
     rel = p.relative_to(ROOT)
     t = p.read_text(encoding='utf-8')
     if re.search(r'intrathecal morphine|\bIT morphine', t, re.I):
         err(rel, 'house rule: intrathecal opioid is always diamorphine, never intrathecal morphine')
+    for problem in tag_problems(t): err(rel, f'HTML {problem} (to show a < or > as text, write &lt; or &gt;)')
+    for n, line in enumerate(t.split('\n'), 1):
+        if cannula_order(line): err(f'{rel}:{n}', 'house rule: list cannulas 20G then 16G')
     if p.resolve() not in recipe_files: continue
+    problem, key = complications_problem(t), str(rel)
+    if problem and key in complications_todo: still_todo.append(key)
+    elif problem: err(rel, f'house rule: {problem} (see CONTRIBUTING.md)')
+    elif key in complications_todo: err('tools/complications_todo.json', f'{key} now has the right Complications layout: remove it from this list')
     for line in t.split('\n'):
         if re.search(ABX, line, re.I) and not re.search(r'local (guideline|polic|protocol|antimicrobial)', line, re.I):
             plain = re.sub(r'<[^>]+>', '', line)[:110]
@@ -113,7 +170,7 @@ for p in sorted((C / 'sba' / 'final').glob('*.json')):
 
 # 4c. Recipes and WPBAs have one source each: a stop's own cards/ file, or content/recipes|wpba for stops and notes without one
 titles, owns = set(), {'recipes': set(), 'wpba': set()}
-for p in C.glob('**/stop.json'):
+for p in files(name='stop.json'):
     try: d = json.loads(p.read_text(encoding='utf-8'))
     except Exception: continue
     titles.add(d.get('title'))
@@ -140,6 +197,38 @@ for kind in ('recipes', 'wpba'):
     listed = {e.get('file') for e in idx}
     for f in sorted(x.name for x in (C / kind).glob('*.html')):
         if f not in listed: err(f'content/{kind}/{f}', f'not listed in {kind}/_index.json, so it is never shown')
+
+# 4d. Every link and placement points at something real
+try: curric = {int(n) for n in re.findall(r'\bn:(\d+),t:"', re.search(r'const CURRIC_DOMAINS=\[([\s\S]*?)\];', (ROOT / 'app' / 'page.html').read_text(encoding='utf-8')).group(1))}
+except Exception: curric = set()
+def check_link(k, where):
+    if k.startswith('stop:'):
+        if k[5:] not in titles: err(where, f'link "{k}" points at a stop or note that does not exist (check the exact title)')
+    elif k.startswith('curric:'):
+        if not k[7:].isdigit() or int(k[7:]) not in curric: err(where, f'link "{k}" is not a curriculum domain')
+    elif k.split('|')[0] not in primary_ids: err(where, f'link "{k}" is not a Primary topic id')
+for p in files(name='stop.json'):
+    try: cards = json.loads(p.read_text(encoding='utf-8')).get('cards', [])
+    except Exception: continue
+    for c in cards:
+        for k in (c.get('links') or []) if isinstance(c, dict) else []: check_link(k, p.relative_to(ROOT))
+for p in (C / 'path' / 'stages').glob('*.js'):
+    for m in re.finditer(r'links:\[([^\]]*)\]', p.read_text(encoding='utf-8')):
+        for k in re.findall(r'"([^"]+)"', m.group(1)): check_link(k, p.relative_to(ROOT))
+for name in ('map', 'syllabus'):
+    fp = C / 'primary' / f'{name}.json'
+    try: groups = json.loads(fp.read_text(encoding='utf-8'))
+    except Exception: continue
+    for keys in groups.values():
+        for k in keys: check_link(k, fp.relative_to(ROOT))
+stage_ids = set(re.findall(r'^\{id:"([a-z0-9]+)",name:', ''.join(p.read_text(encoding='utf-8') for p in (C / 'path' / 'stages').glob('*.js')), re.M))
+for p in sorted((C / 'path' / 'added-stops').glob('*/placement.json')):
+    try: d = json.loads(p.read_text(encoding='utf-8'))
+    except Exception: continue
+    rel = p.relative_to(ROOT)
+    if d.get('stage') not in stage_ids: err(rel, f'stage "{d.get("stage")}" does not exist (use one of {", ".join(sorted(stage_ids))})')
+    for k in ('after', 'before'):
+        if d.get(k) and d[k] not in titles: err(rel, f'"{k}": "{d[k]}" is not a stop title, so this stop would be put at the end of its stage')
 
 # 5. The app still builds
 sys.path.insert(0, str(ROOT / 'tools'))
@@ -195,5 +284,6 @@ else:
 gh = bool(__import__('os').environ.get('GITHUB_ACTIONS'))
 for w in warnings: print(f'::warning::{w}' if gh else f'WARNING {w}')
 for e in errors: print(f'::error::{e}' if gh else f'ERROR   {e}')
+if still_todo: print(f'To do: {len(still_todo)} recipe(s) still need Complications split into Surgical/Anaesthetic x Immediate/Delayed (listed in tools/complications_todo.json)')
 print(f'\n{len(errors)} error(s), {len(warnings)} warning(s)')
 sys.exit(1 if errors else 0)

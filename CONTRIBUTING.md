@@ -101,9 +101,11 @@ These are written as code, not JSON. Edit the words inside the backticks (`` `â€
 
 - **UK practice first.** Use UK guidance (RCoA, Association of Anaesthetists, DAS, OAA, NICE, RCUK, APA). Where a US text such as Miller differs, give the UK position and note the difference.
 - **Antibiotics:** in a recipe, write "Follow local guidelines" with any antibiotic recommendation. The check flags recipes that name an antibiotic without it. Notes (for example pharmacology and microbiology topics) may name antibiotics freely.
-- **Intrathecal opioid** is always diamorphine, never intrathecal morphine. The check fails if it finds intrathecal morphine.
-- **Cannulas:** order is 20G then 16G.
-- **Complications** are always split into Surgical and Anaesthetic, each with Immediate and Delayed.
+- **Intrathecal opioid** is always diamorphine, never intrathecal morphine. The check fails if it finds intrathecal morphine anywhere (cards, stage files, quizzes and SBAs).
+- **Cannulas:** order is 20G then 16G. The check fails if 16G (or 14G) is listed before 20G on the same line. Quiz answers aren't checked, so a deliberately wrong option is fine.
+- **Complications** in a recipe are always split into Surgical then Anaesthetic, each with Immediate then Delayed. The check fails on a recipe laid out differently. Older recipes still to be converted are listed in `tools/complications_todo.json`; remove one from that list once it's fixed (the check will remind you).
+- **HTML:** every tag that opens must close. To show `<` or `>` as text (for example `<C>ABCDE`), write `&lt;C&gt;ABCDE`.
+- **Links** (`stop:`, `curric:` and Primary topic ids) and added-stop placements must point at something that exists. The check names any that don't.
 - **Notes:** ideally no more than three linked note topics per stop. This is a guide, not a hard rule, so the checks don't flag it.
 - **Sources:** keep inline references; summarise books in your own words, never copy their text.
 - **Our own notes come first.** New content fills agreed gaps only.
