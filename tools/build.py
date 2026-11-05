@@ -78,6 +78,7 @@ def build():
     out = re.sub(r'^/\*@@([A-Z_0-9]+)@@\*/$', lambda m: build_const(m.group(1)), page, flags=re.M)
     (ROOT / 'dist').mkdir(exist_ok=True)
     (ROOT / 'dist' / 'index.html').write_text(out, encoding='utf-8')
+    (ROOT / 'dist' / '.nojekyll').touch()
     return out
 
 if __name__ == '__main__':
