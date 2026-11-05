@@ -33,7 +33,7 @@ Group related changes into one pull request (for example, one stop or one note).
 
 ### A stop or note: `content/specialties/<section>/<NNN>-<stop|note>-<name>/`
 
-- `stop.json` — the stop's title, type and list of tabs (cards). Each tab has a heading `h`. A tab's text lives in a file, shown as `"b": "file:cards/01-anaesthetic-recipe.html"`. Tabs that link elsewhere use `noteRef` (a Final FRCA note title) or `primaryRef` (a Primary topic id such as `pha20`).
+- `stop.json` — the stop's title, type and list of tabs (cards). A card written as `{"shared": "NG45_CARD"}` shows a card kept once in `content/data/` (here the NICE pre-op tests card), so it can appear on several stops. Each tab has a heading `h`. A tab's text lives in a file, shown as `"b": "file:cards/01-anaesthetic-recipe.html"`. Tabs that link elsewhere use `noteRef` (a Final FRCA note title) or `primaryRef` (a Primary topic id such as `pha20`).
 - `cards/*.html` — the text of each tab, one HTML block per line.
 - `quiz.json` — the questions at the end of the stop.
 

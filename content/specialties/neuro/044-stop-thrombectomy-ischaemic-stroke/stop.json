@@ -1,8 +1,8 @@
 {
   "id": "st2-16",
   "t": "recipe",
-  "shape": "drop",
-  "group": "Vascular",
+  "shape": "brain",
+  "group": "Neuro",
   "title": "Thrombectomy (Ischaemic Stroke)",
   "op": true,
   "cards": [

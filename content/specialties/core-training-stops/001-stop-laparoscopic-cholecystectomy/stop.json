@@ -12,6 +12,9 @@
       "recipe": true
     },
     {
+      "shared": "NG45_CARD"
+    },
+    {
       "h": "Nausea & Vomiting",
       "primaryRef": "phs38"
     },
