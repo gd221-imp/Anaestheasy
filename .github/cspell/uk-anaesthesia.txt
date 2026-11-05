@@ -128,6 +128,11 @@ tocolytics
 trandolapril
 tranexamic
 trasylol
+Agilus
+antistaphylococcal
+intramyometrial
+redose
+resedation
 
 # ==============================================================================
 # Devices
@@ -239,6 +244,7 @@ ST8
 TOXBASE
 WPBA
 ePortfolio
+RCPCH
 
 # ==============================================================================
 # Domain Shorthands
@@ -806,6 +812,7 @@ mapleson
 selectatec
 vigileo
 vitalograph
+Clauss
 
 # ==============================================================================
 # Misc

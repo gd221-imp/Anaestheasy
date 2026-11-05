@@ -63,6 +63,8 @@
     "/<[^>]+>/g",
     "/&[a-zA-Z0-9#]+;/g",
     "/[dD]esmopressin\\s*\\(DDAVP\\)/g",
-    "/\"k\":\\s*\"[^\"]*\"/g"
+    "/\"k\":\\s*\"[^\"]*\"/g",
+    "/Syntometrine(?= \\(ergometrine with oxytocin\\))/g",
+    "/(?<=with oxytocin \\()Syntometrine/g"
   ]
 }
