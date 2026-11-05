@@ -100,7 +100,7 @@ These are written as code, not JSON. Edit the words inside the backticks (`` `â€
 ## House rules
 
 - **UK practice first.** Use UK guidance (RCoA, Association of Anaesthetists, DAS, OAA, NICE, RCUK, APA). Where a US text such as Miller differs, give the UK position and note the difference.
-- **Antibiotics:** write "Follow local guidelines" before any antibiotic recommendation. The check flags antibiotics named without it.
+- **Antibiotics:** in a recipe, write "Follow local guidelines" with any antibiotic recommendation. The check flags recipes that name an antibiotic without it. Notes (for example pharmacology and microbiology topics) may name antibiotics freely.
 - **Intrathecal opioid** is always diamorphine, never intrathecal morphine. The check fails if it finds intrathecal morphine.
 - **Cannulas:** order is 20G then 16G.
 - **Complications** are always split into Surgical and Anaesthetic, each with Immediate and Delayed.

@@ -5,7 +5,7 @@ Anaesthetic Ally is a UK anaesthetics training app (FY1 to new consultant). This
 ## Rules for any change
 
 - Edit files in `content/` (and `app/page.html` for code), never the built `dist/index.html` and never the live artifact directly.
-- Follow the house rules in CONTRIBUTING.md: UK practice first; "Follow local guidelines" before any antibiotic recommendation; intrathecal opioid is always diamorphine; cannulas 20G then 16G; complications split into Surgical and Anaesthetic, each with Immediate and Delayed; at most three linked note topics per stop; summarise books, never copy; keep inline references; reword rather than delete useful content.
+- Follow the house rules in CONTRIBUTING.md: UK practice first; "Follow local guidelines" with any antibiotic recommendation in a recipe (notes may name antibiotics freely); intrathecal opioid is always diamorphine; cannulas 20G then 16G; complications split into Surgical and Anaesthetic, each with Immediate and Delayed; at most three linked note topics per stop; summarise books, never copy; keep inline references; reword rather than delete useful content.
 - David's own notes come first. Only fill gaps he has approved; never add new clinical content unprompted.
 - Mark a stop reviewed only when David says so.
 - Work on a branch and open a pull request; David approves every merge.
