@@ -7,6 +7,9 @@
 
 * @gd221-imp
 
+# Workstream 8 owns content/data/ except the curriculum and ARCP files below
+# /content/data/                                           @gd221-imp @OWNER8
+
 # Workstream 1: Foundation and Core training
 # /content/path/stages/01-foundation.js                     @gd221-imp @OWNER1
 # /content/path/stages/02-core-training.js                  @gd221-imp @OWNER1
@@ -61,7 +64,8 @@
 # /content/path/stages/04-stage-3.js                        @gd221-imp @OWNER6
 # /content/path/stages/05-consultant.js                     @gd221-imp @OWNER6
 # /content/specialties/stage3-stops/                        @gd221-imp @OWNER6
-# /content/data/CURRIC_KC.json                              @gd221-imp @OWNER6
+# /content/data/CURRIC_*.json                               @gd221-imp @OWNER6
+# /content/data/ARCP_*.json                                 @gd221-imp @OWNER6
 
 # Workstream 7: Live content and community has no files here (news, jobs, events and forum are live data).
 
@@ -70,5 +74,3 @@
 # /tools/                                                   @gd221-imp @OWNER8
 # /.github/                                                 @gd221-imp @OWNER8
 # /cspell.json                                              @gd221-imp @OWNER8
-# /content/data/DRUGS.json                                  @gd221-imp @OWNER8
-# /content/data/NG45_CARD.json                              @gd221-imp @OWNER8

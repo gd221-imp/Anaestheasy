@@ -1,0 +1,86 @@
+[
+ {
+  "k": "Generic professional",
+  "n": 1,
+  "t": "Professional behaviours and communication",
+  "o": "Shows the professional values and behaviours patients expect of their doctors."
+ },
+ {
+  "k": "Generic professional",
+  "n": 2,
+  "t": "Management and professional and regulatory requirements",
+  "o": "Takes on managerial, administrative and organisational roles."
+ },
+ {
+  "k": "Generic professional",
+  "n": 3,
+  "t": "Team working",
+  "o": "Works effectively within teams to improve patient care."
+ },
+ {
+  "k": "Generic professional",
+  "n": 4,
+  "t": "Safety and quality improvement",
+  "o": "Improves the quality and safety of patient care."
+ },
+ {
+  "k": "Generic professional",
+  "n": 5,
+  "t": "Safeguarding",
+  "o": "Recognises vulnerable people and acts to protect them."
+ },
+ {
+  "k": "Generic professional",
+  "n": 6,
+  "t": "Education and training",
+  "o": "Supports others to develop their professional practice."
+ },
+ {
+  "k": "Generic professional",
+  "n": 7,
+  "t": "Research and managing data",
+  "o": "Contributes to advancing anaesthetic practice through research and data."
+ },
+ {
+  "k": "Clinical",
+  "n": 8,
+  "t": "Perioperative medicine and health promotion",
+  "o": "Delivers safe, multidisciplinary perioperative care and promotes public health."
+ },
+ {
+  "k": "Clinical",
+  "n": 9,
+  "t": "General anaesthesia",
+  "o": "Provides safe and effective general anaesthesia."
+ },
+ {
+  "k": "Clinical",
+  "n": 10,
+  "t": "Regional anaesthesia",
+  "o": "Provides safe and effective regional anaesthesia."
+ },
+ {
+  "k": "Clinical",
+  "n": 11,
+  "t": "Resuscitation and transfer",
+  "o": "Resuscitates, stabilises and safely transfers critically ill patients."
+ },
+ {
+  "k": "Clinical",
+  "n": 12,
+  "t": "Procedural sedation",
+  "o": "Provides safe and effective procedural sedation."
+ },
+ {
+  "k": "Clinical",
+  "n": 13,
+  "t": "Pain",
+  "o": "Manages acute and chronic pain."
+ },
+ {
+  "k": "Clinical",
+  "n": 14,
+  "t": "Intensive care",
+  "o": "Recognises and manages critical illness."
+ }
+]

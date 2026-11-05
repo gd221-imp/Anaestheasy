@@ -18,7 +18,7 @@ Anaesthetic Ally is a UK anaesthetics training app that takes a doctor from FY1 
 | `content/primary/` | The 209 Primary FRCA topics (`topics/<category>/*.html`), indexed in `topics.json` |
 | `content/sba/` | Single best answer banks, one file per area (`final/`, `primary/`) |
 | `content/recipes/`, `content/wpba/` | Recipes and sample WPBAs for the few stops and notes without their own folder. Every other recipe and WPBA lives once, in its stop's `cards/` folder (a note with the same name as an operation shows that operation's recipe) |
-| `content/data/` | Drug reference, curriculum key capabilities, NICE pre-op tests |
+| `content/data/` | Reference data the app's pages are built from: drug reference (`DRUGS.json`), paediatric dose sheet (`PAED_SECS.json`, with RCUK weights in `PAED_RCUK_WT.json`), curriculum (`CURRIC_*.json`), ARCP checklists (`ARCP_*.json`), conferences (`EVENTS*.json`, `EVENT_CALS.json`), professional fees and exams (`EXP_ITEMS.json`: one amount per grade, FY1 to Consultant; `EXAMS.json`), and shared cards (`NG45_CARD.json`, `COMP_CARD.json`, `LOCUM_CARD.json`, `TAX_CARD.json`, `FELLOW_CARD.json`, `JOBS_CARD.json`, `EXP_CARD_B.json`). Three age-dependent paediatric dose rules stay in `app/page.html` (`PAED_RULES`) and are named from `PAED_SECS.json` |
 | `app/page.html` | The app's code and layout, with markers where content is inserted |
 | `tools/` | `build.py` (assemble the app), `check.py` (house-rule checks), `split.py` (one-off split, kept for reference) |
 

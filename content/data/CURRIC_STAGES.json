@@ -1,0 +1,20 @@
+[
+ {
+  "n": "Stage 1",
+  "g": "CT1–CT3",
+  "stage": "core",
+  "d": "Core training: the IAC, IACOA, on-calls and the Primary FRCA."
+ },
+ {
+  "n": "Stage 2",
+  "g": "ST4–ST5",
+  "stage": "st2",
+  "d": "Specialty modules across the clinical domains, and the Final FRCA."
+ },
+ {
+  "n": "Stage 3",
+  "g": "ST6–ST7",
+  "stage": "st3",
+  "d": "Special interest areas, leadership and preparation for CCT."
+ }
+]

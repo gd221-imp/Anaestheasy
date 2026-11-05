@@ -201,8 +201,8 @@ for kind in ('recipes', 'wpba'):
         if f not in listed: err(f'content/{kind}/{f}', f'not listed in {kind}/_index.json, so it is never shown')
 
 # 4d. Every link and placement points at something real
-try: curric = {int(n) for n in re.findall(r'\bn:(\d+),t:"', re.search(r'const CURRIC_DOMAINS=\[([\s\S]*?)\];', (ROOT / 'app' / 'page.html').read_text(encoding='utf-8')).group(1))}
-except Exception: curric = set()
+try: curric = {d['n'] for d in json.loads((C / 'data' / 'CURRIC_DOMAINS.json').read_text(encoding='utf-8'))}
+except Exception as e: curric = set(); err('content/data/CURRIC_DOMAINS.json', f'could not read the curriculum domains ({e})')
 def check_link(k, where):
     if k.startswith('stop:'):
         if k[5:] not in titles: err(where, f'link "{k}" points at a stop or note that does not exist (check the exact title)')

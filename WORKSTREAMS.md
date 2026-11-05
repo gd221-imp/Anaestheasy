@@ -9,9 +9,9 @@ Each workstream owner edits only the folders listed against their workstream. Ev
 | 3 | Final FRCA A | `content/specialties/` → `cardiac/`, `thoracic/`, `vascular/`, `neuro/`, `icm/`, `pain/`; Stage 2 neuro and pain stops in `content/path/added-stops/` (06–08) |
 | 4 | Final FRCA B | `content/specialties/` → `obstetrics/`, `paeds/`, `periop-medicine/`, `general-surgery/`, `urology/`, `orthopaedics/`, `trauma/`, `head-and-neck/`, `plastics/`, `ophthalmology/`, `critical-incidents/`, `miscellaneous/`, `emergency-cepod-stops/`; `content/sba/final/`; Stage 2 stops in `content/path/added-stops/` (09–11); the Final FRCA stops in `content/path/stages/03-stage-2.js` |
 | 5 | Recipes and WPBAs | `content/recipes/` and `content/wpba/`: the recipes and sample WPBAs for stops and notes without their own folder |
-| 6 | Stage 3, Consultant and careers | `content/path/stages/04-stage-3.js`, `content/path/stages/05-consultant.js`, `content/specialties/stage3-stops/`, `content/data/CURRIC_KC.json` |
+| 6 | Stage 3, Consultant and careers | `content/path/stages/04-stage-3.js`, `content/path/stages/05-consultant.js`, `content/specialties/stage3-stops/`, `content/data/CURRIC_*.json`, `content/data/ARCP_*.json` |
 | 7 | Live content and community | News, jobs, fellowships, events and forum are live data, not files here; owner coordinates with workstream 8 |
-| 8 | Technical and App Store | `app/`, `tools/`, `.github/`, `content/data/DRUGS.json`, `content/data/NG45_CARD.json` |
+| 8 | Technical and App Store | `app/`, `tools/`, `.github/`, and the rest of `content/data/`: drug reference, paediatric dose sheet, conferences, fees, exams and shared cards |
 
 Recipe cards that sit inside a specialty stop (`cards/01-anaesthetic-recipe.html`) belong to the specialty owner; workstream 5 owns the standalone recipe and WPBA libraries.
 
