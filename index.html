@@ -6565,7 +6565,7 @@ function paedEquip(w, ageM) {
   out.push([
     "Maintenance fluid",
     `${Math.round(mt)} mL/h`,
-    "4-2-1 rule: 4 mL/kg/h for the first 10 kg, 2 for the next 10, 1 for each kg above 20. Fasting deficit = hourly rate × hours fasted"
+    "4-2-1 rule: 4 mL/kg/h for the first 10 kg, 2 for the next 10, 1 for each kg above 20, up to a maximum of 100 mL/h (reached at 60 kg). Fasting deficit = hourly rate × hours fasted"
   ]);
   const ebvk = ageM == null ? null : ageM < 1 ? 90 : ageM < 36 ? 80 : 70;
   if (ebvk)
