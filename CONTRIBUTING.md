@@ -104,7 +104,7 @@ These are written as code, not JSON. Edit the words inside the backticks (`` `â€
 - **Intrathecal opioid** is always diamorphine, never intrathecal morphine. The check fails if it finds intrathecal morphine.
 - **Cannulas:** order is 20G then 16G.
 - **Complications** are always split into Surgical and Anaesthetic, each with Immediate and Delayed.
-- **Notes:** a maximum of three linked note topics per stop.
+- **Notes:** ideally no more than three linked note topics per stop. This is a guide, not a hard rule, so the checks don't flag it.
 - **Sources:** keep inline references; summarise books in your own words, never copy their text.
 - **Our own notes come first.** New content fills agreed gaps only.
 - **Local practice** can follow the national position, labelled "Local practice here".

@@ -70,18 +70,16 @@ for p in stop_files:
 try: primary_ids = {t['id'] for t in json.loads((C / 'primary' / 'topics.json').read_text(encoding='utf-8'))}
 except Exception: primary_ids = set()
 for p, st in stops.items():
-    rel = p.relative_to(ROOT); notes = 0
+    rel = p.relative_to(ROOT)
     for c in st.get('cards', []):
         if not isinstance(c, dict): continue
         if 'noteRef' in c:
-            notes += 1
             if c['noteRef'] not in linkable: err(rel, f'linked note "{c["noteRef"]}" does not exist (check the exact title)')
         if 'primaryRef' in c and c['primaryRef'] not in primary_ids:
             err(rel, f'linked Primary topic "{c["primaryRef"]}" does not exist')
         b = c.get('b')
         if isinstance(b, str) and b.startswith('file:') and not (p.parent / b[5:]).exists():
             err(rel, f'card file {b[5:]} is missing')
-    if notes > 3: warn(rel, f'house rule: {notes} linked note topics (maximum 3 per stop)')
 
 # 4b. Stop ids: fixed, unique and well formed; every SBA link points at a real stop
 ID_OK = re.compile(r'^[a-z0-9]+(-[a-z0-9]+)*$')
