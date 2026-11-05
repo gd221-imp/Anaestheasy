@@ -1,97 +1,154 @@
-"""Assemble app/page.html + content/ into dist/index.html (one self-contained page).
-Usage: python3 tools/build.py   ->  dist/index.html"""
-import json, re, sys
+"""Assemble app/ and content/ into dist/index.html, one self-contained page.
+
+Usage: python3 tools/build.py   ->  dist/index.html
+
+How it works
+- app/page.html is the page shell. Each `/*@@include FILE@@*/` line is replaced by app/FILE
+  (the stylesheet and the app's scripts, in order).
+- Each `"/*@@text FILE@@*/"` becomes the contents of app/FILE as a JavaScript string.
+- Each `/*@@NAME@@*/` line becomes `const NAME=<data>;`, with the data read from content/
+  (see build_const for where each name comes from).
+"""
+
+import json
+import re
+import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-C = ROOT / 'content'
-
-def rj(p): return json.loads(Path(p).read_text(encoding='utf-8'))
-def rt(p):
-    t = Path(p).read_text(encoding='utf-8')
-    return t[:-1] if t.endswith('\n') else t
-def html(p):
-    # line breaks between tags are layout only; any other line break becomes a space
-    t = rt(p)
-    t = re.sub(r'>[ \t]*\r?\n\s*<', '><', t)
-    return re.sub(r'\s*\r?\n\s*', ' ', t)
-
-def dump(o): return json.dumps(o, ensure_ascii=False).replace('</', '<\\/')
-
-def read_stop(folder):
-    st = rj(folder / 'stop.json')
-    # {"shared": "NAME"} stands for the card in content/data/NAME.json, so one card can appear on several stops
-    st['cards'] = [rj(C / 'data' / f"{c['shared']}.json") if isinstance(c, dict) and 'shared' in c else c for c in st.get('cards', [])]
-    for c in st.get('cards', []):
-        if isinstance(c, dict) and isinstance(c.get('b'), str) and c['b'].startswith('file:'):
-            c['b'] = html(folder / c['b'][5:])
-    if st.get('q') == 'file:quiz.json':
-        st['q'] = rj(folder / 'quiz.json')
-    return st
-
-def subdirs(p): return sorted(d for d in p.iterdir() if d.is_dir())
-
-def build_const(name):
-    if name == 'STAGES':
-        parts = [rt(C / 'path' / 'stages' / f) for f in rj(C / 'path' / 'stages' / '_order.json')]
-        return 'const STAGES=[\n' + '\n'.join(parts) + '\n];'
-    if name == 'PRIMARY':
-        o = {}
-        for k in rj(C / 'primary' / '_keys.json'):
-            if k == 'topics':
-                o['topics'] = {}
-                for t in rj(C / 'primary' / 'topics.json'):
-                    t = dict(t); tid = t.pop('id'); f = t.pop('file')
-                    o['topics'][tid] = {**t, 'h': html(C / 'primary' / f)}
-            else:
-                o[k] = rj(C / 'primary' / f'{k}.json')
-    elif name == 'IMPORTED':
-        o = {}
-        for s in rj(C / 'specialties' / '_sections.json'):
-            o[s['key']] = [read_stop(d) for d in subdirs(C / 'specialties' / s['dir'])]
-    elif name in ('SBA_BANK', 'PSBA_BANK'):
-        base = C / 'sba' / ('final' if name == 'SBA_BANK' else 'primary')
-        allq = {}
-        for f in sorted(base.glob('*.json')):
-            if f.name.startswith('_'): continue
-            for q in rj(f):
-                if q['id'] in allq: sys.exit(f'Duplicate question id {q["id"]} in {f}')
-                allq[q['id']] = q
-        order = rj(base / '_order.json')
-        o = [allq.pop(i) for i in order if i in allq] + list(allq.values())  # new ids go at the end
-    elif name in ('WPBA', 'RECIPES'):
-        base = C / ('wpba' if name == 'WPBA' else 'recipes')
-        o = {e['name']: html(base / e['file']) for e in rj(base / '_index.json')}
-    elif name == 'NEW_STOPS':
-        o = []
-        for fn in rj(C / 'path' / 'added-stops' / '_order.json'):
-            d = C / 'path' / 'added-stops' / fn
-            e = rj(d / 'placement.json'); e['stop'] = read_stop(d / 'stop'); o.append(e)
-    elif name == 'PREOP_STOP':
-        o = read_stop(C / 'path' / 'preop-stop')
-    else:
-        o = rj(C / 'data' / f'{name}.json')
-    return f'const {name}={dump(o)};'
+CONTENT = ROOT / 'content'
+APP = ROOT / 'app'
 
 INCLUDE = re.compile(r'^/\*@@include ([\w./-]+)@@\*/$', re.M)
+TEXT = re.compile(r'"/\*@@text ([\w./-]+)@@\*/"')
+CONST = re.compile(r'^/\*@@([A-Z_0-9]+)@@\*/$', re.M)
+
+
+def read_json(path):
+    return json.loads(Path(path).read_text(encoding='utf-8'))
+
+
+def read_text(path):
+    """A text file without its final line break."""
+    text = Path(path).read_text(encoding='utf-8')
+    return text[:-1] if text.endswith('\n') else text
+
+
+def read_card_html(path):
+    """A card's HTML on one line: breaks between tags are layout only; any other line break becomes a space."""
+    text = re.sub(r'>[ \t]*\r?\n\s*<', '><', read_text(path))
+    return re.sub(r'\s*\r?\n\s*', ' ', text)
+
+
+def to_js(value):
+    """JSON that is safe to place inside a <script> element."""
+    return json.dumps(value, ensure_ascii=False).replace('</', '<\\/')
+
+
+def subfolders(path):
+    return sorted(child for child in path.iterdir() if child.is_dir())
+
+
+def read_stop(folder):
+    """A stop or note folder: stop.json with its card files and quiz filled in."""
+    stop = read_json(folder / 'stop.json')
+    # {"shared": "NAME"} stands for the card in content/data/NAME.json, so one card can appear on several stops
+    stop['cards'] = [
+        read_json(CONTENT / 'data' / f"{card['shared']}.json") if isinstance(card, dict) and 'shared' in card else card
+        for card in stop.get('cards', [])
+    ]
+    for card in stop['cards']:
+        if isinstance(card, dict) and isinstance(card.get('b'), str) and card['b'].startswith('file:'):
+            card['b'] = read_card_html(folder / card['b'][len('file:') :])
+    if stop.get('q') == 'file:quiz.json':
+        stop['q'] = read_json(folder / 'quiz.json')
+    return stop
+
+
+def build_const(name):
+    """The JavaScript `const NAME=...;` for one /*@@NAME@@*/ marker."""
+    if name == 'STAGES':
+        # The stage files are JavaScript object literals (they use IMPORTED and helper calls), joined in order
+        stages = CONTENT / 'path' / 'stages'
+        parts = [read_text(stages / file) for file in read_json(stages / '_order.json')]
+        return 'const STAGES=[\n' + '\n'.join(parts) + '\n];'
+
+    if name == 'PRIMARY':
+        value = {}
+        for key in read_json(CONTENT / 'primary' / '_keys.json'):
+            if key == 'topics':
+                value['topics'] = {}
+                for topic in read_json(CONTENT / 'primary' / 'topics.json'):
+                    topic = dict(topic)
+                    topic_id, file = topic.pop('id'), topic.pop('file')
+                    value['topics'][topic_id] = {**topic, 'h': read_card_html(CONTENT / 'primary' / file)}
+            else:
+                value[key] = read_json(CONTENT / 'primary' / f'{key}.json')
+
+    elif name == 'IMPORTED':
+        value = {}
+        for section in read_json(CONTENT / 'specialties' / '_sections.json'):
+            value[section['key']] = [
+                read_stop(folder) for folder in subfolders(CONTENT / 'specialties' / section['dir'])
+            ]
+
+    elif name in ('SBA_BANK', 'PSBA_BANK'):
+        bank = CONTENT / 'sba' / ('final' if name == 'SBA_BANK' else 'primary')
+        questions = {}
+        for file in sorted(bank.glob('*.json')):
+            if file.name.startswith('_'):
+                continue
+            for question in read_json(file):
+                if question['id'] in questions:
+                    sys.exit(f'Duplicate question id {question["id"]} in {file}')
+                questions[question['id']] = question
+        order = read_json(bank / '_order.json')
+        # questions in _order.json first, in that order; any new ids go at the end
+        value = [questions.pop(qid) for qid in order if qid in questions] + list(questions.values())
+
+    elif name in ('WPBA', 'RECIPES'):
+        library = CONTENT / ('wpba' if name == 'WPBA' else 'recipes')
+        value = {entry['name']: read_card_html(library / entry['file']) for entry in read_json(library / '_index.json')}
+
+    elif name == 'NEW_STOPS':
+        value = []
+        added = CONTENT / 'path' / 'added-stops'
+        for folder_name in read_json(added / '_order.json'):
+            entry = read_json(added / folder_name / 'placement.json')
+            entry['stop'] = read_stop(added / folder_name / 'stop')
+            value.append(entry)
+
+    elif name == 'PREOP_STOP':
+        value = read_stop(CONTENT / 'path' / 'preop-stop')
+
+    else:
+        value = read_json(CONTENT / 'data' / f'{name}.json')
+
+    return f'const {name}={to_js(value)};'
+
 
 def assemble_page():
     """app/page.html with each /*@@include FILE@@*/ line replaced by app/FILE (the stylesheet and the app's scripts)."""
-    page = (ROOT / 'app' / 'page.html').read_text(encoding='utf-8')
-    return INCLUDE.sub(lambda m: rt(ROOT / 'app' / m.group(1)), page)
+    page = (APP / 'page.html').read_text(encoding='utf-8')
+    return INCLUDE.sub(lambda match: read_text(APP / match.group(1)), page)
 
-TEXT = re.compile(r'"/\*@@text ([\w./-]+)@@\*/"')
 
 def build():
     page = assemble_page()
-    # "/*@@text FILE@@*/" becomes app/FILE as a JavaScript string (used for the tax tracker's own stylesheet and markup)
-    page = TEXT.sub(lambda m: json.dumps((ROOT / 'app' / m.group(1)).read_text(encoding='utf-8'), ensure_ascii=False).replace('</', '<\\/'), page)
-    out = re.sub(r'^/\*@@([A-Z_0-9]+)@@\*/$', lambda m: build_const(m.group(1)), page, flags=re.M)
+    # "/*@@text FILE@@*/" becomes app/FILE as a JavaScript string (the tax tracker's own stylesheet and markup)
+    page = TEXT.sub(
+        lambda match: json.dumps((APP / match.group(1)).read_text(encoding='utf-8'), ensure_ascii=False).replace(
+            '</', '<\\/'
+        ),
+        page,
+    )
+    out = CONST.sub(lambda match: build_const(match.group(1)), page)
     (ROOT / 'dist').mkdir(exist_ok=True)
     (ROOT / 'dist' / 'index.html').write_text(out, encoding='utf-8')
     (ROOT / 'dist' / '.nojekyll').touch()
     return out
 
+
 if __name__ == '__main__':
     out = build()
-    print(f'Built dist/index.html ({len(out.encode())/1e6:.2f} MB)')
+    print(f'Built dist/index.html ({len(out.encode()) / 1e6:.2f} MB)')
