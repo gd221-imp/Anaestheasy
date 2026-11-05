@@ -245,6 +245,12 @@ TOXBASE
 WPBA
 ePortfolio
 RCPCH
+ANZCA
+WFSA
+MDDUS
+NACCS
+ACTACC
+Euroanaesthesia
 
 # ==============================================================================
 # Domain Shorthands
@@ -546,6 +552,9 @@ ionm
 qsofa
 vriii
 wetflag
+QIPAT
+ALMAT
+multisource
 
 # ==============================================================================
 # Anatomy & Procedures
@@ -813,6 +822,7 @@ selectatec
 vigileo
 vitalograph
 Clauss
+Westin
 
 # ==============================================================================
 # Misc
