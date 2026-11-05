@@ -1,26 +1,28 @@
-name: Check and build
+name: Check, build and deploy
 
 on:
   pull_request:
+    types: [opened, reopened, synchronize, closed]
   push:
     branches: [main]
   workflow_dispatch:
 
 permissions:
-  contents: read
-  pages: write
-  id-token: write
+  contents: write
+  pull-requests: write
 
 concurrency:
-  group: pages-${{ github.ref }}
-  cancel-in-progress: true
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: ${{ github.ref != 'refs/heads/main' }}
 
 jobs:
   check:
+    name: Check and build
+    if: github.event_name != 'pull_request' || github.event.action != 'closed'
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: '3.12'
       - name: Check content and house rules
@@ -28,24 +30,76 @@ jobs:
       - name: Build the app
         run: python3 tools/build.py
       - name: Save the built app (download from this run to preview)
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: pathway-preview
           path: dist/index.html
-      - name: Prepare preview site
-        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: dist
 
-  deploy-preview:
-    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+  deploy-pr-preview:
+    name: Deploy PR Preview
+    needs: [check]
+    if: |
+      always() &&
+      github.event_name == 'pull_request' &&
+      (github.event.pull_request.head.repo.full_name == github.repository) &&
+      (github.event.action == 'closed' || needs.check.result == 'success')
+    runs-on: ubuntu-latest
+    concurrency:
+      group: pr-preview-${{ github.event.number }}
+      cancel-in-progress: false
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        if: github.event.action != 'closed'
+        with:
+          python-version: '3.12'
+      - name: Build the app
+        if: github.event.action != 'closed'
+        run: python3 tools/build.py
+      - name: Deploy PR Preview to gh-pages/pr-preview/
+        uses: rossjrw/pr-preview-action@v1
+        with:
+          source-dir: dist
+          preview-branch: gh-pages
+          umbrella-dir: pr-preview
+          action: auto
+
+  spell-check:
+    name: UK Medical spell check
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - name: Run UK Medical & British English spell check
+        uses: streetsidesoftware/cspell-action@v8
+        with:
+          config: cspell.json
+          incremental_files_only: false
+          strict: true
+          inline: warning
+          suggestions: true
+          treat_flagged_words_as_errors: true
+
+  deploy-production:
+    name: Deploy production to GitHub Pages
+    if: (github.event_name == 'push' || github.event_name == 'workflow_dispatch') && github.ref == 'refs/heads/main'
     needs: check
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deploy.outputs.page_url }}
+    concurrency:
+      group: deploy-gh-pages-main
+      cancel-in-progress: false
     steps:
-      - id: deploy
-        uses: actions/deploy-pages@v4
-        continue-on-error: true   # stays green until GitHub Pages is switched on (Settings > Pages > GitHub Actions)
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - name: Build the app
+        run: python3 tools/build.py
+      - name: Deploy to gh-pages root
+        uses: JamesIves/github-pages-deploy-action@v4.8.0
+        with:
+          folder: dist
+          branch: gh-pages
+          clean: true
+          clean-exclude: pr-preview/
+          force: false
