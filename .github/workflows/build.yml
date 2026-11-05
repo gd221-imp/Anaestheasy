@@ -64,6 +64,24 @@ jobs:
           umbrella-dir: pr-preview
           action: auto
 
+  spell-check:
+    name: UK Medical spell check
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run UK Medical & British English spell check
+        uses: streetsidesoftware/cspell-action@v6
+        with:
+          config: cspell.json
+          incremental_files_only: false
+          strict: true
+          inline: warning
+          suggestions: true
+          treat_flagged_words_as_errors: true
+
+  deploy-preview:
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
   deploy-production:
     name: Deploy production to GitHub Pages
     if: (github.event_name == 'push' || github.event_name == 'workflow_dispatch') && github.ref == 'refs/heads/main'

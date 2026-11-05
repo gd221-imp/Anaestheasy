@@ -1,0 +1,68 @@
+{
+  "$schema": "https://raw.githubusercontent.com/streetsidesoftware/cspell/main/cspell.schema.json",
+  "version": "0.2",
+  "language": "en-GB",
+  "import": [
+    "https://cdn.jsdelivr.net/npm/@cspell/dict-en-gb-ise@latest/cspell-ext.json",
+    "https://cdn.jsdelivr.net/npm/@cspell/dict-scientific-terms-gb@latest/cspell-ext.json",
+    "https://cdn.jsdelivr.net/npm/@cspell/dict-medicalterms@latest/cspell-ext.json",
+    "./.github/cspell/drug-brand-replacements.json",
+    "./.github/cspell/americanisms.json"
+  ],
+  "dictionaries": [
+    "en-gb",
+    "scientific-terms-gb",
+    "medical terms",
+    "uk-anaesthesia"
+  ],
+  "dictionaryDefinitions": [
+    {
+      "name": "uk-anaesthesia",
+      "path": "./.github/cspell/uk-anaesthesia.txt",
+      "description": "UK Anaesthetic, Critical Care, Pain, and NHS clinical terms"
+    }
+  ],
+  "ignorePaths": [
+    ".git/**",
+    ".github/**",
+    ".githooks/**",
+    ".pytest_cache/**",
+    "**/__pycache__/**",
+    ".gitignore",
+    "cspell.json",
+    "package.json",
+    "package-lock.json",
+    "dist/**",
+    "app/**",
+    "content/data/**",
+    "node_modules/**",
+    "tools/**",
+    "**/*.min.js",
+    "**/*.min.css",
+    "**/*.svg",
+    "**/*.png",
+    "**/*.jpg",
+    "**/*.jpeg",
+    "**/*.ico",
+    "**/*.woff",
+    "**/*.woff2"
+  ],
+  "words": [
+    "Anaestheasy",
+    "Griffiths",
+    "teamworking",
+    "wellbeing",
+    "specialties",
+    "medicolegal",
+    "WORKSTREAMS",
+    "workstream",
+    "CODEOWNERS",
+    "standalone"
+  ],
+  "ignoreRegExpList": [
+    "/<[a-zA-Z]+>[a-zA-Z]<\\/[a-zA-Z]+>[a-zA-Z]+/g",
+    "/<[^>]+>/g",
+    "/&[a-zA-Z0-9#]+;/g",
+    "/[dD]esmopressin\\s*\\(DDAVP\\)/g"
+  ]
+}
