@@ -42,6 +42,38 @@ jobs:
           name: pathway-preview
           path: dist/index.html
 
+  iphone-tests:
+    name: iPhone browser tests (WebKit)
+    if: github.event_name != 'pull_request' || github.event.action != 'closed'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '24'
+      - name: Build the app
+        run: python3 tools/build.py
+      - name: Install Playwright and WebKit
+        working-directory: tests/e2e
+        run: |
+          npm ci
+          npx playwright install --with-deps webkit
+      - name: Run the journeys on an iPhone 14-sized screen
+        working-directory: tests/e2e
+        env:
+          CI: 'true'
+        run: npx playwright test --project=iphone-webkit
+      - name: Keep the traces of any failed test
+        if: failure()
+        uses: actions/upload-artifact@v6
+        with:
+          name: iphone-test-traces
+          path: tests/e2e/test-results/
+          retention-days: 7
+
   review-summary:
     name: Review summary
     if: github.event_name == 'pull_request' && github.event.action != 'closed'
