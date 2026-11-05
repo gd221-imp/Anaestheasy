@@ -1454,7 +1454,22 @@ async function saveSignup(prof){
     await db.doc("signups/"+id).set({email:prof.email,role:prof.role,exam:prof.exam,st4:prof.st4,final:prof.final,st2done:prof.st2done,cons:prof.cons,start:prof.start,at:prof.at});
   }catch(e){}
 }
-if(!store.get("pathway-profile",null))setTimeout(()=>openPlacement(false),50);
+// Deep links, e.g. #stop=st2-12&tab=Anaesthetic%20recipe, #note=Tamponade&tab=Management, #topic=pha32
+// (tab may be a tab's name or its number from 0). Used by the pull request review summaries.
+function openFromHash(){
+  let h;try{h=new URLSearchParams(decodeURIComponent(location.hash.slice(1)).replace(/\+/g,"%2B"))}catch(e){return false}
+  const tab=h.get("tab");
+  if(h.get("stop")){const st=ALL.find(s=>s.id===h.get("stop"))||ALL.find(s=>s.title===h.get("stop"));if(!st)return false;
+    const subs=subsOf(st),sub=(tab!=null&&(subs.find(x=>x.name===tab||x.id===tab)||subs.find(x=>x.c&&x.c.h===tab)||(/^\d+$/.test(tab)&&subs[+tab])))||subs[0];
+    openSub(st.id,sub.id);return true}
+  if(h.get("note")){const n=NOTES.find(x=>x.title===h.get("note")||x.id===h.get("note"));if(!n)return false;openNote(n);
+    if(tab){const t=[...sheet.querySelectorAll(".nh")].find(e=>e.textContent===tab);if(t)setTimeout(()=>t.scrollIntoView({block:"start"}),50)}return true}
+  if(h.get("topic")&&PRIMARY.topics[h.get("topic")]){goTopic(h.get("topic"));return true}
+  return false;
+}
+const deepLinked=location.hash.length>1&&openFromHash();
+addEventListener("hashchange",()=>{if(location.hash.length>1)openFromHash()});
+if(!deepLinked&&!store.get("pathway-profile",null))setTimeout(()=>openPlacement(false),50);
 
 // ---- professional expenses: shared across every Finances stop; total feeds the 60% tax check ----
 const EXP_GRADES=["FY1","FY2","CT1","CT2","CT3","ST4","ST5","ST6","ST7","Consultant"];
