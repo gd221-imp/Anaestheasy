@@ -1,43 +1,74 @@
-# Who must approve changes to each part of Anaesthetic Ally.
+# Who must approve changes to each part of Anaesthetic Ally (mirrors WORKSTREAMS.md).
 # GitHub asks the listed people to review any pull request that touches these paths.
-# Replace the placeholders with real GitHub usernames (e.g. @jsmith), then remove the leading "# ".
-# The last matching line wins, so the catch-all comes first.
+# To switch a workstream on: replace its @OWNERn with the owner's GitHub username (e.g. @jsmith),
+# then remove the leading "# " from its lines. The last matching line wins, so the catch-all comes first
+# and more specific lines (single files, numbered added stops) come after the folders they sit in.
+# tools/pr_summary.py uses the same map to label pull requests; keep the three in step.
 
 * @gd221-imp
 
 # Workstream 1: Foundation and Core training
-# /content/path/stages/01-foundation.js        @gd221-imp @OWNER1
-# /content/path/stages/02-core-training.js     @gd221-imp @OWNER1
-# /content/specialties/core-training-stops/    @gd221-imp @OWNER1
-# /content/path/preop-stop/                    @gd221-imp @OWNER1
+# /content/path/stages/01-foundation.js                     @gd221-imp @OWNER1
+# /content/path/stages/02-core-training.js                  @gd221-imp @OWNER1
+# /content/specialties/core-training-stops/                 @gd221-imp @OWNER1
+# /content/path/preop-stop/                                 @gd221-imp @OWNER1
+# /content/path/added-stops/01-*/                           @gd221-imp @OWNER1
+# /content/path/added-stops/02-*/                           @gd221-imp @OWNER1
+# /content/path/added-stops/03-*/                           @gd221-imp @OWNER1
+# /content/path/added-stops/04-*/                           @gd221-imp @OWNER1
+# /content/path/added-stops/05-*/                           @gd221-imp @OWNER1
 
 # Workstream 2: Primary FRCA
-# /content/primary/                            @gd221-imp @OWNER2
-# /content/sba/primary/                        @gd221-imp @OWNER2
+# /content/primary/                                         @gd221-imp @OWNER2
+# /content/sba/primary/                                     @gd221-imp @OWNER2
 
 # Workstream 3: Final FRCA A
-# /content/specialties/cardiac/                @gd221-imp @OWNER3
-# /content/specialties/thoracic/               @gd221-imp @OWNER3
-# /content/specialties/vascular/               @gd221-imp @OWNER3
-# /content/specialties/neuro/                  @gd221-imp @OWNER3
-# /content/specialties/icm/                    @gd221-imp @OWNER3
-# /content/specialties/pain/                   @gd221-imp @OWNER3
+# /content/specialties/cardiac/                             @gd221-imp @OWNER3
+# /content/specialties/thoracic/                            @gd221-imp @OWNER3
+# /content/specialties/vascular/                            @gd221-imp @OWNER3
+# /content/specialties/neuro/                               @gd221-imp @OWNER3
+# /content/specialties/icm/                                 @gd221-imp @OWNER3
+# /content/specialties/pain/                                @gd221-imp @OWNER3
+# /content/path/added-stops/06-*/                           @gd221-imp @OWNER3
+# /content/path/added-stops/07-*/                           @gd221-imp @OWNER3
+# /content/path/added-stops/08-*/                           @gd221-imp @OWNER3
 
 # Workstream 4: Final FRCA B
-# /content/specialties/obstetrics/             @gd221-imp @OWNER4
-# /content/specialties/paeds/                  @gd221-imp @OWNER4
-# /content/sba/final/                          @gd221-imp @OWNER4
+# /content/specialties/obstetrics/                          @gd221-imp @OWNER4
+# /content/specialties/paeds/                               @gd221-imp @OWNER4
+# /content/specialties/periop-medicine/                     @gd221-imp @OWNER4
+# /content/specialties/general-surgery/                     @gd221-imp @OWNER4
+# /content/specialties/urology/                             @gd221-imp @OWNER4
+# /content/specialties/orthopaedics/                        @gd221-imp @OWNER4
+# /content/specialties/trauma/                              @gd221-imp @OWNER4
+# /content/specialties/head-and-neck/                       @gd221-imp @OWNER4
+# /content/specialties/plastics/                            @gd221-imp @OWNER4
+# /content/specialties/ophthalmology/                       @gd221-imp @OWNER4
+# /content/specialties/critical-incidents/                  @gd221-imp @OWNER4
+# /content/specialties/miscellaneous/                       @gd221-imp @OWNER4
+# /content/specialties/emergency-cepod-stops/               @gd221-imp @OWNER4
+# /content/sba/final/                                       @gd221-imp @OWNER4
+# /content/path/stages/03-stage-2.js                        @gd221-imp @OWNER4
+# /content/path/added-stops/09-*/                           @gd221-imp @OWNER4
+# /content/path/added-stops/10-*/                           @gd221-imp @OWNER4
+# /content/path/added-stops/11-*/                           @gd221-imp @OWNER4
 
-# Workstream 5: Recipes and WPBAs
-# /content/recipes/                            @gd221-imp @OWNER5
-# /content/wpba/                               @gd221-imp @OWNER5
+# Workstream 5: Recipes and WPBAs (the standalone libraries; recipe cards inside a stop folder belong to that specialty)
+# /content/recipes/                                         @gd221-imp @OWNER5
+# /content/wpba/                                            @gd221-imp @OWNER5
 
 # Workstream 6: Stage 3, Consultant and careers
-# /content/path/stages/04-stage-3.js           @gd221-imp @OWNER6
-# /content/path/stages/05-consultant.js        @gd221-imp @OWNER6
-# /content/specialties/stage3-stops/           @gd221-imp @OWNER6
+# /content/path/stages/04-stage-3.js                        @gd221-imp @OWNER6
+# /content/path/stages/05-consultant.js                     @gd221-imp @OWNER6
+# /content/specialties/stage3-stops/                        @gd221-imp @OWNER6
+# /content/data/CURRIC_KC.json                              @gd221-imp @OWNER6
 
-# Workstream 8: Technical
-# /app/                                        @gd221-imp @OWNER8
-# /tools/                                      @gd221-imp @OWNER8
-# /.github/                                    @gd221-imp @OWNER8
+# Workstream 7: Live content and community has no files here (news, jobs, events and forum are live data).
+
+# Workstream 8: Technical and App Store
+# /app/                                                     @gd221-imp @OWNER8
+# /tools/                                                   @gd221-imp @OWNER8
+# /.github/                                                 @gd221-imp @OWNER8
+# /cspell.json                                              @gd221-imp @OWNER8
+# /content/data/DRUGS.json                                  @gd221-imp @OWNER8
+# /content/data/NG45_CARD.json                              @gd221-imp @OWNER8

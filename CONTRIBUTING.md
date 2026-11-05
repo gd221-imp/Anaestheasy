@@ -24,10 +24,10 @@ If you do not agree, do not open a pull request; talk to David first.
 4. Click **Commit changes…**, choose **Create a new branch for this commit and start a pull request**, and give it a short name such as `obs-lscs-oxytocin`.
 5. Fill in the pull request form: what changed, why, and your source. Tick the checklist.
 6. Wait for the automatic check (a green tick). If it's red, open it to see what to fix.
-7. Download **pathway-preview** from the check run and open it to see your change in the app.
+7. A **Review summary** comment appears on the pull request within a minute or two. It lists the stops and notes you changed, each with an **open in preview** link that opens the app at that exact tab (on a phone too). It also shows any quiz or SBA questions with the correct answer marked ✅, a warning if a correct answer changed, and any dose changes side by side. Check it says what you meant to change.
 8. David reviews it, then merges it or comments.
 
-Group related changes into one pull request (for example, one stop or one note). Keep unrelated changes separate.
+Group related changes into one pull request (for example, one stop or one note). Keep unrelated changes separate. The summary flags a pull request that spans several workstreams, or mixes content with technical files.
 
 ## What the files look like
 

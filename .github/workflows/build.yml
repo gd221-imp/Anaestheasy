@@ -40,6 +40,31 @@ jobs:
           name: pathway-preview
           path: dist/index.html
 
+  review-summary:
+    name: Review summary
+    if: github.event_name == 'pull_request' && github.event.action != 'closed'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write
+      issues: write
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - name: Summarise the changes for the reviewer
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR_NUMBER: ${{ github.event.number }}
+        run: >
+          python3 tools/pr_summary.py
+          ${{ github.event.pull_request.base.sha }} ${{ github.event.pull_request.head.sha }}
+          --preview "https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/pr-preview/pr-${{ github.event.number }}/"
+          --post
+
   deploy-pr-preview:
     name: Deploy PR Preview
     needs: [check]

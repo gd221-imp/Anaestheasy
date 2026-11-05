@@ -30,6 +30,8 @@ python3 tools/build.py      # writes dist/index.html, the whole app in one page
 node tools/smoke_test.js    # opens every stop, tab, note and topic in headless Chrome
 ```
 
+**Links to a stop:** add `#stop=<id>` (and optionally `&tab=<tab name>`) to the app's address to open a stop at a given tab, e.g. `dist/index.html#stop=st2-15&tab=Anaesthetic%20recipe`. `#note=<title>` and `#topic=<Primary id>` work the same way. The review summary on each pull request uses these to link straight to what changed.
+
 The smoke test needs Node 22+ and Google Chrome (set `CHROME_PATH` if Chrome isn't found), and no npm packages. It fails if anything throws an error or shows broken text such as `undefined`, `NaN` or a stray `}`. All three run automatically on every pull request.
 
 Open `dist/index.html` in a browser to see the app. No installs are needed beyond Python 3.
