@@ -172,6 +172,8 @@ test('maintenance fluid: 4-2-1 rule (capped at 100 mL/h); tidal volume 7–8 mL/
     assert.equal(e['Maintenance fluid'], `${rate} mL/h`, `${w} kg`);
   }
   assert.equal((await app.evaluate(equip, 20, null))['Tidal volume'], '140–160 mL');
+  const label = await app.evaluate(() => paedEquip(70, null).find(([k]) => k === 'Maintenance fluid')[2]);
+  assert.match(label, /maximum of 100 mL\/h/, 'the on-screen rule should state the cap');
 });
 
 test('circulating blood volume: 90 mL/kg neonate, 80 toddler, 70 school age', async () => {
