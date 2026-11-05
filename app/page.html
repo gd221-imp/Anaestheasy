@@ -515,10 +515,15 @@ const SHAPES={
 /*@@WPBA@@*/
 // anaesthetic recipe tab for operation stops
 /*@@RECIPES@@*/
-STAGES.forEach(sg=>sg.stops.forEach(st=>{const r=RECIPES[st.title];if(!r||st.cards.some(c=>c.recipe))return;
-  const card={h:"Anaesthetic recipe",b:r,recipe:true},i=st.cards.findIndex(c=>c.h==="Further reading");
+// A note with the same title as an operation stop shows that stop's own recipe and WPBA cards (one source each,
+// in the stop's cards/ folder). content/recipes and content/wpba hold only those with no operation stop.
+const OP_BY_TITLE={};STAGES.forEach(sg=>sg.stops.forEach(st=>{if(!st.note&&st.cards.some(c=>c.recipe))OP_BY_TITLE[st.title]=st}));
+STAGES.forEach(sg=>sg.stops.forEach(st=>{if(st.cards.some(c=>c.recipe))return;
+  const op=st.note&&OP_BY_TITLE[st.title],r=RECIPES[st.title];
+  const card=op?op.cards.find(c=>c.recipe):r?{h:"Anaesthetic recipe",b:r,recipe:true}:null;if(!card)return;
+  const i=st.cards.findIndex(c=>c.h==="Further reading");
   if(i>=0)st.cards.splice(i,0,card);else st.cards.push(card);
-  const w=WPBA[st.title];if(w){const j=st.cards.indexOf(card);st.cards.splice(j+1,0,{h:"Sample WPBA",b:w,wpba:true})}}));
+  const w=op?op.cards.find(c=>c.wpba):WPBA[st.title]?{h:"Sample WPBA",b:WPBA[st.title],wpba:true}:null;if(w){const j=st.cards.indexOf(card);st.cards.splice(j+1,0,w)}}));
 // link Primary FRCA topics into core training stops
 (()=>{const core=STAGES.find(x=>x.id==="core");
   for(const [title,keys] of Object.entries(PRIMARY.map)){const st=core.stops.find(x=>x.title===title);if(st)st.cards.push({h:"Revise for the Primary",links:keys})}
@@ -545,33 +550,9 @@ NOTES.forEach((n,i)=>n.id="note-"+i);
 const findNote=t=>NOTES.find(x=>x.title===t);
 const findTopic=t=>findNote(t)||STAGES.flatMap(x=>x.stops).find(x=>x.title===t&&!x.op);
 const topicSections=n=>n.cards.map(c=>`<section class="nsec"><h4 class="nh">${c.h}</h4>${c.wpba?"":c.b||""}${c.links?linksHTML(c.links):""}${c.after||""}</section>`).join("");
-/*@@RECIPE_FILL@@*/
-// fill empty recipe fields ("—") from RECIPE_FILL, keyed by stop title, op section and field
-STAGES.forEach(sg=>sg.stops.forEach(st=>{const fill=RECIPE_FILL[st.title];if(!fill)return;
-  st.cards.forEach(c=>{if(!c.recipe||!c.b)return;const esc=s=>String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");
-    const parts=c.b.split(/(<h3 class="rop">[\s\S]*?<\/h3>)/);let seg=parts[0].replace(/<!--rfmt2-->/,"").trim()?0:-1;
-    c.b=parts.map(p=>{if(/^<h3 class="rop">/.test(p)){seg++;return p}const s=Math.max(seg,0);
-      return p.replace(/<p class="subh">([^<]*)<\/p><p class="muted">—<\/p>/g,(m,f)=>{const v=fill[s+"|"+f.replace(/&amp;/g,"&")];return v?`<p class="subh">${f}</p><ul>${v.map(x=>`<li>${esc(x)}</li>`).join("")}</ul>`:m})}).join("")})}));
-/*@@RECIPE_EDIT@@*/
-// reviewer edits: replace whole fields (applied after RECIPE_FILL)
-STAGES.forEach(sg=>sg.stops.forEach(st=>{const ed=RECIPE_EDIT[st.title];if(!ed)return;
-  st.cards.forEach(c=>{if(!c.recipe||!c.b)return;const esc=s=>String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");
-    const parts=c.b.split(/(<h3 class="rop">[\s\S]*?<\/h3>)/);let seg=parts[0].replace(/<!--rfmt2-->/,"").trim()?0:-1;
-    c.b=parts.map(p=>{if(/^<h3 class="rop">/.test(p)){seg++;return p}const s=Math.max(seg,0);
-      return p.replace(/<p class="subh">([^<]*)<\/p>([\s\S]*?)(?=<p class="subh">|<h4>|<p class="csub">|$)/g,(m,f,body)=>{const v=ed[s+"|"+f.replace(/&amp;/g,"&")];return v?`<p class="subh">${f}</p>${v.length?`<ul>${v.map(x=>`<li>${esc(x)}</li>`).join("")}</ul>`:`<p class="muted">—</p>`}`:m})}).join("")})}));
 // reviewer request: attach Primary notes to The IAC
 STAGES.forEach(sg=>sg.stops.forEach(st=>{if(st.title!=="The IAC"||st.cards.some(c=>c.primaryRef==="phy62"))return;
   st.cards.push({h:"NMB Monitoring",primaryRef:"phy62"},{h:"Nausea & Vomiting",primaryRef:"phs38"})}));
-/*@@RECIPE_ADD@@*/
-// additions appended to existing fields
-STAGES.forEach(sg=>sg.stops.forEach(st=>{const ad=RECIPE_ADD[st.title];if(!ad)return;
-  st.cards.forEach(c=>{if(!c.recipe||!c.b)return;const esc=s=>String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");
-    const parts=c.b.split(/(<h3 class="rop">[\s\S]*?<\/h3>)/);let seg=parts[0].replace(/<!--rfmt2-->/,"").trim()?0:-1;
-    c.b=parts.map(p=>{if(/^<h3 class="rop">/.test(p)){seg++;return p}const s=Math.max(seg,0);
-      return p.replace(/<p class="subh">([^<]*)<\/p>([\s\S]*?)(?=<p class="subh">|<h4>|<p class="csub">|$)/g,(m,f,body)=>{const v=ad[s+"|"+f.replace(/&amp;/g,"&")];if(!v)return m;
-        const li=v.map(x=>`<li>${esc(x)}</li>`).join("");
-        if(/<\/ul>\s*$/.test(body))return `<p class="subh">${f}</p>`+body.replace(/<\/ul>\s*$/,li+"</ul>");
-        return `<p class="subh">${f}</p>`+body+`<ul>${li}</ul>`})}).join("")})}));
 // PQIP link on the anterior resection recipe
 STAGES.forEach(sg=>sg.stops.forEach(st=>{if(st.title!=="Anterior Resection (Colorectal Surgery with ERAS)")return;const c=st.cards.find(c=>c.recipe||/recipe$/i.test(c.h));if(c&&!/pqip\.org\.uk/.test(c.b))c.b=c.b.replace("<h4>Pre-op</h4>",'<h4>Pre-op</h4><ul class="rintro"><li>Major surgery quality standards and data: <a href="https://pqip.org.uk" target="_blank" rel="noopener">Perioperative Quality Improvement Programme (PQIP)</a></li></ul>')}));
 // flatten

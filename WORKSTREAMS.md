@@ -8,7 +8,7 @@ Each workstream owner edits only the folders listed against their workstream. Ev
 | 2 | Primary FRCA | `content/primary/`, `content/sba/primary/` |
 | 3 | Final FRCA A | `content/specialties/` → `cardiac/`, `thoracic/`, `vascular/`, `neuro/`, `icm/`, `pain/`; Stage 2 neuro and pain stops in `content/path/added-stops/` (06–08) |
 | 4 | Final FRCA B | `content/specialties/` → `obstetrics/`, `paeds/`, `periop-medicine/`, `general-surgery/`, `urology/`, `orthopaedics/`, `trauma/`, `head-and-neck/`, `plastics/`, `ophthalmology/`, `critical-incidents/`, `miscellaneous/`, `emergency-cepod-stops/`; `content/sba/final/`; Stage 2 stops in `content/path/added-stops/` (09–11); the Final FRCA stops in `content/path/stages/03-stage-2.js` |
-| 5 | Recipes and WPBAs | `content/recipes/` (including `extras/`), `content/wpba/` |
+| 5 | Recipes and WPBAs | The `*anaesthetic-recipe.html` and `*sample-wpba.html` cards in each stop's `cards/` folder, plus `content/recipes/` and `content/wpba/` for stops without their own folder |
 | 6 | Stage 3, Consultant and careers | `content/path/stages/04-stage-3.js`, `content/path/stages/05-consultant.js`, `content/specialties/stage3-stops/`, `content/data/CURRIC_KC.json` |
 | 7 | Live content and community | News, jobs, fellowships, events and forum are live data, not files here; owner coordinates with workstream 8 |
 | 8 | Technical and App Store | `app/`, `tools/`, `.github/`, `content/data/DRUGS.json`, `content/data/NG45_CARD.json` |

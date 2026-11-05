@@ -103,6 +103,36 @@ for p in sorted((C / 'sba' / 'final').glob('*.json')):
         if q.get('st') and q['st'] not in stop_ids:
             err(p.relative_to(ROOT), f'SBA {q.get("id")} links to stop "{q["st"]}", which does not exist')
 
+# 4c. Recipes and WPBAs have one source each: a stop's own cards/ file, or content/recipes|wpba for stops and notes without one
+titles, owns = set(), {'recipes': set(), 'wpba': set()}
+for p in C.glob('**/stop.json'):
+    try: d = json.loads(p.read_text(encoding='utf-8'))
+    except Exception: continue
+    titles.add(d.get('title'))
+    if not d.get('note'):
+        cards = [c for c in d.get('cards', []) if isinstance(c, dict)]
+        if any(c.get('recipe') for c in cards): owns['recipes'].add(d.get('title'))
+        if any(c.get('wpba') for c in cards): owns['wpba'].add(d.get('title'))
+for p in (C / 'path' / 'stages').glob('*.js'):
+    titles |= set(re.findall(r'^\s*\{id:"[^"]*",t:"[a-z]+",.*?title:"([^"]+)"', p.read_text(encoding='utf-8'), re.M))
+recipe_names = set()
+for kind in ('recipes', 'wpba'):
+    ip = C / kind / '_index.json'
+    try: idx = json.loads(ip.read_text(encoding='utf-8'))
+    except Exception: continue
+    rel = ip.relative_to(ROOT)
+    for e in idx:
+        n, f = e.get('name'), e.get('file')
+        if kind == 'recipes': recipe_names.add(n)
+        if not f or not (C / kind / f).exists(): err(rel, f'"{n}": file {f} is missing')
+        if n not in titles: err(rel, f'"{n}" does not match any stop or note title, so it is never shown')
+        elif n in owns[kind]: err(rel, f'"{n}" already has its own {"recipe" if kind == "recipes" else "sample WPBA"} card in its stop folder; edit that file instead and remove this duplicate')
+        if kind == 'wpba' and n not in recipe_names and n not in owns['recipes']:
+            err(rel, f'"{n}" has no recipe, so its sample WPBA is never shown')
+    listed = {e.get('file') for e in idx}
+    for f in sorted(x.name for x in (C / kind).glob('*.html')):
+        if f not in listed: err(f'content/{kind}/{f}', f'not listed in {kind}/_index.json, so it is never shown')
+
 # 5. The app still builds
 sys.path.insert(0, str(ROOT / 'tools'))
 try:

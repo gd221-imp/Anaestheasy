@@ -67,8 +67,6 @@ def build_const(name):
             e = rj(d / 'placement.json'); e['stop'] = read_stop(d / 'stop'); o.append(e)
     elif name == 'PREOP_STOP':
         o = read_stop(C / 'path' / 'preop-stop')
-    elif name in ('RECIPE_FILL', 'RECIPE_EDIT', 'RECIPE_ADD'):
-        o = rj(C / 'recipes' / 'extras' / f'{name}.json')
     else:
         o = rj(C / 'data' / f'{name}.json')
     return f'const {name}={dump(o)};'
