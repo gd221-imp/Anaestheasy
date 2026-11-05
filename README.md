@@ -17,7 +17,7 @@ Anaesthetic Ally is a UK anaesthetics training app that takes a doctor from FY1 
 | `content/specialties/` | Every specialty stop and Final FRCA note, one folder each: `stop.json`, `cards/*.html`, `quiz.json` |
 | `content/primary/` | The 209 Primary FRCA topics (`topics/<category>/*.html`), indexed in `topics.json` |
 | `content/sba/` | Single best answer banks, one file per area (`final/`, `primary/`) |
-| `content/recipes/`, `content/wpba/` | Recipe and sample WPBA libraries |
+| `content/recipes/`, `content/wpba/` | Recipes and sample WPBAs for the few stops and notes without their own folder. Every other recipe and WPBA lives once, in its stop's `cards/` folder (a note with the same name as an operation shows that operation's recipe) |
 | `content/data/` | Drug reference, curriculum key capabilities, NICE pre-op tests |
 | `app/page.html` | The app's code and layout, with markers where content is inserted |
 | `tools/` | `build.py` (assemble the app), `check.py` (house-rule checks), `split.py` (one-off split, kept for reference) |
