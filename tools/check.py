@@ -73,6 +73,36 @@ for p, st in stops.items():
             err(rel, f'card file {b[5:]} is missing')
     if notes > 3: warn(rel, f'house rule: {notes} linked note topics (maximum 3 per stop)')
 
+# 4b. Stop ids: fixed, unique and well formed; every SBA link points at a real stop
+ID_OK = re.compile(r'^[a-z0-9]+(-[a-z0-9]+)*$')
+stop_ids = {}
+def add_id(i, where):
+    if not ID_OK.match(i): err(where, f'stop id "{i}" should be lower case letters, numbers and hyphens (e.g. st2-ruptured-aaa)')
+    if i in stop_ids: err(where, f'stop id "{i}" is already used by {stop_ids[i]}; each stop needs its own id')
+    else: stop_ids[i] = str(where)
+for p in sorted(C.glob('specialties/*/*/stop.json')):
+    try: d = json.loads(p.read_text(encoding='utf-8'))
+    except Exception: continue
+    if 'id' in d: add_id(d['id'], p.relative_to(ROOT))
+for p in sorted((C / 'path' / 'stages').glob('*.js')):
+    rel = p.relative_to(ROOT)
+    for n, line in enumerate(p.read_text(encoding='utf-8').split('\n'), 1):
+        m = re.match(r'\s*\{(id:"([^"]*)",)?t:"[a-z]+",.*?title:"([^"]+)"', line)
+        if not m: continue
+        if m.group(2): add_id(m.group(2), f'{rel}:{n}')
+        else: err(f'{rel}:{n}', f'stop "{m.group(3)}" has no id: start it with {{id:"<stage>-<short-name>", (e.g. id:"st2-ruptured-aaa"), and never change an id once published')
+for p in sorted((C / 'path' / 'added-stops').glob('*/placement.json')):
+    try: add_id(json.loads(p.read_text(encoding='utf-8'))['id'], p.relative_to(ROOT))
+    except (KeyError, ValueError): err(p.relative_to(ROOT), 'placement.json needs an "id"')
+add_id('core-preop', 'content/path/preop-stop (id set in app/page.html)')
+for p in sorted((C / 'sba' / 'final').glob('*.json')):
+    if p.name.startswith('_'): continue
+    try: qs = json.loads(p.read_text(encoding='utf-8'))
+    except Exception: continue
+    for q in qs:
+        if q.get('st') and q['st'] not in stop_ids:
+            err(p.relative_to(ROOT), f'SBA {q.get("id")} links to stop "{q["st"]}", which does not exist')
+
 # 5. The app still builds
 sys.path.insert(0, str(ROOT / 'tools'))
 try:

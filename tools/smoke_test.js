@@ -51,6 +51,10 @@ async function traverse() {
   }
   if (problems.length) return { counts, problems };
   if (!document.querySelector('#map').children.length) problems.push('the path (main map) is empty');
+  if (typeof STOP_ID_MISSING !== 'undefined')
+    for (const t of STOP_ID_MISSING) problems.push(`stop "${t}" has no id (add "id" to its stop.json or stage file)`);
+  const seen = {};
+  for (const st of ALL) { if (seen[st.id]) problems.push(`stops "${seen[st.id]}" and "${st.title}" share the id ${st.id}`); seen[st.id] = st.title; }
 
   for (const st of ALL) {
     const where = `stop "${st.title}"`;
