@@ -229,7 +229,7 @@ function shows(items) {
     await app.close();
     const docs = Object.entries(r.store).map(([k, v]) => ({id: k.split("/")[1], data: v}));
     const items = docs.flatMap(d => Object.values(d.data.items));
-    if (items.length > r.n || items.length < r.n - 5 || r.n < 50) {
+    if (items.length !== r.n || r.n < 50) {
       fail(`expected the ${r.n} edits to be saved, found ${items.length}`);
       errors++;
     }

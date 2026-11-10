@@ -234,23 +234,6 @@ def apply_quiz(it):
     return 'applied', str(rel)
 
 
-def apply_shared(before, before_lines, after_lines):
-    """A shared card (content/data/*_CARD.json): its text is one string in the card's JSON file."""
-    for f in sorted((C / 'data').glob('*_CARD*.json')):
-        text = f.read_text(encoding='utf-8')
-        d = json.loads(text)
-        b = d.get('b') if isinstance(d, dict) else d
-        if b == before:
-            new, _ = merge(before, before_lines, after_lines)
-            if isinstance(d, dict):
-                d['b'] = new
-            else:
-                d = new
-            _write_json(f, d, text)
-            return 'applied', f'{f.relative_to(ROOT)} (shared card: changes every stop it appears on)'
-    return None
-
-
 def apply_one(it):
     """Write one suggestion. Returns (status, detail): applied, conflict, manual or missing."""
     if it['kind'] in ('quiz', 'sba'):
@@ -261,9 +244,6 @@ def apply_one(it):
     f = _by_text(before)
     if f:
         return _write_file(f, before_lines, after_lines)
-    shared = apply_shared(before, before_lines, after_lines)
-    if shared:
-        return shared
     if it['kind'] == 'note':
         # the same text in several files: take the one in this note's own folder
         for sj in sorted(C.glob('specialties/*/*/stop.json')):

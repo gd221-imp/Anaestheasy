@@ -97,8 +97,8 @@ function seCurrent() {
   if (L.st && L.st.id && !L.st.id.startsWith("tmp-") && L.sub && L.st.stage) return seStop(L.st);
   return null;
 }
-// Shared cards are written once and shown on several stops (content/data/*_CARD.json). Their text can be
-// edited (the change shows everywhere they appear); the calculators inside two of them can't.
+// Shared cards are written once and shown on several stops (content/data/*_CARD.json): David keeps them
+// himself, so reviewers can't edit them here (they can mention them in a note).
 const SE_SHARED_NAMES = ["NG45_CARD", "COMP_CARD", "LOCUM_CARD", "TAX_CARD", "FELLOW_CARD", "JOBS_CARD"];
 function seSharedName(c) {
   if (!c) return "";
@@ -114,15 +114,8 @@ function seSharedName(c) {
     }) || ""
   );
 }
-const seCalc = c => /class="(expmount|taxmount)"/.test(c.b || "");
-// The other stops a shared card appears on
-function seAlsoOn(c, here) {
-  const n = seSharedName(c);
-  if (!n) return [];
-  return ALL.filter(s => s !== here && s.cards.some(x => x === c || seSharedName(x) === n)).map(s => s.title);
-}
 const seCardOK = c =>
-  !!(c && typeof c.b === "string" && c.b.trim() && !c.primaryRef && !c.noteRef && !c.wpba && !seCalc(c));
+  !!(c && typeof c.b === "string" && c.b.trim() && !c.primaryRef && !c.noteRef && !c.wpba && !seSharedName(c));
 // The stop tab on screen, if it can be edited
 function seEditable() {
   if (!SE.on || !L || L.win || L.forum || L.topic || (L.notes && L.notes.length)) return false;
@@ -153,15 +146,13 @@ function seDecorate() {
   if (cur.kind !== "note" && !L.topic && step && step.type !== "card") return;
   const ask = SE.asks[cur.key],
     st = seStatus(cur.key);
-  let edit = null,
-    also = [];
+  let edit = null;
   if (cur.kind === "stop" && seEditable()) {
     const sub = L.sub,
       c = L.steps[L.step].c;
-    also = seAlsoOn(c, L.st);
     edit = {
       label: sePending(cur.key + "|" + sub.id) ? "Edit my suggestion" : "Suggest edits",
-      go: () => seOpen({...cur, card: sub.id, tab: sub.name, c, also})
+      go: () => seOpen({...cur, card: sub.id, tab: sub.name, c})
     };
   } else if (cur.kind === "topic") {
     const t = PRIMARY.topics[cur.ref];
@@ -172,7 +163,7 @@ function seDecorate() {
   }
   const bar = document.createElement("div");
   bar.className = "sebar";
-  bar.innerHTML = `${SE.fromList && seSection() ? `<button class="selink" type="button" data-se-list>← Review list</button>` : ""}${ask ? `<p class="seask"><b>David asks:</b> ${escapeHTML(ask)}</p>` : ""}<div class="sebtns">${edit ? `<button class="sebtn" type="button" data-se-edit>✏️ ${edit.label}</button>` : ""}<button class="sebtn seok ${SE.checked[cur.key] ? "on" : ""}" type="button" data-se-ok aria-pressed="${!!SE.checked[cur.key]}">${SE.checked[cur.key] ? "✓ Marked: looks good" : "✓ Looks good, no changes"}</button><span class="sestate s-${st.c}">${st.t}</span></div>${also.length ? `<small>This tab also appears on ${escapeHTML(also.join(", "))}: a change here changes it there too.</small>` : ""}${cur.kind === "note" ? `<small>Tap ✏️ under a heading to change that part of the note.</small>` : !edit && cur.kind === "stop" ? `<small>This tab can't be edited here. Mention anything about it in a note when you edit another tab.</small>` : ""}`;
+  bar.innerHTML = `${SE.fromList && seSection() ? `<button class="selink" type="button" data-se-list>← Review list</button>` : ""}${ask ? `<p class="seask"><b>David asks:</b> ${escapeHTML(ask)}</p>` : ""}<div class="sebtns">${edit ? `<button class="sebtn" type="button" data-se-edit>✏️ ${edit.label}</button>` : ""}<button class="sebtn seok ${SE.checked[cur.key] ? "on" : ""}" type="button" data-se-ok aria-pressed="${!!SE.checked[cur.key]}">${SE.checked[cur.key] ? "✓ Marked: looks good" : "✓ Looks good, no changes"}</button><span class="sestate s-${st.c}">${st.t}</span></div>${cur.kind === "note" ? `<small>Tap ✏️ under a heading to change that part of the note.</small>` : !edit && cur.kind === "stop" ? `<small>${step && seSharedName(step.c) ? "This tab is shared with other stops and David keeps it himself." : "This tab can't be edited here."} Mention anything about it in a note when you edit another tab.</small>` : ""}`;
   page.prepend(bar);
   const li = bar.querySelector("[data-se-list]");
   if (li) li.onclick = seOpenList;
@@ -223,14 +214,7 @@ function seOpen(ctx) {
     skey,
     before
   };
-  // a shared card has one suggestion, wherever it was made from
-  const shared = seSharedName(ctx.c),
-    same = shared
-      ? Object.values(SE.items).find(x => x.shared === shared && x.status === "pending" && x.before === before)
-      : null,
-    mine = it && it.status === "pending" && it.before === before ? it : same,
-    start = mine ? mine.after : before;
-  SE.editing.shared = shared;
+  const start = it && it.status === "pending" && it.before === before ? it.after : before;
   const where = ctx.kind === "note" ? "Final FRCA note · " : ctx.kind === "topic" ? "Primary FRCA topic · " : "";
   const strip = sheet.querySelector(".tstrip");
   if (strip) strip.remove();
@@ -238,7 +222,7 @@ function seOpen(ctx) {
     `<button class="close" type="button" id="seCancelTop" aria-label="Stop editing">← Cancel</button><div class="sh-title">Suggesting edits · ${escapeHTML(ctx.title)}</div>`;
   sheet.querySelector(".sh-body").innerHTML =
     `<div class="page sepage"><div class="kind">${where}${escapeHTML(ctx.title)}</div><h3>${escapeHTML(ctx.tab)}</h3>
-<p class="sehelp">Change the text below as you'd like it to read in the app. Your version goes to David to approve; nothing changes for anyone else until he does.${ctx.also && ctx.also.length ? ` <b>This tab also appears on ${escapeHTML(ctx.also.join(", "))}</b>, so it will change there too.` : ""}</p>
+<p class="sehelp">Change the text below as you'd like it to read in the app. Your version goes to David to approve; nothing changes for anyone else until he does.</p>
 <div class="setools" role="toolbar" aria-label="Formatting">${SE_TOOLS.map(([k, l, t]) => `<button type="button" data-se="${k}" title="${t}" aria-label="${t}">${l}</button>`).join("")}</div>
 <div class="seed" id="seEd" contenteditable="true" spellcheck="true" lang="en-GB" aria-label="Text">${start}</div>
 <label class="selab" for="seNote">Anything David should know? <small>(optional: why, or your source)</small></label>
@@ -594,19 +578,12 @@ async function seSend(ed) {
     after,
     lines,
     note,
-    shared: E.shared || "",
     at: new Date().toISOString(),
     status: "pending"
   };
-  const checked = {...SE.checked},
-    items = {...SE.items, [E.skey]: item};
+  const checked = {...SE.checked};
   delete checked[E.key];
-  // one pending suggestion per shared card: this one replaces any made from another stop
-  if (E.shared)
-    Object.keys(items).forEach(k => {
-      if (k !== E.skey && items[k].shared === E.shared && items[k].status === "pending") delete items[k];
-    });
-  const ok = await seSave({items, checked});
+  const ok = await seSave({items: {...SE.items, [E.skey]: item}, checked});
   SE.busy = false;
   if (!ok) return;
   seDone();
