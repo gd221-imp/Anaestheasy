@@ -29,6 +29,26 @@ If you do not agree, do not open a pull request; talk to David first.
 
 Group related changes into one pull request (for example, one stop or one note). Keep unrelated changes separate. The summary flags a pull request that spans several workstreams, or mixes content with technical files.
 
+## Editing in VS Code
+
+For a change that touches several files (a stop's `stop.json`, its `cards/` and its `quiz.json`, say), use VS Code. The repository comes set up for it.
+
+**In the browser, with nothing to install:** on the repository page press `.` (full stop). VS Code opens in the browser with the files on the left. Press `Ctrl+P` (`Cmd+P` on a Mac) and type part of a file name to open it. To save your work, open **Source Control** on the left, type a short message, choose **Commit to new branch**, give it a name such as `obs-lscs-oxytocin`, then **Create Pull Request**. The automatic check and preview then work exactly as above.
+
+**On your own computer:** install [VS Code](https://code.visualstudio.com), open **Clone Git Repository** from its start page, choose GitHub and pick `gd221-imp/Anaestheasy`. Accept the prompt to install the recommended extensions. Make a branch (click the branch name at the bottom left → **Create new branch**), edit, commit, then **Publish Branch** and create the pull request from the GitHub panel. You can also run the checks yourself before you push: **Terminal → Run Task…**, then:
+
+- **Check (run before every pull request)**: `tools/check.py`; it must show 0 errors.
+- **Build and open preview**: builds the app and opens it in your browser.
+- **Smoke test**: opens every screen (needs Node 22+ and Chrome).
+
+**What you get in both:**
+
+- **Shortcuts for the house layouts.** In a tab's `.html` file type `complications` and press `Tab` for the full Surgical/Anaesthetic × Immediate/Delayed layout, then `Tab` again to jump to each gap. Others: `h4`, `subh`, `para`, `ul`, `ol`, `li`, `bold`, `dose`, `link` (select some text first and `bold` or `dose` wraps it). In a JSON file: `quizq`, `sbaq`, `tabfile`, `tabrecipe`, `tabwpba`, `tabnote`, `tabprimary`, `tabcurric`.
+- **Mistakes underlined as you type** in `stop.json`, `quiz.json`, SBA files and `placement.json`: a misspelt key, a missing `"why"`, an answer number beyond the options, a tab file not in `cards/`, an id without its stage prefix. Hover over the squiggle for what's wrong. These are early hints only; the check on the pull request is still the one that counts.
+- **British spelling**, using the same dictionary and drug-name list as the automatic spell check.
+
+Content `.html` files are never reformatted on save, so the one-block-per-line layout stays as you wrote it.
+
 ## What the files look like
 
 ### A stop or note: `content/specialties/<section>/<NNN>-<stop|note>-<name>/`

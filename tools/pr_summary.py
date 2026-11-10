@@ -41,7 +41,7 @@ STAGE_WS = {
 
 def workstream(path):
     p = path.split('/')
-    if p[0] in ('app', 'tools', '.github') or path in (
+    if p[0] in ('app', 'tools', '.github', '.vscode') or path in (
         'cspell.json',
         'content/data/DRUGS.json',
         'content/data/NG45_CARD.json',
