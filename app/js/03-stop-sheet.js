@@ -107,6 +107,7 @@ function openNote(n) {
   draw();
 }
 function draw() {
+  if (typeof SE !== "undefined" && SE && SE.editing) return; // a reviewer is mid-edit (18-suggest-edits.js)
   if (L.notes && L.notes.length && !L.topic) {
     sheet.innerHTML = noteHTML();
     return;
@@ -207,6 +208,7 @@ function draw() {
   const on = sheet.querySelector(".tchip.on");
   if (on) on.scrollIntoView({block: "nearest", inline: "center"});
   if (brewN) runBrew(brewN);
+  seDecorate();
 }
 
 const CUP =

@@ -54,7 +54,11 @@ def read_stop(folder):
     stop = read_json(folder / 'stop.json')
     # {"shared": "NAME"} stands for the card in content/data/NAME.json, so one card can appear on several stops
     stop['cards'] = [
-        read_json(CONTENT / 'data' / f"{card['shared']}.json") if isinstance(card, dict) and 'shared' in card else card
+        (
+            {**read_json(CONTENT / 'data' / f"{card['shared']}.json"), 'shared': card['shared']}
+            if isinstance(card, dict) and 'shared' in card
+            else card
+        )
         for card in stop.get('cards', [])
     ]
     for card in stop['cards']:

@@ -3319,3 +3319,102 @@ button:focus-visible {
   gap: 14px;
   margin-top: 8px;
 }
+
+/* Suggest edits (app/js/18-suggest-edits.js): reviewer mode, turned on with #review */
+.sebar {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px 12px;
+  margin: 0 0 14px;
+  padding: 10px 12px;
+  border: 1px dashed var(--c);
+  border-radius: 12px;
+  background: color-mix(in srgb, var(--c) 7%, var(--surface));
+  font-size: 13px;
+  color: var(--muted);
+}
+.sebtn {
+  border: 2px solid var(--c);
+  border-radius: 10px;
+  padding: 6px 12px;
+  background: var(--surface);
+  color: var(--cd);
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+}
+.sehelp {
+  font-size: 13px;
+  color: var(--muted);
+}
+.setools {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  padding: 8px 0;
+  background: var(--bg);
+}
+.setools button {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 6px 10px;
+  min-height: 36px;
+  background: var(--surface);
+  color: var(--fg);
+  font: inherit;
+  font-size: 13px;
+  cursor: pointer;
+}
+.seed {
+  min-height: 200px;
+  padding: 12px 14px;
+  border: 2px solid var(--c);
+  border-radius: 12px;
+  background: var(--surface);
+  outline: none;
+}
+.seed:focus {
+  box-shadow: 0 0 0 4px color-mix(in srgb, var(--c) 22%, transparent);
+}
+.selab {
+  display: block;
+  margin: 16px 0 6px;
+  font-weight: 700;
+}
+.selab small {
+  font-weight: 400;
+  color: var(--muted);
+}
+.senote {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px 12px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--surface);
+  color: var(--fg);
+  font: inherit;
+}
+.sestat {
+  min-height: 1.4em;
+  font-size: 13px;
+  color: var(--cd);
+}
+.setoast {
+  position: fixed;
+  left: 50%;
+  bottom: 24px;
+  transform: translateX(-50%);
+  z-index: 99;
+  max-width: 90vw;
+  padding: 10px 16px;
+  border-radius: 12px;
+  background: var(--fg);
+  color: var(--surface);
+  font-size: 14px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}

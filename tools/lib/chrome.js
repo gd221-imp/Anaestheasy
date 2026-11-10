@@ -34,12 +34,13 @@ function findChrome() {
   return null;
 }
 
-/* Opens the built app and resolves to {evaluate, errors, close}.
+/* Opens the built app and resolves to {evaluate, send, errors, close}.
    evaluate(fn, ...args) runs fn(...args) inside the page (fn may be async) and returns its JSON-able result.
    errors lists uncaught exceptions and console errors seen so far.
-   init (optional) is a script run before the page's own, e.g. to fix the date. */
-async function openApp({width = 390, height = 844, init = ''} = {}) {
-  if (!fs.existsSync(DIST)) throw new Error('dist/index.html is missing: run python3 tools/build.py first');
+   init (optional) is a script run before the page's own, e.g. to fix the date.
+   file (optional) opens another built copy of the app instead of dist/index.html. */
+async function openApp({width = 390, height = 844, init = '', file = DIST} = {}) {
+  if (!fs.existsSync(file)) throw new Error('dist/index.html is missing: run python3 tools/build.py first');
   if (typeof WebSocket === 'undefined') throw new Error(`needs Node 22 or later (this is ${process.version})`);
   const chrome = findChrome();
   if (!chrome) throw new Error('Chrome not found: install Google Chrome or set CHROME_PATH');
@@ -114,7 +115,7 @@ async function openApp({width = 390, height = 844, init = ''} = {}) {
     await send('Runtime.enable');
     await send('Page.enable');
     if (init) await send('Page.addScriptToEvaluateOnNewDocument', {source: init});
-    await send('Page.navigate', {url: pathToFileURL(DIST).href});
+    await send('Page.navigate', {url: pathToFileURL(file).href});
     for (let i = 0; i < 100; i++) {
       const r = await send('Runtime.evaluate', {
         expression: `document.readyState==='complete' && typeof ALL!=='undefined'`,
@@ -139,6 +140,7 @@ async function openApp({width = 390, height = 844, init = ''} = {}) {
     }
     return {
       evaluate,
+      send,
       errors,
       close: () => {
         ws.close();

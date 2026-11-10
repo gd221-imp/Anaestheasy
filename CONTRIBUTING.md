@@ -29,6 +29,19 @@ If you do not agree, do not open a pull request; talk to David first.
 
 Group related changes into one pull request (for example, one stop or one note). Keep unrelated changes separate. The summary flags a pull request that spans several workstreams, or mixes content with technical files.
 
+## Suggesting edits in the app (reviewers, no GitHub needed)
+
+Reviewers can change a stop's text in the app itself, the way it looks on screen, without touching any files.
+
+1. David shares the live app with you as a **Contributor**, then sends you the link with `#review` on the end. Open it once and review mode stays on in that browser (add `#review=off` to turn it off).
+2. Open any stop. Tabs you can edit show **✏️ Suggest edits** at the top.
+3. Tap it and change the text as you want it to read. The toolbar gives you bold, headings, subheadings, lists, the dose highlight and links. Pasted text arrives plain, so the app's own formatting stays.
+4. Add a note for David if it helps (why, or your source), then tap **Send suggestion**. You can come back, change it or withdraw it until David picks it up.
+
+Your suggestion is saved against your Claude account, one per tab. Nobody else sees it, and the app doesn't change until David approves it. Linked Final FRCA notes, Primary topics, quizzes, sample WPBAs and shared cards (such as the NICE pre-op tests) can't be edited this way yet: put those in the note on any tab of the stop, or comment on the stop's review issue.
+
+**For David:** ask Claude to "bring in the suggestions". Claude exports the `suggestions` collection from the live app, runs `python3 tools/suggestions.py apply export.json --report pr.md` on a new branch, and opens one pull request per reviewer, crediting them. Lines the reviewer didn't touch stay exactly as they were. A suggestion whose tab has changed since the reviewer started is skipped and listed, not forced in. Claude then marks those suggestions as in review in the app, so the reviewer sees where they are.
+
 ## Editing in VS Code
 
 For a change that touches several files (a stop's `stop.json`, its `cards/` and its `quiz.json`, say), use VS Code. The repository comes set up for it.
