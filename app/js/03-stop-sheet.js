@@ -110,6 +110,7 @@ function draw() {
   if (typeof SE !== "undefined" && SE && SE.editing) return; // a reviewer is mid-edit (18-suggest-edits.js)
   if (L.notes && L.notes.length && !L.topic) {
     sheet.innerHTML = noteHTML();
+    seDecorate();
     return;
   }
   if (L.topic) {
@@ -128,6 +129,7 @@ function draw() {
           : "")
       );
     })()}<button class="cta ${L.st.stage.c === "c5" ? "c5" : ""} tback">Back to ${L.sub.name}</button></div>`;
+    seDecorate();
     return;
   }
   if (L.forum && !L.win) {

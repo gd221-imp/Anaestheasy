@@ -21,13 +21,14 @@ See README.md (folders) and WORKSTREAMS.md (who owns what). A stop or note is a 
 2. Read the live artifact first and compare it with the fresh `dist/index.html`: if it has changes that are not in `main` (made in another chat), copy them into the matching `content/` or `app/` files by hand and open a pull request for them before publishing. (`tools/split.py` is historical and no longer matches the layout.)
 3. Publish `dist/index.html` to the artifact URL above, keeping its existing runtime capabilities.
 
-## Reviewers' in-app suggestions
+## Reviewers' work from the app
 
-Reviewers use **Suggest edits** in the live app (`#review` in the address; `app/js/18-suggest-edits.js`). Suggestions live in the live artifact's database, collection `suggestions`, one document per reviewer: `{name, items: {"<stop id>|<tab>": {stop, stopTitle, card, tab, before, beforeLines, after, lines, note, at, status}}}`. When David asks to bring them in:
+Reviewers use review mode in the live app (`#review=<section>`: foundation, core, primary, final-a, final-b, stage3; `app/js/18-suggest-edits.js`). Their work lives in the live artifact's database, collection `suggestions`, one document per reviewer: `{name, section, items: {"<item>|<tab>": suggestion}, checked: {"<item>": date}}`, where `<item>` is `stop:<id>`, `note:<title>` or `topic:<id>` and a suggestion is `{kind, ref, title, card, tab, before, beforeLines, after, lines, note, at, status}`. David's requests to reviewers are in `review/asks`: `{items: {"<item>": text}}` (write it with `db_write`, keeping existing asks). When David asks to bring work in:
 
 1. Export with the artifact database tools (`db_list` on `suggestions`) to a JSON file outside the repository.
-2. On a new branch per reviewer: `python3 tools/suggestions.py apply export.json --who "<name>" --report pr.md`, then `python3 tools/check.py`. Report any conflict or manual items to David rather than forcing them.
-3. Open the pull request with `pr.md` as its description (credit the reviewer), then set each applied item's `status` to `"pr"` and `pr` to the pull request number in their document (`db_write`), keeping everything else in it.
-4. The house rules still apply to what reviewers write: point out anything that breaks them in the pull request, but don't rewrite their clinical content.
+2. On a new branch per reviewer: `python3 tools/suggestions.py apply export.json --who "<name>" --report pr.md --mark-pr <next PR number>`, then `python3 tools/check.py`. Report any conflict or manual items to David rather than forcing them.
+3. Open the pull request with `pr.md` as its description (credit the reviewer). Write the reviewer's document from `export.marked.json` back with `db_write` (only that reviewer's document) so the app shows "With David".
+4. Tick the GitHub review lists: for each review issue, `python3 tools/suggestions.py tick export.json --who "<name>" --body issue.md` prints the body with that reviewer's finished items ticked; update the issue with it.
+5. The house rules still apply to what reviewers write: point out anything that breaks them in the pull request, but don't rewrite their clinical content.
 
-The live artifact's database rules must include `{"path":"suggestions","read":"owner","write":"owner"}` and `{"path":"suggestions/{self}","read":"interact","write":"interact"}`: each reviewer reads and writes only their own document, and only David reads them all.
+The live artifact's database rules must include `{"path":"suggestions","read":"owner","write":"owner"}`, `{"path":"suggestions/{self}","read":"interact","write":"interact"}` and `{"path":"review","read":"interact","write":"owner"}`: each reviewer reads and writes only their own document, only David reads them all, and only David writes the asks.

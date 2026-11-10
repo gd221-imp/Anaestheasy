@@ -29,18 +29,18 @@ If you do not agree, do not open a pull request; talk to David first.
 
 Group related changes into one pull request (for example, one stop or one note). Keep unrelated changes separate. The summary flags a pull request that spans several workstreams, or mixes content with technical files.
 
-## Suggesting edits in the app (reviewers, no GitHub needed)
+## Reviewing in the app (no GitHub needed)
 
-Reviewers can change a stop's text in the app itself, the way it looks on screen, without touching any files.
+Reviewers check one section of the app and change its text on screen, without touching any files.
 
-1. David shares the live app with you as a **Contributor**, then sends you the link with `#review` on the end. Open it once and review mode stays on in that browser (add `#review=off` to turn it off).
-2. Open any stop. Tabs you can edit show **✏️ Suggest edits** at the top.
-3. Tap it and change the text as you want it to read. The toolbar gives you bold, headings, subheadings, lists, the dose highlight and links. Pasted text arrives plain, so the app's own formatting stays.
-4. Add a note for David if it helps (why, or your source), then tap **Send suggestion**. You can come back, change it or withdraw it until David picks it up.
+1. David shares the live app with you as a **Contributor** and sends you the link to your section. The links end in `#review=` and the section: `foundation`, `core`, `primary`, `final-a`, `final-b` or `stage3`. Open it once and the app remembers it in that browser (`#review=off` turns review mode off).
+2. A **Review** bar on the path opens **Your review list**: every stop, note or topic in your section, with its status (to do, changes sent, no changes). Anything David has asked you to look at is at the top.
+3. Open each one. Tap **✏️ Suggest edits** to change a tab (in a Final FRCA note, the ✏️ under each heading), as you want it to read. The toolbar gives you bold, headings, subheadings, lists, the dose highlight and links; pasted text arrives plain. Add a note for David if it helps (why, or your source) and tap **Send suggestion**.
+4. If it's fine as it is, tap **✓ Looks good, no changes**.
 
-Your suggestion is saved against your Claude account, one per tab. Nobody else sees it, and the app doesn't change until David approves it. Linked Final FRCA notes, Primary topics, quizzes, sample WPBAs and shared cards (such as the NICE pre-op tests) can't be edited this way yet: put those in the note on any tab of the stop, or comment on the stop's review issue.
+You can come back to change or withdraw a suggestion until David picks it up. Your work is saved against your Claude account; nobody else sees it, and the app doesn't change until David approves it. Quizzes, sample WPBAs and shared cards (such as the NICE pre-op tests) can't be edited this way yet: mention them in a note.
 
-**For David:** ask Claude to "bring in the suggestions". Claude exports the `suggestions` collection from the live app, runs `python3 tools/suggestions.py apply export.json --report pr.md` on a new branch, and opens one pull request per reviewer, crediting them. Lines the reviewer didn't touch stay exactly as they were. A suggestion whose tab has changed since the reviewer started is skipped and listed, not forced in. Claude then marks those suggestions as in review in the app, so the reviewer sees where they are.
+**For David:** the Review bar shows you **Review progress** for every section. To bring work in, ask Claude to "bring in the suggestions": it opens one pull request per reviewer, crediting them, and ticks their items on the GitHub review lists. Lines the reviewer didn't touch stay exactly as they were; a suggestion whose text has changed since the reviewer started is skipped and listed, not forced in. To ask a reviewer to look at something, tell Claude (e.g. "ask the Foundation reviewer to check the MSRA dates").
 
 ## Editing in VS Code
 
