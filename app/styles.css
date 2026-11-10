@@ -3418,3 +3418,133 @@ button:focus-visible {
   font-size: 14px;
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
 }
+.sebar small {
+  flex-basis: 100%;
+}
+.sebtns {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+}
+.sebtn.seok.on {
+  background: var(--c);
+  color: #fff;
+}
+.sebtn.semini {
+  margin: 0 0 8px;
+  padding: 4px 10px;
+  font-size: 13px;
+}
+.selink {
+  flex-basis: 100%;
+  border: 0;
+  padding: 0;
+  background: none;
+  color: var(--cd);
+  font: inherit;
+  font-weight: 700;
+  text-align: left;
+  cursor: pointer;
+}
+.seask {
+  flex-basis: 100%;
+  margin: 0;
+  color: var(--fg);
+}
+.sestate {
+  display: inline-block;
+  border-radius: 999px;
+  padding: 2px 9px;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  white-space: nowrap;
+  background: var(--line);
+  color: var(--fg);
+}
+.sestate.s-sent,
+.sestate.s-review {
+  background: color-mix(in srgb, var(--c) 22%, var(--surface));
+  color: var(--cd);
+}
+.sestate.s-ok {
+  background: var(--c);
+  color: #fff;
+}
+.serows {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 14px;
+}
+.serow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  width: 100%;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 10px 12px;
+  background: var(--surface);
+  color: var(--fg);
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+.serow small {
+  display: block;
+  margin-top: 2px;
+  color: var(--muted);
+  font-size: 12px;
+}
+.seprog {
+  position: relative;
+  overflow: hidden;
+  margin: 10px 0 16px;
+  border-radius: 10px;
+  padding: 8px 12px;
+  background: color-mix(in srgb, var(--c) 10%, var(--surface));
+}
+.seprog b {
+  position: relative;
+  z-index: 1;
+}
+.seprog i {
+  position: absolute;
+  inset: 0 auto 0 0;
+  background: color-mix(in srgb, var(--c) 28%, transparent);
+}
+.seopts {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.seopt {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 6px 0;
+}
+.seopt input[type="radio"] {
+  width: 20px;
+  height: 20px;
+  flex: none;
+  accent-color: var(--c);
+}
+.seopt label {
+  flex: none;
+  width: 1.2em;
+  font-weight: 700;
+}
+.seqview {
+  padding: 10px 14px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--surface);
+}
+.seqview .seright {
+  font-weight: 700;
+  color: var(--cd);
+}

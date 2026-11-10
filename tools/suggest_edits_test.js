@@ -27,7 +27,7 @@ const GH = !!process.env.GITHUB_ACTIONS;
 const fail = msg => console.log(GH ? `::error::suggest edits test: ${msg}` : `ERROR   ${msg}`);
 
 // a stand-in for the live app's database and signed-in user
-const INIT = `localStorage.setItem("aa-review", "true");
+const INIT = `localStorage.setItem("aa-review", "true"); localStorage.setItem("aa-review-section", '"final-a"');
 window.__store = {};
 const D = p => ({get: async () => ({data: () => window.__store[p]}), set: async v => { window.__store[p] = JSON.parse(JSON.stringify(v)); }, onSnapshot() { return () => {}; }});
 const COL = {onSnapshot() { return () => {}; }, get: async () => ({docs: []}), doc: D, where() { return COL; }, orderBy() { return COL; }, limit() { return COL; }};
@@ -48,7 +48,7 @@ async function reviewer() {
       goSub(i);
       draw();
       if (!seEditable()) continue;
-      const btn = document.querySelector("#seEdit");
+      const btn = document.querySelector("[data-se-edit]");
       if (!btn) {
         problems.push(`${st.title} › ${subs[i].name}: no Suggest edits button`);
         continue;
@@ -79,6 +79,104 @@ async function reviewer() {
     sheet.hidden = true;
     L = null;
   }
+  // Final FRCA notes: one ✏️ per section
+  for (const note of NOTES.filter((x, i) => i % 9 === 0)) {
+    openNote(note);
+    const btns = [...document.querySelectorAll(".nsec .semini")];
+    if (!btns.length) continue;
+    btns[0].click();
+    const ed = document.querySelector("#seEd"),
+      t = ed && ed.querySelectorAll("li, p")[0];
+    if (!t) {
+      document.querySelector("#seCancel").click();
+      continue;
+    }
+    t.append(" EDITED" + n++);
+    document.querySelector("#seSend").click();
+    await new Promise(r => setTimeout(r, 20));
+    if (SE.editing) problems.push(`note ${note.title}: still editing after Send`);
+    sheet.hidden = true;
+    L = null;
+  }
+  // Primary topics
+  for (const k of Object.keys(PRIMARY.topics).filter((x, i) => i % 15 === 0)) {
+    goTopic(k);
+    const b = document.querySelector("[data-se-edit]");
+    if (!b) {
+      problems.push(`topic ${k}: no Suggest edits button`);
+      continue;
+    }
+    b.click();
+    const ed = document.querySelector("#seEd"),
+      t = ed.querySelectorAll("li, p")[1] || ed.querySelectorAll("li, p")[0];
+    t.append(" EDITED" + n++);
+    document.querySelector("#seSend").click();
+    await new Promise(r => setTimeout(r, 20));
+    if (SE.editing) problems.push(`topic ${k}: still editing after Send`);
+    sheet.hidden = true;
+    L = null;
+  }
+  // Quiz questions: edit a stop's own question, add one, flag one, and edit a shared SBA bank question
+  let nq = 0,
+    nsba = 0;
+  for (const st of ALL.filter((s, i) => i % 5 === 1 && s.q && s.q.length)) {
+    const subs = subsOf(st),
+      qi = subs.findIndex(x => x.id === "q");
+    if (qi < 0) continue;
+    openSub(st.id, subs[0].id);
+    goSub(qi);
+    draw();
+    // step through to a question of the kind still wanted
+    for (let k = 0; k < L.steps.length - 1; k++) {
+      L.step = k;
+      draw();
+      const q = L.steps[k].q,
+        sba = !!q.id;
+      if ((sba && nsba >= 6) || (!sba && nq >= 12)) continue;
+      const mode = sba ? "edit" : ["edit", "new", "flag"][nq % 3];
+      const b = document.querySelector(`[data-se-q="${mode}"]`);
+      if (!b) {
+        problems.push(`${st.title}: no ${mode} button on a quiz question`);
+        break;
+      }
+      b.click();
+      if (mode === "flag") document.querySelector("#seNote").value = "Flag " + n;
+      else if (mode === "new") {
+        document.querySelector("#seQq").value = "New question " + n + "?";
+        ["Alpha", "Beta", "Gamma", "Delta", ""].forEach((v, i) => (document.querySelector("#seQo" + i).value = v));
+        document.querySelector("#seQa2").checked = true;
+        document.querySelector("#seQwhy").value = "Because " + n;
+      } else document.querySelector("#seQq").value += " EDITED" + n;
+      document.querySelector("#seSend").click();
+      await new Promise(r => setTimeout(r, 20));
+      n++;
+      if (SE.editing)
+        problems.push(
+          `${st.title}: quiz ${mode} still open after Send (${document.querySelector("#seStat").textContent})`
+        );
+      sba ? nsba++ : nq++;
+      break;
+    }
+    sheet.hidden = true;
+    L = null;
+  }
+  if (nq < 9 || nsba < 3) problems.push(`only ${nq} quiz and ${nsba} SBA questions were tried`);
+  // "Looks good" on a stop, then the review list shows it
+  const ok = ALL.find(s => s.stage.id === "st2" && s.group === "Cardiac" && !seSent("stop:" + s.id).length);
+  openSub(ok.id, subsOf(ok)[0].id);
+  document.querySelector("[data-se-ok]").click();
+  await new Promise(r => setTimeout(r, 20));
+  if (!SE.checked["stop:" + ok.id]) problems.push("Looks good was not saved");
+  sheet.hidden = true;
+  L = null;
+  seOpenList();
+  const rows = document.querySelectorAll(".serow");
+  if (rows.length !== seSection().list().length)
+    problems.push(`review list shows ${rows.length} rows, expected ${seSection().list().length}`);
+  if (!document.querySelector(".serow .s-ok")) problems.push("review list does not show the looks-good stop as done");
+  if (!document.getElementById("seBar") || document.getElementById("seBar").hidden)
+    problems.push("no review banner on the path");
+  close();
   return {n, problems, store: window.__store};
 }
 
@@ -87,16 +185,29 @@ function shows(items) {
   const norm = s => s.replace(/&amp;/g, "&").replace(/\s+/g, " ").replace(/> </g, "><").trim();
   const bad = [];
   for (const it of items) {
-    const st = ALL.find(s => s.id === it.stop),
-      c = st && st.cards[+it.card];
-    if (!c) {
-      bad.push(`${it.stopTitle} › ${it.tab}: tab missing`);
+    let b;
+    if (it.kind === "quiz" || it.kind === "sba") {
+      if (it.mode === "flag") continue;
+      const pool = it.kind === "sba" ? SBA_BANK.concat(PSBA_BANK) : (ALL.find(s => s.id === it.ref) || {}).q || [];
+      const want = JSON.stringify(it.afterQ),
+        hit = pool.some(q => JSON.stringify({q: q.q, o: q.o, a: q.a, why: q.why || ""}) === want);
+      if (!hit) bad.push(`${it.title} › ${it.tab}: quiz doesn't show the suggested question`);
+      continue;
+    }
+    if (it.kind === "topic") b = PRIMARY.topics[it.ref] && PRIMARY.topics[it.ref].h;
+    else {
+      const x = it.kind === "note" ? findNote(it.ref) : ALL.find(s => s.id === it.ref),
+        c = x && x.cards[+it.card];
+      b = c && c.b;
+    }
+    if (b == null) {
+      bad.push(`${it.title} › ${it.tab}: missing`);
       continue;
     }
     const d = document.createElement("div");
-    d.innerHTML = c.b;
+    d.innerHTML = b;
     if (norm(seLines(seCleanNode(d)).join("")) !== norm(it.after))
-      bad.push(`${it.stopTitle} › ${it.tab}: doesn't show the suggested text`);
+      bad.push(`${it.title} › ${it.tab}: doesn't show the suggested text`);
   }
   return bad;
 }
@@ -131,7 +242,9 @@ function shows(items) {
       [path.join(tmp, "tools", "suggestions.py"), "apply", path.join(tmp, "export.json")],
       {encoding: "utf8"}
     );
-    const notApplied = out.split("\n").filter(l => /^\S+ +(conflict|manual|missing)/.test(l));
+    const notApplied = out
+      .split("\n")
+      .filter(l => /^\S+ +(conflict|manual|missing)/.test(l) && !/flagged for David/.test(l));
     notApplied.forEach(l => {
       fail("not applied: " + l);
       errors++;

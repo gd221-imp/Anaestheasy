@@ -1,17 +1,22 @@
 #!/usr/bin/env python3
-"""Apply reviewers' "Suggest edits" changes from the live app to the content files.
+"""Bring reviewers' work from the live app's review mode into the content files.
 
-Reviewers open the app with #review in the address, edit a tab on screen and press Send. Each suggestion is
-saved in the live app's database as suggestions/<user id> = {"name": ..., "items": {"<stop id>|<tab>": {...}}}
-(see app/js/18-suggest-edits.js). Export that collection to a JSON file (a list of {"id", "data"} documents,
-or of the data alone), then:
+Reviewers open the app with #review=<section>, work through "Your review list", edit tabs on screen and press
+Send, or mark an item "Looks good, no changes" (see app/js/18-suggest-edits.js). Each reviewer's work is saved
+in the live app's database as suggestions/<user id>:
+    {"name", "section", "items": {"<item>|<tab>": suggestion}, "checked": {"<item>": date}}
+where <item> is stop:<id>, note:<title> or topic:<id>. Export that collection to a JSON file (a list of
+{"id", "data"} documents, or of the data alone), then:
 
-    python3 tools/suggestions.py list    suggestions.json
-    python3 tools/suggestions.py apply   suggestions.json [--who NAME] [--report pr-body.md]
+    python3 tools/suggestions.py list  export.json [--who NAME]
+    python3 tools/suggestions.py apply export.json [--who NAME] [--report pr.md] [--mark-pr N]
+    python3 tools/suggestions.py tick  export.json --body issue.md      (prints the issue body, items ticked)
 
-`apply` writes each pending suggestion into its stop's card file (or stage file), keeping every line the
-reviewer didn't touch exactly as it was, and writes a report for the pull request. It refuses a suggestion
-whose tab has changed since the reviewer started editing, and leaves shared cards to be changed by hand.
+`apply` writes each pending suggestion into the file its text came from (a card file, a note, a Primary topic,
+a library recipe, or the stop's stage file), keeping every line the reviewer didn't touch exactly as it was,
+and writes a report for the pull request. It refuses a suggestion whose text has changed since the reviewer
+started editing. With --mark-pr N it also writes export.marked.json: the reviewers' documents with each
+applied suggestion marked as in pull request N, ready to write back so reviewers see where it is.
 Run tools/check.py afterwards, then open a pull request; David approves it as usual.
 """
 
@@ -59,15 +64,24 @@ def segments(src):
     return [src[a:b] for a, b in zip(cuts, cuts[1:]) if src[a:b]]
 
 
-def load(path):
+def docs_of(path):
     data = json.loads(Path(path).read_text(encoding='utf-8'))
     docs = data if isinstance(data, list) else data.get('documents', [data])
+    return [{'id': d.get('id', ''), 'data': d.get('data', d)} for d in docs if isinstance(d, dict)]
+
+
+def load(path):
     out = []
-    for d in docs:
-        body = d.get('data', d) if isinstance(d, dict) else {}
+    for d in docs_of(path):
+        body = d['data']
         for key, it in (body.get('items') or {}).items():
-            out.append({**it, 'key': key, 'who': body.get('name') or 'A reviewer', 'uid': d.get('id', '')})
-    return sorted(out, key=lambda it: (it['who'], it.get('stop', ''), str(it.get('card', ''))))
+            it = dict(it)
+            # suggestions made before notes and topics could be edited name only their stop
+            it.setdefault('kind', 'stop')
+            it.setdefault('ref', it.get('stop'))
+            it.setdefault('title', it.get('stopTitle', ''))
+            out.append({**it, 'key': key, 'who': body.get('name') or 'A reviewer', 'uid': d['id']})
+    return sorted(out, key=lambda it: (it['who'], it['kind'], it['ref'] or '', str(it.get('card', ''))))
 
 
 def find_stop(stop_id):
@@ -117,50 +131,148 @@ def merge(source, before_lines, after_lines, sep=''):
     return ''.join(out), True
 
 
-def _library():
-    return sorted((C / 'recipes').glob('*.html')) + sorted((C / 'wpba').glob('*.html'))
+_TEXTS = None
 
 
-def _matching(files, before):
-    hits = [f for f in files if f.exists() and read_card_html(f) == before]
+def _by_text(before):
+    """The one content file whose text (as the app shows it) is exactly `before`, if there is one."""
+    global _TEXTS
+    if _TEXTS is None:
+        _TEXTS = {}
+        for f in sorted(C.rglob('*.html')):
+            _TEXTS.setdefault(read_card_html(f), []).append(f)
+    hits = _TEXTS.get(before, [])
     return hits[0] if len(hits) == 1 else None
 
 
 def _write_file(f, before_lines, after_lines):
+    global _TEXTS
+    _TEXTS = None
     new, kept = merge(f.read_text(encoding='utf-8'), before_lines, after_lines, sep='\n')
     f.write_text(new if new.endswith('\n') else new + '\n', encoding='utf-8')
     return 'applied', f'{f.relative_to(ROOT)}' + ('' if kept else ' (rewritten in full)')
 
 
-def apply_one(it):
-    """Write one suggestion. Returns (status, detail): applied, conflict, manual or missing."""
-    kind, path, span = find_stop(it['stop'])
+def _indent(text):
+    m = re.search(r'\n( +)\S', text)
+    return len(m.group(1)) if m else 2
+
+
+def _write_json(path, data, like):
+    """Write JSON laid out as the file was (its indent), so only the changed lines show in the diff."""
+    path.write_text(json.dumps(data, indent=_indent(like), ensure_ascii=False) + '\n', encoding='utf-8')
+
+
+def _q(q):
+    return {'q': q['q'], 'o': list(q['o']), 'a': q['a'], 'why': q.get('why', '')}
+
+
+def _js_q(q):
+    """A quiz question as the stage files write it."""
+    s = lambda v: json.dumps(v, ensure_ascii=False)
+    return (
+        '{q:' + s(q['q']) + ',o:[' + ','.join(s(o) for o in q['o']) + '],a:' + str(q['a']) + ',why:' + s(q['why']) + '}'
+    )
+
+
+def apply_quiz(it):
+    """A quiz question: edit one, or add one after the stop's last question. SBA bank questions are found by id."""
+    mode, before, after = it.get('mode', 'edit'), it.get('beforeQ'), it.get('afterQ')
+    if mode == 'flag':
+        return 'manual', 'flagged for David to look at (nothing to apply)'
+    if not after or len(after.get('o', [])) < 2 or not (0 <= after.get('a', -1) < len(after['o'])):
+        return 'manual', 'the suggested question is incomplete'
+    if it['kind'] == 'sba':
+        for f in sorted(C.glob('sba/*/*.json')):
+            if f.name.startswith('_'):
+                continue
+            text = f.read_text(encoding='utf-8')
+            qs = json.loads(text)
+            for q in qs:
+                if q.get('id') == it['ref']:
+                    if _q(q) != _q(before):
+                        return 'conflict', f'SBA {it["ref"]} has changed since the suggestion was made'
+                    q.update(_q(after))
+                    _write_json(f, qs, text)
+                    return 'applied', f'{f.relative_to(ROOT)} ({it["ref"]})'
+        return 'missing', f'no SBA question {it["ref"]}'
+    kind, path, span = find_stop(it['ref'])
     if not kind:
-        return 'missing', f"no stop with id {it['stop']}"
-    card = int(it['card'])
-    before, after_lines = it['before'], it.get('lines') or []
-    before_lines = it.get('beforeLines') or []
-    rel = path.relative_to(ROOT)
+        return 'missing', f"no stop with id {it['ref']}"
     if kind == 'json':
-        stop = json.loads(path.read_text(encoding='utf-8'))
-        cards = stop.get('cards', [])
-        c = cards[card] if card < len(cards) else {}
-        if 'shared' in c:
-            return 'manual', f"shared card {c['shared']} (content/data/{c['shared']}.json, shown on several stops)"
-        # the app can slot a library recipe or WPBA in among a stop's tabs, so match the tab by its text
-        files = [path.parent / x['b'][len('file:') :] for x in cards if str(x.get('b', '')).startswith('file:')]
-        f = _matching(files, before) or _matching(_library(), before)
-        if not f:
-            return 'conflict', f'{rel}: the tab text has changed since the suggestion was made'
-        return _write_file(f, before_lines, after_lines)
+        f = path.parent / 'quiz.json'
+        if not f.exists():
+            return 'manual', f'{path.relative_to(ROOT)} has no quiz.json'
+        text = f.read_text(encoding='utf-8')
+        qs = json.loads(text)
+        if mode == 'new':
+            at = next((i for i, q in enumerate(qs) if it.get('prevQ') and _q(q) == _q(it['prevQ'])), len(qs) - 1)
+            qs.insert(at + 1, _q(after))
+        else:
+            at = next((i for i, q in enumerate(qs) if _q(q) == _q(before)), None)
+            if at is None:
+                return 'conflict', f'{f.relative_to(ROOT)}: the question has changed since the suggestion was made'
+            qs[at] = {**qs[at], **_q(after)}
+        _write_json(f, qs, text)
+        return 'applied', str(f.relative_to(ROOT))
     text = path.read_text(encoding='utf-8')
     a, z = span
-    if text.find(before, a, z) < 0:
-        # not written in the stage file: a library recipe or WPBA the app shows on this stop
-        f = _matching(_library(), before)
-        if f:
-            return _write_file(f, before_lines, after_lines)
-    # a stage file: find the tab's text inside this stop's block
+    rel = path.relative_to(ROOT)
+    if mode == 'new':
+        prev = it.get('prevQ')
+        i = text.find(_js_q(prev), a, z) if prev else -1
+        if i < 0:
+            return 'manual', f'{rel}: couldn\'t find where this stop\'s quiz ends'
+        j = i + len(_js_q(prev))
+        path.write_text(text[:j] + ',' + _js_q(after) + text[j:], encoding='utf-8')
+        return 'applied', f'{rel} (new question)'
+    old = _js_q(before)
+    i = text.find(old, a, z)
+    if i < 0:
+        return 'conflict', f'{rel}: the question has changed since the suggestion was made'
+    path.write_text(text[:i] + _js_q(after) + text[i + len(old) :], encoding='utf-8')
+    return 'applied', str(rel)
+
+
+def apply_one(it):
+    """Write one suggestion. Returns (status, detail): applied, conflict, manual or missing."""
+    if it['kind'] in ('quiz', 'sba'):
+        return apply_quiz(it)
+    before, after_lines = it['before'], it.get('lines') or []
+    before_lines = it.get('beforeLines') or []
+    # most text lives in its own file: a stop's card, a note's section, a Primary topic, a library recipe
+    f = _by_text(before)
+    if f:
+        return _write_file(f, before_lines, after_lines)
+    if it['kind'] == 'note':
+        # the same text in several files: take the one in this note's own folder
+        for sj in sorted(C.glob('specialties/*/*/stop.json')):
+            s = json.loads(sj.read_text(encoding='utf-8'))
+            if s.get('note') and s.get('title') == it['ref']:
+                own = [sj.parent / x['b'][5:] for x in s.get('cards', []) if str(x.get('b', '')).startswith('file:')]
+                own = [f for f in own if f.exists() and read_card_html(f) == before]
+                if len(own) == 1:
+                    return _write_file(own[0], before_lines, after_lines)
+    if it['kind'] != 'stop':
+        return 'conflict', 'the text has changed since the suggestion was made, or appears in several places'
+    kind, path, span = find_stop(it['ref'])
+    if not kind:
+        return 'missing', f"no stop with id {it['ref']}"
+    rel = path.relative_to(ROOT)
+    if kind == 'json':
+        cards = json.loads(path.read_text(encoding='utf-8')).get('cards', [])
+        c = cards[int(it['card'])] if int(it['card']) < len(cards) else {}
+        if 'shared' in c:
+            return 'manual', f"shared card {c['shared']} (content/data/{c['shared']}.json, shown on several stops)"
+        # the same text in several files: take the one in this stop's own folder
+        own = [path.parent / x['b'][5:] for x in cards if str(x.get('b', '')).startswith('file:')]
+        own = [f for f in own if f.exists() and read_card_html(f) == before]
+        if len(own) == 1:
+            return _write_file(own[0], before_lines, after_lines)
+        return 'conflict', f'{rel}: the tab text has changed since the suggestion was made'
+    # written inside a stage file: find the tab's text inside this stop's block
+    text = path.read_text(encoding='utf-8')
+    a, z = span
     i = text.find(before, a, z)
     if i < 0:
         return 'conflict', f'{rel}: the tab text has changed since the suggestion was made, or is written with escapes'
@@ -175,56 +287,113 @@ def apply_one(it):
     else:
         return 'manual', f'{rel}: tab text is not a plain string'
     path.write_text(text[:i] + new + text[i + len(before) :], encoding='utf-8')
+    global _TEXTS
+    _TEXTS = None
     return 'applied', f'{rel}' + ('' if kept else ' (tab rewritten in full)')
 
 
-def link(it):
-    q = urllib.parse.urlencode({'stop': it['stop'], 'tab': it.get('tab', '')}, quote_via=urllib.parse.quote)
-    return f'{APP}#{q}'
+def item_link(kind, ref, tab=''):
+    q = {'stop': {'stop': ref}, 'note': {'note': ref}, 'topic': {'topic': ref}}[kind]
+    if tab and kind != 'topic':
+        q['tab'] = tab
+    return f'{APP}#' + urllib.parse.urlencode(q, quote_via=urllib.parse.quote)
+
+
+def reviewed(path, who=None):
+    """Every item a reviewer has finished: sent changes for, or marked looks good."""
+    keys = set()
+    for d in docs_of(path):
+        b = d['data']
+        if who and b.get('name') != who:
+            continue
+        keys |= {k.split('|')[0] for k in (b.get('items') or {})}
+        keys |= set(b.get('checked') or {})
+    return keys
+
+
+def tick(body, keys):
+    """The review issue's text with the boxes of these items ticked (matched by their app links)."""
+    pats = []
+    for k in keys:
+        kind, _, ref = k.partition(':')
+        if kind in ('stop', 'topic'):
+            pats.append(f'#{kind}={ref})')
+        elif kind == 'note':
+            pats.append('#note=' + urllib.parse.quote(ref) + ')')
+    out = []
+    for line in body.split('\n'):
+        if line.lstrip().startswith('- [ ]') and any(p in line for p in pats):
+            line = line.replace('- [ ]', '- [x]', 1)
+        out.append(line)
+    return '\n'.join(out)
 
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument('action', choices=['list', 'apply'])
+    ap.add_argument('action', choices=['list', 'apply', 'tick'])
     ap.add_argument('export', help='JSON export of the suggestions collection')
     ap.add_argument('--who', help='only this reviewer (as named in the export)')
     ap.add_argument('--all', action='store_true', help='include suggestions already in a pull request')
-    ap.add_argument('--report', help='write a pull request description here')
+    ap.add_argument('--report', help='apply: write a pull request description here')
+    ap.add_argument('--mark-pr', type=int, help='apply: write EXPORT.marked.json with applied items in this PR')
+    ap.add_argument('--body', help='tick: the review issue text to tick')
     args = ap.parse_args()
+    if args.action == 'tick':
+        print(tick(Path(args.body).read_text(encoding='utf-8'), reviewed(args.export, args.who)), end='')
+        return
     items = [
         it
         for it in load(args.export)
         if (args.all or it.get('status', 'pending') == 'pending') and (not args.who or it['who'] == args.who)
     ]
+    if args.action == 'list':
+        for it in items:
+            print(f"{it['who']}: {it['title']} › {it.get('tab', '')} ({it['key']}) {it.get('at', '')[:10]}")
+            if it.get('note'):
+                print(f"    note: {it['note']}")
+        print(f'{len(items)} pending suggestion(s); {len(reviewed(args.export, args.who))} item(s) reviewed.')
+        return
     if not items:
         print('No pending suggestions.')
         return
-    if args.action == 'list':
-        for it in items:
-            print(f"{it['who']}: {it['stopTitle']} › {it['tab']} ({it['stop']}|{it['card']}) {it.get('at', '')[:10]}")
-            if it.get('note'):
-                print(f"    note: {it['note']}")
-        return
-    rows, done = [], 0
+    rows, applied = [], []
     for it in items:
         status, detail = apply_one(it)
-        done += status == 'applied'
-        mark = {'applied': '✅', 'conflict': '⚠️', 'manual': '✋', 'missing': '❓'}[status]
-        print(f"{mark} {status:8} {it['who']}: {it['stopTitle']} › {it['tab']}: {detail}")
+        if status == 'applied' or it.get('mode') == 'flag':
+            applied.append(it)
+        mark = (
+            '⚑'
+            if it.get('mode') == 'flag'
+            else {'applied': '✅', 'conflict': '⚠️', 'manual': '✋', 'missing': '❓'}[status]
+        )
+        print(f"{mark} {status:8} {it['who']}: {it['title']} › {it['tab']}: {detail}")
         rows.append((it, status, detail, mark))
     if args.report:
         who = sorted({it['who'] for it in items})
-        out = [f"Suggested in the app by {', '.join(who)} (Suggest edits).", '']
+        out = [f"Suggested in the app by {', '.join(who)} (review mode).", '']
         for it, status, detail, mark in rows:
-            out.append(f"- {mark} **{it['stopTitle']} › {it['tab']}** · [open in app]({link(it)}) · {detail}")
+            out.append(
+                f"- {mark} **{it['title']} › {it['tab']}** · [open in app]({item_link(*it['key'].split('|')[0].split(':', 1), it['tab'] if it['kind'] in ('stop', 'note') else '')})"
+                f" · {detail}"
+            )
             if it.get('note'):
                 out.append(f"  > {it['note']}".replace('\n', '\n  > '))
+        flags = sum(it.get('mode') == 'flag' for it in items)
         out += [
             '',
-            f'{done} of {len(rows)} applied. Suggestion keys: ' + ', '.join(f"`{it['key']}`" for it, *_ in rows),
+            f'{len(applied) - flags} of {len(rows) - flags} applied'
+            + (f', {flags} flagged for you to look at.' if flags else '.'),
         ]
         Path(args.report).write_text('\n'.join(out) + '\n', encoding='utf-8')
-    print(f'\n{done} of {len(rows)} applied. Now run python3 tools/check.py.')
+    if args.mark_pr:
+        done = {(it['uid'], it['key']) for it in applied}
+        docs = docs_of(args.export)
+        for d in docs:
+            for k, it in (d['data'].get('items') or {}).items():
+                if (d['id'], k) in done:
+                    it.update(status='pr', pr=args.mark_pr)
+        Path(args.export).with_suffix('.marked.json').write_text(json.dumps(docs, ensure_ascii=False), encoding='utf-8')
+    print(f'\n{len(applied)} of {len(rows)} applied. Now run python3 tools/check.py.')
 
 
 if __name__ == '__main__':
