@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Added stop placement (placement.json)",
+  "type": "object",
+  "required": [
+    "stage",
+    "after",
+    "id"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "stage": {
+      "enum": [
+        "found",
+        "core",
+        "st2",
+        "st3",
+        "cons"
+      ]
+    },
+    "after": {
+      "type": "string",
+      "description": "Title of the stop this one comes after"
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^(found|core|st2|st3|cons)-[a-z0-9-]+$"
+    }
+  }
+}

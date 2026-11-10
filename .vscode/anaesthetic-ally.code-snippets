@@ -1,0 +1,187 @@
+{
+  "Complications (house layout)": {
+    "scope": "html",
+    "prefix": "complications",
+    "description": "Surgical and Anaesthetic, each split Immediate / Delayed",
+    "body": [
+      "<h4>Complications</h4>",
+      "<p class=\"csub\"><b>Surgical</b></p>",
+      "<p class=\"subh\">Immediate</p>",
+      "<ul>",
+      "<li>$1</li>",
+      "</ul>",
+      "<p class=\"subh\">Delayed</p>",
+      "<ul>",
+      "<li>$2</li>",
+      "</ul>",
+      "<p class=\"csub\"><b>Anaesthetic</b></p>",
+      "<p class=\"subh\">Immediate</p>",
+      "<ul>",
+      "<li>$3</li>",
+      "</ul>",
+      "<p class=\"subh\">Delayed</p>",
+      "<ul>",
+      "<li>$4</li>",
+      "</ul>",
+      "$0"
+    ]
+  },
+  "Heading in a tab": {
+    "scope": "html",
+    "prefix": "h4",
+    "body": [
+      "<h4>$1</h4>$0"
+    ]
+  },
+  "Small subheading": {
+    "scope": "html",
+    "prefix": "subh",
+    "body": [
+      "<p class=\"subh\">$1</p>$0"
+    ]
+  },
+  "Paragraph": {
+    "scope": "html",
+    "prefix": "para",
+    "body": [
+      "<p>$1</p>$0"
+    ]
+  },
+  "Bullet list": {
+    "scope": "html",
+    "prefix": "ul",
+    "body": [
+      "<ul>",
+      "<li>$1</li>",
+      "</ul>$0"
+    ]
+  },
+  "Numbered list": {
+    "scope": "html",
+    "prefix": "ol",
+    "body": [
+      "<ol>",
+      "<li>$1</li>",
+      "</ol>$0"
+    ]
+  },
+  "List item": {
+    "scope": "html",
+    "prefix": "li",
+    "body": [
+      "<li>$1</li>$0"
+    ]
+  },
+  "Bold": {
+    "scope": "html",
+    "prefix": "bold",
+    "body": [
+      "<b>${1:$TM_SELECTED_TEXT}</b>$0"
+    ]
+  },
+  "Drug dose highlight": {
+    "scope": "html",
+    "prefix": "dose",
+    "body": [
+      "<span class=\"dose\">${1:$TM_SELECTED_TEXT}</span>$0"
+    ]
+  },
+  "Link (opens in new tab)": {
+    "scope": "html",
+    "prefix": "link",
+    "body": [
+      "<a href=\"${1:https://}\" target=\"_blank\" rel=\"noopener\">$2</a>$0"
+    ]
+  },
+  "Quiz question": {
+    "scope": "json",
+    "prefix": "quizq",
+    "description": "\"a\" counts from 0",
+    "body": [
+      "{",
+      "  \"q\": \"$1\",",
+      "  \"o\": [\"$2\", \"$3\", \"$4\", \"$5\", \"$6\"],",
+      "  \"a\": ${7:0},",
+      "  \"why\": \"$8\"",
+      "}$0"
+    ]
+  },
+  "SBA question": {
+    "scope": "json",
+    "prefix": "sbaq",
+    "description": "Give it the next unused id",
+    "body": [
+      "{",
+      "  \"id\": \"${1:Q}\",",
+      "  \"ar\": \"$2\",",
+      "  \"sb\": \"$3\",",
+      "  \"q\": \"$4\",",
+      "  \"o\": [\"$5\", \"$6\", \"$7\", \"$8\", \"$9\"],",
+      "  \"a\": ${10:0},",
+      "  \"why\": \"$11\"",
+      "}$0"
+    ]
+  },
+  "Tab with text file": {
+    "scope": "json",
+    "prefix": "tabfile",
+    "body": [
+      "{",
+      "  \"h\": \"$1\",",
+      "  \"b\": \"file:cards/${2:NN-name}.html\"",
+      "}$0"
+    ]
+  },
+  "Recipe tab": {
+    "scope": "json",
+    "prefix": "tabrecipe",
+    "body": [
+      "{",
+      "  \"h\": \"Anaesthetic recipe\",",
+      "  \"b\": \"file:cards/01-anaesthetic-recipe.html\",",
+      "  \"recipe\": true",
+      "}$0"
+    ]
+  },
+  "Sample WPBA tab": {
+    "scope": "json",
+    "prefix": "tabwpba",
+    "body": [
+      "{",
+      "  \"h\": \"Sample WPBA\",",
+      "  \"b\": \"file:cards/${1:NN}-sample-wpba.html\",",
+      "  \"wpba\": true",
+      "}$0"
+    ]
+  },
+  "Link to a Final FRCA note": {
+    "scope": "json",
+    "prefix": "tabnote",
+    "body": [
+      "{",
+      "  \"h\": \"$1\",",
+      "  \"noteRef\": \"${2:$1}\"",
+      "}$0"
+    ]
+  },
+  "Link to a Primary topic": {
+    "scope": "json",
+    "prefix": "tabprimary",
+    "body": [
+      "{",
+      "  \"h\": \"$1\",",
+      "  \"primaryRef\": \"${2:pha0}\"",
+      "}$0"
+    ]
+  },
+  "Curriculum tab": {
+    "scope": "json",
+    "prefix": "tabcurric",
+    "body": [
+      "{",
+      "  \"h\": \"Curriculum\",",
+      "  \"links\": [\"curric:$1\"]",
+      "}$0"
+    ]
+  }
+}

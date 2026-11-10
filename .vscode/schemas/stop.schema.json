@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Anaesthetic Ally stop or note (stop.json)",
+  "description": "See CONTRIBUTING.md → 'A stop or note'. Editor hints only: tools/check.py is the real check.",
+  "type": "object",
+  "required": ["t", "title", "cards"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^(found|core|st2|st3|cons)-[a-z0-9-]+$",
+      "description": "Stage prefix plus a short name, e.g. st2-ruptured-aaa. Never change or reuse an existing id: saved progress and SBA links depend on it."
+    },
+    "t": {"enum": ["recipe", "tip"], "description": "recipe for an operation stop, tip for a note or tip stop"},
+    "title": {"type": "string", "minLength": 1},
+    "shape": {"type": "string", "description": "Icon on the path, e.g. heart, star, bone, scalpel"},
+    "group": {"type": "string", "description": "Section heading the stop sits under, e.g. Cardiac"},
+    "op": {"const": true, "description": "true for an operation stop"},
+    "note": {"const": true, "description": "true for a Final FRCA note"},
+    "q": {"type": "string", "pattern": "^file:", "description": "Usually \"file:quiz.json\""},
+    "cards": {
+      "type": "array",
+      "minItems": 1,
+      "description": "The tabs, in order",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "h": {"type": "string", "minLength": 1, "description": "Tab heading"},
+          "b": {
+            "type": "string",
+            "description": "Tab text, normally \"file:cards/NN-name.html\"",
+            "pattern": "^(file:cards/[^/]+\\.html$|(?!file:))"
+          },
+          "noteRef": {"type": "string", "description": "Title of a Final FRCA note to link to"},
+          "primaryRef": {"type": "string", "pattern": "^[a-z]+\\d+$", "description": "Primary topic id, e.g. pha20"},
+          "links": {"type": "array", "items": {"type": "string"}, "description": "e.g. [\"curric:8\"]"},
+          "shared": {"type": "string", "pattern": "^[A-Z0-9_]+$", "description": "A shared card in content/data, e.g. NG45_CARD"},
+          "recipe": {"const": true},
+          "wpba": {"const": true},
+          "extra": {"type": "boolean"}
+        },
+        "oneOf": [
+          {"required": ["shared"]},
+          {"required": ["h"], "not": {"required": ["shared"]}}
+        ]
+      }
+    }
+  }
+}

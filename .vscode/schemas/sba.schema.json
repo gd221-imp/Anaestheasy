@@ -1,0 +1,155 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "SBA question bank",
+  "description": "Editor hints only: tools/check.py is the real check. The answer number must be less than the number of options.",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "id",
+      "ar",
+      "sb",
+      "q",
+      "o",
+      "a",
+      "why"
+    ],
+    "additionalProperties": false,
+    "properties": {
+      "q": {
+        "type": "string",
+        "minLength": 1,
+        "description": "The question"
+      },
+      "o": {
+        "type": "array",
+        "minItems": 2,
+        "maxItems": 6,
+        "items": {
+          "type": "string",
+          "minLength": 1
+        },
+        "description": "Options, usually five"
+      },
+      "a": {
+        "type": "integer",
+        "minimum": 0,
+        "description": "Correct option, counting from 0: \"a\": 1 is the second option"
+      },
+      "why": {
+        "type": "string",
+        "minLength": 1,
+        "description": "Explanation shown after answering"
+      },
+      "id": {
+        "type": "string",
+        "pattern": "^[QP]\\d{3,}$",
+        "description": "Next unused id: Q\u2026 for Final, P\u2026 for Primary. Never reuse one."
+      },
+      "ar": {
+        "type": "string",
+        "description": "Area, e.g. Airway"
+      },
+      "sb": {
+        "type": "string",
+        "description": "Sub-topic"
+      },
+      "tp": {
+        "type": [
+          "string",
+          "null"
+        ],
+        "description": "Linked Primary topic id, e.g. ana0"
+      },
+      "st": {
+        "type": [
+          "string",
+          "null"
+        ],
+        "description": "Linked stop id, e.g. st2-15"
+      }
+    },
+    "allOf": [
+      {
+        "if": {
+          "properties": {
+            "o": {
+              "maxItems": 2
+            }
+          }
+        },
+        "then": {
+          "properties": {
+            "a": {
+              "maximum": 1
+            }
+          }
+        }
+      },
+      {
+        "if": {
+          "properties": {
+            "o": {
+              "maxItems": 3
+            }
+          }
+        },
+        "then": {
+          "properties": {
+            "a": {
+              "maximum": 2
+            }
+          }
+        }
+      },
+      {
+        "if": {
+          "properties": {
+            "o": {
+              "maxItems": 4
+            }
+          }
+        },
+        "then": {
+          "properties": {
+            "a": {
+              "maximum": 3
+            }
+          }
+        }
+      },
+      {
+        "if": {
+          "properties": {
+            "o": {
+              "maxItems": 5
+            }
+          }
+        },
+        "then": {
+          "properties": {
+            "a": {
+              "maximum": 4
+            }
+          }
+        }
+      },
+      {
+        "if": {
+          "properties": {
+            "o": {
+              "maxItems": 6
+            }
+          }
+        },
+        "then": {
+          "properties": {
+            "a": {
+              "maximum": 5
+            }
+          }
+        }
+      }
+    ]
+  }
+}
