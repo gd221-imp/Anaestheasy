@@ -34,6 +34,8 @@ jobs:
         run: python3 tools/build.py
       - name: Smoke test (opens every stop, tab, note and topic)
         run: node tools/smoke_test.js
+      - name: Suggest edits test (edit tabs in the app, apply them to a copy, rebuild)
+        run: node tools/suggest_edits_test.js
       - name: Calculator tests (paeds doses, airway and fluids, fees, starting quiz)
         run: node --test tests/*.test.js
       - name: Save the built app (download from this run to preview)
