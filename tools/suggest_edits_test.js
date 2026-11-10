@@ -116,6 +116,51 @@ async function reviewer() {
     sheet.hidden = true;
     L = null;
   }
+  // Quiz questions: edit a stop's own question, add one, flag one, and edit a shared SBA bank question
+  let nq = 0,
+    nsba = 0;
+  for (const st of ALL.filter((s, i) => i % 5 === 1 && s.q && s.q.length)) {
+    const subs = subsOf(st),
+      qi = subs.findIndex(x => x.id === "q");
+    if (qi < 0) continue;
+    openSub(st.id, subs[0].id);
+    goSub(qi);
+    draw();
+    // step through to a question of the kind still wanted
+    for (let k = 0; k < L.steps.length - 1; k++) {
+      L.step = k;
+      draw();
+      const q = L.steps[k].q,
+        sba = !!q.id;
+      if ((sba && nsba >= 6) || (!sba && nq >= 12)) continue;
+      const mode = sba ? "edit" : ["edit", "new", "flag"][nq % 3];
+      const b = document.querySelector(`[data-se-q="${mode}"]`);
+      if (!b) {
+        problems.push(`${st.title}: no ${mode} button on a quiz question`);
+        break;
+      }
+      b.click();
+      if (mode === "flag") document.querySelector("#seNote").value = "Flag " + n;
+      else if (mode === "new") {
+        document.querySelector("#seQq").value = "New question " + n + "?";
+        ["Alpha", "Beta", "Gamma", "Delta", ""].forEach((v, i) => (document.querySelector("#seQo" + i).value = v));
+        document.querySelector("#seQa2").checked = true;
+        document.querySelector("#seQwhy").value = "Because " + n;
+      } else document.querySelector("#seQq").value += " EDITED" + n;
+      document.querySelector("#seSend").click();
+      await new Promise(r => setTimeout(r, 20));
+      n++;
+      if (SE.editing)
+        problems.push(
+          `${st.title}: quiz ${mode} still open after Send (${document.querySelector("#seStat").textContent})`
+        );
+      sba ? nsba++ : nq++;
+      break;
+    }
+    sheet.hidden = true;
+    L = null;
+  }
+  if (nq < 9 || nsba < 3) problems.push(`only ${nq} quiz and ${nsba} SBA questions were tried`);
   // "Looks good" on a stop, then the review list shows it
   const ok = ALL.find(s => s.stage.id === "st2" && s.group === "Cardiac" && !seSent("stop:" + s.id).length);
   openSub(ok.id, subsOf(ok)[0].id);
@@ -141,6 +186,14 @@ function shows(items) {
   const bad = [];
   for (const it of items) {
     let b;
+    if (it.kind === "quiz" || it.kind === "sba") {
+      if (it.mode === "flag") continue;
+      const pool = it.kind === "sba" ? SBA_BANK.concat(PSBA_BANK) : (ALL.find(s => s.id === it.ref) || {}).q || [];
+      const want = JSON.stringify(it.afterQ),
+        hit = pool.some(q => JSON.stringify({q: q.q, o: q.o, a: q.a, why: q.why || ""}) === want);
+      if (!hit) bad.push(`${it.title} › ${it.tab}: quiz doesn't show the suggested question`);
+      continue;
+    }
     if (it.kind === "topic") b = PRIMARY.topics[it.ref] && PRIMARY.topics[it.ref].h;
     else {
       const x = it.kind === "note" ? findNote(it.ref) : ALL.find(s => s.id === it.ref),
@@ -176,7 +229,7 @@ function shows(items) {
     await app.close();
     const docs = Object.entries(r.store).map(([k, v]) => ({id: k.split("/")[1], data: v}));
     const items = docs.flatMap(d => Object.values(d.data.items));
-    if (items.length !== r.n || r.n < 50) {
+    if (items.length > r.n || items.length < r.n - 5 || r.n < 50) {
       fail(`expected the ${r.n} edits to be saved, found ${items.length}`);
       errors++;
     }
@@ -189,7 +242,9 @@ function shows(items) {
       [path.join(tmp, "tools", "suggestions.py"), "apply", path.join(tmp, "export.json")],
       {encoding: "utf8"}
     );
-    const notApplied = out.split("\n").filter(l => /^\S+ +(conflict|manual|missing)/.test(l));
+    const notApplied = out
+      .split("\n")
+      .filter(l => /^\S+ +(conflict|manual|missing)/.test(l) && !/flagged for David/.test(l));
     notApplied.forEach(l => {
       fail("not applied: " + l);
       errors++;

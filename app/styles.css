@@ -3516,3 +3516,35 @@ button:focus-visible {
   inset: 0 auto 0 0;
   background: color-mix(in srgb, var(--c) 28%, transparent);
 }
+.seopts {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.seopt {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 6px 0;
+}
+.seopt input[type="radio"] {
+  width: 20px;
+  height: 20px;
+  flex: none;
+  accent-color: var(--c);
+}
+.seopt label {
+  flex: none;
+  width: 1.2em;
+  font-weight: 700;
+}
+.seqview {
+  padding: 10px 14px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--surface);
+}
+.seqview .seright {
+  font-weight: 700;
+  color: var(--cd);
+}

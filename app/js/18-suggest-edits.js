@@ -94,22 +94,35 @@ function seCurrent() {
     const n = L.notes[L.notes.length - 1];
     return {key: "note:" + n.title, kind: "note", ref: n.title, title: n.title, n};
   }
-  if (L.st && L.st.id && !L.st.id.startsWith("tmp-") && L.sub && L.sub.type === "card") return seStop(L.st);
+  if (L.st && L.st.id && !L.st.id.startsWith("tmp-") && L.sub && L.st.stage) return seStop(L.st);
   return null;
 }
-// Shared cards appear on several stops (kept once in content/data), so they are changed by hand, not from one stop
-function seShared(c) {
-  if (c.shared || /class="expmount"/.test(c.b)) return true;
-  return ["NG45_CARD", "COMP_CARD", "LOCUM_CARD", "TAX_CARD", "FELLOW_CARD", "JOBS_CARD"].some(n => {
-    try {
-      return eval(`typeof ${n} !== "undefined" && ${n}`) === c;
-    } catch (e) {
-      return false;
-    }
-  });
+// Shared cards are written once and shown on several stops (content/data/*_CARD.json). Their text can be
+// edited (the change shows everywhere they appear); the calculators inside two of them can't.
+const SE_SHARED_NAMES = ["NG45_CARD", "COMP_CARD", "LOCUM_CARD", "TAX_CARD", "FELLOW_CARD", "JOBS_CARD"];
+function seSharedName(c) {
+  if (!c) return "";
+  if (c.shared) return c.shared;
+  if (/class="expmount"/.test(c.b || "")) return "EXP_CARD";
+  return (
+    SE_SHARED_NAMES.find(n => {
+      try {
+        return eval(`typeof ${n} !== "undefined" && ${n}`) === c;
+      } catch (e) {
+        return false;
+      }
+    }) || ""
+  );
+}
+const seCalc = c => /class="(expmount|taxmount)"/.test(c.b || "");
+// The other stops a shared card appears on
+function seAlsoOn(c, here) {
+  const n = seSharedName(c);
+  if (!n) return [];
+  return ALL.filter(s => s !== here && s.cards.some(x => x === c || seSharedName(x) === n)).map(s => s.title);
 }
 const seCardOK = c =>
-  !!(c && typeof c.b === "string" && c.b.trim() && !c.primaryRef && !c.noteRef && !c.wpba && !seShared(c));
+  !!(c && typeof c.b === "string" && c.b.trim() && !c.primaryRef && !c.noteRef && !c.wpba && !seCalc(c));
 // The stop tab on screen, if it can be edited
 function seEditable() {
   if (!SE.on || !L || L.win || L.forum || L.topic || (L.notes && L.notes.length)) return false;
@@ -135,14 +148,20 @@ function seDecorate() {
   if (!cur) return;
   const page = sheet.querySelector(".sh-body .page");
   if (!page) return;
+  const step = L.steps && L.steps[L.step];
+  if (cur.kind !== "note" && step && step.type === "q") return seQuizBar(cur, page, step.q);
+  if (cur.kind !== "note" && !L.topic && step && step.type !== "card") return;
   const ask = SE.asks[cur.key],
     st = seStatus(cur.key);
-  let edit = null;
+  let edit = null,
+    also = [];
   if (cur.kind === "stop" && seEditable()) {
-    const sub = L.sub;
+    const sub = L.sub,
+      c = L.steps[L.step].c;
+    also = seAlsoOn(c, L.st);
     edit = {
       label: sePending(cur.key + "|" + sub.id) ? "Edit my suggestion" : "Suggest edits",
-      go: () => seOpen({...cur, card: sub.id, tab: sub.name, c: L.steps[L.step].c})
+      go: () => seOpen({...cur, card: sub.id, tab: sub.name, c, also})
     };
   } else if (cur.kind === "topic") {
     const t = PRIMARY.topics[cur.ref];
@@ -153,7 +172,7 @@ function seDecorate() {
   }
   const bar = document.createElement("div");
   bar.className = "sebar";
-  bar.innerHTML = `${SE.fromList && seSection() ? `<button class="selink" type="button" data-se-list>← Review list</button>` : ""}${ask ? `<p class="seask"><b>David asks:</b> ${escapeHTML(ask)}</p>` : ""}<div class="sebtns">${edit ? `<button class="sebtn" type="button" data-se-edit>✏️ ${edit.label}</button>` : ""}<button class="sebtn seok ${SE.checked[cur.key] ? "on" : ""}" type="button" data-se-ok aria-pressed="${!!SE.checked[cur.key]}">${SE.checked[cur.key] ? "✓ Marked: looks good" : "✓ Looks good, no changes"}</button><span class="sestate s-${st.c}">${st.t}</span></div>${cur.kind === "note" ? `<small>Tap ✏️ under a heading to change that part of the note.</small>` : !edit && cur.kind === "stop" ? `<small>This tab can't be edited here. Mention anything about it in a note when you edit another tab.</small>` : ""}`;
+  bar.innerHTML = `${SE.fromList && seSection() ? `<button class="selink" type="button" data-se-list>← Review list</button>` : ""}${ask ? `<p class="seask"><b>David asks:</b> ${escapeHTML(ask)}</p>` : ""}<div class="sebtns">${edit ? `<button class="sebtn" type="button" data-se-edit>✏️ ${edit.label}</button>` : ""}<button class="sebtn seok ${SE.checked[cur.key] ? "on" : ""}" type="button" data-se-ok aria-pressed="${!!SE.checked[cur.key]}">${SE.checked[cur.key] ? "✓ Marked: looks good" : "✓ Looks good, no changes"}</button><span class="sestate s-${st.c}">${st.t}</span></div>${also.length ? `<small>This tab also appears on ${escapeHTML(also.join(", "))}: a change here changes it there too.</small>` : ""}${cur.kind === "note" ? `<small>Tap ✏️ under a heading to change that part of the note.</small>` : !edit && cur.kind === "stop" ? `<small>This tab can't be edited here. Mention anything about it in a note when you edit another tab.</small>` : ""}`;
   page.prepend(bar);
   const li = bar.querySelector("[data-se-list]");
   if (li) li.onclick = seOpenList;
@@ -204,7 +223,14 @@ function seOpen(ctx) {
     skey,
     before
   };
-  const start = it && it.status === "pending" && it.before === before ? it.after : before;
+  // a shared card has one suggestion, wherever it was made from
+  const shared = seSharedName(ctx.c),
+    same = shared
+      ? Object.values(SE.items).find(x => x.shared === shared && x.status === "pending" && x.before === before)
+      : null,
+    mine = it && it.status === "pending" && it.before === before ? it : same,
+    start = mine ? mine.after : before;
+  SE.editing.shared = shared;
   const where = ctx.kind === "note" ? "Final FRCA note · " : ctx.kind === "topic" ? "Primary FRCA topic · " : "";
   const strip = sheet.querySelector(".tstrip");
   if (strip) strip.remove();
@@ -212,7 +238,7 @@ function seOpen(ctx) {
     `<button class="close" type="button" id="seCancelTop" aria-label="Stop editing">← Cancel</button><div class="sh-title">Suggesting edits · ${escapeHTML(ctx.title)}</div>`;
   sheet.querySelector(".sh-body").innerHTML =
     `<div class="page sepage"><div class="kind">${where}${escapeHTML(ctx.title)}</div><h3>${escapeHTML(ctx.tab)}</h3>
-<p class="sehelp">Change the text below as you'd like it to read in the app. Your version goes to David to approve; nothing changes for anyone else until he does.</p>
+<p class="sehelp">Change the text below as you'd like it to read in the app. Your version goes to David to approve; nothing changes for anyone else until he does.${ctx.also && ctx.also.length ? ` <b>This tab also appears on ${escapeHTML(ctx.also.join(", "))}</b>, so it will change there too.` : ""}</p>
 <div class="setools" role="toolbar" aria-label="Formatting">${SE_TOOLS.map(([k, l, t]) => `<button type="button" data-se="${k}" title="${t}" aria-label="${t}">${l}</button>`).join("")}</div>
 <div class="seed" id="seEd" contenteditable="true" spellcheck="true" lang="en-GB" aria-label="Text">${start}</div>
 <label class="selab" for="seNote">Anything David should know? <small>(optional: why, or your source)</small></label>
@@ -310,6 +336,137 @@ function seTool(k, ed) {
     sel.addRange(r);
     ex("createLink", url);
   }
+}
+
+// Quiz questions: a stop's own quiz (its quiz.json or stage file) or a shared SBA bank question (it has an id)
+const seQ = q => ({q: q.q, o: [...q.o], a: q.a, why: q.why || ""});
+function seQuizRef(q) {
+  if (q.id) return {kind: "sba", ref: q.id, card: "sba:" + q.id, tab: "SBA " + q.id};
+  const st = L.st,
+    qs = (st && st.q) || [],
+    i = qs.findIndex(x => x === q || (x.q === q.q && x.a === q.a && JSON.stringify(x.o) === JSON.stringify(q.o)));
+  if (i < 0) return null;
+  return {kind: "quiz", ref: st.id, card: "quiz:" + i, tab: "Quiz question " + (i + 1)};
+}
+function seQuizBar(cur, page, q) {
+  const r = seQuizRef(q);
+  const own = L.st && Array.isArray(L.st.q) && L.st.q.length && !L.tq && !(L.sub && L.sub.opt);
+  if (!r && !own) return;
+  const bar = document.createElement("div");
+  bar.className = "sebar";
+  const pend = r && sePending(cur.key + "|" + r.card);
+  bar.innerHTML = `${SE.fromList && seSection() ? `<button class="selink" type="button" data-se-list>← Review list</button>` : ""}<div class="sebtns">${r ? `<button class="sebtn" type="button" data-se-q="edit">✏️ ${pend ? "Edit my suggestion" : "Edit this question"}</button><button class="sebtn" type="button" data-se-q="flag">⚑ Flag a problem</button>` : ""}${own ? `<button class="sebtn" type="button" data-se-q="new">+ Suggest a new question</button>` : ""}</div>${r && r.kind === "sba" ? `<small>This is a ${q.id[0] === "P" ? "Primary" : "Final"} SBA bank question, so it may also appear on other stops: a change here changes it everywhere.</small>` : ""}`;
+  page.prepend(bar);
+  const li = bar.querySelector("[data-se-list]");
+  if (li) li.onclick = seOpenList;
+  bar.querySelectorAll("[data-se-q]").forEach(b => (b.onclick = () => seQuizOpen(b.dataset.seQ, cur, q, r)));
+}
+function seQuizOpen(mode, cur, q, r) {
+  const st = L.st,
+    isNew = mode === "new",
+    ref = isNew ? {kind: "quiz", ref: st.id, card: "quiz-new:" + Date.now(), tab: "New quiz question"} : r,
+    skey = cur.key + "|" + ref.card + (mode === "flag" ? "#flag" : ""),
+    it = SE.items[skey],
+    orig = isNew ? null : seQ(q),
+    start =
+      it && it.status === "pending" && it.afterQ ? it.afterQ : orig || {q: "", o: ["", "", "", "", ""], a: -1, why: ""};
+  SE.editing = {
+    key: cur.key,
+    kind: ref.kind,
+    ref: ref.ref,
+    title: cur.title,
+    card: ref.card,
+    tab: ref.tab,
+    skey,
+    mode,
+    beforeQ: orig,
+    prevQ: isNew && st.q.length ? seQ(st.q[st.q.length - 1]) : null
+  };
+  const strip = sheet.querySelector(".tstrip");
+  if (strip) strip.remove();
+  sheet.querySelector(".sh-head").innerHTML =
+    `<button class="close" type="button" id="seCancelTop" aria-label="Stop editing">← Cancel</button><div class="sh-title">${mode === "flag" ? "Flag a problem" : "Suggesting edits"} · ${escapeHTML(cur.title)}</div>`;
+  const shared =
+    ref.kind === "sba"
+      ? `<p class="sehelp"><b>This SBA bank question may also appear on other stops</b>, so a change here changes it everywhere.</p>`
+      : "";
+  const form =
+    mode === "flag"
+      ? `<div class="seqview"><p><b>${escapeHTML(q.q)}</b></p><ol type="A">${q.o.map((o, i) => `<li${i === q.a ? ' class="seright"' : ""}>${escapeHTML(o)}${i === q.a ? " ✓" : ""}</li>`).join("")}</ol></div>
+<label class="selab" for="seNote">What's the problem? <small>(and your source, if you have one)</small></label>`
+      : `<label class="selab" for="seQq">Question</label><textarea id="seQq" class="senote" rows="4">${escapeHTML(start.q)}</textarea>
+<fieldset class="seopts"><legend class="selab">Answers <small>(tick the correct one; leave a box empty to remove that answer)</small></legend>${[
+          0, 1, 2, 3, 4, 5
+        ]
+          .slice(0, Math.max(5, start.o.length))
+          .map(
+            i =>
+              `<div class="seopt"><input type="radio" name="seQa" id="seQa${i}" value="${i}"${i === start.a ? " checked" : ""} aria-label="Answer ${String.fromCharCode(65 + i)} is correct"><label for="seQa${i}">${String.fromCharCode(65 + i)}</label><input type="text" class="senote" id="seQo${i}" value="${escapeHTML(start.o[i] || "")}" aria-label="Answer ${String.fromCharCode(65 + i)}"></div>`
+          )
+          .join("")}</fieldset>
+<label class="selab" for="seQwhy">Explanation <small>(shown after answering)</small></label><textarea id="seQwhy" class="senote" rows="4">${escapeHTML(start.why)}</textarea>
+<label class="selab" for="seNote">Anything David should know? <small>(optional: why, or your source)</small></label>`;
+  sheet.querySelector(".sh-body").innerHTML =
+    `<div class="page sepage"><div class="kind">${escapeHTML(cur.title)}</div><h3>${mode === "flag" ? "Flag a problem with this question" : isNew ? "Suggest a new question" : "Edit this question"}</h3>
+<p class="sehelp">${mode === "flag" ? "Not sure of the fix? Say what's wrong and David will look at it." : "Your version goes to David to approve; nothing changes for anyone else until he does."}</p>${shared}
+${form}<textarea id="seNote" class="senote" rows="3">${escapeHTML((it && it.status === "pending" && it.note) || "")}</textarea>
+<p class="sestat" id="seStat" role="status"></p></div>`;
+  sheet.querySelector(".sh-foot").innerHTML =
+    `<button class="cta2" type="button" id="seCancel">Cancel</button>${it && it.status === "pending" ? `<button class="cta2" type="button" id="seWithdraw">Withdraw</button>` : ""}<button class="cta" type="button" id="seSend">${mode === "flag" ? "Send to David" : "Send suggestion"}</button>`;
+  const leave = () => seDone();
+  sheet.querySelector("#seCancel").onclick = leave;
+  sheet.querySelector("#seCancelTop").onclick = leave;
+  sheet.querySelector("#seSend").onclick = () => seQuizSend();
+  const wd = sheet.querySelector("#seWithdraw");
+  if (wd) wd.onclick = () => seWithdraw();
+}
+function seQuizRead() {
+  const v = id => (sheet.querySelector("#" + id) ? sheet.querySelector("#" + id).value.trim() : "");
+  const picked = sheet.querySelector('input[name="seQa"]:checked'),
+    raw = [...sheet.querySelectorAll('.seopt input[type="text"]')].map(x => x.value.trim()),
+    keep = raw.map((o, i) => (o ? i : -1)).filter(i => i >= 0),
+    a = picked ? keep.indexOf(+picked.value) : -1;
+  return {q: v("seQq"), o: keep.map(i => raw[i]), a, why: v("seQwhy")};
+}
+async function seQuizSend() {
+  if (SE.busy) return;
+  const E = SE.editing,
+    note = sheet.querySelector("#seNote").value.trim();
+  let afterQ = null;
+  if (E.mode === "flag") {
+    if (!note) return seSay("Say what the problem is, then send.");
+  } else {
+    afterQ = seQuizRead();
+    if (!afterQ.q) return seSay("Add the question.");
+    if (afterQ.o.length < 2) return seSay("Add at least two answers.");
+    if (afterQ.a < 0) return seSay("Tick the correct answer (it can't be an empty box).");
+    if (!afterQ.why) return seSay("Add an explanation: it's shown after someone answers.");
+    if (E.beforeQ && JSON.stringify(afterQ) === JSON.stringify(E.beforeQ) && !note)
+      return seSay("Nothing has changed yet. Edit the question, or add a note for David.");
+  }
+  SE.busy = true;
+  seSay("Sending…");
+  const item = {
+    kind: E.kind,
+    ref: E.ref,
+    title: E.title,
+    card: E.card,
+    tab: E.tab,
+    mode: E.mode,
+    beforeQ: E.beforeQ,
+    afterQ,
+    prevQ: E.prevQ,
+    note,
+    at: new Date().toISOString(),
+    status: "pending"
+  };
+  const checked = {...SE.checked};
+  delete checked[E.key];
+  const ok = await seSave({items: {...SE.items, [E.skey]: item}, checked});
+  SE.busy = false;
+  if (!ok) return;
+  seDone();
+  seToast(E.mode === "flag" ? "Sent to David. Thank you!" : "Suggestion sent to David. Thank you!");
 }
 
 // Turn the edited text back into the house layout: one block per line, only the app's own tags and classes
@@ -437,12 +594,19 @@ async function seSend(ed) {
     after,
     lines,
     note,
+    shared: E.shared || "",
     at: new Date().toISOString(),
     status: "pending"
   };
-  const checked = {...SE.checked};
+  const checked = {...SE.checked},
+    items = {...SE.items, [E.skey]: item};
   delete checked[E.key];
-  const ok = await seSave({items: {...SE.items, [E.skey]: item}, checked});
+  // one pending suggestion per shared card: this one replaces any made from another stop
+  if (E.shared)
+    Object.keys(items).forEach(k => {
+      if (k !== E.skey && items[k].shared === E.shared && items[k].status === "pending") delete items[k];
+    });
+  const ok = await seSave({items, checked});
   SE.busy = false;
   if (!ok) return;
   seDone();

@@ -153,14 +153,117 @@ def _write_file(f, before_lines, after_lines):
     return 'applied', f'{f.relative_to(ROOT)}' + ('' if kept else ' (rewritten in full)')
 
 
+def _indent(text):
+    m = re.search(r'\n( +)\S', text)
+    return len(m.group(1)) if m else 2
+
+
+def _write_json(path, data, like):
+    """Write JSON laid out as the file was (its indent), so only the changed lines show in the diff."""
+    path.write_text(json.dumps(data, indent=_indent(like), ensure_ascii=False) + '\n', encoding='utf-8')
+
+
+def _q(q):
+    return {'q': q['q'], 'o': list(q['o']), 'a': q['a'], 'why': q.get('why', '')}
+
+
+def _js_q(q):
+    """A quiz question as the stage files write it."""
+    s = lambda v: json.dumps(v, ensure_ascii=False)
+    return (
+        '{q:' + s(q['q']) + ',o:[' + ','.join(s(o) for o in q['o']) + '],a:' + str(q['a']) + ',why:' + s(q['why']) + '}'
+    )
+
+
+def apply_quiz(it):
+    """A quiz question: edit one, or add one after the stop's last question. SBA bank questions are found by id."""
+    mode, before, after = it.get('mode', 'edit'), it.get('beforeQ'), it.get('afterQ')
+    if mode == 'flag':
+        return 'manual', 'flagged for David to look at (nothing to apply)'
+    if not after or len(after.get('o', [])) < 2 or not (0 <= after.get('a', -1) < len(after['o'])):
+        return 'manual', 'the suggested question is incomplete'
+    if it['kind'] == 'sba':
+        for f in sorted(C.glob('sba/*/*.json')):
+            if f.name.startswith('_'):
+                continue
+            text = f.read_text(encoding='utf-8')
+            qs = json.loads(text)
+            for q in qs:
+                if q.get('id') == it['ref']:
+                    if _q(q) != _q(before):
+                        return 'conflict', f'SBA {it["ref"]} has changed since the suggestion was made'
+                    q.update(_q(after))
+                    _write_json(f, qs, text)
+                    return 'applied', f'{f.relative_to(ROOT)} ({it["ref"]})'
+        return 'missing', f'no SBA question {it["ref"]}'
+    kind, path, span = find_stop(it['ref'])
+    if not kind:
+        return 'missing', f"no stop with id {it['ref']}"
+    if kind == 'json':
+        f = path.parent / 'quiz.json'
+        if not f.exists():
+            return 'manual', f'{path.relative_to(ROOT)} has no quiz.json'
+        text = f.read_text(encoding='utf-8')
+        qs = json.loads(text)
+        if mode == 'new':
+            at = next((i for i, q in enumerate(qs) if it.get('prevQ') and _q(q) == _q(it['prevQ'])), len(qs) - 1)
+            qs.insert(at + 1, _q(after))
+        else:
+            at = next((i for i, q in enumerate(qs) if _q(q) == _q(before)), None)
+            if at is None:
+                return 'conflict', f'{f.relative_to(ROOT)}: the question has changed since the suggestion was made'
+            qs[at] = {**qs[at], **_q(after)}
+        _write_json(f, qs, text)
+        return 'applied', str(f.relative_to(ROOT))
+    text = path.read_text(encoding='utf-8')
+    a, z = span
+    rel = path.relative_to(ROOT)
+    if mode == 'new':
+        prev = it.get('prevQ')
+        i = text.find(_js_q(prev), a, z) if prev else -1
+        if i < 0:
+            return 'manual', f'{rel}: couldn\'t find where this stop\'s quiz ends'
+        j = i + len(_js_q(prev))
+        path.write_text(text[:j] + ',' + _js_q(after) + text[j:], encoding='utf-8')
+        return 'applied', f'{rel} (new question)'
+    old = _js_q(before)
+    i = text.find(old, a, z)
+    if i < 0:
+        return 'conflict', f'{rel}: the question has changed since the suggestion was made'
+    path.write_text(text[:i] + _js_q(after) + text[i + len(old) :], encoding='utf-8')
+    return 'applied', str(rel)
+
+
+def apply_shared(before, before_lines, after_lines):
+    """A shared card (content/data/*_CARD.json): its text is one string in the card's JSON file."""
+    for f in sorted((C / 'data').glob('*_CARD*.json')):
+        text = f.read_text(encoding='utf-8')
+        d = json.loads(text)
+        b = d.get('b') if isinstance(d, dict) else d
+        if b == before:
+            new, _ = merge(before, before_lines, after_lines)
+            if isinstance(d, dict):
+                d['b'] = new
+            else:
+                d = new
+            _write_json(f, d, text)
+            return 'applied', f'{f.relative_to(ROOT)} (shared card: changes every stop it appears on)'
+    return None
+
+
 def apply_one(it):
     """Write one suggestion. Returns (status, detail): applied, conflict, manual or missing."""
+    if it['kind'] in ('quiz', 'sba'):
+        return apply_quiz(it)
     before, after_lines = it['before'], it.get('lines') or []
     before_lines = it.get('beforeLines') or []
     # most text lives in its own file: a stop's card, a note's section, a Primary topic, a library recipe
     f = _by_text(before)
     if f:
         return _write_file(f, before_lines, after_lines)
+    shared = apply_shared(before, before_lines, after_lines)
+    if shared:
+        return shared
     if it['kind'] == 'note':
         # the same text in several files: take the one in this note's own folder
         for sj in sorted(C.glob('specialties/*/*/stop.json')):
@@ -276,9 +379,13 @@ def main():
     rows, applied = [], []
     for it in items:
         status, detail = apply_one(it)
-        if status == 'applied':
+        if status == 'applied' or it.get('mode') == 'flag':
             applied.append(it)
-        mark = {'applied': '✅', 'conflict': '⚠️', 'manual': '✋', 'missing': '❓'}[status]
+        mark = (
+            '⚑'
+            if it.get('mode') == 'flag'
+            else {'applied': '✅', 'conflict': '⚠️', 'manual': '✋', 'missing': '❓'}[status]
+        )
         print(f"{mark} {status:8} {it['who']}: {it['title']} › {it['tab']}: {detail}")
         rows.append((it, status, detail, mark))
     if args.report:
@@ -286,12 +393,17 @@ def main():
         out = [f"Suggested in the app by {', '.join(who)} (review mode).", '']
         for it, status, detail, mark in rows:
             out.append(
-                f"- {mark} **{it['title']} › {it['tab']}** · [open in app]({item_link(it['kind'], it['ref'], it['tab'])})"
+                f"- {mark} **{it['title']} › {it['tab']}** · [open in app]({item_link(*it['key'].split('|')[0].split(':', 1), it['tab'] if it['kind'] in ('stop', 'note') else '')})"
                 f" · {detail}"
             )
             if it.get('note'):
                 out.append(f"  > {it['note']}".replace('\n', '\n  > '))
-        out += ['', f'{len(applied)} of {len(rows)} applied.']
+        flags = sum(it.get('mode') == 'flag' for it in items)
+        out += [
+            '',
+            f'{len(applied) - flags} of {len(rows) - flags} applied'
+            + (f', {flags} flagged for you to look at.' if flags else '.'),
+        ]
         Path(args.report).write_text('\n'.join(out) + '\n', encoding='utf-8')
     if args.mark_pr:
         done = {(it['uid'], it['key']) for it in applied}
