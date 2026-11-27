@@ -1906,6 +1906,33 @@ button:focus-visible {
   color: var(--muted);
   font-size: 12.5px;
 }
+.obcalc {
+  border: 1.5px solid color-mix(in srgb, var(--cd) 40%, var(--line));
+  background: color-mix(in srgb, var(--cd) 5%, var(--surface));
+  border-radius: 12px;
+  padding: 10px 12px;
+  margin: 10px 0 14px;
+}
+.obcalc > summary {
+  cursor: pointer;
+  font-size: 15px;
+  color: var(--ink);
+}
+.obcalc > summary b {
+  color: var(--cd);
+}
+.obcalc .ptab {
+  margin: 8px 0;
+}
+.obcalc .pform label:last-child,
+.obcalc .pform label:last-child span,
+.obcalc .pform label:last-child select {
+  width: 100%;
+  max-width: 100%;
+}
+.obcalc .obw tbody th {
+  width: 55%;
+}
 .pform {
   display: flex;
   flex-wrap: wrap;
