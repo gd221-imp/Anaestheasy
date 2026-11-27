@@ -730,6 +730,20 @@ button:focus-visible {
 .rintro {
   margin: 4px 0 8px;
 }
+.cbox {
+  border: 1.5px solid color-mix(in srgb, var(--c) 45%, var(--line));
+  background: color-mix(in srgb, var(--c) 6%, var(--surface));
+  border-radius: 12px;
+  padding: 10px 14px;
+  margin: 10px 0 14px;
+}
+.cbox-h {
+  font-weight: 800;
+  margin: 0 0 4px;
+}
+.cbox .note {
+  margin-top: 8px;
+}
 .refs {
   font-size: 14px;
 }
