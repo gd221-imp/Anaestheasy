@@ -171,13 +171,14 @@ function openPaedDrugs() {
   } catch (e) {}
   sheet.innerHTML = `<div class="sh-head"><button class="close" aria-label="Back to path">← Path</button><div class="sh-title">Drugs</div></div><div class="sh-body"><div class="page drugs paeds">
   <div class="dtabs" role="tablist"><button role="tab" aria-selected="false" data-dtab="adult">Adult drugs</button><button role="tab" aria-selected="true" data-dtab="paeds">Paeds drugs</button></div><h3>Paediatric drug sheet</h3>
-  <p class="note dwarn">For education only. Check every dose against the BNFC, your hospital's paediatric drug chart and local protocols before giving it. Never exceed the adult dose. Neonates (up to 44 weeks post-conceptual age) and ex-premature infants often need different doses, so use neonatal guidance for them.</p>
+  <p class="note dwarn">For education only. Check every dose against the BNFC, your hospital's paediatric drug chart and local protocols before giving it. Never exceed the adult dose. Neonates (up to 44 weeks post-conceptual age) and ex-premature infants often need different doses, so use neonatal guidance for them.</p>${obBox("paeds")}
   <div class="pform">
    <label>Age<span><input id="pa" type="number" min="0" max="18" step="any" inputmode="decimal" placeholder="e.g. 4"><select id="pu"><option value="y">years</option><option value="m">months</option></select></span></label>
    <label>Weight (kg)<span><input id="pw" type="number" min="0.5" max="80" step="any" inputmode="decimal" placeholder="kg"></span></label>
   </div>
   <p class="tl-intro" id="pinfo"></p>
   <div id="pout"></div></div></div>`;
+  obWire(sheet, "paeds");
   const a = sheet.querySelector("#pa"),
     u = sheet.querySelector("#pu"),
     wi = sheet.querySelector("#pw"),

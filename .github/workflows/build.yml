@@ -36,6 +36,8 @@ jobs:
         run: node tools/smoke_test.js
       - name: Suggest edits test (edit tabs in the app, apply them to a copy, rebuild)
         run: node tools/suggest_edits_test.js
+      - name: Obese dosing test (weights and doses on the Drugs pages)
+        run: node tools/obese_dosing_test.js
       - name: Calculator tests (paeds doses, airway and fluids, fees, starting quiz)
         run: node --test tests/*.test.js
       - name: Save the built app (download from this run to preview)
