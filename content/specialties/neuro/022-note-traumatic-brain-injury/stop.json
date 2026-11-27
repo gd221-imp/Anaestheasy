@@ -15,6 +15,10 @@
     {
       "h": "Management is tiered",
       "b": "file:cards/03-management-is-tiered.html"
+    },
+    {
+      "h": "Further reading",
+      "b": "file:cards/04-further-reading.html"
     }
   ],
   "q": "file:quiz.json",
