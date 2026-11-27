@@ -716,7 +716,7 @@ ${SE_SECTIONS.map(sec => {
 }).join("")}`;
 }
 
-// The banner on the path that opens the review list
+// The banner on the path that opens a reviewer's list (none for David: he asked for no progress banner on the path)
 function seBadge() {
   if (!SE.on) return;
   let b = document.getElementById("seBar");
@@ -735,9 +735,6 @@ function seBadge() {
     const items = sec.list(),
       done = items.filter(x => seStatus(x.key).c !== "todo").length;
     b.innerHTML = `<span class="newstag">Review</span><span class="newst">Your review list · ${done} of ${items.length} done</span><span aria-hidden="true">→</span>`;
-    b.hidden = false;
-  } else if (SE.owner) {
-    b.innerHTML = `<span class="newstag">Review</span><span class="newst">Review progress</span><span aria-hidden="true">→</span>`;
     b.hidden = false;
   } else b.hidden = true;
 }
