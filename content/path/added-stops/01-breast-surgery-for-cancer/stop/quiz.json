@@ -48,15 +48,15 @@
     "why": "Superficial surgery is well covered by infiltration plus simple analgesia."
   },
   {
-    "q": "How can intraoperative fentanyl be titrated under spontaneous ventilation?",
+    "q": "Using propofol and remifentanil TCI, what must be in place before the remifentanil is stopped?",
     "o": [
-      "To respiratory rate",
-      "To pupil size",
-      "To urine output",
-      "To heart rate alone",
-      "To temperature"
+      "A longer-acting analgesic plan (infiltration or block, paracetamol, ibuprofen)",
+      "Neuromuscular reversal",
+      "A tracheal tube in place of the LMA",
+      "An arterial line",
+      "A urinary catheter"
     ],
     "a": 0,
-    "why": "A rising respiratory rate under spontaneous ventilation suggests more analgesia is needed."
+    "why": "Remifentanil wears off within minutes and leaves no analgesia behind, so infiltration, a block or simple analgesics must already be working."
   }
 ]
