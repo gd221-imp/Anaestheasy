@@ -154,8 +154,8 @@ still_todo = []
 
 for p in files('.js') + files('.json'):
     t = p.read_text(encoding='utf-8')
-    if re.search(r'intrathecal morphine|\bIT morphine', t, re.I):
-        err(p.relative_to(ROOT), 'house rule: intrathecal opioid is always diamorphine, never intrathecal morphine')
+    if re.search(r'intrathecal morphine|\bIT morphine', t, re.I) and not re.search(r'diamorphine', t, re.I):
+        err(p.relative_to(ROOT), 'house rule: intrathecal opioid is diamorphine by default; morphine only as an alternative alongside it')
     if p.suffix == '.js':
         for n, line in enumerate(t.split('\n'), 1):
             if cannula_order(line):
@@ -163,8 +163,8 @@ for p in files('.js') + files('.json'):
 for p in files('.html'):
     rel = p.relative_to(ROOT)
     t = p.read_text(encoding='utf-8')
-    if re.search(r'intrathecal morphine|\bIT morphine', t, re.I):
-        err(rel, 'house rule: intrathecal opioid is always diamorphine, never intrathecal morphine')
+    if re.search(r'intrathecal morphine|\bIT morphine', t, re.I) and not re.search(r'diamorphine', t, re.I):
+        err(rel, 'house rule: intrathecal opioid is diamorphine by default; morphine only as an alternative alongside it')
     for problem in tag_problems(t):
         err(rel, f'HTML {problem} (to show a < or > as text, write &lt; or &gt;)')
     for n, line in enumerate(t.split('\n'), 1):

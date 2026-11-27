@@ -10,7 +10,7 @@
 
 - [ ] UK practice first (RCoA, Association of Anaesthetists, DAS, OAA, NICE, RCUK, APA); differences from US texts noted
 - [ ] "Follow local guidelines" before any antibiotic recommendation
-- [ ] Intrathecal opioid is diamorphine, never intrathecal morphine
+- [ ] Intrathecal opioid: diamorphine by default; fentanyl or morphine only as alternatives alongside it
 - [ ] Complications split into Surgical and Anaesthetic, each with Immediate and Delayed
 - [ ] No more than three linked note topics per stop
 - [ ] Books summarised in our own words, not copied; inline references kept
